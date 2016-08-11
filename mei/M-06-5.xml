@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.0/schemata/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.0/schemata/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     meiversion="2013"
+     meiversion.num="2.1.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <respStmt>
+                    <persName>Lucia Marchi</persName>
+                    <persName>Laurent Pugin</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source label="GA94">
+                    <editionStmt>
+                        <edition>Venice, Angelo Gardano, 1594</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage><p>DI LVCA MARENZIO | IL SESTO LIBRO DE MADRIGALI | A CINQVE VOCI, | Nouamente posto in luce. | CON PRIVILEGIO. | [printer’s mark] | In Venetia Appresso Angelo Gardano. | M. D. LXXXXIIII.</p></titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-MOe</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>A-Wn</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>B-Br</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>F-Pn</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>GB-Lbl</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>CATQ</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Sd</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>T</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-ST</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>C</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>IRL-Dm</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>B</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>US-BEm</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>CT</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>US-CAh</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Q</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="GA03">
+                    <editionStmt>
+                        <edition>Venice, Angelo Gardano, 1603</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage><p>DI LVCA MARENZIO | IL SESTO LIBRO DE MADRIGALI | A CINQVE VOCI. | Nouamente Ristampato. | CON PRIVILEGIO. | [printer’s mark] | IN VENETIA. | Appresso Angelo Gardano. | M. D. CIII.</p></titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="GM14">
+                    <editionStmt>
+                        <edition>Venice, Gardano-Magni, 1614</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage><p>DI LVCA MARENZIO | IL SESTO LIBRO | DE MADRIGALI | A CINQVE VOCI | Nouamente ristampato. | CON PRIVILEGIO. | [printer’s mark] | STAMPA DEL GARDANO | IN VENETIA. M DC XIIII. | Ære Bartholomæi Magni.</p></titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-VEcap</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>GB-Lbl</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete + B</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <workDesc>
+            <work>
+                <titleStmt>
+                    <title>Il sesto libro di madrigali a V voci</title>
+                    <respStmt>
+                        <resp>Composed by:</resp>
+                        <persName>Luca Marenzio</persName>
+                    </respStmt>
+                </titleStmt>
+            </work>
+        </workDesc>
+    </meiHead>
+    <music>
+    </music>
+</mei>

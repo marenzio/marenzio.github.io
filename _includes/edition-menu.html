@@ -1,0 +1,26 @@
+<ul class="nav navbar-nav">
+	<li>
+		<a href="{{ site.baseurl }}/digital-edition/{{ page.book.link }}">{{ page.book.title }}</a>
+	</li>
+	{% for m in page.modals %}
+	<li>
+		<a href="#" data-toggle="modal" data-target="#{{ m.id }}">{{ m.title }}</a>
+	</li>
+	{% endfor %}
+	{% for l in page.links %}
+	<li>
+        {% if l.submenu == true %}
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ l.title }}<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            {% for ll in l.links %}
+        	<li>
+        		<a href="{{ ll.link }}">{{ ll.title }}</a>
+        	</li>
+        	{% endfor %}
+        </ul>
+        {% else %}
+		<a href="{{ l.link }}">{{ l.title }}</a>
+        {% endif %}
+	</li>
+	{% endfor %}
+</ul>

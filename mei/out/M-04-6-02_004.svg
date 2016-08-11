@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2286px" height="3048px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible">
+	<defs>
+		<symbol id="E050" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c-4 60 11 123 44 189c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82c21 0 43 -30 69 -92 s39 -115 41 -159c2 -120 -19 -173 -67 -256c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c11 -135 -80 -229 -180 -270c8 -57 17 -110 25 -162c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70 c-35 -64 -88 -99 -158 -103c-42 -3 -83 6 -124 26c-50 24 -77 59 -80 105c-2 34 5 63 20 87c18 28 45 42 79 44c51 4 99 -40 103 -87c4 -56 -30 -94 -105 -115c17 -24 51 -36 102 -36c62 0 116 43 140 85c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939 c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c43 57 63 106 60 148c-4 54 -23 82 -57 81zM406 119l54 -326c80 27 116 88 109 184c-7 99 -62 146 -163 142zM382 117c-74 -2 -132 -50 -128 -127c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10 c-70 33 -116 88 -123 172c-5 73 42 135 88 170c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-49 -75 -71 -140 -67 -195c5 -68 35 -127 93 -176s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" />
+			</g>
+		</symbol>
+		<symbol id="E260" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z" />
+			</g>
+		</symbol>
+		<symbol id="E4E5" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M107 292c-13 24 -30 49 -52 71c-1 1 0 2 0 3l-2 2c3 3 4 4 6 4c12 0 26 -7 40 -20s44 -40 89 -81c26 -24 28 -29 46 -47c4 -4 8 -9 10 -14c6 -8 8 -16 8 -27c0 -19 -12 -40 -36 -61c-28 -23 -49 -38 -61 -73c-4 -11 -7 -27 -10 -50c13 -43 34 -83 59 -121 c31 -47 59 -79 101 -129c-8 0 -26 7 -54 20l-62 29l-21 6l-23 1c-25 0 -45 -10 -60 -30l-4 -14l-1 -12c0 -33 20 -56 39 -78c8 -9 17 -18 26 -26c17 -15 27 -24 28 -30l-3 -3c-11 5 -19 10 -25 15c-9 3 -37 21 -45 26c-24 14 -45 32 -63 51c-19 21 -37 44 -37 71 c0 63 27 95 80 95c41 0 86 -18 136 -52c-19 26 -37 48 -55 66c-23 23 -48 44 -73 65c-28 23 -47 40 -58 53s-17 26 -18 39c75 64 113 125 113 183c0 27 -7 48 -18 68z" />
+			</g>
+		</symbol>
+		<symbol id="E0A4" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" />
+			</g>
+		</symbol>
+		<symbol id="E0A2" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M198 133c102 0 207 -45 207 -133c0 -92 -98 -133 -207 -133c-101 0 -198 46 -198 133c0 88 93 133 198 133zM293 -21c0 14 -3 29 -8 44c-7 20 -18 38 -33 54c-20 21 -43 31 -68 31l-20 -2c-15 -5 -27 -14 -36 -28c-4 -9 -6 -17 -8 -24s-3 -16 -3 -27c0 -15 3 -34 9 -57 s18 -41 34 -55c15 -15 36 -23 62 -23c4 0 10 1 18 2c19 5 32 15 40 30s13 34 13 55z" />
+			</g>
+		</symbol>
+		<symbol id="E052" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M382 117c-74 -2 -132 -50 -128 -127c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172c-5 73 42 135 88 170c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-49 -75 -71 -140 -67 -195c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331zM406 119l54 -326c80 27 116 88 109 184c-7 99 -62 146 -163 142zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c43 57 63 106 60 148c-4 54 -23 82 -57 81zM441 -245 c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c-4 60 11 123 44 189c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82c21 0 43 -30 69 -92s39 -115 41 -159 c2 -120 -19 -173 -67 -256c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c11 -135 -80 -229 -180 -270c8 -57 17 -110 25 -162c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-25 -46 -59 -77 -102 -92 c21 -1 85 -13 85 -60c0 -35 -22 -43 -31 -50c-6 -5 -8 -10 -8 -16s0 -11 4 -16c6 -11 9 -22 9 -34c0 -27 -18 -53 -46 -65c-11 -4 -27 -6 -41 -6c-34 0 -82 21 -90 58c-1 5 -2 8 -2 12c0 28 25 57 51 66c4 1 6 2 6 5c0 2 -1 3 -2 3c-11 13 -16 27 -16 41c0 21 11 40 30 51 h-5c-42 -3 -83 6 -124 26c-50 24 -77 59 -80 105c-2 34 5 63 20 87c18 28 45 42 79 44c51 4 99 -40 103 -87c4 -56 -30 -94 -105 -115c17 -24 51 -36 102 -36c62 0 116 43 140 85c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM315 -781c-3 -2 -6 -5 -7 -8 c-6 -8 -10 -19 -10 -30c0 -2 0 -4 1 -7c7 -32 34 -52 53 -52c20 0 37 20 37 36c0 5 -2 9 -4 14c-5 13 -14 24 -25 34c-6 5 -11 10 -17 14c-4 2 -9 6 -14 6c-6 0 -11 -3 -14 -7zM349 -685c0 -14 10 -25 18 -34c8 -8 16 -18 26 -25c5 -2 10 -4 13 -4c17 0 22 30 23 48 c0 9 -3 20 -9 26c-8 9 -23 14 -40 14c-15 -1 -29 -8 -31 -25z" />
+			</g>
+		</symbol>
+		<symbol id="E062" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M158 96c51 0 73 -14 88 -49l16 -39c0 -17 -2 -30 -7 -40c-3 -11 -10 -21 -19 -31c-17 -18 -49 -43 -84 -43c-55 0 -77 13 -112 44c-24 21 -35 55 -35 100c0 46 14 81 32 112c30 52 71 79 137 93l36 6l26 2c154 0 235 -68 274 -182c11 -32 18 -68 18 -107 c0 -103 -26 -182 -68 -250c-89 -145 -234 -230 -412 -288l-30 -5c-9 0 -14 3 -14 8c3 10 5 11 10 16c35 15 70 30 96 44l78 43c96 57 162 136 197 258c9 33 17 60 22 100c3 22 5 35 6 39c-7 69 -16 115 -23 140s-4 22 -16 40c-8 12 -19 23 -31 34c-24 21 -62 44 -118 44 c-48 0 -84 -8 -113 -28c-28 -19 -42 -44 -42 -73v-16c2 -5 3 -9 4 -11c24 22 52 39 84 39zM585 -118c0 32 23 58 57 58c18 0 33 -6 40 -18c9 -15 16 -18 16 -40c0 -9 -2 -16 -5 -21c-6 -19 -27 -37 -51 -37c-34 0 -57 26 -57 58zM642 177c31 0 56 -27 56 -58 c0 -30 -25 -58 -56 -58l-23 3c-19 7 -34 32 -34 55l3 23c9 20 28 35 54 35z" />
+			</g>
+		</symbol>
+		<symbol id="E241" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M253 493c16 -37 23 -74 23 -111c0 -45 -12 -89 -35 -132c-20 -37 -49 -74 -87 -109c-48 -46 -104 -100 -154 -139v176c40 7 69 13 87 18c88 27 168 95 168 200c0 58 -24 118 -49 152c-5 7 -12 16 -15 26c0 3 2 5 5 5s7 -2 13 -7c19 -23 28 -43 44 -79z" />
+			</g>
+		</symbol>
+		<symbol id="E240" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M206 -548c24 34 49 94 49 152c0 105 -80 173 -168 200c-18 5 -47 11 -87 18v176c16 -13 34 -28 53 -45c4 -3 38 -35 101 -94c62 -58 122 -137 122 -241c0 -37 -8 -74 -23 -111c-14 -35 -22 -53 -44 -79c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10c1 3 5 9 11 16z" />
+			</g>
+		</symbol>
+		<symbol id="E0A3" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M96 -132zM200 138l41 -5c-2 0 -41 5 -41 5zM278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z " />
+			</g>
+		</symbol>
+		<symbol id="E003" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M0 -0c49 0 97.5 -2.26367 135.5 4.73633c206 95 258.5 264.264 263.5 271.264c0 1 -14 7 -15 6c-88 -154 -251 -167 -321 -170c-1 0 -63 -1 -63 -1v-111z" />
+			</g>
+		</symbol>
+		<symbol id="E004" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M0 0c49 0 97.5 2.26367 135.5 -4.73633c206 -95 258.5 -264.264 263.5 -271.264c0 -1 -14 -7 -15 -6c-88 154 -251 167 -321 170c-1 0 -63 1 -63 1v111z" />
+			</g>
+		</symbol>
+		<symbol id="E883" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M161 326c52 0 94 -17 94 -68c0 -50 -40 -76 -82 -94c26 -21 39 -42 39 -64c0 -52 -56 -100 -118 -100h-12c-40 0 -82 23 -82 56c0 30 12 49 37 49c17 0 31 -16 34 -31c0 -5 -4 -12 -11 -21c-7 -5 -13 -10 -13 -21l11 -9l17 -4c21 0 40 12 56 37c13 21 19 45 19 70 c-9 30 -28 35 -66 35l6 23c34 0 60 4 77 13c20 11 30 35 30 70c0 28 -12 38 -39 40l-20 -3c-8 -3 -12 -9 -12 -16c2 -7 4 -11 5 -14l4 -11l3 -10l-3 -12c-5 -6 -11 -11 -20 -13c-18 -4 -36 10 -36 27c0 39 43 71 82 71z" />
+			</g>
+		</symbol>
+		<symbol id="E881" viewBox="0 0 1000 1000" overflow="inherit">
+			<g transform="scale(1,-1)">
+				<path d="M207 311l-85 -275c-4 -6 7 -11 13 -13l18 -2h11l-6 -21h-158l6 21h15c7 0 14 2 21 5c9 1 16 8 20 20l55 176l-71 -56l-10 10l109 135h62z" />
+			</g>
+		</symbol>
+	</defs>
+	<style type="text/css">
+@font-face {
+    font-family: 'VerovioText';
+    src: url(data:application/x-font-woff;charset=utf-8;base64,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
+) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+	<svg id="definition-scale" viewBox="0 0 22860 30480">
+		<g class="page-margin" transform="translate(800, 800)">
+			<g class="system" id="system-000000076275152" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+				<g class="measure" id="measure-000000062188463" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<g class="staff" id="staff-000000172059905" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M289 2240 L5035 2240" style="stroke-width: 30;" />
+						<path d="M289 2420 L5035 2420" style="stroke-width: 30;" />
+						<path d="M289 2600 L5035 2600" style="stroke-width: 30;" />
+						<path d="M289 2780 L5035 2780" style="stroke-width: 30;" />
+						<path d="M289 2960 L5035 2960" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000009354369" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="clef" id="clef-000000163395265" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E050" x="379" y="2780" height="720px" width="720px" />
+							</g>
+							<g class="keySig" id="ksig-000000194621809" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E260" x="1060" y="2600" height="720px" width="720px" />
+							</g>
+							<g class="mRest" id="mrest-000000016610790" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="2912" y="2420" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000004673420" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M289 4400 L5035 4400" style="stroke-width: 30;" />
+						<path d="M289 4580 L5035 4580" style="stroke-width: 30;" />
+						<path d="M289 4760 L5035 4760" style="stroke-width: 30;" />
+						<path d="M289 4940 L5035 4940" style="stroke-width: 30;" />
+						<path d="M289 5120 L5035 5120" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000163016824" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="clef" id="clef-000000000235096" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E050" x="379" y="4940" height="720px" width="720px" />
+							</g>
+							<g class="keySig" id="ksig-000000101581650" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E260" x="1060" y="4760" height="720px" width="720px" />
+							</g>
+							<g class="rest" id="p1r0v1b31s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="1545" y="4670" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+							<g class="rest" id="p1r512v1b31s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="3257" y="4760" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1ccd5n768v1b31s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="3971" y="4670" height="720px" width="720px" />
+								<rect x="3971" y="4692" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000087122174" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000108037977" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6199" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000019252062" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="3904" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="4628" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000158372157" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M289 6560 L5035 6560" style="stroke-width: 30;" />
+						<path d="M289 6740 L5035 6740" style="stroke-width: 30;" />
+						<path d="M289 6920 L5035 6920" style="stroke-width: 30;" />
+						<path d="M289 7100 L5035 7100" style="stroke-width: 30;" />
+						<path d="M289 7280 L5035 7280" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000169613968" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="clef" id="clef-000000013479373" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E050" x="379" y="7100" height="720px" width="720px" />
+							</g>
+							<g class="keySig" id="ksig-000000032656667" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E260" x="1060" y="6920" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1ccd5n0v1b31s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="1523" y="6830" height="720px" width="720px" />
+								<g class="app" id="app-000000199246214" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000159879695" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6229" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000117111443" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="1493" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">rin</tspan>
+												</text>
+												<rect x="2913" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="4113" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000123271790" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M289 8720 L5035 8720" style="stroke-width: 30;" />
+						<path d="M289 8900 L5035 8900" style="stroke-width: 30;" />
+						<path d="M289 9080 L5035 9080" style="stroke-width: 30;" />
+						<path d="M289 9260 L5035 9260" style="stroke-width: 30;" />
+						<path d="M289 9440 L5035 9440" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000151506991" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="clef" id="clef-000000089060385" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E052" x="379" y="9260" height="720px" width="720px" />
+							</g>
+							<g class="keySig" id="ksig-000000144380907" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E260" x="1060" y="9080" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cad5n0v1b31s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="1523" y="8540" height="720px" width="720px" />
+								<path d="M1511 8540 L1835 8540" style="stroke-width: 30;" />
+								<g class="app" id="app-000000063135566" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000047802905" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6259" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000149122499" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="1493" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">rin</tspan>
+												</text>
+												<rect x="2913" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="4113" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000188434728" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M289 10880 L5035 10880" style="stroke-width: 30;" />
+						<path d="M289 11060 L5035 11060" style="stroke-width: 30;" />
+						<path d="M289 11240 L5035 11240" style="stroke-width: 30;" />
+						<path d="M289 11420 L5035 11420" style="stroke-width: 30;" />
+						<path d="M289 11600 L5035 11600" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000128342626" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="clef" id="clef-000000069988463" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E052" x="379" y="11420" height="720px" width="720px" />
+							</g>
+							<g class="keySig" id="ksig-000000079336289" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E260" x="1060" y="11240" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cfd4n0v1b31s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="1523" y="10880" height="720px" width="720px" />
+								<g class="app" id="app-000000102841509" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000162407699" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6289" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000149572249" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="1493" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">rin</tspan>
+												</text>
+												<rect x="2913" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="4113" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000016431764" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M289 13040 L5035 13040" style="stroke-width: 30;" />
+						<path d="M289 13220 L5035 13220" style="stroke-width: 30;" />
+						<path d="M289 13400 L5035 13400" style="stroke-width: 30;" />
+						<path d="M289 13580 L5035 13580" style="stroke-width: 30;" />
+						<path d="M289 13760 L5035 13760" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000002273989" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="clef" id="clef-000000134699483" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E062" x="379" y="13220" height="720px" width="720px" />
+							</g>
+							<g class="keySig" id="ksig-000000050716942" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E260" x="1060" y="13580" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cfd3n0v1b31s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="1560" y="13220" height="720px" width="720px" />
+								<rect x="1560" y="13242" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000200263781" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000082254046" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6320" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000147623829" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="1493" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">rin</tspan>
+												</text>
+												<rect x="1964" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd3n256v1b31s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="2275" y="13220" height="720px" width="720px" />
+								<rect x="2275" y="13242" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000150737371" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000056544434" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6344" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000126894634" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="2208" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">go</tspan>
+													<tspan font-family="VerovioText" font-size="405px"></tspan>
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="3078" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cad3n512v1b31s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="3257" y="13040" height="720px" width="720px" />
+								<rect x="3257" y="13062" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="3595" cy="12950" rx="36" ry="36" />
+								<g class="app" id="app-000000190754208" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000027649014" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6368" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000053305076" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="3190" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="3812" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cbd3n896v1b31s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="4437" y="12950" height="720px" width="720px" />
+								<rect x="4437" y="12972" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="4437" y="13580" height="720px" width="720px" />
+								<g class="app" id="app-000000201527114" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000054998630" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6392" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000173013574" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="4370" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="4884" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barline" id="bline-000000109205187" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5020 2225 L5020 2975" style="stroke-width: 30;" />
+						<path d="M5020 4385 L5020 5135" style="stroke-width: 30;" />
+						<path d="M5020 6545 L5020 7295" style="stroke-width: 30;" />
+						<path d="M5020 8705 L5020 9455" style="stroke-width: 30;" />
+						<path d="M5020 10865 L5020 11615" style="stroke-width: 30;" />
+						<path d="M5020 13025 L5020 13775" style="stroke-width: 30;" />
+					</g>
+				</g>
+				<g class="measure" id="measure-000000146280180" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<g class="staff" id="staff-000000117651841" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5035 2240 L9387 2240" style="stroke-width: 30;" />
+						<path d="M5035 2420 L9387 2420" style="stroke-width: 30;" />
+						<path d="M5035 2600 L9387 2600" style="stroke-width: 30;" />
+						<path d="M5035 2780 L9387 2780" style="stroke-width: 30;" />
+						<path d="M5035 2960 L9387 2960" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000186304616" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="rest" id="p1r0v1b32s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="5372" y="2600" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1ccd5n256v1b32s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="6352" y="2510" height="720px" width="720px" />
+								<rect x="6352" y="2532" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000041087116" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000135174505" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6428" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000002249201" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="6285" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="6774" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1ced5n512v1b32s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="7283" y="2330" height="720px" width="720px" />
+								<rect x="7283" y="2352" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="7621" cy="2330" rx="36" ry="36" />
+								<g class="app" id="app-000000109386278" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000209180917" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6452" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000020848063" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="7216" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="8003" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd5n896v1b32s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="8793" y="2240" height="720px" width="720px" />
+								<rect x="8793" y="2262" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="8793" y="2870" height="720px" width="720px" />
+								<g class="app" id="app-000000015554571" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000076918318" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6476" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000178631092" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="8726" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="9246" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000070636502" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5035 4400 L9387 4400" style="stroke-width: 30;" />
+						<path d="M5035 4580 L9387 4580" style="stroke-width: 30;" />
+						<path d="M5035 4760 L9387 4760" style="stroke-width: 30;" />
+						<path d="M5035 4940 L9387 4940" style="stroke-width: 30;" />
+						<path d="M5035 5120 L9387 5120" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000058744178" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1ced5n0v1b32s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="5372" y="4490" height="720px" width="720px" />
+								<rect x="5372" y="4512" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="5710" cy="4490" rx="36" ry="36" />
+								<g class="app" id="app-000000158261187" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000022526415" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6506" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000149602163" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="5305" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="6060" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd5n384v1b32s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="6817" y="4400" height="720px" width="720px" />
+								<rect x="6817" y="4422" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="6817" y="5030" height="720px" width="720px" />
+								<g class="app" id="app-000000087697719" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000117539658" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6530" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000154373046" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="6750" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="7030" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd5n512v1b32s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="7283" y="4310" height="720px" width="720px" />
+								<rect x="7283" y="4332" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000183678895" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000083454106" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6554" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000031579474" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="7216" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="7981" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd5n768v1b32s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="8328" y="4310" height="720px" width="720px" />
+								<rect x="8328" y="4332" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000056808503" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000009282145" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6578" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000189607867" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="8261" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te,</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000088452012" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5035 6560 L9387 6560" style="stroke-width: 30;" />
+						<path d="M5035 6740 L9387 6740" style="stroke-width: 30;" />
+						<path d="M5035 6920 L9387 6920" style="stroke-width: 30;" />
+						<path d="M5035 7100 L9387 7100" style="stroke-width: 30;" />
+						<path d="M5035 7280 L9387 7280" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000124785230" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1ccd4n0v1b32s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="5372" y="7460" height="720px" width="720px" />
+								<rect x="5578" y="6830" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<path d="M5323 7460 L5647 7460" style="stroke-width: 30;" />
+								<g class="app" id="app-000000156110291" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000164901062" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6608" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000124423315" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="5305" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">go</tspan>
+													<tspan font-family="VerovioText" font-size="405px"></tspan>
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="6175" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1ced4n256v1b32s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="6352" y="7280" height="720px" width="720px" />
+								<rect x="6558" y="6650" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="6690" cy="7190" rx="36" ry="36" />
+								<g class="app" id="app-000000087224107" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000103235629" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6632" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000161385934" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="6285" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="7015" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd4n640v1b32s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="7748" y="7190" height="720px" width="720px" />
+								<rect x="7954" y="6650" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E240" x="7954" y="6560" height="720px" width="720px" />
+								<g class="app" id="app-000000075678067" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000181457996" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6656" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000159327918" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="7681" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="8018" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd4n768v1b32s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="8328" y="7100" height="720px" width="720px" />
+								<rect x="8534" y="6470" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="tie" id="tie-000000003404210" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<path d="M8441,7244 C8793,7544 9497,7544 9852,7244 C9497,7484 8793,7484 8441,7244" style="fill:#000; fill-opacity:1.0; stroke:#000000; stroke-linecap:round; stroke-linejoin:round; stroke-opacity:1.0; stroke-width: 10" />
+								</g>
+								<g class="app" id="app-000000089248932" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000204222739" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6680" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000203974747" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="8261" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="10053" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="11253" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="12453" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000175432165" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5035 8720 L9387 8720" style="stroke-width: 30;" />
+						<path d="M5035 8900 L9387 8900" style="stroke-width: 30;" />
+						<path d="M5035 9080 L9387 9080" style="stroke-width: 30;" />
+						<path d="M5035 9260 L9387 9260" style="stroke-width: 30;" />
+						<path d="M5035 9440 L9387 9440" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000208098188" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cgd5n0v1b32s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A3" x="5372" y="8630" height="720px" width="720px" />
+								<rect x="5372" y="8652" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000044810086" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000000613844" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6710" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000159131556" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="5305" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">go</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="rest" id="p1r512v1b32s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="7283" y="9080" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1ccd5n768v1b32s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="8328" y="8990" height="720px" width="720px" />
+								<rect x="8328" y="9012" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000096677784" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000077403494" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6736" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000018181924" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="8261" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="8990" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000211423745" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5035 10880 L9387 10880" style="stroke-width: 30;" />
+						<path d="M5035 11060 L9387 11060" style="stroke-width: 30;" />
+						<path d="M5035 11240 L9387 11240" style="stroke-width: 30;" />
+						<path d="M5035 11420 L9387 11420" style="stroke-width: 30;" />
+						<path d="M5035 11600 L9387 11600" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000172444930" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1ced4n0v1b32s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="5335" y="10970" height="720px" width="720px" />
+								<g class="app" id="app-000000158043503" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000014635308" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6766" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000120834104" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="5305" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">go</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000198264451" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M5035 13040 L9387 13040" style="stroke-width: 30;" />
+						<path d="M5035 13220 L9387 13220" style="stroke-width: 30;" />
+						<path d="M5035 13400 L9387 13400" style="stroke-width: 30;" />
+						<path d="M5035 13580 L9387 13580" style="stroke-width: 30;" />
+						<path d="M5035 13760 L9387 13760" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000195002952" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1ccd4n0v1b32s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="5335" y="12860" height="720px" width="720px" />
+								<path d="M5323 12860 L5647 12860" style="stroke-width: 30;" />
+								<g class="app" id="app-000000113269583" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000192386864" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6797" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000023569173" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="5305" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="6531" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="7731" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="8931" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barline" id="bline-000000085142262" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9372 2225 L9372 2975" style="stroke-width: 30;" />
+						<path d="M9372 4385 L9372 5135" style="stroke-width: 30;" />
+						<path d="M9372 6545 L9372 7295" style="stroke-width: 30;" />
+						<path d="M9372 8705 L9372 9455" style="stroke-width: 30;" />
+						<path d="M9372 10865 L9372 11615" style="stroke-width: 30;" />
+						<path d="M9372 13025 L9372 13775" style="stroke-width: 30;" />
+					</g>
+				</g>
+				<g class="measure" id="measure-000000131112827" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<g class="staff" id="staff-000000000872702" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9388 2240 L13490 2240" style="stroke-width: 30;" />
+						<path d="M9388 2420 L13490 2420" style="stroke-width: 30;" />
+						<path d="M9388 2600 L13490 2600" style="stroke-width: 30;" />
+						<path d="M9388 2780 L13490 2780" style="stroke-width: 30;" />
+						<path d="M9388 2960 L13490 2960" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000064617075" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cgd5n0v1b33s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="9739" y="2150" height="720px" width="720px" />
+								<rect x="9739" y="2172" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000169994557" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000086280572" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6830" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000086046529" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="9672" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="10378" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd5n256v1b33s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="10666" y="2150" height="720px" width="720px" />
+								<rect x="10666" y="2172" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000145654590" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000100098360" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6854" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000022805680" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="10599" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te,</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="rest" id="p1r512v1b33s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="11579" y="2510" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000122226090" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9388 4400 L13490 4400" style="stroke-width: 30;" />
+						<path d="M9388 4580 L13490 4580" style="stroke-width: 30;" />
+						<path d="M9388 4760 L13490 4760" style="stroke-width: 30;" />
+						<path d="M9388 4940 L13490 4940" style="stroke-width: 30;" />
+						<path d="M9388 5120 L13490 5120" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000185798039" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="rest" id="p1r0v1b33s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="9724" y="4670" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+							<g class="rest" id="p1r512v1b33s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="11594" y="4760" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cgd4n768v1b33s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="12435" y="4940" height="720px" width="720px" />
+								<rect x="12641" y="4310" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000145460601" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000060942304" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6890" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000025704883" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="12368" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="13087" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000163013892" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9388 6560 L13490 6560" style="stroke-width: 30;" />
+						<path d="M9388 6740 L13490 6740" style="stroke-width: 30;" />
+						<path d="M9388 6920 L13490 6920" style="stroke-width: 30;" />
+						<path d="M9388 7100 L13490 7100" style="stroke-width: 30;" />
+						<path d="M9388 7280 L13490 7280" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000014847682" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="beam" id="beam-000000134189556" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<g class="note" id="p1cgd4n0v1b33s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<use xlink:href="#E0A4" x="9739" y="7100" height="720px" width="720px" />
+								</g>
+								<g class="note" id="p1cfd4n128v1b33s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<use xlink:href="#E0A4" x="10203" y="7190" height="720px" width="720px" />
+								</g>
+								<g class="note" id="p1ced4n256v1b33s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<use xlink:href="#E0A4" x="10666" y="7280" height="720px" width="720px" />
+								</g>
+								<g class="note" id="p1cdd4n384v1b33s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<use xlink:href="#E0A4" x="11130" y="7370" height="720px" width="720px" />
+								</g>
+								<path d="M9955 7078 L9955 6490" style="stroke-width: 20;" />
+								<path d="M10419 7168 L10419 6537" style="stroke-width: 20;" />
+								<path d="M10882 7258 L10882 6583" style="stroke-width: 20;" />
+								<path d="M11346 7348 L11346 6630" style="stroke-width: 20;" />
+								<polygon style="fill-rule:nonzero;" stroke-width="0" points="9945,6470 11356,6610 11356,6700 9945,6560 " />
+							</g>
+							<g class="note" id="p1ccd4n512v1b33s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A3" x="11594" y="7460" height="720px" width="720px" />
+								<rect x="11800" y="6830" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<path d="M11545 7460 L11869 7460" style="stroke-width: 30;" />
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000010667211" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9388 8720 L13490 8720" style="stroke-width: 30;" />
+						<path d="M9388 8900 L13490 8900" style="stroke-width: 30;" />
+						<path d="M9388 9080 L13490 9080" style="stroke-width: 30;" />
+						<path d="M9388 9260 L13490 9260" style="stroke-width: 30;" />
+						<path d="M9388 9440 L13490 9440" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000183684159" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1ced5n0v1b33s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="9739" y="8810" height="720px" width="720px" />
+								<rect x="9739" y="8832" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="10077" cy="8810" rx="36" ry="36" />
+								<g class="app" id="app-000000150324518" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000204425140" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6939" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000132472531" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="9672" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="10400" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd5n384v1b33s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="11130" y="8720" height="720px" width="720px" />
+								<rect x="11130" y="8742" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="11130" y="9350" height="720px" width="720px" />
+								<g class="app" id="app-000000206995294" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000046406521" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6963" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000200850471" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="11063" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="11342" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd5n512v1b33s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="11594" y="8630" height="720px" width="720px" />
+								<rect x="11594" y="8652" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000017358938" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000123401787" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e6987" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000201470041" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="11527" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="12193" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd5n768v1b33s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="12435" y="8630" height="720px" width="720px" />
+								<rect x="12435" y="8652" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000133851514" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000153277246" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7011" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000081225418" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="12368" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te,</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000000254331" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9388 10880 L13490 10880" style="stroke-width: 30;" />
+						<path d="M9388 11060 L13490 11060" style="stroke-width: 30;" />
+						<path d="M9388 11240 L13490 11240" style="stroke-width: 30;" />
+						<path d="M9388 11420 L13490 11420" style="stroke-width: 30;" />
+						<path d="M9388 11600 L13490 11600" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000194332271" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="rest" id="p1r0v1b33s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="9739" y="11240" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1ccd4n256v1b33s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="10666" y="11150" height="720px" width="720px" />
+								<rect x="10666" y="11172" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000094314511" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000086314929" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7043" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000106568159" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="10599" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="11087" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1ced4n512v1b33s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="11594" y="10970" height="720px" width="720px" />
+								<rect x="11594" y="10992" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="11932" cy="10970" rx="36" ry="36" />
+								<g class="app" id="app-000000085326535" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000208244323" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7067" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000098830014" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="11527" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="12211" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd4n896v1b33s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="12898" y="10880" height="720px" width="720px" />
+								<rect x="12898" y="10902" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="12898" y="11510" height="720px" width="720px" />
+								<g class="app" id="app-000000178626594" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000209790343" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7091" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000197603239" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="12831" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="13342" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000034191233" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M9388 13040 L13490 13040" style="stroke-width: 30;" />
+						<path d="M9388 13220 L13490 13220" style="stroke-width: 30;" />
+						<path d="M9388 13400 L13490 13400" style="stroke-width: 30;" />
+						<path d="M9388 13580 L13490 13580" style="stroke-width: 30;" />
+						<path d="M9388 13760 L13490 13760" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000200179139" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1ccd3n0v1b33s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="9702" y="13490" height="720px" width="720px" />
+								<g class="app" id="app-000000154490845" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000005159369" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7122" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000083944136" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="9672" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te,</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barline" id="bline-000000191634250" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13475 2225 L13475 2975" style="stroke-width: 30;" />
+						<path d="M13475 4385 L13475 5135" style="stroke-width: 30;" />
+						<path d="M13475 6545 L13475 7295" style="stroke-width: 30;" />
+						<path d="M13475 8705 L13475 9455" style="stroke-width: 30;" />
+						<path d="M13475 10865 L13475 11615" style="stroke-width: 30;" />
+						<path d="M13475 13025 L13475 13775" style="stroke-width: 30;" />
+					</g>
+				</g>
+				<g class="measure" id="measure-000000167096121" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<g class="staff" id="staff-000000114529090" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13489 2240 L17591 2240" style="stroke-width: 30;" />
+						<path d="M13489 2420 L17591 2420" style="stroke-width: 30;" />
+						<path d="M13489 2600 L17591 2600" style="stroke-width: 30;" />
+						<path d="M13489 2780 L17591 2780" style="stroke-width: 30;" />
+						<path d="M13489 2960 L17591 2960" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000100824504" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="rest" id="p1r0v1b34s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="13811" y="2510" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+							<g class="rest" id="p1r512v1b34s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="15600" y="2600" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cdd5n768v1b34s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="16531" y="2420" height="720px" width="720px" />
+								<rect x="16531" y="2442" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000170064701" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000191445595" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7159" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000147462379" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="16464" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px" font-style="italic">al</tspan>
+												</text>
+												<rect x="17186" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000204090341" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13489 4400 L17591 4400" style="stroke-width: 30;" />
+						<path d="M13489 4580 L17591 4580" style="stroke-width: 30;" />
+						<path d="M13489 4760 L17591 4760" style="stroke-width: 30;" />
+						<path d="M13489 4940 L17591 4940" style="stroke-width: 30;" />
+						<path d="M13489 5120 L17591 5120" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000185485240" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cbd4n0v1b34s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="13826" y="4760" height="720px" width="720px" />
+								<rect x="13826" y="4782" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="14164" cy="4670" rx="36" ry="36" />
+								<g class="app" id="app-000000132170726" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000036309105" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7189" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000170815117" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="13759" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="14446" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1ccd5n384v1b34s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="15135" y="4670" height="720px" width="720px" />
+								<rect x="15135" y="4692" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="15135" y="5300" height="720px" width="720px" />
+								<g class="app" id="app-000000023745780" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000092876293" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7213" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000112005518" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="15068" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="15347" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cdd5n512v1b34s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A3" x="15600" y="4580" height="720px" width="720px" />
+								<rect x="15600" y="4602" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000079480366" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000091682928" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7237" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000128009705" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="15533" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="16940" y="5681" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000110002773" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13489 6560 L17591 6560" style="stroke-width: 30;" />
+						<path d="M13489 6740 L17591 6740" style="stroke-width: 30;" />
+						<path d="M13489 6920 L17591 6920" style="stroke-width: 30;" />
+						<path d="M13489 7100 L17591 7100" style="stroke-width: 30;" />
+						<path d="M13489 7280 L17591 7280" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000047949235" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cdd4n0v1b34s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="13789" y="7370" height="720px" width="720px" />
+								<g class="app" id="app-000000131383831" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000125366813" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7267" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000173203986" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="13759" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000125312554" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13489 8720 L17591 8720" style="stroke-width: 30;" />
+						<path d="M13489 8900 L17591 8900" style="stroke-width: 30;" />
+						<path d="M13489 9080 L17591 9080" style="stroke-width: 30;" />
+						<path d="M13489 9260 L17591 9260" style="stroke-width: 30;" />
+						<path d="M13489 9440 L17591 9440" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000090897591" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cgd4n0v1b34s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="13826" y="9260" height="720px" width="720px" />
+								<rect x="14032" y="8630" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000078489413" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000187118387" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7297" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000111942358" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="13759" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="14205" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cbd4n256v1b34s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="14670" y="9080" height="720px" width="720px" />
+								<rect x="14670" y="9102" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="15008" cy="8990" rx="36" ry="36" />
+								<g class="app" id="app-000000106887012" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000079939968" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7321" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000087454946" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="14603" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="15333" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1ccd5n640v1b34s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="16066" y="8990" height="720px" width="720px" />
+								<rect x="16066" y="9012" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="16066" y="9620" height="720px" width="720px" />
+								<g class="app" id="app-000000211487154" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000164413128" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7345" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000082206984" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="15999" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="16278" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cdd5n768v1b34s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="16531" y="8900" height="720px" width="720px" />
+								<rect x="16531" y="8922" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000181982045" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000126021938" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7369" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000046163527" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="16464" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="17405" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000199316757" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13489 10880 L17591 10880" style="stroke-width: 30;" />
+						<path d="M13489 11060 L17591 11060" style="stroke-width: 30;" />
+						<path d="M13489 11240 L17591 11240" style="stroke-width: 30;" />
+						<path d="M13489 11420 L17591 11420" style="stroke-width: 30;" />
+						<path d="M13489 11600 L17591 11600" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000057002347" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cgd4n0v1b34s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="13826" y="10790" height="720px" width="720px" />
+								<rect x="13826" y="10812" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000047092491" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000135777359" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7399" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000132506825" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="13759" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="14425" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd4n256v1b34s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="14670" y="10790" height="720px" width="720px" />
+								<rect x="14670" y="10812" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000199195458" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000165808659" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7423" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000156762598" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="14603" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="rest" id="p1r512v1b34s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="15585" y="11150" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000150893432" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M13489 13040 L17591 13040" style="stroke-width: 30;" />
+						<path d="M13489 13220 L17591 13220" style="stroke-width: 30;" />
+						<path d="M13489 13400 L17591 13400" style="stroke-width: 30;" />
+						<path d="M13489 13580 L17591 13580" style="stroke-width: 30;" />
+						<path d="M13489 13760 L17591 13760" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000102484646" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="rest" id="p1r0v1b34s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="13826" y="13400" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cgd3n256v1b34s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="14670" y="13130" height="720px" width="720px" />
+								<rect x="14670" y="13152" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000178709462" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000099309224" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7458" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000144255582" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="14603" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">al</tspan>
+												</text>
+												<rect x="15092" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cbd3n512v1b34s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="15600" y="12950" height="720px" width="720px" />
+								<rect x="15600" y="12972" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="15938" cy="12950" rx="36" ry="36" />
+								<g class="app" id="app-000000190729567" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000043006137" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7482" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000063648053" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="15533" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+												<rect x="16263" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1ccd4n896v1b34s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="16996" y="12860" height="720px" width="720px" />
+								<rect x="16996" y="12882" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="16996" y="13490" height="720px" width="720px" />
+								<path d="M16947 12860 L17271 12860" style="stroke-width: 30;" />
+								<g class="app" id="app-000000063614963" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000159335429" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7506" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000092264150" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="16929" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">ra</tspan>
+												</text>
+												<rect x="17442" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barline" id="bline-000000055383705" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17576 2225 L17576 2975" style="stroke-width: 30;" />
+						<path d="M17576 4385 L17576 5135" style="stroke-width: 30;" />
+						<path d="M17576 6545 L17576 7295" style="stroke-width: 30;" />
+						<path d="M17576 8705 L17576 9455" style="stroke-width: 30;" />
+						<path d="M17576 10865 L17576 11615" style="stroke-width: 30;" />
+						<path d="M17576 13025 L17576 13775" style="stroke-width: 30;" />
+					</g>
+				</g>
+				<g class="measure" id="measure-000000200382638" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<g class="staff" id="staff-000000044643796" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17591 2240 L21260 2240" style="stroke-width: 30;" />
+						<path d="M17591 2420 L21260 2420" style="stroke-width: 30;" />
+						<path d="M17591 2600 L21260 2600" style="stroke-width: 30;" />
+						<path d="M17591 2780 L21260 2780" style="stroke-width: 30;" />
+						<path d="M17591 2960 L21260 2960" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000212249878" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cfd5n0v1b35s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="17928" y="2240" height="720px" width="720px" />
+								<rect x="17928" y="2262" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<ellipse cx="18266" cy="2150" rx="36" ry="36" />
+								<g class="app" id="app-000000116583931" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000062053836" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7539" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000156122316" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="17861" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px" font-style="italic">te</tspan>
+												</text>
+												<rect x="18483" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cgd5n384v1b35s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="19107" y="2150" height="720px" width="720px" />
+								<rect x="19107" y="2172" width="20" height="518" rx="0" style="stroke-width: 0;" />
+								<use xlink:href="#E241" x="19107" y="2780" height="720px" width="720px" />
+								<g class="app" id="app-000000011491456" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000078121126" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7563" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000028711958" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="19040" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px" font-style="italic">ra</tspan>
+												</text>
+												<rect x="19320" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cad5n512v1b35s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="19573" y="2060" height="720px" width="720px" />
+								<rect x="19573" y="2082" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<path d="M19524 2060 L19848 2060" style="stroke-width: 30;" />
+								<g class="app" id="app-000000143803013" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000119153241" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7587" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000051206200" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="19506" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px" font-style="italic">men</tspan>
+												</text>
+												<rect x="20172" y="3521" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cad5n768v1b35s1" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="20417" y="2060" height="720px" width="720px" />
+								<rect x="20417" y="2082" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<path d="M20368 2060 L20692 2060" style="stroke-width: 30;" />
+								<g class="app" id="app-000000187296220" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000106049851" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7611" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000026575152" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="20350" y="3611" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px" font-style="italic">te</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000186731133" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17591 4400 L21260 4400" style="stroke-width: 30;" />
+						<path d="M17591 4580 L21260 4580" style="stroke-width: 30;" />
+						<path d="M17591 4760 L21260 4760" style="stroke-width: 30;" />
+						<path d="M17591 4940 L21260 4940" style="stroke-width: 30;" />
+						<path d="M17591 5120 L21260 5120" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000057557328" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cdd5n0v1b35s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A3" x="17928" y="4580" height="720px" width="720px" />
+								<rect x="17928" y="4602" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000146297768" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000172574452" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7641" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000013097528" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="17861" y="5771" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="rest" id="p1r512v1b35s2" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<rect x="19558" y="4670" width="256" height="90" rx="0" style="stroke-width: 0;" />
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000164104186" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17591 6560 L21260 6560" style="stroke-width: 30;" />
+						<path d="M17591 6740 L21260 6740" style="stroke-width: 30;" />
+						<path d="M17591 6920 L21260 6920" style="stroke-width: 30;" />
+						<path d="M17591 7100 L21260 7100" style="stroke-width: 30;" />
+						<path d="M17591 7280 L21260 7280" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000085811302" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="rest" id="p1r0v1b35s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E4E5" x="17928" y="6920" height="720px" width="720px" />
+							</g>
+							<g class="note" id="p1cad4n256v1b35s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="18642" y="7010" height="720px" width="720px" />
+								<rect x="18848" y="6380" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000177860925" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000011341615" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7675" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000149154262" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="18575" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">Fer</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cad4n512v1b35s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="19573" y="7010" height="720px" width="720px" />
+								<rect x="19779" y="6380" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000061761823" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000152112565" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7699" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000144456100" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="19506" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">pria</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cad4n768v1b35s3" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="20417" y="7010" height="720px" width="720px" />
+								<rect x="20623" y="6380" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000037042747" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000021946286" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7723" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000180745601" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="20350" y="7931" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">di</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000175700686" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17591 8720 L21260 8720" style="stroke-width: 30;" />
+						<path d="M17591 8900 L21260 8900" style="stroke-width: 30;" />
+						<path d="M17591 9080 L21260 9080" style="stroke-width: 30;" />
+						<path d="M17591 9260 L21260 9260" style="stroke-width: 30;" />
+						<path d="M17591 9440 L21260 9440" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000211430103" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cdd4n0v1b35s4" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="17891" y="9530" height="720px" width="720px" />
+								<g class="app" id="app-000000055245429" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000152758050" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7753" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000180028042" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="17861" y="10260" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">te</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000141600039" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17591 10880 L21260 10880" style="stroke-width: 30;" />
+						<path d="M17591 11060 L21260 11060" style="stroke-width: 30;" />
+						<path d="M17591 11240 L21260 11240" style="stroke-width: 30;" />
+						<path d="M17591 11420 L21260 11420" style="stroke-width: 30;" />
+						<path d="M17591 11600 L21260 11600" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000030481229" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cfd4n0v1b35s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A3" x="17928" y="10880" height="720px" width="720px" />
+								<rect x="17928" y="10902" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000127658433" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000004378436" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7783" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000000258108" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="17861" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">Fer</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd4n512v1b35s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="19573" y="10880" height="720px" width="720px" />
+								<rect x="19573" y="10902" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000203760534" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000011129789" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7807" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000098664313" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="19506" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">pria</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g class="note" id="p1cfd4n768v1b35s5" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A4" x="20417" y="10880" height="720px" width="720px" />
+								<rect x="20417" y="10902" width="20" height="608" rx="0" style="stroke-width: 0;" />
+								<g class="app" id="app-000000012702953" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000038656559" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7831" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000202708205" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="20350" y="12420" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">di</tspan>
+												</text>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="staff" id="staff-000000148750557" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M17591 13040 L21260 13040" style="stroke-width: 30;" />
+						<path d="M17591 13220 L21260 13220" style="stroke-width: 30;" />
+						<path d="M17591 13400 L21260 13400" style="stroke-width: 30;" />
+						<path d="M17591 13580 L21260 13580" style="stroke-width: 30;" />
+						<path d="M17591 13760 L21260 13760" style="stroke-width: 30;" />
+						<g class="layer" id="layer-000000164898026" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+							<g class="note" id="p1cdd4n0v1b35s6" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+								<use xlink:href="#E0A2" x="17891" y="12770" height="720px" width="720px" />
+								<path d="M17879 12860 L18203 12860" style="stroke-width: 30;" />
+								<g class="app" id="app-000000197002768" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+									<g class="lem" id="lem-000000035243234" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+										<g class="verse" id="d2e7862" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+											<g class="syl" id="syl-000000141210026" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+												<text x="17861" y="14210" dx="0" dy="0" font-size="0px">
+													<tspan font-family="Garamond" font-size="405px">men</tspan>
+												</text>
+												<rect x="19106" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+												<rect x="20306" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g class="barline" id="bline-000000113311902" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+						<path d="M21245 2225 L21245 2975" style="stroke-width: 30;" />
+						<path d="M21245 4385 L21245 5135" style="stroke-width: 30;" />
+						<path d="M21245 6545 L21245 7295" style="stroke-width: 30;" />
+						<path d="M21245 8705 L21245 9455" style="stroke-width: 30;" />
+						<path d="M21245 10865 L21245 11615" style="stroke-width: 30;" />
+						<path d="M21245 13025 L21245 13775" style="stroke-width: 30;" />
+					</g>
+				</g>
+				<path d="M289 2225 L289 13775" style="stroke-width: 30;" />
+				<use xlink:href="#E003" x="109" y="2225" height="720px" width="720px" />
+				<use xlink:href="#E004" x="109" y="13775" height="720px" width="720px" />
+				<rect x="109" y="2205" width="90" height="11590" rx="0" style="stroke-width: 0;" />
+				<text x="19" y="2690" dx="0" dy="0" text-anchor="end" font-size="0px">
+					<tspan font-family="Garamond" font-size="405px">C</tspan>
+				</text>
+				<text x="19" y="4850" dx="0" dy="0" text-anchor="end" font-size="0px">
+					<tspan font-family="Garamond" font-size="405px">Q</tspan>
+				</text>
+				<text x="19" y="7010" dx="0" dy="0" text-anchor="end" font-size="0px">
+					<tspan font-family="Garamond" font-size="405px">A</tspan>
+				</text>
+				<text x="19" y="9170" dx="0" dy="0" text-anchor="end" font-size="0px">
+					<tspan font-family="Garamond" font-size="405px">T</tspan>
+				</text>
+				<text x="19" y="11330" dx="0" dy="0" text-anchor="end" font-size="0px">
+					<tspan font-family="Garamond" font-size="405px">S</tspan>
+				</text>
+				<text x="19" y="13490" dx="0" dy="0" text-anchor="end" font-size="0px">
+					<tspan font-family="Garamond" font-size="405px">B</tspan>
+				</text>
+				<use xlink:href="#E883" x="289" y="1520" height="720px" width="720px" />
+				<use xlink:href="#E881" x="472" y="1520" height="720px" width="720px" />
+				<g class="syl spanning-connector" id="" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<rect x="1283" y="7841" width="120" height="30" rx="0" style="stroke-width: 0;" />
+				</g>
+				<g class="syl spanning-connector" id="" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<rect x="1283" y="10170" width="120" height="30" rx="0" style="stroke-width: 0;" />
+				</g>
+				<g class="syl spanning-connector" id="" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<rect x="1283" y="12330" width="120" height="30" rx="0" style="stroke-width: 0;" />
+				</g>
+				<g class="syl spanning-connector" id="" style="stroke: #000000; stroke-opacity: 1.000000; fill: #000000; fill-opacity: 1.000000;">
+					<rect x="1283" y="14120" width="120" height="30" rx="0" style="stroke-width: 0;" />
+				</g>
+			</g>
+		</g>
+	</svg>
+</svg>

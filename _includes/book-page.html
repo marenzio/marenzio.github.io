@@ -1,0 +1,53 @@
+<div class="row">
+	<div class="col-md-3" id="sidebar" role="navigation">
+		<div class="panel panel-default">
+			<div class="list-group">
+				{% for t in page.texts %}
+				<a id="link-{{ t.id }}" class="list-group-item" href="{{ site.baseurl }}/digital-edition/{{ page.book }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="list-group sublist-group">
+				{% for m in page.madrigals %}
+				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.baseurl }}/digital-edition/{{ m.id }}">{{ m.name }}</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-9">	
+		<div class="panel-body">
+    		<h2 class="book-heading">
+    		    {{ page.header }}
+    		</h2>
+		</div>
+		<div class="panel-body" id="text">
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+	
+	function getParameterByName(name) {
+	    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+	    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+	}
+
+	$( document ).ready(function() {
+		
+		var id = getParameterByName("id");
+		if (!id) {
+			id = "{{ page.texts[0].id }}";
+		}
+		var file = "{{ site.baseurl }}/texts/{{ page.book }}-" + id + ".html";	
+		// load the file	
+		$( "#text" ).load( file, function() {		  
+		});
+		// activate the link menu
+		$( "#link-" + id ).addClass( "active" );
+				
+	});
+//]]>
+</script>

@@ -1,0 +1,32 @@
+<!-- Fixed navbar -->
+<div id="navbar" class="navbar navbar-inverse navbar-with-sidebar" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!--a class="navbar-brand logo-nav" href="{{ site.baseurl }}/index.xhtml"-->
+        <a class="navbar-brand logo-nav" href="http://www.marenzio.org">
+            MODE
+        </a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+        	{% for group in site.groups %}
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ group.name }}</a>
+                <ul class="dropdown-menu" role="menu">
+                    {% for book in group.books %}
+                    <li>
+                        <a href="{{ site.baseurl }}/digital-edition/{{ book.id }}">{{ book.name }}</a>
+                    </li>
+                	{% endfor %}
+                </ul>
+            </li>
+        	{% endfor %}
+        </ul>
+    </div><!--/.nav-collapse -->
+</div>
+
