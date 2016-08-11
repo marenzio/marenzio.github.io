@@ -1,0 +1,1111 @@
+<html lang="en" xml:lang="en" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+
+        <title>Marenzio Online Digital Edition</title>
+<link rel="icon" type="image/x-icon" href="/favicon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Latest compiled and minified CSS -->
+
+<!-- V1 http://getbootstrap.com/customize/?id=ec152d93f1499e757402 -->
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" /><!-- Optional theme -->
+<link rel="stylesheet" href="/css/bootstrap-theme.min.css" type="text/css" />
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/marenzio.css" />
+		
+	</head>
+	<body>
+        
+          
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="/javascript/jquery.min.js" type="text/javascript" ></script>
+		<script src="/javascript/jquery.touchSwipe.min.js" type="text/javascript" ></script>
+		<script src="/javascript/bootstrap.min.js" type="text/javascript" ></script>
+		
+		<script src="/javascript/verovio-toolkit.js" type="text/javascript" ></script>
+        <script type="text/javascript" src="/javascript/d3.min.js"></script>
+        <script type="text/javascript" src="/javascript/jquery.scrollTo.js"></script>
+        <script type="text/javascript" src="/javascript/jquery.cookie.js"></script>
+        
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/javascript/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
+        
+        <script type="text/javascript">
+        //<![CDATA[
+        	var vrvToolkit = new verovio.toolkit();
+        	var page = 1;
+        	var zoom = 40;
+        	var pageHeight = 2970;
+        	var pageWidth = 2100;
+        	var swipe_pages = false;
+        	var log = false;
+            var app_xpath = "";
+            var vertical_layout = false;
+            var show_inline_app = false;
+            var highlighted = "";
+            var clicked_ids = "";
+
+            // reload cookies
+            if ( $.cookie('zoom') ) zoom = $.cookie('zoom');
+            if ( $.cookie('vertical_layout') ) vertical_layout = ($.cookie('vertical_layout') == "true");
+    
+            function set_options( ) {
+                if (vertical_layout) {
+                    pageHeight = 60000;
+                }
+                else {
+                    pageHeight = ($(window).height() - $( "#navbar" ).height() - 4) * 100 / zoom ;
+                }
+                pageWidth = ( $("#page-content-wrapper").width() ) * 100 / zoom ;
+        		border = 50;
+        		options = JSON.stringify({
+        					inputFormat: 'mei',
+        					pageHeight: pageHeight,
+        					pageWidth: pageWidth,
+        					border: border,
+        					scale: zoom,
+                            rdgXPathQuery: app_xpath,
+                            adjustPageHeight: 1,
+        					ignoreLayout: 1
+        				});
+                // console.log( options );
+        		vrvToolkit.setOptions( options );
+            }
+            
+            function load_file() {
+                file = "/mei/M-01-5/M_01_5_07_Che_fa_oggi_il_mio_sole.xml";
+                $.ajax({
+                    url: file
+                    , dataType: "text"
+                    , success: function(data) {
+                        load_data(data);
+                    }
+                });
+            }
+	
+        	function load_data(data) {
+                highlighted = "";
+                clicked_ids = "";
+        		set_options();
+        		vrvToolkit.loadData(data);
+
+        		$("#total_text").html(vrvToolkit.getPageCount());
+        		page = 1;
+        		load_page();
+        	}
+            
+            function load_page_with_element( xmlIds ){
+
+                $( ".modal").modal('hide');
+                
+                highlighted = xmlIds;
+                var ids = xmlIds.split(" ");
+                
+        		var elementPage = vrvToolkit.getPageWithElement( ids[0] );
+                if (elementPage == 0) {
+                    //console.log( "ID not found" );
+                    return;
+                }
+                page = elementPage;
+                load_page();
+                
+                // scroll
+                var a = d3.select( "#" + ids[0] );
+                if (!a.empty()) {
+    			    var y = (a[0][0].getBBox().y) * zoom / 1000; // 100 * 10 because of the def factor in SVG
+                    $('body').scrollTo( parseInt( y - 50 ), 300, { axis:'y' } );
+                }
+
+            }
+            
+            function show_highlighted() {
+                if (highlighted == "") {
+                    return;
+                }
+                var ids = highlighted.split(" ");
+                var i;
+                for (i = 0; i < ids.length; i++) {
+                    d3.selectAll( "#" + ids[i] + " *" ).style("fill", "#e25402").style("stroke", "#e25402");
+                }
+            }
+
+        	function load_page() {
+        		$("#jump_text").val(page);
+
+                $( ".popover" ).popover('hide');
+
+        		svg = vrvToolkit.renderPage(page, "");
+        		$("#svg_output").html(svg);
+        
+                if (show_inline_app) {
+                    highlight_inline_app();
+                    highlight_inline_app_text();
+                }
+                
+        		adjust_page_height();
+                show_highlighted();
+                
+                d3.select("#svg_output").select("svg").selectAll(".verse").on("mousedown", stack_id );
+                
+        	};
+            
+            function highlight_inline_app() {
+                d3.selectAll('.app-inline div').each( function(selection) {
+                    var s = d3.select(this);
+                    //console.log(s.text() ); 
+                    if (!s.empty()) {
+                        var element = d3.select("#" + s.attr("class"));
+                        if (!element.empty()) {
+                            element.attr("class", "highlight")
+                                .attr('data-content', s.html() )
+                                .style("fill", "#e25402").style("stroke", "#e25402");
+                        }
+                    }    
+                });
+                $('.highlight').popover({
+                   'trigger':'hover manual'
+                   ,'container': 'body'
+                   ,'placement': 'auto'
+                   ,'white-space': 'nowrap'
+                   ,'html':'true'
+                });
+                $( ".highlight" ).popover('show');
+            }
+            
+            // unused
+            function highlight_inline_app_text() {
+                d3.selectAll('.app-inline-text div').each( function(selection) {
+                    var s = d3.select(this);
+                    //console.log(s.text() ); 
+                    if (!s.empty()) {
+                        var element = d3.select("#" + s.attr("class"));
+                        if (!element.empty()) {
+                            // Highligt the bounding boxes
+                            var elementBB = element[0][0].getBBox();
+                            element.append("rect")
+                            	  .attr("x", elementBB.x - 5).attr("y", elementBB.y - 5)
+                                  .attr("width", elementBB.width + 10).attr("height", elementBB.height + 10)
+                                  .attr("fill", "e25402").attr("fill-opacity", 0.1)
+                                  .attr("stroke", "e25402").attr("stroke-width", 2);
+                            element.attr("class", "highlight")
+                                .attr('data-content', s.html() ) 
+                                .style("fill", "#e25402").style("stroke", "#e25402");
+                        }
+                    }    
+                });
+                $('.highlight').popover({
+                   'trigger':'hover'
+                   ,'container': 'body'
+                   ,'placement': 'auto'
+                   ,'white-space': 'nowrap'
+                   ,'html':'true'
+                });
+            }
+
+        	function next_page() {
+        		if (page >= vrvToolkit.getPageCount()) {
+        			return;
+        		}
+
+        		page = page + 1;
+        		load_page();
+        	};
+
+        	function prev_page() {
+        		if (page <= 1) {
+        			return;
+        		}
+
+        		page = page - 1;
+        		load_page();
+        	};
+
+        	function first_page() {
+        		page = 1;
+        		load_page();
+        	};
+	
+        	function last_page() {
+        		page = vrvToolkit.getPageCount();
+        		load_page();
+        	};
+
+        	function apply_zoom() {
+                $.cookie('zoom', zoom, { expires: 30 });
+        		set_options();
+        		vrvToolkit.redoLayout();
+
+        		$("#total_text").html(vrvToolkit.getPageCount());
+        		page = 1;
+        		load_page();
+        	}
+
+        	function zoom_out() {
+        		if (zoom < 20) {
+        			return;
+        		}
+
+        		zoom = zoom / 2;
+        		apply_zoom();
+        	}
+
+        	function zoom_in() {
+        		if (zoom > 80) {
+        			return;
+        		}
+
+        		zoom = zoom * 2;
+        		apply_zoom();
+        	}
+
+        	function do_page_enter(e) {
+        		key = e.keyCode || e.which;
+        		if (key == 13) {
+
+        			text = $("#jump_text").val();
+
+        			if (text <= vrvToolkit.getPageCount() && text > 0) {
+        				page = Number(text);
+        				load_page();
+        			} else {
+        				$("#jump_text").val(page);
+        			}
+
+        		}
+        	}
+
+        	function do_zoom_enter(e) {
+        		key = e.keyCode || e.which;
+        		if (key == 13) {
+        			text = $("#zoom_text").val();
+        			zoom_val = Number(text.replace("%", ""));
+        			if (zoom_val < 10) zoom_val = 10;
+        			else if (zoom_val > 160) zoom_val = 160;	
+        			zoom = zoom_val;
+        			apply_zoom();
+        		}
+        	}
+	
+        	function adjust_page_height() {
+        		// adjust the height of the panel
+        		if ( $('#svg_panel svg') ) {
+                    zoomed_height = pageHeight * zoom / 100;
+                    if ( vertical_layout || (zoomed_height < $('#svg_panel svg').height()) ) {
+                        zoomed_height = $('#svg_panel svg').height();
+                    }
+        			$('#svg_output').height( zoomed_height ); // slighly more for making sure we have no scroll bar	
+                }
+		
+        		// also update the zoom control
+        		$("#zoom_text").val(zoom + "%");
+		
+        		// enable the swipe (or not)
+        		enable_swipe( ( $('#svg_panel svg') && ( $('#svg_panel svg').width() <= $('#svg_panel').width() ) ) );
+        	}
+	 
+        	function swipe_prev(event, direction, distance, duration, fingerCount) {
+        	  	prev_page();
+        	 }
+
+        	 function swipe_next(event, direction, distance, duration, fingerCount) {
+        		 next_page();
+        	 }
+
+        	 function swipe_zoom_in(event, target) {
+        		 //zoom_in();
+        	 }
+	
+        	 function swipe_zoom_out(event, target) {
+        		 //zoom_out();
+        	 }
+	
+        	function enable_swipe( pages ) {
+        		if ( pages && !swipe_pages ) {
+        			$("#svg_output").swipe( "destroy" );
+        			$("#svg_output").swipe( { swipeLeft: swipe_next, swipeRight: swipe_prev, tap: swipe_zoom_in, doubleTap: swipe_zoom_out, allowPageScroll:"auto"} );
+        			swipe_pages = true;
+        		}
+        		// zoom only
+        		else if ( !pages && swipe_pages ) {
+        			$("#svg_output").swipe( "destroy" );
+        			$("#svg_output").swipe( { tap: swipe_zoom_in, doubleTap: swipe_zoom_out, allowPageScroll:"auto"} );
+        			swipe_pages = false;		
+        		}
+        	}
+            
+            function stack_id(  ) {
+                var element = d3.select(this);
+                clicked_ids += " " + ( element.attr("id") );
+                console.log( clicked_ids );
+            };
+            
+            function switch_app( xpath ) {
+                app_xpath = xpath;
+                //console.log( app_xpath );
+                // For now we cannot have original clefs in alternate versions
+                if (xpath.length > 0) {
+                     $('input[type=radio][name=clefs][value=clefs_modernized]').prop('checked', true).parent().addClass("active");
+                     $('input[type=radio][name=clefs][value=clefs_original]').prop('checked', false).parent().removeClass("active");
+                 }
+                load_file();
+            }
+
+        //]]>
+        </script>
+
+		
+        <div id="wrapper">
+            
+            <!-- sidebar -->
+            <div id="sidebar-wrapper">
+                
+
+                <!-- top navbar -->
+                <div class="sidebar-close"> 
+                	<div class="navbar-header">
+                        <img src="/images/close-1.png" class="pull-left sidebar-close sidebar-close-btn" data-toggle="offcanvas"></img>
+                    </div>
+                </div>
+                
+                <div class="navbar-collapse sidebar-close">
+                    <ul class="nav navbar-nav">
+	<li>
+		<a href="/digital-edition/M-01-5.xhtml">Book I for five voices</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#sources">Sources</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#app">Critical apparatus</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#text">Text</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#comments">Comments</a>
+	</li>
+	
+	
+	<li>
+        
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Versions <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            
+        	<li>
+        		<a href="javascript:switch_app('')">Italian (original)</a>
+        	</li>
+        	
+        	<li>
+        		<a href="javascript:switch_app('./rdg[contains(@source, \'English\')]')">English contrafactum</a>
+        	</li>
+        	
+        </ul>
+        
+	</li>
+	
+	<li>
+        
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">PDFs <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            
+        	<li>
+        		<a href="http://marenzio.cdrs.columbia.edu/wp-content/uploads/sites/3/2014/08/M_01_5_07_Che_fa_oggi_il_mio_sole_IT.pdf">Italian (original)</a>
+        	</li>
+        	
+        	<li>
+        		<a href="http://marenzio.cdrs.columbia.edu/wp-content/uploads/sites/3/2014/09/M_01_5_07_Che_fa_oggi_il_mio_sole_EN.pdf">English contrafactum</a>
+        	</li>
+        	
+        </ul>
+        
+	</li>
+	
+</ul>
+
+                </div>
+                
+            	<div class="sidebar-panel">
+            		<div class="row">
+            			<div class="col-xs-9">
+            				<h4>Navigation</h4>
+                        </div>
+            		</div>
+            		<div class="row sidebar-row">
+            			<div class="col-xs-12">
+            				<button class="btn btn-default btn-sm pull-left popover-btn" type="button" data-container="body" data-toggle="popover" data-placement="right" data-content="On mobile devices, you can swipe left or right to change page and tap or double tap to zoom-in or zoom-out. On desktops, you can use [ctrl+] left or right arrows and +/- keys.">
+            					<span class="glyphicon glyphicon-question-sign"/>
+            				</button>
+            			</div>
+            		</div>
+            		<div class="row sidebar-row">
+            			<div class="col-md-12">
+            				<p>
+            					Page [1-<span id="total_text">1</span>]:
+            				</p>
+            				<div class="col-xs-1 input-group input-group-sm">
+            					<span class="input-group-btn">
+            						<button onclick="first_page()" class="btn btn-default" type="button">
+            							<span class="glyphicon glyphicon-fast-backward"/>
+            						</button>
+            						<button onclick="prev_page()" class="btn btn-default" type="button">
+            							<span class="glyphicon glyphicon-backward"/>
+            						</button>
+            					</span>
+            					<input type="text" class="form-control" placeholder="0" id="jump_text" style="width: 45px !important;" onkeypress="do_page_enter(event)"/>
+            					<span class="input-group-btn">
+            						<button onclick="next_page()" class="btn btn-default" type="button">
+            							<span class="glyphicon glyphicon-forward"/>
+            						</button>
+            						<button onclick="last_page()" class="btn btn-default" type="button">
+            							<span class="glyphicon glyphicon-fast-forward"/>
+            						</button>
+            					</span>
+            				</div>
+            				<!-- /input-group -->
+            			</div>
+            			<!-- /.col-lg-6 -->
+            		</div>
+            		<div class="row sidebar-row">
+            			<div class="col-md-6">
+            				<p>
+            					Zoom:
+            				</p>
+            				<div class="col-xs-2 input-group input-group-sm">
+            					<span class="input-group-btn">
+            						<button onclick="zoom_out()" class="btn btn-default" type="button">
+            							<span class="glyphicon glyphicon-zoom-out"/>
+            						</button>
+            					</span>
+            					<input type="text" class="form-control" style="width:60px !important;" placeholder="100%" id="zoom_text" onkeypress="do_zoom_enter(event)"/>
+            					<span class="input-group-btn">
+            						<button onclick="zoom_in()" class="btn btn-default" type="button">
+            							<span class="glyphicon glyphicon-zoom-in"/>
+            						</button>
+            					</span>
+            				</div>
+            				<!-- /input-group -->
+            			</div>
+            			<!-- /.col-md-6 -->
+            		</div>
+            		<div class="row sidebar-row">
+                		<div class="col-xs-12">
+            				<p>
+            					Page layout:
+            				</p>
+                            <div class="btn-group btn-group-justified" data-toggle="buttons">
+                                <label class="btn btn-default btn-sm">
+                                    <input type="radio" name="layout" value="layout_horizontal"/>Horizontal
+                                    <span class="glyphicon glyphicon-resize-horizontal"/>
+                                </label>
+                                <label class="btn btn-default btn-sm">
+                                    <input type="radio" name="layout" value="layout_vertical"/>Vertical
+                                    <span class="glyphicon glyphicon-resize-vertical"/>
+                                </label>
+                            </div>
+            			</div>
+            			<!-- /.col-md-6 -->
+            		</div>
+                    
+                </div>
+                
+            	<div class="sidebar-panel">
+            		<div class="row">
+            			<div class="col-xs-12">
+            				<h4>Options</h4>
+            			</div>
+            		</div>
+            		<div class="row">
+                        <div class="col-xs-12">
+                            <div class="btn-group btn-group-justified" data-toggle="buttons">
+                                <label class="btn btn-default active btn-sm">
+                                    <input type="radio" name="clefs" value="clefs_modernized" checked="true"/>Modern clefs
+                                </label>
+                                <label class="btn btn-default btn-sm">
+                                    <input type="radio" name="clefs" value="clefs_original"/>Original clefs
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+            		<div class="row sidebar-option-row">
+                        <div class="col-xs-12">
+                            <div class="btn-group btn-group-justified" data-toggle="buttons">
+                                  <label class="btn btn-default btn-sm">
+                                      <input type="checkbox" name="inline_apps" checked="false"/>Show critical notes in the score
+                                  </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+    
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+    
+                <!-- top navbar -->
+                <div id="navbar" class="navbar navbar-inverse navbar-with-sidebar">
+                    <button type="button" class="navbar-toggle sidebar-toggle" data-toggle="offcanvas">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span> 
+                    </button>
+                    <!--a class="navbar-brand logo-nav" href="/index.html"-->
+                    <a class="navbar-brand logo-nav" href="http://www.marenzio.org">
+                        <!--img src="/images/verovio-fadded-50.png" /-->
+                        MODE
+                    </a>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+	<li>
+		<a href="/digital-edition/M-01-5.xhtml">Book I for five voices</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#sources">Sources</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#app">Critical apparatus</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#text">Text</a>
+	</li>
+	
+	<li>
+		<a href="#" data-toggle="modal" data-target="#comments">Comments</a>
+	</li>
+	
+	
+	<li>
+        
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Versions <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            
+        	<li>
+        		<a href="javascript:switch_app('')">Italian (original)</a>
+        	</li>
+        	
+        	<li>
+        		<a href="javascript:switch_app('./rdg[contains(@source, \'English\')]')">English contrafactum</a>
+        	</li>
+        	
+        </ul>
+        
+	</li>
+	
+	<li>
+        
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">PDFs <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            
+        	<li>
+        		<a href="http://marenzio.cdrs.columbia.edu/wp-content/uploads/sites/3/2014/08/M_01_5_07_Che_fa_oggi_il_mio_sole_IT.pdf">Italian (original)</a>
+        	</li>
+        	
+        	<li>
+        		<a href="http://marenzio.cdrs.columbia.edu/wp-content/uploads/sites/3/2014/09/M_01_5_07_Che_fa_oggi_il_mio_sole_EN.pdf">English contrafactum</a>
+        	</li>
+        	
+        </ul>
+        
+	</li>
+	
+</ul>
+
+                    </div>
+                </div>
+
+                <div id="svg_panel" style="background-color: #fff;">
+                	<div id="svg_output" class="hasSVG" style="overflow:hidden;" />
+                </div>
+    
+                <!-- Modal -->
+				
+		            <div class="modal" id="sources" tabindex="-1" role="dialog">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Sources
+                </h4>
+            </div>
+            <div class="modal-body">
+                <h5 class="marenzio-modal">Gar1580</h5>
+<div class="marenzio-modal">
+   <p><strong>Angelo Gardano, Venezia 1580</strong></p>
+   <ul>
+      <li>I-Bc<em> — Complete</em></li>
+      <li>P-Kj<em> — TB</em></li>
+      <li>GB-Lwa<em> — Complete</em></li>
+      <li>D-Mbs<em> — Complete</em></li>
+      <li>I-Nf<em> — [unavailable]</em></li>
+      <li>I-Rsc<em> — AQ incomplete</em></li>
+      <li>I-Vnm<em> — B</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente composti, &amp; dati
+         in luce. Angelo Gardano, Venezia 1580.</strong></p>
+</div>
+<h5 class="marenzio-modal">Gar1580</h5>
+<div class="marenzio-modal">
+   <p><strong>Angelo Gardano, Venezia 1582</strong></p>
+   <ul>
+      <li>I-Bc<em> — Complete</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente con ogni diligentia
+         ristampati. Angelo Gardano, Venezia 1582.</strong></p>
+</div>
+<h5 class="marenzio-modal">VinAm1586</h5>
+<div class="marenzio-modal">
+   <p><strong>Ricciardo Amadino compagni, Venezia 1586</strong></p>
+   <ul>
+      <li>I-Bc<em> — Complete</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente con ogni diligentia
+         ristampati. Giacomo Vincenzi &amp; Ricciardo Amadino compagni, Venezia 1586.</strong></p>
+</div>
+<h5 class="marenzio-modal">Gar1587</h5>
+<div class="marenzio-modal">
+   <p><strong>Angelo Gardano, Venezia 1587</strong></p>
+   <ul>
+      <li>A-Wn<em> — Complete</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente con ogni diligentia
+         ristampati. Angelo Gardano, Venezia 1587.</strong></p>
+</div>
+<h5 class="marenzio-modal">Vin1588</h5>
+<div class="marenzio-modal">
+   <p><strong>Giacomo Vincenzi, Venezia 1588</strong></p>
+   <ul>
+      <li>I-Bc<em> — Q</em></li>
+      <li>US-BEm<em> — T</em></li>
+      <li>I-PS<em> — CAB; TQ incomplete</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente con ogni diligentia
+         ristampati. Giacomo Vincenzi, Venezia 1588.</strong></p>
+</div>
+<h5 class="marenzio-modal">PhaBel1593</h5>
+<div class="marenzio-modal">
+   <p><strong>Pierre Phalèse and Jean Bellère, Antwerp 1593</strong></p>
+   <ul></ul>
+   <p><strong>Madrigali a cinque voci ridotti in un corpo. Pierre Phalèse and Jean Bellère, Antwerp
+         1593.</strong></p>
+</div>
+<h5 class="marenzio-modal">Sco1600</h5>
+<div class="marenzio-modal">
+   <p><strong>Erede di Girolamo Scotto, Venezia 1600</strong></p>
+   <ul>
+      <li>GB-Lbl<em> — BQ</em></li>
+      <li>I-Vnm<em> — A</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente ristampati.
+         Erede di Girolamo Scotto, Venezia 1600</strong></p>
+</div>
+<h5 class="marenzio-modal">Kau1601</h5>
+<div class="marenzio-modal">
+   <p><strong>Paul Kauffmann, Nuremberg 1601</strong></p>
+   <ul></ul>
+   <p><strong>Lucae Marentii, musicii celeberrimi, madrigalia quinque vocum, anteà Venetiis, diversis
+         temporibus, novem separatis edita libris, jam verò, commodioris usus caussâ, uno volumine
+         conjunctim excusa [sic]. Paul Kauffmann, Nuremberg 1601.</strong></p>
+</div>
+<h5 class="marenzio-modal">Gar1602</h5>
+<div class="marenzio-modal">
+   <p><strong>Angelo Gardano, Venezia 1602</strong></p>
+   <ul>
+      <li>I-Bc<em> — Complete</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente con ogni diligentia
+         ristampati. Angelo Gardano, Venezia 1602.</strong></p>
+</div>
+<h5 class="marenzio-modal">Sco1608</h5>
+<div class="marenzio-modal">
+   <p><strong>Erede di Girolamo Scotto, Venezia 1608</strong></p>
+   <ul>
+      <li>I-PAmc<em> — CATB</em></li>
+   </ul>
+   <p><strong>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente ristampati.
+         Erede di Girolamo Scotto, Venezia 1608.</strong></p>
+</div>
+<h5 class="marenzio-modal">Ra1608</h5>
+<div class="marenzio-modal">
+   <p><strong>Alessandro Raveri, Venezia 1608</strong></p>
+   <ul></ul>
+   <p><strong>Il primo libro de madrigali a cinque voci di Luca Marenzio novamente con ogni diligenza
+         ristampati. Alessandro Raveri, Venezia 1608.</strong></p>
+</div>
+<h5 class="marenzio-modal">Pha1609</h5>
+<div class="marenzio-modal">
+   <p><strong>Pierre Phalèse, Antwerp 1609</strong></p>
+   <ul></ul>
+   <p><strong>Il primo, secondo, terzo, quarto &amp; quinto libro de madrigali a cinque voci. Pierre
+         Phalèse, Antwerp 1609 (does not contain “O tu che fra le selve occulta vivi”).</strong></p>
+</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+				
+		            <div class="modal" id="app" tabindex="-1" role="dialog">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Critical apparatus
+                </h4>
+            </div>
+            <div class="modal-body">
+                <h5 class="marenzio-modal">Music</h5>
+<table class="table">
+   <thead>
+      <tr>
+         <th>Sources</th>
+         <th>Comment</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><a href="javascript:load_page_with_element('p1cdd5n256v1b4s3');">Vin1588</a></td>
+         <td>Sm f3 instead of d3</td>
+      </tr>
+      <tr>
+         <td><a href="javascript:load_page_with_element('p1cad4n512v1b21s4');">Gar1602</a></td>
+         <td>M a2 instead of dotted M</td>
+      </tr>
+      <tr>
+         <td><a href="javascript:load_page_with_element('p1ccd5n256v1b31s3');">Sco1600 (I-Vn), Sco1608</a></td>
+         <td>No sharp before c3</td>
+      </tr>
+   </tbody>
+</table>
+<div class="app-inline">
+   <div class="p1cdd5n256v1b4s3">Vin1588 – Sm f3 instead of d3</div>
+   <div class="p1cad4n512v1b21s4">Gar1602 – M a2 instead of dotted M</div>
+   <div class="p1ccd5n256v1b31s3">Sco1600 (I-Vn), Sco1608 – No sharp before c3</div>
+</div>
+<h5 class="marenzio-modal">Text</h5>
+<table class="table">
+   <thead>
+      <tr>
+         <th>Lines</th>
+         <th>Sources – Voices</th>
+         <th>Variants</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td style="vertical-align:middle">1</td>
+         <td>
+            <p><a href="javascript:load_page_with_element('d2e617 d2e668 d2e698 d2e734 d2e743 d2e754 d2e785 d2e820 d2e872 d2e883 d2e892 d2e930 d2e939 d2e948 d2e959 d2e1007 d2e1045 d2e1113 d2e1122 d2e1170 d2e1233 d2e1285 d2e1347 d2e1356 d2e1365 d2e1395 d2e1406 d2e1496 d2e1571 d2e1584 d2e1670 d2e1713 d2e1772 d2e1881 d2e1890');">Vin1588 (I-PS) – CA</a></p>
+         </td>
+         <td style="vertical-align:middle">fa hoggs</td>
+      </tr>
+      <tr>
+         <td style="vertical-align:middle">1</td>
+         <td>
+            <p><a href="javascript:load_page_with_element('d2e617 d2e668 d2e683 d2e698 d2e734 d2e743 d2e754 d2e771 d2e785 d2e820 d2e837 d2e846 d2e855 d2e872 d2e883 d2e892 d2e930 d2e939 d2e948 d2e959 d2e976 d2e1007 d2e1045 d2e1087 d2e1113 d2e1122 d2e1137 d2e1146 d2e1155 d2e1170 d2e1185 d2e1196 d2e1233 d2e1250 d2e1259 d2e1270 d2e1285 d2e1300 d2e1311 d2e1347 d2e1356 d2e1365 d2e1380 d2e1395 d2e1406 d2e1421 d2e1430 d2e1439 d2e1496 d2e1527 d2e1536 d2e1545 d2e1556 d2e1571 d2e1584 d2e1599 d2e1648 d2e1670 d2e1713 d2e1746 d2e1772 d2e1881 d2e1890');">Gar1602 – CATQ</a></p>
+         </td>
+         <td style="vertical-align:middle">hogg’il</td>
+      </tr>
+      <tr>
+         <td style="vertical-align:middle">2</td>
+         <td>
+            <p><a href="javascript:load_page_with_element('d2e1722 d2e1731 d2e1831 d2e1840 d2e1942 d2e1951 d2e1960 d2e2074 d2e2092 d2e2210 d2e2283');">Gar1580 (I-Bc) – C</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1757 d2e1855 d2e1866 d2e1975 d2e1984 d2e2109 d2e2127 d2e2225 d2e2309');">Gar1580 (I-Rsc) – Q</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1687 d2e1757 d2e1787 d2e1855 d2e1866 d2e1907 d2e1975 d2e1984 d2e2001 d2e2010 d2e2019 d2e2034 d2e2043 d2e2109 d2e2127 d2e2142 d2e2151 d2e2160 d2e2175 d2e2184 d2e2225 d2e2257 d2e2309 d2e2335 d2e2361');">Gar1582 – CAT</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1687 d2e1722 d2e1731 d2e1757 d2e1787 d2e1831 d2e1840 d2e1855 d2e1866 d2e1907 d2e1942 d2e1951 d2e1960 d2e1975 d2e1984 d2e2001 d2e2010 d2e2019 d2e2034 d2e2043 d2e2074 d2e2092 d2e2109 d2e2127 d2e2142 d2e2151 d2e2160 d2e2175 d2e2184 d2e2210 d2e2225 d2e2257 d2e2283 d2e2309 d2e2335 d2e2361');">Gar1587 – CATQ</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1687 d2e1722 d2e1731 d2e1757 d2e1787 d2e1831 d2e1840 d2e1855 d2e1866 d2e1907 d2e1942 d2e1951 d2e1960 d2e1975 d2e1984 d2e2001 d2e2010 d2e2019 d2e2034 d2e2043 d2e2074 d2e2092 d2e2109 d2e2127 d2e2142 d2e2151 d2e2160 d2e2175 d2e2184 d2e2210 d2e2225 d2e2257 d2e2283 d2e2309 d2e2335 d2e2361');">Vin1588 (I-PS) – CATQ</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1757 d2e1855 d2e1866 d2e1975 d2e1984 d2e2109 d2e2127 d2e2225 d2e2309');">Sco1600 (BG-Lbl) – Q</a></p>
+            <p><a href="javascript:load_page_with_element('d2e2001 d2e2010 d2e2019 d2e2142 d2e2151 d2e2160 d2e2335');">Sco1600 (I-Vnm) – A</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1687 d2e1722 d2e1731 d2e1757 d2e1787 d2e1831 d2e1840 d2e1855 d2e1866 d2e1907 d2e1942 d2e1951 d2e1960 d2e1975 d2e1984 d2e2001 d2e2010 d2e2019 d2e2034 d2e2043 d2e2074 d2e2092 d2e2109 d2e2127 d2e2142 d2e2151 d2e2160 d2e2175 d2e2184 d2e2210 d2e2225 d2e2257 d2e2283 d2e2309 d2e2335 d2e2361');">Gar1602 – CATQ</a></p>
+            <p><a href="javascript:load_page_with_element('d2e1687 d2e1722 d2e1731 d2e1787 d2e1831 d2e1840 d2e1907 d2e1942 d2e1951 d2e1960 d2e2001 d2e2010 d2e2019 d2e2034 d2e2043 d2e2074 d2e2092 d2e2142 d2e2151 d2e2160 d2e2175 d2e2184 d2e2210 d2e2257 d2e2283 d2e2335 d2e2361');">Sco1608 – CAT</a></p>
+         </td>
+         <td style="vertical-align:middle">Che fa il mio</td>
+      </tr>
+      <tr>
+         <td style="vertical-align:middle">2</td>
+         <td>
+            <p><a href="javascript:load_page_with_element('d2e1722 d2e1731 d2e1757 d2e1831 d2e1840 d2e1855 d2e1866 d2e1942 d2e1951 d2e1960 d2e1975 d2e1984 d2e2001 d2e2010 d2e2019 d2e2074 d2e2092 d2e2109 d2e2127 d2e2142 d2e2151 d2e2160 d2e2210 d2e2225 d2e2283 d2e2309 d2e2335');">VinAm1586 – CAQ</a></p>
+         </td>
+         <td style="vertical-align:middle">cant’e’l suono</td>
+      </tr>
+      <tr>
+         <td style="vertical-align:middle">3</td>
+         <td>
+            <p><a href="javascript:load_page_with_element('d2e2294 d2e2320 d2e2346 d2e2378 d2e2396 d2e2405 d2e2414 d2e2423 d2e2438 d2e2447 d2e2456 d2e2465 d2e2480 d2e2491 d2e2502 d2e2511 d2e2534 d2e2543 d2e2552 d2e2561 d2e2581 d2e2594 d2e2609 d2e2620 d2e2635 d2e2646 d2e2663 d2e2678 d2e2699 d2e2708 d2e2717 d2e2726 d2e2741 d2e2750 d2e2759 d2e2768 d2e2783 d2e2794 d2e2805 d2e2814 d2e2829 d2e2838 d2e2847 d2e2856 d2e2882 d2e2891 d2e2908 d2e2917 d2e2932 d2e2943 d2e2958 d2e2967 d2e2984 d2e3010 d2e3019 d2e3034 d2e3045 d2e3060 d2e3069 d2e3078 d2e3095 d2e3104 d2e3119 d2e3128 d2e3146 d2e3161 d2e3199 d2e3214 d2e3234 d2e3260 d2e3286 d2e3301 d2e3327');">Gar1580 (GB-Lwa) – All voices</a></p>
+            <p><a href="javascript:load_page_with_element('d2e2294 d2e2320 d2e2346 d2e2378 d2e2396 d2e2405 d2e2414 d2e2423 d2e2438 d2e2447 d2e2456 d2e2465 d2e2480 d2e2491 d2e2502 d2e2511 d2e2534 d2e2543 d2e2552 d2e2561 d2e2581 d2e2594 d2e2609 d2e2620 d2e2635 d2e2646 d2e2663 d2e2678 d2e2699 d2e2708 d2e2717 d2e2726 d2e2741 d2e2750 d2e2759 d2e2768 d2e2783 d2e2794 d2e2805 d2e2814 d2e2829 d2e2838 d2e2847 d2e2856 d2e2882 d2e2891 d2e2908 d2e2917 d2e2932 d2e2943 d2e2958 d2e2967 d2e2984 d2e3010 d2e3019 d2e3034 d2e3045 d2e3060 d2e3069 d2e3078 d2e3095 d2e3104 d2e3119 d2e3128 d2e3146 d2e3161 d2e3199 d2e3214 d2e3234 d2e3260 d2e3286 d2e3301 d2e3327');">Gar1580 (D-Mbs) – All voices</a></p>
+            <p><a href="javascript:load_page_with_element('d2e2320 d2e2346 d2e2378 d2e2438 d2e2447 d2e2456 d2e2465 d2e2480 d2e2491 d2e2502 d2e2511 d2e2534 d2e2543 d2e2552 d2e2561 d2e2609 d2e2620 d2e2635 d2e2646 d2e2663 d2e2678 d2e2741 d2e2750 d2e2759 d2e2768 d2e2783 d2e2794 d2e2805 d2e2814 d2e2829 d2e2838 d2e2847 d2e2856 d2e2908 d2e2917 d2e2932 d2e2943 d2e2958 d2e2967 d2e2984 d2e3034 d2e3045 d2e3060 d2e3069 d2e3078 d2e3095 d2e3104 d2e3119 d2e3128 d2e3161 d2e3199 d2e3214 d2e3260 d2e3286 d2e3301 d2e3327');">Gar1580 (I-Bc) – ATBQ</a></p>
+            <p><a href="javascript:load_page_with_element('d2e2663 d2e2829 d2e2838 d2e2847 d2e2856 d2e2958 d2e2967 d2e3095 d2e3104 d2e3199 d2e3301');">Gar1580 (P-Kj) – T</a></p>
+            <p><a href="javascript:load_page_with_element('d2e2378 d2e2534 d2e2543 d2e2552 d2e2561 d2e2678 d2e2984 d2e3119 d2e3128 d2e3214 d2e3327');">Gar1580 (I-Vnm) – B</a></p>
+            <p><a href="javascript:load_page_with_element('d2e2378 d2e2534 d2e2543 d2e2552 d2e2561 d2e2678 d2e2984 d2e3119 d2e3128 d2e3214 d2e3327');">Gar1582B – B</a></p>
+         </td>
+         <td style="vertical-align:middle">gloria e’l nome</td>
+      </tr>
+   </tbody>
+</table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+				
+		            <div class="modal" id="text" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Text
+                </h4>
+            </div>
+            <div class="modal-body">
+                <h4>Edition of the text and commentary</h4>
+
+<p>
+	<b><i>Che fa oggi il mio sole</i></b><br/>
+	Anonymous<br/>
+	Madrigal: abCabD
+</p>
+
+<p class="app_text">
+    <table>
+        <tr>
+            <td>Che fa oggi il mio sole,</td><td>What is my sun doing today?</td>
+        </tr>
+        <tr>
+            <td>Che fa ’l mio canto e ’l suono,</td><td>What are my song and music doing </td>
+        </tr>
+        <tr>
+            <td>Che non cantan di lei la gloria e ’l vanto?</td><td>if they are not singing of her glory and honor?</td>
+        </tr>
+        <tr>
+            <td>Or queste mie viole</td><td>Now I give her my violets</td>
+        </tr>
+        <tr>
+            <td>E questi fior gli dono</td><td>and these flowers</td>
+        </tr>
+        <tr>
+            <td>Che ne facci corona a le sue chiome.</td><td>so that she can make a crown for her hair.</td>
+        </tr>
+    </table>
+</p>
+
+<h4>Sources used for collation</h4>
+ 
+<p>Gar1580, Gar1582, VinAm1586, Gar1587, Vin1588, Sco1600, Gar1602, Sco1608.</p>
+
+<p>Other sources: Gar1580 (I-Nf unavailable for consultation), Ra1608</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+				
+		            <div class="modal" id="comments" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Comments
+                </h4>
+            </div>
+            <div class="modal-body">
+                <p>
+	In his <em>The Compleat Gentleman</em>, a manual for the education of the nobility first printed in London in 1622, Henry Peacham mentions “Che fa oggi il mio sole” among Marenzio’s madrigals that “the Muses themselves might not have beene ashamed to have had composed.” The passage testifies to the enduring popularity of Marenzio’s music in England. 
+</p>
+
+<div align="center" style="padding: 20px;">
+    <img src="/files/M-01-5-07-peacham.png" class="img-responsive"></img>
+</div>
+
+<p>
+    Source: Henry Peacham, <em>The Compleat Gentleman</em>, with an introduction by G.S. Gordon (Oxford: Clarendon Press, 1906; reprint of the 1634 edition), p. 101.
+</p>
+
+<p>
+    The canto part of “Che fa oggi il mio sole” serves as model for one of Adriano Banchieri’s contrapuntal exercises published in his <em>Il principiante fanciullo</em> a due voci (Venice: Bartolomeo Magni, 1625). Pupils were taught how to add a second voice to a melodic line drawn from popular works by composers of undisputed importance. Marenzio’s original music is in the top voice. The lower voice is the counterpoint added by Banchieri. [<a href="/files/M-01-5-07-banchieri-bicinium.pdf" target="_blank">PDF score</a>]
+</p>
+
+<p>
+    Banchieri drops the second line of the text and adjusts the rest of the poem accordingly. A similar variant appears in Gioseppe Caimo’s <em>Madrigali a cinque voci, libro quarto</em> (Venice: Giacomo Vincenti et Ricciardo Amadino compagni ad instantia di Pietro Tini, 1585). However, Caimo fails to correct the verb in the third line from third person plural (“cantan”) to third person singular (“canta”). The result is a grammatically improper text. Here are the three versions (for the variant vanto/nome see the critical report):
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Marenzio (1580)</th>
+            <th>Caimo (1585)</th>
+            <th>Banchieri (1625)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p class="app_text">
+                	Che fa oggi il mio sole,<br/>
+                	Che fa ’l mio canto e ’l suono,<br/>
+                	Che non cantan di lei la gloria e ’l vanto?<br/>
+                	Or queste mie viole<br/>
+                	E questi fior gli dono<br/>
+                	Che ne facci corona a le sue chiome.
+                </p>
+            </td>
+            <td>
+                <p class="app_text">
+                	Che fa oggi il mio sole,<br/>
+                	Che non cantan di lei la gloria e il vanto?<br/>
+                	Or queste mie viole<br/>
+                	E questi fior gli dono<br/>
+                	Che ne facci corona a le sue chiome.
+                </p>
+            </td>
+            <td>
+                <p class="app_text">
+                	Che fa oggi il mio sole,<br/>
+                	Che non canta di lei la gloria e il nome?<br/>
+                	Or queste mie viole<br/>
+                	E questi fior gli dono<br/>
+                	Che ne facci corona a le sue chiome.
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p>
+    For a modern edition of Caimo’s madrigals see Gioseppe Caimo, <em>Madrigali and Canzoni for Four and Five Voices</em>, ed. Leta E. Miller (Madison [Wis.]: A-R Editions, 1990).
+</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+				
+
+    
+            </div>
+            <!-- /#page-content-wrapper -->
+
+            <script type="text/javascript">
+            //<![CDATA[
+            	$( document ).ready(function() {
+		
+            		$(window).keyup(function(event){
+            			// We need to make sure not to capture event on text fields
+            			if ( $(event.target).hasClass('form-control') ) {
+            				return;
+            			}
+            			if ( event.ctrlKey && (event.keyCode == 37) ) {
+            				first_page();
+            			}
+            			else if ( event.keyCode == 37 ) {
+            				prev_page();
+            			}
+            			else if ( event.ctrlKey && (event.keyCode == 39) ) {
+            				last_page();
+            			}
+            			else if ( event.keyCode == 39 ) {
+            				next_page();
+            			}
+                        // see http://www.javascripter.net/faq/keycodes.htm
+            			else if ( (event.keyCode == 107) || (event.keyCode == 187) || (event.keyCode == 61)  ) {
+            				zoom_in();
+            			}
+            			else if ( (event.keyCode == 109) || (event.keyCode == 189) || (event.keyCode == 173) ) {
+            				zoom_out();
+            			}
+                        else {
+                            //console.log( event.keyCode );
+                        }
+            		});
+        
+                    $(window).resize(function(){
+                        apply_zoom();
+                    });
+                    
+            		// Adjust the size of the svg_output and the zoom according to the div (screen) size
+            		width = $('#svg_panel').width();
+            		zoom = Math.min( Math.floor( 100 * width / 2100 ), zoom );
+		
+            		// Set the popover for the btn
+            		$( ".popover-btn" ).popover( );
+		
+            		// Init the swip
+            		enable_swipe( true );
+                    
+                    $('input[type=checkbox][name=inline_apps]').change(function() {
+                        show_inline_app = !show_inline_app;
+                        load_page();
+                    });
+                    
+
+                    $('input[type=radio][name=clefs]').change(function() {
+                        if (this.value == 'clefs_modernized') {
+                             app_xpath = ""
+                             load_file();
+                        }
+                        else {
+                             app_xpath = "./rdg[contains(@label, 'original')]";
+                             load_file();
+                        }
+                    });
+                    
+                    $('input[type=radio][name=layout]').change(function() {
+                         if (this.value == 'layout_horizontal') {
+                             vertical_layout = false;
+                         }
+                        else {
+                            vertical_layout = true;
+                         }
+                        $.cookie('vertical_layout', vertical_layout, { expires: 30 });
+                        load_file();
+                    });
+                    if (vertical_layout) $('input[type=radio][name=layout][value=layout_vertical]').prop('checked', true).parent().addClass("active");
+                    else $('input[type=radio][name=layout][value=layout_horizontal]').prop('checked', true).parent().addClass("active");
+                    
+                    
+                    $('[data-toggle=offcanvas]').click(function() {
+                      $('#wrapper').toggleClass('toggled');
+                    });
+      
+                    $("#wrapper").on('transitionend webkitTransitionEnd oTransitionEnd mozTransitionend MSTransitionEnd', 
+                        function() {
+                            if ($(window).width() >= 768) {
+                                apply_zoom();
+                        }
+                    });
+                    
+                    load_file();
+            	});
+            //]]>
+            </script>
+
+                
+		</div>
+        
+	</body>
+</html>

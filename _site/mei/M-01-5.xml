@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.0/schemata/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://music-encoding.googlecode.com/svn/tags/MEI2013_v2.1.0/schemata/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     meiversion="2013"
+     meiversion.num="2.1.0">
+    <meiHead meiversion="2013" meiversion.num="2.1.0">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <respStmt>
+                    <persName>Giuseppe Gerbino</persName>
+                    <persName>Laurent Pugin</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <unpub/>
+            </pubStmt>
+            <sourceDesc>
+                <source label="Gar1580">
+                    <editionStmt>
+                        <edition>Angelo Gardano, Venezia 1580</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente composti, &amp; dati in luce. Angelo Gardano, Venezia 1580.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>P-Kj</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>TB</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>GB-Lwa</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>D-Mbs</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Nf</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>[unavailable]</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Rsc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>AQ incomplete</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Vnm</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>B</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="Gar1580">
+                    <editionStmt>
+                        <edition>Angelo Gardano, Venezia 1582</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente con ogni diligentia ristampati. Angelo Gardano, Venezia 1582.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="VinAm1586">
+                    <editionStmt>
+                        <edition>Ricciardo Amadino compagni, Venezia 1586</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente con ogni diligentia ristampati. Giacomo Vincenzi &amp; Ricciardo Amadino compagni, Venezia 1586.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="Gar1587">
+                    <editionStmt>
+                        <edition>Angelo Gardano, Venezia 1587</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente con ogni diligentia ristampati. Angelo Gardano, Venezia 1587.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>A-Wn</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="Vin1588">
+                    <editionStmt>
+                        <edition>Giacomo Vincenzi, Venezia 1588</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente con ogni diligentia ristampati. Giacomo Vincenzi, Venezia 1588.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Q</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>US-BEm</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>T</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-PS</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>CAB; TQ incomplete</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="PhaBel1593">
+                    <editionStmt>
+                        <edition>Pierre Phalèse and Jean Bellère, Antwerp 1593</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Madrigali a cinque voci ridotti in un corpo. Pierre Phalèse and Jean Bellère, Antwerp 1593.</p>
+                  </titlePage>
+                    </physDesc>
+                </source>
+                <source label="Sco1600">
+                    <editionStmt>
+                        <edition>Erede di Girolamo Scotto, Venezia 1600</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente ristampati. Erede di Girolamo Scotto, Venezia 1600</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>GB-Lbl</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>BQ</annot>
+                            </notesStmt>
+                        </item>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Vnm</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>A</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="Kau1601">
+                    <editionStmt>
+                        <edition>Paul Kauffmann, Nuremberg 1601</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Lucae Marentii, musicii celeberrimi, madrigalia quinque vocum, anteà Venetiis, diversis temporibus, novem separatis edita libris, jam verò, commodioris usus caussâ, uno volumine conjunctim excusa [sic]. Paul Kauffmann, Nuremberg 1601.</p>
+                  </titlePage>
+                    </physDesc>
+                </source>
+                <source label="Gar1602">
+                    <editionStmt>
+                        <edition>Angelo Gardano, Venezia 1602</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci novamente con ogni diligentia ristampati. Angelo Gardano, Venezia 1602.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-Bc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>Complete</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="Sco1608">
+                    <editionStmt>
+                        <edition>Erede di Girolamo Scotto, Venezia 1608</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Di Luca Marenzio il primo libro de madrigali a cinque voci, novamente ristampati. Erede di Girolamo Scotto, Venezia 1608.</p>
+                  </titlePage>
+                    </physDesc>
+                    <itemList>
+                        <item>
+                            <physLoc>
+                                <identifier>I-PAmc</identifier>
+                            </physLoc>
+                            <notesStmt>
+                                <annot>CATB</annot>
+                            </notesStmt>
+                        </item>
+                    </itemList>
+                </source>
+                <source label="Ra1608">
+                    <editionStmt>
+                        <edition>Alessandro Raveri, Venezia 1608</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Il primo libro de madrigali a cinque voci di Luca Marenzio novamente con ogni diligenza ristampati. Alessandro Raveri, Venezia 1608.</p>
+                  </titlePage>
+                    </physDesc>
+                </source>
+                <source label="Pha1609">
+                    <editionStmt>
+                        <edition>Pierre Phalèse, Antwerp 1609</edition>
+                    </editionStmt>
+                    <physDesc>
+                        <titlePage>
+                     <p>Il primo, secondo, terzo, quarto &amp; quinto libro de madrigali a cinque voci. Pierre Phalèse, Antwerp 1609 (does not contain “O tu che fra le selve occulta vivi”).</p>
+                  </titlePage>
+                    </physDesc>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <workDesc>
+            <work>
+                <titleStmt>
+                    <title>Il primo libro di madrigali a V voci</title>
+                    <respStmt>
+                        <resp>Composed by:</resp>
+                        <persName>Luca Marenzio</persName>
+                    </respStmt>
+                </titleStmt>
+            </work>
+        </workDesc>
+    </meiHead>
+    <music meiversion="2013" meiversion.num="2.1.0">
+        <front>
+            <div>
+                <head><rend rend="italic">Il primo libro de’madrigali a cinque voci</rend>: Description of the Sources</head>
+                <div>
+                    <head>Sources used for collation</head>
+                    <div>
+                        <head>Venice: Angelo Gardano, 1580. AnGa, 1580</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | A CINQVE VOCI NOVAMENTE | Composti, &amp; dati in luce. | [printer’s mark] | In Venetia appresso Angelo Gardano. | M D
+                            LXXX.</p>
+                        <p>Set of 5 partbooks in 4°, oblong format: CANTO ([A]/A<rend rend="sub">2</rend>-C/C<rend rend="sub">2</rend>) of (2) = 19 [<rend rend="italic">recte</rend> 21] + (1) pp.,
+                            TENORE (D/D<rend rend="sub">2</rend>-E/E<rend rend="sub">2</rend>) of (2) + 18 pp., ALTO (G/G<rend rend="sub">2</rend>-I/I<rend rend="sub">2</rend>) of (2) + 19
+                            [<rend rend="italic">recte </rend>21] + (1) pp., BASSO (K/K<rend rend="sub">2</rend>-L/L<rend rend="sub">2</rend>, M) of (2) + 18) pp., QVINTO (N/N<rend rend="sub"
+                                >2</rend>-P/P<rend rend="sub">2</rend>) of (2) + 19 + (3) pp. </p>
+                        <p>In the Quinto partbooks pages (21) and (22) are blank.</p>
+                        <p>The first signature of each gathering (except for the titlepage) bears the inscription “Madrig. di Luca Marenzio libro primo A 5.”</p>
+                        <p>On p. (2): ALL’ILLVSTRISS. ET REVERENDISS. SIGNOR | ET PATRON MIO SEMPRE COLENDISSIMO. | IL SIGNOR CARDINALE D’ESTE. |</p>
+                        <p>Io non prosumo tanto di me, ne sono cosi poco conoscitore dell’imperfettione di queste | mie fatiche, che presentandole à V.S. Illustrissima m’imagini di offerirle cosa non
+                            inde- | gna di lei; ma essendo io fatto suo non solamente per obligo di seruitù, ma per elettione | di volontà, &amp; per debito di infiniti fauori ricevuti senz’alcun
+                            merito mio dalla sua singolar | cortesia, vengo à sodisfarle (se non come debbo almen come posso) quel segno che son | tenuto darli per tanti rispetti. Degnisi V.S.
+                            Illustrissima di gradire con l’usata sua beni- | gnità questa prontezza dell’animo mio, &amp; co[n]tentisi che dal lume della grandezza sua pren- | dano queste mie primitie
+                            quello spirito, che non hà potuto lor dare il mio poco intelletto. | Con che humilissimamente le bacio la mano, &amp; li prego ogni desiderata felicità. Di Roma il di 8.
+                            Agosto 1580. | Di V.S. Illustrissima &amp; Reuerendissima | Humiliss, &amp; obligatiss. Seuitore | Luca Marentio.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): D-Mbs, GB-Lwa, I-Bc, I-Nf, PL-Kj (TB), I-Vnm (B)</p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 530, NV 1597, <rend rend="italic">MMB</rend> 246</p>
+                        <p><rend rend="italic">Consulted copies</rend>: D-Mbs, GB-Lwa, I-Bc, PL-Kj (TB), I-Vnm (B)</p>
+                        <p><rend rend="italic">Comments</rend></p>
+                        <p>The copy preserved in I-Bc has a handwritten annotation (“Ristampe dallo stesso in Ven. 1587, 1602.”) at the bottom of the frontispiece in the Canto partbook. The following
+                            handwritten inscription appears on p. (22) in the Quinto partbook: “Al Molto R[everen]do Sig[nor] mio Sig[nor] et [?] Col[endissi]mo | M[onsigno]re Don Pietro Maria Mansoli
+                            | Al Molto R[everen]do Sig[no]r mio il S[igno]r don Pietro M[aria] Manzolo Ferrara.”</p>
+                    </div>
+                    <div>
+                        <head>Venice: Angelo Gardano, 1582. AnGa, 1582</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | A CINQVE VOCI NOVAMENTE | Con ogni diligentia ristampati. | [printer’s mark] | In Venetia Appresso Angelo Gardano | M D
+                            LXXXII.</p>
+                        <p>Set of 5 partbooks in 4°, oblong format: CANTO ([A/A<rend rend="sub">2</rend>-C/C<rend rend="sub">2</rend>) of (2) + 19 [<rend rend="italic">recte</rend> 21] + (1) pp.,
+                            TENORE (D/D<rend rend="sub">2</rend>, E/E<rend rend="sub">2</rend>, F) di (2) +18 pp., ALTO (G/G<rend rend="sub">2</rend>-I/I<rend rend="sub">2</rend>) di (2) + 19
+                            [<rend rend="italic">recte</rend> 21] + (1) pp., BASSO (K/K<rend rend="sub">2</rend>, L/L<rend rend="sub">2</rend>, M) di (2) + 18 pp., QVINTO (N/N<rend rend="sub"
+                                >2</rend>-P/P<rend rend="sub">2</rend>) di (2) + 19 + (3) pp.</p>
+                        <p>In the Quinto partbook pages (21) and (22) are blank.</p>
+                        <p>The first signature of each gathering (except for the titlepage) bears the inscription “Madrig. di Luca Marenzio libro primo A 5.”</p>
+                        <p>On p. (2): ALL’ILLVSTRISS. ET REVERENDISS. SIGNOR | ET PATRON MIO SEMPRE COLENDISSIMO. | IL SIGNOR CARDINALE D’ESTE. |</p>
+                        <p>Io non prosumo tanto di me, ne sono cosi poco conoscitore dell’imperfettione di queste | mie fatiche, che presentandole à V.S. Illustrissima m’imagini di offerirle cosa non
+                            inde- | gna di lei; ma essendo io fatto suo non solamente per obligo di seruitù, ma per elettione | di volontà, &amp; per debito di infiniti fauori ricevuti senz’alcun
+                            merito mio dalla sua singolar | cortesia, vengo à sodisfarle (se non come debbo almen come posso) quel segno che son | tenuto darli per tanti rispetti. Degnisi V.S.
+                            Illustrissima di gradire con l’usata sua beni- | gnità questa prontezza dell’animo mio, &amp; co[n]tentisi che dal lume della grandezza sua pren- | dano queste mie primitie
+                            quello spirito, che non hà potuto lor dare il mio poco intelletto. | Con che humilissimamente le bacio la mano, &amp; li prego ogni desiderata felicità. Di Roma il di 1.
+                            Giugno 1582. | Di V.S. Illustrissima &amp; Reuerendissima | Humiliss. &amp; obligatiss. Seuitore | Luca Marenzio.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): A-Wn (Q), D-As, F-Pn, GB-Lbl (A), I-Bc, I-Fc (Q), I-Ra, I-Rdp (CAB), I-Rsc (AQ incomplete), I-Sd
+                            (CT), I-Vnm (Q), PL-GD, PL-Kj (CQ), V-CVbav (Q)</p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 531, NV 1598, <rend rend="italic">MMB</rend> 247</p>
+                        <p><rend rend="italic">Consulted copy</rend>: I-Bc, I-Rsc (AQ incomplete),</p>
+                        <p><rend rend="italic">Notes</rend>: The incomplete Alto (pp. 17-18) and Quinto (pp. 7-19) partbooks in I-Rsc are bound with a handwritten titlepage erroneously identifying them as
+                            belonging to Gar1580. </p>
+                    </div>
+                    <div>
+                        <head>Venice: Giacomo Vincenzi and Ricciardo Amadino, 1586. Vin &amp; Am, 1586</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | a Cinque Voci, nouamente con ogni | diligentia ristampati. | [printer’s mark] | <rend rend="italic">IN VENETIA </rend>| <rend
+                            rend="italic">Presso Giacomo Vincenzi, &amp; Ricciardo Amadino compagni. </rend>| <rend rend="italic">M D LXXXVI.</rend></p>
+                        <p>Set of 5 partbooks in 8°, vertical format: ([A]-A<rend rend="sub">6</rend>) of (2) + 19 [<rend rend="italic">recte</rend> 21 + (1) pp., TENORE (B-B<rend rend="sub">5</rend>)
+                            of (2) + 18 pp., ALTO (C-C<rend rend="sub">6</rend>) of (2) + 19 [<rend rend="italic">recte</rend> 21] + (1) pp., BASSO (D-D<rend rend="sub">5</rend>) of (2) + 18 pp.,
+                            QVINTO (E-E<rend rend="sub">6</rend>) of (2) + 18 [<rend rend="italic">recte</rend> 19] + (1) pp. </p>
+                        <p>Gathering signatures with an odd number (except for the titlepage) bear the inscription “Madrig. Di Luca Marenzio libro primo A 5.”</p>
+                        <p>No dedication; p. (2) is blank in all partbooks.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): A-Wn (CATB), B-Gu (ATB), GB-Lcm, GB-Lbl (T), I-Bc, I-Nn (A), NL-DHgm (Q)</p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 532, NV 1601, <rend rend="italic">MMB</rend> 248</p>
+                        <p><rend rend="italic">Consulted copy</rend>: I-Bc</p>
+                    </div>
+                    <div>
+                        <head>Venice: Angelo Gardano, 1587. AnGa, 1587</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | A CINQUE VOCI | Nouamente con ogni diligentia ristampati. | [printer’s mark] | In Venetia Appresso Angelo Gardano | M D
+                            LXXXVII.</p>
+                        <p>Set of 5 partbooks in 4°, oblong format: CANTO ([A]/A<rend rend="sub">2</rend>-C/C<rend rend="sub">2</rend>) of (2) +19 [<rend rend="italic">recte</rend> 21] + (1) pp.,
+                            TENORE (D/D<rend rend="sub">2</rend>-E/E<rend rend="sub">2</rend>, F) of (2) + 18 pp., ALTO (G/G<rend rend="sub">2</rend>-I/I<rend rend="sub">2</rend>) of (2) + 19
+                            [<rend rend="italic">recte</rend> 21] + (1) pp., BASSO (K/K<rend rend="sub">2</rend>-L/L<rend rend="sub">2</rend>, M) of (2) + 18 pp., QVINTO (N/N<rend rend="sub"
+                                >2</rend>-P/P<rend rend="sub">2</rend>) of (2) + 19 (3) pp.</p>
+                        <p>In the Quinto partbook pages (21) and (22) are blank.</p>
+                        <p>Gathering signatures with an odd number (except for the titlepage) bear the inscription “Madrigali di Luca Marenzio. Lib. I. A 5.”</p>
+                        <p>No dedication; p. (2) is blank in all partbooks.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): A-Wn, D-As, D-B, F-Pn, GB-Lbl (CATQ), I-Bc (ABQ), I-Fn (AQ), I-Sd (B), I-ST (C), I-VIb (B), NL-DHgm
+                            (A), P-Cug (Q incomplete), </p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 533, NV 1602, <rend rend="italic">MMB</rend> 249</p>
+                        <p><rend rend="italic">Consulted copy</rend>: A-Wn</p>
+                    </div>
+                    <div>
+                        <head>Venice: Giacomo Vincenzi, 1588. Vi, 1588</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | A CINQUE VOCI. | <rend rend="italic">Nouamente con ogni diligentia ristampati</rend>. | [printer’s mark] | In Venetia Presso
+                            Giacomo Vincenci. [<rend rend="italic">sic</rend>] | M D LXXXVIII</p>
+                        <p>Set of 5 partbooks in 4°, oblong format: CANTO (pp. 1-19 [<rend rend="italic">recte</rend> 20] in the only surviving copy in I-PS) (A<rend rend="sub">2</rend>-C/C<rend
+                            rend="sub">2</rend>), TENORE (D/D<rend rend="sub">2</rend>, E/E<rend rend="sub">2</rend>, M) of (2) + 19 + (1) pp., ALTO (pp. 1-19 [<rend rend="italic">recte</rend>
+                            20] in the only surviving copy in I-PS) (G<rend rend="sub">2</rend>-I/I<rend rend="sub">2</rend>), BASSO (pp. 1-19 + (1) in the only surviving copy in I-PS) (K<rend
+                                rend="sub">2</rend>-M/M<rend rend="sub">2</rend>), QVINTO (N/N<rend rend="sub">2</rend>-P/P<rend rend="sub">2</rend>) of (2) + 19 + (3) pp.</p>
+                        <p>In the Quinto partbook pages (21) and (22) are blank.</p>
+                        <p>Gathering signatures with an odd number (except for the titlepages) bear the inscription “Madrigali di Luca Marenzio. Lib. I. A 5.”</p>
+                        <p>No dedication; p. (2) is blank in all partbooks.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): I-Bc (Q), I-PS (CAB complete; T and Q incomplete), US-Bem (T)</p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 534, NV 1603, <rend rend="italic">MMB</rend> 250</p>
+                        <p><rend rend="italic">Consulted copies</rend>: I-Bc (A), I-PS (CAB complete; T and Q incomplete), US-Bem (T)</p>
+                        <p><rend rend="italic">Comments</rend></p>
+                        <p>The Quinto partbook in I-Bc has the following handwritten inscription: “D di Girolamo [?] | sacerdote di Siena</p>
+                    </div>
+                    <div>
+                        <head>Venice: Erede di Girolamo Scotto, 1600. Sc [heir], 1600</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO | DE MADRIGALI | A Cinque Voci. | <rend rend="italic">Nouamente ristampati</rend>. | [printer’s mark] | <rend rend="italic">IN VENETIA </rend>MDC.
+                            | <rend rend="italic">Appresso l’Herede di Gierolamo Scoto</rend>. </p>
+                        <p>Set of 5 partbooks in 8°, vertical format: ALTO (G/G<rend rend="sub">2</rend>-I/I<rend rend="sub">2</rend>) of (2) + 3-21 [<rend rend="italic">recte </rend>23] + (1) pp.,
+                            BASSO (K/K<rend rend="sub">2</rend>-M) of (2) + 3-20 pp., QVINTO (N/N<rend rend="sub">2</rend>-P/P<rend rend="sub">2</rend>) of (2) + 3-20 [<rend rend="italic">recte
+                            </rend>21] + (1) pp.</p>
+                        <p>The first letter of each gathering signature (except for the titlepages) bears the inscription “Di Luca Marenzio. Lib. I. à 5.”</p>
+                        <p>In the Bass partbook, pp. 17-20 from the Tenor have been erroneously inserted between pages 18-19.</p>
+                        <p>No dedication; p. (2) is blank in all surviving partbooks.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): GB-Lbl (BQ), I-Vnm (A)</p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 535, NV 1604, <rend rend="italic">MMB</rend> 251</p>
+                        <p><rend rend="italic">Consulted copies</rend>: GB-Lbl (BQ), I-Vnm (A)</p>
+                    </div>
+                    <div>
+                        <head>Venice: Angelo Gardano, 1602. AnGa, 1602</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | A CINQUE VOCI | Nouamente con ogni diligentia ristampati. | [printer’s mark] | In Venetia Appresso Angelo Gardano. | M. D.
+                            CII.</p>
+                        <p>Set of 5 partbooks in 4°, oblong format: CANTO ([A]/Iij [<rend rend="italic">recte </rend>Aij]-C/C2) of (2) +19 [<rend rend="italic">recte </rend>21] + (1) pp., TENORE (D/Dij-E/E3)
+                            of (2) + 18 pp., ALTO (F/Fij-H/H2) of (2) + 10 [<rend rend="italic">recte </rend>21] + (1) pp., BASSO (I/I2-K/K3) of (2) + 18 pp., QVINTO (L/Lij-N/N2) of (2) + 19 + (3) pp.</p>
+                        <p>In the Quinto partbook pp. (21) and (22) are blank.</p>
+                        <p>The first letter of each gathering signature bears one of the following inscriptions: “Madrigali di Luca Marenzio. Lib. I. A 5.” “Madrigali di Lucaarenzo. Lib. I. A 5.”
+                            “Madrigali di Luca Marenzo. Lib. I. A 5.”</p>
+                        <p>No dedication; p. (2) is blank in all partbooks.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): B-Bc, D-Rp (C), F-Pnm, I-Bc, I-Bsp, I-Nc, I-Sd (T), US-BU (Q), </p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 536, NV 1605, <rend rend="italic">MMB</rend> 252</p>
+                        <p><rend rend="italic">Consulted copies</rend>: I-Bc</p>
+                    </div>
+                    <div>
+                        <head>Venice: Erede di Girolamo Scotto, 1608. Sc [heir], 1608</head>
+                        <p>DI LVCA MARENZIO | IL PRIMO LIBRO DE MADRIGALI | A Cinque Voci. | <rend rend="italic">Nouamente ristampati</rend>. | [printer’s mark] | IN VENETIA Appresso l’Herede di Girolamo
+                            Scoto. | MDCVIII.</p>
+                        <p>Set of 5 partbooks in 8°, vertical format: CANTO (A/A<rend rend="sub">2</rend>-C/C<rend rend="sub">2</rend>) of (2) + 3-21 [<rend rend="italic">recte</rend> 23] + (1) pp.,
+                            TENORE (D/D<rend rend="sub">2</rend>-E/E<rend rend="sub">2</rend>, F) of (2) + 3-20 pp., ALTO (G/G<rend rend="sub">2</rend>-I/I<rend rend="sub">2</rend>) of (2) +
+                            3-21 [<rend rend="italic">recte</rend> 23] + (1) pp., BASSO (K/K<rend rend="sub">2</rend>-L/L<rend rend="sub">2</rend>, M) of (2) + 3-20 pp.</p>
+                        <p>The first letter of each gathering signature (except for titlepages) bears the inscription “Di Luca Marenzio lib. I. à 5.”</p>
+                        <p>No dedication; p. (2) is blank in all surviving partbooks.</p>
+                        <p><rend rend="italic">Extant copies </rend>(complete unless stated otherwise): I-PAmc (CATB)</p>
+                        <p><rend rend="italic">References</rend>: RISM A/1 537, NV 1606, <rend rend="italic">MMB</rend> 253</p>
+                        <p><rend rend="italic">Consulted copies</rend>: I-PAmc (CATB)</p>
+                    </div>
+                </div>
+                <div>
+                    <head>Other Sources</head>
+                    <p><rend rend="bold">Ph &amp; Be, 1593 = </rend>Madrigali a cinque voci ridotti in un corpo. Pierre Phalèse and Jean Bellère, Antwerp 1593.</p>
+                    <p><rend rend="bold">Ka, 1601 = </rend>Lucae Marentii, musicii celeberrimi, madrigalia quinque vocum, anteà Venetiis, diversis temporibus, novem separatis edita libris, jam verò,
+                        commodioris usus caussâ, uno volumine conjunctim excusa [sic]. Paul Kauffmann, Nuremberg 1601.</p>
+                    <p><rend rend="bold">Ra, 1608 = </rend>Il primo libro de madrigali a cinque voci di Luca Marenzio novamente con ogni diligenza ristampati. Alessandro Raveri, Venezia 1608.</p>
+                    <p><rend rend="bold">Ph, 1609 =</rend> Il primo, secondo, terzo, quarto &amp; quinto libro de madrigali a cinque voci. Pierre Phalèse, Antwerp 1609 (does not contain “O tu che fra le
+                        selve occulta vivi”).</p>
+                </div>
+            </div>
+        </front>
+    </music>
+</mei>
