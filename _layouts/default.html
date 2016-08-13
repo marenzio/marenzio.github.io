@@ -1,17 +1,17 @@
 <html lang="en" xml:lang="en" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />       
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         
         {% include common-header.html %}
-		
-	</head>
-	<body class="books">
-
+        
+    </head>
+    <body class="books">
+        
         {% include book-menu.html %}
-
+        
         {% include header.html %}
-
-        <div id="main-container" class="container container-books">       
+        
+        <div id="main-container" class="container container-books">
             <div class="row">
                 {% if page.no-menu %}
                 <div id="content" class="col-md-12 col-sm-12">
@@ -20,11 +20,11 @@
                 
                 </div>
                 {% else %}
-        	    <div class="col-md-3 col-sm-12 sidebar" id="sidebar" role="navigation">
-        			    
+                <div class="col-md-3 col-sm-12 sidebar" id="sidebar" role="navigation">
+                    
                     {% include sidebar-menu.html %}
-        		    
-        	    </div>   
+                    
+                </div>
                 <div id="content" class="col-md-9 col-sm-12">
                         
                     {% if page.post %}
