@@ -1,0 +1,7 @@
+{% for s in m.submenu %}
+    {% capture link %}{{ site.baseurl }}/{{ s.id }}.html{% endcapture %}
+    {% if s.url.size > 0 %}
+        {% capture link %}{{ s.url }}{% endcapture %}
+    {% endif %}
+    <a class="{{ include.class }} {% if page.active == s.id %}active{% endif %}" href="{{ link }}" {% if s.blank == true %}target="_blank"{% endif %}>{{ s.name }}</a>
+{% endfor %}

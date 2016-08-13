@@ -1,0 +1,8 @@
+{% for m in site.menu %}
+    {% if page.active_section == m.id %}
+    <div class="separator"></div>
+    <div class="secondary_links">
+        {% include secondary_link.html %}
+    </div>
+    {% endif %}
+{% endfor %}

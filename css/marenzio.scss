@@ -50,6 +50,13 @@ svg:not(:root){
   margin-left: 15px;
 }
 
+.top-header {
+    background: url(/images/header.png);
+    background-position: right top;
+    height: 120px;
+    border-bottom: solid 2px #beb7ad;
+}
+
 
 // we need popover to be behind the modal dialog
 .popover {
@@ -112,9 +119,10 @@ div.app-inline, div.app-inline-text {
 }
 
 .list-group-item {
+    background-image: none !important;
     background-color: $sidebar-background;
 }
-.list-group-item:hover {
+.list-group-item:not(.active):hover {
     background: #fff !important;
 }
 

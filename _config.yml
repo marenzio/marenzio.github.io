@@ -24,3 +24,29 @@ groups:
       books:
         - id: "M-04-6.xhtml"
           name: "Book IV"
+
+menu:
+    - id: "about"
+      name: "About MODE"
+      submenu:
+          - id: "acknowledgements"
+            name: "Further acknowledgments"
+          - id: "neh-grant"
+            name: "NEH Grant"
+          - id: "contact"
+            name:  "Contact us"
+    - id: "editorial-criteria"
+      name: "Editorial criteria"
+      submenu:
+          - id: "editorial-criteria-music"
+            name: "Music"
+            url: "http://www.rism.info"
+            blank: true
+          - id: "editorial-criteria-text"
+            name: "Poetic texts"
+            url: "http://www.rism.info"
+            blank: true
+    - id: "catalogue"
+      name: "Catalogue"
+    - id: "links"
+      name: "Links"

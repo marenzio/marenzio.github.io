@@ -1,0 +1,54 @@
+<html lang="en" xml:lang="en" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />       
+        
+        {% include common-header.html %}
+		
+	</head>
+	<body class="books">
+
+        {% include book-menu.html %}
+
+        {% include header.html %}
+
+        <div id="main-container" class="container container-books">       
+            <div class="row">
+                {% if page.no-menu %}
+                <div id="content" class="col-md-12 col-sm-12">
+                    
+                    {{ content }}
+                
+                </div>
+                {% else %}
+        	    <div class="col-md-3 col-sm-12 sidebar" id="sidebar" role="navigation">
+        			    
+                    {% include sidebar-menu.html %}
+        		    
+        	    </div>   
+                <div id="content" class="col-md-9 col-sm-12">
+                        
+                    {% if page.post %}
+                    <h3>
+                        <div class="lang en">{{ page.title.en }}</div>
+                        <div class="lang de">{{ page.title.de }}</div>
+                        <div class="lang fr">{{ page.title.fr }}</div>
+                        <div class="lang it">{{ page.title.it }}</div>
+                    </h3>
+                    {% endif %}
+                    
+                    {{ content }}
+                
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        
+        {% include footer.html %}
+        
+        <script>
+        //<![CDATA[
+        //]]>
+        </script>
+          
+    </body>
+</html>
