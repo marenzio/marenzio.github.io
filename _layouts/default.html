@@ -10,13 +10,17 @@
         {% include book-menu.html %}
         
         {% include header.html %}
-        
-        <div id="main-container" class="container container-books">
+
+        <div id="main-container" class="container container-default">
             <div class="row">
                 {% if page.no-menu %}
                 <div id="content" class="col-md-12 col-sm-12">
                     
                     {{ content }}
+                    
+                    {% if page.hide_secondary != false %}
+                       {% include secondary_links.html %}
+                    {% endif %}
                 
                 </div>
                 {% else %}
@@ -37,6 +41,10 @@
                     {% endif %}
                     
                     {{ content }}
+                    
+                    {% if page.hide_secondary != false %}
+                       {% include secondary_links.html %}
+                    {% endif %}
                 
                 </div>
                 {% endif %}

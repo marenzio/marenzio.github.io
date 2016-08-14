@@ -3,7 +3,6 @@
 ---
 
 $navbar-background: #53514f;
-
 $sidebar-width: 280px;
 $sidebar-background: #f7f5e7;
 $site-background: #fff;
@@ -18,6 +17,18 @@ body {
 	margin-top: 0px;
     height: 100%;
     background-color: $sidebar-background;
+}
+
+body.books {
+    background-color: $site-background;
+}
+
+h1, h2, h3, h4, h5, {
+    margin-bottom: 15px;
+}
+ 
+h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-child), h5:not(:first-child) {
+    margin-top: 20px;
 }
  
 svg:not(:root){
@@ -35,14 +46,12 @@ svg:not(:root){
 
 .navbar-with-sidebar {
     border-radius: 0;
-}
-
-.navbar-with-sidebar a { 
-    color: #aaa !important; 
-}
-
-.navbar-with-sidebar a:hover { 
-    color: #fff !important; 
+    a { 
+        color: #aaa !important; 
+    }
+    a:hover { 
+        color: #fff !important; 
+    }
 }
 
 .navbar-toggle {
@@ -54,16 +63,102 @@ svg:not(:root){
     background: url(/images/header.png);
     background-position: right top;
     height: 120px;
-    border-bottom: solid 2px #beb7ad;
+    border-bottom: solid 2px $navbar-background;
+    h1, h2 {
+        letter-spacing: 0.05em;
+    }
+    h4, h5 {
+        letter-spacing: 0.075em;
+    }
 }
 
+.container-default {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar-fixed-bottom {
+    height: 30px;
+    background-color: $navbar-background;  
+    p {
+        margin-top: 5px;
+        color: #9d9d9d;
+    } 
+}
+
+.sublist-group a {
+	padding: 4px 15px;
+}
+
+.list-group-item {
+    background-image: none !important;
+    background-color: $sidebar-background;
+}
+.list-group-item:not(.active):hover {
+    background: #fff !important;
+}
+
+div.secondary_links {
+    margin-bottom: 25px;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        padding: 5px 0px;
+        margin-left: 5px;
+        display: block;
+        background-position: left center;
+    }
+}
+
+p.news-more {
+    font-style: italic;
+    margin-top: -10px;
+}
+div.news {
+    padding-bottom: 10px;
+}
+div.news:not(:last-child) {
+    border-bottom: 1px solid $navbar-background;
+    margin-bottom: 20px;
+}
+
+p.news-more {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.separator {
+    border-top: solid 1px $navbar-background;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.separator-bold {
+    border-top: solid 2px $navbar-background;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+/* Books */
+
+.container-books {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.book-heading {
+	padding: 0px 15px 5px 15px;
+    text-align: center;
+}
 
 // we need popover to be behind the modal dialog
 .popover {
     z-index: 999;
 }
 
-.popover .arrow {
+.popover.arrow {
     display: none;
 }
 
@@ -106,33 +201,6 @@ div.marenzio-modal {
 
 div.app-inline, div.app-inline-text {
     display: none;
-}
-
-/* Books */
-
-.container-books {
-    padding-top: 20px;
-}
-
-.sublist-group a {
-	padding: 4px 15px;
-}
-
-.list-group-item {
-    background-image: none !important;
-    background-color: $sidebar-background;
-}
-.list-group-item:not(.active):hover {
-    background: #fff !important;
-}
-
-.book-heading {
-	padding: 0px 15px 5px 15px;
-    text-align: center;
-}
-
-body.books {
-    background-color: $site-background;
 }
 
 /* Sidebar */

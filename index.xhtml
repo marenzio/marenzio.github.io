@@ -2,15 +2,23 @@
 layout: default
 ---
 
-<div class="separator hidden-xs"></div>
+<p>
+    The Marenzio Online Digital Edition is part of the Marenzio Project. MODE aims at making available for the first time, and online, a complete critical edition of the secular music of  Luca Marenzio (ca. 1553-1599), one of the most important composers of the European Renaissance.  Since 2005, MODE’s international research group has been working not only at providing a reliable edition of Marenzio’s music but also at changing the landscape of music editions. By innovatively integrating music philology and digital technology, MODE introduces a new model for both generating and disseminating modern editions of musical repertories of the Western tradition
+</p>
 
-<h3 class="news" data-localize="news"></h3>
+<p>
+    MODE makes Marenzio’s music easily available on the world wide web to musicians and scholars. By dramatically changing the editing process, it pioneers the future in music editions.
+</p>
+
+<div class="separator-bold"></div>
+
+<h3 class="news">News</h3>
 
 <div>
 {% for post in site.posts %}
     <div class="news">
         <h4>
-            <div>{{ post.title.en }}</div>
+            <div>{{ post.title }}</div>
         </h4>
         {{ post.excerpt }}
         <p class="news-more"><a href="{{ post.url }}">read more ...</a></p>
@@ -19,20 +27,20 @@ layout: default
 {% endfor %}
 </div>
 
-<div class="support">
-    <h4>
-        The Swiss RISM is supported by
-    </h4>
-    <div class="row">
-        <div class="col-sm-5 col-sx-12 text-center home-logo">
-            <a href="http://www.snf.ch" target="_blank"><img src="/images/rism_ch/snf.png"/></a>
-        </div>
-        <div class="col-sm-4 col-xs-12 text-center home-logo">
-            <a href="http://www.sagw.ch" target="_blank"><img src="/images/rism_ch/sagw_en.png"/></a>
-        </div>
-        <div class="col-sm-3 col-xs-12 text-center home-logo">
-            <a href="http://www.smg-ssm.ch" target="_blank"><img src="/images/rism_ch/smg.png"/></a>
-        </div>
+<div class="separator-bold"></div>
+
+<h3>
+    MODE is supported by
+</h3>
+<div class="row">
+    <div class="col-sm-4 col-sx-12 text-center home-logo">
+        <a href="http://www.neh.gov" target="_blank"><img src="/images/logo-neh-1.png"/></a>
+    </div>
+    <div class="col-sm-4 col-xs-12 text-center home-logo">
+        <a href="http://www.columbia.edu" target="_blank"><img src="/images/logo-columbia-1.png"/></a>
+    </div>
+    <div class="col-sm-4 col-xs-12 text-center home-logo">
+        <a href="http://www.upenn.edu" target="_blank"><img src="/images/logo-upenn-1.png"/></a>
     </div>
 </div>
 
