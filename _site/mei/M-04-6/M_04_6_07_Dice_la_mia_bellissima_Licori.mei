@@ -1,4 +1,6 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
     <meiHead>
         <fileDesc>
@@ -29,6 +31,17 @@
                 </titleStmt>
             </work>
         </workDesc>
+        <revisionDesc>
+            <change n="1">
+                <respStmt>
+                    <persName>James Park</persName>
+                </respStmt>
+                <changeDesc>
+                    <p>Adding critical notes for music and transposing octave</p>
+                </changeDesc>
+                <date isodate="2016-08-15"/>
+            </change>
+        </revisionDesc>
     </meiHead>
     <music>
         <body>
@@ -38,16 +51,16 @@
                         <scoreDef xml:id="scoredef-000000214696336" meter.count="4" meter.unit="4">
                             <staffGrp xml:id="m-000000203750178">
                                 <staffGrp xml:id="m-000000051824862" n="1" symbol="bracket">
-                                    <staffDef xml:id="sd1" label="Canto" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd2" label="Quinto" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd3" label="Alto" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd4" label="Sesto" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd5" label="Tenore" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd6" label="Basso" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" />
+                                    <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
+                                    <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Quinto" lines="5" />
+                                    <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" label="Alto" lines="5" />
+                                    <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Sesto" lines="5" />
+                                    <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="5" label="Tenore" lines="5" />
+                                    <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="6" label="Basso" lines="5" />
                                 </staffGrp>
                             </staffGrp>
                         </scoreDef>
-                        <measure xml:id="measure-000000153299141" label="1" n="1">
+                        <measure xml:id="measure-000000153299141" n="1">
                             <staff xml:id="staff-000000156179011" n="1">
                                 <layer xml:id="layer-000000031379510" n="1">
                                     <note xml:id="p1cgd4n0v1b1s1" dur="1" oct="4" pname="g">
@@ -79,7 +92,7 @@
                             <staff xml:id="staff-000000119211173" n="4">
                                 <layer xml:id="layer-000000194700408" n="1">
                                     <rest xml:id="p1r0v1b1s4" dur="2" />
-                                    <note xml:id="p1cgd5n512v1b1s4" dur="2" oct="5" pname="g" tie="i">
+                                    <note xml:id="p1cgd5n512v1b1s4" dur="2" oct="4" pname="g" tie="i">
                                         <app xml:id="app-000000014442986">
                                             <lem xml:id="lem-000000077625355" source="Italian">
                                                 <verse xml:id="verse-000000211289230" n="1">
@@ -137,8 +150,8 @@
                             </staff>
                             <staff xml:id="staff-000000122845588" n="4">
                                 <layer xml:id="layer-000000075034416" n="1">
-                                    <note xml:id="p1cgd5n0v1b2s4" dur="2" oct="5" pname="g" tie="t" />
-                                    <note xml:id="p1cfd5n512v1b2s4" dur="2" oct="5" pname="f">
+                                    <note xml:id="p1cgd5n0v1b2s4" dur="2" oct="4" pname="g" tie="t" />
+                                    <note xml:id="p1cfd5n512v1b2s4" dur="2" oct="4" pname="f">
                                         <accid xml:id="accid-000000118538557" accid="s" />
                                         <app xml:id="app-000000034315566">
                                             <lem xml:id="lem-000000142361903" source="Italian">
@@ -165,6 +178,7 @@
                                     <mRest xml:id="mrest-000000023599533" />
                                 </layer>
                             </staff>
+                            <annot label="app" source="Vi-1587" plist="p1cdd5n0v1b2s1">a3; previously c4, then corrected</annot>
                         </measure>
                         <measure xml:id="measure-000000211883340" n="3">
                             <staff xml:id="staff-000000057640849" n="1">
@@ -567,7 +581,7 @@
                             <staff xml:id="staff-000000159816653" n="4">
                                 <layer xml:id="layer-000000180693029" n="1">
                                     <rest xml:id="p1r0v1b5s4" dur="4" />
-                                    <note xml:id="p1ced5n256v1b5s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b5s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000022866363">
                                             <lem xml:id="lem-000000130140173" source="Italian">
                                                 <verse xml:id="verse-000000158364342" n="1">
@@ -581,7 +595,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n512v1b5s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n512v1b5s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000123703903">
                                             <lem xml:id="lem-000000112580741" source="Italian">
                                                 <verse xml:id="verse-000000031090465" n="1">
@@ -595,7 +609,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n768v1b5s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n768v1b5s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000125968533">
                                             <lem xml:id="lem-000000163768364" source="Italian">
                                                 <verse xml:id="verse-000000212770394" n="1">
@@ -832,7 +846,7 @@
                             </staff>
                             <staff xml:id="staff-000000109933100" n="4">
                                 <layer xml:id="layer-000000165443631" n="1">
-                                    <note xml:id="p1cgd5n0v1b6s4" dots="1" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b6s4" dots="1" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000011103871">
                                             <lem xml:id="lem-000000006444418" source="Italian">
                                                 <verse xml:id="verse-000000107123066" n="1">
@@ -846,7 +860,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n384v1b6s4" dur="8" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n384v1b6s4" dur="8" oct="4" pname="g">
                                         <app xml:id="app-000000062387285">
                                             <lem xml:id="lem-000000141585891" source="Italian">
                                                 <verse xml:id="verse-000000003633409" n="1">
@@ -860,7 +874,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b6s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b6s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000073915158">
                                             <lem xml:id="lem-000000187530846" source="Italian">
                                                 <verse xml:id="verse-000000120074389" n="1">
@@ -874,7 +888,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n768v1b6s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n768v1b6s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000009901002">
                                             <lem xml:id="lem-000000190906336" source="Italian">
                                                 <verse xml:id="verse-000000188370293" n="1">
@@ -1087,7 +1101,7 @@
                             </staff>
                             <staff xml:id="staff-000000169072711" n="4">
                                 <layer xml:id="layer-000000054702150" n="1">
-                                    <note xml:id="p1ced5n0v1b7s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b7s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000077840632">
                                             <lem xml:id="lem-000000020469313" source="Italian">
                                                 <verse xml:id="verse-000000049190113" n="1">
@@ -1101,7 +1115,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n512v1b7s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n512v1b7s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000105026145">
                                             <lem xml:id="lem-000000157624672" source="Italian">
                                                 <verse xml:id="verse-000000133616180" n="1">
@@ -1338,7 +1352,7 @@
                             </staff>
                             <staff xml:id="staff-000000123735183" n="4">
                                 <layer xml:id="layer-000000208808652" n="1">
-                                    <note xml:id="p1ced5n0v1b8s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b8s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000190324195">
                                             <lem xml:id="lem-000000101868284" source="Italian">
                                                 <verse xml:id="verse-000000147526677" n="1">
@@ -1352,7 +1366,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n256v1b8s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b8s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000138577381">
                                             <lem xml:id="lem-000000124037379" source="Italian">
                                                 <verse xml:id="verse-000000072218145" n="1">
@@ -1366,7 +1380,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n384v1b8s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n384v1b8s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000156362727">
                                             <lem xml:id="lem-000000112627300" source="Italian">
                                                 <verse xml:id="verse-000000050025109" n="1">
@@ -1380,7 +1394,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b8s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b8s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000039971712">
                                             <lem xml:id="lem-000000071683844" source="Italian">
                                                 <verse xml:id="verse-000000117913432" n="1">
@@ -1394,7 +1408,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n768v1b8s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n768v1b8s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000109797988">
                                             <lem xml:id="lem-000000042093171" source="Italian">
                                                 <verse xml:id="verse-000000013756494" n="1">
@@ -1632,7 +1646,7 @@
                             </staff>
                             <staff xml:id="staff-000000018301820" n="4">
                                 <layer xml:id="layer-000000079037212" n="1">
-                                    <note xml:id="p1ced5n0v1b9s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b9s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000028293175">
                                             <lem xml:id="lem-000000070524544" source="Italian">
                                                 <verse xml:id="verse-000000000209662" n="1">
@@ -1646,7 +1660,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b9s4" dur="2" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b9s4" dur="2" oct="4" pname="d">
                                         <app xml:id="app-000000087443783">
                                             <lem xml:id="lem-000000144607961" source="Italian">
                                                 <verse xml:id="verse-000000006671898" n="1">
@@ -1954,7 +1968,7 @@
                             </staff>
                             <staff xml:id="staff-000000114393861" n="4">
                                 <layer xml:id="layer-000000190269436" n="1">
-                                    <note xml:id="p1cad5n0v1b10s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n0v1b10s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000085551596">
                                             <lem xml:id="lem-000000125387431" source="Italian">
                                                 <verse xml:id="verse-000000162868396" n="1">
@@ -1968,7 +1982,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n256v1b10s4" dur="8" oct="5" pname="a">
+                                    <note xml:id="p1cad5n256v1b10s4" dur="8" oct="4" pname="a">
                                         <app xml:id="app-000000085736364">
                                             <lem xml:id="lem-000000009549333" source="Italian">
                                                 <verse xml:id="verse-000000075093768" n="1">
@@ -1982,7 +1996,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n384v1b10s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n384v1b10s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000099412980">
                                             <lem xml:id="lem-000000091690939" source="Italian">
                                                 <verse xml:id="verse-000000143282696" n="1">
@@ -1996,7 +2010,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b10s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b10s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000188447385">
                                             <lem xml:id="lem-000000126322141" source="Italian">
                                                 <verse xml:id="verse-000000058355856" n="1">
@@ -2010,7 +2024,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n768v1b10s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n768v1b10s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000185581388">
                                             <lem xml:id="lem-000000061147616" source="Italian">
                                                 <verse xml:id="verse-000000160732628" n="1">
@@ -2251,7 +2265,7 @@
                             </staff>
                             <staff xml:id="staff-000000206626934" n="4">
                                 <layer xml:id="layer-000000083084258" n="1">
-                                    <note xml:id="p1cgd5n0v1b11s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b11s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000077964882">
                                             <lem xml:id="lem-000000176008823" source="Italian">
                                                 <verse xml:id="verse-000000198867850" n="1">
@@ -2265,7 +2279,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n256v1b11s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b11s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000079179740">
                                             <lem xml:id="lem-000000193029221" source="Italian">
                                                 <verse xml:id="verse-000000157804697" n="1">
@@ -2645,7 +2659,7 @@
                             <staff xml:id="staff-000000119162476" n="4">
                                 <layer xml:id="layer-000000020500066" n="1">
                                     <rest xml:id="p1r0v1b13s4" dur="4" />
-                                    <note xml:id="p1cdd5n256v1b13s4" dur="2" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n256v1b13s4" dur="2" oct="4" pname="d">
                                         <app xml:id="app-000000173080358">
                                             <lem xml:id="lem-000000194977044" source="Italian">
                                                 <verse xml:id="verse-000000108469352" n="1">
@@ -2659,7 +2673,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n768v1b13s4" dur="4" oct="5" pname="g" tie="i">
+                                    <note xml:id="p1cgd5n768v1b13s4" dur="4" oct="4" pname="g" tie="i">
                                         <app xml:id="app-000000155094912">
                                             <lem xml:id="lem-000000064548701" source="Italian">
                                                 <verse xml:id="verse-000000199561507" n="1">
@@ -2858,8 +2872,8 @@
                             </staff>
                             <staff xml:id="staff-000000038714051" n="4">
                                 <layer xml:id="layer-000000194265203" n="1">
-                                    <note xml:id="p1cgd5n0v1b14s4" dur="8" oct="5" pname="g" tie="t" />
-                                    <note xml:id="p1ced5n128v1b14s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1cgd5n0v1b14s4" dur="8" oct="4" pname="g" tie="t" />
+                                    <note xml:id="p1ced5n128v1b14s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000170975888">
                                             <lem xml:id="lem-000000043884926" source="Italian">
                                                 <verse xml:id="verse-000000175881480" n="1">
@@ -2873,7 +2887,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n256v1b14s4" dots="1" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n256v1b14s4" dots="1" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000195298561">
                                             <lem xml:id="lem-000000168918736" source="Italian">
                                                 <verse xml:id="verse-000000193747884" n="1">
@@ -2887,7 +2901,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n640v1b14s4" dur="8" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n640v1b14s4" dur="8" oct="4" pname="g">
                                         <app xml:id="app-000000133132269">
                                             <lem xml:id="lem-000000090838315" source="Italian">
                                                 <verse xml:id="verse-000000035794369" n="1">
@@ -2901,7 +2915,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n768v1b14s4" dur="4" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n768v1b14s4" dur="4" oct="4" pname="f">
                                         <app xml:id="app-000000083714132">
                                             <lem xml:id="lem-000000166887777" source="Italian">
                                                 <verse xml:id="verse-000000045124879" n="1">
@@ -3139,7 +3153,7 @@
                             </staff>
                             <staff xml:id="staff-000000125322366" n="4">
                                 <layer xml:id="layer-000000041044384" n="1">
-                                    <note xml:id="p1ced5n0v1b15s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b15s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000199995169">
                                             <lem xml:id="lem-000000077402779" source="Italian">
                                                 <verse xml:id="verse-000000085199003" n="1">
@@ -3153,7 +3167,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n256v1b15s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b15s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000183085121">
                                             <lem xml:id="lem-000000197069309" source="Italian">
                                                 <verse xml:id="verse-000000189131321" n="1">
@@ -3167,7 +3181,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n512v1b15s4" dots="1" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n512v1b15s4" dots="1" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000205481623">
                                             <lem xml:id="lem-000000161191743" source="Italian">
                                                 <verse xml:id="verse-000000203453561" n="1">
@@ -3181,7 +3195,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n896v1b15s4" dur="8" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n896v1b15s4" dur="8" oct="4" pname="f">
                                         <app xml:id="app-000000116641602">
                                             <lem xml:id="lem-000000172345278" source="Italian">
                                                 <verse xml:id="verse-000000186170465" n="1">
@@ -3449,7 +3463,7 @@
                             </staff>
                             <staff xml:id="staff-000000006897657" n="4">
                                 <layer xml:id="layer-000000179557667" n="1">
-                                    <note xml:id="p1ced5n0v1b16s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b16s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000062938331">
                                             <lem xml:id="lem-000000168832969" source="Italian">
                                                 <verse xml:id="verse-000000142930977" n="1">
@@ -3463,7 +3477,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n256v1b16s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b16s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000158210806">
                                             <lem xml:id="lem-000000034771449" source="Italian">
                                                 <verse xml:id="verse-000000064377291" n="1">
@@ -3718,7 +3732,7 @@
                             </staff>
                             <staff xml:id="staff-000000196579333" n="4">
                                 <layer xml:id="layer-000000005270586" n="1">
-                                    <note xml:id="p1cgd5n0v1b17s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b17s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000085346737">
                                             <lem xml:id="lem-000000118280927" source="Italian">
                                                 <verse xml:id="verse-000000165943477" n="1">
@@ -3732,7 +3746,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n256v1b17s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b17s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000019713392">
                                             <lem xml:id="lem-000000181002657" source="Italian">
                                                 <verse xml:id="verse-000000119980234" n="1">
@@ -3746,7 +3760,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad4n512v1b17s4" dur="2" oct="4" pname="a">
+                                    <note xml:id="p1cad4n512v1b17s4" dur="2" oct="3" pname="a">
                                         <app xml:id="app-000000191722020">
                                             <lem xml:id="lem-000000187526181" source="Italian">
                                                 <verse xml:id="verse-000000094845789" n="1">
@@ -3964,7 +3978,7 @@
                             </staff>
                             <staff xml:id="staff-000000142259174" n="4">
                                 <layer xml:id="layer-000000156394893" n="1">
-                                    <note xml:id="p1cdd5n0v1b18s4" dur="4" oct="5" pname="d" tie="i">
+                                    <note xml:id="p1cdd5n0v1b18s4" dur="4" oct="4" pname="d" tie="i">
                                         <app xml:id="app-000000107602338">
                                             <lem xml:id="lem-000000076518988" source="Italian">
                                                 <verse xml:id="verse-000000174010226" n="1">
@@ -3979,12 +3993,12 @@
                                         </app>
                                     </note>
                                     <beam xml:id="beam-000000175650879">
-                                        <note xml:id="p1cdd5n256v1b18s4" dur="8" oct="5" pname="d" tie="t" />
-                                        <note xml:id="p1ccd5n384v1b18s4" dur="8" oct="5" pname="c" />
-                                        <note xml:id="p1cbd4n512v1b18s4" dur="8" oct="4" pname="b" />
-                                        <note xml:id="p1cad4n640v1b18s4" dur="8" oct="4" pname="a" />
+                                        <note xml:id="p1cdd5n256v1b18s4" dur="8" oct="4" pname="d" tie="t" />
+                                        <note xml:id="p1ccd5n384v1b18s4" dur="8" oct="4" pname="c" />
+                                        <note xml:id="p1cbd4n512v1b18s4" dur="8" oct="3" pname="b" />
+                                        <note xml:id="p1cad4n640v1b18s4" dur="8" oct="3" pname="a" />
                                     </beam>
-                                    <note xml:id="p1cgd4n768v1b18s4" dur="4" oct="4" pname="g" />
+                                    <note xml:id="p1cgd4n768v1b18s4" dur="4" oct="3" pname="g" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000020060950" n="5">
@@ -4198,7 +4212,7 @@
                             </staff>
                             <staff xml:id="staff-000000163633811" n="4">
                                 <layer xml:id="layer-000000125908170" n="1">
-                                    <note xml:id="p1cgd4n0v1b19s4" dur="4" oct="4" pname="g">
+                                    <note xml:id="p1cgd4n0v1b19s4" dur="4" oct="3" pname="g">
                                         <app xml:id="app-000000058150202">
                                             <lem xml:id="lem-000000010645667" source="Italian">
                                                 <verse xml:id="verse-000000020052706" n="1">
@@ -4212,7 +4226,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n256v1b19s4" dots="1" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n256v1b19s4" dots="1" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000205554829">
                                             <lem xml:id="lem-000000103079839" source="Italian">
                                                 <verse xml:id="verse-000000167530086" n="1">
@@ -4226,7 +4240,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n640v1b19s4" dur="8" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n640v1b19s4" dur="8" oct="4" pname="f">
                                         <app xml:id="app-000000051998493">
                                             <lem xml:id="lem-000000127575886" source="Italian">
                                                 <verse xml:id="verse-000000192063239" n="1">
@@ -4240,7 +4254,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n768v1b19s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n768v1b19s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000122237303">
                                             <lem xml:id="lem-000000159494800" source="Italian">
                                                 <verse xml:id="verse-000000028128316" n="1">
@@ -4254,7 +4268,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n896v1b19s4" dur="8" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n896v1b19s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000037724634">
                                             <lem xml:id="lem-000000100752724" source="Italian">
                                                 <verse xml:id="verse-000000001428731" n="1">
@@ -4433,7 +4447,7 @@
                             </staff>
                             <staff xml:id="staff-000000122095639" n="4">
                                 <layer xml:id="layer-000000140788368" n="1">
-                                    <note xml:id="p1ccd5n0v1b20s4" dur="4" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b20s4" dur="4" oct="4" pname="c">
                                         <app xml:id="app-000000060779609">
                                             <lem xml:id="lem-000000179667630" source="Italian">
                                                 <verse xml:id="verse-000000049405278" n="1">
@@ -4447,7 +4461,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n256v1b20s4" dur="4" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n256v1b20s4" dur="4" oct="4" pname="f">
                                         <app xml:id="app-000000036278887">
                                             <lem xml:id="lem-000000068656509" source="Italian">
                                                 <verse xml:id="verse-000000169925759" n="1">
@@ -4462,7 +4476,7 @@
                                         </app>
                                     </note>
                                     <rest xml:id="p1r512v1b20s4" dur="4" />
-                                    <note xml:id="p1cgd5n768v1b20s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n768v1b20s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000115696531">
                                             <lem xml:id="lem-000000179907565" source="Italian">
                                                 <verse xml:id="verse-000000141738865" n="1">
@@ -4792,7 +4806,7 @@
                             </staff>
                             <staff xml:id="staff-000000163164656" n="4">
                                 <layer xml:id="layer-000000186511260" n="1">
-                                    <note xml:id="p1ccd5n0v1b21s4" dur="8" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b21s4" dur="8" oct="4" pname="c">
                                         <app xml:id="app-000000067676706">
                                             <lem xml:id="lem-000000135068375" source="Italian">
                                                 <verse xml:id="verse-000000150246310" n="1">
@@ -4806,7 +4820,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n128v1b21s4" dur="8" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n128v1b21s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000205281680">
                                             <lem xml:id="lem-000000021978574" source="Italian">
                                                 <verse xml:id="verse-000000006112682" n="1">
@@ -4820,7 +4834,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n256v1b21s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n256v1b21s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000022550515">
                                             <lem xml:id="lem-000000190390274" source="Italian">
                                                 <verse xml:id="verse-000000111853361" n="1">
@@ -4834,7 +4848,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n384v1b21s4" dur="8" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n384v1b21s4" dur="8" oct="4" pname="f">
                                         <app xml:id="app-000000112182247">
                                             <lem xml:id="lem-000000171136669" source="Italian">
                                                 <verse xml:id="verse-000000165361317" n="1">
@@ -4848,7 +4862,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n512v1b21s4" dur="2" oct="5" pname="g" tie="i">
+                                    <note xml:id="p1cgd5n512v1b21s4" dur="2" oct="4" pname="g" tie="i">
                                         <app xml:id="app-000000033671247">
                                             <lem xml:id="lem-000000050710705" source="Italian">
                                                 <verse xml:id="verse-000000027105869" n="1">
@@ -5025,8 +5039,8 @@
                             </staff>
                             <staff xml:id="staff-000000158415383" n="4">
                                 <layer xml:id="layer-000000037129976" n="1">
-                                    <note xml:id="p1cgd5n0v1b22s4" dur="4" oct="5" pname="g" tie="t" />
-                                    <note xml:id="p1cgd5n256v1b22s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b22s4" dur="4" oct="4" pname="g" tie="t" />
+                                    <note xml:id="p1cgd5n256v1b22s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000085597127">
                                             <lem xml:id="lem-000000031625086" source="Italian">
                                                 <verse xml:id="verse-000000168736060" n="1">
@@ -5163,7 +5177,7 @@
                             </staff>
                             <staff xml:id="staff-000000155505588" n="4">
                                 <layer xml:id="layer-000000094819117" n="1">
-                                    <note xml:id="p1ccd5n0v1b23s4" dots="1" dur="2" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b23s4" dots="1" dur="2" oct="4" pname="c">
                                         <app xml:id="app-000000093153637">
                                             <lem xml:id="lem-000000117606799" source="Italian">
                                                 <verse xml:id="verse-000000051256338" n="1">
@@ -5177,7 +5191,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n768v1b23s4" dur="4" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n768v1b23s4" dur="4" oct="4" pname="c">
                                         <app xml:id="app-000000164984360">
                                             <lem xml:id="lem-000000061255194" source="Italian">
                                                 <verse xml:id="verse-000000038550017" n="1">
@@ -5343,7 +5357,7 @@
                             </staff>
                             <staff xml:id="staff-000000098095622" n="4">
                                 <layer xml:id="layer-000000069933236" n="1">
-                                    <note xml:id="p1ccd5n0v1b24s4" dur="1" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b24s4" dur="1" oct="4" pname="c">
                                         <app xml:id="app-000000100171984">
                                             <lem xml:id="lem-000000178107566" source="Italian">
                                                 <verse xml:id="verse-000000044228248" n="1">
@@ -5514,7 +5528,7 @@
                             </staff>
                             <staff xml:id="staff-000000154813282" n="4">
                                 <layer xml:id="layer-000000055650591" n="1">
-                                    <note xml:id="p1cdd5n0v1b25s4" dur="2" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b25s4" dur="2" oct="4" pname="d">
                                         <app xml:id="app-000000180218877">
                                             <lem xml:id="lem-000000127735052" source="Italian">
                                                 <verse xml:id="verse-000000059963470" n="1">
@@ -5528,7 +5542,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b25s4" dur="2" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b25s4" dur="2" oct="4" pname="d">
                                         <app xml:id="app-000000102850851">
                                             <lem xml:id="lem-000000104670328" source="Italian">
                                                 <verse xml:id="verse-000000101113988" n="1">
@@ -5660,7 +5674,7 @@
                             </staff>
                             <staff xml:id="staff-000000050302643" n="4">
                                 <layer xml:id="layer-000000186962483" n="1">
-                                    <note xml:id="p1ced5n0v1b26s4" dur="1" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b26s4" dur="1" oct="4" pname="e">
                                         <app xml:id="app-000000169212037">
                                             <lem xml:id="lem-000000034117179" source="Italian">
                                                 <verse xml:id="verse-000000210363910" n="1">
@@ -5770,7 +5784,7 @@
                             </staff>
                             <staff xml:id="staff-000000005248907" n="4">
                                 <layer xml:id="layer-000000171560506" n="1">
-                                    <note xml:id="p1cdd5n0v1b27s4" dur="1" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b27s4" dur="1" oct="4" pname="d">
                                         <app xml:id="app-000000155269563">
                                             <lem xml:id="lem-000000208179316" source="Italian">
                                                 <verse xml:id="verse-000000039234437" n="1">
@@ -5842,7 +5856,7 @@
                             <staff xml:id="staff-000000023610663" n="4">
                                 <layer xml:id="layer-000000184190162" n="1">
                                     <rest xml:id="p1r0v1b28s4" dur="2" />
-                                    <note xml:id="p1cad5n512v1b28s4" dur="2" oct="5" pname="a">
+                                    <note xml:id="p1cad5n512v1b28s4" dur="2" oct="4" pname="a">
                                         <app xml:id="app-000000054027567">
                                             <lem xml:id="lem-000000085235978" source="Italian">
                                                 <verse xml:id="verse-000000178692448" n="1">
@@ -5969,7 +5983,7 @@
                             </staff>
                             <staff xml:id="staff-000000160250728" n="4">
                                 <layer xml:id="layer-000000174752196" n="1">
-                                    <note xml:id="p1cad5n0v1b29s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n0v1b29s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000086063941">
                                             <lem xml:id="lem-000000146421813" source="Italian">
                                                 <verse xml:id="verse-000000086396045" n="1">
@@ -5983,7 +5997,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n256v1b29s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n256v1b29s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000095004381">
                                             <lem xml:id="lem-000000084539922" source="Italian">
                                                 <verse xml:id="verse-000000044761544" n="1">
@@ -5997,7 +6011,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n512v1b29s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n512v1b29s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000033167225">
                                             <lem xml:id="lem-000000169555943" source="Italian">
                                                 <verse xml:id="verse-000000005902902" n="1">
@@ -6011,7 +6025,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n768v1b29s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n768v1b29s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000131777942">
                                             <lem xml:id="lem-000000091997807" source="Italian">
                                                 <verse xml:id="verse-000000040193958" n="1">
@@ -6097,7 +6111,7 @@
                             <staff xml:id="staff-000000070873897" n="4">
                                 <layer xml:id="layer-000000183169698" n="1">
                                     <beam xml:id="beam-000000115313034">
-                                        <note xml:id="p1cfd5n0v1b30s4" dur="8" oct="5" pname="f">
+                                        <note xml:id="p1cfd5n0v1b30s4" dur="8" oct="4" pname="f">
                                             <app xml:id="app-000000033957723">
                                                 <lem xml:id="lem-000000141048814" source="Italian">
                                                     <verse xml:id="verse-000000162991994" n="1">
@@ -6111,15 +6125,15 @@
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note xml:id="p1ced5n128v1b30s4" dur="8" oct="5" pname="e" />
-                                        <note xml:id="p1cdd5n256v1b30s4" dur="8" oct="5" pname="d" />
-                                        <note xml:id="p1ced5n384v1b30s4" dur="8" oct="5" pname="e" />
+                                        <note xml:id="p1ced5n128v1b30s4" dur="8" oct="4" pname="e" />
+                                        <note xml:id="p1cdd5n256v1b30s4" dur="8" oct="4" pname="d" />
+                                        <note xml:id="p1ced5n384v1b30s4" dur="8" oct="4" pname="e" />
                                     </beam>
                                     <beam xml:id="beam-000000092709821">
-                                        <note xml:id="p1cfd5n512v1b30s4" dur="8" oct="5" pname="f" />
-                                        <note xml:id="p1cgd5n640v1b30s4" dur="8" oct="5" pname="g" />
-                                        <note xml:id="p1cad5n768v1b30s4" dur="8" oct="5" pname="a" />
-                                        <note xml:id="p1cfd5n896v1b30s4" dur="8" oct="5" pname="f" />
+                                        <note xml:id="p1cfd5n512v1b30s4" dur="8" oct="4" pname="f" />
+                                        <note xml:id="p1cgd5n640v1b30s4" dur="8" oct="4" pname="g" />
+                                        <note xml:id="p1cad5n768v1b30s4" dur="8" oct="4" pname="a" />
+                                        <note xml:id="p1cfd5n896v1b30s4" dur="8" oct="4" pname="f" />
                                     </beam>
                                 </layer>
                             </staff>
@@ -6189,8 +6203,8 @@
                             </staff>
                             <staff xml:id="staff-000000085053186" n="4">
                                 <layer xml:id="layer-000000123788381" n="1">
-                                    <note xml:id="p1cgd5n0v1b31s4" dur="2" oct="5" pname="g" />
-                                    <note xml:id="p1cgd5n512v1b31s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b31s4" dur="2" oct="4" pname="g" />
+                                    <note xml:id="p1cgd5n512v1b31s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000043281546">
                                             <lem xml:id="lem-000000080240786" source="Italian">
                                                 <verse xml:id="verse-000000135011701" n="1">
@@ -6204,7 +6218,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n768v1b31s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n768v1b31s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000189476374">
                                             <lem xml:id="lem-000000025932808" source="Italian">
                                                 <verse xml:id="verse-000000025785160" n="1">
@@ -6318,7 +6332,7 @@
                             </staff>
                             <staff xml:id="staff-000000087495368" n="4">
                                 <layer xml:id="layer-000000152606959" n="1">
-                                    <note xml:id="p1cdd5n0v1b32s4" dots="1" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b32s4" dots="1" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000035634015">
                                             <lem xml:id="lem-000000182454363" source="Italian">
                                                 <verse xml:id="verse-000000175183541" n="1">
@@ -6332,7 +6346,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n384v1b32s4" dur="8" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n384v1b32s4" dur="8" oct="4" pname="c">
                                         <app xml:id="app-000000025467531">
                                             <lem xml:id="lem-000000039314434" source="Italian">
                                                 <verse xml:id="verse-000000034643948" n="1">
@@ -6346,7 +6360,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b32s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b32s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000205494261">
                                             <lem xml:id="lem-000000158848563" source="Italian">
                                                 <verse xml:id="verse-000000037214976" n="1">
@@ -6360,7 +6374,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n768v1b32s4" dur="4" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n768v1b32s4" dur="4" oct="4" pname="f">
                                         <app xml:id="app-000000040408872">
                                             <lem xml:id="lem-000000117589245" source="Italian">
                                                 <verse xml:id="verse-000000066487014" n="1">
@@ -6516,7 +6530,7 @@
                             </staff>
                             <staff xml:id="staff-000000160860920" n="4">
                                 <layer xml:id="layer-000000122325954" n="1">
-                                    <note xml:id="p1ced5n0v1b33s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b33s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000077099285">
                                             <lem xml:id="lem-000000016052075" source="Italian">
                                                 <verse xml:id="verse-000000187757916" n="1">
@@ -6530,7 +6544,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n512v1b33s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n512v1b33s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000126684837">
                                             <lem xml:id="lem-000000176777907" source="Italian">
                                                 <verse xml:id="verse-000000091851547" n="1">
@@ -8343,7 +8357,7 @@
                                 <layer xml:id="layer-000000131890013" n="1">
                                     <rest xml:id="p1r0v1b44s4" dur="2" />
                                     <rest xml:id="p1r512v1b44s4" dur="4" />
-                                    <note xml:id="p1cgd5n768v1b44s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n768v1b44s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000157656371">
                                             <lem xml:id="lem-000000165307089" source="Italian">
                                                 <verse xml:id="verse-000000195765699" n="1">
@@ -8473,7 +8487,7 @@
                             </staff>
                             <staff xml:id="staff-000000099499489" n="4">
                                 <layer xml:id="layer-000000042405788" n="1">
-                                    <note xml:id="p1cgd5n0v1b45s4" dots="1" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b45s4" dots="1" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000128663739">
                                             <lem xml:id="lem-000000150188973" source="Italian">
                                                 <verse xml:id="verse-000000209270902" n="1">
@@ -8487,7 +8501,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n384v1b45s4" dur="8" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n384v1b45s4" dur="8" oct="4" pname="g">
                                         <app xml:id="app-000000195069657">
                                             <lem xml:id="lem-000000187194730" source="Italian">
                                                 <verse xml:id="verse-000000177975472" n="1">
@@ -8501,7 +8515,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n512v1b45s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n512v1b45s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000117341116">
                                             <lem xml:id="lem-000000117911975" source="Italian">
                                                 <verse xml:id="verse-000000145722597" n="1">
@@ -8515,7 +8529,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n768v1b45s4" dur="4" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n768v1b45s4" dur="4" oct="4" pname="f">
                                         <app xml:id="app-000000085271055">
                                             <lem xml:id="lem-000000134797187" source="Italian">
                                                 <verse xml:id="verse-000000022860340" n="1">
@@ -8697,7 +8711,7 @@
                             </staff>
                             <staff xml:id="staff-000000169548927" n="4">
                                 <layer xml:id="layer-000000112774968" n="1">
-                                    <note xml:id="p1ced5n0v1b46s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b46s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000145201031">
                                             <lem xml:id="lem-000000208059930" source="Italian">
                                                 <verse xml:id="verse-000000143925130" n="1">
@@ -8711,7 +8725,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n512v1b46s4" dur="2" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n512v1b46s4" dur="2" oct="4" pname="f">
                                         <app xml:id="app-000000025353208">
                                             <lem xml:id="lem-000000050618014" source="Italian">
                                                 <verse xml:id="verse-000000064631312" n="1">
@@ -8813,7 +8827,7 @@
                             <staff xml:id="staff-000000061859123" n="4">
                                 <layer xml:id="layer-000000069448429" n="1">
                                     <rest xml:id="p1r0v1b47s4" dur="2" />
-                                    <note xml:id="p1cad5n512v1b47s4" dur="2" oct="5" pname="a">
+                                    <note xml:id="p1cad5n512v1b47s4" dur="2" oct="4" pname="a">
                                         <app xml:id="app-000000160392527">
                                             <lem xml:id="lem-000000195735978" source="Italian">
                                                 <verse xml:id="verse-000000151362999" n="1">
@@ -8940,7 +8954,7 @@
                             </staff>
                             <staff xml:id="staff-000000074824844" n="4">
                                 <layer xml:id="layer-000000014731105" n="1">
-                                    <note xml:id="p1cad5n0v1b48s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n0v1b48s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000083941034">
                                             <lem xml:id="lem-000000114955765" source="Italian">
                                                 <verse xml:id="verse-000000073816810" n="1">
@@ -8954,7 +8968,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n256v1b48s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n256v1b48s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000145246850">
                                             <lem xml:id="lem-000000119154808" source="Italian">
                                                 <verse xml:id="verse-000000174509270" n="1">
@@ -8968,7 +8982,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n512v1b48s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n512v1b48s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000150036786">
                                             <lem xml:id="lem-000000092965675" source="Italian">
                                                 <verse xml:id="verse-000000138329807" n="1">
@@ -8982,7 +8996,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n768v1b48s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n768v1b48s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000004719702">
                                             <lem xml:id="lem-000000081895023" source="Italian">
                                                 <verse xml:id="verse-000000135231973" n="1">
@@ -9068,7 +9082,7 @@
                             <staff xml:id="staff-000000173401183" n="4">
                                 <layer xml:id="layer-000000003627018" n="1">
                                     <beam xml:id="beam-000000185504315">
-                                        <note xml:id="p1cfd5n0v1b49s4" dur="8" oct="5" pname="f">
+                                        <note xml:id="p1cfd5n0v1b49s4" dur="8" oct="4" pname="f">
                                             <app xml:id="app-000000003718781">
                                                 <lem xml:id="lem-000000009784862" source="Italian">
                                                     <verse xml:id="verse-000000009657631" n="1">
@@ -9082,15 +9096,15 @@
                                                 </rdg>
                                             </app>
                                         </note>
-                                        <note xml:id="p1ced5n128v1b49s4" dur="8" oct="5" pname="e" />
-                                        <note xml:id="p1cdd5n256v1b49s4" dur="8" oct="5" pname="d" />
-                                        <note xml:id="p1ced5n384v1b49s4" dur="8" oct="5" pname="e" />
+                                        <note xml:id="p1ced5n128v1b49s4" dur="8" oct="4" pname="e" />
+                                        <note xml:id="p1cdd5n256v1b49s4" dur="8" oct="4" pname="d" />
+                                        <note xml:id="p1ced5n384v1b49s4" dur="8" oct="4" pname="e" />
                                     </beam>
                                     <beam xml:id="beam-000000102319642">
-                                        <note xml:id="p1cfd5n512v1b49s4" dur="8" oct="5" pname="f" />
-                                        <note xml:id="p1cgd5n640v1b49s4" dur="8" oct="5" pname="g" />
-                                        <note xml:id="p1cad5n768v1b49s4" dur="8" oct="5" pname="a" />
-                                        <note xml:id="p1cfd5n896v1b49s4" dur="8" oct="5" pname="f" />
+                                        <note xml:id="p1cfd5n512v1b49s4" dur="8" oct="4" pname="f" />
+                                        <note xml:id="p1cgd5n640v1b49s4" dur="8" oct="4" pname="g" />
+                                        <note xml:id="p1cad5n768v1b49s4" dur="8" oct="4" pname="a" />
+                                        <note xml:id="p1cfd5n896v1b49s4" dur="8" oct="4" pname="f" />
                                     </beam>
                                 </layer>
                             </staff>
@@ -9160,8 +9174,8 @@
                             </staff>
                             <staff xml:id="staff-000000210379263" n="4">
                                 <layer xml:id="layer-000000012456859" n="1">
-                                    <note xml:id="p1cgd5n0v1b50s4" dur="2" oct="5" pname="g" />
-                                    <note xml:id="p1cgd5n512v1b50s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b50s4" dur="2" oct="4" pname="g" />
+                                    <note xml:id="p1cgd5n512v1b50s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000083992476">
                                             <lem xml:id="lem-000000120553043" source="Italian">
                                                 <verse xml:id="verse-000000125054628" n="1">
@@ -9175,7 +9189,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad5n768v1b50s4" dur="4" oct="5" pname="a">
+                                    <note xml:id="p1cad5n768v1b50s4" dur="4" oct="4" pname="a">
                                         <app xml:id="app-000000092989883">
                                             <lem xml:id="lem-000000157125424" source="Italian">
                                                 <verse xml:id="verse-000000023286774" n="1">
@@ -9289,7 +9303,7 @@
                             </staff>
                             <staff xml:id="staff-000000140534613" n="4">
                                 <layer xml:id="layer-000000162734123" n="1">
-                                    <note xml:id="p1cdd5n0v1b51s4" dots="1" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b51s4" dots="1" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000086920567">
                                             <lem xml:id="lem-000000155601283" source="Italian">
                                                 <verse xml:id="verse-000000028393956" n="1">
@@ -9303,7 +9317,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n384v1b51s4" dur="8" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n384v1b51s4" dur="8" oct="4" pname="c">
                                         <app xml:id="app-000000024078947">
                                             <lem xml:id="lem-000000108954899" source="Italian">
                                                 <verse xml:id="verse-000000049161615" n="1">
@@ -9317,7 +9331,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b51s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b51s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000075110075">
                                             <lem xml:id="lem-000000084144499" source="Italian">
                                                 <verse xml:id="verse-000000099186763" n="1">
@@ -9331,7 +9345,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n768v1b51s4" dur="4" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n768v1b51s4" dur="4" oct="4" pname="f">
                                         <app xml:id="app-000000206219939">
                                             <lem xml:id="lem-000000114665283" source="Italian">
                                                 <verse xml:id="verse-000000202168814" n="1">
@@ -9487,7 +9501,7 @@
                             </staff>
                             <staff xml:id="staff-000000118877940" n="4">
                                 <layer xml:id="layer-000000177500775" n="1">
-                                    <note xml:id="p1ced5n0v1b52s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b52s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000017497663">
                                             <lem xml:id="lem-000000092712447" source="Italian">
                                                 <verse xml:id="verse-000000119361067" n="1">
@@ -9501,7 +9515,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n512v1b52s4" dur="2" oct="5" pname="e">
+                                    <note xml:id="p1ced5n512v1b52s4" dur="2" oct="4" pname="e">
                                         <app xml:id="app-000000138159743">
                                             <lem xml:id="lem-000000191484826" source="Italian">
                                                 <verse xml:id="verse-000000031695881" n="1">
@@ -11314,7 +11328,7 @@
                                 <layer xml:id="layer-000000127609823" n="1">
                                     <rest xml:id="p1r0v1b63s4" dur="2" />
                                     <rest xml:id="p1r512v1b63s4" dur="4" />
-                                    <note xml:id="p1cdd5n768v1b63s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n768v1b63s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000127787985">
                                             <lem xml:id="lem-000000034270211" source="Italian">
                                                 <verse xml:id="verse-000000079753389" n="1">
@@ -11444,7 +11458,7 @@
                             </staff>
                             <staff xml:id="staff-000000128113827" n="4">
                                 <layer xml:id="layer-000000141992629" n="1">
-                                    <note xml:id="p1ced5n0v1b64s4" dots="1" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b64s4" dots="1" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000179257349">
                                             <lem xml:id="lem-000000073464670" source="Italian">
                                                 <verse xml:id="verse-000000064888099" n="1">
@@ -11458,7 +11472,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n384v1b64s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n384v1b64s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000053204290">
                                             <lem xml:id="lem-000000207066506" source="Italian">
                                                 <verse xml:id="verse-000000010482741" n="1">
@@ -11472,7 +11486,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n512v1b64s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n512v1b64s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000192951648">
                                             <lem xml:id="lem-000000023307727" source="Italian">
                                                 <verse xml:id="verse-000000194974517" n="1">
@@ -11486,7 +11500,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n768v1b64s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n768v1b64s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000075478528">
                                             <lem xml:id="lem-000000049031493" source="Italian">
                                                 <verse xml:id="verse-000000085573169" n="1">
@@ -11711,7 +11725,7 @@
                             </staff>
                             <staff xml:id="staff-000000199009262" n="4">
                                 <layer xml:id="layer-000000042899677" n="1">
-                                    <note xml:id="p1ccd5n0v1b65s4" dur="2" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b65s4" dur="2" oct="4" pname="c">
                                         <accid xml:id="accid-000000081153493" accid="s" />
                                         <app xml:id="app-000000188282286">
                                             <lem xml:id="lem-000000143228628" source="Italian">
@@ -11726,7 +11740,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b65s4" dur="2" oct="5" pname="d" tie="i">
+                                    <note xml:id="p1cdd5n512v1b65s4" dur="2" oct="4" pname="d" tie="i">
                                         <app xml:id="app-000000112115667">
                                             <lem xml:id="lem-000000125871794" source="Italian">
                                                 <verse xml:id="verse-000000196610311" n="1">
@@ -12021,7 +12035,7 @@
                             </staff>
                             <staff xml:id="staff-000000117660780" n="4">
                                 <layer xml:id="layer-000000121790663" n="1">
-                                    <note xml:id="p1cdd5n0v1b66s4" dur="2" oct="5" pname="d" tie="t" />
+                                    <note xml:id="p1cdd5n0v1b66s4" dur="2" oct="4" pname="d" tie="t" />
                                     <rest xml:id="p1r512v1b66s4" dur="2" />
                                 </layer>
                             </staff>
@@ -12302,7 +12316,7 @@
                             </staff>
                             <staff xml:id="staff-000000002400089" n="4">
                                 <layer xml:id="layer-000000180358346" n="1">
-                                    <note xml:id="p1ced5n0v1b67s4" dots="1" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n0v1b67s4" dots="1" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000013408790">
                                             <lem xml:id="lem-000000090505682" source="Italian">
                                                 <verse xml:id="verse-000000052363992" n="1">
@@ -12316,7 +12330,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n384v1b67s4" dur="8" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n384v1b67s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000194213414">
                                             <lem xml:id="lem-000000184455703" source="Italian">
                                                 <verse xml:id="verse-000000047542441" n="1">
@@ -12330,7 +12344,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n512v1b67s4" dur="4" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n512v1b67s4" dur="4" oct="4" pname="c">
                                         <app xml:id="app-000000076510352">
                                             <lem xml:id="lem-000000211029966" source="Italian">
                                                 <verse xml:id="verse-000000006671267" n="1">
@@ -12344,7 +12358,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n768v1b67s4" dur="8" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n768v1b67s4" dur="8" oct="4" pname="c">
                                         <app xml:id="app-000000054409653">
                                             <lem xml:id="lem-000000064509481" source="Italian">
                                                 <verse xml:id="verse-000000061819083" n="1">
@@ -12358,7 +12372,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cbd4n896v1b67s4" dur="8" oct="4" pname="b">
+                                    <note xml:id="p1cbd4n896v1b67s4" dur="8" oct="3" pname="b">
                                         <app xml:id="app-000000136123871">
                                             <lem xml:id="lem-000000119580832" source="Italian">
                                                 <verse xml:id="verse-000000007681620" n="1">
@@ -12457,7 +12471,7 @@
                             </staff>
                             <staff xml:id="staff-000000036925370" n="4">
                                 <layer xml:id="layer-000000196681417" n="1">
-                                    <note xml:id="p1cad4n0v1b68s4" dur="4" oct="4" pname="a">
+                                    <note xml:id="p1cad4n0v1b68s4" dur="4" oct="3" pname="a">
                                         <app xml:id="app-000000095191528">
                                             <lem xml:id="lem-000000008699123" source="Italian">
                                                 <verse xml:id="verse-000000001084633" n="1">
@@ -12471,7 +12485,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n256v1b68s4" dur="8" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n256v1b68s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000024393532">
                                             <lem xml:id="lem-000000027465792" source="Italian">
                                                 <verse xml:id="verse-000000097132889" n="1">
@@ -12485,7 +12499,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n384v1b68s4" dur="8" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n384v1b68s4" dur="8" oct="4" pname="c">
                                         <app xml:id="app-000000175869001">
                                             <lem xml:id="lem-000000033809756" source="Italian">
                                                 <verse xml:id="verse-000000147369323" n="1">
@@ -12499,7 +12513,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cbd4n512v1b68s4" dur="4" oct="4" pname="b">
+                                    <note xml:id="p1cbd4n512v1b68s4" dur="4" oct="3" pname="b">
                                         <app xml:id="app-000000086509559">
                                             <lem xml:id="lem-000000119744220" source="Italian">
                                                 <verse xml:id="verse-000000082033843" n="1">
@@ -12513,7 +12527,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cbd4n768v1b68s4" dur="8" oct="4" pname="b">
+                                    <note xml:id="p1cbd4n768v1b68s4" dur="8" oct="3" pname="b">
                                         <app xml:id="app-000000174354254">
                                             <lem xml:id="lem-000000130512327" source="Italian">
                                                 <verse xml:id="verse-000000209580161" n="1">
@@ -12527,7 +12541,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad4n896v1b68s4" dur="8" oct="4" pname="a">
+                                    <note xml:id="p1cad4n896v1b68s4" dur="8" oct="3" pname="a">
                                         <app xml:id="app-000000097292161">
                                             <lem xml:id="lem-000000095304462" source="Italian">
                                                 <verse xml:id="verse-000000172516093" n="1">
@@ -12667,7 +12681,7 @@
                             </staff>
                             <staff xml:id="staff-000000146828228" n="4">
                                 <layer xml:id="layer-000000068574270" n="1">
-                                    <note xml:id="p1cgd4n0v1b69s4" dur="4" oct="4" pname="g">
+                                    <note xml:id="p1cgd4n0v1b69s4" dur="4" oct="3" pname="g">
                                         <app xml:id="app-000000067478730">
                                             <lem xml:id="lem-000000028911213" source="Italian">
                                                 <verse xml:id="verse-000000111556183" n="1">
@@ -12681,7 +12695,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n256v1b69s4" dur="8" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n256v1b69s4" dur="8" oct="4" pname="g">
                                         <app xml:id="app-000000163906362">
                                             <lem xml:id="lem-000000196960530" source="Italian">
                                                 <verse xml:id="verse-000000211662620" n="1">
@@ -12695,7 +12709,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cfd5n384v1b69s4" dur="8" oct="5" pname="f">
+                                    <note xml:id="p1cfd5n384v1b69s4" dur="8" oct="4" pname="f">
                                         <app xml:id="app-000000100133751">
                                             <lem xml:id="lem-000000179782394" source="Italian">
                                                 <verse xml:id="verse-000000127877379" n="1">
@@ -12709,7 +12723,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n512v1b69s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n512v1b69s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000143875006">
                                             <lem xml:id="lem-000000040641000" source="Italian">
                                                 <verse xml:id="verse-000000130462586" n="1">
@@ -12723,7 +12737,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n768v1b69s4" dur="8" oct="5" pname="e">
+                                    <note xml:id="p1ced5n768v1b69s4" dur="8" oct="4" pname="e">
                                         <app xml:id="app-000000085905511">
                                             <lem xml:id="lem-000000060670860" source="Italian">
                                                 <verse xml:id="verse-000000119419048" n="1">
@@ -12737,7 +12751,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n896v1b69s4" dur="8" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n896v1b69s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000147328191">
                                             <lem xml:id="lem-000000096274591" source="Italian">
                                                 <verse xml:id="verse-000000091281513" n="1">
@@ -13029,7 +13043,7 @@
                             </staff>
                             <staff xml:id="staff-000000041581583" n="4">
                                 <layer xml:id="layer-000000070498512" n="1">
-                                    <note xml:id="p1ccd5n0v1b70s4" dur="2" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b70s4" dur="2" oct="4" pname="c">
                                         <app xml:id="app-000000039642367">
                                             <lem xml:id="lem-000000119836550" source="Italian">
                                                 <verse xml:id="verse-000000105265872" n="1">
@@ -13211,7 +13225,7 @@
                             </staff>
                             <staff xml:id="staff-000000132867828" n="4">
                                 <layer xml:id="layer-000000156102491" n="1">
-                                    <note xml:id="p1cgd5n0v1b71s4" dur="2" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n0v1b71s4" dur="2" oct="4" pname="g">
                                         <app xml:id="app-000000045803693">
                                             <lem xml:id="lem-000000164544292" source="Italian">
                                                 <verse xml:id="verse-000000192797892" n="1">
@@ -13225,7 +13239,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd5n512v1b71s4" dur="4" oct="5" pname="g">
+                                    <note xml:id="p1cgd5n512v1b71s4" dur="4" oct="4" pname="g">
                                         <app xml:id="app-000000186900179">
                                             <lem xml:id="lem-000000106979666" source="Italian">
                                                 <verse xml:id="verse-000000178730788" n="1">
@@ -13239,7 +13253,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n768v1b71s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n768v1b71s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000101285884">
                                             <lem xml:id="lem-000000001570453" source="Italian">
                                                 <verse xml:id="verse-000000118442972" n="1">
@@ -13436,7 +13450,7 @@
                             </staff>
                             <staff xml:id="staff-000000205983704" n="4">
                                 <layer xml:id="layer-000000009740925" n="1">
-                                    <note xml:id="p1cdd5n0v1b72s4" dur="2" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b72s4" dur="2" oct="4" pname="d">
                                         <app xml:id="app-000000109755973">
                                             <lem xml:id="lem-000000194938844" source="Italian">
                                                 <verse xml:id="verse-000000016946103" n="1">
@@ -13450,7 +13464,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b72s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b72s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000146406768">
                                             <lem xml:id="lem-000000071793766" source="Italian">
                                                 <verse xml:id="verse-000000046706646" n="1">
@@ -13464,7 +13478,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n768v1b72s4" dur="4" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n768v1b72s4" dur="4" oct="4" pname="c">
                                         <app xml:id="app-000000018072383">
                                             <lem xml:id="lem-000000088360118" source="Italian">
                                                 <verse xml:id="verse-000000213630298" n="1">
@@ -13743,7 +13757,7 @@
                             </staff>
                             <staff xml:id="staff-000000056005705" n="4">
                                 <layer xml:id="layer-000000045801454" n="1">
-                                    <note xml:id="p1cad4n0v1b73s4" dots="1" dur="4" oct="4" pname="a">
+                                    <note xml:id="p1cad4n0v1b73s4" dots="1" dur="4" oct="3" pname="a">
                                         <app xml:id="app-000000037034825">
                                             <lem xml:id="lem-000000103542874" source="Italian">
                                                 <verse xml:id="verse-000000153083336" n="1">
@@ -13757,7 +13771,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad4n384v1b73s4" dur="8" oct="4" pname="a">
+                                    <note xml:id="p1cad4n384v1b73s4" dur="8" oct="3" pname="a">
                                         <app xml:id="app-000000164414937">
                                             <lem xml:id="lem-000000154644286" source="Italian">
                                                 <verse xml:id="verse-000000207298875" n="1">
@@ -13771,7 +13785,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cad4n512v1b73s4" dur="4" oct="4" pname="a">
+                                    <note xml:id="p1cad4n512v1b73s4" dur="4" oct="3" pname="a">
                                         <app xml:id="app-000000102656630">
                                             <lem xml:id="lem-000000061623452" source="Italian">
                                                 <verse xml:id="verse-000000027585672" n="1">
@@ -13785,7 +13799,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n768v1b73s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n768v1b73s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000028535570">
                                             <lem xml:id="lem-000000064235018" source="Italian">
                                                 <verse xml:id="verse-000000013331800" n="1">
@@ -14064,7 +14078,7 @@
                             </staff>
                             <staff xml:id="staff-000000075553800" n="4">
                                 <layer xml:id="layer-000000025649574" n="1">
-                                    <note xml:id="p1cdd5n0v1b74s4" dur="2" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b74s4" dur="2" oct="4" pname="d">
                                         <app xml:id="app-000000048125147">
                                             <lem xml:id="lem-000000097012572" source="Italian">
                                                 <verse xml:id="verse-000000207325285" n="1">
@@ -14078,7 +14092,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cdd5n512v1b74s4" dur="4" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n512v1b74s4" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000176997745">
                                             <lem xml:id="lem-000000106752390" source="Italian">
                                                 <verse xml:id="verse-000000101280958" n="1">
@@ -14092,7 +14106,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ced5n768v1b74s4" dur="4" oct="5" pname="e">
+                                    <note xml:id="p1ced5n768v1b74s4" dur="4" oct="4" pname="e">
                                         <app xml:id="app-000000082719634">
                                             <lem xml:id="lem-000000202728977" source="Italian">
                                                 <verse xml:id="verse-000000066003669" n="1">
@@ -14384,7 +14398,7 @@
                             </staff>
                             <staff xml:id="staff-000000153545110" n="4">
                                 <layer xml:id="layer-000000001571892" n="1">
-                                    <note xml:id="p1ccd5n0v1b75s4" dots="1" dur="4" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n0v1b75s4" dots="1" dur="4" oct="4" pname="c">
                                         <app xml:id="app-000000007225673">
                                             <lem xml:id="lem-000000109063416" source="Italian">
                                                 <verse xml:id="verse-000000032779077" n="1">
@@ -14398,7 +14412,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n384v1b75s4" dur="8" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n384v1b75s4" dur="8" oct="4" pname="c">
                                         <app xml:id="app-000000056611999">
                                             <lem xml:id="lem-000000142626698" source="Italian">
                                                 <verse xml:id="verse-000000081262506" n="1">
@@ -14412,7 +14426,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1ccd5n512v1b75s4" dur="4" oct="5" pname="c">
+                                    <note xml:id="p1ccd5n512v1b75s4" dur="4" oct="4" pname="c">
                                         <app xml:id="app-000000052709317">
                                             <lem xml:id="lem-000000048501557" source="Italian">
                                                 <verse xml:id="verse-000000061215784" n="1">
@@ -14426,7 +14440,7 @@
                                             </rdg>
                                         </app>
                                     </note>
-                                    <note xml:id="p1cgd4n768v1b75s4" dur="4" oct="4" pname="g">
+                                    <note xml:id="p1cgd4n768v1b75s4" dur="4" oct="3" pname="g">
                                         <app xml:id="app-000000074109515">
                                             <lem xml:id="lem-000000018103345" source="Italian">
                                                 <verse xml:id="verse-000000199160983" n="1">
@@ -14628,7 +14642,7 @@
                             </staff>
                             <staff xml:id="staff-000000094253318" n="4">
                                 <layer xml:id="layer-000000131592725" n="1">
-                                    <note xml:id="p1cad4n0v1b76s4" dur="1" oct="4" pname="a">
+                                    <note xml:id="p1cad4n0v1b76s4" dur="1" oct="3" pname="a">
                                         <app xml:id="app-000000010520387">
                                             <lem xml:id="lem-000000078255287" source="Italian">
                                                 <verse xml:id="verse-000000204839262" n="1">
@@ -14738,7 +14752,7 @@
                             </staff>
                             <staff xml:id="staff-000000100762475" n="4">
                                 <layer xml:id="layer-000000009313300" n="1">
-                                    <note xml:id="p1cgd4n0v1b77s4" dur="1" fermata="above" oct="4" pname="g">
+                                    <note xml:id="p1cgd4n0v1b77s4" dur="1" fermata="above" oct="3" pname="g">
                                         <app xml:id="app-000000010882807">
                                             <lem xml:id="lem-000000156492334" source="Italian">
                                                 <verse xml:id="verse-000000187999266" n="1">
