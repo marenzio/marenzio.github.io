@@ -1,5 +1,9 @@
 {
   "_aerobatic": {
+    "build": {
+        "engine": "jekyll"
+      }
+    }
     "router": [
       {
         "module": "basic-auth",
