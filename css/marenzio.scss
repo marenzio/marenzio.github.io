@@ -38,7 +38,7 @@ svg:not(:root){
 .navbar {
     margin-bottom: 0px;
     background-color: $navbar-background !important;
-    background: url("{{ site.baseurl }}images/background-small.png");
+    background: url("/images/background-small.png");
     background-position: right top;
     background-repeat: no-repeat;
     border: 0px !important;
@@ -272,7 +272,7 @@ div.app-inline, div.app-inline-text {
 
 @media(min-width:768px) {
     .navbar {
-        background: url("{{ site.baseurl }}images/background.png");
+        background: url("/images/background.png");
         background-position: right top;
         background-repeat: no-repeat;
     }
