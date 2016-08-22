@@ -9,16 +9,16 @@
         {% if page.saxon %}
         <!-- Saxon-CE -->
         <script type="text/javascript" language="javascript" 
-            src="{{ site.baseurl }}javascript/Saxonce/Saxonce.nocache.js">
+            src="{{ site.baseurl }}/javascript/Saxonce/Saxonce.nocache.js">
         </script>
         {% endif %}  
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="{{ site.baseurl }}javascript/jquery.touchSwipe.min.js" type="text/javascript" ></script>
+        <script src="{{ site.baseurl }}/javascript/jquery.touchSwipe.min.js" type="text/javascript" ></script>
         
-        <script src="{{ site.baseurl }}javascript/verovio-toolkit.js" type="text/javascript" ></script>
-        <script type="text/javascript" src="{{ site.baseurl }}javascript/d3.min.js"></script>
-        <script type="text/javascript" src="{{ site.baseurl }}javascript/jquery.scrollTo.js"></script>
+        <script src="{{ site.baseurl }}/javascript/verovio-toolkit.js" type="text/javascript" ></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/javascript/d3.min.js"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/javascript/jquery.scrollTo.js"></script>
 
         <script type="text/javascript">
         //<![CDATA[
@@ -63,7 +63,7 @@
             }
             
             function load_file() {
-                file = "{{ site.baseurl }}mei/{{ page.mei-file }}";
+                file = "{{ site.baseurl }}/mei/{{ page.mei-file }}";
                 $.ajax({
                     url: file
                     , dataType: "text"
@@ -353,7 +353,7 @@
                 <!-- top navbar -->
                 <div class="sidebar-close"> 
                     <div class="navbar-header">
-                        <img src="{{ site.baseurl }}images/close-1.png" class="pull-left sidebar-close sidebar-close-btn" data-toggle="offcanvas"></img>
+                        <img src="{{ site.baseurl }}/images/close-1.png" class="pull-left sidebar-close sidebar-close-btn" data-toggle="offcanvas"></img>
                     </div>
                 </div>
                 
@@ -489,7 +489,7 @@
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span> 
                     </button>
-                    <a class="navbar-brand logo-nav" href="{{ site.baseurl }}index.xhtml">
+                    <a class="navbar-brand logo-nav" href="{{ site.baseurl }}/index.xhtml">
                         MODE
                     </a>
                     <div class="navbar-collapse collapse">

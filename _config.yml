@@ -1,8 +1,8 @@
 # Site settings
 title: Marenzio Online Digital Edition
 email: lxpugin@gmailcom
-baseurl: "/" 
-url: "http://www.marenzio.org" # the base hostname & protocol for your site
+baseurl: "" 
+url: "http://beta.marenzio.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
