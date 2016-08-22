@@ -3,14 +3,14 @@
 		<div class="panel panel-default">
 			<div class="list-group">
 				{% for t in page.texts %}
-				<a id="link-{{ t.id }}" class="list-group-item" href="{{ site.baseurl }}digital-edition/{{ page.book }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
+				<a id="link-{{ t.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ page.book }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
 				{% endfor %}
 			</div>
 		</div>
 		<div class="panel panel-default">
 			<div class="list-group sublist-group">
 				{% for m in page.madrigals %}
-				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.baseurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
+				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
 				{% endfor %}
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 		if (!id) {
 			id = "{{ page.texts[0].id }}";
 		}
-		var file = "{{ site.baseurl }}texts/{{ page.book }}-" + id + ".html";	
+		var file = "{{ site.fakeurl }}texts/{{ page.book }}-" + id + ".html";	
 		// load the file	
 		$( "#text" ).load( file, function() {		  
 		});

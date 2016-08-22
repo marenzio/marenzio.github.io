@@ -1,7 +1,7 @@
 <div class="panel panel-default">
 	<div class="list-group">
 		{% for m in site.menu %}
-		<a id="link-{{ m.id }}" class="list-group-item {% if page.active_section == m.id %}active{% endif %}" href="{{ site.baseurl }}{{ m.id }}.xhtml">{{ m.name }}</a>
+		<a id="link-{{ m.id }}" class="list-group-item {% if page.active_section == m.id %}active{% endif %}" href="{{ site.fakeurl }}{{ m.id }}.xhtml">{{ m.name }}</a>
 		{% endfor %}
 	</div>
 </div>

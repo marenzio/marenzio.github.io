@@ -1,5 +1,5 @@
 {% for s in m.submenu %}
-    {% capture link %}{{ site.baseurl }}{{ s.id }}.xhtml{% endcapture %}
+    {% capture link %}{{ site.fakeurl }}{{ s.id }}.xhtml{% endcapture %}
     {% if s.url.size > 0 %}
         {% capture link %}{{ s.url }}{% endcapture %}
     {% endif %}
