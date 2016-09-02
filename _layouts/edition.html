@@ -3,6 +3,11 @@
 
         {% include common-header.html %}
         
+        <!-- midi-player -->
+        <link rel="stylesheet" href="{{ fakeurl.baseurl }}/css/midiplayer.css" />
+        <script src="{{ site.fakeurl }}javascript/midi-player/wildwebmidi.js" type="text/javascript"></script>
+        <script src="{{ site.fakeurl }}javascript/midi-player/midiplayer.js" type="text/javascript"></script>
+        
     </head>
     <body>
         
@@ -34,6 +39,7 @@
             var show_inline_app = false;
             var highlighted = "";
             var clicked_ids = "";
+            var ids = [];
 
             // reload cookies
             if ( $.cookie('zoom') ) zoom = $.cookie('zoom');
@@ -339,6 +345,68 @@
                  }
                 load_file();
             }
+            
+            function play_midi() {
+                var base64midi = vrvToolkit.renderToMidi();
+                var song = 'data:audio/midi;base64,' + base64midi;
+                $("#player").show();
+                $("#play-button").hide();
+                $("#player").midiPlayer.play(song);
+            }
+    
+            var midiUpdate = function(time) {
+                var vrvTime = Math.max(0, 2 * time - 800);
+                var elementsattime = JSON.parse(vrvToolkit.getElementsAtTime(vrvTime))
+                if (elementsattime.page > 0) {
+                    if (elementsattime.page != page) {
+                        page = elementsattime.page;
+                        load_page();
+                    }
+                    if ((elementsattime.notes.length > 0) && (ids != elementsattime.notes)) {
+                        ids.forEach(function(noteid) {
+                            if ($.inArray(noteid, elementsattime.notes) == -1) {
+                                $("#" + noteid ).attr("fill", "#000");
+                                $("#" + noteid ).attr("stroke", "#000"); 
+                                //$("#" + noteid ).removeClassSVG("highlighted"); 
+                            }
+                        });
+                        ids = elementsattime.notes;
+                        ids.forEach(function(noteid) {
+                            if ($.inArray(noteid, elementsattime.notes) != -1) {
+                            //console.log(noteid);
+                                $("#" + noteid ).attr("fill", "#c00");
+                                $("#" + noteid ).attr("stroke", "#c00");; 
+                                //$("#" + noteid ).addClassSVG("highlighted"); 
+                            }
+                        }); 
+                    }
+                }
+            }
+    
+            var midiStop = function() {
+                ids.forEach(function(noteid) {
+                    $("#" + noteid ).attr("fill", "#000");
+                    $("#" + noteid ).attr("stroke", "#000"); 
+                    //$("#" + noteid ).removeClassSVG("highlighted"); 
+                });
+                $("#player").hide();
+                $("#play-button").show();
+            }
+    
+            $.fn.addClassSVG = function(className){
+                $(this).attr('class', function(index, existingClassNames) {
+                    return existingClassNames + ' ' + className;
+                });
+                return this;
+            };
+
+            $.fn.removeClassSVG = function(className){
+                $(this).attr('class', function(index, existingClassNames) {
+                    //var re = new RegExp(className, 'g');
+                    //return existingClassNames.replace(re, '');
+                });
+                return this;
+            };
 
         //]]>
         </script>
@@ -473,7 +541,20 @@
                         </div>
                     </div>
                     
-
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Playback</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="btn-group">
+                                <button id="play-button" onclick="play_midi();" class="btn btn-sm btn-default" type="button">
+                                    <span class="glyphicon glyphicon-volume-up"/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
     
             </div>
@@ -498,6 +579,7 @@
                 </div>
 
                 <div id="svg_panel" style="background-color: #fff;">
+                    <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
                     <div id="svg_output" class="hasSVG" style="overflow:hidden;" />
                 </div>
     
@@ -600,6 +682,13 @@
                     });
                     
                     load_file();
+                    
+                    $("#player").midiPlayer({
+                        color: "#c00",
+                        onUnpdate: midiUpdate,
+                        onStop: midiStop,
+                        width: 250
+                    });
                 });
             //]]>
             </script>
