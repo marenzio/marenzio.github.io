@@ -39,10 +39,12 @@
             var show_inline_app = false;
             var highlighted = "";
             var clicked_ids = "";
+            var toggle = true;
             var ids = [];
 
             // reload cookies
             if ( $.cookie('zoom') ) zoom = $.cookie('zoom');
+            if ( $.cookie('toggle') ) toggle = ($.cookie('toggle') == "true");
             if ( $.cookie('vertical_layout') ) vertical_layout = ($.cookie('vertical_layout') == "true");
     
             function set_options( ) {
@@ -415,7 +417,7 @@
         <div id="wrapper">
             
             <!-- sidebar -->
-            <div id="sidebar-wrapper">
+            <div id="sidebar-wrapper" class="toggled">
                 
 
                 <!-- top navbar -->
@@ -671,8 +673,15 @@
                     
                     
                     $('[data-toggle=offcanvas]').click(function() {
-                      $('#wrapper').toggleClass('toggled');
+                        toggle = !toggle;
+                        $.cookie('toggle', toggle, { expires: 30 });
+                        $('#wrapper').toggleClass('toggled');
+                        console.log(toggle);
                     });
+      
+                    if (toggle == true) {
+                        $('#wrapper').toggleClass('toggled');
+                    }
       
                     $("#wrapper").on('transitionend webkitTransitionEnd oTransitionEnd mozTransitionend MSTransitionEnd', 
                         function() {
