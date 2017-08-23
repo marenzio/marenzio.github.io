@@ -34,19 +34,19 @@
         <body>
             <mdiv>
                 <score>
-                    <section>
-                        <scoreDef xml:id="scoredef-000000030924380" meter.count="4" meter.unit="4">
-                            <staffGrp xml:id="m-000000186241835">
-                                <staffGrp xml:id="m-000000209110384" n="1" symbol="bracket">
-                                    <staffDef xml:id="sd1" label="Canto" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd2" label="Quinto" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd3" label="Alto" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd4" label="Sesto" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd5" label="Tenore" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
-                                    <staffDef xml:id="sd6" label="Basso" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" />
-                                </staffGrp>
+                    <scoreDef xml:id="scoredef-000000030924380" meter.count="4" meter.unit="4">
+                        <staffGrp xml:id="m-000000186241835">
+                            <staffGrp xml:id="m-000000209110384" n="1" symbol="bracket">
+                                <staffDef xml:id="sd1" label="Canto" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
+                                <staffDef xml:id="sd2" label="Quinto" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
+                                <staffDef xml:id="sd3" label="Alto" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
+                                <staffDef xml:id="sd4" label="Sesto" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
+                                <staffDef xml:id="sd5" label="Tenore" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
+                                <staffDef xml:id="sd6" label="Basso" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" />
                             </staffGrp>
-                        </scoreDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
                         <measure xml:id="measure-000000193210370" label="1" n="1">
                             <staff xml:id="staff-000000040380239" n="1">
                                 <layer xml:id="layer-000000065856185" n="1">

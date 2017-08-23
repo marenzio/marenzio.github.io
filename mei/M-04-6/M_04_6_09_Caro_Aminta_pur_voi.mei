@@ -36,19 +36,19 @@
         <body>
             <mdiv>
                 <score>
-                    <section>
-                        <scoreDef xml:id="scoredef-000000037382094" meter.count="4" meter.unit="4">
-                            <staffGrp xml:id="m-000000174555343">
-                                <staffGrp xml:id="m-000000041275776" n="1" symbol="bracket">
-                                    <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
-                                    <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Quinto" lines="5" />
-                                    <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" label="Alto" lines="5" />
-                                    <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Sesto" lines="5" />
-                                    <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="5" label="Tenore" lines="5" />
-                                    <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="6" label="Basso" lines="5" />
-                                </staffGrp>
+                    <scoreDef xml:id="scoredef-000000037382094" meter.count="4" meter.unit="4">
+                        <staffGrp xml:id="m-000000174555343">
+                            <staffGrp xml:id="m-000000041275776" n="1" symbol="bracket">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" label="Alto" lines="5" />
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Sesto" lines="5" />
+                                <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="5" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="6" label="Basso" lines="5" />
                             </staffGrp>
-                        </scoreDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
                         <measure xml:id="measure-000000158996473" n="1">
                             <anchoredText xml:id="anchtxt-000000184148973">9. Caro Aminta, pur vuoi Prima parte</anchoredText>
                             <staff xml:id="staff-000000034359772" n="1">
