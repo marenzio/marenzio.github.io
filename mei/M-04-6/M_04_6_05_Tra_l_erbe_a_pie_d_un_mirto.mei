@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -36,19 +36,19 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef xml:id="scoredef-000000037382094" meter.count="4" meter.unit="4">
+                    <scoreDef xml:id="scoredef-000000037382094" meter.sym="common">
                         <staffGrp xml:id="m-000000122178133">
                             <staffGrp xml:id="m-000000112256536" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="5" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="6" label="Basso" lines="5" />
+                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
+                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Sesto" lines="5" />
+                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
-                    <section>
+                    <section xml:id="section-0000001859786378">
                         <measure xml:id="measure-000000009299962" n="1">
                             <anchoredText xml:id="anchtxt-000000072708630">5. Tra l’erbe a piè d’un mirto, che ’l copriva Prima parte 																																					(Bartolomeo Gottifredi)</anchoredText>
                             <staff xml:id="staff-000000173670380" n="1">
@@ -1318,7 +1318,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 (copy GB-Obl only)" plist="p1ced5n384v1b17s4">g3 instead of e3, corrected in the other copies</annot>
+                            <annot xml:id="annot-0000000626884776" label="app" plist="p1ced5n384v1b17s4" source="Vi-1587 (copy GB-Obl only)">g3 instead of e3, corrected in the other copies</annot>
                         </measure>
                         <measure xml:id="measure-000000085335001" n="18">
                             <staff xml:id="staff-000000052372362" n="1">
@@ -2232,7 +2232,7 @@
                                     <mRest xml:id="mrest-000000137328670" />
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 (copy GB-Obl only)" plist="p1cgd5n896v1b30s4">e3 instead of g3, corrected in the other copies</annot>
+                            <annot xml:id="annot-0000001301570567" label="app" plist="p1cgd5n896v1b30s4" source="Vi-1587 (copy GB-Obl only)">e3 instead of g3, corrected in the other copies</annot>
                         </measure>
                         <measure xml:id="measure-000000169576835" n="31">
                             <staff xml:id="staff-000000151807883" n="1">
@@ -3332,7 +3332,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 (copy I-Vnm only)" plist="p1cbd4n768v1b42s2">a3 instead of b3, corrected in the other copies</annot>
+                            <annot xml:id="annot-0000000703377880" label="app" plist="p1cbd4n768v1b42s2" source="Vi-1587 (copy I-Vnm only)">a3 instead of b3, corrected in the other copies</annot>
                         </measure>
                         <measure xml:id="measure-000000093272575" n="43">
                             <staff xml:id="staff-000000147324608" n="1">
@@ -9163,7 +9163,7 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587" plist="p1cad4n0v1b115s1">In all the copies except US-Bem two [M] a3 have been pasted over.</annot>
+                            <annot xml:id="annot-0000001097908658" label="app" plist="p1cad4n0v1b115s1" source="Vi-1587">In all the copies except US-Bem two [M] a3 have been pasted over.</annot>
                         </measure>
                         <measure xml:id="measure-000000171349593" n="116">
                             <staff xml:id="staff-000000145112627" n="1">

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
@@ -36,14 +36,14 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef xml:id="scoredef-000000005372435" meter.count="2" meter.unit="2" meter.sym="cut">
+                    <scoreDef xml:id="scoredef-000000005372435" meter.sym="cut">
                         <staffGrp xml:id="m-000000209288569">
                             <staffGrp xml:id="m-000000149523845" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" label="Basso" lines="5" />
+                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
+                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -3481,7 +3481,7 @@
                             <staff xml:id="staff-000000011052313" n="3">
                                 <layer xml:id="layer-000000213644213" n="1">
                                     <note xml:id="p1ccd5n0v1b14s3" dur="4" oct="4" pname="c" tie="t">
-                                        <accid xml:id="accid-000000059286618" accid="s" />
+                                        <accid xml:id="accid-000000059286618" accid.ges="s" />
                                     </note>
                                     <note xml:id="p1cdd5n256v1b14s3" dur="4" oct="4" pname="d">
                                         <app xml:id="app-000000124569707">
@@ -11309,7 +11309,7 @@
                             <staff xml:id="staff-000000192621203" n="2">
                                 <layer xml:id="layer-000000039370721" n="1">
                                     <note xml:id="p1cbd4n0v1b59s2" dur="4" oct="4" pname="b" tie="t">
-                                        <accid xml:id="accid-000000135249889" accid="f" />
+                                        <accid xml:id="accid-000000135249889" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cgd4n256v1b59s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000026042829" n="1">
@@ -12085,7 +12085,7 @@
                             <staff xml:id="staff-000000091668568" n="2">
                                 <layer xml:id="layer-000000131405722" n="1">
                                     <note xml:id="p1cbd4n0v1b67s2" dur="4" oct="4" pname="b" tie="t">
-                                        <accid xml:id="accid-000000156032543" accid="f" />
+                                        <accid xml:id="accid-000000156032543" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cgd4n256v1b67s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000210239186" n="1">

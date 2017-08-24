@@ -1,0 +1,743 @@
+# for i in `LS *.mei`; do echo "**********************\n$i" >> $LOG; $ROOT/tools/verovio -r $ROOT/data -o test.mei -t mei --all-pages --app-xpath-query="./rdg[@source='English']" $i >> $LOG 2>&1; mv test.mei $i; done
+
+**********************\nM_01_5_01_Liquide_perle_Amor_da_gl_occhi_sparse.mei
+./rdg[@source='English']
+[Warning] Syllable with underline extender under one single note 'p1cgd4n0v1b30s3'
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_02_Ohime_dov_e_il_mio_ben_dov_e_il_mio_core.mei
+./rdg[@source='English']
+[Warning] Tied note (note 'p1cgd4n0v1b23s2' measure 23)
+[Warning] Tied note (note 'p1cgd4n0v1b35s2' measure 35)
+[Warning] Tied note (note 'p1ccd5n0v1b54s4' measure 54)
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_03_Spuntavan_gia_per_fare_il_mondo_adorno.mei
+./rdg[@source='English']
+[Warning] Expected @tie median or terminal in note 'p1cfd5n0v1b140s2', skipping it
+[Warning] Syllable with underline extender under one single note 'p1ced5n512v1b94s1'
+[Warning] Syllable with underline extender under one single note 'p1cgd5n512v1b26s2'
+[Warning] Syllable with underline extender under one single note 'p1cad4n512v1b88s2'
+[Warning] Syllable with underline extender under one single note 'p1cfd5n512v1b139s2'
+[Warning] Syllable with underline extender under one single note 'p1cgd4n0v1b26s3'
+[Warning] Syllable with underline extender under one single note 'p1cfd4n512v1b87s3'
+[Warning] Syllable with underline extender under one single note 'p1cad4n512v1b95s3'
+[Warning] Syllable with underline extender under one single note 'p1cdd5n512v1b87s4'
+[Message] Replacing 4/4 by c
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_04_Quando_i_vostri_begl_occhi_un_caro_velo.mei
+./rdg[@source='English']
+[Warning] Tied note (note 'p1cbd3n0v1b31s5' measure 31)
+[Warning] Tied note (note 'p1cfd5n0v1b41s3' measure 41)
+[Warning] Tied note (note 'p1ccd5n0v1b69s1' measure 69)
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_05_Tirsi_morir_volea.mei
+./rdg[@source='English']
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b57s1'
+[Warning] Syllable with underline extender under one single note 'p1cgd4n0v1b67s1'
+[Warning] Syllable with underline extender under one single note 'p1ced4n0v1b57s2'
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b67s3'
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b57s4'
+[Warning] Syllable with underline extender under one single note 'p1ced3n0v1b57s5'
+[Warning] Tied note (note 'p1cgd4n0v1b3s3' measure 3)
+[Warning] Tied note (note 'p1cfd4n0v1b44s1' measure 44)
+[Warning] Tied note (note 'p1ccd5n0v1b60s3' measure 60)
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_06_Dolorosi_martir.mei
+./rdg[@source='English']
+[Warning] Syllable with underline extender under one single note 'p1cad4n1024v1b19s1'
+[Warning] Syllable with underline extender under one single note 'p1cdd4n1792v1b28s2'
+[Warning] Syllable with underline extender under one single note 'p1ccd5n1792v1b42s4'
+[Warning] Syllable with underline extender under one single note 'p1cgd3n256v1b14s5'
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_07_Che_fa_oggi_il_mio_sole-demo.mei
+./rdg[@source='English']
+[Warning] Element <rend> within <syl> is not supported and will be ignored 
+[Warning] Tied note (note 'p1ccd5n0v1b47s3' measure 47)
+Output written to test.mei.
+**********************\nM_01_5_07_Che_fa_oggi_il_mio_sole.mei
+./rdg[@source='English']
+[Warning] Tied note (note 'p1ccd5n0v1b47s3' measure 47)
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_08_Lasso_ch_io_ardo_e_l_mio_bel_sole_ardente.mei
+./rdg[@source='English']
+[Warning] Syllable with underline extender under one single note 'p1cfd4n256v1b26s2'
+[Warning] Syllable with underline extender under one single note 'p1cdd5n256v1b26s3'
+[Warning] Syllable with underline extender under one single note 'p1cad4n256v1b59s3'
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_09_Venuta_era_madonna_al_mio_languire.mei
+./rdg[@source='English']
+[Warning] Syllable with underline extender under one single note 'p1cgd4n1536v1b37s2'
+[Warning] Syllable with underline extender under one single note 'p1cdd5n1024v1b8s3'
+[Warning] Syllable with underline extender under one single note 'p1cgd4n0v1b44s3'
+[Warning] Syllable with underline extender under one single note 'p1ccd5n0v1b47s4'
+[Warning] Syllable with underline extender under one single note 'p1ccd3n0v1b45s5'
+[Warning] Tied note (note 'p1ccd5n0v1b14s3' measure 14)
+[Warning] Tied note (note 'p1cbd4n0v1b59s2' measure 59)
+[Warning] Tied note (note 'p1cbd4n0v1b67s2' measure 67)
+[Message] Replacing 2/2 by c/
+Output written to test.mei.
+**********************\nM_01_5_10_Madonna_mia_gentil_ringrazio_Amore.mei
+./rdg[@source='English']
+[Warning] Expected @tie median or terminal in note 'p1ccd5n0v1b26s1', skipping it
+[Warning] Expected @tie median or terminal in note 'p1ccd5n0v1b40s1', skipping it
+[Warning] Expected @tie median or terminal in note 'p1cgd4n0v1b40s2', skipping it
+[Warning] Expected @tie median or terminal in note 'p1ccd3n0v1b26s5', skipping it
+[Warning] Syllable with underline extender under one single note 'p1cfd4n0v1b41s3'
+[Warning] Key sig note (note 'p1cbd4n0v1b2s2' measure 2)
+[Message] Adding accid natural to note 'p1cbd4n256v1b4s2' measure '4'
+[Warning] Key sig note (note 'p1cbd4n768v1b5s2' measure 5)
+[Message] Adding accid natural to note 'p1cbd4n768v1b7s2' measure '7'
+[Warning] Key sig note (note 'p1cbd4n768v1b9s2' measure 9)
+[Warning] Key sig note (note 'p1cbd4n0v1b9s3' measure 9)
+[Warning] Key sig note (note 'p1cbd4n256v1b9s3' measure 9)
+[Warning] Key sig note (note 'p1cbd4n384v1b9s3' measure 9)
+[Warning] Key sig note (note 'p1cbd4n0v1b9s4' measure 9)
+[Warning] Key sig note (note 'p1cbd4n256v1b9s4' measure 9)
+[Warning] Key sig note (note 'p1cbd4n384v1b9s4' measure 9)
+[Message] Adding accid natural to note 'p1cbd4n0v1b11s2' measure '11'
+[Message] Adding accid natural to note 'p1cbd4n0v1b13s1' measure '13'
+[Message] Adding accid natural to note 'p1cbd4n384v1b15s1' measure '15'
+[Warning] Key sig note (note 'p1cbd4n512v1b16s3' measure 16)
+[Warning] Key sig note (note 'p1cbd3n0v1b16s5' measure 16)
+[Warning] Key sig note (note 'p1cbd4n512v1b17s3' measure 17)
+[Warning] Key sig note (note 'p1cbd4n768v1b17s3' measure 17)
+[Message] Adding accid natural to note 'p1cbd4n768v1b19s2' measure '19'
+[Message] Adding accid natural to note 'p1cbd4n0v1b21s1' measure '21'
+[Message] Adding accid natural to note 'p1cbd4n0v1b22s2' measure '22'
+[Message] Adding accid natural to note 'p1cbd4n0v1b23s1' measure '23'
+[Message] Adding accid natural to note 'p1cbd3n0v1b24s5' measure '24'
+[Message] Adding accid natural to note 'p1cbd4n0v1b25s2' measure '25'
+[Warning] Key sig note (note 'p1cbd4n0v1b28s1' measure 28)
+[Warning] Key sig note (note 'p1cbd4n768v1b28s2' measure 28)
+[Warning] Key sig note (note 'p1cbd4n512v1b28s4' measure 28)
+[Warning] Key sig note (note 'p1cbd2n0v1b28s5' measure 28)
+[Warning] Key sig note (note 'p1cbd4n256v1b29s1' measure 29)
+[Warning] Key sig note (note 'p1cbd4n256v1b30s3' measure 30)
+[Warning] Key sig note (note 'p1cbd4n512v1b31s1' measure 31)
+[Warning] Key sig note (note 'p1cbd4n0v1b31s3' measure 31)
+[Warning] Key sig note (note 'p1cbd4n256v1b32s3' measure 32)
+[Message] Adding accid natural to note 'p1cbd3n0v1b33s5' measure '33'
+[Message] Adding accid natural to note 'p1cbd4n512v1b34s1' measure '34'
+[Warning] Key sig note (note 'p1cbd4n0v1b34s2' measure 34)
+[Message] Adding accid natural to note 'p1cbd4n512v1b35s2' measure '35'
+[Message] Adding accid natural to note 'p1cbd4n512v1b36s1' measure '36'
+[Message] Adding accid natural to note 'p1cbd3n512v1b37s5' measure '37'
+[Message] Adding accid natural to note 'p1cbd4n512v1b38s2' measure '38'
+[Warning] Key sig note (note 'p1cbd4n0v1b42s4' measure 42)
+[Warning] Key sig note (note 'p1cbd2n0v1b42s5' measure 42)
+[Warning] Key sig note (note 'p1cbd3n512v1b42s5' measure 42)
+[Warning] Key sig note (note 'p1cbd4n256v1b43s2' measure 43)
+[Warning] Key sig note (note 'p1cbd4n256v1b44s3' measure 44)
+[Warning] Key sig note (note 'p1cbd4n512v1b45s1' measure 45)
+[Warning] Key sig note (note 'p1cbd4n0v1b45s3' measure 45)
+[Warning] Key sig note (note 'p1cbd4n0v1b47s2' measure 47)
+[Warning] Key sig note (note 'p1cbd4n512v1b47s4' measure 47)
+[Warning] Key sig note (note 'p1cbd4n0v1b48s2' measure 48)
+[Warning] Key sig note (note 'p1cbd4n256v1b48s4' measure 48)
+[Warning] Key sig note (note 'p1cbd3n512v1b48s5' measure 48)
+[Warning] Key sig note (note 'p1cbd4n512v1b49s2' measure 49)
+[Warning] Key sig note (note 'p1cbd3n0v1b49s3' measure 49)
+[Warning] Key sig note (note 'p1cbd4n0v1b50s1' measure 50)
+[Warning] Key sig note (note 'p1cbd3n0v1b50s3' measure 50)
+[Warning] Key sig note (note 'p1cbd4n512v1b50s3' measure 50)
+[Warning] Key sig note (note 'p1cbd4n512v1b50s4' measure 50)
+[Message] Adding accid natural to note 'p1cbd4n0v1b53s2' measure '53'
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_11_Cantava_la_piu_vaga_pastorella.mei
+./rdg[@source='English']
+[Warning] Expected @tie median or terminal in note 'p1ccd5n0v1b55s1', skipping it
+[Warning] Expected @tie median or terminal in note 'p1cad4n0v1b55s3', skipping it
+[Warning] Expected @tie median or terminal in note 'p1cfd5n0v1b55s4', skipping it
+[Warning] Syllable with underline extender under one single note 'p1cbd4n512v1b48s4'
+[Warning] Key sig note (note 'p1cbd4n768v1b1s1' measure 1)
+[Warning] Key sig note (note 'p1cbd4n256v1b2s2' measure 2)
+[Warning] Key sig note (note 'p1cbd4n256v1b5s2' measure 5)
+[Warning] Key sig note (note 'p1cbd4n768v1b6s2' measure 6)
+[Warning] Key sig note (note 'p1cbd4n512v1b7s1' measure 7)
+[Warning] Key sig note (note 'p1cbd4n768v1b7s1' measure 7)
+[Warning] Key sig note (note 'p1cbd4n0v1b7s2' measure 7)
+[Warning] Key sig note (note 'p1cbd4n768v1b7s2' measure 7)
+[Warning] Key sig note (note 'p1cbd4n512v1b7s3' measure 7)
+[Warning] Key sig note (note 'p1cbd4n512v1b8s1' measure 8)
+[Warning] Key sig note (note 'p1cbd4n768v1b8s2' measure 8)
+[Warning] Key sig note (note 'p1cbd3n512v1b8s3' measure 8)
+[Warning] Key sig note (note 'p1cbd4n512v1b9s1' measure 9)
+[Warning] Key sig note (note 'p1cbd4n0v1b9s2' measure 9)
+[Warning] Key sig note (note 'p1cbd4n768v1b9s2' measure 9)
+[Warning] Key sig note (note 'p1cbd3n512v1b9s5' measure 9)
+[Warning] Key sig note (note 'p1cbd4n256v1b10s1' measure 10)
+[Warning] Key sig note (note 'p1cbd4n0v1b11s1' measure 11)
+[Warning] Key sig note (note 'p1cbd4n0v1b11s4' measure 11)
+[Warning] Key sig note (note 'p1cbd2n0v1b11s5' measure 11)
+[Warning] Key sig note (note 'p1cbd3n512v1b11s5' measure 11)
+[Message] Adding accid natural to note 'p1cbd4n0v1b13s2' measure '13'
+[Warning] Key sig note (note 'p1cbd4n512v1b14s2' measure 14)
+[Message] Adding accid natural to note 'p1cbd4n384v1b15s1' measure '15'
+[Message] Adding accid natural to note 'p1cbd4n256v1b16s3' measure '16'
+[Message] Adding accid natural to note 'p1cbd4n768v1b16s3' measure '16'
+[Warning] Key sig note (note 'p1cbd4n0v1b18s3' measure 18)
+[Warning] Key sig note (note 'p1cbd4n0v1b20s1' measure 20)
+[Warning] Key sig note (note 'p1cbd4n512v1b20s2' measure 20)
+[Warning] Key sig note (note 'p1cbd4n256v1b21s1' measure 21)
+[Warning] Key sig note (note 'p1cbd4n768v1b21s2' measure 21)
+[Warning] Key sig note (note 'p1cbd4n256v1b22s1' measure 22)
+[Warning] Key sig note (note 'p1cbd4n0v1b23s1' measure 23)
+[Warning] Key sig note (note 'p1cbd4n256v1b23s3' measure 23)
+[Warning] Key sig note (note 'p1cbd3n0v1b23s5' measure 23)
+[Warning] Key sig note (note 'p1cbd4n256v1b24s2' measure 24)
+[Warning] Key sig note (note 'p1cbd4n0v1b24s3' measure 24)
+[Warning] Key sig note (note 'p1cbd3n256v1b24s5' measure 24)
+[Warning] Key sig note (note 'p1cbd4n256v1b25s1' measure 25)
+[Warning] Key sig note (note 'p1cbd4n0v1b25s2' measure 25)
+[Warning] Key sig note (note 'p1cbd4n0v1b25s4' measure 25)
+[Warning] Key sig note (note 'p1cbd4n0v1b26s1' measure 26)
+[Warning] Key sig note (note 'p1cbd4n256v1b26s3' measure 26)
+[Warning] Key sig note (note 'p1cbd4n256v1b26s4' measure 26)
+[Warning] Key sig note (note 'p1cbd4n256v1b27s2' measure 27)
+[Warning] Key sig note (note 'p1cbd4n0v1b27s3' measure 27)
+[Warning] Key sig note (note 'p1cbd4n0v1b28s2' measure 28)
+[Warning] Key sig note (note 'p1cbd4n256v1b28s3' measure 28)
+[Warning] Key sig note (note 'p1cbd4n512v1b29s2' measure 29)
+[Warning] Key sig note (note 'p1cbd4n0v1b30s4' measure 30)
+[Warning] Key sig note (note 'p1cbd3n512v1b30s5' measure 30)
+[Warning] Tied note (note 'p1cbd3n0v1b31s5' measure 31)
+[Message] Adding accid natural to note 'p1cbd4n0v1b32s4' measure '32'
+[Warning] Key sig note (note 'p1cbd4n512v1b33s3' measure 33)
+[Warning] Tied note (note 'p1cbd4n0v1b34s3' measure 34)
+[Message] Adding accid natural to note 'p1cbd4n256v1b37s2' measure '37'
+[Warning] Key sig note (note 'p1cbd4n0v1b38s3' measure 38)
+[Warning] Key sig note (note 'p1cbd4n256v1b38s3' measure 38)
+[Warning] Key sig note (note 'p1cbd4n768v1b38s3' measure 38)
+[Warning] Key sig note (note 'p1cbd3n0v1b38s5' measure 38)
+[Warning] Key sig note (note 'p1cbd3n0v1b40s5' measure 40)
+[Warning] Key sig note (note 'p1cbd3n768v1b40s5' measure 40)
+[Warning] Key sig note (note 'p1cbd4n512v1b41s1' measure 41)
+[Warning] Key sig note (note 'p1cbd4n256v1b42s1' measure 42)
+[Warning] Key sig note (note 'p1cbd4n0v1b43s2' measure 43)
+[Warning] Key sig note (note 'p1cbd4n768v1b43s2' measure 43)
+[Message] Adding accid natural to note 'p1cbd4n512v1b45s2' measure '45'
+[Message] Adding accid natural to note 'p1cbd4n0v1b46s2' measure '46'
+[Warning] Key sig note (note 'p1cbd4n512v1b48s3' measure 48)
+[Warning] Key sig note (note 'p1cbd4n512v1b48s4' measure 48)
+[Warning] Key sig note (note 'p1cbd2n512v1b48s5' measure 48)
+[Warning] Tied note (note 'p1cbd4n0v1b49s3' measure 49)
+[Warning] Key sig note (note 'p1cbd4n512v1b49s3' measure 49)
+[Warning] Key sig note (note 'p1cbd4n0v1b49s4' measure 49)
+[Warning] Key sig note (note 'p1cbd2n0v1b49s5' measure 49)
+[Warning] Key sig note (note 'p1cbd4n0v1b51s2' measure 51)
+[Warning] Key sig note (note 'p1cbd4n0v1b52s3' measure 52)
+[Warning] Key sig note (note 'p1cbd4n0v1b52s4' measure 52)
+[Warning] Key sig note (note 'p1cbd4n256v1b54s1' measure 54)
+[Warning] Key sig note (note 'p1cbd4n384v1b54s1' measure 54)
+[Warning] Key sig note (note 'p1cbd4n640v1b55s1' measure 55)
+[Warning] Key sig note (note 'p1cbd4n256v1b55s3' measure 55)
+[Warning] Key sig note (note 'p1cbd4n256v1b55s4' measure 55)
+[Warning] Key sig note (note 'p1cbd4n384v1b56s1' measure 56)
+[Warning] Key sig note (note 'p1cbd4n512v1b57s2' measure 57)
+[Warning] Key sig note (note 'p1cbd4n256v1b58s1' measure 58)
+[Message] Adding accid natural to note 'p1cbd4n512v1b59s1' measure '59'
+[Warning] Key sig note (note 'p1cbd3n0v1b60s5' measure 60)
+[Warning] Key sig note (note 'p1cbd4n0v1b61s1' measure 61)
+[Warning] Key sig note (note 'p1cbd4n512v1b61s1' measure 61)
+[Warning] Key sig note (note 'p1cbd3n768v1b61s3' measure 61)
+[Warning] Key sig note (note 'p1cbd4n256v1b61s4' measure 61)
+[Warning] Key sig note (note 'p1cbd3n0v1b61s5' measure 61)
+[Warning] Key sig note (note 'p1cbd4n384v1b63s1' measure 63)
+[Warning] Key sig note (note 'p1cbd4n768v1b63s2' measure 63)
+[Warning] Key sig note (note 'p1cbd3n128v1b63s5' measure 63)
+[Warning] Key sig note (note 'p1cbd4n0v1b65s2' measure 65)
+[Warning] Key sig note (note 'p1cbd4n768v1b65s3' measure 65)
+[Warning] Key sig note (note 'p1cbd4n512v1b66s4' measure 66)
+[Warning] Key sig note (note 'p1cbd4n256v1b67s1' measure 67)
+[Warning] Key sig note (note 'p1cbd4n0v1b68s1' measure 68)
+[Warning] Key sig note (note 'p1cbd4n512v1b68s2' measure 68)
+[Warning] Key sig note (note 'p1cbd4n0v1b70s3' measure 70)
+[Warning] Key sig note (note 'p1cbd2n0v1b70s5' measure 70)
+[Warning] Key sig note (note 'p1cbd4n768v1b71s1' measure 71)
+[Warning] Key sig note (note 'p1cbd4n256v1b71s4' measure 71)
+[Warning] Key sig note (note 'p1cbd4n512v1b72s2' measure 72)
+[Message] Adding accid natural to note 'p1cbd4n0v1b74s2' measure '74'
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_12_Questa_di_verd_erbette.mei
+./rdg[@source='English']
+[Warning] Key sig note (note 'p1cbd4n0v1b1s1' measure 1)
+[Warning] Tied note (note 'p1cbd4n0v1b2s1' measure 2)
+[Warning] Key sig note (note 'p1cbd4n0v1b4s1' measure 4)
+[Warning] Key sig note (note 'p1cbd4n256v1b4s1' measure 4)
+[Warning] Key sig note (note 'p1cbd4n512v1b5s2' measure 5)
+[Warning] Key sig note (note 'p1cbd4n512v1b5s4' measure 5)
+[Warning] Key sig note (note 'p1cbd4n256v1b6s1' measure 6)
+[Warning] Key sig note (note 'p1cbd4n768v1b6s4' measure 6)
+[Warning] Key sig note (note 'p1cbd4n256v1b8s4' measure 8)
+[Warning] Key sig note (note 'p1cbd4n256v1b9s1' measure 9)
+[Warning] Key sig note (note 'p1cbd4n512v1b10s2' measure 10)
+[Warning] Key sig note (note 'p1cbd4n512v1b10s4' measure 10)
+[Warning] Key sig note (note 'p1cbd4n0v1b13s1' measure 13)
+[Warning] Key sig note (note 'p1cbd4n256v1b13s1' measure 13)
+[Warning] Key sig note (note 'p1cbd4n384v1b13s1' measure 13)
+[Warning] Key sig note (note 'p1cbd4n512v1b13s1' measure 13)
+[Warning] Key sig note (note 'p1cbd4n768v1b13s1' measure 13)
+[Warning] Key sig note (note 'p1cbd4n0v1b13s4' measure 13)
+[Warning] Key sig note (note 'p1cbd4n256v1b13s4' measure 13)
+[Warning] Key sig note (note 'p1cbd4n384v1b13s4' measure 13)
+[Warning] Key sig note (note 'p1cbd4n512v1b13s4' measure 13)
+[Warning] Key sig note (note 'p1cbd4n768v1b13s4' measure 13)
+[Warning] Key sig note (note 'p1cbd4n0v1b14s1' measure 14)
+[Warning] Key sig note (note 'p1cbd4n512v1b14s1' measure 14)
+[Warning] Key sig note (note 'p1cbd4n256v1b14s2' measure 14)
+[Warning] Key sig note (note 'p1cbd4n0v1b14s3' measure 14)
+[Warning] Key sig note (note 'p1cbd4n0v1b14s4' measure 14)
+[Warning] Key sig note (note 'p1cbd4n0v1b15s1' measure 15)
+[Warning] Key sig note (note 'p1cbd4n896v1b15s2' measure 15)
+[Warning] Key sig note (note 'p1cbd4n0v1b15s4' measure 15)
+[Warning] Key sig note (note 'p1cbd4n256v1b16s4' measure 16)
+[Warning] Key sig note (note 'p1cbd4n896v1b17s1' measure 17)
+[Warning] Key sig note (note 'p1cbd4n512v1b18s4' measure 18)
+[Message] Adding accid natural to note 'p1cbd4n384v1b19s3' measure '19'
+[Warning] Key sig note (note 'p1cbd4n0v1b24s2' measure 24)
+[Warning] Tied note (note 'p1cbd4n0v1b25s2' measure 25)
+[Message] Adding accid natural to note 'p1cbd4n512v1b28s1' measure '28'
+[Message] Adding accid natural to note 'p1cbd4n0v1b30s2' measure '30'
+[Message] Adding accid natural to note 'p1cbd4n512v1b31s1' measure '31'
+[Message] Adding accid natural to note 'p1cbd4n0v1b33s2' measure '33'
+[Message] Adding accid natural to note 'p1cbd4n512v1b34s1' measure '34'
+[Warning] Key sig note (note 'p1cbd4n0v1b37s2' measure 37)
+[Warning] Key sig note (note 'p1cbd4n768v1b37s2' measure 37)
+[Warning] Key sig note (note 'p1cbd2n0v1b37s5' measure 37)
+[Warning] Key sig note (note 'p1cbd2n768v1b37s5' measure 37)
+[Warning] Key sig note (note 'p1cbd4n768v1b38s4' measure 38)
+[Warning] Key sig note (note 'p1cbd4n256v1b39s2' measure 39)
+[Warning] Key sig note (note 'p1cbd2n768v1b39s5' measure 39)
+[Warning] Key sig note (note 'p1cbd4n0v1b41s1' measure 41)
+[Warning] Key sig note (note 'p1cbd4n512v1b41s4' measure 41)
+[Warning] Key sig note (note 'p1cbd4n512v1b45s4' measure 45)
+[Message] Adding accid natural to note 'p1cbd4n0v1b47s2' measure '47'
+[Warning] Key sig note (note 'p1cbd4n0v1b48s1' measure 48)
+[Warning] Key sig note (note 'p1cbd4n512v1b48s1' measure 48)
+[Warning] Key sig note (note 'p1cbd4n0v1b49s2' measure 49)
+[Warning] Key sig note (note 'p1cbd4n1024v1b49s2' measure 49)
+[Warning] Key sig note (note 'p1cbd4n0v1b49s4' measure 49)
+[Warning] Key sig note (note 'p1cbd4n1024v1b49s4' measure 49)
+[Warning] Key sig note (note 'p1cbd4n0v1b51s1' measure 51)
+[Warning] Key sig note (note 'p1cbd4n0v1b55s4' measure 55)
+[Warning] Key sig note (note 'p1cbd4n768v1b55s4' measure 55)
+[Warning] Key sig note (note 'p1cbd4n1024v1b55s4' measure 55)
+[Warning] Key sig note (note 'p1cbd2n0v1b55s5' measure 55)
+[Warning] Key sig note (note 'p1cbd2n768v1b55s5' measure 55)
+[Warning] Key sig note (note 'p1cbd2n1024v1b55s5' measure 55)
+[Warning] Key sig note (note 'p1cbd4n1024v1b57s2' measure 57)
+[Warning] Key sig note (note 'p1cbd4n0v1b57s3' measure 57)
+[Warning] Key sig note (note 'p1cbd4n1024v1b57s4' measure 57)
+[Warning] Key sig note (note 'p1cbd4n0v1b59s1' measure 59)
+[Warning] Key sig note (note 'p1cbd4n0v1b63s1' measure 63)
+[Warning] Key sig note (note 'p1cbd4n768v1b63s1' measure 63)
+[Warning] Key sig note (note 'p1cbd4n1024v1b63s1' measure 63)
+[Warning] Key sig note (note 'p1cbd2n0v1b63s5' measure 63)
+[Warning] Key sig note (note 'p1cbd2n768v1b63s5' measure 63)
+[Warning] Key sig note (note 'p1cbd2n1024v1b63s5' measure 63)
+[Message] Adding accid natural to note 'p1cbd4n0v1b65s2' measure '65'
+[Warning] Key sig note (note 'p1cbd4n0v1b66s1' measure 66)
+[Warning] Key sig note (note 'p1cbd4n768v1b66s1' measure 66)
+[Warning] Key sig note (note 'p1cbd4n1024v1b66s1' measure 66)
+[Warning] Key sig note (note 'p1cbd2n0v1b66s5' measure 66)
+[Warning] Key sig note (note 'p1cbd2n768v1b66s5' measure 66)
+[Warning] Key sig note (note 'p1cbd2n1024v1b66s5' measure 66)
+[Message] Adding accid natural to note 'p1cbd4n0v1b68s2' measure '68'
+[Message] Replacing 4/4 by c
+Output written to test.mei.
+**********************\nM_01_5_13_Partiro_dunque_ohime_mi_manca_il_core.mei
+./rdg[@source='English']
+[Warning] Key sig note (note 'p1cbd4n0v1b2s1' measure 2)
+[Message] Replacing 4/4 by c
+[Warning] Key sig note (note 'p1cbd4n512v1b3s2' measure 3)
+[Warning] Key sig note (note 'p1cbd4n512v1b3s3' measure 3)
+[Warning] Key sig note (note 'p1cbd4n768v1b4s1' measure 4)
+[Warning] Tied note (note 'p1cbd4n0v1b4s2' measure 4)
+[Warning] Tied note (note 'p1cbd4n0v1b4s3' measure 4)
+[Warning] Key sig note (note 'p1cbd4n512v1b6s1' measure 6)
+[Warning] Key sig note (note 'p1cbd4n512v1b6s4' measure 6)
+[Warning] Tied note (note 'p1cbd4n0v1b7s1' measure 7)
+[Warning] Key sig note (note 'p1cbd4n768v1b7s2' measure 7)
+[Warning] Tied note (note 'p1cbd4n0v1b7s4' measure 7)
+[Warning] Key sig note (note 'p1cbd4n256v1b8s4' measure 8)
+[Message] Adding accid natural to note 'p1cbd4n0v1b11s2' measure '11'
+[Message] Adding accid natural to note 'p1cbd4n512v1b11s3' measure '11'
+[Message] Adding accid natural to note 'p1cbd4n0v1b13s4' measure '13'
+[Message] Adding accid natural to note 'p1cbd4n512v1b14s4' measure '14'
+[Message] Adding accid natural to note 'p1cbd4n0v1b15s1' measure '15'
+[Message] Adding accid natural to note 'p1cbd4n256v1b15s1' measure '15'
+[Message] Adding accid natural to note 'p1cbd4n0v1b17s2' measure '17'
+[Message] Adding accid natural to note 'p1cbd4n768v1b17s2' measure '17'
+[Warning] Key sig note (note 'p1cbd4n0v1b19s4' measure 19)
+[Warning] Key sig note (note 'p1cbd4n512v1b19s4' measure 19)
+[Warning] Key sig note (note 'p1cbd3n0v1b19s5' measure 19)
+[Warning] Key sig note (note 'p1cbd4n384v1b20s1' measure 20)
+[Warning] Key sig note (note 'p1cbd4n384v1b21s2' measure 21)
+[Warning] Key sig note (note 'p1cbd4n384v1b22s1' measure 22)
+[Warning] Key sig note (note 'p1cbd4n256v1b23s4' measure 23)
+[Warning] Key sig note (note 'p1cbd3n768v1b24s5' measure 24)
+[Warning] Tied note (note 'p1cbd3n0v1b25s5' measure 25)
+[Warning] Key sig note (note 'p1cbd4n256v1b26s4' measure 26)
+[Warning] Key sig note (note 'p1cbd4n0v1b28s2' measure 28)
+[Warning] Key sig note (note 'p1cbd4n768v1b28s2' measure 28)
+[Warning] Key sig note (note 'p1cbd2n0v1b28s5' measure 28)
+[Warning] Key sig note (note 'p1cbd4n384v1b29s3' measure 29)
+[Warning] Key sig note (note 'p1cbd4n512v1b31s2' measure 31)
+[Warning] Key sig note (note 'p1cbd4n0v1b33s1' measure 33)
+[Warning] Key sig note (note 'p1cbd4n0v1b33s4' measure 33)
+[Warning] Key sig note (note 'p1cbd2n512v1b33s5' measure 33)
+[Warning] Key sig note (note 'p1cbd4n512v1b34s2' measure 34)
+[Warning] Key sig note (note 'p1cbd2n512v1b34s5' measure 34)
+[Warning] Key sig note (note 'p1cbd4n512v1b35s1' measure 35)
+[Warning] Key sig note (note 'p1cbd4n128v1b35s2' measure 35)
+[Warning] Key sig note (note 'p1cbd4n512v1b35s4' measure 35)
+[Warning] Key sig note (note 'p1cbd4n128v1b36s1' measure 36)
+[Warning] Key sig note (note 'p1cbd4n512v1b36s2' measure 36)
+[Warning] Key sig note (note 'p1cbd4n512v1b36s4' measure 36)
+[Warning] Key sig note (note 'p1cbd3n512v1b36s5' measure 36)
+[Warning] Tied note (note 'p1cbd4n0v1b37s2' measure 37)
+[Warning] Tied note (note 'p1cbd3n0v1b37s5' measure 37)
+[Warning] Key sig note (note 'p1cbd4n512v1b38s1' measure 38)
+[Warning] Tied note (note 'p1cbd4n0v1b39s1' measure 39)
+[Warning] Key sig note (note 'p1cbd4n0v1b40s2' measure 40)
+[Warning] Key sig note (note 'p1cbd4n512v1b41s2' measure 41)
+[Warning] Tied note (note 'p1ced5n0v1b41s3' measure 41)
+[Warning] Key sig note (note 'p1cbd4n512v1b41s4' measure 41)
+[Warning] Tied note (note 'p1cbd4n0v1b42s2' measure 42)
+[Warning] Key sig note (note 'p1cbd4n0v1b43s2' measure 43)
+[Warning] Key sig note (note 'p1cbd4n0v1b43s3' measure 43)
+[Warning] Key sig note (note 'p1cbd2n0v1b43s5' measure 43)
+[Warning] Key sig note (note 'p1cbd4n768v1b44s2' measure 44)
+[Warning] Key sig note (note 'p1cbd4n0v1b44s4' measure 44)
+[Warning] Key sig note (note 'p1cbd4n768v1b46s3' measure 46)
+[Warning] Key sig note (note 'p1cbd4n512v1b47s4' measure 47)
+[Warning] Key sig note (note 'p1cbd4n512v1b48s3' measure 48)
+[Warning] Key sig note (note 'p1cbd4n768v1b50s1' measure 50)
+[Warning] Key sig note (note 'p1cbd4n0v1b50s4' measure 50)
+[Warning] Key sig note (note 'p1cbd4n512v1b52s3' measure 52)
+[Warning] Key sig note (note 'p1cbd3n256v1b53s5' measure 53)
+[Warning] Key sig note (note 'p1cbd4n512v1b54s4' measure 54)
+[Warning] Key sig note (note 'p1cbd4n512v1b55s3' measure 55)
+[Warning] Key sig note (note 'p1cbd4n512v1b56s4' measure 56)
+[Warning] Key sig note (note 'p1cbd4n0v1b58s1' measure 58)
+[Warning] Key sig note (note 'p1cbd4n384v1b58s1' measure 58)
+[Warning] Key sig note (note 'p1cbd4n512v1b58s1' measure 58)
+[Warning] Key sig note (note 'p1cbd4n0v1b59s2' measure 59)
+[Warning] Key sig note (note 'p1cbd4n512v1b59s2' measure 59)
+[Warning] Key sig note (note 'p1cbd4n768v1b59s2' measure 59)
+[Warning] Key sig note (note 'p1cbd4n0v1b59s4' measure 59)
+[Warning] Key sig note (note 'p1cbd4n768v1b59s4' measure 59)
+[Warning] Key sig note (note 'p1cbd4n768v1b60s1' measure 60)
+[Message] Adding accid natural to note 'p1cbd4n512v1b63s1' measure '63'
+[Message] Adding accid natural to note 'p1cbd4n0v1b64s3' measure '64'
+[Message] Adding accid natural to note 'p1cbd4n512v1b65s4' measure '65'
+[Message] Adding accid natural to note 'p1cbd4n512v1b67s2' measure '67'
+[Message] Adding accid natural to note 'p1cbd4n768v1b67s2' measure '67'
+[Message] Adding accid natural to note 'p1cbd4n0v1b67s3' measure '67'
+[Message] Adding accid natural to note 'p1cbd4n0v1b70s2' measure '70'
+Output written to test.mei.
+**********************\nM_01_5_14_O_tu_che_tra_le_selve_occulta_vivi.mei
+./rdg[@source='English']
+[Warning] The file seems to be UTF-16 - trying to convert to UTF-8
+[Warning] Element 'line' is unknown and will be ignored
+[Warning] Element 'line' is unknown and will be ignored
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b125s1'
+[Warning] Syllable with underline extender under one single note 'p1cdd4n0v1b125s2'
+[Warning] Syllable with underline extender under one single note 'p1cgd3n0v1b125s3'
+[Warning] Syllable with underline extender under one single note 'p1cfd3n0v1b45s4'
+[Warning] Syllable with underline extender under one single note 'p1cgd2n0v1b125s4'
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b126s5'
+[Warning] Syllable with underline extender under one single note 'p1cdd4n0v1b126s6'
+[Warning] Syllable with underline extender under one single note 'p1cgd3n0v1b126s7'
+[Warning] Syllable with underline extender under one single note 'p1cgd2n0v1b126s8'
+[Message] Adding accid natural to note 'p1cbd3n0v1b2s3' measure '2'
+[Warning] Tied note (note 'p1ced4n0v1b4s2' measure 4)
+[Warning] Key sig note (note 'p1cbd3n512v1b4s3' measure 4)
+[Warning] Key sig note (note 'p1cbd4n512v1b5s1' measure 5)
+[Warning] Key sig note (note 'p1cbd2n512v1b5s4' measure 5)
+[Warning] Key sig note (note 'p1cbd4n0v1b7s1' measure 7)
+[Warning] Key sig note (note 'p1cbd4n512v1b9s1' measure 9)
+[Warning] Key sig note (note 'p1cbd3n0v1b9s3' measure 9)
+[Warning] Key sig note (note 'p1cbd3n256v1b9s3' measure 9)
+[Warning] Key sig note (note 'p1cbd2n0v1b9s4' measure 9)
+[Warning] Key sig note (note 'p1cbd3n512v1b10s3' measure 10)
+[Warning] Key sig note (note 'p1cbd3n768v1b10s3' measure 10)
+[Warning] Key sig note (note 'p1cbd3n0v1b10s4' measure 10)
+[Warning] Key sig note (note 'p1cbd3n256v1b10s4' measure 10)
+[Warning] Key sig note (note 'p1cbd4n512v1b11s1' measure 11)
+[Warning] Key sig note (note 'p1cbd3n0v1b11s3' measure 11)
+[Warning] Key sig note (note 'p1cbd4n384v1b12s1' measure 12)
+[Warning] Key sig note (note 'p1cbd3n128v1b12s3' measure 12)
+[Warning] Key sig note (note 'p1cbd3n768v1b12s3' measure 12)
+[Warning] Key sig note (note 'p1cbd3n768v1b17s3' measure 17)
+[Warning] Key sig note (note 'p1cbd2n768v1b17s4' measure 17)
+[Warning] Key sig note (note 'p1cbd4n256v1b18s1' measure 18)
+[Warning] Key sig note (note 'p1cbd2n256v1b18s4' measure 18)
+[Message] Adding accid natural to note 'p1cbd3n0v1b19s3' measure '19'
+[Warning] Key sig note (note 'p1cbd4n768v1b20s1' measure 20)
+[Warning] Key sig note (note 'p1cbd2n256v1b20s4' measure 20)
+[Warning] Key sig note (note 'p1cbd4n0v1b22s1' measure 22)
+[Warning] Key sig note (note 'p1cbd2n0v1b22s4' measure 22)
+[Warning] Tied note (note 'p1ced4n0v1b23s2' measure 23)
+[Warning] Key sig note (note 'p1cbd3n0v1b23s3' measure 23)
+[Warning] Tied note (note 'p1ced3n0v1b23s4' measure 23)
+[Warning] Key sig note (note 'p1cbd4n512v1b24s1' measure 24)
+[Warning] Key sig note (note 'p1cbd2n512v1b24s4' measure 24)
+[Warning] Key sig note (note 'p1cbd3n0v1b27s3' measure 27)
+[Message] Adding accid natural to note 'p1cbd3n512v1b33s3' measure '33'
+[Message] Adding accid natural to note 'p1cbd3n768v1b33s3' measure '33'
+[Message] Adding accid natural to note 'p1cbd3n512v1b35s3' measure '35'
+[Message] Adding accid natural to note 'p1cbd3n768v1b35s3' measure '35'
+[Message] Adding accid natural to note 'p1cbd4n0v1b37s1' measure '37'
+[Message] Adding accid natural to note 'p1cbd4n256v1b37s1' measure '37'
+[Warning] Key sig note (note 'p1cbd4n768v1b38s1' measure 38)
+[Warning] Key sig note (note 'p1cbd3n768v1b38s3' measure 38)
+[Warning] Key sig note (note 'p1cbd4n512v1b39s1' measure 39)
+[Warning] Key sig note (note 'p1cbd4n0v1b40s1' measure 40)
+[Warning] Key sig note (note 'p1cbd4n512v1b40s1' measure 40)
+[Warning] Key sig note (note 'p1cbd3n0v1b40s4' measure 40)
+[Warning] Key sig note (note 'p1cbd2n512v1b40s4' measure 40)
+[Warning] Key sig note (note 'p1cbd4n0v1b41s5' measure 41)
+[Warning] Key sig note (note 'p1cbd4n512v1b41s5' measure 41)
+[Warning] Key sig note (note 'p1cbd3n0v1b41s8' measure 41)
+[Warning] Key sig note (note 'p1cbd2n512v1b41s8' measure 41)
+[Warning] Key sig note (note 'p1cbd4n0v1b43s1' measure 43)
+[Warning] Key sig note (note 'p1cbd4n384v1b45s1' measure 45)
+[Warning] Key sig note (note 'p1cbd3n896v1b45s3' measure 45)
+[Warning] Key sig note (note 'p1cbd3n384v1b46s2' measure 46)
+[Warning] Key sig note (note 'p1cbd3n512v1b48s3' measure 48)
+[Warning] Tied note (note 'p1cbd3n0v1b49s3' measure 49)
+[Warning] Key sig note (note 'p1cbd3n256v1b49s3' measure 49)
+[Warning] Key sig note (note 'p1cbd3n512v1b49s3' measure 49)
+[Warning] Tied note (note 'p1cbd3n0v1b50s3' measure 50)
+[Warning] Key sig note (note 'p1cbd4n768v1b51s1' measure 51)
+[Warning] Key sig note (note 'p1cbd2n512v1b51s4' measure 51)
+[Warning] Tied note (note 'p1cbd4n0v1b52s1' measure 52)
+[Warning] Key sig note (note 'p1cbd4n256v1b53s1' measure 53)
+[Warning] Key sig note (note 'p1cbd4n768v1b53s1' measure 53)
+[Warning] Key sig note (note 'p1cbd3n0v1b53s3' measure 53)
+[Warning] Key sig note (note 'p1cbd3n0v1b54s3' measure 54)
+[Warning] Key sig note (note 'p1cbd4n256v1b54s5' measure 54)
+[Warning] Key sig note (note 'p1cbd4n768v1b54s5' measure 54)
+[Warning] Key sig note (note 'p1cbd3n0v1b54s7' measure 54)
+[Message] Adding accid natural to note 'p1cbd3n512v1b55s3' measure '55'
+[Warning] Key sig note (note 'p1cbd3n0v1b55s7' measure 55)
+[Warning] Key sig note (note 'p1cbd4n256v1b56s1' measure 56)
+[Warning] Key sig note (note 'p1cbd2n256v1b56s4' measure 56)
+[Warning] Key sig note (note 'p1cbd4n768v1b58s1' measure 58)
+[Warning] Key sig note (note 'p1cbd3n512v1b58s3' measure 58)
+[Warning] Key sig note (note 'p1cbd2n512v1b58s4' measure 58)
+[Warning] Key sig note (note 'p1cbd2n768v1b58s4' measure 58)
+[Warning] Tied note (note 'p1cbd4n0v1b59s1' measure 59)
+[Warning] Key sig note (note 'p1cbd4n0v1b60s1' measure 60)
+[Warning] Key sig note (note 'p1cbd3n0v1b60s3' measure 60)
+[Warning] Key sig note (note 'p1cbd3n512v1b60s4' measure 60)
+[Warning] Key sig note (note 'p1cbd4n768v1b61s1' measure 61)
+[Warning] Key sig note (note 'p1cbd3n512v1b61s3' measure 61)
+[Warning] Tied note (note 'p1cbd3n0v1b61s4' measure 61)
+[Warning] Tied note (note 'p1cbd4n0v1b62s1' measure 62)
+[Warning] Key sig note (note 'p1cbd3n512v1b62s2' measure 62)
+[Warning] Key sig note (note 'p1cbd3n768v1b62s4' measure 62)
+[Warning] Key sig note (note 'p1cbd3n512v1b63s3' measure 63)
+[Warning] Tied note (note 'p1cbd3n0v1b63s4' measure 63)
+[Warning] Key sig note (note 'p1cbd3n512v1b64s3' measure 64)
+[Warning] Key sig note (note 'p1cbd3n512v1b65s3' measure 65)
+[Warning] Key sig note (note 'p1cbd2n512v1b67s4' measure 67)
+[Message] Adding accid natural to note 'p1cbd3n768v1b70s3' measure '70'
+[Message] Adding accid natural to note 'p1cbd3n0v1b71s3' measure '71'
+[Message] Adding accid natural to note 'p1cbd2n256v1b72s4' measure '72'
+[Warning] Key sig note (note 'p1cbd4n256v1b73s1' measure 73)
+[Warning] Key sig note (note 'p1cbd3n0v1b73s3' measure 73)
+[Message] Adding accid natural to note 'p1cbd3n0v1b74s2' measure '74'
+[Message] Adding accid natural to note 'p1cbd3n768v1b74s3' measure '74'
+[Warning] Key sig note (note 'p1cbd3n384v1b78s3' measure 78)
+[Warning] Key sig note (note 'p1cbd3n256v1b79s3' measure 79)
+[Warning] Key sig note (note 'p1cbd3n512v1b79s3' measure 79)
+[Warning] Key sig note (note 'p1cbd3n512v1b82s3' measure 82)
+[Warning] Key sig note (note 'p1cbd4n512v1b83s1' measure 83)
+[Warning] Key sig note (note 'p1cbd3n768v1b83s3' measure 83)
+[Warning] Key sig note (note 'p1cbd2n512v1b83s4' measure 83)
+[Warning] Key sig note (note 'p1cbd3n0v1b84s3' measure 84)
+[Warning] Key sig note (note 'p1cbd3n512v1b84s3' measure 84)
+[Message] Adding accid natural to note 'p1cbd3n0v1b87s3' measure '87'
+[Warning] Key sig note (note 'p1cbd4n256v1b88s1' measure 88)
+[Message] Adding accid natural to note 'p1cbd3n0v1b89s3' measure '89'
+[Message] Adding accid natural to note 'p1cbd3n768v1b89s3' measure '89'
+[Warning] Key sig note (note 'p1cbd4n768v1b91s1' measure 91)
+[Warning] Key sig note (note 'p1cbd3n0v1b91s3' measure 91)
+[Warning] Key sig note (note 'p1cbd2n256v1b91s4' measure 91)
+[Warning] Key sig note (note 'p1cbd3n512v1b91s4' measure 91)
+[Warning] Key sig note (note 'p1cbd4n512v1b92s1' measure 92)
+[Warning] Key sig note (note 'p1cbd3n256v1b92s3' measure 92)
+[Warning] Key sig note (note 'p1cbd3n0v1b92s4' measure 92)
+[Message] Adding accid natural to note 'p1cbd4n768v1b95s1' measure '95'
+[Warning] Key sig note (note 'p1cbd3n0v1b98s3' measure 98)
+[Warning] Key sig note (note 'p1cbd3n0v1b99s3' measure 99)
+[Warning] Key sig note (note 'p1cbd3n768v1b99s3' measure 99)
+[Warning] Key sig note (note 'p1cbd3n0v1b99s7' measure 99)
+[Warning] Key sig note (note 'p1cbd3n0v1b100s3' measure 100)
+[Warning] Key sig note (note 'p1cbd3n256v1b100s3' measure 100)
+[Warning] Key sig note (note 'p1cbd3n512v1b100s3' measure 100)
+[Warning] Key sig note (note 'p1cbd3n0v1b100s7' measure 100)
+[Warning] Key sig note (note 'p1cbd3n768v1b100s7' measure 100)
+[Warning] Key sig note (note 'p1cbd3n0v1b101s3' measure 101)
+[Warning] Key sig note (note 'p1cbd3n0v1b101s7' measure 101)
+[Warning] Key sig note (note 'p1cbd3n256v1b101s7' measure 101)
+[Warning] Key sig note (note 'p1cbd3n512v1b101s7' measure 101)
+[Warning] Key sig note (note 'p1cbd4n256v1b102s1' measure 102)
+[Warning] Key sig note (note 'p1cbd4n512v1b102s1' measure 102)
+[Warning] Key sig note (note 'p1cbd4n768v1b102s5' measure 102)
+[Warning] Key sig note (note 'p1cbd3n0v1b102s7' measure 102)
+[Warning] Key sig note (note 'p1cbd3n256v1b103s3' measure 103)
+[Warning] Key sig note (note 'p1cbd4n0v1b103s5' measure 103)
+[Message] Adding accid natural to note 'p1cbd4n0v1b104s1' measure '104'
+[Warning] Key sig note (note 'p1cbd3n256v1b104s7' measure 104)
+[Message] Adding accid natural to note 'p1cbd3n256v1b105s3' measure '105'
+[Message] Adding accid natural to note 'p1cbd4n0v1b105s5' measure '105'
+[Warning] Key sig note (note 'p1cbd4n512v1b106s1' measure 106)
+[Warning] Key sig note (note 'p1cbd3n512v1b106s3' measure 106)
+[Warning] Key sig note (note 'p1cbd4n512v1b107s5' measure 107)
+[Warning] Key sig note (note 'p1cbd3n512v1b107s7' measure 107)
+[Warning] Key sig note (note 'p1cbd3n512v1b108s3' measure 108)
+[Warning] Key sig note (note 'p1cbd3n896v1b108s3' measure 108)
+[Warning] Key sig note (note 'p1cbd2n512v1b108s4' measure 108)
+[Warning] Key sig note (note 'p1cbd2n896v1b108s4' measure 108)
+[Warning] Key sig note (note 'p1cbd4n512v1b109s1' measure 109)
+[Warning] Key sig note (note 'p1cbd3n512v1b109s4' measure 109)
+[Warning] Key sig note (note 'p1cbd3n512v1b109s7' measure 109)
+[Warning] Key sig note (note 'p1cbd3n896v1b109s7' measure 109)
+[Warning] Key sig note (note 'p1cbd2n512v1b109s8' measure 109)
+[Warning] Key sig note (note 'p1cbd2n896v1b109s8' measure 109)
+[Warning] Key sig note (note 'p1cbd4n512v1b110s5' measure 110)
+[Warning] Key sig note (note 'p1cbd3n512v1b110s8' measure 110)
+[Message] Adding accid natural to note 'p1cbd3n512v1b112s3' measure '112'
+[Message] Adding accid natural to note 'p1cbd3n896v1b112s3' measure '112'
+[Message] Adding accid natural to note 'p1cbd4n512v1b113s1' measure '113'
+[Message] Adding accid natural to note 'p1cbd3n512v1b113s7' measure '113'
+[Message] Adding accid natural to note 'p1cbd3n896v1b113s7' measure '113'
+[Message] Adding accid natural to note 'p1cbd4n512v1b114s5' measure '114'
+[Warning] Key sig note (note 'p1cbd4n256v1b116s1' measure 116)
+[Warning] Key sig note (note 'p1cbd4n0v1b117s1' measure 117)
+[Warning] Key sig note (note 'p1cbd3n0v1b117s3' measure 117)
+[Warning] Key sig note (note 'p1cbd2n0v1b117s4' measure 117)
+[Warning] Key sig note (note 'p1cbd4n256v1b117s5' measure 117)
+[Warning] Key sig note (note 'p1cbd4n0v1b118s1' measure 118)
+[Warning] Key sig note (note 'p1cbd3n0v1b118s3' measure 118)
+[Warning] Key sig note (note 'p1cbd3n256v1b118s3' measure 118)
+[Warning] Key sig note (note 'p1cbd2n0v1b118s4' measure 118)
+[Warning] Key sig note (note 'p1cbd4n0v1b118s5' measure 118)
+[Warning] Key sig note (note 'p1cbd3n0v1b118s7' measure 118)
+[Warning] Key sig note (note 'p1cbd2n0v1b118s8' measure 118)
+[Warning] Key sig note (note 'p1cbd4n0v1b119s5' measure 119)
+[Warning] Key sig note (note 'p1cbd3n0v1b119s7' measure 119)
+[Warning] Key sig note (note 'p1cbd3n256v1b119s7' measure 119)
+[Warning] Key sig note (note 'p1cbd2n0v1b119s8' measure 119)
+[Message] Adding accid natural to note 'p1cbd3n256v1b120s3' measure '120'
+[Message] Adding accid natural to note 'p1cbd3n768v1b120s3' measure '120'
+[Message] Adding accid natural to note 'p1cbd3n0v1b121s3' measure '121'
+[Message] Adding accid natural to note 'p1cbd3n384v1b121s3' measure '121'
+[Message] Adding accid natural to note 'p1cbd3n512v1b121s3' measure '121'
+[Message] Adding accid natural to note 'p1cbd3n256v1b121s7' measure '121'
+[Message] Adding accid natural to note 'p1cbd3n768v1b121s7' measure '121'
+[Message] Adding accid natural to note 'p1cbd4n512v1b122s1' measure '122'
+[Message] Adding accid natural to note 'p1cbd3n0v1b122s3' measure '122'
+[Message] Adding accid natural to note 'p1cbd3n0v1b122s7' measure '122'
+[Message] Adding accid natural to note 'p1cbd3n384v1b122s7' measure '122'
+[Message] Adding accid natural to note 'p1cbd3n512v1b122s7' measure '122'
+[Message] Adding accid natural to note 'p1cbd4n0v1b123s1' measure '123'
+[Warning] Tied note (note 'p1cbd4n0v1b123s1' measure 123)
+[Message] Adding accid natural to note 'p1cbd4n512v1b123s5' measure '123'
+[Message] Adding accid natural to note 'p1cbd3n0v1b123s7' measure '123'
+[Message] Adding accid natural to note 'p1cbd4n0v1b124s5' measure '124'
+[Warning] Tied note (note 'p1cbd4n0v1b124s5' measure 124)
+[Message] Adding accid natural to note 'p1cbd4n0v1b125s1' measure '125'
+[Message] Adding accid natural to note 'p1cbd4n0v1b126s1' measure '126'
+[Warning] Tied note (note 'p1cbd4n0v1b126s1' measure 126)
+[Message] Adding accid natural to note 'p1cbd4n0v1b126s5' measure '126'
+[Message] Adding accid natural to note 'p1cbd4n0v1b127s5' measure '127'
+[Warning] Tied note (note 'p1cbd4n0v1b127s5' measure 127)
+[Message] Replacing 4/4 by c
+[Message] Adding accid natural to note 'p1cbd4n256v1b123s1' measure '123'
+[Message] Adding accid natural to note 'p1cbd4n512v1b123s1' measure '123'
+[Message] Adding accid natural to note 'p1cbd4n896v1b123s1' measure '123'
+[Message] Adding accid natural to note 'p1cbd4n256v1b124s5' measure '124'
+[Message] Adding accid natural to note 'p1cbd4n512v1b124s5' measure '124'
+[Message] Adding accid natural to note 'p1cbd4n896v1b124s5' measure '124'
+Output written to test.mei.
+
+# for i in `LS *.mei`; do echo "**********************\n$i" >> $LOG; $ROOT/tools/verovio -r $ROOT/data -o test.mei -t mei --all-pages $i >> $LOG 2>&1; mv test.mei $i; done
+
+**********************\nM_01_5_01_Liquide_perle_Amor_da_gl_occhi_sparse.mei
+Output written to test.mei.
+**********************\nM_01_5_02_Ohime_dov_e_il_mio_ben_dov_e_il_mio_core.mei
+Output written to test.mei.
+**********************\nM_01_5_03_Spuntavan_gia_per_fare_il_mondo_adorno.mei
+Output written to test.mei.
+**********************\nM_01_5_04_Quando_i_vostri_begl_occhi_un_caro_velo.mei
+Output written to test.mei.
+**********************\nM_01_5_05_Tirsi_morir_volea.mei
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b57s1'
+[Warning] Syllable with underline extender under one single note 'p1cgd4n0v1b67s1'
+[Warning] Syllable with underline extender under one single note 'p1ced4n0v1b57s2'
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b67s3'
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b57s4'
+[Warning] Syllable with underline extender under one single note 'p1ced3n0v1b57s5'
+Output written to test.mei.
+**********************\nM_01_5_06_Dolorosi_martir.mei
+Output written to test.mei.
+**********************\nM_01_5_07_Che_fa_oggi_il_mio_sole-demo.mei
+Output written to test.mei.
+**********************\nM_01_5_07_Che_fa_oggi_il_mio_sole.mei
+Output written to test.mei.
+**********************\nM_01_5_08_Lasso_ch_io_ardo_e_l_mio_bel_sole_ardente.mei
+Output written to test.mei.
+**********************\nM_01_5_09_Venuta_era_madonna_al_mio_languire.mei
+[Warning] Syllable with underline extender under one single note 'p1cdd5n1024v1b8s3'
+[Warning] Syllable with underline extender under one single note 'p1cgd4n0v1b44s3'
+[Warning] Syllable with underline extender under one single note 'p1ccd5n0v1b47s4'
+[Warning] Syllable with underline extender under one single note 'p1ccd3n0v1b45s5'
+Output written to test.mei.
+**********************\nM_01_5_10_Madonna_mia_gentil_ringrazio_Amore.mei
+[Warning] Key sig note (note 'p1cbd4n512v1b17s3' measure 17)
+[Warning] Key sig note (note 'p1cbd4n0v1b47s2' measure 47)
+Output written to test.mei.
+**********************\nM_01_5_11_Cantava_la_piu_vaga_pastorella.mei
+[Message] Adding accid natural to note 'p1cbd4n256v1b16s3' measure '16'
+[Message] Adding accid natural to note 'p1cbd4n640v1b16s3' measure '16'
+[Message] Adding accid natural to note 'p1cbd4n768v1b16s3' measure '16'
+[Warning] Key sig note (note 'p1cbd4n0v1b49s3' measure 49)
+[Warning] Key sig note (note 'p1cbd4n256v1b54s1' measure 54)
+[Message] Adding accid natural to note 'p1cbd4n512v1b59s1' measure '59'
+[Warning] Key sig note (note 'p1cbd3n0v1b60s5' measure 60)
+[Warning] Key sig note (note 'p1cbd3n512v1b60s5' measure 60)
+[Warning] Key sig note (note 'p1cbd3n768v1b61s3' measure 61)
+[Warning] Key sig note (note 'p1cbd4n768v1b63s2' measure 63)
+Output written to test.mei.
+**********************\nM_01_5_12_Questa_di_verd_erbette.mei
+[Warning] Key sig note (note 'p1cbd4n0v1b37s2' measure 37)
+[Warning] Key sig note (note 'p1cbd2n0v1b37s5' measure 37)
+Output written to test.mei.
+**********************\nM_01_5_13_Partiro_dunque_ohime_mi_manca_il_core.mei
+[Warning] Key sig note (note 'p1cbd4n0v1b28s2' measure 28)
+[Warning] Key sig note (note 'p1cbd4n512v1b28s2' measure 28)
+Output written to test.mei.
+**********************\nM_01_5_14_O_tu_che_tra_le_selve_occulta_vivi.mei
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b125s1'
+[Warning] Syllable with underline extender under one single note 'p1cdd4n0v1b125s2'
+[Warning] Syllable with underline extender under one single note 'p1cgd3n0v1b125s3'
+[Warning] Syllable with underline extender under one single note 'p1cfd3n0v1b45s4'
+[Warning] Syllable with underline extender under one single note 'p1cgd2n0v1b125s4'
+[Warning] Syllable with underline extender under one single note 'p1cbd4n0v1b126s5'
+[Warning] Syllable with underline extender under one single note 'p1cdd4n0v1b126s6'
+[Warning] Syllable with underline extender under one single note 'p1cgd3n0v1b126s7'
+[Warning] Syllable with underline extender under one single note 'p1cgd2n0v1b126s8'
+Output written to test.mei.

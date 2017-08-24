@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -36,19 +36,19 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef xml:id="scoredef-000000037382094" meter.count="4" meter.unit="4">
+                    <scoreDef xml:id="scoredef-000000037382094" meter.sym="common">
                         <staffGrp xml:id="m-000000174555343">
                             <staffGrp xml:id="m-000000041275776" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="5" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="6" label="Basso" lines="5" />
+                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
+                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Sesto" lines="5" />
+                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
-                    <section>
+                    <section xml:id="section-0000000417180364">
                         <measure xml:id="measure-000000158996473" n="1">
                             <anchoredText xml:id="anchtxt-000000184148973">9. Caro Aminta, pur vuoi Prima parte</anchoredText>
                             <staff xml:id="staff-000000034359772" n="1">
@@ -190,7 +190,7 @@
                             <staff xml:id="staff-000000211602616" n="2">
                                 <layer xml:id="layer-000000029007623" n="1">
                                     <note xml:id="p1cfd4n0v1b3s2" dur="4" oct="4" pname="f" tie="t">
-                                        <accid xml:id="accid-000000004368787" accid="s" />
+                                        <accid xml:id="accid-000000004368787" accid.ges="s" />
                                     </note>
                                     <note xml:id="p1cfd4n256v1b3s2" dur="4" oct="4" pname="f">
                                         <supplied xml:id="supplied-000000036316299">
@@ -5765,7 +5765,7 @@
                             <staff xml:id="staff-000000055854754" n="6">
                                 <layer xml:id="layer-000000195513934" n="1">
                                     <note xml:id="p1cbd2n0v1b75s6" dur="1" oct="2" pname="b" tie="t">
-                                        <accid xml:id="accid-000000188226558" accid="f" />
+                                        <accid xml:id="accid-000000188226558" accid.ges="f" />
                                     </note>
                                 </layer>
                             </staff>
@@ -5774,7 +5774,7 @@
                             <staff xml:id="staff-000000187391127" n="1">
                                 <layer xml:id="layer-000000133460097" n="1">
                                     <note xml:id="p1cbd4n0v1b76s1" dur="2" oct="4" pname="b" tie="t">
-                                        <accid xml:id="accid-000000048461244" accid="f" />
+                                        <accid xml:id="accid-000000048461244" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cad4n512v1b76s1" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-000000010386801" n="1">
@@ -6538,7 +6538,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605" plist="mrest-000000020090771">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
+                            <annot xml:id="annot-0000000802146769" label="app" plist="mrest-000000020090771" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000058128011" n="87">
                             <staff xml:id="staff-000000083496591" n="1">
@@ -6571,7 +6571,7 @@
                                     <mRest xml:id="mrest-000000180338213" />
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605" plist="mrest-000000166081969">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
+                            <annot xml:id="annot-0000001709094428" label="app" plist="mrest-000000166081969" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000034563904" n="88">
                             <staff xml:id="staff-000000204275323" n="1">
@@ -6616,7 +6616,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605" plist="mrest-000000059837306">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
+                            <annot xml:id="annot-0000000675386015" label="app" plist="mrest-000000059837306" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000183127682" n="89">
                             <staff xml:id="staff-000000034723042" n="1">
@@ -6653,7 +6653,7 @@
                                     <note xml:id="p1cdd3n0v1b89s6" dur="1" oct="3" pname="d" tie="t" />
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605" plist="mrest-000000162392123">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
+                            <annot xml:id="annot-0000000162995629" label="app" plist="mrest-000000162392123" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000136381566" n="90">
                             <staff xml:id="staff-000000103752046" n="1">
@@ -6743,7 +6743,7 @@
                             <staff xml:id="staff-000000009611895" n="6">
                                 <layer xml:id="layer-000000055729184" n="1">
                                     <note xml:id="p1cbd2n0v1b91s6" dur="1" oct="2" pname="b" tie="t">
-                                        <accid xml:id="accid-000000053217694" accid="f" />
+                                        <accid xml:id="accid-000000053217694" accid.ges="f" />
                                     </note>
                                 </layer>
                             </staff>
@@ -6752,7 +6752,7 @@
                             <staff xml:id="staff-000000131216125" n="1">
                                 <layer xml:id="layer-000000147721208" n="1">
                                     <note xml:id="p1cbd4n0v1b92s1" dur="2" oct="4" pname="b" tie="t">
-                                        <accid xml:id="accid-000000052838437" accid="f" />
+                                        <accid xml:id="accid-000000052838437" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cad4n512v1b92s1" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-000000027823865" n="1">

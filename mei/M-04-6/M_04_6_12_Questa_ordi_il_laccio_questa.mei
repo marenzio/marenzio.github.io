@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -39,7 +39,7 @@
                 <changeDesc>
                     <p>Adding critical notes for music and transposing octave</p>
                 </changeDesc>
-                <date isodate="2016-08-15"/>
+                <date isodate="2016-08-15" />
             </change>
         </revisionDesc>
     </meiHead>
@@ -47,19 +47,19 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef xml:id="scoredef-000000093433711" meter.count="4" meter.unit="4">
+                    <scoreDef xml:id="scoredef-000000093433711" meter.sym="common">
                         <staffGrp xml:id="m-000000081594280">
                             <staffGrp xml:id="m-000000186757031" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="3" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="5" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="6" label="Basso" lines="5" />
+                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
+                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
+                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
-                    <section>
+                    <section xml:id="section-0000000417180364">
                         <measure xml:id="measure-000000124899391" n="1">
                             <staff xml:id="staff-000000109604346" n="1">
                                 <layer xml:id="layer-000000008774186" n="1">
@@ -176,7 +176,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b2s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000002612508" accid="f" />
+                                        <accid xml:id="accid-000000002612508" accid.ges="f" />
                                         <app xml:id="app-000000076111594">
                                             <lem xml:id="lem-000000166308608" source="Italian">
                                                 <verse xml:id="verse-000000099770683" n="1">
@@ -206,7 +206,7 @@
                                     </note>
                                     <beam xml:id="beam-000000049432699">
                                         <note xml:id="p1cbd4n896v1b2s1" dur="16" oct="4" pname="b">
-                                            <accid xml:id="accid-000000031599069" accid="f" />
+                                            <accid xml:id="accid-000000031599069" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad4n960v1b2s1" dur="16" oct="4" pname="a" />
                                     </beam>
@@ -316,7 +316,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n896v1b2s5" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000187426299" accid="f" />
+                                        <accid xml:id="accid-000000187426299" accid.ges="f" />
                                         <app xml:id="app-000000203421236">
                                             <lem xml:id="lem-000000106760873" source="Italian">
                                                 <verse xml:id="verse-000000144808999" n="1">
@@ -344,7 +344,7 @@
                                     <note xml:id="p1cgd4n0v1b3s1" dots="1" dur="4" oct="4" pname="g" />
                                     <note xml:id="p1cad4n384v1b3s1" dur="8" oct="4" pname="a" />
                                     <note xml:id="p1cbd4n512v1b3s1" dots="1" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000092340790" accid="f" />
+                                        <accid xml:id="accid-000000092340790" accid.ges="f" />
                                     </note>
                                     <beam xml:id="beam-000000199982611">
                                         <note xml:id="p1cad4n896v1b3s1" dur="16" oct="4" pname="a" />
@@ -424,7 +424,7 @@
                                     </note>
                                     <beam xml:id="beam-000000187766915">
                                         <note xml:id="p1cbd3n384v1b3s5" dur="16" oct="3" pname="b">
-                                            <accid xml:id="accid-000000138488163" accid="f" />
+                                            <accid xml:id="accid-000000138488163" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad3n448v1b3s5" dur="16" oct="3" pname="a" />
                                     </beam>
@@ -920,6 +920,7 @@
                                                 </verse>
                                             </rdg>
                                         </app>
+                                        <accid xml:id="accid-0000001815182927" accid="n" />
                                     </note>
                                     <note xml:id="p1cbd3n384v1b7s5" dur="8" oct="3" pname="b">
                                         <app xml:id="app-000000107302603">
@@ -934,6 +935,7 @@
                                                 </verse>
                                             </rdg>
                                         </app>
+                                        <accid xml:id="accid-0000000626764807" accid="n" />
                                     </note>
                                     <note xml:id="p1ccd4n512v1b7s5" dur="2" oct="4" pname="c">
                                         <app xml:id="app-000000135939587">
@@ -1052,7 +1054,7 @@
                                     <beam xml:id="beam-000000014259774">
                                         <note xml:id="p1ccd5n384v1b8s2" dur="16" oct="5" pname="c" />
                                         <note xml:id="p1cbd4n448v1b8s2" dur="16" oct="4" pname="b">
-                                            <accid xml:id="accid-000000116780062" accid="f" />
+                                            <accid xml:id="accid-000000116780062" accid.ges="f" />
                                         </note>
                                     </beam>
                                     <note xml:id="p1ccd5n512v1b8s2" dur="4" oct="5" pname="c" />
@@ -1135,7 +1137,7 @@
                             <staff xml:id="staff-000000158182558" n="4">
                                 <layer xml:id="layer-000000204247365" n="1">
                                     <note xml:id="p1cbd4n0v1b8s4" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000169189634" accid="f" />
+                                        <accid xml:id="accid-000000169189634" accid.ges="f" />
                                         <app xml:id="app-000000078007881">
                                             <lem xml:id="lem-000000039701238" source="Italian">
                                                 <verse xml:id="verse-000000087088368" n="1">
@@ -1216,7 +1218,7 @@
                             <staff xml:id="staff-000000159898952" n="6">
                                 <layer xml:id="layer-000000060652088" n="1">
                                     <note xml:id="p1cbd3n0v1b8s6" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000043311920" accid="f" />
+                                        <accid xml:id="accid-000000043311920" accid.ges="f" />
                                         <app xml:id="app-000000004384939">
                                             <lem xml:id="lem-000000038990765" source="Italian">
                                                 <verse xml:id="verse-000000161246598" n="1">
@@ -1251,7 +1253,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587 (GB-Obl and F-Pc only)" plist="p1cgd3n448v1b8s6">b2 instead of g2. In the other copies the note is corrected to G by a pasted cutout.</annot>
+                            <annot xml:id="annot-0000002031357957" label="app" plist="p1cgd3n448v1b8s6" source="Vi-1587 (GB-Obl and F-Pc only)">b2 instead of g2. In the other copies the note is corrected to G by a pasted cutout.</annot>
                         </measure>
                         <measure xml:id="measure-000000160591097" n="9">
                             <staff xml:id="staff-000000035458106" n="1">
@@ -1273,7 +1275,7 @@
                                     <beam xml:id="beam-000000080139865">
                                         <note xml:id="p1ccd5n384v1b9s1" dur="16" oct="5" pname="c" />
                                         <note xml:id="p1cbd4n448v1b9s1" dur="16" oct="4" pname="b">
-                                            <accid xml:id="accid-000000201941323" accid="f" />
+                                            <accid xml:id="accid-000000201941323" accid.ges="f" />
                                         </note>
                                     </beam>
                                     <note xml:id="p1ccd5n512v1b9s1" dur="4" oct="5" pname="c" />
@@ -1356,7 +1358,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n256v1b9s3" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000073824092" accid="f" />
+                                        <accid xml:id="accid-000000073824092" accid.ges="f" />
                                         <app xml:id="app-000000066608970">
                                             <lem xml:id="lem-000000013743693" source="Italian">
                                                 <verse xml:id="verse-000000160216414" n="1">
@@ -1390,7 +1392,7 @@
                             <staff xml:id="staff-000000192492489" n="4">
                                 <layer xml:id="layer-000000037151778" n="1">
                                     <note xml:id="p1cbd4n0v1b9s4" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000047437814" accid="f" />
+                                        <accid xml:id="accid-000000047437814" accid.ges="f" />
                                         <app xml:id="app-000000010152641">
                                             <lem xml:id="lem-000000125239076" source="Italian">
                                                 <verse xml:id="verse-000000141418535" n="1">
@@ -1438,7 +1440,7 @@
                             <staff xml:id="staff-000000026003415" n="5">
                                 <layer xml:id="layer-000000026475421" n="1">
                                     <note xml:id="p1cbd3n0v1b9s5" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000096221638" accid="f" />
+                                        <accid xml:id="accid-000000096221638" accid.ges="f" />
                                         <app xml:id="app-000000165160195">
                                             <lem xml:id="lem-000000010041975" source="Italian">
                                                 <verse xml:id="verse-000000141895439" n="1">
@@ -1605,7 +1607,7 @@
                                     <beam xml:id="beam-000000076278166">
                                         <note xml:id="p1ccd4n384v1b10s3" dur="16" oct="4" pname="c" />
                                         <note xml:id="p1cbd3n448v1b10s3" dur="16" oct="3" pname="b">
-                                            <accid xml:id="accid-000000212855052" accid="f" />
+                                            <accid xml:id="accid-000000212855052" accid.ges="f" />
                                         </note>
                                     </beam>
                                     <note xml:id="p1ccd4n512v1b10s3" dur="4" oct="4" pname="c" />
@@ -1628,7 +1630,7 @@
                             <staff xml:id="staff-000000078105096" n="4">
                                 <layer xml:id="layer-000000170353509" n="1">
                                     <note xml:id="p1cbd4n0v1b10s4" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000175056841" accid="f" />
+                                        <accid xml:id="accid-000000175056841" accid.ges="f" />
                                         <app xml:id="app-000000036269502">
                                             <lem xml:id="lem-000000125676221" source="Italian">
                                                 <verse xml:id="verse-000000127740381" n="1">
@@ -1684,7 +1686,7 @@
                             <staff xml:id="staff-000000166787448" n="6">
                                 <layer xml:id="layer-000000086249233" n="1">
                                     <note xml:id="p1cbd2n0v1b10s6" dur="2" oct="2" pname="b">
-                                        <accid xml:id="accid-000000137808621" accid="f" />
+                                        <accid xml:id="accid-000000137808621" accid.ges="f" />
                                         <app xml:id="app-000000131964120">
                                             <lem xml:id="lem-000000214609305" source="Italian">
                                                 <verse xml:id="verse-000000088391622" n="1">
@@ -1769,7 +1771,7 @@
                                     <beam xml:id="beam-000000019673645">
                                         <note xml:id="p1ccd5n384v1b11s2" dur="16" oct="5" pname="c" />
                                         <note xml:id="p1cbd4n448v1b11s2" dur="16" oct="4" pname="b">
-                                            <accid xml:id="accid-000000210237425" accid="f" />
+                                            <accid xml:id="accid-000000210237425" accid.ges="f" />
                                         </note>
                                     </beam>
                                     <note xml:id="p1ccd5n512v1b11s2" dur="4" oct="5" pname="c" />
@@ -1904,7 +1906,7 @@
                             <staff xml:id="staff-000000087563511" n="6">
                                 <layer xml:id="layer-000000009391130" n="1">
                                     <note xml:id="p1cbd3n0v1b11s6" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000146812575" accid="f" />
+                                        <accid xml:id="accid-000000146812575" accid.ges="f" />
                                         <app xml:id="app-000000140694922">
                                             <lem xml:id="lem-000000065310342" source="Italian">
                                                 <verse xml:id="verse-000000020240983" n="1">
@@ -1960,7 +1962,7 @@
                                     <beam xml:id="beam-000000127367135">
                                         <note xml:id="p1ccd5n384v1b12s1" dur="16" oct="5" pname="c" />
                                         <note xml:id="p1cbd4n448v1b12s1" dur="16" oct="4" pname="b">
-                                            <accid xml:id="accid-000000169078460" accid="f" />
+                                            <accid xml:id="accid-000000169078460" accid.ges="f" />
                                         </note>
                                     </beam>
                                     <note xml:id="p1ccd5n512v1b12s1" dur="4" oct="5" pname="c" />
@@ -2048,7 +2050,7 @@
                             <staff xml:id="staff-000000163070532" n="4">
                                 <layer xml:id="layer-000000107809426" n="1">
                                     <note xml:id="p1cbd4n0v1b12s4" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000107756729" accid="f" />
+                                        <accid xml:id="accid-000000107756729" accid.ges="f" />
                                         <app xml:id="app-000000110991324">
                                             <lem xml:id="lem-000000126886683" source="Italian">
                                                 <verse xml:id="verse-000000094386468" n="1">
@@ -2109,7 +2111,7 @@
                             <staff xml:id="staff-000000204078349" n="5">
                                 <layer xml:id="layer-000000198680700" n="1">
                                     <note xml:id="p1cbd3n0v1b12s5" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000053120089" accid="f" />
+                                        <accid xml:id="accid-000000053120089" accid.ges="f" />
                                         <app xml:id="app-000000092554172">
                                             <lem xml:id="lem-000000135570004" source="Italian">
                                                 <verse xml:id="verse-000000080390487" n="1">
@@ -2351,6 +2353,7 @@
                                                 </verse>
                                             </rdg>
                                         </app>
+                                        <accid xml:id="accid-0000000628822714" accid="n" />
                                     </note>
                                 </layer>
                             </staff>
@@ -2365,7 +2368,7 @@
                                             </note>
                                             <beam xml:id="beam-000000097107917">
                                                 <note xml:id="p1cbd2n384v1b13s6" dur="16" oct="2" pname="b">
-                                                    <accid xml:id="accid-000000028712224" accid="f" />
+                                                    <accid xml:id="accid-000000028712224" accid.ges="f" />
                                                 </note>
                                                 <note xml:id="p1cad2n448v1b13s6" dur="16" oct="2" pname="a" />
                                             </beam>
@@ -2377,7 +2380,7 @@
                                             <note xml:id="p1ccd3n0v1b13s6" dots="1" dur="4" oct="3" pname="c" />
                                             <beam xml:id="beam-000000018556409">
                                                 <note xml:id="p1cbd2n384v1b13s6" dur="16" oct="2" pname="b">
-                                                    <accid xml:id="accid-000000075594172" accid="f" />
+                                                    <accid xml:id="accid-000000075594172" accid.ges="f" />
                                                 </note>
                                                 <note xml:id="p1cad2n448v1b13s6" dur="16" oct="2" pname="a" />
                                             </beam>
@@ -2444,7 +2447,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b14s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000153877067" accid="f" />
+                                        <accid xml:id="accid-000000153877067" accid.ges="f" />
                                     </note>
                                 </layer>
                             </staff>
@@ -2576,7 +2579,7 @@
                                 <layer xml:id="layer-000000054229156" n="1">
                                     <note xml:id="p1ccd5n0v1b15s2" dur="4" oct="5" pname="c" />
                                     <note xml:id="p1cbd4n256v1b15s2" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000044385147" accid="f" />
+                                        <accid xml:id="accid-000000044385147" accid.ges="f" />
                                         <app xml:id="app-000000135376611">
                                             <lem xml:id="lem-000000015780441" source="Italian">
                                                 <verse xml:id="verse-000000160100068" n="1">
@@ -2643,7 +2646,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n768v1b15s3" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000077054647" accid="f" />
+                                        <accid xml:id="accid-000000077054647" accid.ges="f" />
                                         <app xml:id="app-000000112438002">
                                             <lem xml:id="lem-000000174648702" source="Italian">
                                                 <verse xml:id="verse-000000124818030" n="1">
@@ -2936,7 +2939,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b17s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000032544678" accid="f" />
+                                        <accid xml:id="accid-000000032544678" accid.ges="f" />
                                         <app xml:id="app-000000049390983">
                                             <lem xml:id="lem-000000111835161" source="Italian">
                                                 <verse xml:id="verse-000000014326658" n="1">
@@ -3219,7 +3222,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n896v1b17s5" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000122408484" accid="f" />
+                                        <accid xml:id="accid-000000122408484" accid.ges="f" />
                                         <app xml:id="app-000000206017984">
                                             <lem xml:id="lem-000000156386475" source="Italian">
                                                 <verse xml:id="verse-000000030071888" n="1">
@@ -3315,7 +3318,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b18s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000048067180" accid="f" />
+                                        <accid xml:id="accid-000000048067180" accid.ges="f" />
                                         <app xml:id="app-000000021122093">
                                             <lem xml:id="lem-000000019980286" source="Italian">
                                                 <verse xml:id="verse-000000196501346" n="1">
@@ -3578,7 +3581,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b18s4" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000056728666" accid="f" />
+                                        <accid xml:id="accid-000000056728666" accid.ges="f" />
                                         <app xml:id="app-000000090649456">
                                             <lem xml:id="lem-000000120521255" source="Italian">
                                                 <verse xml:id="verse-000000170705281" n="1">
@@ -3809,7 +3812,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b19s2" dots="1" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000071269684" accid="f" />
+                                        <accid xml:id="accid-000000071269684" accid.ges="f" />
                                         <app xml:id="app-000000207274442">
                                             <lem xml:id="lem-000000013581253" source="Italian">
                                                 <verse xml:id="verse-000000177960821" n="1">
@@ -4009,7 +4012,7 @@
                             <staff xml:id="staff-000000158680009" n="1">
                                 <layer xml:id="layer-000000189731864" n="1">
                                     <note xml:id="p1cbd4n0v1b20s1" dots="1" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000066228460" accid="f" />
+                                        <accid xml:id="accid-000000066228460" accid.ges="f" />
                                         <app xml:id="app-000000209816272">
                                             <lem xml:id="lem-000000213943533" source="Italian">
                                                 <verse xml:id="verse-000000060954660" n="1">
@@ -4098,7 +4101,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b20s2" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000003625989" accid="f" />
+                                        <accid xml:id="accid-000000003625989" accid.ges="f" />
                                         <app xml:id="app-000000076952611">
                                             <lem xml:id="lem-000000127890937" source="Italian">
                                                 <verse xml:id="verse-000000168225039" n="1">
@@ -4113,7 +4116,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n768v1b20s2" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000098758681" accid="f" />
+                                        <accid xml:id="accid-000000098758681" accid.ges="f" />
                                         <app xml:id="app-000000175593835">
                                             <lem xml:id="lem-000000133560499" source="Italian">
                                                 <verse xml:id="verse-000000047045842" n="1">
@@ -4147,7 +4150,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n256v1b20s3" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000050668285" accid="f" />
+                                        <accid xml:id="accid-000000050668285" accid.ges="f" />
                                         <app xml:id="app-000000170984344">
                                             <lem xml:id="lem-000000186001557" source="Italian">
                                                 <verse xml:id="verse-000000104601640" n="1">
@@ -4462,7 +4465,7 @@
                             <staff xml:id="staff-000000129418887" n="4">
                                 <layer xml:id="layer-000000171802850" n="1">
                                     <note xml:id="p1ced5n0v1b21s4" dur="8" oct="4" pname="e" tie="t">
-                                        <accid xml:id="accid-000000025769215" accid="f" />
+                                        <accid xml:id="accid-000000025769215" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cdd5n128v1b21s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000033341217">
@@ -4621,7 +4624,7 @@
                                     </note>
                                     <beam xml:id="beam-000000139668966">
                                         <note xml:id="p1cbd4n640v1b22s1" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000128597954" accid="f" />
+                                            <accid xml:id="accid-000000128597954" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad4n768v1b22s1" dur="8" oct="4" pname="a" />
                                         <note xml:id="p1cgd4n896v1b22s1" dur="8" oct="4" pname="g" />
@@ -4633,7 +4636,7 @@
                                     <beam xml:id="beam-000000005463437">
                                         <note xml:id="p1ccd5n0v1b22s2" dur="8" oct="5" pname="c" tie="t" />
                                         <note xml:id="p1cbd4n128v1b22s2" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000007733069" accid="f" />
+                                            <accid xml:id="accid-000000007733069" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad4n256v1b22s2" dur="8" oct="4" pname="a" />
                                         <note xml:id="p1cgd4n384v1b22s2" dur="8" oct="4" pname="g" />
@@ -4774,7 +4777,7 @@
                                     <note xml:id="p1cad4n256v1b23s1" dots="1" dur="4" oct="4" pname="a" />
                                     <beam xml:id="beam-000000171192227">
                                         <note xml:id="p1cbd4n640v1b23s1" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000056573653" accid="f" />
+                                            <accid xml:id="accid-000000056573653" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1ccd5n768v1b23s1" dur="8" oct="5" pname="c" />
                                         <note xml:id="p1cad4n896v1b23s1" dur="8" oct="4" pname="a" />
@@ -4825,7 +4828,7 @@
                                                 </verse>
                                             </note>
                                             <note xml:id="p1cbd3n384v1b23s5" dur="8" oct="3" pname="b">
-                                                <accid xml:id="accid-000000176496865" accid="f" />
+                                                <accid xml:id="accid-000000176496865" accid.ges="f" />
                                             </note>
                                             <note xml:id="p1ccd4n512v1b23s5" dur="4" oct="4" pname="c" />
                                             <note xml:id="p1ccd4n768v1b23s5" dur="4" oct="4" pname="c">
@@ -4843,7 +4846,7 @@
                                                 </verse>
                                             </note>
                                             <note xml:id="p1cbd3n384v1b23s5" dur="8" oct="3" pname="b">
-                                                <accid xml:id="accid-000000049072795" accid="f" />
+                                                <accid xml:id="accid-000000049072795" accid.ges="f" />
                                                 <verse xml:id="verse-000000132758562" n="1">
                                                     <syl xml:id="syl-000000037652385" wordpos="t">the</syl>
                                                 </verse>
@@ -4880,9 +4883,13 @@
                         <measure xml:id="measure-000000092554685" n="24">
                             <staff xml:id="staff-000000067105226" n="1">
                                 <layer xml:id="layer-000000193875384" n="1">
-                                    <note xml:id="p1cbd4n0v1b24s1" dur="4" oct="4" pname="b" />
+                                    <note xml:id="p1cbd4n0v1b24s1" dur="4" oct="4" pname="b">
+                                        <accid xml:id="accid-0000000856327311" accid="n" />
+                                    </note>
                                     <note xml:id="p1ccd5n256v1b24s1" dur="2" oct="5" pname="c" />
-                                    <note xml:id="p1cbd4n768v1b24s1" dur="4" oct="4" pname="b" />
+                                    <note xml:id="p1cbd4n768v1b24s1" dur="4" oct="4" pname="b">
+                                        <accid xml:id="accid-0000002005197430" accid="n" />
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000068224357" n="2">
@@ -5082,7 +5089,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b26s2" dur="2" oct="4" pname="b">
-                                        <accid xml:id="accid-000000088257490" accid="f" />
+                                        <accid xml:id="accid-000000088257490" accid.ges="f" />
                                         <app xml:id="app-000000191617424">
                                             <lem xml:id="lem-000000147569807" source="Italian">
                                                 <verse xml:id="verse-000000076687850" n="1">
@@ -5239,7 +5246,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b27s2" dur="2" oct="4" pname="b">
-                                        <accid xml:id="accid-000000205139943" accid="f" />
+                                        <accid xml:id="accid-000000205139943" accid.ges="f" />
                                         <app xml:id="app-000000160205302">
                                             <lem xml:id="lem-000000055515786" source="Italian">
                                                 <verse xml:id="verse-000000002030103" n="1">
@@ -5320,7 +5327,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n384v1b27s6" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000179078650" accid="f" />
+                                        <accid xml:id="accid-000000179078650" accid.ges="f" />
                                         <app xml:id="app-000000006083096">
                                             <lem xml:id="lem-000000018388001" source="Italian">
                                                 <verse xml:id="verse-000000076551044" n="1">
@@ -5524,7 +5531,7 @@
                             <staff xml:id="staff-000000102826451" n="1">
                                 <layer xml:id="layer-000000124071216" n="1">
                                     <note xml:id="p1cbd4n0v1b29s1" dur="2" oct="4" pname="b">
-                                        <accid xml:id="accid-000000081661923" accid="f" />
+                                        <accid xml:id="accid-000000081661923" accid.ges="f" />
                                         <app xml:id="app-000000007399489">
                                             <lem xml:id="lem-000000023916865" source="Italian">
                                                 <verse xml:id="verse-000000035154508" n="1">
@@ -5656,7 +5663,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n896v1b29s5" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000134829285" accid="f" />
+                                        <accid xml:id="accid-000000134829285" accid.ges="f" />
                                         <app xml:id="app-000000157099866">
                                             <lem xml:id="lem-000000046312279" source="Italian">
                                                 <verse xml:id="verse-000000051053722" n="1">
@@ -5682,7 +5689,7 @@
                             <staff xml:id="staff-000000074494188" n="1">
                                 <layer xml:id="layer-000000040851515" n="1">
                                     <note xml:id="p1cbd4n0v1b30s1" dur="1" oct="4" pname="b">
-                                        <accid xml:id="accid-000000054540453" accid="f" />
+                                        <accid xml:id="accid-000000054540453" accid.ges="f" />
                                         <app xml:id="app-000000093478260">
                                             <lem xml:id="lem-000000204829720" source="Italian">
                                                 <verse xml:id="verse-000000115384796" n="1">
@@ -5794,7 +5801,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b31s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000080671000" accid="f" />
+                                        <accid xml:id="accid-000000080671000" accid.ges="f" />
                                         <app xml:id="app-000000055970730">
                                             <lem xml:id="lem-000000102230127" source="Italian">
                                                 <verse xml:id="verse-000000131074010" n="1">
@@ -6017,7 +6024,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b32s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000199254948" accid="f" />
+                                        <accid xml:id="accid-000000199254948" accid.ges="f" />
                                         <app xml:id="app-000000155453287">
                                             <lem xml:id="lem-000000074799753" source="Italian">
                                                 <verse xml:id="verse-000000091920307" n="1">
@@ -6357,7 +6364,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b33s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000022818136" accid="f" />
+                                        <accid xml:id="accid-000000022818136" accid.ges="f" />
                                         <app xml:id="app-000000168229281">
                                             <lem xml:id="lem-000000052566211" source="Italian">
                                                 <verse xml:id="verse-000000178587485" n="1">
@@ -6557,7 +6564,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Vi-1587" plist="p1ccd3n768v1b33s6">corrected from a d2 in all copies</annot>
+                            <annot xml:id="annot-0000000411158424" label="app" plist="p1ccd3n768v1b33s6" source="Vi-1587">corrected from a d2 in all copies</annot>
                         </measure>
                         <measure xml:id="measure-000000112981365" n="34">
                             <staff xml:id="staff-000000196422688" n="1">
@@ -6605,7 +6612,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b34s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000104412084" accid="f" />
+                                        <accid xml:id="accid-000000104412084" accid.ges="f" />
                                         <app xml:id="app-000000143105169">
                                             <lem xml:id="lem-000000201645830" source="Italian">
                                                 <verse xml:id="verse-000000145021269" n="1">
@@ -6918,7 +6925,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b35s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000113964477" accid="f" />
+                                        <accid xml:id="accid-000000113964477" accid.ges="f" />
                                         <app xml:id="app-000000114449878">
                                             <lem xml:id="lem-000000057998608" source="Italian">
                                                 <verse xml:id="verse-000000060305221" n="1">
@@ -7250,7 +7257,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b36s4" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000104624507" accid="f" />
+                                        <accid xml:id="accid-000000104624507" accid.ges="f" />
                                         <app xml:id="app-000000006238638">
                                             <lem xml:id="lem-000000055600338" source="Italian">
                                                 <verse xml:id="verse-000000064482346" n="1">
@@ -7443,7 +7450,7 @@
                                     <note xml:id="p1ccd4n0v1b37s5" dur="4" oct="4" pname="c" tie="t" />
                                     <beam xml:id="beam-000000089954307">
                                         <note xml:id="p1cbd3n256v1b37s5" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000164779289" accid="f" />
+                                            <accid xml:id="accid-000000164779289" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad3n384v1b37s5" dur="8" oct="3" pname="a" />
                                     </beam>
@@ -7735,7 +7742,7 @@
                                 <layer xml:id="layer-000000188756186" n="1">
                                     <note xml:id="p1ccd5n0v1b40s2" dur="4" oct="5" pname="c" tie="t" />
                                     <note xml:id="p1cbd4n256v1b40s2" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000035730436" accid="f" />
+                                        <accid xml:id="accid-000000035730436" accid.ges="f" />
                                         <app xml:id="app-000000180495294">
                                             <lem xml:id="lem-000000049009867" source="Italian">
                                                 <verse xml:id="verse-000000085023596" n="1">
@@ -7811,7 +7818,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n768v1b40s3" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000166276747" accid="f" />
+                                        <accid xml:id="accid-000000166276747" accid.ges="f" />
                                         <app xml:id="app-000000098300220">
                                             <lem xml:id="lem-000000072643029" source="Italian">
                                                 <verse xml:id="verse-000000092830433" n="1">
@@ -8094,7 +8101,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b42s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000088938148" accid="f" />
+                                        <accid xml:id="accid-000000088938148" accid.ges="f" />
                                         <app xml:id="app-000000040216625">
                                             <lem xml:id="lem-000000107727790" source="Italian">
                                                 <verse xml:id="verse-000000134850250" n="1">
@@ -8377,7 +8384,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n896v1b42s5" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000048155125" accid="f" />
+                                        <accid xml:id="accid-000000048155125" accid.ges="f" />
                                         <app xml:id="app-000000115605551">
                                             <lem xml:id="lem-000000154041896" source="Italian">
                                                 <verse xml:id="verse-000000171361131" n="1">
@@ -8473,7 +8480,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b43s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000198656851" accid="f" />
+                                        <accid xml:id="accid-000000198656851" accid.ges="f" />
                                         <app xml:id="app-000000127582260">
                                             <lem xml:id="lem-000000012637416" source="Italian">
                                                 <verse xml:id="verse-000000132882211" n="1">
@@ -8736,7 +8743,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b43s4" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000110772388" accid="f" />
+                                        <accid xml:id="accid-000000110772388" accid.ges="f" />
                                         <app xml:id="app-000000063322216">
                                             <lem xml:id="lem-000000178337223" source="Italian">
                                                 <verse xml:id="verse-000000097951531" n="1">
@@ -8967,7 +8974,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b44s2" dots="1" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000193403814" accid="f" />
+                                        <accid xml:id="accid-000000193403814" accid.ges="f" />
                                         <app xml:id="app-000000039849924">
                                             <lem xml:id="lem-000000172283298" source="Italian">
                                                 <verse xml:id="verse-000000106658840" n="1">
@@ -9167,7 +9174,7 @@
                             <staff xml:id="staff-000000147679949" n="1">
                                 <layer xml:id="layer-000000210065450" n="1">
                                     <note xml:id="p1cbd4n0v1b45s1" dots="1" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000108180203" accid="f" />
+                                        <accid xml:id="accid-000000108180203" accid.ges="f" />
                                         <app xml:id="app-000000204538347">
                                             <lem xml:id="lem-000000198930998" source="Italian">
                                                 <verse xml:id="verse-000000125022993" n="1">
@@ -9256,7 +9263,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b45s2" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000071925143" accid="f" />
+                                        <accid xml:id="accid-000000071925143" accid.ges="f" />
                                         <app xml:id="app-000000183836547">
                                             <lem xml:id="lem-000000156125851" source="Italian">
                                                 <verse xml:id="verse-000000027333504" n="1">
@@ -9271,7 +9278,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n768v1b45s2" dur="4" oct="4" pname="b">
-                                        <accid xml:id="accid-000000054896027" accid="f" />
+                                        <accid xml:id="accid-000000054896027" accid.ges="f" />
                                         <app xml:id="app-000000168101655">
                                             <lem xml:id="lem-000000055043037" source="Italian">
                                                 <verse xml:id="verse-000000078566164" n="1">
@@ -9305,7 +9312,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n256v1b45s3" dots="1" dur="4" oct="3" pname="b">
-                                        <accid xml:id="accid-000000200788582" accid="f" />
+                                        <accid xml:id="accid-000000200788582" accid.ges="f" />
                                         <app xml:id="app-000000159714177">
                                             <lem xml:id="lem-000000176374218" source="Italian">
                                                 <verse xml:id="verse-000000097906543" n="1">
@@ -9620,7 +9627,7 @@
                             <staff xml:id="staff-000000068505919" n="4">
                                 <layer xml:id="layer-000000113000837" n="1">
                                     <note xml:id="p1ced5n0v1b46s4" dur="8" oct="4" pname="e" tie="t">
-                                        <accid xml:id="accid-000000106048997" accid="f" />
+                                        <accid xml:id="accid-000000106048997" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cdd5n128v1b46s4" dur="8" oct="4" pname="d">
                                         <app xml:id="app-000000155084203">
@@ -9779,7 +9786,7 @@
                                     </note>
                                     <beam xml:id="beam-000000084537828">
                                         <note xml:id="p1cbd4n640v1b47s1" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000133493043" accid="f" />
+                                            <accid xml:id="accid-000000133493043" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad4n768v1b47s1" dur="8" oct="4" pname="a" />
                                         <note xml:id="p1cgd4n896v1b47s1" dur="8" oct="4" pname="g" />
@@ -9791,7 +9798,7 @@
                                     <beam xml:id="beam-000000199037558">
                                         <note xml:id="p1ccd5n0v1b47s2" dur="8" oct="5" pname="c" tie="t" />
                                         <note xml:id="p1cbd4n128v1b47s2" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000093941118" accid="f" />
+                                            <accid xml:id="accid-000000093941118" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad4n256v1b47s2" dur="8" oct="4" pname="a" />
                                         <note xml:id="p1cgd4n384v1b47s2" dur="8" oct="4" pname="g" />
@@ -9932,7 +9939,7 @@
                                     <note xml:id="p1cad4n256v1b48s1" dots="1" dur="4" oct="4" pname="a" />
                                     <beam xml:id="beam-000000151875799">
                                         <note xml:id="p1cbd4n640v1b48s1" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000083118340" accid="f" />
+                                            <accid xml:id="accid-000000083118340" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1ccd5n768v1b48s1" dur="8" oct="5" pname="c" />
                                         <note xml:id="p1cad4n896v1b48s1" dur="8" oct="4" pname="a" />
@@ -9983,7 +9990,7 @@
                                                 </verse>
                                             </note>
                                             <note xml:id="p1cbd3n384v1b48s5" dur="8" oct="3" pname="b">
-                                                <accid xml:id="accid-000000020904629" accid="f" />
+                                                <accid xml:id="accid-000000020904629" accid.ges="f" />
                                             </note>
                                             <note xml:id="p1ccd4n512v1b48s5" dur="4" oct="4" pname="c" />
                                             <note xml:id="p1ccd4n768v1b48s5" dur="4" oct="4" pname="c">
@@ -10001,7 +10008,7 @@
                                                 </verse>
                                             </note>
                                             <note xml:id="p1cbd3n384v1b48s5" dur="8" oct="3" pname="b">
-                                                <accid xml:id="accid-000000098831625" accid="f" />
+                                                <accid xml:id="accid-000000098831625" accid.ges="f" />
                                                 <verse xml:id="verse-000000199272146" n="1">
                                                     <syl xml:id="syl-000000166220409" wordpos="t">the</syl>
                                                 </verse>
@@ -10038,9 +10045,13 @@
                         <measure xml:id="measure-000000008709322" n="49">
                             <staff xml:id="staff-000000145435864" n="1">
                                 <layer xml:id="layer-000000074689316" n="1">
-                                    <note xml:id="p1cbd4n0v1b49s1" dur="4" oct="4" pname="b" />
+                                    <note xml:id="p1cbd4n0v1b49s1" dur="4" oct="4" pname="b">
+                                        <accid xml:id="accid-0000000892333639" accid="n" />
+                                    </note>
                                     <note xml:id="p1ccd5n256v1b49s1" dur="2" oct="5" pname="c" />
-                                    <note xml:id="p1cbd4n768v1b49s1" dur="4" oct="4" pname="b" />
+                                    <note xml:id="p1cbd4n768v1b49s1" dur="4" oct="4" pname="b">
+                                        <accid xml:id="accid-0000001573163672" accid="n" />
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000007714399" n="2">
@@ -10240,7 +10251,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b51s2" dur="2" oct="4" pname="b">
-                                        <accid xml:id="accid-000000131494123" accid="f" />
+                                        <accid xml:id="accid-000000131494123" accid.ges="f" />
                                         <app xml:id="app-000000015444764">
                                             <lem xml:id="lem-000000164129032" source="Italian">
                                                 <verse xml:id="verse-000000046319259" n="1">
@@ -10397,7 +10408,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n512v1b52s2" dur="2" oct="4" pname="b">
-                                        <accid xml:id="accid-000000172028486" accid="f" />
+                                        <accid xml:id="accid-000000172028486" accid.ges="f" />
                                         <app xml:id="app-000000132340293">
                                             <lem xml:id="lem-000000094503018" source="Italian">
                                                 <verse xml:id="verse-000000125530245" n="1">
@@ -10478,7 +10489,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n384v1b52s6" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000109442325" accid="f" />
+                                        <accid xml:id="accid-000000109442325" accid.ges="f" />
                                         <app xml:id="app-000000068851726">
                                             <lem xml:id="lem-000000126771559" source="Italian">
                                                 <verse xml:id="verse-000000077412619" n="1">
@@ -10682,7 +10693,7 @@
                             <staff xml:id="staff-000000113247770" n="1">
                                 <layer xml:id="layer-000000040522457" n="1">
                                     <note xml:id="p1cbd4n0v1b54s1" dur="2" oct="4" pname="b">
-                                        <accid xml:id="accid-000000035480035" accid="f" />
+                                        <accid xml:id="accid-000000035480035" accid.ges="f" />
                                         <app xml:id="app-000000073341350">
                                             <lem xml:id="lem-000000207209478" source="Italian">
                                                 <verse xml:id="verse-000000171501283" n="1">
@@ -10814,7 +10825,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd3n896v1b54s5" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000201605247" accid="f" />
+                                        <accid xml:id="accid-000000201605247" accid.ges="f" />
                                         <app xml:id="app-000000197004383">
                                             <lem xml:id="lem-000000062386539" source="Italian">
                                                 <verse xml:id="verse-000000079694815" n="1">
@@ -10840,7 +10851,7 @@
                             <staff xml:id="staff-000000062648559" n="1">
                                 <layer xml:id="layer-000000023100669" n="1">
                                     <note xml:id="p1cbd4n0v1b55s1" dur="1" oct="4" pname="b">
-                                        <accid xml:id="accid-000000179980778" accid="f" />
+                                        <accid xml:id="accid-000000179980778" accid.ges="f" />
                                         <app xml:id="app-000000146783487">
                                             <lem xml:id="lem-000000175605742" source="Italian">
                                                 <verse xml:id="verse-000000206220727" n="1">
@@ -10952,7 +10963,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b56s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000142982104" accid="f" />
+                                        <accid xml:id="accid-000000142982104" accid.ges="f" />
                                         <app xml:id="app-000000061407940">
                                             <lem xml:id="lem-000000002618596" source="Italian">
                                                 <verse xml:id="verse-000000066029338" n="1">
@@ -11175,7 +11186,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b57s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000181815972" accid="f" />
+                                        <accid xml:id="accid-000000181815972" accid.ges="f" />
                                         <app xml:id="app-000000022773914">
                                             <lem xml:id="lem-000000079595106" source="Italian">
                                                 <verse xml:id="verse-000000126571852" n="1">
@@ -11515,7 +11526,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b58s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000173847502" accid="f" />
+                                        <accid xml:id="accid-000000173847502" accid.ges="f" />
                                         <app xml:id="app-000000190682561">
                                             <lem xml:id="lem-000000111966393" source="Italian">
                                                 <verse xml:id="verse-000000203479496" n="1">
@@ -11762,7 +11773,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b59s1" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000100080107" accid="f" />
+                                        <accid xml:id="accid-000000100080107" accid.ges="f" />
                                         <app xml:id="app-000000091349695">
                                             <lem xml:id="lem-000000078266305" source="Italian">
                                                 <verse xml:id="verse-000000137181144" n="1">
@@ -12075,7 +12086,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n896v1b60s2" dur="8" oct="4" pname="b">
-                                        <accid xml:id="accid-000000066456987" accid="f" />
+                                        <accid xml:id="accid-000000066456987" accid.ges="f" />
                                         <app xml:id="app-000000118989553">
                                             <lem xml:id="lem-000000120656949" source="Italian">
                                                 <verse xml:id="verse-000000036345788" n="1">
@@ -12407,7 +12418,7 @@
                                         </app>
                                     </note>
                                     <note xml:id="p1cbd4n384v1b61s4" dur="8" oct="3" pname="b">
-                                        <accid xml:id="accid-000000039250078" accid="f" />
+                                        <accid xml:id="accid-000000039250078" accid.ges="f" />
                                         <app xml:id="app-000000070286037">
                                             <lem xml:id="lem-000000181421370" source="Italian">
                                                 <verse xml:id="verse-000000183836313" n="1">
@@ -12603,7 +12614,7 @@
                                     <note xml:id="p1ccd4n0v1b62s5" dur="4" oct="4" pname="c" tie="t" />
                                     <beam xml:id="beam-000000192399863">
                                         <note xml:id="p1cbd3n256v1b62s5" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000038801184" accid="f" />
+                                            <accid xml:id="accid-000000038801184" accid.ges="f" />
                                         </note>
                                         <note xml:id="p1cad3n384v1b62s5" dur="8" oct="3" pname="a" />
                                     </beam>

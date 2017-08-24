@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/2.1.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -39,7 +39,7 @@
                 <changeDesc>
                     <p>Adding critical notes for music and transposing octave</p>
                 </changeDesc>
-                <date isodate="2016-08-15"/>
+                <date isodate="2016-08-15" />
             </change>
         </revisionDesc>
     </meiHead>
@@ -47,19 +47,19 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef xml:id="scoredef-000000213258818" meter.count="2" meter.unit="2">
+                    <scoreDef xml:id="scoredef-000000213258818" meter.sym="cut">
                         <staffGrp xml:id="m-000000051112984">
                             <staffGrp xml:id="m-000000062475052" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="5" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="6" label="Basso" lines="5" />
+                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
+                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Sesto" lines="5" />
+                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
-                    <section>
+                    <section xml:id="section-0000001859786378">
                         <measure xml:id="measure-000000186101402" n="1">
                             <staff xml:id="staff-000000168446188" n="1">
                                 <layer xml:id="layer-000000047398279" n="1">
@@ -144,7 +144,7 @@
                                     <mRest xml:id="mrest-000000204772337" />
                                 </layer>
                             </staff>
-                            <annot label="app" source="AnGa-1593 Sc_heir-1603 AnGa-1605" plist="measure-000000186101402">C instead of cut C</annot>
+                            <annot xml:id="annot-0000001915675105" label="app" plist="measure-000000186101402" source="AnGa-1593 Sc_heir-1603 AnGa-1605">C instead of cut C</annot>
                         </measure>
                         <measure xml:id="measure-000000051388722" n="2">
                             <staff xml:id="staff-000000017475177" n="1">
@@ -2899,7 +2899,7 @@
                             <staff xml:id="staff-000000012930753" n="4">
                                 <layer xml:id="layer-000000001827317" n="1">
                                     <note xml:id="p1ccd5n0v1b20s4" dur="1" oct="4" pname="c" tie="t">
-                                        <accid xml:id="accid-000000191193736" accid="s" />
+                                        <accid xml:id="accid-000000191193736" accid.ges="s" />
                                     </note>
                                 </layer>
                             </staff>
@@ -3365,7 +3365,7 @@
                             <staff xml:id="staff-000000072091609" n="3">
                                 <layer xml:id="layer-000000033403867" n="1">
                                     <note xml:id="p1cbd4n0v1b23s3" dur="2" oct="4" pname="b" tie="t">
-                                        <accid xml:id="accid-000000156089749" accid="f" />
+                                        <accid xml:id="accid-000000156089749" accid.ges="f" />
                                     </note>
                                     <note xml:id="p1cbd4n512v1b23s3" dur="2" oct="4" pname="b">
                                         <supplied xml:id="supplied-000000058751816">
@@ -6817,7 +6817,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot label="app" source="Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605" plist="p1ccd3n512v1b48s6">e2 instead of c2; in AnGa-1593 the SB e2 is crossed out and corrected to c2 by hand</annot>
+                            <annot xml:id="annot-0000001992334559" label="app" plist="p1ccd3n512v1b48s6" source="Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">e2 instead of c2; in AnGa-1593 the SB e2 is crossed out and corrected to c2 by hand</annot>
                         </measure>
                         <measure xml:id="measure-000000192927199" n="49">
                             <staff xml:id="staff-000000201920684" n="1">
@@ -6937,7 +6937,7 @@
                                     <rest xml:id="p1r512v1b49s6" dur="2" />
                                 </layer>
                             </staff>
-                            <annot label="app" source="Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605" plist="p1ccd3n0v1b49s6">e2 instead of c2; in AnGa-1593 the SB e2 is crossed out and corrected to c2 by hand</annot>
+                            <annot xml:id="annot-0000000611556987" label="app" plist="p1ccd3n0v1b49s6" source="Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">e2 instead of c2; in AnGa-1593 the SB e2 is crossed out and corrected to c2 by hand</annot>
                         </measure>
                         <measure xml:id="measure-000000119636714" n="50">
                             <staff xml:id="staff-000000207410438" n="1">
