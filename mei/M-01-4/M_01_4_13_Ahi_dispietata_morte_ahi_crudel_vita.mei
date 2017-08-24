@@ -1,5 +1,7 @@
-<?xml version="1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="2013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -40,7 +42,7 @@
                 <changeDesc>
                     <p>Moving initial scoreDef up in score</p>
                 </changeDesc>
-                <date isodate="2016-09-15"/>
+                <date isodate="2016-09-15" />
             </change>
         </revisionDesc>
     </meiHead>
@@ -48,18 +50,18 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef xml:id="scoredef-000000125349826" meter.count="4" meter.unit="4">
+                    <scoreDef xml:id="scoredef-000000125349826" meter.sym="common">
                         <staffGrp xml:id="m-000000037541976">
                             <staffGrp xml:id="m-000000037308589" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" label="Canto" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                <staffDef xml:id="sd2" label="Alto" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" />
-                                <staffDef xml:id="sd3" label="Tenor" n="3" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" />
-                                <staffDef xml:id="sd4" label="Basso" n="4" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" />
+                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
+                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenor" lines="5" />
+                                <staffDef xml:id="sd4" n="4" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
-                    <section>
-                        <measure xml:id="measure-000000200308781" label="1" n="1">
+                    <section xml:id="section-0000001608079578">
+                        <measure xml:id="measure-000000200308781" n="1">
                             <staff xml:id="staff-000000031214458" n="1">
                                 <layer xml:id="layer-000000205892370" n="1">
                                     <note xml:id="p1ced4n0v1b1s1" dur="1" oct="4" pname="e" tie="i">
@@ -6559,7 +6561,7 @@
                             <staff xml:id="staff-000000189510075" n="4">
                                 <layer xml:id="layer-000000162847104" n="1">
                                     <note xml:id="p1cbd3n0v1b72s4" dur="1" oct="3" pname="b" tie="t">
-                                        <accid xml:id="accid-000000180526428" accid="f" />
+                                        <accid xml:id="accid-000000180526428" accid.ges="f" />
                                     </note>
                                 </layer>
                             </staff>
@@ -7966,7 +7968,7 @@
                                     <lem xml:id="lem-000000194250038" source="Italian">
                                         <layer xml:id="layer-000000095759637" n="1">
                                             <note xml:id="p1cgd3n0v1b88s3" dur="4" oct="3" pname="g" tie="t">
-                                                <accid xml:id="accid-000000021778485" accid="s" />
+                                                <accid xml:id="accid-000000021778485" accid.ges="s" />
                                             </note>
                                             <note xml:id="p1cgd3n256v1b88s3" dur="4" oct="3" pname="g">
                                                 <accid xml:id="accid-000000155298890" accid="s" func="caution" />
