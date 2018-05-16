@@ -56,16 +56,15 @@
                 }
                 pageWidth = ( $("#page-content-wrapper").width() ) * 100 / zoom ;
                 border = 50;
-                options = JSON.stringify({
-                            inputFormat: 'mei',
+                options = {
+                            adjustPageHeight: "true",
+                            breaks: "auto",
+                            mmOutput: "false",
+                            noFooter: "true",
                             pageHeight: pageHeight,
                             pageWidth: pageWidth,
-                            border: border,
-                            scale: zoom,
-                            appXPathQuery: app_xpath,
-                            adjustPageHeight: 1,
-                            ignoreLayout: 1
-                        });
+                            scale: zoom
+                        }
                 // console.log( options );
                 vrvToolkit.setOptions( options );
             }
@@ -132,7 +131,7 @@
                 
                 $( ".popover" ).popover('hide');
                 
-                svg = vrvToolkit.renderPage(page, "");
+                svg = vrvToolkit.renderToSVG(page, "");
                 $("#svg_output").html(svg);
                 
                 if (show_inline_app) {

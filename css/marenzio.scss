@@ -66,9 +66,19 @@ svg:not(:root){
     border-bottom: solid 2px $navbar-background;
     h1, h2 {
         letter-spacing: 0.05em;
+        margin-bottom: 0px;
+        font-weight: bold;
     }
-    h4, h5 {
-        letter-spacing: 0.075em;
+    h3, h5 {
+        font-style: italic;
+    }
+    h3 {
+        margin-top: 2px;
+        letter-spacing: 0.035em;
+    }
+    h5 {
+        margin-top: 5px;
+        letter-spacing: 0.045em;
     }
 }
 
