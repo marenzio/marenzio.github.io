@@ -156,11 +156,29 @@ p.news-more {
 .container-books {
     padding-top: 20px;
     margin-bottom: 10px;
+    h3, h4, div.noteHeading {
+        padding-bottom: 9px;
+        border-bottom: 1px solid #eee;
+    }
+    h3 {
+        margin-top: 30px;
+    }
+    h4 {
+        margin-top: 20px;
+    }
+    div.noteHeading {
+        font-weight: bold;
+        margin-top: 20px;
+    }
 }
 
 .book-heading {
 	padding: 0px 15px 5px 15px;
     text-align: center;
+}
+
+.book {
+
 }
 
 // we need popover to be behind the modal dialog
@@ -185,23 +203,33 @@ p.app_text {
     padding: 10px;
     margin: 10px 0px;
     border: 1px solid #999999;
-    table {
-        counter-reset: rowNumber;
-        tr {
-            counter-increment: rowNumber;
-            td:first-child {
-                padding-right: 3em;
-            }
-            td:last-child::after {
-                content: "";
-                margin-left: 3em;
-                text-align: right;
-                float: right;
-            }
+}
+
+table.lyrics {
+    background-color: #eee;
+    margin: 10px 0px;
+    border: 1px solid #999999;
+    counter-reset: rowNumber;
+    tr {
+        counter-increment: rowNumber;
+        td:first-child {
+            padding-right: 3em;
+            padding-left: 10px;
         }
-        tr:nth-child(5n + 0) td:last-child::after {
-            content: counter(rowNumber);
+        td:last-child::after {
+            content: "";
+            margin-left: 3em;
+            text-align: right;
+            float: right;
+            padding-right: 10px;
         }
+        td {
+            padding-top: 1px;
+            padding-bottom: 1px;
+        }
+    }
+    tr:nth-child(5n + 0) td:last-child::after {
+        content: counter(rowNumber);
     }
 }
 

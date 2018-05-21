@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -6,7 +7,9 @@
         <author>Daniele V. Filippi</author>
       </titleStmt>
       <editionStmt>
-        <edition><date>2014-11-26</date></edition>
+        <edition>
+          <date>2014-11-26</date>
+        </edition>
       </editionStmt>
       <publicationStmt>
         <p>unknown</p>
@@ -24,7 +27,10 @@
     </encodingDesc>
     <revisionDesc>
       <listChange>
-        <change><date>2018-05-15T21:04:27Z</date><name>Daniele V. Filippi</name></change>
+        <change>
+          <date>2018-05-15T21:04:27Z</date>
+          <name>Daniele V. Filippi</name>
+        </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -32,206 +38,167 @@
     <body>
       <p>Daniele V. Filippi</p>
       <div type="section">
-      <head>Introduction</head>
-      <p>On January 1<hi rend="superscript">st</hi>, 1594 Marenzio signed the dedication of his
-        <hi rend="italic" xml:space="preserve">Sesto libro de madrigali a cinque voci </hi>to Cinzio Aldobrandini Passeri (1551–1610), nephew of Pope
+        <head>Introduction</head>
+        <p>On January 1<hi rend="superscript">st</hi>, 1594 Marenzio signed the dedication of his
+        <hi rend="italic" xml:space="preserve">Sesto libro de madrigali a cinque voci </hi>to Cinzio Aldobrandini Passeri (1551&#x2013;1610), nephew of Pope
         Clement VIII and recently appointed cardinal. Aldobrandini was a distinguished patron of artists and poets, famously of Torquato Tasso;
         Battista Guarini, G. Bardi and Angelo Grillo, among others, were part of his patronage network.<note place="foot" xml:id="ftn1" n="1"><p> See
-            Elena Fasano Guarini, “Aldobrandini (Passeri), Cinzio”, in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 2 (Rome:
-            Istituto della Enciclopedia italiana, 1960; on line at <ref
-              target="http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)/"
-              >http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)/</ref>, accessed August 25, 2014); Marco Bizzarini, <hi
-              rend="italic">Luca Marenzio: The Career of a Musician Between the Renaissance and the Counter-Reformation</hi>, trans. James Chater
-            (Aldershot, Hants, England; Burlington, VT: Ashgate, 2003), 197–199.</p></note> The dedication, entirely constructed from genre-specific
-        topoi and clichés, does not shed any further light on the circumstances of the composition and of the arrangement for publication. As is well
-        known, after the death of his former patron Cardinal Luigi d’Este in 1586, Marenzio had served Ferdinando de’ Medici in Rome and in Florence
-        (1587–1589 or 1590), then, back in Rome, had maintained multiple patronage connections, notably with Virginio Orsini (from 1589/90) and with
-        Aldobrandini (probably from 1593).<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> For a recent and documented précis, see
-            Paolo Fabbri, “Marenzio, Luca” in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 70 (Rome: Istituto della Enciclopedia
-            italiana, 2007; on line at <ref target="http://www.treccani.it/enciclopedia/luca-marenzio_(Dizionario-Biografico)/"
-              >http://www.treccani.it/enciclopedia/luca-marenzio_(Dizionario-Biografico)/</ref>, accessed August 25, 2014).</p></note> Meanwhile, his
-        publication rhythm had considerably slowed down, compared to the years 1580 to 1587: the period 1588–1593 had seen only the publication of the
+            Elena Fasano Guarini, &#x201C;Aldobrandini (Passeri), Cinzio&#x201D;, in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 2 (Rome:
+            Istituto della Enciclopedia italiana, 1960; on line at <ref target="http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)/</ref>, accessed August 25, 2014); Marco Bizzarini, <hi rend="italic">Luca Marenzio: The Career of a Musician Between the Renaissance and the Counter-Reformation</hi>, trans. James Chater
+            (Aldershot, Hants, England; Burlington, VT: Ashgate, 2003), 197&#x2013;199.</p></note> The dedication, entirely constructed from genre-specific
+        topoi and clich&#xE9;s, does not shed any further light on the circumstances of the composition and of the arrangement for publication. As is well
+        known, after the death of his former patron Cardinal Luigi d&#x2019;Este in 1586, Marenzio had served Ferdinando de&#x2019; Medici in Rome and in Florence
+        (1587&#x2013;1589 or 1590), then, back in Rome, had maintained multiple patronage connections, notably with Virginio Orsini (from 1589/90) and with
+        Aldobrandini (probably from 1593).<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> For a recent and documented pr&#xE9;cis, see
+            Paolo Fabbri, &#x201C;Marenzio, Luca&#x201D; in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 70 (Rome: Istituto della Enciclopedia
+            italiana, 2007; on line at <ref target="http://www.treccani.it/enciclopedia/luca-marenzio_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/luca-marenzio_(Dizionario-Biografico)/</ref>, accessed August 25, 2014).</p></note> Meanwhile, his
+        publication rhythm had considerably slowed down, compared to the years 1580 to 1587: the period 1588&#x2013;1593 had seen only the publication of the
         Book for 4, 5, and 6 voices (1588) and of Book V <hi rend="italic">a 6</hi> (1591). </p>
-      <p>As if marking the end of this transitional phase or, rather, the beginning of a new chapter in Marenzio’s career, Book VI
+        <p>As if marking the end of this transitional phase or, rather, the beginning of a new chapter in Marenzio&#x2019;s career, Book VI
         <hi rend="italic" xml:space="preserve">a 5 </hi>is characterized by a distinct change in the choice of texts, by a subtle montage, and by a
         noticeable stylistic shift. </p>
-      <p>Of the seventeen texts set in the book, four (plus one adaptation, see below) are by Battista Guarini, three by G.B. Strozzi the Elder, one
-        each by Ridolfo Arlotti (<hi rend="italic">c.</hi> 1550–1613), Livio Celiano, Antonio Ongaro (<hi rend="italic">c.</hi> 1560–1592/1599),<note
-          place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Interestingly, Ongaro had enjoined the patronage, among others, of Girolamo Ruiz,
-            dedicatee of Marenzio’s Book IV <hi rend="italic">a 5</hi> (1584). See Donatella Manzoli, “Ongaro, Antonio”, in <hi rend="italic"
-              >Dizionario Biografico degli Italiani</hi>, vol. 79 (Rome: Istituto della Enciclopedia italiana, 2013; on line at <ref
-              target="http://www.treccani.it/enciclopedia/antonio-ongaro_(Dizionario-Biografico)/"
-              >http://www.treccani.it/enciclopedia/antonio-ongaro_(Dizionario-Biografico)/</ref>, accessed August 25, 2014). </p></note> and Torquato
+        <p>Of the seventeen texts set in the book, four (plus one adaptation, see below) are by Battista Guarini, three by G.B. Strozzi the Elder, one
+        each by Ridolfo Arlotti (<hi rend="italic">c.</hi> 1550&#x2013;1613), Livio Celiano, Antonio Ongaro (<hi rend="italic">c.</hi> 1560&#x2013;1592/1599),<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Interestingly, Ongaro had enjoined the patronage, among others, of Girolamo Ruiz,
+            dedicatee of Marenzio&#x2019;s Book IV <hi rend="italic">a 5</hi> (1584). See Donatella Manzoli, &#x201C;Ongaro, Antonio&#x201D;, in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 79 (Rome: Istituto della Enciclopedia italiana, 2013; on line at <ref target="http://www.treccani.it/enciclopedia/antonio-ongaro_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/antonio-ongaro_(Dizionario-Biografico)/</ref>, accessed August 25, 2014). </p></note> and Torquato
         Tasso; one text each is furthermore attributed to Bonifazio Bevilacqua and Annibale Caro, while three texts remain anonymous (see Table
-          1).<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> For more details about the attributions, see “The poetic texts: edition
-            and critical report”. </p></note> Three aspects are remarkable: the absence of Petrarca and Sannazaro (which together accounted for
+          1).<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> For more details about the attributions, see &#x201C;The poetic texts: edition
+            and critical report&#x201D;. </p></note> Three aspects are remarkable: the absence of Petrarca and Sannazaro (which together accounted for
         fifteen texts out of twenty-one in Book I <hi rend="italic">a 4</hi> of 1585 and for eleven texts out of fifteen in the Book for 4, 5, and 6
-        voices of 1588);<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> They were, however, absent already from Book V <hi
-              rend="italic">a 6</hi> of 1591.</p></note> the presence of Strozzi, which, in spite of previous settings by Marenzio,<note place="foot"
-          xml:id="ftn6" n="6"><p rend="footnote text"> In Book III <hi rend="italic">a 6</hi> (1585) and Book IV <hi rend="italic">a 6</hi> (1587).
-          </p></note> is probably to refer to the appearance, in 1593, of a posthumous edition of his <hi rend="italic">Madrigali</hi>;<note
-          place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> All the three text set by Marenzio were included in that collection (see “The
-            poetic texts: edition and critical report”), which, according to James Chater, “momentarily revived” interest in Strozzi’s poetry among
-            composers: see James Chater, “Family Matters: Music in the Life and Poetry of Giovambattista Strozzi the Elder” in <hi rend="italic"
-              >Perspectives on Luca Marenzio’s Secular Music</hi>, ed. by Mauro Calcagno (Turnhout: Centre d’études supérieures de la
-            Renaissance-Brepols, 2014), 75–140: 93 and 105. Chater also suggests that Marenzio’s Florentine connections, namely the families of Piero
-            Strozzi and Gino Capponi, could help explain his “easy access to Florentine poetry” (104).</p></note> and the first occurrences of Livio
+        voices of 1588);<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> They were, however, absent already from Book V <hi rend="italic">a 6</hi> of 1591.</p></note> the presence of Strozzi, which, in spite of previous settings by Marenzio,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> In Book III <hi rend="italic">a 6</hi> (1585) and Book IV <hi rend="italic">a 6</hi> (1587).
+          </p></note> is probably to refer to the appearance, in 1593, of a posthumous edition of his <hi rend="italic">Madrigali</hi>;<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> All the three text set by Marenzio were included in that collection (see &#x201C;The
+            poetic texts: edition and critical report&#x201D;), which, according to James Chater, &#x201C;momentarily revived&#x201D; interest in Strozzi&#x2019;s poetry among
+            composers: see James Chater, &#x201C;Family Matters: Music in the Life and Poetry of Giovambattista Strozzi the Elder&#x201D; in <hi rend="italic">Perspectives on Luca Marenzio&#x2019;s Secular Music</hi>, ed. by Mauro Calcagno (Turnhout: Centre d&#x2019;&#xE9;tudes sup&#xE9;rieures de la
+            Renaissance-Brepols, 2014), 75&#x2013;140: 93 and 105. Chater also suggests that Marenzio&#x2019;s Florentine connections, namely the families of Piero
+            Strozzi and Gino Capponi, could help explain his &#x201C;easy access to Florentine poetry&#x201D; (104).</p></note> and the first occurrences of Livio
         Celiano (Angelo Grillo) and Antonio Ongaro, whose poems Marenzio will set again in the last books
         <hi rend="italic" xml:space="preserve">a 5 </hi>of the late 1590s. </p>
-      <p>The most innovative feature regards, however, Guarini: not so much for the presence and number of his texts (Marenzio had repeatedly set
-        Guarini’s poetry since his first madrigal book, Book I <hi rend="italic">a 5</hi> of 1580), as for their provenance from a work of crucial
+        <p>The most innovative feature regards, however, Guarini: not so much for the presence and number of his texts (Marenzio had repeatedly set
+        Guarini&#x2019;s poetry since his first madrigal book, Book I <hi rend="italic">a 5</hi> of 1580), as for their provenance from a work of crucial
         importance in late sixteenth-century culture, <hi rend="italic">Il pastor fido</hi>. While de Monte and Monteverdi published
-        <hi rend="italic" xml:space="preserve">Pastor fido </hi>settings before Marenzio,<note place="foot" xml:id="ftn8" n="8"><p
-            rend="footnote text"> De Monte in his Book XIV <hi rend="italic">a 5</hi> (1590) and Monteverdi in his III <hi rend="italic">a 5</hi>
-            (1592), one setting each: see James Chater, “Fonti poetiche per i madrigali di Luca Marenzio,” <hi rend="italic">Rivista italiana di
-              musicologia</hi> 13, no. 1 (1978), 60–103: 71–72.</p></note> the latter was, in the words of Marco Bizzarini, “the first of the leading
-        madrigalists to set passages from Guarini’s drama in more than a sporadic way”.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">
+        <hi rend="italic" xml:space="preserve">Pastor fido </hi>settings before Marenzio,<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> De Monte in his Book XIV <hi rend="italic">a 5</hi> (1590) and Monteverdi in his III <hi rend="italic">a 5</hi>
+            (1592), one setting each: see James Chater, &#x201C;Fonti poetiche per i madrigali di Luca Marenzio,&#x201D; <hi rend="italic">Rivista italiana di
+              musicologia</hi> 13, no. 1 (1978), 60&#x2013;103: 71&#x2013;72.</p></note> the latter was, in the words of Marco Bizzarini, &#x201C;the first of the leading
+        madrigalists to set passages from Guarini&#x2019;s drama in more than a sporadic way&#x201D;.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text">
             Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 257<hi rend="color(FF0000)">.</hi></p></note> The present book and the following one in
-        the five-voice series (VII <hi rend="italic">a 5</hi>, 1595) “have for <hi rend="italic">Il pastor fido</hi> a pioneering importance”.<note
-          place="foot" xml:id="ftn10" n="10"><p rend="footnote text"> Ibid.</p></note> While the possibility of a direct contact between Marenzio and
+        the five-voice series (VII <hi rend="italic">a 5</hi>, 1595) &#x201C;have for <hi rend="italic">Il pastor fido</hi> a pioneering importance&#x201D;.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text"> Ibid.</p></note> While the possibility of a direct contact between Marenzio and
         Guarini remains an undocumented speculation, and the circles of Aldobrandini and Cardinal Montalto might have played an instrumental
           role,<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text"> See again Bizzarini, <hi rend="italic">Luca Marenzio</hi>,
-          293.</p></note> it has recently been suggested that Cardinal Scipione Gonzaga (1542–1593) could have brought
-        <hi rend="italic" xml:space="preserve">Il pastor fido </hi>to Marenzio’s attention “as a promising source of madrigal texts”.<note
-          place="foot" xml:id="ftn12" n="12"><p rend="footnote text"> See Seth J. Coluzzi, “‘Tirsi mio, caro Tirsi’: <hi rend="italic">Il pastor
-              fido</hi> and the Roman Madrigal, in <hi rend="italic">Perspectives on Luca Marenzio’s Secular Music</hi>, 51–74: 51–53</p></note> Be it
-        as it may, Marenzio’s settings probably accompanied and fuelled the discussion about Guarini’s controversial play in Cardinal Aldobrandini’s
+          293.</p></note> it has recently been suggested that Cardinal Scipione Gonzaga (1542&#x2013;1593) could have brought
+        <hi rend="italic" xml:space="preserve">Il pastor fido </hi>to Marenzio&#x2019;s attention &#x201C;as a promising source of madrigal texts&#x201D;.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"> See Seth J. Coluzzi, &#x201C;&#x2018;Tirsi mio, caro Tirsi&#x2019;: <hi rend="italic">Il pastor
+              fido</hi> and the Roman Madrigal, in <hi rend="italic">Perspectives on Luca Marenzio&#x2019;s Secular Music</hi>, 51&#x2013;74: 51&#x2013;53</p></note> Be it
+        as it may, Marenzio&#x2019;s settings probably accompanied and fuelled the discussion about Guarini&#x2019;s controversial play in Cardinal Aldobrandini&#x2019;s
           <hi rend="italic">ridotto</hi> (and elsewhere, after the publication), and offered a sort of alternative realization of some passages, as if
-        on the virtual, polyphonic stage of the madrigal.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> See Coluzzi, “‘Tirsi mio,
-            caro Tirsi’”, 54–55.</p></note>
+        on the virtual, polyphonic stage of the madrigal.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> See Coluzzi, &#x201C;&#x2018;Tirsi mio,
+            caro Tirsi&#x2019;&#x201D;, 54&#x2013;55.</p></note>
       </p>
-      <p>As many scholars have noticed,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"> See for instance Chater, “Fonti poetiche per
-            i madrigali di Luca Marenzio,” 76–77.</p></note> some of the names occurring in the texts set by Marenzio have been systematically
-        altered. In no. 2, <hi rend="italic">Clori nel mio partire</hi>, no. 10, <hi rend="italic">Or chi, Clori beata</hi>, no. 12, <hi rend="italic"
-          >Clori mia, Clori dolce, oh sempre nuovo</hi>, and no. 15, <hi rend="italic">“Rimanti in pace”, a la dolente e bella</hi>, the original
-        “Flora”, “Filli”, or “Fillida” have been substituted by “Clori”/“Cloride”, while the first line in the <hi rend="italic">Pastor fido</hi>
-        passage set as no. 11, <hi rend="italic">Deh, Tirsi, Tirsi, anima mia, perdona</hi>, originally sounded “E tu, Mirtillo, anima mia,
-          perdona”.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> For full details and literature, see the notes to the individual
-            texts in “The poetic texts: edition and critical report”.</p></note> The two names also occur in nos. 6, <hi rend="italic">Stillò l’anima
-          in pianto</hi> (Tirsi and Clori), 16, <hi rend="italic">Ecco Maggio seren, chi l’ha vestito</hi> (Clori, this time together with Filli), and
-        17, <hi rend="italic">Cantiam la bella Clori</hi> (Clori only). Thus, Giuseppe Gerbino speaks of a “subtle but unmistakable narrative thread”
-        that underlies the book: “the story of Tirsi and Clori”.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"> Giuseppe Gerbino,
-            “Marenzio and the Shepherds of the Tiber Valley”, in <hi rend="italic">Perspectives on Luca Marenzio’s Secular Music</hi>, 265–282:
+        <p>As many scholars have noticed,<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"> See for instance Chater, &#x201C;Fonti poetiche per
+            i madrigali di Luca Marenzio,&#x201D; 76&#x2013;77.</p></note> some of the names occurring in the texts set by Marenzio have been systematically
+        altered. In no. 2, <hi rend="italic">Clori nel mio partire</hi>, no. 10, <hi rend="italic">Or chi, Clori beata</hi>, no. 12, <hi rend="italic">Clori mia, Clori dolce, oh sempre nuovo</hi>, and no. 15, <hi rend="italic">&#x201C;Rimanti in pace&#x201D;, a la dolente e bella</hi>, the original
+        &#x201C;Flora&#x201D;, &#x201C;Filli&#x201D;, or &#x201C;Fillida&#x201D; have been substituted by &#x201C;Clori&#x201D;/&#x201C;Cloride&#x201D;, while the first line in the <hi rend="italic">Pastor fido</hi>
+        passage set as no. 11, <hi rend="italic">Deh, Tirsi, Tirsi, anima mia, perdona</hi>, originally sounded &#x201C;E tu, Mirtillo, anima mia,
+          perdona&#x201D;.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> For full details and literature, see the notes to the individual
+            texts in &#x201C;The poetic texts: edition and critical report&#x201D;.</p></note> The two names also occur in nos. 6, <hi rend="italic">Still&#xF2; l&#x2019;anima
+          in pianto</hi> (Tirsi and Clori), 16, <hi rend="italic">Ecco Maggio seren, chi l&#x2019;ha vestito</hi> (Clori, this time together with Filli), and
+        17, <hi rend="italic">Cantiam la bella Clori</hi> (Clori only). Thus, Giuseppe Gerbino speaks of a &#x201C;subtle but unmistakable narrative thread&#x201D;
+        that underlies the book: &#x201C;the story of Tirsi and Clori&#x201D;.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"> Giuseppe Gerbino,
+            &#x201C;Marenzio and the Shepherds of the Tiber Valley&#x201D;, in <hi rend="italic">Perspectives on Luca Marenzio&#x2019;s Secular Music</hi>, 265&#x2013;282:
             265.</p></note>
       </p>
-      <p>Noticing that Tirsi was the pseudonym used by Virginio Orsini in his capacity as “prince” of the pastoral society known as “pastori della
-        valle tiberina” (shepherds of the Tiber valley), James Chater has hypothesized that Tirsi and Clori should be identified as Virginio and his
-        wife, Flavia Peretti.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"> Chater, “Fonti poetiche per i madrigali di Luca
-            Marenzio,” 77. In his recent and well-documented reassessment of the question, Giuseppe Gerbino has found “no evidence either against or
-            in support of Chater’s hypothesis”, and incidentally suggested that Clori could have been “a singer connected with the Orsini family”: see
-            Gerbino, “Marenzio and the Shepherds of the Tiber Valley”, 266 and 277.</p></note> In this perspective, the final piece (no. 17, <hi
-          rend="italic">Cantiam la bella Clori</hi>), whose epithalamic character has often been pointed out, should be interpreted as a nuptial
+        <p>Noticing that Tirsi was the pseudonym used by Virginio Orsini in his capacity as &#x201C;prince&#x201D; of the pastoral society known as &#x201C;pastori della
+        valle tiberina&#x201D; (shepherds of the Tiber valley), James Chater has hypothesized that Tirsi and Clori should be identified as Virginio and his
+        wife, Flavia Peretti.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"> Chater, &#x201C;Fonti poetiche per i madrigali di Luca
+            Marenzio,&#x201D; 77. In his recent and well-documented reassessment of the question, Giuseppe Gerbino has found &#x201C;no evidence either against or
+            in support of Chater&#x2019;s hypothesis&#x201D;, and incidentally suggested that Clori could have been &#x201C;a singer connected with the Orsini family&#x201D;: see
+            Gerbino, &#x201C;Marenzio and the Shepherds of the Tiber Valley&#x201D;, 266 and 277.</p></note> In this perspective, the final piece (no. 17, <hi rend="italic">Cantiam la bella Clori</hi>), whose epithalamic character has often been pointed out, should be interpreted as a nuptial
         homage to Flavia, whom Virginio had married in 1589. But besides the fact that Marenzio had already included a tribute to the pair in Book V
           <hi rend="italic">a 6</hi> in 1591,<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"> Dedicated to the same Virginio Orsini:
-            see Paolo Cecchi, “List of Secular and Devotional Compositions by Luca Marenzio”, in <hi rend="italic">Perspectives on Luca Marenzio’s
-              Secular Music</hi>, 465–522: 501–502.</p></note> a new piece of information further complicates the matter. </p>
-      <p>In 1595, just one year after the publication of our book, Marenzio dedicated his Book VI <hi rend="italic">a 6</hi> to Margherita Gonzaga
-        (1564–1618); the opening piece, <hi rend="italic">Lucida perla a cui fu conca il cielo</hi>, sets the final part (lines 73–85) of a pastoral
-        dialogue written by Guarini in 1579 to celebrate the wedding between Margherita and Duke Alfonso II d’Este, <hi rend="italic">Dimmi, gentil
-          pastore</hi> (but often printed under the name of Tasso in contemporary sources).<note place="foot" xml:id="ftn19" n="19"><p
-            rend="footnote text"> See Angelo Solerti, <hi rend="italic">Le rime di Torquato Tasso, I: Bibliografia</hi> (Bologna:
-            Romagnoli-Dall’Acqua, 1898), 502–503.</p></note> All this is well-known, at least since Chater’s seminal article of 1978:<note
-          place="foot" xml:id="ftn20" n="20"><p rend="footnote text"> See Chater, “Fonti poetiche per i madrigali di Luca Marenzio,” 78.</p></note>
+            see Paolo Cecchi, &#x201C;List of Secular and Devotional Compositions by Luca Marenzio&#x201D;, in <hi rend="italic">Perspectives on Luca Marenzio&#x2019;s
+              Secular Music</hi>, 465&#x2013;522: 501&#x2013;502.</p></note> a new piece of information further complicates the matter. </p>
+        <p>In 1595, just one year after the publication of our book, Marenzio dedicated his Book VI <hi rend="italic">a 6</hi> to Margherita Gonzaga
+        (1564&#x2013;1618); the opening piece, <hi rend="italic">Lucida perla a cui fu conca il cielo</hi>, sets the final part (lines 73&#x2013;85) of a pastoral
+        dialogue written by Guarini in 1579 to celebrate the wedding between Margherita and Duke Alfonso II d&#x2019;Este, <hi rend="italic">Dimmi, gentil
+          pastore</hi> (but often printed under the name of Tasso in contemporary sources).<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"> See Angelo Solerti, <hi rend="italic">Le rime di Torquato Tasso, I: Bibliografia</hi> (Bologna:
+            Romagnoli-Dall&#x2019;Acqua, 1898), 502&#x2013;503.</p></note> All this is well-known, at least since Chater&#x2019;s seminal article of 1978:<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"> See Chater, &#x201C;Fonti poetiche per i madrigali di Luca Marenzio,&#x201D; 78.</p></note>
         what seems to have gone unnoticed so far is that the final piece of our book, <hi rend="italic">Cantiam la bella Clori</hi>, is nothing but an
-        adaptation from the immediately previous section of the same dialogue by Guarini (lines 60–72). Once again, the name Clori is purposely
-        inserted <hi rend="italic">a posteriori</hi> in the text (here, instead of “Dea” and “Reina”).<note place="foot" xml:id="ftn21" n="21"><p
-            rend="footnote text"> See the relevant entry in “The poetic texts: edition and critical report” for a full comparison of the two
+        adaptation from the immediately previous section of the same dialogue by Guarini (lines 60&#x2013;72). Once again, the name Clori is purposely
+        inserted <hi rend="italic">a posteriori</hi> in the text (here, instead of &#x201C;Dea&#x201D; and &#x201C;Reina&#x201D;).<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"> See the relevant entry in &#x201C;The poetic texts: edition and critical report&#x201D; for a full comparison of the two
             texts.</p></note>
       </p>
-      <p>As a result of this discovery, we have one more text by (in fact, adapted from) Guarini in Book VI <hi rend="italic">a 5</hi>, and more
+        <p>As a result of this discovery, we have one more text by (in fact, adapted from) Guarini in Book VI <hi rend="italic">a 5</hi>, and more
         doubts about the identity of Clori and the meaning of the whole Tirsi &amp; Clori operation. Is this an old or a new piece? Did Marenzio set
-        the excerpt from Guarini’s dialogue back in 1579, for Margherita’s wedding, and publish it, in a revised version, fifteen years later? Were
+        the excerpt from Guarini&#x2019;s dialogue back in 1579, for Margherita&#x2019;s wedding, and publish it, in a revised version, fifteen years later? Were
         the textual changes meant to severe the link with the 1579 event, and with Margherita, in order to make possible a reuse of the piece on a
         different occasion and for a different purpose? Then, why to reaffirm the original connection the following year, dedicating (or
-        re-dedicating) the ‘sequel’ piece <hi rend="italic">Lucida perla a cui fu conca il cielo</hi> to the initial dedicatee? Delicate issues of
+        re-dedicating) the &#x2018;sequel&#x2019; piece <hi rend="italic">Lucida perla a cui fu conca il cielo</hi> to the initial dedicatee? Delicate issues of
         compositional chronology are at stake,<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> In the introduction to her edition of
             Book VI <hi rend="italic">a 6</hi>, Patricia Myers suggested to date <hi rend="italic" xml:space="preserve">Lucida perla </hi>back to
-            1579: see Luca Marenzio, <hi rend="italic">The Secular Works. 6: Il sesto libro de’ madrigali a sei voci (1595)</hi>, ed. by Patricia
-            Myers (New York: The Broude Trust, 1983). Chater, in his review of the edition (<hi rend="italic">JAMS</hi> 38, no. 2 [1985], 376–385),
-            essentially accepted Myers’ view on this regard, but provided that one postulated substantial revisions by Marenzio before the 1595
+            1579: see Luca Marenzio, <hi rend="italic">The Secular Works. 6: Il sesto libro de&#x2019; madrigali a sei voci (1595)</hi>, ed. by Patricia
+            Myers (New York: The Broude Trust, 1983). Chater, in his review of the edition (<hi rend="italic">JAMS</hi> 38, no. 2 [1985], 376&#x2013;385),
+            essentially accepted Myers&#x2019; view on this regard, but provided that one postulated substantial revisions by Marenzio before the 1595
             publication. In our case, given the full-sounding but straightforward chordal nature of <hi rend="italic">Cantiam la bella Clori</hi> and
-            the fact that some relatively advanced details of the polychoral writing could easily be the fruit of a 1590s’ revision, it seems hard to
+            the fact that some relatively advanced details of the polychoral writing could easily be the fruit of a 1590s&#x2019; revision, it seems hard to
             draw definitive conclusions based on stylistic analysis.</p></note> and further research is needed to answer, or at least to reframe,
         these questions.</p>
-      <p>Returning to Tirsi and Clori, and to their role within the structure of Book VI <hi rend="italic">a 5</hi>, Mauro Calcagno has recently
-        proposed to read the entire book as a coherent narrative, with three alternating ‘voices’ (Tirsi, Clori, and the Narrator) and four sections:
-        the “separation between the lovers” (nos. 1–9), is followed by a phase of “rapprochement and intimacy” (nos. 10–13), then by “death” (nos.
-        14–15), and by the “final attainment of love” (nos. 16–17).<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"> Mauro Calcagno,
-              <hi rend="italic">From Madrigal to Opera Monteverdi’s Staging of the Self</hi> (Berkeley: University of California Press, 2012),
-            172–174.</p></note> As further pointed out by Calcagno, this “script” seems to interact with other ordering criteria: the madrigals of the
-        first “section”, for instance, are all written in low clefs (c1c3c4c4f4), but other, essentially musical, structuring principles are clearly
+        <p>Returning to Tirsi and Clori, and to their role within the structure of Book VI <hi rend="italic">a 5</hi>, Mauro Calcagno has recently
+        proposed to read the entire book as a coherent narrative, with three alternating &#x2018;voices&#x2019; (Tirsi, Clori, and the Narrator) and four sections:
+        the &#x201C;separation between the lovers&#x201D; (nos. 1&#x2013;9), is followed by a phase of &#x201C;rapprochement and intimacy&#x201D; (nos. 10&#x2013;13), then by &#x201C;death&#x201D; (nos.
+        14&#x2013;15), and by the &#x201C;final attainment of love&#x201D; (nos. 16&#x2013;17).<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"> Mauro Calcagno,
+              <hi rend="italic">From Madrigal to Opera Monteverdi&#x2019;s Staging of the Self</hi> (Berkeley: University of California Press, 2012),
+            172&#x2013;174.</p></note> As further pointed out by Calcagno, this &#x201C;script&#x201D; seems to interact with other ordering criteria: the madrigals of the
+        first &#x201C;section&#x201D;, for instance, are all written in low clefs (c1c3c4c4f4), but other, essentially musical, structuring principles are clearly
         at work (see Table 2).</p>
-      <p>All the scholars who have studied this book, at least since Alfred Einstein, have underscored the stylistic shift from Marenzio’s previous
+        <p>All the scholars who have studied this book, at least since Alfred Einstein, have underscored the stylistic shift from Marenzio&#x2019;s previous
           collections.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> See the discussion and the literature quoted in Steven
-            Ledbetter, <hi rend="italic">et al.</hi> “Marenzio, Luca.” <hi rend="italic">Grove Music Online. Oxford Music Online</hi>. Oxford
-            University Press, accessed August 25, 2014, <ref target="http://www.oxfordmusiconline.com/subscriber/article/grove/music/40081"
-              >http://www.oxfordmusiconline.com/subscriber/article/grove/music/40081</ref>; Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 293–295;
-            and Piero Gargiulo, “Quella ‘melodia soavissima’. Perle marenziane nel Sesto libro a cinque (1594)”, in <hi rend="italic">Miscellanea
-              marenziana</hi>, ed. by Maria Teresa Rosa Barezzani and Antonio Delfino, «Diverse voci...» 9 (Pisa: Edizioni ETS, 2007),
-          277–290.</p></note> In line with the innovative poetic choices discussed above, Marenzio developed a new lyric-declamatory style that went
+            Ledbetter, <hi rend="italic">et al.</hi> &#x201C;Marenzio, Luca.&#x201D; <hi rend="italic">Grove Music Online. Oxford Music Online</hi>. Oxford
+            University Press, accessed August 25, 2014, <ref target="http://www.oxfordmusiconline.com/subscriber/article/grove/music/40081">http://www.oxfordmusiconline.com/subscriber/article/grove/music/40081</ref>; Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 293&#x2013;295;
+            and Piero Gargiulo, &#x201C;Quella &#x2018;melodia soavissima&#x2019;. Perle marenziane nel Sesto libro a cinque (1594)&#x201D;, in <hi rend="italic">Miscellanea
+              marenziana</hi>, ed. by Maria Teresa Rosa Barezzani and Antonio Delfino, &#xAB;Diverse voci...&#xBB; 9 (Pisa: Edizioni ETS, 2007),
+          277&#x2013;290.</p></note> In line with the innovative poetic choices discussed above, Marenzio developed a new lyric-declamatory style that went
         beyond the somehow fragmented aesthetic of madrigalism and allowed him to convey in a different, more <hi rend="italic">dramatic</hi> way the
         intense expressivity of the texts. In all the pieces but no. 8 a single soprano is opposed to four lower voices (generally ATTB), often to
-        achieve a more direct association with the ‘acting’ persona it musically represents.<note place="foot" xml:id="ftn25" n="25"><p
-            rend="footnote text"> Marenzio never wrote a “monody”: John Walter Hill has pointed out, however, that no. 4, <hi rend="italic">Anima
-              cruda sì, ma però bella</hi>, has significant melodic connections with an anonymous monodic piece preserved in manuscript I-Bc Q.140,
+        achieve a more direct association with the &#x2018;acting&#x2019; persona it musically represents.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"> Marenzio never wrote a &#x201C;monody&#x201D;: John Walter Hill has pointed out, however, that no. 4, <hi rend="italic">Anima
+              cruda s&#xEC;, ma per&#xF2; bella</hi>, has significant melodic connections with an anonymous monodic piece preserved in manuscript I-Bc Q.140,
             which could have been used as a model by Marenzio; see John Walter Hill, <hi rend="italic">Roman Monody, Cantata, and Opera from the
-              Circles Around Cardinal Montalto</hi> (Oxford; New York: Clarendon Press ; Oxford University Press, 1997)I, 247–255; Bizzarini, <hi
-              rend="italic">Luca Marenzio</hi>, 191–192 questions this interpretation. </p></note> As penetratingly remarked by Bizzarini, however,
-        the book does not have a “unified character”, but is rather inspired by a “subtly pluralistic aesthetic”:<note place="foot" xml:id="ftn26"
-          n="26"><p rend="footnote text"> Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 294.</p></note> the touching monologues and laments on
-        texts by Guarini and Tasso (which Einstein called “actual scenes”)<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text">
-            <hi rend="italic">The Italian Madrigal</hi>, trans. A.H. Krappe, R.H. Sessions, and O. Strunk, vol. 2 (Princeton: Princeton Univ. Press,
+              Circles Around Cardinal Montalto</hi> (Oxford; New York: Clarendon Press&#x202F;; Oxford University Press, 1997)I, 247&#x2013;255; Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 191&#x2013;192 questions this interpretation. </p></note> As penetratingly remarked by Bizzarini, however,
+        the book does not have a &#x201C;unified character&#x201D;, but is rather inspired by a &#x201C;subtly pluralistic aesthetic&#x201D;:<note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"> Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 294.</p></note> the touching monologues and laments on
+        texts by Guarini and Tasso (which Einstein called &#x201C;actual scenes&#x201D;)<note place="foot" xml:id="ftn27" n="27"><p rend="footnote text"><hi rend="italic">The Italian Madrigal</hi>, trans. A.H. Krappe, R.H. Sessions, and O. Strunk, vol. 2 (Princeton: Princeton Univ. Press,
             1949), 669.</p></note> alternate with lighter pieces (no. 10, with multi-voice ornamental flourishes and a dialogic structure; no. 16,
-        with dance-like triple time sections; and the celebratory no. 17 for two choirs);<note place="foot" xml:id="ftn28" n="28"><p
-            rend="footnote text"> For the presence of bichoral works as concluding pieces in several of Marenzio’s madrigal books, see Bizzarini, <hi
-              rend="italic">Luca Marenzio</hi>, 308.</p></note> other compositions experiment with daring chromaticisms and harmonic progressions (<hi
-          rend="italic">e.g.</hi>, no. 5), echo certain features of contemporary Roman madrigals (no. 13), or even display an <hi rend="italic"
-          >arioso</hi> character (no. 9).</p>
-      <p>Compared to some of the most famous books by Marenzio, such as the first and the last in the series <hi rend="italic">a 5</hi>, Book VI has
-        apparently had a modest success:<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"> See Gargiulo, “Quella ‘melodia soavissima’”,
-            281–282. </p></note> republished in its entirety (with the exception of no. 17) in the comprehensive collections of Marenzio’s five-voice
-        madrigals issued by Kauffmann in Nuremberg (1601) and by the Phalèse firm in Antwerp (1609 and 1632),<note place="foot" xml:id="ftn30" n="30"
-            ><p rend="footnote text"> See “Description of the sources and consulted copies”.</p></note> it has had otherwise no reprints in
-        anthologies. Madrigal no. 13, <hi rend="italic">Mentre qual viva pietra</hi>, formed the basis for one of Girolamo Cavaglieri’s <hi
-          rend="italic">contrafacta</hi><note place="foot" xml:id="ftn31" n="31"><p rend="footnote text"> In RISM 1616<hi rend="superscript">8</hi>:
-            see the “Critical report”.</p></note> and, according to Chater,<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"> See James
-            Chater, <hi rend="italic">Luca Marenzio and the Italian Madrigal, 1577–1593</hi> (Ann Arbor, Mich.: UMI, 1981), Appendix II,
-          208.</p></note> worked as a model for a Magnificat <hi rend="italic">a 6</hi> by Michael Praetorius.<note place="foot" xml:id="ftn33" n="33"
-            ><p rend="footnote text"> A <hi rend="italic">Missa Mentre qual viva pietra</hi> by G. Belli (<hi rend="italic">Missae sacrae</hi>, 1608)
+        with dance-like triple time sections; and the celebratory no. 17 for two choirs);<note place="foot" xml:id="ftn28" n="28"><p rend="footnote text"> For the presence of bichoral works as concluding pieces in several of Marenzio&#x2019;s madrigal books, see Bizzarini, <hi rend="italic">Luca Marenzio</hi>, 308.</p></note> other compositions experiment with daring chromaticisms and harmonic progressions (<hi rend="italic">e.g.</hi>, no. 5), echo certain features of contemporary Roman madrigals (no. 13), or even display an <hi rend="italic">arioso</hi> character (no. 9).</p>
+        <p>Compared to some of the most famous books by Marenzio, such as the first and the last in the series <hi rend="italic">a 5</hi>, Book VI has
+        apparently had a modest success:<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text"> See Gargiulo, &#x201C;Quella &#x2018;melodia soavissima&#x2019;&#x201D;,
+            281&#x2013;282. </p></note> republished in its entirety (with the exception of no. 17) in the comprehensive collections of Marenzio&#x2019;s five-voice
+        madrigals issued by Kauffmann in Nuremberg (1601) and by the Phal&#xE8;se firm in Antwerp (1609 and 1632),<note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"> See &#x201C;Description of the sources and consulted copies&#x201D;.</p></note> it has had otherwise no reprints in
+        anthologies. Madrigal no. 13, <hi rend="italic">Mentre qual viva pietra</hi>, formed the basis for one of Girolamo Cavaglieri&#x2019;s <hi rend="italic">contrafacta</hi><note place="foot" xml:id="ftn31" n="31"><p rend="footnote text"> In RISM 1616<hi rend="superscript">8</hi>:
+            see the &#x201C;Critical report&#x201D;.</p></note> and, according to Chater,<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text"> See James
+            Chater, <hi rend="italic">Luca Marenzio and the Italian Madrigal, 1577&#x2013;1593</hi> (Ann Arbor, Mich.: UMI, 1981), Appendix II,
+          208.</p></note> worked as a model for a Magnificat <hi rend="italic">a 6</hi> by Michael Praetorius.<note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"> A <hi rend="italic">Missa Mentre qual viva pietra</hi> by G. Belli (<hi rend="italic">Missae sacrae</hi>, 1608)
             is probably based on the same madrigal, given that no other setting of this text is known, but this information needs to be
-          verified.</p></note> No. 3, <hi rend="italic">Donna de l’alma mia, de la mia vita</hi>, was intabulated for the lute by Joachim van den Hove
-        in his <hi rend="italic">Delitiae mvsicae</hi>.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"> RISM 1612<hi
-              rend="superscript">18</hi>: see the “Critical report”.</p></note> A handful of pieces were copied in English manuscripts<note
-          place="foot" xml:id="ftn35" n="35"><p rend="footnote text"> See Paolo Cecchi, “‘Delicious air and sweet invention’: The Circulation and
-            Consumption of Marenzio’s Secular Music in England (c. 1588–1640)”, in <hi rend="italic">Perspectives on Luca Marenzio’s Secular
-              Music</hi>, 283–370: 347–350.</p></note> (but a comprehensive mapping of Marenzio’s presence in manuscript sources is still to be done). </p>
-      <p>On the other hand, Severo Bonini, in his <hi rend="italic" xml:space="preserve">Discorsi e regole </hi>(<hi rend="italic">c.</hi> 1653),
-        singles out this book as an example of Marenzio’s proficiency in what he calls “terzo ordine” and <hi rend="italic">de facto</hi> corresponds
-        to Monteverdi’s <hi rend="italic">seconda pratica</hi>.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"> See Gargiulo, “Quella
-            ‘melodia soavissima’”, 282–283. Gargiulo reads Bonini’s passage as a reference to no. 1, <hi rend="italic">S’io parto, i’ moro, e pur
-              partir conviene</hi>, only, but in my opinion Bonini’s phrasing refers to the whole book, identified through the opening piece, as it
-            happens elsewhere in his text. </p></note> Furthermore, a systematic investigation about the texts set by Marenzio in Book VI <hi
-          rend="italic">a 5</hi> and their concordances in other music collections indirectly attests to a favorable reception of the book: Marenzio
+          verified.</p></note> No. 3, <hi rend="italic">Donna de l&#x2019;alma mia, de la mia vita</hi>, was intabulated for the lute by Joachim van den Hove
+        in his <hi rend="italic">Delitiae mvsicae</hi>.<note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"> RISM 1612<hi rend="superscript">18</hi>: see the &#x201C;Critical report&#x201D;.</p></note> A handful of pieces were copied in English manuscripts<note place="foot" xml:id="ftn35" n="35"><p rend="footnote text"> See Paolo Cecchi, &#x201C;&#x2018;Delicious air and sweet invention&#x2019;: The Circulation and
+            Consumption of Marenzio&#x2019;s Secular Music in England (c. 1588&#x2013;1640)&#x201D;, in <hi rend="italic">Perspectives on Luca Marenzio&#x2019;s Secular
+              Music</hi>, 283&#x2013;370: 347&#x2013;350.</p></note> (but a comprehensive mapping of Marenzio&#x2019;s presence in manuscript sources is still to be done). </p>
+        <p>On the other hand, Severo Bonini, in his <hi rend="italic" xml:space="preserve">Discorsi e regole </hi>(<hi rend="italic">c.</hi> 1653),
+        singles out this book as an example of Marenzio&#x2019;s proficiency in what he calls &#x201C;terzo ordine&#x201D; and <hi rend="italic">de facto</hi> corresponds
+        to Monteverdi&#x2019;s <hi rend="italic">seconda pratica</hi>.<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text"> See Gargiulo, &#x201C;Quella
+            &#x2018;melodia soavissima&#x2019;&#x201D;, 282&#x2013;283. Gargiulo reads Bonini&#x2019;s passage as a reference to no. 1, <hi rend="italic">S&#x2019;io parto, i&#x2019; moro, e pur
+              partir conviene</hi>, only, but in my opinion Bonini&#x2019;s phrasing refers to the whole book, identified through the opening piece, as it
+            happens elsewhere in his text. </p></note> Furthermore, a systematic investigation about the texts set by Marenzio in Book VI <hi rend="italic">a 5</hi> and their concordances in other music collections indirectly attests to a favorable reception of the book: Marenzio
         was often the first to choose texts which later became popular among madrigalists (a clear example is no. 5, <hi rend="italic">Udite
           lagrimosi</hi>). </p>
-      <p>* * *</p>
-      <p>The <hi rend="italic">princeps</hi> of the book, issued by Angelo Gardano in Venice in 1594,<note place="foot" xml:id="ftn37" n="37"><p
-            rend="footnote text"> See “Description of the sources and consulted copies”.</p></note> is a remarkably accurate and correct edition, and
-        the extant re-editions of 1603 and 1614 are also substantially reliable. The 1614 re-edition may derive directly from the <hi rend="italic"
-          >princeps</hi>, based on the variants and on details of the mise-en-page and of ‘calibration’.<note place="foot" xml:id="ftn38" n="38"><p
-            rend="footnote text"> The 1614 print is in vertical format, while the <hi rend="italic">princeps</hi> is in oblong format: often, however,
+        <p>* * *</p>
+        <p>The <hi rend="italic">princeps</hi> of the book, issued by Angelo Gardano in Venice in 1594,<note place="foot" xml:id="ftn37" n="37"><p rend="footnote text"> See &#x201C;Description of the sources and consulted copies&#x201D;.</p></note> is a remarkably accurate and correct edition, and
+        the extant re-editions of 1603 and 1614 are also substantially reliable. The 1614 re-edition may derive directly from the <hi rend="italic">princeps</hi>, based on the variants and on details of the mise-en-page and of &#x2018;calibration&#x2019;.<note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"> The 1614 print is in vertical format, while the <hi rend="italic">princeps</hi> is in oblong format: often, however,
             the content of the first two staves of the 1614 page exactly corresponds to that of the first staff in the <hi rend="italic">princeps</hi>
             (in other cases, three staves of 1614 accommodate the content of two staves of the <hi rend="italic">princeps</hi>). For the term
-            ‘calibration’ to indicate the operations of organizing the page layout and calculating the distribution of the music in the book, see
-            Laurent Pugin, “Music Printers at Work: Marenzio’s <hi rend="italic">Madrigali a quattro voci, libro primo</hi>”, in <hi rend="italic"
-              >Perspectives on Luca Marenzio’s Secular Music</hi>, 409–430: 411.</p></note> Pending a systematic recognition of the extant copies of
-        the <hi rend="italic">princeps</hi> with Aruspix,<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"> See Pugin, “Music Printers
-            at Work”, 415–417.</p></note> I have been able to detect only two cases of stop-press correction. One occurs on the dedication page of the
-        Basso partbook: while the copy held at Modena, Biblioteca Estense Universitaria (I-MOe), has a misprint in the signature: “Luca Marenzo” (!),
-        all the other consulted copies have the correct reading. The other case regards page 8 in the Tenore partbook (madrigal no. 8, <hi
-          rend="italic">Ben ho del caro oggetto i sensi privi</hi>): in the copies held in Berkeley, Brussels, and London, the d3 at m. 16 is a <hi
-          rend="italic">semiminima</hi> instead of a <hi rend="italic">minima</hi>; the other consulted copies have the correct reading. </p>
-      <p><hi rend="italic">Boston (Mass.)-Veruno (Italy), Summer 2014</hi></p>
+            &#x2018;calibration&#x2019; to indicate the operations of organizing the page layout and calculating the distribution of the music in the book, see
+            Laurent Pugin, &#x201C;Music Printers at Work: Marenzio&#x2019;s <hi rend="italic">Madrigali a quattro voci, libro primo</hi>&#x201D;, in <hi rend="italic">Perspectives on Luca Marenzio&#x2019;s Secular Music</hi>, 409&#x2013;430: 411.</p></note> Pending a systematic recognition of the extant copies of
+        the <hi rend="italic">princeps</hi> with Aruspix,<note place="foot" xml:id="ftn39" n="39"><p rend="footnote text"> See Pugin, &#x201C;Music Printers
+            at Work&#x201D;, 415&#x2013;417.</p></note> I have been able to detect only two cases of stop-press correction. One occurs on the dedication page of the
+        Basso partbook: while the copy held at Modena, Biblioteca Estense Universitaria (I-MOe), has a misprint in the signature: &#x201C;Luca Marenzo&#x201D; (!),
+        all the other consulted copies have the correct reading. The other case regards page 8 in the Tenore partbook (madrigal no. 8, <hi rend="italic">Ben ho del caro oggetto i sensi privi</hi>): in the copies held in Berkeley, Brussels, and London, the d3 at m. 16 is a <hi rend="italic">semiminima</hi> instead of a <hi rend="italic">minima</hi>; the other consulted copies have the correct reading. </p>
+        <p>
+          <hi rend="italic">Boston (Mass.)-Veruno (Italy), Summer 2014</hi>
+        </p>
       </div>
     </body>
   </text>

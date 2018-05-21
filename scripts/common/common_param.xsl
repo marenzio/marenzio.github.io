@@ -246,12 +246,12 @@ of this software, even if advised of the possibility of such damage.
   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" class="numbering" type="boolean">
     <desc>Automatically number sections</desc>
   </doc>
-  <xsl:param name="numberHeadings">false</xsl:param>
+  <xsl:param name="numberHeadings">true</xsl:param>
   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" class="numbering" type="integer">
     <desc>Depth to which sections should be
     numbered</desc>
   </doc>
-  <xsl:param name="numberHeadingsDepth">9</xsl:param>
+  <xsl:param name="numberHeadingsDepth">1</xsl:param>
   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" class="numbering" type="boolean">
     <desc>Automatically number tables</desc>
   </doc>
