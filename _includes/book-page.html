@@ -9,7 +9,7 @@
 		</div>
 		<div class="panel panel-default">
 			<div class="list-group sublist-group">
-				{% for m in page.madrigals %}
+				{% for m in site.data.books[page.book] %}
 				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
 				{% endfor %}
 			</div>
