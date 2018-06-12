@@ -2,16 +2,18 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:mei="http://www.music-encoding.org/ns/mei" exclude-result-prefixes="mei" version="1.0">
 
     <xsl:output method="xhtml" indent="yes" omit-xml-declaration="yes"/>
+    
+    <xsl:param name="part" select="'front'"/>
 
     <xsl:template match="mei:front">
-        <xsl:if test="true()">
+        <xsl:if test="$part = 'front'">
             <xsl:apply-templates/>
         </xsl:if>
     </xsl:template>
     
     
     <xsl:template match="mei:back">
-        <xsl:if test="false()">
+        <xsl:if test="$part = 'back'">
             <xsl:apply-templates/>
         </xsl:if>
     </xsl:template>
@@ -53,13 +55,7 @@
         <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="mei:front//mei:p">
-        <p>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-    
-    <xsl:template match="mei:back//mei:p">
+    <xsl:template match="mei:p">
         <p>
             <xsl:apply-templates/>
         </p>

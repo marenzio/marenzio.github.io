@@ -16,17 +16,8 @@ for i in `LS ../mei/*/*.mei`; do
     echo $FILENAME
     echo $DIRNAME
     saxon9ee $i app.xsl > ../_includes/$DIRNAME/app.html
-    #sed "s/FILENAME/$FILENAME/g" $tmp | sed "s/DIRNAME/$DIRNAME/g" > ../$f.xhtml
-    #mkdir ../_includes/$DIRNAME
-    #inc="app text comments"
-    #for i in $inc; do
-    #    if [ ! -f ../_includes/$DIRNAME/$i.html ]; then
-    #        touch ../_includes/$DIRNAME/$i.html
-    #    fi
-    #done
+    saxon9ee $i text-comments.xsl part=front > ../_includes/$DIRNAME/text.html
+    saxon9ee $i text-comments.xsl part=back > ../_includes/$DIRNAME/comments.html
 done
-echo "Generating Gootville files ..."
-#saxon9ee Gootville.svg extract-glyphs.xsl > tmp/Gootville-bounding-boxes.svg
-#phantomjs generate-bbox.js tmp/Gootville-bounding-boxes.svg ../data/Gootville.xml
 
 echo "Done!"

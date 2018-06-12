@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -39,58 +39,108 @@
       <div>
         <head>Sources used for collation</head>
         <div>
-          <head>Venice: Giacomo Vincenzi, 1587.  Vi, 1587</head>
-          <p>DI LUCA | MARENZIO | QVARTO LIBRO DE MADRIGALI | a Sei Voci Nouamente composti, &amp; dati in luce. | CON PRIVILEGGIO | [printer&#x2019;s mark] | In Venetia Presso Giacomo Vincenzi. | MDLXXXVII. </p>
-          <p>Set of 6 partbooks in 4&#xB0;, upright format: CANTO (A/A<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; C/C<hi rend="subscript">2</hi>), TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; F/F<hi rend="subscript">2</hi>), ALTO (H [<hi rend="italic">recte</hi> G]/G<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; I/I<hi rend="subscript">2</hi>), BASSO ([K]/K<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; M/M<hi rend="subscript">2</hi>), QUINTO (N/N<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; P/P<hi rend="subscript">2</hi>), SESTO (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; H [<hi rend="italic">recte</hi> S]/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
-          <p>The first signature of each gathering (except for the title page) bears the inscription &#x201C;Madrigali di Luca Marenzio a 6. Libro 4.&#x201D; Title page with ornamented frame. The voice indication appears at the top of the page. </p>
+          <head>Venice: Giacomo Vincenzi, 1587. Vi, 1587</head>
+          <p>DI LUCA | MARENZIO | QVARTO LIBRO DE MADRIGALI | a Sei Voci Nouamente composti, &amp; dati in luce. | CON PRIVILEGGIO | [printer’s mark]
+            | In Venetia Presso Giacomo Vincenzi. | MDLXXXVII. </p>
+          <p>Set of 6 partbooks in 4°, upright format: CANTO (A/A<hi rend="subscript" xml:space="preserve">2 </hi>– C/C<hi rend="subscript">2</hi>),
+            TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>– F/F<hi rend="subscript">2</hi>), ALTO (H [<hi rend="italic">recte</hi>
+            G]/G<hi rend="subscript" xml:space="preserve">2 </hi>– I/I<hi rend="subscript">2</hi>), BASSO
+            ([K]/K<hi rend="subscript" xml:space="preserve">2 </hi>– M/M<hi rend="subscript">2</hi>), QUINTO
+            (N/N<hi rend="subscript" xml:space="preserve">2 </hi>– P/P<hi rend="subscript">2</hi>), SESTO
+            (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>– H [<hi rend="italic">recte</hi> S]/S<hi rend="subscript">2</hi>), all of pp. (2) +
+            21 + (1).</p>
+          <p>The first signature of each gathering (except for the title page) bears the inscription “Madrigali di Luca Marenzio a 6. Libro 4.” Title
+            page with ornamented frame. The voice indication appears at the top of the page. </p>
           <p>On p. (2): dedication to Jean de Vivonne, Marquis of Pisany and ambassador of the King of France to the Holy See.</p>
-          <p>ALL ILLUSTRISSIMO  ET ECCELLENTISSIMO </p>
-          <p> SIGNORE PATRON MIO  Colendissimo </p>
+          <p>ALL ILLUSTRISSIMO ET ECCELLENTISSIMO </p>
+          <p> SIGNORE PATRON MIO Colendissimo </p>
           <p> IL SIGNORE MARCHESE DI PISANI </p>
-          <p>Cavalliere de gli Ordini del Re Christianissimo, Consiglero de Stati, et Ambasciatore di sua Maest&#xE0;. </p>
-          <p>Il ritorno di Vostra Eccellenza &#xE8; stato universalmente a tutti cos&#xEC; grato, et ha dimostrato ogn&#x2019;uno in particolare di sentirne tanto contento, che s&#x2019;io (che come devotissimo servitore suo ne ho sentita somma allegrezza) non ne dessi qualche segno a lei, et al mondo insieme, mi parrebbe di mancar molto et a me stesso, et al debito della servit&#xF9; mia. Desideroso dunque di sodisfar almeno in qualche parte all&#x2019;animo mio, ho deliberato (gi&#xE0; che a me non &#xE8; permesso il far&#x2019;altra dimostrazione) di dedicare a lei queste mie poche compositioni di musica, sperando ch&#x2019;ella non solo, come fautrice che &#xE8; di questa virt&#xF9;, debba (quali esse si siano) averle care, ma che tanto di forza, et vigore prenderanno dallo splendore del suo nome, sotto il quale escono in luce, che per ci&#xF2; potranno irsene altiere gloriandosi fra le medesime d&#x2019;esser raccomandate alla protettione d&#x2019;un tanto Prencipe, l&#x2019;ombra sola del quale sar&#xE0; bastante a coprire ogni loro imperfettione. Degnisi ella per&#xF2; d&#x2019;accettar da me questo picciol dono, et di gradire l&#x2019;affetto, et divotione mia verso di lei, conservandomi nella sua gratia, che s&#x2019;io giongo ad ottener questo (come spero) non solo terr&#xF2; per ben&#x2019;impiegare queste mie fatiche, ma giudicher&#xF2; insieme d&#x2019;aver conseguito il fine di tutti i miei pi&#xF9; nobili pensieri. Con che resto baciando a Vostra Eccellenza umilissimamente le mani, et pregando il Signore Iddio che le conceda quelle prosperit&#xE0; maggiori, ch&#x2019;ella stessa desidera. </p>
+          <p>Cavalliere de gli Ordini del Re Christianissimo, Consiglero de Stati, et Ambasciatore di sua Maestà. </p>
+          <p>Il ritorno di Vostra Eccellenza è stato universalmente a tutti così grato, et ha dimostrato ogn’uno in particolare di sentirne tanto
+            contento, che s’io (che come devotissimo servitore suo ne ho sentita somma allegrezza) non ne dessi qualche segno a lei, et al mondo
+            insieme, mi parrebbe di mancar molto et a me stesso, et al debito della servitù mia. Desideroso dunque di sodisfar almeno in qualche parte
+            all’animo mio, ho deliberato (già che a me non è permesso il far’altra dimostrazione) di dedicare a lei queste mie poche compositioni di
+            musica, sperando ch’ella non solo, come fautrice che è di questa virtù, debba (quali esse si siano) averle care, ma che tanto di forza, et
+            vigore prenderanno dallo splendore del suo nome, sotto il quale escono in luce, che per ciò potranno irsene altiere gloriandosi fra le
+            medesime d’esser raccomandate alla protettione d’un tanto Prencipe, l’ombra sola del quale sarà bastante a coprire ogni loro
+            imperfettione. Degnisi ella però d’accettar da me questo picciol dono, et di gradire l’affetto, et divotione mia verso di lei,
+            conservandomi nella sua gratia, che s’io giongo ad ottener questo (come spero) non solo terrò per ben’impiegare queste mie fatiche, ma
+            giudicherò insieme d’aver conseguito il fine di tutti i miei più nobili pensieri. Con che resto baciando a Vostra Eccellenza
+            umilissimamente le mani, et pregando il Signore Iddio che le conceda quelle prosperità maggiori, ch’ella stessa desidera. </p>
           <p>Di Roma alli x. Decembre. MDLXXXVI. </p>
           <p>Di Vostra Eccellenza Humilissimo, et devotissimo Servitore </p>
-          <p>Luca Marentio.  </p>
-          <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): I-Bc, GB-Ob, D-Hs (CTBQS), I-Sd (ATBQS), I-Vnm (Q), US-BEm (C), F-Pn (B), I-Bsp, F-A (TQ)</p>
+          <p>Luca Marentio. </p>
+          <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): I-Bc, GB-Ob, D-Hs (CTBQS), I-Sd (ATBQS), I-Vnm (Q), US-BEm
+            (C), F-Pn (B), I-Bsp, F-A (TQ)</p>
           <p><hi rend="italic">References</hi>: RISM A/1 M510, NV 1661,<hi rend="italic" xml:space="preserve"> MMB</hi> 306</p>
           <p><hi rend="italic">Consulted copies</hi>: I-Bc, GB-Ob, D-Hs (CTBQS), I-Sd (ATBQS), I-Vnm (Q), US-BEm (C), F-Pn (B)</p>
-          <p><hi rend="italic">Comments</hi>: The preserved copies of this edition contain several differences. For a description of these differences see the Introduction and the Critical Report. </p>
+          <p><hi rend="italic">Comments</hi>: The preserved copies of this edition contain several differences. For a description of these differences
+            see the Introduction and the Critical Report. </p>
         </div>
         <div>
           <head>Venice: Ricciardo Amadino, 1587. Am, 1587 </head>
-          <p>DI LUCA | MARENZIO | IL QVARTO LIBRO | DE MADRIGALI A SEI VOCI | Nouamente ristampato, &amp; da molti errori | diligentissimamente emendato. | [printer&#x2019;s mark] | IN  VENETIA | Appresso Ricciardo Amadino. | MDLXXXVII. </p>
-          <p>Set of 6 partbooks in 4&#xB0;, upright format: CANTO ([A]/A<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; C/C<hi rend="subscript">2</hi>), TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; F/F<hi rend="subscript">2</hi>), ALTO (G/G<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; I/I<hi rend="subscript">2</hi>), BASSO (K/K<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; M/M<hi rend="subscript">2</hi>), QUINTO (N/N<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; P/P<hi rend="subscript">2</hi>), SESTO (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; S/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
-          <p>The first signature of each gathering (except for the title page) bears the inscription &#x201C;Madrigali di Luca Marenzio a 6. Libro 4.&#x201D; Title page with ornamented frame. The voice indication appears at the top of the page. </p>
+          <p>DI LUCA | MARENZIO | IL QVARTO LIBRO | DE MADRIGALI A SEI VOCI | Nouamente ristampato, &amp; da molti errori | diligentissimamente
+            emendato. | [printer’s mark] | IN VENETIA | Appresso Ricciardo Amadino. | MDLXXXVII. </p>
+          <p>Set of 6 partbooks in 4°, upright format: CANTO ([A]/A<hi rend="subscript" xml:space="preserve">2 </hi>– C/C<hi rend="subscript">2</hi>),
+            TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>– F/F<hi rend="subscript">2</hi>), ALTO
+            (G/G<hi rend="subscript" xml:space="preserve">2 </hi>– I/I<hi rend="subscript">2</hi>), BASSO
+            (K/K<hi rend="subscript" xml:space="preserve">2 </hi>– M/M<hi rend="subscript">2</hi>), QUINTO
+            (N/N<hi rend="subscript" xml:space="preserve">2 </hi>– P/P<hi rend="subscript">2</hi>), SESTO
+            (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>– S/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
+          <p>The first signature of each gathering (except for the title page) bears the inscription “Madrigali di Luca Marenzio a 6. Libro 4.” Title
+            page with ornamented frame. The voice indication appears at the top of the page. </p>
           <p>On p. (2): Same dedication as in the first edition. </p>
-          <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): GB-Och, I-Fn, I-Bc (T), I-Vnm (A), D-Rp (CATQ), PL-GD, B-Bc (CBS), US-BEm (ATBQS)</p>
+          <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): GB-Och, I-Fn, I-Bc (T), I-Vnm (A), D-Rp (CATQ), PL-GD, B-Bc
+            (CBS), US-BEm (ATBQS)</p>
           <p><hi rend="italic">References</hi>: RISM A/1 M511, NV 1660, <hi rend="italic">MMB</hi> 307</p>
           <p><hi rend="italic">Consulted copies</hi>: GB-Och </p>
         </div>
         <div>
           <head>Venice: Angelo Gardano, 1593. AnGa, 1593 </head>
-          <p>IL QVARTO LIBRO | DE MADRIGALI | A SEI VOCI | DI LUCA MARENZIO. | Nouamente Ristampato. | [printer&#x2019;s mark] | In Venetia Appresso Angelo Gardano. | MDLXXXXIII. </p>
-          <p>Set of 6 partbooks in 4&#xB0;, upright format: CANTO (A/A<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; C/C<hi rend="subscript">2</hi>), TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; F/F<hi rend="subscript">2</hi>), ALTO (G/G<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; I/I<hi rend="subscript">2</hi>), BASSO (K/K<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; M/M<hi rend="subscript">2</hi>), QUINTO (N/N<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; P/P<hi rend="subscript">2</hi>), SESTO (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; S/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
-          <p>The first signature of each gathering (except for the title page) bears the inscription &#x201C;Madrigali di Luca Marenzio Libro 4. A 6.&#x201D; The voice indication appears at the top of the page. </p>
+          <p>IL QVARTO LIBRO | DE MADRIGALI | A SEI VOCI | DI LUCA MARENZIO. | Nouamente Ristampato. | [printer’s mark] | In Venetia Appresso Angelo
+            Gardano. | MDLXXXXIII. </p>
+          <p>Set of 6 partbooks in 4°, upright format: CANTO (A/A<hi rend="subscript" xml:space="preserve">2 </hi>– C/C<hi rend="subscript">2</hi>),
+            TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>– F/F<hi rend="subscript">2</hi>), ALTO
+            (G/G<hi rend="subscript" xml:space="preserve">2 </hi>– I/I<hi rend="subscript">2</hi>), BASSO
+            (K/K<hi rend="subscript" xml:space="preserve">2 </hi>– M/M<hi rend="subscript">2</hi>), QUINTO
+            (N/N<hi rend="subscript" xml:space="preserve">2 </hi>– P/P<hi rend="subscript">2</hi>), SESTO
+            (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>– S/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
+          <p>The first signature of each gathering (except for the title page) bears the inscription “Madrigali di Luca Marenzio Libro 4. A 6.” The
+            voice indication appears at the top of the page. </p>
           <p>No dedication.</p>
-          <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): GB-Lcm, D-As, GB-Lbl (A), US-LAuc (BQ), F-Pn, D-Rp (CAQS), I-Rsc (complete + ABQS), E-TZ (CAB), I-VEaf </p>
+          <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): GB-Lcm, D-As, GB-Lbl (A), US-LAuc (BQ), F-Pn, D-Rp (CAQS),
+            I-Rsc (complete + ABQS), E-TZ (CAB), I-VEaf </p>
           <p><hi rend="italic">References</hi>: RISM A/1 M512, NV 1662, <hi rend="italic">MMB</hi> 308</p>
-          <p><hi rend="italic">Consulted copies</hi>: GB-Lcm  </p>
+          <p><hi rend="italic">Consulted copies</hi>: GB-Lcm </p>
         </div>
         <div>
           <head>Venice: Heir of Scotto, 1603. Sc [heir], 1603 </head>
-          <p>LUCA MARENZIO | IL QVARTO LIBRO | DE MADRIGALI | A Sei voci. | Nouamente ristampati. | [printer&#x2019;s mark] | IN VENETIA, Appresso l&#x2019;Herede di Girolamo Scoto. MDCIII. </p>
-          <p>Set of 6 partbooks in 4&#xB0;, upright format: CANTO (A/A<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; C/C<hi rend="subscript">2</hi>), TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; F/F<hi rend="subscript">2</hi>), ALTO (G/G<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; I/I<hi rend="subscript">2</hi>), BASSO (K/K<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; M/M<hi rend="subscript">2</hi>), QUINTO (N/N<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; P/P<hi rend="subscript">2</hi>), SESTO (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; S/S<hi rend="subscript">2</hi>), all of pp. 23 + (1).</p>
-          <p>The first signature of each gathering (except for the title page) bears the inscription &#x201C;Del Marenzio Libro 4. A 6.&#x201D; The voice indication appears at the top of the page. </p>
+          <p>LUCA MARENZIO | IL QVARTO LIBRO | DE MADRIGALI | A Sei voci. | Nouamente ristampati. | [printer’s mark] | IN VENETIA, Appresso l’Herede
+            di Girolamo Scoto. MDCIII. </p>
+          <p>Set of 6 partbooks in 4°, upright format: CANTO (A/A<hi rend="subscript" xml:space="preserve">2 </hi>– C/C<hi rend="subscript">2</hi>),
+            TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>– F/F<hi rend="subscript">2</hi>), ALTO
+            (G/G<hi rend="subscript" xml:space="preserve">2 </hi>– I/I<hi rend="subscript">2</hi>), BASSO
+            (K/K<hi rend="subscript" xml:space="preserve">2 </hi>– M/M<hi rend="subscript">2</hi>), QUINTO
+            (N/N<hi rend="subscript" xml:space="preserve">2 </hi>– P/P<hi rend="subscript">2</hi>), SESTO
+            (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>– S/S<hi rend="subscript">2</hi>), all of pp. 23 + (1).</p>
+          <p>The first signature of each gathering (except for the title page) bears the inscription “Del Marenzio Libro 4. A 6.” The voice indication
+            appears at the top of the page. </p>
           <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): US-Wc, I-Rsc (C), I-Nc</p>
           <p><hi rend="italic">References</hi>: RISM A/1 M513, NV 1663, <hi rend="italic">MMB</hi> 309</p>
           <p><hi rend="italic">Cansulted copies</hi>: US-Wc </p>
         </div>
         <div>
           <head>Venice: Angelo Gardano, 1605. AnGa, 1605 </head>
-          <p>LIBRO QVARTO | DE MADRIGALI | A SEI VOCI. | DI LUCA MARENZIO. | Nouamente Ristampato. | [printer&#x2019;s mark] | In Venetia Appresso Angelo Gardano. | MDCV. </p>
-          <p>Set of 6 partbooks in 4&#xB0;, upright format: CANTO ([A]/A<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; C/C<hi rend="subscript">2</hi>), TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; F/F<hi rend="subscript">2</hi>), ALTO (G/G<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; I/I<hi rend="subscript">2</hi>), BASSO ([K]/K<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; M/M<hi rend="subscript">2</hi>), QUINTO (N/N<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; P/P<hi rend="subscript">2</hi>), SESTO (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>&#x2013; S/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
-          <p>The first signature of each gathering (except for the title page) bears the inscription &#x201C;Madrigali di Luca Marenzio. Lib. 4. A 6.&#x201D; Title page with ornamented frame. The voice indication appears at the top of the page. </p>
+          <p>LIBRO QVARTO | DE MADRIGALI | A SEI VOCI. | DI LUCA MARENZIO. | Nouamente Ristampato. | [printer’s mark] | In Venetia Appresso Angelo
+            Gardano. | MDCV. </p>
+          <p>Set of 6 partbooks in 4°, upright format: CANTO ([A]/A<hi rend="subscript" xml:space="preserve">2 </hi>– C/C<hi rend="subscript">2</hi>),
+            TENORE (D/D<hi rend="subscript" xml:space="preserve">2 </hi>– F/F<hi rend="subscript">2</hi>), ALTO
+            (G/G<hi rend="subscript" xml:space="preserve">2 </hi>– I/I<hi rend="subscript">2</hi>), BASSO
+            ([K]/K<hi rend="subscript" xml:space="preserve">2 </hi>– M/M<hi rend="subscript">2</hi>), QUINTO
+            (N/N<hi rend="subscript" xml:space="preserve">2 </hi>– P/P<hi rend="subscript">2</hi>), SESTO
+            (Q/Q<hi rend="subscript" xml:space="preserve">2 </hi>– S/S<hi rend="subscript">2</hi>), all of pp. (2) + 21 + (1).</p>
+          <p>The first signature of each gathering (except for the title page) bears the inscription “Madrigali di Luca Marenzio. Lib. 4. A 6.” Title
+            page with ornamented frame. The voice indication appears at the top of the page. </p>
           <p><hi rend="italic">Preserved copies</hi> (complete unless stated otherwise): F-Pn, GB-Lbl, PL-Kj (A), I-PAmc (CATB), I-VEcap, GB-Ob</p>
           <p><hi rend="italic">References</hi>: RISM A/1 M514, NV 1664, <hi rend="italic">MMB</hi> 310</p>
           <p><hi rend="italic">Cansulted copies</hi>: F-Pn </p>
@@ -98,29 +148,63 @@
       </div>
       <div>
         <head>Other sources</head>
-        <p><hi rend="bold" xml:space="preserve">Ph &amp; Be, 1594 = </hi><hi rend="italic">Di Luca Marenzio musico eccellentissimo madrigali a sei voci, in un corpo ridotti. Nuovamente posti in luce, &amp; con ogni diligentia corretti</hi>. Pierre Phal&#xE8;se and Jean Bell&#xE8;re, Antwerp 1594  </p>
-        <p><hi rend="bold" xml:space="preserve">Ka, 1608 = </hi><hi rend="italic">Lucae Marentii musici celeberrimi, Madrigalia sex vocum, antea Venetiis, diversis temporibus, sex separati edita libris, jam vero  [&#x2026;] uno volumine conjunctim excusa.</hi> Paul Kauffmann, Nuremberg 1608 </p>
-        <p><hi rend="bold" xml:space="preserve">Ph, 1610 = </hi><hi rend="italic">Di Luca Marenzio musico eccellentiss. il primo, secondo, terzo, quarto &amp; quinto libro de madrigali a sei voci nuovamente ristampati &amp; in un corpo ridotti</hi>. Pierre Phal&#xE8;se, Antwerp 1610</p>
-        <p><hi rend="bold" xml:space="preserve">Ka, 1610 = </hi><hi rend="italic">Madrigali spirituali e temporali di Luca Marentio a cinque, sei, otto, nove e dieci voci</hi>. Paul Kauffmann, Nuremberg 1610</p>
-        <p><hi rend="bold">1589</hi><hi rend="bold superscript">9</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste di diversi eccellentissimi musici a IIII. V. VI. VII. et VIII., nuovamente raccolta per Andrea Pevernage, et data in luce</hi>. Pierre Phal&#xE8;se and Jean Bell&#xE8;re, Antwerp 1589</p>
-        <p><hi rend="bold">1590</hi><hi rend="bold superscript">11</hi><hi rend="bold">=</hi><hi rend="italic">Dialoghi musicali de diversi eccellentissimi autori. A sette, otto, nove, dieci, undeci, &amp; dodeci voci, nuovamente posti in luce</hi>. Angelo Gardano, Venice 1590</p>
-        <p><hi rend="bold">1590</hi><hi rend="bold superscript" xml:space="preserve">29 </hi><hi rend="bold">=</hi><hi rend="italic">The first sett of Italian madrigalls englished, not to the sense of the original dittie, but after the affection of the noate. By Thomas Watson Gentleman</hi>. Thomas Este, London 1590  </p>
-        <p><hi rend="bold">1591</hi><hi rend="bold superscript">10</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica di diversi eccellentissimi musici a IIII. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese, et data in luce</hi>. Pierre Phal&#xE8;se and Jean Bell&#xE8;re, Antwerp 1591</p>
-        <p><hi rend="bold">1592</hi><hi rend="bold superscript">10</hi><hi rend="bold">=</hi><hi rend="italic">Dialoghi musicali de diversi eccellentissimi autori. A sette, otto, nove, dieci, undeci, &amp; dodeci voci, nuovamente posti in luce</hi>. Angelo Gardano, Venice 1592</p>
-        <p><hi rend="bold">1593</hi><hi rend="bold superscript">4</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste di diversi eccellentissimi musici a IIII. V. VI. VII. et VIII., nuovamente raccolta per Andrea Pevernage, et data in luce</hi>. Pierre Phal&#xE8;se and Jean Bell&#xE8;re, Antwerp 1593</p>
-        <p><hi rend="bold" xml:space="preserve">1594lost = </hi><hi rend="italic">Dialoghi musicali de diversi eccellentissimi autori. A sette, otto, nove, dieci, undeci, &amp; dodeci voci [&#x2026;]</hi>. Angelo Gardano, Venice 1594</p>
-        <p><hi rend="bold">1594</hi><hi rend="bold superscript">7</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica di diversi eccellentissimi musici a IIII. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese, et data in luce</hi>. Pierre Phal&#xE8;se and Jean Bell&#xE8;re, Antwerp 1594</p>
-        <p><hi rend="bold">1597</hi><hi rend="bold superscript" xml:space="preserve">13 </hi><hi rend="bold">=</hi><hi rend="italic">I fiori del giardino di diversi eccellentissimi autori &#xE0; quattro, cinque, sei, sette, otto, &amp; nove voci. Raccolte con molta diligentia &amp; novamente date in luce</hi>. Paul Kauffmann, Nuremberg 1597</p>
-        <p><hi rend="bold">1597</hi><hi rend="bold superscript">24</hi><hi rend="bold">=</hi><hi rend="italic">The second booke of madrigalles, to 5. &amp; 6. voices: translated out of sundrie Italian authors &amp; newly published by Nicolas Yonge</hi>. Thomas Este, London 1597</p>
-        <p><hi rend="bold">1605</hi><hi rend="bold superscript">8</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste di diversi eccellentissimi musici a IV. V. VI. VII. et VIII. voci, raccolta per Andrea Pevernage</hi>. Pierre Phal&#xE8;se, Antwerp 1605</p>
-        <p><hi rend="bold">1605</hi><hi rend="bold superscript">9</hi><hi rend="bold">=</hi><hi rend="italic">Nervi d&#x2019;Orfeo, di eccellentiss. autori: a cinque et sei voci: nuovamente con ogni diligentia raccolti, &amp; seguendo l&#x2019;ordine dei suoi toni posti in luce</hi>. Henrico Lodowico de Haestens, Leiden 1605 </p>
-        <p><hi rend="bold">1609</hi><hi rend="bold superscript">15</hi><hi rend="bold">=</hi><hi rend="italic">Hortus musicalis, variis antea diversorum authorum Italiae floribus consitus, iam vero latinos fructus, mira suavitate &amp; artificio</hi>. Adam Berg, Munich 1609</p>
-        <p><hi rend="bold">1610</hi><hi rend="bold superscript">2</hi><hi rend="bold">=</hi><hi rend="italic">Fatiche spirituali di Simone Molinaro maestro di cappella del Duomo di Genova. Libro primo a sei voci</hi>. Ricciardo Amadino, Venice 1610. </p>
-        <p><hi rend="bold">1610</hi><hi rend="bold superscript">3</hi><hi rend="bold">=</hi><hi rend="italic">Fatiche spirituali di Simone Molinaro maestro di cappella del Duomo di Genova. Libro secondo a sei voci</hi>. Ricciardo Amadino, Venice 1610. </p>
-        <p><hi rend="bold">1611</hi><hi rend="bold superscript">11</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica de diversi eccellentissimi musici a IV. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese</hi>. Pierre Phal&#xE8;se, Antwerp 1611</p>
-        <p><hi rend="bold">1614</hi><hi rend="bold superscript">12</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste de diversi eccellentissimi musici a IV. V. VI. VII. et VIII. voci, raccolta per Andrea Pevernage</hi>. Pierre Phal&#xE8;se, Antwerp 1614</p>
-        <p><hi rend="bold">1628</hi><hi rend="bold superscript">14</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste de diversi eccellentissimi musici a IV. V. VI. VII. et VIII. voci, raccolta per Andrea Pevernage</hi>. Pierre Phal&#xE8;se, Antwerp 1628</p>
-        <p><hi rend="bold">1630</hi><hi rend="bold superscript">3</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica de diversi eccellentissimi musici a IV. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese</hi>. Heirs of Pierre Phal&#xE8;se, Antwerp 1630</p>
+        <p><hi rend="bold" xml:space="preserve">Ph &amp; Be, 1594 = </hi><hi rend="italic">Di Luca Marenzio musico eccellentissimo madrigali a sei
+            voci, in un corpo ridotti. Nuovamente posti in luce, &amp; con ogni diligentia corretti</hi>. Pierre Phalèse and Jean Bellère, Antwerp
+          1594 </p>
+        <p><hi rend="bold" xml:space="preserve">Ka, 1608 = </hi><hi rend="italic">Lucae Marentii musici celeberrimi, Madrigalia sex vocum, antea
+            Venetiis, diversis temporibus, sex separati edita libris, jam vero […] uno volumine conjunctim excusa.</hi> Paul Kauffmann, Nuremberg 1608 </p>
+        <p><hi rend="bold" xml:space="preserve">Ph, 1610 = </hi><hi rend="italic">Di Luca Marenzio musico eccellentiss. il primo, secondo, terzo,
+            quarto &amp; quinto libro de madrigali a sei voci nuovamente ristampati &amp; in un corpo ridotti</hi>. Pierre Phalèse, Antwerp 1610</p>
+        <p><hi rend="bold" xml:space="preserve">Ka, 1610 = </hi><hi rend="italic">Madrigali spirituali e temporali di Luca Marentio a cinque, sei,
+            otto, nove e dieci voci</hi>. Paul Kauffmann, Nuremberg 1610</p>
+        <p><hi rend="bold">1589</hi><hi rend="bold superscript">9</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste di diversi
+            eccellentissimi musici a IIII. V. VI. VII. et VIII., nuovamente raccolta per Andrea Pevernage, et data in luce</hi>. Pierre Phalèse and
+          Jean Bellère, Antwerp 1589</p>
+        <p><hi rend="bold">1590</hi><hi rend="bold superscript">11</hi><hi rend="bold">=</hi><hi rend="italic">Dialoghi musicali de diversi
+            eccellentissimi autori. A sette, otto, nove, dieci, undeci, &amp; dodeci voci, nuovamente posti in luce</hi>. Angelo Gardano, Venice
+          1590</p>
+        <p><hi rend="bold">1590</hi><hi rend="bold superscript" xml:space="preserve">29 </hi><hi rend="bold">=</hi><hi rend="italic">The first sett of
+            Italian madrigalls englished, not to the sense of the original dittie, but after the affection of the noate. By Thomas Watson
+            Gentleman</hi>. Thomas Este, London 1590 </p>
+        <p><hi rend="bold">1591</hi><hi rend="bold superscript">10</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica di diversi
+            eccellentissimi musici a IIII. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese, et data in luce</hi>. Pierre Phalèse
+          and Jean Bellère, Antwerp 1591</p>
+        <p><hi rend="bold">1592</hi><hi rend="bold superscript">10</hi><hi rend="bold">=</hi><hi rend="italic">Dialoghi musicali de diversi
+            eccellentissimi autori. A sette, otto, nove, dieci, undeci, &amp; dodeci voci, nuovamente posti in luce</hi>. Angelo Gardano, Venice
+          1592</p>
+        <p><hi rend="bold">1593</hi><hi rend="bold superscript">4</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste di diversi
+            eccellentissimi musici a IIII. V. VI. VII. et VIII., nuovamente raccolta per Andrea Pevernage, et data in luce</hi>. Pierre Phalèse and
+          Jean Bellère, Antwerp 1593</p>
+        <p><hi rend="bold" xml:space="preserve">1594lost = </hi><hi rend="italic">Dialoghi musicali de diversi eccellentissimi autori. A sette, otto,
+            nove, dieci, undeci, &amp; dodeci voci […]</hi>. Angelo Gardano, Venice 1594</p>
+        <p><hi rend="bold">1594</hi><hi rend="bold superscript">7</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica di diversi
+            eccellentissimi musici a IIII. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese, et data in luce</hi>. Pierre Phalèse
+          and Jean Bellère, Antwerp 1594</p>
+        <p><hi rend="bold">1597</hi><hi rend="bold superscript" xml:space="preserve">13 </hi><hi rend="bold">=</hi><hi rend="italic">I fiori del
+            giardino di diversi eccellentissimi autori à quattro, cinque, sei, sette, otto, &amp; nove voci. Raccolte con molta diligentia &amp;
+            novamente date in luce</hi>. Paul Kauffmann, Nuremberg 1597</p>
+        <p><hi rend="bold">1597</hi><hi rend="bold superscript">24</hi><hi rend="bold">=</hi><hi rend="italic">The second booke of madrigalles, to 5.
+            &amp; 6. voices: translated out of sundrie Italian authors &amp; newly published by Nicolas Yonge</hi>. Thomas Este, London 1597</p>
+        <p><hi rend="bold">1605</hi><hi rend="bold superscript">8</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste di diversi
+            eccellentissimi musici a IV. V. VI. VII. et VIII. voci, raccolta per Andrea Pevernage</hi>. Pierre Phalèse, Antwerp 1605</p>
+        <p><hi rend="bold">1605</hi><hi rend="bold superscript">9</hi><hi rend="bold">=</hi><hi rend="italic">Nervi d’Orfeo, di eccellentiss. autori:
+            a cinque et sei voci: nuovamente con ogni diligentia raccolti, &amp; seguendo l’ordine dei suoi toni posti in luce</hi>. Henrico Lodowico
+          de Haestens, Leiden 1605 </p>
+        <p><hi rend="bold">1609</hi><hi rend="bold superscript">15</hi><hi rend="bold">=</hi><hi rend="italic">Hortus musicalis, variis antea
+            diversorum authorum Italiae floribus consitus, iam vero latinos fructus, mira suavitate &amp; artificio</hi>. Adam Berg, Munich 1609</p>
+        <p><hi rend="bold">1610</hi><hi rend="bold superscript">2</hi><hi rend="bold">=</hi><hi rend="italic">Fatiche spirituali di Simone Molinaro
+            maestro di cappella del Duomo di Genova. Libro primo a sei voci</hi>. Ricciardo Amadino, Venice 1610. </p>
+        <p><hi rend="bold">1610</hi><hi rend="bold superscript">3</hi><hi rend="bold">=</hi><hi rend="italic">Fatiche spirituali di Simone Molinaro
+            maestro di cappella del Duomo di Genova. Libro secondo a sei voci</hi>. Ricciardo Amadino, Venice 1610. </p>
+        <p><hi rend="bold">1611</hi><hi rend="bold superscript">11</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica de diversi
+            eccellentissimi musici a IV. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese</hi>. Pierre Phalèse, Antwerp 1611</p>
+        <p><hi rend="bold">1614</hi><hi rend="bold superscript">12</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste de diversi
+            eccellentissimi musici a IV. V. VI. VII. et VIII. voci, raccolta per Andrea Pevernage</hi>. Pierre Phalèse, Antwerp 1614</p>
+        <p><hi rend="bold">1628</hi><hi rend="bold superscript">14</hi><hi rend="bold">=</hi><hi rend="italic">Harmonia celeste de diversi
+            eccellentissimi musici a IV. V. VI. VII. et VIII. voci, raccolta per Andrea Pevernage</hi>. Pierre Phalèse, Antwerp 1628</p>
+        <p><hi rend="bold">1630</hi><hi rend="bold superscript">3</hi><hi rend="bold">=</hi><hi rend="italic">Melodia olympica de diversi
+            eccellentissimi musici a IV. V. VI. et VIII. voci, novamente raccolta da Pietro Phillipi inglese</hi>. Heirs of Pierre Phalèse, Antwerp
+          1630</p>
       </div>
     </body>
   </text>
