@@ -181,6 +181,17 @@ p.news-more {
 
 }
 
+/* Texts */
+
+div.table {
+    table {
+        margin-bottom: 10px;
+    }
+    span.note span {
+        font-style: italic;
+    }
+}
+
 // we need popover to be behind the modal dialog
 .popover {
     z-index: 999;
@@ -230,6 +241,21 @@ table.lyrics {
     }
     tr:nth-child(5n + 0) td:last-child::after {
         content: counter(rowNumber);
+    }
+}
+
+table.comments-01 {
+    td {
+        padding: 10px;
+        vertical-align: top;
+    }
+}
+
+div.comments-img {
+    padding: 10px;
+    text-align: center;
+    img {
+        padding: 10px;
     }
 }
 

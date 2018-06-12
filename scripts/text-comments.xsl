@@ -92,7 +92,7 @@
     
     <xsl:template match="mei:table">    
         <table>
-            <xsl:attribute name="class"><xsl:value-of select="@label"/></xsl:attribute>
+            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
             <xsl:apply-templates/>
         </table>
     </xsl:template>
@@ -109,12 +109,53 @@
         </td>
     </xsl:template>
     
+    <xsl:template match="mei:th">    
+        <th>
+            <xsl:apply-templates/>
+        </th>
+    </xsl:template>
+
+    <xsl:template match="mei:th/text()">
+        <xsl:value-of select="."/>
+    </xsl:template>
+
     <xsl:template match="mei:td/text()">
         <xsl:value-of select="."/>
     </xsl:template>
     
     <xsl:template match="mei:lb">
         <br/>
+    </xsl:template>
+    
+    <xsl:template match="mei:fig">
+        <div>
+            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="mei:graphic">
+        <img>
+            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:attribute name="src"><xsl:value-of select="@target"/></xsl:attribute>
+        </img>
+    </xsl:template>
+    
+    <xsl:template match="mei:caption">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    
+    <xsl:template match="mei:caption/text()">
+        <xsl:value-of select="."/>
+    </xsl:template>
+    
+    <xsl:template match="mei:ptr">
+        <a target="_blank">
+            <xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
+            <xsl:value-of select="@label"/>
+        </a>
     </xsl:template>
     
     <xsl:template match="mei:meiHead"/>

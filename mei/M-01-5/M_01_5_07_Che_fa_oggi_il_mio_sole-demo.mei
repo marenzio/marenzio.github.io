@@ -28,6 +28,48 @@
         </workDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition of the text and commentary</head>
+                    
+                    <p>
+                        <rend rend="bold">Che fa oggi il mio sole</rend>
+                        <lb/>Anonymous
+                        <lb/>Madrigal: abCabD
+                    </p>
+                    
+                    <table type="lyrics">
+                        <tr>
+                            <td>Che fa oggi il mio sole,</td><td>What is my sun doing today?</td>
+                        </tr>
+                        <tr>
+                            <td>Che fa ’l mio canto e ’l suono,</td><td>What are my song and music doing </td>
+                        </tr>
+                        <tr>
+                            <td>Che non cantan di lei la gloria e ’l vanto?</td><td>if they are not singing of her glory and honor?</td>
+                        </tr>
+                        <tr>
+                            <td>Or queste mie viole</td><td>Now I give her my violets</td>
+                        </tr>
+                        <tr>
+                            <td>E questi fior gli dono</td><td>and these flowers</td>
+                        </tr>
+                        <tr>
+                            <td>Che ne facci corona a le sue chiome.</td><td>so that she can make a crown for her hair.</td>
+                        </tr>
+                    </table>
+                    
+                </div>                
+                <div>
+                    <head>Sources used for collation</head>
+                    
+                    <p>Gar1580, Gar1582, VinAm1586, Gar1587, Vin1588, Sco1600, Gar1602, Sco1608.</p>
+                    
+                    <p>Other sources: Gar1580 (I-Nf unavailable for consultation), Ra1608</p>
+                </div>                
+            </div>
+        </front>
         <body>
             <mdiv>
                 <score>
@@ -3954,5 +3996,85 @@
                 </score>
             </mdiv>
         </body>
+        <back>
+            <div>                
+                <p>
+                    In his <rend rend="italic">The Compleat Gentleman</rend>, a manual for the education of the nobility first printed in London in 1622, Henry Peacham mentions “Che fa oggi il mio sole” among Marenzio’s madrigals that “the Muses themselves might not have beene ashamed to have had composed.” The passage testifies to the enduring popularity of Marenzio’s music in England. 
+                </p>
+                
+                <p>
+                    <fig type="comments-img">
+                        <graphic target="{{ site.fakeurl }}files/M-01-5-07-peacham.png" type="img-responsive"></graphic>
+                        <caption>Source: Henry Peacham, <rend rend="italic">The Compleat Gentleman</rend>, with an introduction by G.S. Gordon (Oxford: Clarendon Press, 1906; reprint of the 1634 edition), p. 101.</caption>
+                    </fig>
+                </p>
+                
+                <p>
+                    The canto part of “Che fa oggi il mio sole” serves as model for one of Adriano Banchieri’s contrapuntal exercises published in his <rend rend="italic">Il principiante fanciullo</rend> a due voci (Venice: Bartolomeo Magni, 1625). Pupils were taught how to add a second voice to a melodic line drawn from popular works by composers of undisputed importance. Marenzio’s original music is in the top voice. The lower voice is the counterpoint added by Banchieri. [<ptr target="{{ site.fakeurl }}files/M-01-5-07-banchieri-bicinium.pdf" label="PDF score"/>]
+                </p>
+                
+                <p>
+                    Banchieri drops the second line of the text and adjusts the rest of the poem accordingly. A similar variant appears in Gioseppe Caimo’s <rend rend="italic">Madrigali a cinque voci, libro quarto</rend> (Venice: Giacomo Vincenti et Ricciardo Amadino compagni ad instantia di Pietro Tini, 1585). However, Caimo fails to correct the verb in the third line from third person plural (“cantan”) to third person singular (“canta”). The result is a grammatically improper text. Here are the three versions (for the variant vanto/nome see the critical report):
+                </p>
+                
+                <table type="comments-01">
+                    <tr>
+                        <td>
+                            <p><rend rend="bold">Marenzio (1580)</rend></p>
+                            <table type="lyrics">
+                                <tr>
+                                    <td>
+                                        <p>
+                                            Che fa oggi il mio sole,<lb/>
+                                            Che fa ’l mio canto e ’l suono,<lb/>
+                                            Che non cantan di lei la gloria e ’l vanto?<lb/>
+                                            Or queste mie viole<lb/>
+                                            E questi fior gli dono<lb/>
+                                            Che ne facci corona a le sue chiome.
+                                        </p>
+                                    </td>
+                                </tr>                              
+                            </table>
+                        </td>
+                        <td>
+                            <p><rend rend="bold">Caimo (1585)</rend></p>
+                            <table type="lyrics">
+                                <tr>
+                                    <td>
+                                        <p>
+                                            Che fa oggi il mio sole,<lb/>
+                                            Che non cantan di lei la gloria e il vanto?<lb/>
+                                            Or queste mie viole<lb/>
+                                            E questi fior gli dono<lb/>
+                                            Che ne facci corona a le sue chiome.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <p><rend rend="bold">Banchieri (1625)</rend></p>
+                            <table type="lyrics">
+                                <tr>
+                                    <td>
+                                        <p>
+                                            Che fa oggi il mio sole,<lb/>
+                                            Che non canta di lei la gloria e il nome?<lb/>
+                                            Or queste mie viole<lb/>
+                                            E questi fior gli dono<lb/>
+                                            Che ne facci corona a le sue chiome.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                
+                <p>
+                    For a modern edition of Caimo’s madrigals see Gioseppe Caimo, <rend rend="italic">Madrigali and Canzoni for Four and Five Voices</rend>, ed. Leta E. Miller (Madison [Wis.]: A-R Editions, 1990).
+                </p>           
+            </div>
+        </back>
     </music>
 </mei>
