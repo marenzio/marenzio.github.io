@@ -5,7 +5,7 @@
         
         <!-- midi-player -->
         <link rel="stylesheet" href="{{ fakeurl.baseurl }}/css/midiplayer.css" />
-        <script src="{{ site.fakeurl }}javascript/midi-player/wildwebmidi.js" type="text/javascript"></script>
+        <script src="{{ site.fakeurl }}javascript/midi-player/024_nylon_guitar.js" type="text/javascript"></script>
         <script src="{{ site.fakeurl }}javascript/midi-player/midiplayer.js" type="text/javascript"></script>
         
     </head>
@@ -554,6 +554,39 @@
                                     <span class="glyphicon glyphicon-volume-up"/>
                                 </button>
                             </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-12">
+                            {% assign id = page.path | remove: "digital-edition/" %}
+                            {% assign madrigals = site.data.books[page.book.id] %}
+                            {% assign prev_i = -1 %}
+                            {% assign next_i = -1 %}
+                            {% for m in (0..madrigals.size) %}
+                                {% if madrigals[m].id == id %}
+                                    {% assign next_i = forloop.index0 | plus: 1 %}
+                                    {% assign prev_i = forloop.index0 | minus: 1 %}
+                                    {% if next_i == madrigals.size %}
+                                        {% assign next_i = -1 %}
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                            
+                    
+                            {% if prev_i != -1 %}
+                            <h4>Previous madrigal</h4>
+                            <p>
+                                <a id="link-{{ m.id }}" class="" href="{{ site.fakeurl }}digital-edition/{{ madrigals[prev_i].id }}">{{ madrigals[prev_i].name }}</a>
+                            </p>    
+                            {% endif %}
+                            
+                            {% if next_i != -1 %}
+                            <h4>Next madrigal</h4>
+                            <p>
+                                <a id="link-{{ m.id }}" class="" href="{{ site.fakeurl }}digital-edition/{{ madrigals[next_i].id }}">{{ madrigals[next_i].name }}</a>
+                            </p>    
+                            {% endif %}
                         </div>
                     </div>
                 </div>
