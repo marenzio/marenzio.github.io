@@ -8,6 +8,13 @@
         <script src="{{ site.fakeurl }}javascript/midi-player/024_nylon_guitar.js" type="text/javascript"></script>
         <script src="{{ site.fakeurl }}javascript/midi-player/midiplayer.js" type="text/javascript"></script>
         
+        <script src="{{ site.fakeurl }}javascript/FileSaver.min.js" type="text/javascript"></script>
+        
+        <script src="{{ site.fakeurl }}javascript/pdfkit/blobstream.js" type="text/javascript"></script>
+        <script src="{{ site.fakeurl }}javascript/pdfkit/pdfkit.js" type="text/javascript"></script>
+        <script src="{{ site.fakeurl }}javascript/pdfkit/source.js" type="text/javascript"></script>
+        <script src="{{ site.fakeurl }}javascript/pdfkit/vrv-ttf.js" type="text/javascript"></script>
+        
     </head>
     <body>
         
@@ -40,6 +47,7 @@
             var highlighted = "";
             var clicked_ids = "";
             var toggle = true;
+            var outputFilename = "untitled.mei";
             var ids = [];
 
             // reload cookies
@@ -71,6 +79,7 @@
             
             function load_file() {
                 file = "{{ site.fakeurl }}mei/{{ page.mei-file }}";
+                outputFilename = file.replace(/^.*[\\\/]/, '')
                 $.ajax({
                     url: file
                     , dataType: "text"
@@ -356,8 +365,8 @@
             }
     
             var midiUpdate = function(time) {
-                var vrvTime = Math.max(0, 2 * time - 800);
-                var elementsattime = JSON.parse(vrvToolkit.getElementsAtTime(vrvTime))
+                var vrvTime = Math.max(0, time - 500);
+                var elementsattime = vrvToolkit.getElementsAtTime(vrvTime);
                 if (elementsattime.page > 0) {
                     if (elementsattime.page != page) {
                         page = elementsattime.page;
@@ -408,6 +417,65 @@
                 });
                 return this;
             };
+            
+            function generate_pdf() {
+        
+                var pdfSize = [2100, 2970];
+                var pdfFormat = "A4";
+                var pdfOrientation = "portrait";
+                var pdfHeight = pdfSize[1];
+                var pdfWidth = pdfSize[0];
+        
+                var fontCallback = function(family, bold, italic, fontOptions) {
+                    if (family == "VerovioText") {
+                        return family;
+                    }
+                    if (family.match(/(?:^|,)\s*sans-serif\s*$/) || true) {
+                        if (bold && italic) {return 'Times-BoldItalic';}
+                        if (bold && !italic) {return 'Times-Bold';}
+                        if (!bold && italic) {return 'Times-Italic';}
+                        if (!bold && !italic) {return 'Times-Roman';}
+                    }
+                };
+    
+                var options = {};
+                options.fontCallback = fontCallback;
+        
+                var doc = new PDFDocument({useCSS: true, compress: true, autoFirstPage: false, layout: pdfOrientation}); 
+                var stream = doc.pipe(blobStream());
+        
+                stream.on('finish', function() {
+                    var blob = stream.toBlob('application/pdf');
+                    var pdfFilename = outputFilename.replace(/\.[^\.]+$/, '.pdf');
+                    saveAs(blob, pdfFilename);
+                });
+        
+                var buffer = Uint8Array.from(atob(vrvTTF), c => c.charCodeAt(0));
+                doc.registerFont('VerovioText',buffer);  
+        
+                pdfOptions = {
+                            adjustPageHeight: false,
+                            breaks: "encoded",
+                            mmOutput: true,
+                            noFooter: false,
+                            pageHeight: pdfHeight,
+                            pageWidth: pdfWidth,
+                            scale: 100
+                }
+        
+                vrvToolkit.setOptions(pdfOptions);
+                vrvToolkit.redoLayout();
+                for (i = 0; i < vrvToolkit.getPageCount(); i++) {
+                    doc.addPage({size: pdfFormat, layout: pdfOrientation});
+                    SVGtoPDF(doc, vrvToolkit.renderToSVG(i + 1, {}), 0, 0, options);
+                }        
+        
+                // Reset the options
+                set_options();
+                vrvToolkit.redoLayout();
+        
+                doc.end();
+            }
 
         //]]>
         </script>
@@ -714,6 +782,10 @@
                     if (toggle == true) {
                         $('#wrapper').toggleClass('toggled');
                     }
+                    
+                    $('#pdf').click(function () {
+                        generate_pdf();
+                    });
       
                     $("#wrapper").on('transitionend webkitTransitionEnd oTransitionEnd mozTransitionend MSTransitionEnd', 
                         function() {
@@ -726,7 +798,7 @@
                     
                     $("#player").midiPlayer({
                         color: "#c00",
-                        onUnpdate: midiUpdate,
+                        onUpdate: midiUpdate,
                         onStop: midiStop,
                         width: 250
                     });
