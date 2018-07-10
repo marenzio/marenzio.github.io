@@ -37,6 +37,12 @@
             <mdiv>
                 <score>
                     <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
+                        <pgHead>
+                            <rend halign="center" valign="middle">
+                                <rend fontsize="x-large">8. Ben ho del caro oggetto i sensi privi  Prima parte</rend>
+                            </rend>
+                            <rend halign="right" valign="bottom">(Annibale Caro [attr.])</rend>
+                        </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
                             <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
                                 <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
@@ -50,7 +56,6 @@
                     <section xml:id="section-0000001838626291">
                         <pb xml:id="pb-0000001649876154" n="1" />
                         <measure xml:id="measure-0000001159670214" n="1">
-                            <anchoredText xml:id="anchtxt-0000000700025746">8. Ben ho del caro oggetto i sensi privi  Prima parte</anchoredText>
                             <staff xml:id="staff-0000000584351568" n="1">
                                 <layer xml:id="layer-0000000754085645" n="1">
                                     <note xml:id="p1cgd4n0v1b1s1" dur="breve" oct="4" pname="g">
