@@ -121,12 +121,18 @@ M-06-5:
       name: "Ah dolente partita"
     - id: "M_06_5_08_Ben_ho_del_caro_oggetto_i_sensi_privi.xhtml"
       name: "Ben ho del caro oggetto i sensi privi"
+      parts:
+          - title: "Seconda parte"
+            id: 2
     - id: "M_06_5_09_Amor_se_giusto_sei.xhtml"
       name: "Amor se giusto sei"
     - id: "M_06_5_10_Or_chi_Clori_beata.xhtml"
       name: "Or chi Clori beata"
     - id: "M_06_5_11_Deh_Tirsi_Tirsi_anima_mia_perdona.xhtml"
       name: "Deh Tirsi Tirsi anima mia perdona"
+      parts:
+          - title: "Seconda parte"
+            id: 2
     - id: "M_06_5_12_Clori_mia_Clori_dolce_oh_sempre_nuovo.xhtml"
       name: "Clori mia Clori dolce oh sempre nuovo"
     - id: "M_06_5_13_Mentre_qual_viva_pietra.xhtml"
@@ -135,6 +141,9 @@ M-06-5:
       name: "Voi bramate ch io moia"
     - id: "M_06_5_15_Rimanti_in_pace_a_la_dolente_e_bella.xhtml"
       name: "Rimanti in pace a la dolente e bella"
+      parts:
+          - title: "Seconda parte"
+            id: 2
     - id: "M_06_5_16_Ecco_Maggio_seren_chi_l_ha_vestito.xhtml"
       name: "Ecco Maggio seren chi l ha vestito"
     - id: "M_06_5_17_Cantiam_la_bella_Clori.xhtml"

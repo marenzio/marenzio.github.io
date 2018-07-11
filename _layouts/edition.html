@@ -82,7 +82,8 @@
                             noFooter: "true",
                             pageHeight: pageHeight,
                             pageWidth: pageWidth,
-                            scale: zoom
+                            scale: zoom,
+                            spacingStaff: 12
                         }
                 // console.log( options );
                 vrvToolkit.setOptions( options );
@@ -521,16 +522,16 @@
                 </div>
                 
                 <div class="sidebar-panel">
-                    <div class="row">
-                        <div class="col-xs-9">
-                            <h4>Navigation</h4>
-                        </div>
-                    </div>
                     <div class="row sidebar-row">
                         <div class="col-xs-12">
                             <button class="btn btn-default btn-sm pull-left popover-btn" type="button" data-container="body" data-toggle="popover" data-placement="right" data-content="On mobile devices, you can swipe left or right to change page and tap or double tap to zoom-in or zoom-out. On desktops, you can use [ctrl+] left or right arrows and +/- keys.">
                                 <span class="glyphicon glyphicon-question-sign"/>
                             </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Display</h4>
                         </div>
                     </div>
                     <div class="row sidebar-row">
@@ -601,16 +602,13 @@
                         </div>
                         <!-- /.col-md-6 -->
                     </div>
-                    
-                </div>
-                
-                <div class="sidebar-panel">
+
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Options</h4>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row sidebar-row">
                         <div class="col-xs-12">
                             <div class="btn-group btn-group-justified" data-toggle="buttons">
                                 <label class="btn btn-default active btn-sm">
@@ -622,7 +620,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row sidebar-option-row">
+                    <div class="row sidebar-row">
                         <div class="col-xs-12">
                             <div class="btn-group btn-group-justified" data-toggle="buttons">
                                   <label class="btn btn-default btn-sm">
@@ -634,10 +632,10 @@
                     
                     <div class="row">
                         <div class="col-xs-12">
-                            <h4>Playback</h4>
+                            <h4>Tools</h4>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row sidebar-row">
                         <div class="col-xs-12">
                             <div class="btn-group">
                                 <button id="play-button" onclick="playMidi();" class="btn btn-sm btn-default" type="button">
@@ -654,12 +652,19 @@
                     
                     <div class="row">
                         <div class="col-xs-12">
+                            <h4>Navigation</h4>
+                        </div>
+                    </div>
+                    <div class="row sidebar-row">
+                        <div class="col-xs-12">
                             {% assign id = page.path | remove: "digital-edition/" %}
                             {% assign madrigals = site.data.books[page.book.id] %}
                             {% assign prev_i = -1 %}
                             {% assign next_i = -1 %}
+                            {% assign current_i = -1 %}
                             {% for m in (0..madrigals.size) %}
                                 {% if madrigals[m].id == id %}
+                                    {% assign current_i = forloop.index0 %}
                                     {% assign next_i = forloop.index0 | plus: 1 %}
                                     {% assign prev_i = forloop.index0 | minus: 1 %}
                                     {% if next_i == madrigals.size %}
@@ -670,17 +675,10 @@
                             
                     
                             {% if prev_i != -1 %}
-                            <h4>Previous madrigal</h4>
-                            <p>
-                                <a id="link-{{ m.id }}" class="" href="{{ site.fakeurl }}digital-edition/{{ madrigals[prev_i].id }}">{{ madrigals[prev_i].name }}</a>
-                            </p>    
-                            {% endif %}
-                            
+                            <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[prev_i].id }}"><span class="glyphicon glyphicon-arrow-up"/> {{ madrigals[prev_i].name }}</a>    
+                            {% endif %} 
                             {% if next_i != -1 %}
-                            <h4>Next madrigal</h4>
-                            <p>
-                                <a id="link-{{ m.id }}" class="" href="{{ site.fakeurl }}digital-edition/{{ madrigals[next_i].id }}">{{ madrigals[next_i].name }}</a>
-                            </p>    
+                                <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[next_i].id }}"><span class="glyphicon glyphicon-arrow-down"/> {{ madrigals[next_i].name }}</a>  
                             {% endif %}
                         </div>
                     </div>
