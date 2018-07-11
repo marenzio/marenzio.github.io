@@ -7,27 +7,22 @@
             <titleStmt>
                 <title />
                 <respStmt>
-                    <persName />
+                    <persName role="editor">Daniele V. Filippi</persName>
+                    <persName role="editor">Laurent Pugin</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
-                <availability>
-                    <useRestrict>Copyright © </useRestrict>
-                </availability>
+                <unpub />
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
         <workDesc>
             <work>
                 <titleStmt>
-                    <title />
-                    <respStmt />
+                    <title>Il sesto libro de madrigali a cinque voci - 7. Ah, dolente partita</title>
+                    <respStmt>
+                        <resp>Composed by:</resp>
+                        <persName>Luca Marenzio</persName>
+                    </respStmt>
                 </titleStmt>
             </work>
         </workDesc>
