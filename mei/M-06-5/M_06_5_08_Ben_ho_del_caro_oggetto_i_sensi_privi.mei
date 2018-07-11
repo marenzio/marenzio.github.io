@@ -34,12 +34,12 @@
     </meiHead>
     <music>
         <body>
-            <mdiv>
+            <mdiv label="part1">
                 <score>
                     <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
                         <pgHead>
                             <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">8. Ben ho del caro oggetto i sensi privi  Prima parte</rend>
+                                <rend fontsize="x-large">8. Ben ho del caro oggetto i sensi privi<lb/><rend fontsize="large" fontstyle="italic">Prima parte</rend></rend>
                             </rend>
                             <rend halign="right" valign="bottom">(Annibale Caro [attr.])</rend>
                         </pgHead>
@@ -3908,6 +3908,28 @@
                                 </layer>
                             </staff>
                         </measure>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv label="part2">
+                <score>
+                    <scoreDef xml:id="scoredef-0000001134614446-2" meter.sym="cut">
+                        <pgHead>
+                            <rend halign="center" valign="middle">
+                                <rend fontsize="x-large">Dille la mia speranz’e ’l mio desio<lb/><rend fontsize="large" fontstyle="italic">Seconda parte</rend></rend>
+                            </rend>
+                        </pgHead>
+                        <staffGrp xml:id="staffgrp-0000000079390600-2">
+                            <staffGrp xml:id="staffgrp-0000000730469413-2" n="1" symbol="bracket">
+                                <staffDef xml:id="sd1-2" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2-2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd3-2" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
+                                <staffDef xml:id="sd4-2" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd5-2" n="5" clef.shape="F" clef.line="3" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-0000001838626291-2">
                         <pb xml:id="pb-0000000491562707" n="7" />
                         <measure xml:id="measure-0000000324826540" n="44">
                             <staff xml:id="staff-0000000305678273" n="1">
@@ -4012,7 +4034,6 @@
                             </staff>
                         </measure>
                         <measure xml:id="measure-0000000458916030" n="46">
-                            <anchoredText xml:id="anchtxt-0000001631672867">Dille la mia speranz’e ’l mio desio  Seconda parte</anchoredText>
                             <staff xml:id="staff-0000001929296450" n="1">
                                 <layer xml:id="layer-0000000829849097" n="1">
                                     <note xml:id="p1cad4n0v1b46s1" dur="1" oct="4" pname="a">
