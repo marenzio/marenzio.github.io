@@ -34,12 +34,12 @@
     </meiHead>
     <music>
         <body>
-            <mdiv>
+            <mdiv label="part1">
                 <score>
                     <scoreDef xml:id="scoredef-0000001134631253" meter.sym="cut">
                         <pgHead>
                             <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">15. “Rimanti in pace”, a la dolente e bella Prima parte</rend>
+                                <rend fontsize="x-large">15. “Rimanti in pace”, a la dolente e bella<lb/><rend fontsize="large" fontstyle="italic">Prima parte</rend></rend>
                             </rend>
                             <rend halign="right" valign="bottom">(Livio Celiano [Angelo Grillo]</rend>
                         </pgHead>
@@ -3708,6 +3708,28 @@
                                 </layer>
                             </staff>
                         </measure>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv label="part2">
+                <score>
+                    <scoreDef xml:id="scoredef-0000001134631253-2" meter.sym="cut">
+                        <pgHead>
+                            <rend halign="center" valign="middle">
+                                <rend fontsize="x-large">Ond’ei, di morte la sua faccia impressa<lb/><rend fontsize="large" fontstyle="italic">Seconda parte</rend></rend>
+                            </rend>
+                        </pgHead>
+                        <staffGrp xml:id="staffgrp-0000001064334258-2">
+                            <staffGrp xml:id="staffgrp-0000001874578343-2" n="1" symbol="bracket">
+                                <staffDef xml:id="sd1-2" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
+                                <staffDef xml:id="sd2-2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
+                                <staffDef xml:id="sd3-2" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
+                                <staffDef xml:id="sd4-2" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
+                                <staffDef xml:id="sd5-2" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-0000001646041741-2">
                         <pb xml:id="pb-0000000705277844" n="6" />
                         <measure xml:id="measure-0000001642476315" n="38">
                             <staff xml:id="staff-0000000969080466" n="1">
@@ -3893,7 +3915,6 @@
                             </staff>
                         </measure>
                         <measure xml:id="measure-0000000354428635" n="41">
-                            <anchoredText xml:id="anchtxt-0000001892097346">Ond’ei, di morte la sua faccia impressa Seconda parte</anchoredText>
                             <staff xml:id="staff-0000001813324701" n="1">
                                 <layer xml:id="layer-0000001607815130" n="1">
                                     <note xml:id="p1cdd5n0v1b41s1" dur="2" oct="5" pname="d">
