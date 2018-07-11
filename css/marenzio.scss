@@ -19,6 +19,25 @@ body {
     background-color: $site-background;
 }
 
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: $site-background;
+    z-index: 10000;
+    vertical-align: middle;
+    text-align: center;
+    color: $navbar-background;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: wait;
+}
+
 body.books {
     background-color: $site-background;
 }
@@ -352,10 +371,10 @@ div.app-inline, div.app-inline-text {
 
     #wrapper {
         padding-left: 0;
-        -webkit-transition: all 0.01s ease;
-        -moz-transition: all 0.01s ease;
-        -o-transition: all 0.01s ease;
-        transition: all 0.05s ease;
+        -webkit-transition: all 0.20s ease;
+        -moz-transition: all 0.20s ease;
+        -o-transition: all 0.20s ease;
+        transition: all 0.20s ease;
     }
     
     #wrapper.toggled {
