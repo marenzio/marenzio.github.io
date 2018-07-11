@@ -48,6 +48,8 @@
             var clicked_ids = "";
             var toggle = true;
             var outputFilename = "untitled.mei";
+            var part = {% if page.parts %}1{% else %}0{% endif %};
+            var mdivXPathQuery = "";
             var ids = [];
 
             // reload cookies
@@ -67,11 +69,15 @@
                 else {
                     pageHeight = ($(window).height() - $( "#navbar" ).height() - 4) * 100 / zoom ;
                 }
+                if (part != 0) {
+                    mdivXPathQuery = "//body/mdiv[" + part + "]";
+                }
                 pageWidth = ( $("#page-content-wrapper").width() ) * 100 / zoom ;
                 border = 50;
                 options = {
                             adjustPageHeight: "true",
                             breaks: "auto",
+                            mdivXPathQuery: mdivXPathQuery,
                             mmOutput: "false",
                             noFooter: "true",
                             pageHeight: pageHeight,
@@ -358,6 +364,11 @@
                      $('input[type=radio][name=clefs][value=clefs_modernized]').prop('checked', true).parent().addClass("active");
                      $('input[type=radio][name=clefs][value=clefs_original]').prop('checked', false).parent().removeClass("active");
                  }
+                loadFile();
+            }
+            
+            function switchPart(partId) {
+                part = partId;
                 loadFile();
             }
             
@@ -805,6 +816,10 @@
                                 applyZoom();
                         }
                     });
+                    
+                    if (getParameterByName("part")) {
+                        part = getParameterByName("part");
+                    }
                     
                     loadFile();
                     
