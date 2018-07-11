@@ -99,18 +99,21 @@
     
     <xsl:template match="mei:tr">    
         <tr>
+            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
             <xsl:apply-templates/>
         </tr>
     </xsl:template>
     
     <xsl:template match="mei:td">    
         <td>
+            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
             <xsl:apply-templates/>
         </td>
     </xsl:template>
     
     <xsl:template match="mei:th">    
         <th>
+            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
             <xsl:apply-templates/>
         </th>
     </xsl:template>

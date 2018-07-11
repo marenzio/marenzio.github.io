@@ -263,7 +263,12 @@ table.lyrics {
             padding-bottom: 1px;
         }
     }
-    tr:nth-child(5n + 0) td:last-child::after {
+    tr.void {
+        counter-increment: none;
+        height: 20px;
+    }
+    
+    tr:nth-of-type(5n + 0) td:last-child::after {
         content: counter(rowNumber);
     }
 }
