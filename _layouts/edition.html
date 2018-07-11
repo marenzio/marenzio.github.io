@@ -55,7 +55,12 @@
             if ( $.cookie('toggle') ) toggle = ($.cookie('toggle') == "true");
             if ( $.cookie('vertical_layout') ) vertical_layout = ($.cookie('vertical_layout') == "true");
     
-            function set_options( ) {
+            function getParameterByName(name) {
+                var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+                return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+            }
+    
+            function setOptions( ) {
                 if (vertical_layout) {
                     pageHeight = 60000;
                 }
@@ -77,30 +82,30 @@
                 vrvToolkit.setOptions( options );
             }
             
-            function load_file() {
+            function loadFile() {
                 file = "{{ site.fakeurl }}mei/{{ page.mei-file }}";
                 outputFilename = file.replace(/^.*[\\\/]/, '')
                 $.ajax({
                     url: file
                     , dataType: "text"
                     , success: function(data) {
-                        load_data(data);
+                        loadData(data);
                     }
                 });
             }
     
-            function load_data(data) {
+            function loadData(data) {
                 highlighted = "";
                 clicked_ids = "";
-                set_options();
+                setOptions();
                 vrvToolkit.loadData(data);
 
                 $("#total_text").html(vrvToolkit.getPageCount());
                 page = 1;
-                load_page();
+                loadPage();
             }
             
-            function load_page_with_element( xmlIds ){
+            function loadPageWithElement( xmlIds ){
 
                 $( ".modal").modal('hide');
                 
@@ -113,7 +118,7 @@
                     return;
                 }
                 page = elementPage;
-                load_page();
+                loadPage();
                 
                 // scroll
                 var a = d3.select( "#" + ids[0] );
@@ -124,7 +129,7 @@
 
             }
             
-            function show_highlighted() {
+            function showHighlighted() {
                 if (highlighted == "") {
                     return;
                 }
@@ -135,7 +140,7 @@
                 }
             }
             
-            function load_page() {
+            function loadPage() {
                 $("#jump_text").val(page);
                 
                 $( ".popover" ).popover('hide');
@@ -144,18 +149,18 @@
                 $("#svg_output").html(svg);
                 
                 if (show_inline_app) {
-                    highlight_inline_app();
-                    highlight_inline_app_text();
+                    highlightInlineApp();
+                    highlightInlineAppText();
                 }
                 
-                adjust_page_height();
-                show_highlighted();
+                adjustPageHeight();
+                showHighlighted();
                 
-                d3.select("#svg_output").select("svg").selectAll(".verse").on("mousedown", stack_id );
+                d3.select("#svg_output").select("svg").selectAll(".verse").on("mousedown", stackId );
                 
             };
             
-            function highlight_inline_app() {
+            function highlightInlineApp() {
                 d3.selectAll('.app-inline div').each( function(selection) {
                     var s = d3.select(this);
                     //console.log(s.text() ); 
@@ -179,7 +184,7 @@
             }
             
             // unused
-            function highlight_inline_app_text() {
+            function highlightInlineAppText() {
                 d3.selectAll('.app-inline-text div').each( function(selection) {
                     var s = d3.select(this);
                     //console.log(s.text() ); 
@@ -208,63 +213,63 @@
                 });
             }
             
-            function next_page() {
+            function nextPage() {
                 if (page >= vrvToolkit.getPageCount()) {
                     return;
                 }
                 
                 page = page + 1;
-                load_page();
+                loadPage();
             };
             
-            function prev_page() {
+            function prevPage() {
                 if (page <= 1) {
                     return;
                 }
 
                 page = page - 1;
-                load_page();
+                loadPage();
             };
 
-            function first_page() {
+            function firstPage() {
                 page = 1;
-                load_page();
+                loadPage();
             };
     
-            function last_page() {
+            function lastPage() {
                 page = vrvToolkit.getPageCount();
-                load_page();
+                loadPage();
             };
 
-            function apply_zoom() {
+            function applyZoom() {
                 $.cookie('zoom', zoom, { expires: 30 });
-                set_options();
+                setOptions();
                 vrvToolkit.redoLayout();
 
                 $("#total_text").html(vrvToolkit.getPageCount());
                 page = 1;
-                load_page();
+                loadPage();
             }
 
-            function zoom_out() {
+            function zoomOut() {
                 if (zoom < 20) {
                     return;
                 }
 
                 zoom = zoom / 2;
-                apply_zoom();
+                applyZoom();
             }
 
-            function zoom_in() {
+            function zoomIn() {
                 if (zoom > 80) {
                     return;
                 }
 
                 zoom = zoom * 2;
-                apply_zoom();
+                applyZoom();
             }
 
-            function do_page_enter(e) {
+            function doPageEnter(e) {
                 key = e.keyCode || e.which;
                 if (key == 13) {
 
@@ -272,7 +277,7 @@
 
                     if (text <= vrvToolkit.getPageCount() && text > 0) {
                         page = Number(text);
-                        load_page();
+                        loadPage();
                     } else {
                         $("#jump_text").val(page);
                     }
@@ -280,7 +285,7 @@
                 }
             }
             
-            function do_zoom_enter(e) {
+            function doZoomEnter(e) {
                 key = e.keyCode || e.which;
                 if (key == 13) {
                     text = $("#zoom_text").val();
@@ -288,11 +293,11 @@
                     if (zoom_val < 10) zoom_val = 10;
                     else if (zoom_val > 160) zoom_val = 160;    
                     zoom = zoom_val;
-                    apply_zoom();
+                    applyZoom();
                 }
             }
             
-            function adjust_page_height() {
+            function adjustPageHeight() {
                 // adjust the height of the panel
                 if ( $('#svg_panel svg') ) {
                     zoomed_height = pageHeight * zoom / 100;
@@ -306,46 +311,46 @@
                 $("#zoom_text").val(zoom + "%");
                 
                 // enable the swipe (or not)
-                enable_swipe( ( $('#svg_panel svg') && ( $('#svg_panel svg').width() <= $('#svg_panel').width() ) ) );
+                enableSwipe( ( $('#svg_panel svg') && ( $('#svg_panel svg').width() <= $('#svg_panel').width() ) ) );
             }
             
-            function swipe_prev(event, direction, distance, duration, fingerCount) {
-                  prev_page();
+            function swipePrev(event, direction, distance, duration, fingerCount) {
+                  prevPage();
              }
              
-             function swipe_next(event, direction, distance, duration, fingerCount) {
-                 next_page();
+             function swipeNext(event, direction, distance, duration, fingerCount) {
+                 nextPage();
              }
              
-             function swipe_zoom_in(event, target) {
-                 //zoom_in();
+             function swipeZoomIn(event, target) {
+                 //zoomIn();
              }
              
-             function swipe_zoom_out(event, target) {
-                 //zoom_out();
+             function swipeZoomOut(event, target) {
+                 //zoomOut();
              }
              
-            function enable_swipe( pages ) {
+            function enableSwipe( pages ) {
                 if ( pages && !swipe_pages ) {
                     $("#svg_output").swipe( "destroy" );
-                    $("#svg_output").swipe( { swipeLeft: swipe_next, swipeRight: swipe_prev, tap: swipe_zoom_in, doubleTap: swipe_zoom_out, allowPageScroll:"auto"} );
+                    $("#svg_output").swipe( { swipeLeft: swipeNext, swipeRight: swipePrev, tap: swipeZoomIn, doubleTap: swipeZoomOut, allowPageScroll:"auto"} );
                     swipe_pages = true;
                 }
                 // zoom only
                 else if ( !pages && swipe_pages ) {
                     $("#svg_output").swipe( "destroy" );
-                    $("#svg_output").swipe( { tap: swipe_zoom_in, doubleTap: swipe_zoom_out, allowPageScroll:"auto"} );
+                    $("#svg_output").swipe( { tap: swipeZoomIn, doubleTap: swipeZoomOut, allowPageScroll:"auto"} );
                     swipe_pages = false;        
                 }
             }
             
-            function stack_id(  ) {
+            function stackId(  ) {
                 var element = d3.select(this);
                 clicked_ids += " " + ( element.attr("id") );
                 console.log( clicked_ids );
             };
             
-            function switch_app( xpath ) {
+            function switchApp( xpath ) {
                 app_xpath = xpath;
                 //console.log( app_xpath );
                 // For now we cannot have original clefs in alternate versions
@@ -353,10 +358,10 @@
                      $('input[type=radio][name=clefs][value=clefs_modernized]').prop('checked', true).parent().addClass("active");
                      $('input[type=radio][name=clefs][value=clefs_original]').prop('checked', false).parent().removeClass("active");
                  }
-                load_file();
+                loadFile();
             }
             
-            function play_midi() {
+            function playMidi() {
                 var base64midi = vrvToolkit.renderToMidi();
                 var song = 'data:audio/midi;base64,' + base64midi;
                 $("#player").show();
@@ -370,7 +375,7 @@
                 if (elementsattime.page > 0) {
                     if (elementsattime.page != page) {
                         page = elementsattime.page;
-                        load_page();
+                        loadPage();
                     }
                     if ((elementsattime.notes.length > 0) && (ids != elementsattime.notes)) {
                         ids.forEach(function(noteid) {
@@ -418,7 +423,7 @@
                 return this;
             };
             
-            function generate_pdf() {
+            function generatePdf() {
         
                 var pdfSize = [2100, 2970];
                 var pdfFormat = "A4";
@@ -459,20 +464,26 @@
                             mmOutput: true,
                             noFooter: false,
                             pageHeight: pdfHeight,
+                            pageMarginLeft: 100,
+                            pageMarginRight: 100,
+                            pageMarginTop: 200,
                             pageWidth: pdfWidth,
-                            scale: 100
+                            scale: 100,
+                            spacingStaff: 18,
+                            spacingSystem: 12,
+                            unit: 7
                 }
         
                 vrvToolkit.setOptions(pdfOptions);
-                vrvToolkit.redoLayout();
+                vrvToolkit.loadData(vrvToolkit.getMEI(-1, true));
                 for (i = 0; i < vrvToolkit.getPageCount(); i++) {
                     doc.addPage({size: pdfFormat, layout: pdfOrientation});
                     SVGtoPDF(doc, vrvToolkit.renderToSVG(i + 1, {}), 0, 0, options);
                 }        
         
                 // Reset the options
-                set_options();
-                vrvToolkit.redoLayout();
+                setOptions()
+                vrvToolkit.loadData(vrvToolkit.getMEI(-1, true));
         
                 doc.end();
             }
@@ -518,19 +529,19 @@
                             </p>
                             <div class="col-xs-1 input-group input-group-sm">
                                 <span class="input-group-btn">
-                                    <button onclick="first_page()" class="btn btn-default" type="button">
+                                    <button onclick="firstPage()" class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-fast-backward"/>
                                     </button>
-                                    <button onclick="prev_page()" class="btn btn-default" type="button">
+                                    <button onclick="prevPage()" class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-backward"/>
                                     </button>
                                 </span>
-                                <input type="text" class="form-control" placeholder="0" id="jump_text" style="width: 45px !important;" onkeypress="do_page_enter(event)"/>
+                                <input type="text" class="form-control" placeholder="0" id="jump_text" style="width: 45px !important;" onkeypress="doPageEnter(event)"/>
                                 <span class="input-group-btn">
-                                    <button onclick="next_page()" class="btn btn-default" type="button">
+                                    <button onclick="nextPage()" class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-forward"/>
                                     </button>
-                                    <button onclick="last_page()" class="btn btn-default" type="button">
+                                    <button onclick="lastPage()" class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-fast-forward"/>
                                     </button>
                                 </span>
@@ -546,13 +557,13 @@
                             </p>
                             <div class="col-xs-2 input-group input-group-sm">
                                 <span class="input-group-btn">
-                                    <button onclick="zoom_out()" class="btn btn-default" type="button">
+                                    <button onclick="zoomOut()" class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-zoom-out"/>
                                     </button>
                                 </span>
-                                <input type="text" class="form-control" style="width:60px !important;" placeholder="100%" id="zoom_text" onkeypress="do_zoom_enter(event)"/>
+                                <input type="text" class="form-control" style="width:60px !important;" placeholder="100%" id="zoom_text" onkeypress="doZoomEnter(event)"/>
                                 <span class="input-group-btn">
-                                    <button onclick="zoom_in()" class="btn btn-default" type="button">
+                                    <button onclick="zoomIn()" class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-zoom-in"/>
                                     </button>
                                 </span>
@@ -618,8 +629,13 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="btn-group">
-                                <button id="play-button" onclick="play_midi();" class="btn btn-sm btn-default" type="button">
+                                <button id="play-button" onclick="playMidi();" class="btn btn-sm btn-default" type="button">
                                     <span class="glyphicon glyphicon-volume-up"/>
+                                </button>
+                            </div>
+                            <div class="btn-group">
+                                <button id="pdf" onclick="generatePdf();" class="btn btn-sm btn-default" type="button">
+                                    <span class="hidden-xs">PDF </span><span class="glyphicon glyphicon-book"/>
                                 </button>
                             </div>
                         </div>
@@ -704,23 +720,23 @@
                             return;
                         }
                         if ( event.ctrlKey && (event.keyCode == 37) ) {
-                            first_page();
+                            firstPage();
                         }
                         else if ( event.keyCode == 37 ) {
-                            prev_page();
+                            prevPage();
                         }
                         else if ( event.ctrlKey && (event.keyCode == 39) ) {
-                            last_page();
+                            lastPage();
                         }
                         else if ( event.keyCode == 39 ) {
-                            next_page();
+                            nextPage();
                         }
                         // see http://www.javascripter.net/faq/keycodes.htm
                         else if ( (event.keyCode == 107) || (event.keyCode == 187) || (event.keyCode == 61)  ) {
-                            zoom_in();
+                            zoomIn();
                         }
                         else if ( (event.keyCode == 109) || (event.keyCode == 189) || (event.keyCode == 173) ) {
-                            zoom_out();
+                            zoomOut();
                         }
                         else {
                             //console.log( event.keyCode );
@@ -728,7 +744,7 @@
                     });
         
                     $(window).resize(function(){
-                        apply_zoom();
+                        applyZoom();
                     });
                     
                     // Adjust the size of the svg_output and the zoom according to the div (screen) size
@@ -739,22 +755,22 @@
                     $( ".popover-btn" ).popover( );
         
                     // Init the swip
-                    enable_swipe( true );
+                    enableSwipe( true );
                     
                     $('input[type=checkbox][name=inline_apps]').change(function() {
                         show_inline_app = !show_inline_app;
-                        load_page();
+                        loadPage();
                     });
                     
 
                     $('input[type=radio][name=clefs]').change(function() {
                         if (this.value == 'clefs_modernized') {
                              app_xpath = ""
-                             load_file();
+                             loadFile();
                         }
                         else {
                              app_xpath = "./rdg[contains(@label, 'original')]";
-                             load_file();
+                             loadFile();
                         }
                     });
                     
@@ -766,7 +782,7 @@
                             vertical_layout = true;
                          }
                         $.cookie('vertical_layout', vertical_layout, { expires: 30 });
-                        load_file();
+                        loadFile();
                     });
                     if (vertical_layout) $('input[type=radio][name=layout][value=layout_vertical]').prop('checked', true).parent().addClass("active");
                     else $('input[type=radio][name=layout][value=layout_horizontal]').prop('checked', true).parent().addClass("active");
@@ -782,19 +798,15 @@
                     if (toggle == true) {
                         $('#wrapper').toggleClass('toggled');
                     }
-                    
-                    $('#pdf').click(function () {
-                        generate_pdf();
-                    });
       
                     $("#wrapper").on('transitionend webkitTransitionEnd oTransitionEnd mozTransitionend MSTransitionEnd', 
                         function() {
                             if ($(window).width() >= 768) {
-                                apply_zoom();
+                                applyZoom();
                         }
                     });
                     
-                    load_file();
+                    loadFile();
                     
                     $("#player").midiPlayer({
                         color: "#c00",
