@@ -28,6 +28,54 @@
         </workDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    
+                    <p>
+                        <rend rend="bold">Amor, se giusto sei</rend>
+                        <lb/>Madrigal: abbCDdCEEDD
+                    </p>
+                    
+                    <table type="lyrics">
+                        <tr>
+                            <td>Amor, se giusto sei,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Fa’ che la donna mia</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Anch’ella giusta sia.</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Io l’amo, tu ’l conosci ed ella il vede;</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Costei mi strazia e mi traffigge il core,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Ma, per maggior dolore</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>E per dispreggio tuo, non mi dà fede.</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Non sostener, Amor, che nel tuo regno</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Là dov’ho sparsa fè vi mieti sdegno,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Ma, come giusto e non empio signore,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Fa’ che premio d’amor sia sempr’amore.</td><td></td>
+                        </tr>
+                    </table>
+                </div>          
+            </div>
+        </front>
         <body>
             <mdiv>
                 <score>
@@ -4193,5 +4241,12 @@
                 </score>
             </mdiv>
         </body>
+        <back>
+            <div>   
+                <p>
+                    
+                </p>     
+            </div>
+        </back>
     </music>
 </mei>
