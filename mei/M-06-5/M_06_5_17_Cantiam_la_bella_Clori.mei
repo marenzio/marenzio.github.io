@@ -4371,14 +4371,12 @@
                                             <syl xml:id="syl-0000001532074353" con="d" wordpos="i">bel</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-0000001426986760">
-                                        <note xml:id="p1cbd2n896v1b36s8" dur="8" oct="2" pname="b">
-                                            <accid xml:id="accid-0000000257661986" accid.ges="f" />
-                                            <verse xml:id="verse-0000001197966350" n="1">
-                                                <syl xml:id="syl-0000001561253825" wordpos="t">la</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cbd2n896v1b36s8" dur="8" oct="2" pname="b">
+                                        <accid xml:id="accid-0000000257661986" accid.ges="f" />
+                                        <verse xml:id="verse-0000001197966350" n="1">
+                                            <syl xml:id="syl-0000001561253825" wordpos="t">la</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                         </measure>

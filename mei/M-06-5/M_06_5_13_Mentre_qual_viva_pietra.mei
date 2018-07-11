@@ -4208,13 +4208,11 @@
                                             <syl xml:id="syl-0000001722796866" wordpos="t">le</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-0000000372843451">
-                                        <note xml:id="p1ccd4n384v1b62s4" dur="8" oct="4" pname="c">
-                                            <verse xml:id="verse-0000001864456005" n="1">
-                                                <syl xml:id="syl-0000001978182658" con="d" wordpos="i">ri</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd4n384v1b62s4" dur="8" oct="4" pname="c">
+                                        <verse xml:id="verse-0000001864456005" n="1">
+                                            <syl xml:id="syl-0000001978182658" con="d" wordpos="i">ri</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cdd4n512v1b62s4" dur="2" oct="4" pname="d">
                                         <verse xml:id="verse-0000001414584466" n="1">
                                             <syl xml:id="syl-0000000129664125" con="d" wordpos="i">spon</syl>
