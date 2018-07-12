@@ -92,28 +92,44 @@
     
     <xsl:template match="mei:table">    
         <table>
-            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="./@type">
+                    <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </table>
     </xsl:template>
     
     <xsl:template match="mei:tr">    
         <tr>
-            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="./@type">
+                    <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </tr>
     </xsl:template>
     
     <xsl:template match="mei:td">    
         <td>
-            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="./@type">
+                    <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </td>
     </xsl:template>
     
     <xsl:template match="mei:th">    
         <th>
-            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="./@type">
+                    <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </th>
     </xsl:template>
@@ -132,14 +148,22 @@
     
     <xsl:template match="mei:fig">
         <div>
-            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="./@type">
+                    <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
     
     <xsl:template match="mei:graphic">
         <img>
-            <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+            <xsl:choose>
+                <xsl:when test="./@type">
+                    <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
+                </xsl:when>
+            </xsl:choose>
             <xsl:attribute name="src"><xsl:value-of select="@target"/></xsl:attribute>
         </img>
     </xsl:template>

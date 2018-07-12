@@ -8,7 +8,7 @@
 shopt -s expand_aliases
 [[ -f ~/.bash_profile ]] && source ~/.bash_profile
 
-for i in `LS ../mei/*/*.mei`; do 
+for i in `LS ../mei/*/M_06_5*.mei`; do 
     f=${i##*/};
     n=${f:0:9}
     DIRNAME=${n//_/-}
