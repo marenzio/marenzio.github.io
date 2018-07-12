@@ -28,6 +28,61 @@
         </workDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    
+                    <p>
+                        <rend rend="bold">Clori mia, Clori dolce, oh sempre nuovo</rend>
+                        <lb/>Giovanni Battista Strozzi the Elder
+                        <lb/>Madrigal: AbbAacCdD
+                    </p>
+                    
+                    <table type="lyrics">
+                        <tr>
+                            <td>Clori mia, Clori dolce, oh sempre nuovo</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>E più chiaro concento!</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Quanta dolcezza sento</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>In sol Clori dicendo! Io mi pur provo,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Né qui tra noi ritrovo,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Né tra ’ cieli armonia</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Che del bel nome suo più dolce sia:</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Altro il Ciel, altro Amore,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Altro non suona l’eco del mio core.</td><td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        G.B. Strozzi, <rend rend="italic">Madrigali</rend>, ed. Lorenzo and Filippo Strozzi,  Florence: Sermatelli, 1593. (Information from Chater, “Family Matters”, 129.)
+                    </p>
+                </div>
+                <div>
+                    <head>Notes</head>
+                    <p>
+                        The original incipit of Strozzi’s text (“<rend rend="italic">Filli</rend> mia, <rend rend="italic">Filli</rend> dolce, oh sempre nuovo”) has been modified to accommodate the name Clori.
+                    </p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv>
                 <score>

@@ -28,6 +28,168 @@
         </workDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    
+                    <p>
+                        <rend rend="bold">Cantiam la bella Clori</rend>
+                        <lb/>Adapted from Battista Guarini’s <rend rend="italic">Dimmi, gentil pastore</rend>
+                        <lb/>Madrigal: aABBaaCDEdaa
+                    </p>
+                    
+                    <table type="lyrics">
+                        <tr>
+                            <td>Cantiam la bella Clori!</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Clori cantiam, che dai celesti cori</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Portò l’altiero e non più visto essempio</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Di beltà, di valor, degna di tempio</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>E d’immortali onori.</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Cantiam la bella Clori!</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Cantiamo la leggiadra e vaga Ninfa,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Nostro ben, nostra gloria e nostra duce,</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>In cui tanta dal Cielo e sì divina</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Grazia splend’e riluce</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Ch’infiamma i nostri cori.</td><td></td>
+                        </tr>
+                        <tr>
+                            <td>Viva la bella Clori!</td><td></td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        In <rend rend="italic">Delle rime, et prose del sig. Torquato Tasso</rend>. Parte quarta, Venice: G. Vasalini, 1586 (attributed to Tasso).
+                     </p>
+                </div>
+                
+                <div>
+                    <head>Notes</head>
+                    <p>
+                        The text is an adaptation from lines 60–72 of the pastoral dialogue <rend rend="italic">Dimmi, gentil pastore</rend>. 
+                        Written for the wedding of Margherita Gonzaga with Alfonso II d’Este in 1579, the dialogue is ascribed to Tasso in some contemporary editions, but is in all likelihood by Guarini, as suggested by Angelo Solerti.
+                        (See Angelo Solerti, <rend rend="italic">Le rime di Torquato Tasso, I: Bibliografia</rend> (Bologna: Romagnoli-Dall’Acqua, 1898), 502–503. Luigi Fassò has included the work in his edition of Guarini’s <rend rend="italic">Opere</rend> (Turin: UTET, 1950), 466–469.)
+                        Tasso wrote a companion poem with a similar incipit for the same occasion, <rend rend="italic">Dimmi, mesto pastore</rend> (also known as the first of his Eclogues).
+                    </p>
+                    
+                    <p>
+                        The excerpt from Guarini’s dialogue, as printed in his <rend rend="italic">Opere</rend> (tome II, Verona: G.A. Tumermani, 1737, 176–179), is reproduced below for comparison (the parts changed or omitted in the text set by Marenzio are printed in bold):
+                    </p>
+                    
+                    <p>
+                        “Per Madama Margherita Gonzaga, Duchessa di Ferrara”
+                        <lb/><rend rend="italic">Dialogo</rend> (Licori, Dafne &amp; Aminta)
+                    </p>
+                    
+                    <table type="text-01">
+                        <tr>
+                            <td></td>
+                            <td>[. . .]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>AMINTA</td>
+                            <td>Cantiam la <rend rend="bold">nostra Dea</rend>.</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>D. &amp; L.</td>
+                            <td>Cantiam <rend rend="bold">la Dea</rend> che dai celesti cori</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Portò l’altero e non più visto esempio</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Di beltà, di valor, degna di tempio</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>E d’immortali onori</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><rend rend="bold">Assai più di Minerva e Citerea</rend>.</td>
+                            <td>65</td>
+                        </tr>
+                        <tr>
+                            <td>AMINTA</td>
+                            <td>Cantiam la <rend rend="bold">nostra Dea</rend>.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>A. &amp; D.</td>
+                            <td>Cantiam <rend rend="bold">l’alma Reina</rend>,</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Nostro ben, nostra gloria e nostra duce,</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>In cui tanta <rend rend="bold">del</rend> Ciel e sì divina</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Grazia splende e riluce;</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><rend rend="bold">Che a Dio ne scorge in lei mirando, e bea</rend>.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>AMINTA</td>
+                            <td>Cantiam la <rend rend="bold">nostra Dea</rend>.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>[. . .]</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    
+                    <p>
+                        Interestingly, Marenzio set the lines that immediately follow this excerpt (73–85) in a madrigal (<rend rend="italic">Lucida perla a cui fu conca il cielo</rend>) included in his Book VI a 6 (1595), dedicated to Margherita herself.
+                        (See Chater, “Fonti poetiche per i madrigali di Luca Marenzio,” 78.) See the discussion of the whole issue in our introduction.
+                    </p>
+                    
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv>
                 <score>
