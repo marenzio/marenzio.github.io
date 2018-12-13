@@ -29,6 +29,9 @@ body {
     background-color: $site-background;
     z-index: 10000;
     cursor: wait;
+    .navbar {
+        border-radius: 0;
+    }
     .loading-text {
         padding-top: 80px;
         vertical-align: middle;

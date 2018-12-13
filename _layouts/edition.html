@@ -80,15 +80,20 @@
                 pageWidth = ( $("#page-content-wrapper").width() ) * 100 / zoom ;
                 border = 50;
                 options = {
-                            adjustPageHeight: "true",
+                            adjustPageHeight: true,
                             breaks: "auto",
                             mdivXPathQuery: mdivXPathQuery,
-                            mmOutput: "false",
-                            noFooter: "true",
+                            mmOutput: false,
+                            noFooter: true,
                             pageHeight: pageHeight,
+                            pageMarginLeft: 50,
+                            pageMarginRight: 50,
+                            pageMarginTop: 50,
                             pageWidth: pageWidth,
                             scale: zoom,
-                            spacingStaff: 12
+                            spacingStaff: 12,
+                            spacingSystem: 8,
+                            unit: 9
                         }
                 // console.log( options );
                 vrvToolkit.setOptions( options );
