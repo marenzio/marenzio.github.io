@@ -17,9 +17,9 @@
                     <tr>
                         <td>
                             <a>
-                                <xsl:attribute name="href">javascript:load_page_with_element('<xsl:value-of select="./@plist" />');</xsl:attribute>
+                                <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./@plist" />');</xsl:attribute>
                                 <xsl:value-of select="./@source"/>
-                            </a>                            
+                            </a>
                         </td>
                         <td>
                            <xsl:value-of select="./text()"/>
@@ -60,8 +60,8 @@
                                     <!--<xsl:variable name="staves" select="./@staff"/>-->
                                     <p>
                                         <a>
-                                            <xsl:attribute name="href">javascript:load_page_with_element('<xsl:value-of select="./@plist" />');</xsl:attribute>
-                                            <!--<xsl:attribute name="href">javascript:load_page_with_element('<xsl:value-of select="(//mei:staff[contains($staves, @n)]//mei:note//mei:verse[@label=$label])/@xml:id"/>');</xsl:attribute>-->
+                                            <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./@plist" />');</xsl:attribute>
+                                            <!--<xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="(//mei:staff[contains($staves, @n)]//mei:note//mei:verse[@label=$label])/@xml:id"/>');</xsl:attribute>-->
                                             <xsl:value-of select="./text()"/>
                                         </a>
                                     </p>
