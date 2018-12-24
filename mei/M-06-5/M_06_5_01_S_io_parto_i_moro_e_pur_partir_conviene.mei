@@ -38,27 +38,27 @@
                         <lb />Madrigal: AabBCC
                     </p>
                     <table type="lyrics">
-                        <tr>
+                        <tr xml:id="line1">
                             <td>S’io parto, i’ moro, e pur partir conviene:</td>
                             <td />
                         </tr>
-                        <tr>
+                        <tr xml:id="line2">
                             <td>Morrò, dunque, il mio bene</td>
                             <td />
                         </tr>
-                        <tr>
+                        <tr xml:id="line3">
                             <td>E questa mia partita</td>
                             <td />
                         </tr>
-                        <tr>
+                        <tr xml:id="line4">
                             <td>Che mi ti toglie mi torrà la vita.</td>
                             <td />
                         </tr>
-                        <tr>
+                        <tr xml:id="line5">
                             <td>Dolorosa partita che m’uccidi!</td>
                             <td />
                         </tr>
-                        <tr>
+                        <tr xml:id="line6">
                             <td>Quei che congiuns’Amor perché dividi?</td>
                             <td />
                         </tr>
@@ -1244,6 +1244,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000002016714327" type="app" plist="#p1cad3n768v1b17s4 #p1cbd3n0v1b18s4" source="Ma-Ga, 1614">f2-g2 instead of a2-b2</annot>
                         </measure>
                         <measure xml:id="measure-0000000181174616" n="18">
                             <staff xml:id="staff-0000001025699113" n="1">
@@ -1934,7 +1935,7 @@
                                 <layer xml:id="layer-0000001829483727" n="1">
                                     <note xml:id="p1cgd4n0v1b30s2" dots="1" dur="2" oct="4" pname="g">
                                         <verse xml:id="verse-0000001918768449" n="1">
-                                            <syl xml:id="syl-0000002126878991" con="u" wordpos="t">che</syl>
+                                            <syl xml:id="syl-0000002126878991" wordpos="t">che</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n768v1b30s2" dur="4" oct="4" pname="f">
@@ -2911,6 +2912,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001485798664" type="app" plist="#p1cad4n512v1b48s1" source="AnGa-1603">SB instead of M</annot>
                         </measure>
                         <pb xml:id="pb-0000001674044762" n="4" />
                         <measure xml:id="measure-0000001487055587" n="49">
@@ -3069,6 +3071,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot type="app" source="Ma-Ga-1614" plist="#p1ced3n0v1b51s5">f2 instead of e2</annot>
                         </measure>
                         <measure xml:id="measure-0000001633965861" n="52">
                             <staff xml:id="staff-0000001368001711" n="1">
@@ -3719,6 +3722,25 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000001533444635" type="app-text">
+                            <annot corresp="#line2" label="2">
+                                <annot type="lyric">dunqu'il</annot>
+                                <annot type="id-list" plist="#verse-0000000353344131 #verse-0000001151008984">AnGa-1603 – Q</annot>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <annot type="lyric">ehe</annot>
+                                <annot type="id-list" plist="#verse-0000000458253440 #verse-0000000551634138">AnGa-1603 – C<sub>2</sub>A<sub>2</sub>
+                                </annot>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <annot type="lyric">dividii</annot>
+                                <annot type="id-list" plist="#verse-0000001472520150 #verse-0000000504142096 #verse-0000001366367773 #verse-0000001312172967 #verse-0000000470486057 #verse-0000001845767666">AnGa-1603 – B</annot>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <annot type="lyric">congius’</annot>
+                                <annot type="id-list" plist="#verse-0000000057891870 #verse-0000001657364768 #verse-0000002050160709 #verse-0000001389684609">C<sub>1</sub>T</annot>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
