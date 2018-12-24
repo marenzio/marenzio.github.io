@@ -107,6 +107,22 @@
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
+                    <app xml:id="app-0000000253627557">
+                        <lem xml:id="lem-0000000234335859" />
+                        <rdg xml:id="rdg-0000001077491896" label="original">
+                            <scoreDef xml:id="scoredef-0000002045069857" meter.sym="common">
+                                <staffGrp xml:id="staffgrp-0000001299379735">
+                                    <staffGrp xml:id="staffgrp-0000001516815914" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001895949886" clef.shape="C" clef.line="1" n="1" />
+                                        <staffDef xml:id="staffdef-0000001436599069" clef.shape="C" clef.line="1" n="2" />
+                                        <staffDef xml:id="staffdef-0000000106493327" clef.shape="C" clef.line="3" n="3" />
+                                        <staffDef xml:id="staffdef-0000000948288206" clef.shape="C" clef.line="4" n="4" />
+                                        <staffDef xml:id="staffdef-0000000593021521" clef.shape="F" clef.line="3" n="5" />
+                                    </staffGrp>
+                                </staffGrp>
+                            </scoreDef>
+                        </rdg>
+                    </app>
                     <section xml:id="section-0000001838626291">
                         <pb xml:id="pb-0000001649876154" n="1" />
                         <measure xml:id="measure-0000001159670214" n="1">
@@ -3071,7 +3087,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot type="app" source="Ma-Ga-1614" plist="#p1ced3n0v1b51s5">f2 instead of e2</annot>
+                            <annot xml:id="annot-0000000060753914" type="app" plist="#p1ced3n0v1b51s5" source="Ma-Ga-1614">f2 instead of e2</annot>
                         </measure>
                         <measure xml:id="measure-0000001633965861" n="52">
                             <staff xml:id="staff-0000001368001711" n="1">
@@ -3740,6 +3756,10 @@
                                 <annot type="lyric">congius’</annot>
                                 <annot type="id-list" plist="#verse-0000000057891870 #verse-0000001657364768 #verse-0000002050160709 #verse-0000001389684609">C<sub>1</sub>T</annot>
                             </annot>
+                        </annot>
+                        <annot xml:id="annot-0000001576945187" type="app-sources-used">
+                            <p>Sources used for collation: AnGa, 1594; AnGa, 1603; Ma-Ga, 1614</p>
+                            <p>Other sources: Ka, 1601; Ph, 1609; Ph [heirs], 1632</p>
                         </annot>
                     </section>
                 </score>
