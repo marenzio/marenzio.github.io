@@ -46,7 +46,7 @@
             var pageWidth = 2100;
             var swipe_pages = false;
             var log = false;
-            var app_xpath = "";
+            var app_xpath = [];
             var vertical_layout = false;
             var show_inline_app = false;
             var highlighted = "";
@@ -369,13 +369,16 @@
             };
             
             function switchApp( xpath ) {
-                app_xpath = xpath;
                 //console.log( app_xpath );
                 // For now we cannot have original clefs in alternate versions
                 if (xpath.length > 0) {
+                     app_xpath = [xpath];
                      $('input[type=radio][name=clefs][value=clefs_modernized]').prop('checked', true).parent().addClass("active");
                      $('input[type=radio][name=clefs][value=clefs_original]').prop('checked', false).parent().removeClass("active");
-                 }
+                }
+                else {
+                    app_xpath = [];
+                }
                 loadFile();
             }
             
@@ -784,11 +787,11 @@
 
                     $('input[type=radio][name=clefs]').change(function() {
                         if (this.value == 'clefs_modernized') {
-                             app_xpath = ""
+                             app_xpath = []
                              loadFile();
                         }
                         else {
-                             app_xpath = "./rdg[contains(@label, 'original')]";
+                             app_xpath = ["./rdg[contains(@label, 'original')]"];
                              loadFile();
                         }
                     });
