@@ -181,7 +181,7 @@
             };
             
             function highlightInlineApp() {
-                d3.selectAll('.app-inline div').each( function(selection) {
+                d3.selectAll('.app-inline div, .app-inline-text div').each( function(selection) {
                     var s = d3.select(this);
                     if (!s.empty()) {
                         ids = s.attr("class").split(" ");
@@ -210,36 +210,6 @@
                    ,'html':'true'
                 });
                 $( ".highlight" ).popover('show');
-            }
-            
-            // unused
-            function highlightInlineAppText() {
-                d3.selectAll('.app-inline-text div').each( function(selection) {
-                    var s = d3.select(this);
-                    //console.log(s.text() ); 
-                    if (!s.empty()) {
-                        var element = d3.select("#" + s.attr("class"));
-                        if (!element.empty()) {
-                            // Highligt the bounding boxes
-                            var elementBB = element[0][0].getBBox();
-                            element.append("rect")
-                                  .attr("x", elementBB.x - 5).attr("y", elementBB.y - 5)
-                                  .attr("width", elementBB.width + 10).attr("height", elementBB.height + 10)
-                                  .attr("fill", "e25402").attr("fill-opacity", 0.1)
-                                  .attr("stroke", "e25402").attr("stroke-width", 2);
-                            element.attr("class", "highlight")
-                                .attr('data-content', s.html() ) 
-                                .style("fill", "#e25402").style("stroke", "#e25402");
-                        }
-                    }    
-                });
-                $('.highlight').popover({
-                   'trigger':'hover'
-                   ,'container': 'body'
-                   ,'placement': 'auto'
-                   ,'white-space': 'nowrap'
-                   ,'html':'true'
-                });
             }
             
             function nextPage() {

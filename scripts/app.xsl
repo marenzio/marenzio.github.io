@@ -65,7 +65,7 @@
                                         <a>
                                             <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./@plist" />');</xsl:attribute>
                                             <!--<xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="(//mei:staff[contains($staves, @n)]//mei:note//mei:verse[@label=$label])/@xml:id"/>');</xsl:attribute>-->
-                                            <xsl:apply-templates select="text()|mei:sub"/>
+                                            <xsl:apply-templates select="text()|mei:rend"/>
 
                                         </a>
                                     </p>
@@ -80,13 +80,25 @@
             </tbody>
         </table>
         
+        <div class="app-inline-text">
+            <xsl:for-each select="//mei:annot[@type='app-text']/mei:annot">
+                <xsl:variable name="text" select="./mei:annot[@type='lyric']/text()"/>
+                <xsl:for-each select="./mei:annot[@type='id-list']">
+                <div>
+                    <xsl:attribute name="class"><xsl:value-of select="./@plist"/></xsl:attribute>
+                    <xsl:value-of select="$text"/> (<xsl:apply-templates select="text()|mei:rend"/>)
+                </div>
+                </xsl:for-each>
+            </xsl:for-each>
+        </div> 
+        
     </xsl:template>
 
     <xsl:template match="@* | node()">
         <xsl:apply-templates select="@* | node()"/>
     </xsl:template>
     
-    <xsl:template match="mei:sub">
+    <xsl:template match="mei:rend">
         <sub><xsl:value-of select="."/></sub>
     </xsl:template>
     
