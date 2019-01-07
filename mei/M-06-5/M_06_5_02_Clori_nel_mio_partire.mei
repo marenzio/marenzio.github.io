@@ -1230,9 +1230,6 @@
                                     <note xml:id="p1cfd4n0v1b18s4" dur="2" oct="4" pname="f" tie="t" />
                                     <note xml:id="p1cbd3n512v1b18s4" dur="4" oct="3" pname="b">
                                         <accid xml:id="accid-0000001955364577" accid.ges="f" />
-                                        <verse xml:id="verse-0000000870195598" n="1">
-                                            <syl xml:id="syl-0000001013779516" wordpos="t" />
-                                        </verse>
                                         <verse xml:id="verse-0000000457070114" n="1">
                                             <syl xml:id="syl-0000000428400679" con="d" wordpos="i">dea</syl>
                                         </verse>
@@ -5422,9 +5419,6 @@
                             <staff xml:id="staff-0000001589065896" n="5">
                                 <layer xml:id="layer-0000001323879980" n="1">
                                     <note xml:id="p1cdd3n0v1b85s5" dur="1" oct="3" pname="d">
-                                        <verse xml:id="verse-0000000722025152" n="1">
-                                            <syl xml:id="syl-0000001794124114" wordpos="t" />
-                                        </verse>
                                         <verse xml:id="verse-0000001026096471" n="1">
                                             <syl xml:id="syl-0000001309702687" wordpos="t">me</syl>
                                         </verse>

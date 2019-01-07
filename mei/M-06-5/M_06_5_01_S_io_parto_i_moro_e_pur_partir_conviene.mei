@@ -158,9 +158,6 @@
                                 <layer xml:id="layer-0000001701724903" n="1">
                                     <rest xml:id="p1r0v1b1s4" dur="2" />
                                     <note xml:id="p1cgd3n512v1b1s4" dur="2" oct="3" pname="g" tie="i">
-                                        <verse xml:id="verse-0000001328490648" n="1">
-                                            <syl xml:id="syl-0000000554843077" wordpos="t" />
-                                        </verse>
                                         <verse xml:id="verse-0000000873599865" n="1">
                                             <syl xml:id="syl-0000000247236516" wordpos="t">S’io</syl>
                                         </verse>
@@ -524,9 +521,6 @@
                                         <verse xml:id="verse-0000001965821430" n="1">
                                             <syl xml:id="syl-0000000524864915" wordpos="t">tir</syl>
                                         </verse>
-                                        <verse xml:id="verse-0000002132560692">
-                                            <syl xml:id="syl-0000000445482014" wordpos="t" />
-                                        </verse>
                                     </note>
                                     <note xml:id="p1cbd4n256v1b8s1" dur="4" oct="4" pname="b">
                                         <accid xml:id="accid-0000001673153940" accid="f" func="caution" />
@@ -719,9 +713,6 @@
                                     </note>
                                     <note xml:id="p1cbd3n256v1b10s3" dur="4" oct="3" pname="b">
                                         <accid xml:id="accid-0000001036584833" accid.ges="f" />
-                                        <verse xml:id="verse-0000001493943767" n="1">
-                                            <syl xml:id="syl-0000000334091245" wordpos="t" />
-                                        </verse>
                                         <verse xml:id="verse-0000001549301457" n="1">
                                             <syl xml:id="syl-0000000870367924" wordpos="t">rò,</syl>
                                         </verse>
