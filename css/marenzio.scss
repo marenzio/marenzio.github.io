@@ -365,8 +365,17 @@ div.app-inline, div.app-inline-text {
     background-color: #fff;
 }
 
-.sidebar-close-btn {
-    padding: 5px;
+
+.sidebar-close {
+    .navbar-toggle {
+        border: 1px solid darken($sidebar-background, 20%);
+        .icon-bar {
+            background-color: #cccccc;
+        }          
+    }
+    .navbar-toggle:hover {
+        background-color: darken($sidebar-background, 20%);
+    }
 }
 
 .sidebar-option-row {
