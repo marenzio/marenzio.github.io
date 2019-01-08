@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,76 +32,96 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Clori nel mio partire </rend>
-                        <lb/>Bonifazio Bevilacqua (attr.)
-                        <lb/>Madrigal: aaBccBdDEEfF
+                        <lb />Bonifazio Bevilacqua (attr.)
+                        <lb />Madrigal: aaBccBdDEEfF
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Clori nel mio partire</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Clori nel mio partire</td>
+                            <td>Chloris, at my parting,</td>
                         </tr>
-                        <tr>
-                            <td>Languiva al mio languire</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Languiva al mio languire</td>
+                            <td>languished at my languishing,</td>
                         </tr>
-                        <tr>
-                            <td>E da le luci ov’ha ricetto Amore</td><td></td>
+                        <tr xml:id="line3">
+                            <td>E da le luci ov’ha ricetto Amore</td>
+                            <td>and from her eyes, where Love finds shelter,</td>
                         </tr>
-                        <tr>
-                            <td>Cadeano a mille a mille</td><td></td>
+                        <tr xml:id="line4">
+                            <td>Cadeano a mille a mille</td>
+                            <td>dewy drops fell by the thousands.</td>
                         </tr>
-                        <tr>
-                            <td>Le rugiadose stille.</td><td></td>
+                        <tr xml:id="line5">
+                            <td>Le rugiadose stille.</td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Cauto v’accorse il mio dolente core</td><td></td>
+                        <tr xml:id="line6">
+                            <td>Cauto v’accorse il mio dolente core</td>
+                            <td>My aching heart cautiously hastened there,</td>
                         </tr>
-                        <tr>
-                            <td>E da’ begl’occhi intanto</td><td></td>
+                        <tr xml:id="line7">
+                            <td>E da’ begl’occhi intanto</td>
+                            <td>and stole with kisses that fair weeping from those lovely eyes.</td>
                         </tr>
-                        <tr>
-                            <td>Co’ baci n’involò quel vago pianto.</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Co’ baci n’involò quel vago pianto.</td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Meraviglia gentile e non più udita!</td><td></td>
+                        <tr xml:id="line9">
+                            <td>Meraviglia gentile e non più udita!</td>
+                            <td>O graceful, unheard-of marvel!</td>
                         </tr>
-                        <tr>
-                            <td>Quel pianto il cibo fu de la mia vita.</td><td></td>
+                        <tr xml:id="line10">
+                            <td>Quel pianto il cibo fu de la mia vita.</td>
+                            <td>Those tears were the nourishment of my life.</td>
                         </tr>
-                        <tr>
-                            <td>Or che di lei son privo,</td><td></td>
+                        <tr xml:id="line11">
+                            <td>Or che di lei son privo,</td>
+                            <td>Now that I am deprived of her,</td>
                         </tr>
-                        <tr>
-                            <td>Mercè di quelle lagrime mi vivo.</td><td></td>
+                        <tr xml:id="line12">
+                            <td>Mercè di quelle lagrime mi vivo.</td>
+                            <td>I live on those tears.</td>
                         </tr>
                     </table>
                     <p>The same text, but with the incipit “Flora nel mio partire”, appears in I-Arc, ms. 453, c. 13v (see Cecchi,
                         “List of Secular and Devotional Compositions by Luca Marenzio”, 489, n.XLIII). For the attribution to Bevilacqua and further details,
                         see James Chater, “Reflections of Musical Glory: Bonifazio Bevilacqua as Poet and Patron,” in <rend rend="italic">Musicologia humana:
                             Studies in Honor of Warren and Ursula Kirkendale</rend>, ed. by Siegfried Gmeinwieser, David Hiley, and Jorg Riedlbauer, Florence:
-                        Olschki, 1994, 233–250: 234–246.</p> 
-                </div>          
+                        Olschki, 1994, 233–250: 234–246.</p>
+                </div>
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="common">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">2. Clori nel mio partire</rend>
+            <mdiv xml:id="mdiv-0000001754515861">
+                <score xml:id="score-0000000497125699">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="common" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000000705913600">
+                            <rend xml:id="rend-0000000407080660" halign="center" valign="middle">
+                                <rend xml:id="rend-0000002111171230" fontsize="x-large">2. Clori nel mio partire</rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Bonifazio Bevilacqua [attr.])</rend>
+                            <rend xml:id="rend-0000001425577753" halign="right" valign="bottom">(Bonifazio Bevilacqua [attr.])</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
-                            <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
+                                    <label xml:id="label-0000001227727369">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
+                                    <label xml:id="label-0000000718339258">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
+                                    <label xml:id="label-0000001650043285">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
+                                    <label xml:id="label-0000000485162438">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
+                                    <label xml:id="label-0000000014261793">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -581,7 +601,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000382431439" />
                         <measure xml:id="measure-0000001980020141" n="9">
                             <staff xml:id="staff-0000000569946588" n="1">
                                 <layer xml:id="layer-0000001315238896" n="1">
@@ -1728,7 +1748,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000648537325" />
                         <measure xml:id="measure-0000000168406776" n="25">
                             <staff xml:id="staff-0000001407313549" n="1">
                                 <layer xml:id="layer-0000000333929985" n="1">
@@ -2719,7 +2739,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001311735013" />
                         <measure xml:id="measure-0000001414284670" n="41">
                             <staff xml:id="staff-0000000345356439" n="1">
                                 <layer xml:id="layer-0000001904856079" n="1">
@@ -3614,7 +3634,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000554665803" />
                         <measure xml:id="measure-0000001364767708" n="56">
                             <staff xml:id="staff-0000001817353178" n="1">
                                 <layer xml:id="layer-0000000594951365" n="1">
@@ -4530,7 +4550,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000851676148" />
                         <measure xml:id="measure-0000001856061648" n="72">
                             <staff xml:id="staff-0000001068543222" n="1">
                                 <layer xml:id="layer-0000001747675940" n="1">
@@ -5426,7 +5446,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000002100104659" />
                         <measure xml:id="measure-0000001230812145" n="86">
                             <staff xml:id="staff-0000000769982733" n="1">
                                 <layer xml:id="layer-0000000363336709" n="1">
@@ -5717,7 +5737,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000002084025335" n="92" right="end">
+                        <measure xml:id="measure-0000002084025335" right="end" n="92">
                             <staff xml:id="staff-0000001584717612" n="1">
                                 <layer xml:id="layer-0000001256714790" n="1">
                                     <note xml:id="p1cgd4n0v1b92s1" dur="1" oct="4" pname="g">
