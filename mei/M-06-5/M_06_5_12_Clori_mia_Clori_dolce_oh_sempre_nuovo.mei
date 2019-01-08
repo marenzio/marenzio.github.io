@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,40 +32,47 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Clori mia, Clori dolce, oh sempre nuovo</rend>
-                        <lb/>Giovanni Battista Strozzi the Elder
-                        <lb/>Madrigal: AbbAacCdD
+                        <lb />Giovanni Battista Strozzi the Elder
+                        <lb />Madrigal: AbbAacCdD
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Clori mia, Clori dolce, oh sempre nuovo</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Clori mia, Clori dolce, oh sempre nuovo</td>
+                            <td>My Chloris, sweet Chloris, o ever new</td>
                         </tr>
-                        <tr>
-                            <td>E più chiaro concento!</td><td></td>
+                        <tr xml:id="line2">
+                            <td>E più chiaro concento!</td>
+                            <td>and brighter harmony!</td>
                         </tr>
-                        <tr>
-                            <td>Quanta dolcezza sento</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Quanta dolcezza sento</td>
+                            <td>How much sweetness do I feel</td>
                         </tr>
-                        <tr>
-                            <td>In sol Clori dicendo! Io mi pur provo,</td><td></td>
+                        <tr xml:id="line4">
+                            <td>In sol Clori dicendo! Io mi pur provo,</td>
+                            <td>in saying just “Chloris”? I try, </td>
                         </tr>
-                        <tr>
-                            <td>Né qui tra noi ritrovo,</td><td></td>
+                        <tr xml:id="line5">
+                            <td>Né qui tra noi ritrovo,</td>
+                            <td>and yet I find no harmony,</td>
                         </tr>
-                        <tr>
-                            <td>Né tra ’ cieli armonia</td><td></td>
+                        <tr xml:id="line6">
+                            <td>Né tra ’ cieli armonia</td>
+                            <td>neither here among us nor in the heavens,</td>
                         </tr>
-                        <tr>
-                            <td>Che del bel nome suo più dolce sia:</td><td></td>
+                        <tr xml:id="line7">
+                            <td>Che del bel nome suo più dolce sia:</td>
+                            <td>that is sweeter than her beautiful name:</td>
                         </tr>
-                        <tr>
-                            <td>Altro il Ciel, altro Amore,</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Altro il Ciel, altro Amore,</td>
+                            <td>Heaven, Love and the echo of my heart</td>
                         </tr>
-                        <tr>
-                            <td>Altro non suona l’eco del mio core.</td><td></td>
+                        <tr xml:id="line9">
+                            <td>Altro non suona l’eco del mio core.</td>
+                            <td>do not resound anything else.</td>
                         </tr>
                     </table>
                 </div>
@@ -84,22 +91,32 @@
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="common">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">12. Clori mia, Clori dolce, oh sempre nuovo</rend>
+            <mdiv xml:id="mdiv-0000002049241269">
+                <score xml:id="score-0000001671129012">
+                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="common" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000000012068167">
+                            <rend xml:id="rend-0000000149363456" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000742427957" fontsize="x-large">12. Clori mia, Clori dolce, oh sempre nuovo</rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Giovanni Battista Strozzi the Elder)</rend>
+                            <rend xml:id="rend-0000000790016859" halign="right" valign="bottom">(Giovanni Battista Strozzi the Elder)</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000001064334258">
-                            <staffGrp xml:id="staffgrp-0000001874578343" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000001484342756">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000001363877623">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000001773121490">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000923904148">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000000500236745">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -515,7 +532,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000183480582" />
                         <measure xml:id="measure-0000000191472033" n="9">
                             <staff xml:id="staff-0000001793426298" n="1">
                                 <layer xml:id="layer-0000000035321194" n="1">
@@ -1591,7 +1608,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001342557888" />
                         <measure xml:id="measure-0000000058185666" n="25">
                             <staff xml:id="staff-0000001685795207" n="1">
                                 <layer xml:id="layer-0000001408289178" n="1">
@@ -2700,7 +2717,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001855307832" />
                         <measure xml:id="measure-0000000143642841" n="40">
                             <staff xml:id="staff-0000001321690188" n="1">
                                 <layer xml:id="layer-0000000076145148" n="1">
@@ -3521,7 +3538,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000087869928" />
                         <measure xml:id="measure-0000001142370339" n="51">
                             <staff xml:id="staff-0000000895612842" n="1">
                                 <layer xml:id="layer-0000000852153671" n="1">
@@ -4250,7 +4267,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000000211923806" n="59" right="end">
+                        <measure xml:id="measure-0000000211923806" right="end" n="59">
                             <staff xml:id="staff-0000001561253825" n="1">
                                 <layer xml:id="layer-0000002037837729" n="1">
                                     <note xml:id="p1ccd5n0v1b59s1" dur="1" oct="5" pname="c">

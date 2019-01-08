@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,73 +32,94 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Ben ho del caro oggetto i sensi privi / Dille la mia speranz’e ’l mio desio</rend>
-                        <lb/>Annibale Caro (attr.)
-                        <lb/>Sonnet: ABBA ABBA CDC DCD
+                        <lb />Annibale Caro (attr.)
+                        <lb />Sonnet: ABBA ABBA CDC DCD
                     </p>
-                    
                     <table type="lyrics">
                         <tr type="void">
-                            <td><rend rend="italic">(Prima parte)</rend></td><td></td>
+                            <td>
+                                <rend rend="italic">(Prima parte)</rend>
+                            </td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Ben ho del caro oggetto i sensi privi,</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Ben ho del caro oggetto i sensi privi,</td>
+                            <td>My senses are deprived of my dear object,</td>
                         </tr>
-                        <tr>
-                            <td>Ma ’l veggio e ’l sent’e l’ho ne l’alm’impresso,</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Ma ’l veggio e ’l sent’e l’ho ne l’alm’impresso,</td>
+                            <td>and yet I see it, I feel it, and I have it imprinted in my soul,</td>
                         </tr>
-                        <tr>
-                            <td>Come suol egro che, da sete oppresso,</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Come suol egro che, da sete oppresso,</td>
+                            <td>as a sick man does, who, oppressed by thirst,  </td>
                         </tr>
-                        <tr>
-                            <td>Ha sempre nel pensier fontane e rivi;</td><td></td>
-                        </tr>
-                        <tr type="void">
-                            <td></td><td></td>
-                        </tr>
-                        <tr>
-                            <td>E s’io qui mi consumo e ’l mio sol ivi </td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Altrui risplende, Amor, dille tu stesso,</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Poi ch’io non ho di te più fido messo,</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>La mia gioia e ’l mio duol onde derivi.</td><td></td>
+                        <tr xml:id="line4">
+                            <td>Ha sempre nel pensier fontane e rivi;</td>
+                            <td>always thinks of fountains and streams.</td>
                         </tr>
                         <tr type="void">
-                            <td></td><td></td>
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>E s’io qui mi consumo e ’l mio sol ivi </td>
+                            <td>And if I consume myself here</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Altrui risplende, Amor, dille tu stesso,</td>
+                            <td>while my sun shines there for another, tell her yourself, o Love,</td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Poi ch’io non ho di te più fido messo,</td>
+                            <td>since I have no messenger more loyal than you,</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>La mia gioia e ’l mio duol onde derivi.</td>
+                            <td>which is the origin of my joy and my pain.</td>
                         </tr>
                         <tr type="void">
-                            <td><rend rend="italic">(Seconda parte)</rend></td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Dille la mia speranz’e ’l mio desio,</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Come l’aspett’ognor, come l’invoco</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>E com’io senza lei più non son io.</td><td></td>
+                            <td />
+                            <td />
                         </tr>
                         <tr type="void">
-                            <td></td><td></td>
+                            <td>
+                                <rend rend="italic">(Seconda parte)</rend>
+                            </td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Dille che non fia mai tempo né loco</td><td></td>
+                        <tr xml:id="line9">
+                            <td>Dille la mia speranz’e ’l mio desio,</td>
+                            <td>Tell her of my hope and of my longing,</td>
                         </tr>
-                        <tr>
-                            <td>Che spenga o scemi pur l’incendio mio,</td><td></td>
+                        <tr xml:id="line10">
+                            <td>Come l’aspett’ognor, come l’invoco</td>
+                            <td>how I always wait for her, how I invoke her,</td>
                         </tr>
-                        <tr>
-                            <td>Poi ch’ardo più quant’ho più lung’il foco.</td><td></td>
+                        <tr xml:id="line11">
+                            <td>E com’io senza lei più non son io.</td>
+                            <td>and how without her I am no longer myself.</td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line12">
+                            <td>Dille che non fia mai tempo né loco</td>
+                            <td>Tell her that there will never be a time or place</td>
+                        </tr>
+                        <tr xml:id="line13">
+                            <td>Che spenga o scemi pur l’incendio mio,</td>
+                            <td>which might smother or even moderate my fire,</td>
+                        </tr>
+                        <tr xml:id="line14">
+                            <td>Poi ch’ardo più quant’ho più lung’il foco.</td>
+                            <td>since the farther from me the fire is, the more I burn.</td>
                         </tr>
                     </table>
-                </div> 
+                </div>
                 <div>
                     <head>Contemporary editions</head>
                     <p>See the Notes below.</p>
@@ -112,26 +133,37 @@
                         or to Silvia Piccolomini: see James Chater, <rend rend="italic">Luca Marenzio and the Italian Madrigal, 1577–1593</rend>, Ann Arbor, Mich.: UMI, 1981, I, 208.
                     </p>
                 </div>
-                
             </div>
         </front>
         <body>
-            <mdiv label="part1">
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">8. Ben ho del caro oggetto i sensi privi<lb/><rend fontsize="large" fontstyle="italic">Prima parte</rend></rend>
+            <mdiv xml:id="mdiv-0000001754209575" label="part1">
+                <score xml:id="score-0000001019480273">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000000632484023">
+                            <rend xml:id="rend-0000001005303404" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001769079761" fontsize="x-large">8. Ben ho del caro oggetto i sensi privi<lb xml:id="lb-0000002113972723" />
+                                    <rend xml:id="rend-0000001476662062" fontsize="large" fontstyle="italic">Prima parte</rend>
+                                </rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Annibale Caro [attr.])</rend>
+                            <rend xml:id="rend-0000000154273243" halign="right" valign="bottom">(Annibale Caro [attr.])</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
-                            <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="3" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000001570684636">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000001573061692">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000001610697048">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000384314880">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="3" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000000177181032">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -488,7 +520,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001183593004" />
                         <measure xml:id="measure-0000000231895802" n="6">
                             <staff xml:id="staff-0000001776395598" n="1">
                                 <layer xml:id="layer-0000001563154992" n="1">
@@ -1164,7 +1196,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000812991078" />
                         <measure xml:id="measure-0000000116947904" n="15">
                             <staff xml:id="staff-0000001841091762" n="1">
                                 <layer xml:id="layer-0000000137374311" n="1">
@@ -1901,7 +1933,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000860737395" />
                         <measure xml:id="measure-0000001376680222" n="22">
                             <staff xml:id="staff-0000001698550784" n="1">
                                 <layer xml:id="layer-0000001042907117" n="1">
@@ -2616,7 +2648,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000498144953" />
                         <measure xml:id="measure-0000000338111406" n="30">
                             <staff xml:id="staff-0000001864367024" n="1">
                                 <layer xml:id="layer-0000000482678991" n="1">
@@ -3388,7 +3420,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001136251138" />
                         <measure xml:id="measure-0000000895477135" n="37">
                             <staff xml:id="staff-0000000675097452" n="1">
                                 <layer xml:id="layer-0000001206768663" n="1">
@@ -3943,7 +3975,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000001358798241" n="43" right="end">
+                        <measure xml:id="measure-0000001358798241" right="end" n="43">
                             <staff xml:id="staff-0000000791156076" n="1">
                                 <layer xml:id="layer-0000001888910755" n="1">
                                     <note xml:id="p1cgd4n0v1b43s1" dur="breve" oct="4" pname="g">
@@ -3993,21 +4025,33 @@
                     </section>
                 </score>
             </mdiv>
-            <mdiv label="part2">
-                <score>
+            <mdiv xml:id="mdiv-0000001984502158" label="part2">
+                <score xml:id="score-0000000379809855">
                     <scoreDef xml:id="scoredef-0000001134614446-2" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">Dille la mia speranz’e ’l mio desio<lb/><rend fontsize="large" fontstyle="italic">Seconda parte</rend></rend>
+                        <pgHead xml:id="pghead-0000001421976539">
+                            <rend xml:id="rend-0000001096718803" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001701521365" fontsize="x-large">Dille la mia speranz’e ’l mio desio<lb xml:id="lb-0000000764508572" />
+                                    <rend xml:id="rend-0000000538629301" fontsize="large" fontstyle="italic">Seconda parte</rend>
+                                </rend>
                             </rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600-2">
-                            <staffGrp xml:id="staffgrp-0000000730469413-2" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1-2" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2-2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3-2" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4-2" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5-2" n="5" clef.shape="F" clef.line="3" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413-2" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000000417038206">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000000362732817">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000001535676753">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4-2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000492587809">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5-2" clef.shape="F" clef.line="3" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000002004964527">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -4295,7 +4339,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001835267164" />
                         <measure xml:id="measure-0000001165875747" n="48">
                             <staff xml:id="staff-0000001265244493" n="1">
                                 <layer xml:id="layer-0000000581121257" n="1">
@@ -5008,7 +5052,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000002106823318" />
                         <measure xml:id="measure-0000000420697433" n="56">
                             <staff xml:id="staff-0000000389959321" n="1">
                                 <layer xml:id="layer-0000002073701050" n="1">
@@ -5735,7 +5779,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000731538024" />
                         <measure xml:id="measure-0000000897542658" n="64">
                             <staff xml:id="staff-0000001426873187" n="1">
                                 <layer xml:id="layer-0000000507767860" n="1">
@@ -6475,7 +6519,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001332000007" />
                         <measure xml:id="measure-0000001854335620" n="71">
                             <staff xml:id="staff-0000001891516173" n="1">
                                 <layer xml:id="layer-0000001511893070" n="1">
@@ -7010,7 +7054,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000637502965" />
                         <measure xml:id="measure-0000001655088939" n="77">
                             <staff xml:id="staff-0000001294142048" n="1">
                                 <layer xml:id="layer-0000000931023920" n="1">
@@ -7186,7 +7230,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000001021011648" n="79" right="end">
+                        <measure xml:id="measure-0000001021011648" right="end" n="79">
                             <staff xml:id="staff-0000001725967430" n="1">
                                 <layer xml:id="layer-0000000125492334" n="1">
                                     <note xml:id="p1cbd4n0v1b79s1" dur="breve" oct="4" pname="b">

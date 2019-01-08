@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,66 +32,85 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Amor, se giusto sei</rend>
-                        <lb/>Madrigal: abbCDdCEEDD
+                        <lb />Madrigal: abbCDdCEEDD
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Amor, se giusto sei,</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Amor, se giusto sei,</td>
+                            <td>Love, if you are fair,</td>
                         </tr>
-                        <tr>
-                            <td>Fa’ che la donna mia</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Fa’ che la donna mia</td>
+                            <td>make my lady too be fair.</td>
                         </tr>
-                        <tr>
-                            <td>Anch’ella giusta sia.</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Anch’ella giusta sia.</td>
+                            <td>I love her, you know it, and she sees it;</td>
                         </tr>
-                        <tr>
-                            <td>Io l’amo, tu ’l conosci ed ella il vede;</td><td></td>
+                        <tr xml:id="line4">
+                            <td>Io l’amo, tu ’l conosci ed ella il vede;</td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Costei mi strazia e mi traffigge il core,</td><td></td>
+                        <tr xml:id="line5">
+                            <td>Costei mi strazia e mi traffigge il core,</td>
+                            <td>she tortures and pierces through my heart,</td>
                         </tr>
-                        <tr>
-                            <td>Ma, per maggior dolore</td><td></td>
+                        <tr xml:id="line6">
+                            <td>Ma, per maggior dolore</td>
+                            <td>but for my greater pain,</td>
                         </tr>
-                        <tr>
-                            <td>E per dispreggio tuo, non mi dà fede.</td><td></td>
+                        <tr xml:id="line7">
+                            <td>E per dispreggio tuo, non mi dà fede.</td>
+                            <td>and scorning you, she does not trust me.</td>
                         </tr>
-                        <tr>
-                            <td>Non sostener, Amor, che nel tuo regno</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Non sostener, Amor, che nel tuo regno</td>
+                            <td>Do not allow, Love, that in your kingdom</td>
                         </tr>
-                        <tr>
-                            <td>Là dov’ho sparsa fè vi mieti sdegno,</td><td></td>
+                        <tr xml:id="line9">
+                            <td>Là dov’ho sparsa fè vi mieti sdegno,</td>
+                            <td>I harvest disdain where I have sown loyalty,</td>
                         </tr>
-                        <tr>
-                            <td>Ma, come giusto e non empio signore,</td><td></td>
+                        <tr xml:id="line10">
+                            <td>Ma, come giusto e non empio signore,</td>
+                            <td>but, as a fair lord, not a merciless one,</td>
                         </tr>
-                        <tr>
-                            <td>Fa’ che premio d’amor sia sempr’amore.</td><td></td>
+                        <tr xml:id="line11">
+                            <td>Fa’ che premio d’amor sia sempr’amore.</td>
+                            <td>make the reward for love always be love.</td>
                         </tr>
                     </table>
-                </div>          
+                </div>
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">9. Amor, se giusto sei</rend>
+            <mdiv xml:id="mdiv-0000002118600170">
+                <score xml:id="score-0000001080383980">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000002119813084">
+                            <rend xml:id="rend-0000002021614837" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001878897342" fontsize="x-large">9. Amor, se giusto sei</rend>
                             </rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
-                            <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000001451226583">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000001515576811">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000001612316476">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000393381642">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000001991684084">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -497,7 +516,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001984400598" />
                         <measure xml:id="measure-0000001076952374" n="6">
                             <staff xml:id="staff-0000001965821430" n="1">
                                 <layer xml:id="layer-0000000524864915" n="1">
@@ -1130,7 +1149,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001248868041" />
                         <measure xml:id="measure-0000001331739100" n="14">
                             <staff xml:id="staff-0000000305124452" n="1">
                                 <layer xml:id="layer-0000000035715728" n="1">
@@ -1940,7 +1959,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000441618231" />
                         <measure xml:id="measure-0000001589897422" n="24">
                             <staff xml:id="staff-0000000887974718" n="1">
                                 <layer xml:id="layer-0000001327222423" n="1">
@@ -2679,7 +2698,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000814605286" />
                         <measure xml:id="measure-0000000452483140" n="33">
                             <staff xml:id="staff-0000001511108230" n="1">
                                 <layer xml:id="layer-0000001054412188" n="1">
@@ -3636,7 +3655,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000959016367" />
                         <measure xml:id="measure-0000000685183681" n="43">
                             <staff xml:id="staff-0000001806462846" n="1">
                                 <layer xml:id="layer-0000000097251436" n="1">
@@ -4190,7 +4209,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000000257372603" n="50" right="end">
+                        <measure xml:id="measure-0000000257372603" right="end" n="50">
                             <staff xml:id="staff-0000000383783821" n="1">
                                 <layer xml:id="layer-0000001361287606" n="1">
                                     <note xml:id="p1cgd4n0v1b50s1" dur="breve" oct="4" pname="g">
@@ -4242,10 +4261,8 @@
             </mdiv>
         </body>
         <back>
-            <div>   
-                <p>
-                    
-                </p>     
+            <div>
+                <p />
             </div>
         </back>
     </music>

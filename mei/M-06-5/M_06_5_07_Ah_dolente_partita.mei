@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,46 +32,50 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Ah, dolente partita</rend>
-                        <lb/>Battista Guarini, <rend rend="italic">Il pastor fido</rend>, III, 3, 498–505
-                        <lb/>Madrigal: aaBcddeE
+                        <lb />Battista Guarini, <rend rend="italic">Il pastor fido</rend>, III, 3, 498–505
+                        <lb />Madrigal: aaBcddeE
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Ah, dolente partita!</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Ah, dolente partita!</td>
+                            <td>Ah, sorrowful parting!</td>
                         </tr>
-                        <tr>
-                            <td>Ah, fin de la mia vita!</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Ah, fin de la mia vita!</td>
+                            <td>Ah, end of my life!</td>
                         </tr>
-                        <tr>
-                            <td>Da te parto e non moro? Pur i’ provo</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Da te parto e non moro? Pur i’ provo</td>
+                            <td>I leave you, and how I do not dye? Yet I undergo</td>
                         </tr>
-                        <tr>
-                            <td>La pena de la morte</td><td></td>
+                        <tr xml:id="line4">
+                            <td>La pena de la morte</td>
+                            <td>the suffering of death</td>
                         </tr>
-                        <tr>
-                            <td>E sento nel partire</td><td></td>
+                        <tr xml:id="line5">
+                            <td>E sento nel partire</td>
+                            <td>and I feel in leaving</td>
                         </tr>
-                        <tr>
-                            <td>Un vivace morire,</td><td></td>
+                        <tr xml:id="line6">
+                            <td>Un vivace morire,</td>
+                            <td>an animated death</td>
                         </tr>
-                        <tr>
-                            <td>Che dà vita al dolore</td><td></td>
+                        <tr xml:id="line7">
+                            <td>Che dà vita al dolore</td>
+                            <td>that gives life to pain</td>
                         </tr>
-                        <tr>
-                            <td>Per far che moia immortalmente il core.</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Per far che moia immortalmente il core.</td>
+                            <td>so that the heart will die immortally.</td>
                         </tr>
                     </table>
-                </div> 
-                
+                </div>
                 <div>
                     <head>Contemporary editions</head>
                     <p>Battista Guarini, <rend rend="italic">Il pastor fido, tragicommedia pastorale</rend>, Venice: G.B. Ciotti, 1602, 163</p>
                 </div>
-                
                 <div>
                     <head>Notes</head>
                     <p>
@@ -81,22 +85,32 @@
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">7. Ah, dolente partita</rend>
+            <mdiv xml:id="mdiv-0000000487966775">
+                <score xml:id="score-0000000594815705">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000001859193090">
+                            <rend xml:id="rend-0000000688061967" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000584445522" fontsize="x-large">7. Ah, dolente partita</rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Battista Guarini)</rend>
+                            <rend xml:id="rend-0000002136850654" halign="right" valign="bottom">(Battista Guarini)</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
-                            <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000000344599345">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000001269993504">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000000203441726">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000348554087">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000000618059767">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -486,7 +500,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001031906727" />
                         <measure xml:id="measure-0000001048922344" n="6">
                             <staff xml:id="staff-0000000603259346" n="1">
                                 <layer xml:id="layer-0000000709530735" n="1">
@@ -1279,7 +1293,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000120582706" />
                         <measure xml:id="measure-0000001575659275" n="15">
                             <staff xml:id="staff-0000000710005571" n="1">
                                 <layer xml:id="layer-0000001644489065" n="1">
@@ -2178,7 +2192,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001765370645" />
                         <measure xml:id="measure-0000000193454433" n="24">
                             <staff xml:id="staff-0000000064552712" n="1">
                                 <layer xml:id="layer-0000000458188849" n="1">
@@ -2763,7 +2777,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000014810812" />
                         <measure xml:id="measure-0000001859224884" n="32">
                             <staff xml:id="staff-0000000736999625" n="1">
                                 <layer xml:id="layer-0000000067021479" n="1">
@@ -3032,7 +3046,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000000623170916" n="35" right="end">
+                        <measure xml:id="measure-0000000623170916" right="end" n="35">
                             <staff xml:id="staff-0000000989365807" n="1">
                                 <layer xml:id="layer-0000000305239528" n="1">
                                     <note xml:id="p1cad4n0v1b35s1" dur="breve" oct="4" pname="a">

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,60 +32,77 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Voi bramate ch’io moia</rend>
-                        <lb/>Madrigal: abBCcdDCC
+                        <lb />Madrigal: abBCcdDCC
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Voi bramate ch’io moia</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Voi bramate ch’io moia</td>
+                            <td>You wish me to die</td>
                         </tr>
-                        <tr>
-                            <td>Ed io morir desio,</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Ed io morir desio,</td>
+                            <td>and I wish to die too,</td>
                         </tr>
-                        <tr>
-                            <td>Pur ch’io vi piaccia almen col morir mio;</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Pur ch’io vi piaccia almen col morir mio;</td>
+                            <td>if thus, at least, I please you with my death:</td>
                         </tr>
-                        <tr>
-                            <td>Ma se trarmi non può di vita fore</td><td></td>
+                        <tr xml:id="line4">
+                            <td>Ma se trarmi non può di vita fore</td>
+                            <td>but if your cruel rigor</td>
                         </tr>
-                        <tr>
-                            <td>Quel vostr’empio rigore,</td><td></td>
+                        <tr xml:id="line5">
+                            <td>Quel vostr’empio rigore,</td>
+                            <td>cannot take me from life,</td>
                         </tr>
-                        <tr>
-                            <td>Perché prova non fate</td><td></td>
+                        <tr xml:id="line6">
+                            <td>Perché prova non fate</td>
+                            <td>why do you not try to use pity instead of rigor?</td>
                         </tr>
-                        <tr>
-                            <td>D’usarm’in vece di rigor pietate?</td><td></td>
+                        <tr xml:id="line7">
+                            <td>D’usarm’in vece di rigor pietate?</td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Che d’uccidermi avrà forza maggiore,</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Che d’uccidermi avrà forza maggiore,</td>
+                            <td>For it will have more power to kill me,</td>
                         </tr>
-                        <tr>
-                            <td>S’uom di piacer più che di doglia more.</td><td></td>
+                        <tr xml:id="line9">
+                            <td>S’uom di piacer più che di doglia more.</td>
+                            <td>if one dies more from pleasure than from pain.</td>
                         </tr>
                     </table>
-                </div>          
+                </div>
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="common">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">14. Voi bramate ch’io moia</rend>
+            <mdiv xml:id="mdiv-0000000605411576">
+                <score xml:id="score-0000000619933283">
+                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="common" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000002084244028">
+                            <rend xml:id="rend-0000000598190878" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001028750301" fontsize="x-large">14. Voi bramate ch’io moia</rend>
                             </rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000001064334258">
-                            <staffGrp xml:id="staffgrp-0000001874578343" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000000205081282">Canto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000001053097993">Alto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000002118033582">Quinto</label>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000194285751">Tenore</label>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000000610805290">Basso</label>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -574,7 +591,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001589396626" />
                         <measure xml:id="measure-0000001378279309" n="10">
                             <staff xml:id="staff-0000001809618747" n="1">
                                 <layer xml:id="layer-0000001598872015" n="1">
@@ -1570,7 +1587,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000992976695" />
                         <measure xml:id="measure-0000001943286265" n="27">
                             <staff xml:id="staff-0000000700410970" n="1">
                                 <layer xml:id="layer-0000001449303583" n="1">
@@ -2667,7 +2684,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000915729467" />
                         <measure xml:id="measure-0000000240714179" n="41">
                             <staff xml:id="staff-0000001349931645" n="1">
                                 <layer xml:id="layer-0000000136426960" n="1">
@@ -3602,7 +3619,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001112620701" />
                         <measure xml:id="measure-0000001530593736" n="54">
                             <staff xml:id="staff-0000001419126847" n="1">
                                 <layer xml:id="layer-0000001311533947" n="1">
@@ -4334,7 +4351,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000001985656535" n="65" right="end">
+                        <measure xml:id="measure-0000001985656535" right="end" n="65">
                             <staff xml:id="staff-0000000969548296" n="1">
                                 <layer xml:id="layer-0000000092297436" n="1">
                                     <note xml:id="p1cbd4n0v1b65s1" dur="1" oct="4" pname="b">
