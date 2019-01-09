@@ -72,7 +72,7 @@
                                 </xsl:for-each>
                             </td>
                             <td style="vertical-align:middle">
-                                <xsl:value-of select="./mei:annot[@type='lyric']//text()"/>
+                                <xsl:apply-templates select="./mei:annot[@type='lyric']//text()|./mei:annot[@type='lyric']//mei:rend"/>
                             </td>
                         </tr>
                     </xsl:for-each>
@@ -82,7 +82,7 @@
         
         <div class="app-inline-text">
             <xsl:for-each select="//mei:annot[@type='app-text']/mei:annot">
-                <xsl:variable name="text" select="./mei:annot[@type='lyric']/text()"/>
+                <xsl:variable name="text" select="./mei:annot[@type='lyric']/text()|./mei:annot[@type='lyric']/mei:rend"/>
                 <xsl:for-each select="./mei:annot[@type='id-list']">
                 <div>
                     <xsl:attribute name="class"><xsl:value-of select="./@plist"/></xsl:attribute>
@@ -98,8 +98,12 @@
         <xsl:apply-templates select="@* | node()"/>
     </xsl:template>
     
-    <xsl:template match="mei:rend">
+    <xsl:template match="mei:rend[@rend='sub']">
         <sub><xsl:value-of select="."/></sub>
+    </xsl:template>
+    
+    <xsl:template match="mei:rend[@fontstyle='italic']">
+        <i><xsl:value-of select="."/></i>
     </xsl:template>
     
     <xsl:template match="mei:annot/text()">
