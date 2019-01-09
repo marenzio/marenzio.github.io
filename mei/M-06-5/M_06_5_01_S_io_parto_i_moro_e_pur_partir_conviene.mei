@@ -1251,7 +1251,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000002016714327" type="app" plist="#p1cad3n768v1b17s4 #p1cbd3n0v1b18s4" source="Ma-Ga, 1614">f2-g2 instead of a2-b2</annot>
+                            <annot xml:id="annot-0000002016714327" type="app">
+                                <p>f2-g2 instead of a2-b2</p>
+                                <list corresp="#p1cad3n768v1b17s4 #p1cbd3n0v1b18s4">
+                                    <li>Ma-Ga, 1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000000181174616" n="18">
                             <staff xml:id="staff-0000001025699113" n="1">
@@ -2919,7 +2924,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001485798664" type="app" plist="#p1cad4n512v1b48s1" source="AnGa-1603">SB instead of M</annot>
+                            <annot xml:id="annot-0000001485798664" type="app">
+                                <p>SB instead of M</p>
+                                <list corresp="#p1cad4n512v1b48s1">
+                                    <li>AnGa-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <pb xml:id="pb-0000001674044762" n="4" />
                         <measure xml:id="measure-0000001487055587" n="49">
@@ -3078,7 +3088,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000060753914" type="app" plist="#p1ced3n0v1b51s5" source="Ma-Ga-1614">f2 instead of e2</annot>
+                            <annot xml:id="annot-0000000060753914" type="app">
+                                <p>f2 instead of e2</p>
+                                <list corresp="#p1ced3n0v1b51s5">
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000001633965861" n="52">
                             <staff xml:id="staff-0000001368001711" n="1">
@@ -3731,20 +3746,28 @@
                         </measure>
                         <annot xml:id="annot-0000001533444635" type="app-text">
                             <annot corresp="#line2" label="2">
-                                <annot type="lyric">dunqu'il</annot>
-                                <annot type="id-list" plist="#verse-0000000353344131 #verse-0000001151008984">AnGa-1603 – Q</annot>
+                                <p>dunqu'il</p>
+                                <list>
+                                    <li corresp="#verse-0000000353344131 #verse-0000001151008984">AnGa-1603 – Q</li>
+                                </list>
                             </annot>
                             <annot corresp="#line6" label="6">
-                                <annot type="lyric">ehe</annot>
-                                <annot type="id-list" plist="#verse-0000000458253440 #verse-0000000551634138">AnGa-1603 – C<rend rend="sub">2</rend>A<rend rend="sub">2</rend></annot>
+                                <p>ehe</p>
+                                <list>
+                                    <li corresp="#verse-0000000458253440 #verse-0000000551634138">AnGa-1603 – C<rend rend="sub">2</rend>A<rend rend="sub">2</rend></li>
+                                </list>
                             </annot>
                             <annot corresp="#line6" label="6">
-                                <annot type="lyric">dividii</annot>
-                                <annot type="id-list" plist="#verse-0000001472520150 #verse-0000000504142096 #verse-0000001366367773 #verse-0000001312172967 #verse-0000000470486057 #verse-0000001845767666">AnGa-1603 – B</annot>
+                                <p>dividii</p>
+                                <list>
+                                    <li corresp="#verse-0000001472520150 #verse-0000000504142096 #verse-0000001366367773 #verse-0000001312172967 #verse-0000000470486057 #verse-0000001845767666">AnGa-1603 – B</li>
+                                </list>
                             </annot>
                             <annot corresp="#line6" label="6">
-                                <annot type="lyric">congius’</annot>
-                                <annot type="id-list" plist="#verse-0000000057891870 #verse-0000001657364768 #verse-0000002050160709 #verse-0000001389684609">C<rend rend="sub">1</rend>T</annot>
+                                <p>congius’</p>
+                                <list>
+                                    <li corresp="#verse-0000000057891870 #verse-0000001657364768 #verse-0000002050160709 #verse-0000001389684609">C<rend rend="sub">1</rend>T</li>
+                                </list>
                             </annot>
                         </annot>
                         <annot xml:id="annot-0000001576945187" type="app-sources-used">

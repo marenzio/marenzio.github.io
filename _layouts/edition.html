@@ -183,7 +183,7 @@
                 d3.selectAll('.app-inline div, .app-inline-text div').each( function(selection) {
                     var s = d3.select(this);
                     if (!s.empty()) {
-                        ids = s.attr("class").split(" ");
+                        ids = s.attr("data").split(" ");
                         $.each( ids, function( i, id ){
                             var element = d3.select(id);
                             if (!element.empty()) {
