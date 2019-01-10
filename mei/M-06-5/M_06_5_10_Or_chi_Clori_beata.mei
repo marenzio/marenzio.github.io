@@ -98,18 +98,23 @@
                             <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
                                     <label xml:id="label-0000001300204269">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001912518143">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
                                     <label xml:id="label-0000000255064129">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000709300572">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
                                     <label xml:id="label-0000001369181776">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001217951390">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
                                     <label xml:id="label-0000000269579417">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001636347972">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
                                     <label xml:id="label-0000001718071767">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001354237006">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -2650,6 +2655,26 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000873975453" type="app-text">
+                            <annot corresp="#line7" label="7">
+                                <p>Amor</p>
+                                <list>
+                                    <li corresp="#verse-0000001614704284 #verse-0000001876812068 #verse-0000001253532750 #verse-0000000569575599 #verse-0000001335149961 #verse-0000001611124203 #verse-0000001698830633 #verse-0000002020882743 #verse-0000001457651902 #verse-0000001726587239 #verse-0000002028715054 #verse-0000000326820263 #verse-0000000545824818 #verse-0000000852250480 #verse-0000000180008475 #verse-0000000638682037 #verse-0000001132126146 #verse-0000000465759586">AnGa-1603 – C<rend rend="sub">2,3</rend>ATB<rend rend="sub">2</rend>
+                                    </li>
+                                    <li corresp="#verse-0000001269588917 #verse-0000002059861597 #verse-0000000446884755 #verse-0000001698830633 #verse-0000002020882743 #verse-0000001457651902 #verse-0000001598076126 #verse-0000001768155686 #verse-0000001385335202 #verse-0000001946710274 #verse-0000002119210111 #verse-0000002112388626 #verse-0000001614704284 #verse-0000001876812068 #verse-0000001253532750 #verse-0000000545824818 #verse-0000000852250480 #verse-0000000180008475 #verse-0000001474800578 #verse-0000001449401977 #verse-0000002064071537 #verse-0000000638682037 #verse-0000001132126146 #verse-0000000465759586 #verse-0000000569575599 #verse-0000001335149961 #verse-0000001611124203 #verse-0000001726587239 #verse-0000002028715054 #verse-0000000326820263">Ma-Ga-1614 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line7" label="7">
+                                <p>annid'altrove</p>
+                                <list>
+                                    <li corresp="#verse-0000001455659487 #verse-0000000276689478 #verse-0000001259564269 #verse-0000000306903256 #verse-0000000079880535 #verse-0000000255121414 #verse-0000001192685957 #verse-0000001119473269 #verse-0000001098706388 #verse-0000001471053684 #verse-0000001822048397 #verse-0000001983133146 #verse-0000000074442555 #verse-0000001480065682 #verse-0000001496155422 #verse-0000002013021607 #verse-0000001321355031 #verse-0000000613887025 #verse-0000000743043526 #verse-0000000740966843 #verse-0000001816403264 #verse-0000000923419633 #verse-0000001065480722 #verse-0000000338111406 #verse-0000001764116253 #verse-0000001449522750 #verse-0000001776806289 #verse-0000001830223776 #verse-0000000669657336 #verse-0000000685747320 #verse-0000001052648487 #verse-0000000926787997 #verse-0000000191382287 #verse-0000001845365437 #verse-0000000084554737">AnGa-1594 – C<rend rend="sub">1,3</rend>A<rend rend="sub">2</rend>T<rend rend="sub">1,3</rend>B<rend rend="sub">1</rend>Q<rend rend="sub">2</rend>
+                                    </li>
+                                    <li corresp="#verse-0000001455659487 #verse-0000000276689478 #verse-0000001259564269 #verse-0000000306903256 #verse-0000000079880535 #verse-0000000255121414 #verse-0000001192685957 #verse-0000001119473269 #verse-0000001098706388 #verse-0000001471053684 #verse-0000001822048397 #verse-0000001983133146 #verse-0000000074442555 #verse-0000001480065682 #verse-0000001496155422 #verse-0000002013021607 #verse-0000001321355031 #verse-0000000613887025 #verse-0000000743043526 #verse-0000000740966843 #verse-0000001816403264 #verse-0000000923419633 #verse-0000001065480722 #verse-0000000338111406 #verse-0000001764116253 #verse-0000001449522750 #verse-0000001776806289 #verse-0000001830223776 #verse-0000000669657336 #verse-0000000685747320 #verse-0000001052648487 #verse-0000000926787997 #verse-0000000191382287 #verse-0000001845365437 #verse-0000000084554737 #verse-0000001061096123 #verse-0000002055611727 #verse-0000001657727283 #verse-0000000088156675 #verse-0000002062291532">AnGa-1603 – C<rend rend="sub">1,3</rend>A<rend rend="sub">2</rend>T<rend rend="sub">1,3</rend>B<rend rend="sub">1</rend>Q
+                                    </li>
+                                    <li corresp="#verse-0000001455659487 #verse-0000000276689478 #verse-0000001259564269 #verse-0000000306903256 #verse-0000000079880535 #verse-0000001698550784 #verse-0000001918768449 #verse-0000000567799348 #verse-0000000082443810 #verse-0000000240696037 #verse-0000001816403264 #verse-0000000923419633 #verse-0000001065480722 #verse-0000000338111406 #verse-0000001764116253 #verse-0000001822048397 #verse-0000001983133146 #verse-0000000074442555 #verse-0000001480065682 #verse-0000001496155422 #verse-0000000255121414 #verse-0000001192685957 #verse-0000001119473269 #verse-0000001098706388 #verse-0000001471053684 #verse-0000002013021607 #verse-0000001321355031 #verse-0000000613887025 #verse-0000000743043526 #verse-0000000740966843 #verse-0000001061096123 #verse-0000002055611727 #verse-0000001657727283 #verse-0000000088156675 #verse-0000002062291532 #verse-0000001052648487 #verse-0000000926787997 #verse-0000000191382287 #verse-0000001845365437 #verse-0000000084554737 #verse-0000001449522750 #verse-0000001776806289 #verse-0000001830223776 #verse-0000000669657336 #verse-0000000685747320">Ma-Ga-1614 – C<rend rend="sub">1,3</rend>AT<rend rend="sub">1,3</rend>B<rend rend="sub">1</rend>Q</li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
