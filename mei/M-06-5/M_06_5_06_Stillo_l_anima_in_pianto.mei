@@ -97,18 +97,23 @@
                             <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
                                     <label xml:id="label-0000000585234218">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000810610744">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
                                     <label xml:id="label-0000001869694642">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001599530388">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
                                     <label xml:id="label-0000000001855160">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000022605529">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
                                     <label xml:id="label-0000000538919984">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000861846269">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5" clef.shape="F" clef.line="3" key.mode="major" key.sig="0" n="5" lines="5">
                                     <label xml:id="label-0000001252864607">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000789054669">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -3749,7 +3754,7 @@
                                     </note>
                                     <note xml:id="p1ced3n512v1b61s5" dur="2" oct="3" pname="e">
                                         <verse xml:id="verse-0000000614015633" n="1">
-                                            <syl xml:id="syl-0000001101819996" con="d" wordpos="i">ri</syl>
+                                            <syl xml:id="syl-0000001101819996" fontstyle="italic" con="d" wordpos="i">ri</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -3835,12 +3840,12 @@
                                     <note xml:id="p1ccd3n0v1b62s5" dur="2" oct="3" pname="c">
                                         <accid xml:id="accid-0000000214116594" accid="s" />
                                         <verse xml:id="verse-0000001622486633" n="1">
-                                            <syl xml:id="syl-0000000385491225" con="d" wordpos="i">en</syl>
+                                            <syl xml:id="syl-0000000385491225" fontstyle="italic" con="d" wordpos="i">en</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd3n512v1b62s5" dur="2" oct="3" pname="d">
                                         <verse xml:id="verse-0000000578710438" n="1">
-                                            <syl xml:id="syl-0000000432894203" wordpos="t">trò</syl>
+                                            <syl xml:id="syl-0000000432894203" fontstyle="italic" wordpos="t">trò</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -4436,6 +4441,20 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000107272517" type="app-text">
+                            <annot corresp="#line7" label="7">
+                                <p>ridied'al</p>
+                                <list>
+                                    <li corresp="#verse-0000001606683941 #verse-0000000369722720 #verse-0000000650894782 #verse-0000001698550784 #verse-0000001589897422 #verse-0000000740993362 #verse-0000000764212732 #verse-0000001210130923 #verse-0000001027775905 #verse-0000001446296973 #verse-0000001777527977 #verse-0000000319270539 #verse-0000001004843073 #verse-0000002134199705 #verse-0000001830223776 #verse-0000001520356735 #verse-0000000962726673 #verse-0000001240544229 #verse-0000000218983609 #verse-0000000336989655 #verse-0000000581933953 #verse-0000000235627705 #verse-0000002111125871 #verse-0000000870696670 #verse-0000001097648953 #verse-0000000212785535 #verse-0000000191382287 #verse-0000000892837023 #verse-0000000743043526 #verse-0000000482678991 #verse-0000000578261651 #verse-0000001490688453 #verse-0000001342633689">AnGa-1603 – CA<rend rend="sub">2,3</rend>TBQ</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line8" label="8">
+                                <p>occhi</p>
+                                <list>
+                                    <li corresp="#verse-0000002012319446 #verse-0000001134630596 #verse-0000000428306430 #verse-0000000884525291 #verse-0000001830554392 #verse-0000002137033492 #verse-0000000632695048 #verse-0000001941093432">CATQ (B <rend fontstyle="italic">tacet</rend>)</li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
