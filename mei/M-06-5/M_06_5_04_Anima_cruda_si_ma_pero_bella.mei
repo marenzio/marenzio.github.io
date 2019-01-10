@@ -92,18 +92,23 @@
                             <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                     <label xml:id="label-0000000681228745">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000926663664">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
                                     <label xml:id="label-0000001413911231">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000695555931">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
                                     <label xml:id="label-0000000321666576">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001776817419">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
                                     <label xml:id="label-0000001019838474">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001468515573">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
                                     <label xml:id="label-0000000244949433">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000505282338">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -1613,6 +1618,14 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000291388735" type="app">
+                                <p>b2 b2 c3 instead of c3 b2 b2 (corrected based on the <rend fontsyle="italic">locus parallelus</rend>: T, 39-40)</p>
+                                <list corresp="#p1ccd4n256v1b21s3 #p1cbd3n512v1b21s3 #p1cbd3n0v1b22s3 #p1cbd3n512v1b22s3">
+                                    <li>AnGa-1594</li>
+                                    <li>AnGa-1603</li>
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000000820022661" n="23">
                             <staff xml:id="staff-0000000691220541" n="1">
@@ -2234,7 +2247,7 @@
                                     <rest xml:id="p1r512v1b32s5" dur="4" />
                                     <note xml:id="p1cdd3n768v1b32s5" dur="4" oct="3" pname="d">
                                         <verse xml:id="verse-0000001680427451" n="1">
-                                            <syl xml:id="syl-0000001386727260" wordpos="t">va’_in</syl>
+                                            <syl xml:id="syl-0000001386727260" fontstyle="italic" wordpos="t">va’_in</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -2300,12 +2313,12 @@
                                 <layer xml:id="layer-0000001073539113" n="1">
                                     <note xml:id="p1cgd3n0v1b33s5" dur="2" oct="3" pname="g">
                                         <verse xml:id="verse-0000000878743017" n="1">
-                                            <syl xml:id="syl-0000000788846300" con="d" wordpos="i">pa</syl>
+                                            <syl xml:id="syl-0000000788846300" fontstyle="italic" con="d" wordpos="i">pa</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd3n512v1b33s5" dur="2" oct="3" pname="d">
                                         <verse xml:id="verse-0000001447102986" n="1">
-                                            <syl xml:id="syl-0000001207583427" wordpos="t">ce!”</syl>
+                                            <syl xml:id="syl-0000001207583427" fontstyle="italic" wordpos="t">ce!”</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -3499,12 +3512,12 @@
                                     <rest xml:id="p1r0v1b51s1" dur="4" />
                                     <note xml:id="p1cdd5n256v1b51s1" dur="4" oct="5" pname="d">
                                         <verse xml:id="verse-0000001805616580" n="1">
-                                            <syl xml:id="syl-0000000906444303" wordpos="t">va’_in</syl>
+                                            <syl xml:id="syl-0000000906444303" fontstyle="italic" wordpos="t">va’_in</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n512v1b51s1" dur="2" oct="5" pname="d" tie="i">
                                         <verse xml:id="verse-0000001331799186" n="1">
-                                            <syl xml:id="syl-0000000326866421" con="d" wordpos="i">pa</syl>
+                                            <syl xml:id="syl-0000000326866421" fontstyle="italic" con="d" wordpos="i">pa</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -3570,7 +3583,8 @@
                                     <note xml:id="p1cdd5n0v1b52s1" dur="4" oct="5" pname="d" tie="t" />
                                     <note xml:id="p1cad4n256v1b52s1" dots="1" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-0000002144030766" n="1">
-                                            <syl xml:id="syl-0000002096971149" con="d" wordpos="i">ce,_a</syl>
+                                            <syl xml:id="syl-0000002096971149" con="d" wordpos="i">
+                                                <rend xml:id="rend-0000000282991821" fontstyle="italic">ce,</rend>_a</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n640v1b52s1" dur="8" oct="4" pname="a">
@@ -4018,12 +4032,12 @@
                                     <rest xml:id="p1r0v1b59s2" dur="4" />
                                     <note xml:id="p1cad4n256v1b59s2" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-0000001040568166" n="1">
-                                            <syl xml:id="syl-0000001869828441" wordpos="t">va’_in</syl>
+                                            <syl xml:id="syl-0000001869828441" fontstyle="italic" wordpos="t">va’_in</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n512v1b59s2" dur="2" oct="4" pname="a" tie="i">
                                         <verse xml:id="verse-0000001312631506" n="1">
-                                            <syl xml:id="syl-0000000298215711" con="d" wordpos="i">pa</syl>
+                                            <syl xml:id="syl-0000000298215711" fontstyle="italic" con="d" wordpos="i">pa</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -4090,7 +4104,7 @@
                                     <note xml:id="p1cad4n0v1b60s2" dur="2" oct="4" pname="a" tie="t" />
                                     <note xml:id="p1ced4n512v1b60s2" dur="2" oct="4" pname="e" tie="i">
                                         <verse xml:id="verse-0000000518012681" n="1">
-                                            <syl xml:id="syl-0000000340424629" con="d" wordpos="i">ce,_a</syl>
+                                            <syl xml:id="syl-0000000340424629" fontstyle="italic" con="d" wordpos="i">ce,_a</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -4125,6 +4139,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000954926061" type="app">
+                                <p>a sharp (in the fourth space) is erroneously inserted before c2</p>
+                                <list corresp="#p1ccd3n512v1b60s5">
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000000288195676" n="61">
                             <staff xml:id="staff-0000001899347906" n="1">
@@ -4147,12 +4167,12 @@
                                     <note xml:id="p1ced4n0v1b61s2" dur="4" oct="4" pname="e" tie="t" />
                                     <note xml:id="p1ced4n256v1b61s2" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-0000001230841354" n="1">
-                                            <syl xml:id="syl-0000000040665127" con="d" wordpos="i">ni</syl>
+                                            <syl xml:id="syl-0000000040665127" fontstyle="italic" con="d" wordpos="i">ni</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd4n512v1b61s2" dur="2" oct="4" pname="d">
                                         <verse xml:id="verse-0000000835235729" n="1">
-                                            <syl xml:id="syl-0000001853780511" wordpos="t">ma</syl>
+                                            <syl xml:id="syl-0000001853780511" fontstyle="italic" wordpos="t">ma</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -4218,7 +4238,7 @@
                                 <layer xml:id="layer-0000000021779104" n="1">
                                     <note xml:id="p1ced4n0v1b62s2" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-0000000360562471" n="1">
-                                            <syl xml:id="syl-0000001922081910" con="d" wordpos="i">mi</syl>
+                                            <syl xml:id="syl-0000001922081910" fontstyle="italic" con="d" wordpos="i">mi</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n256v1b62s2" dur="2" oct="4" pname="f" />
@@ -4267,7 +4287,7 @@
                                 <layer xml:id="layer-0000001248838173" n="1">
                                     <note xml:id="p1cfd4n0v1b63s2" dur="1" oct="4" pname="f">
                                         <verse xml:id="verse-0000000054058160" n="1">
-                                            <syl xml:id="syl-0000000169912439" wordpos="t">a!”</syl>
+                                            <syl xml:id="syl-0000000169912439" fontstyle="italic" wordpos="t">a!”</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -4300,6 +4320,22 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000002108542850" type="app-text">
+                            <annot corresp="#line4" label="4">
+                                <p>addolcisci</p>
+                                <list>
+                                    <li corresp="#verse-0000001083403409 #verse-0000000996786070 #verse-0000000180984266 #verse-0000001024282349 #verse-0000001783216538 #verse-0000000862808504 #verse-0000001518840165 #verse-0000000102828996 #verse-0000002012782558 #verse-0000000332972319 #verse-0000000548453369 #verse-0000000098161932 #verse-0000000081641612 #verse-0000000245335104 #verse-0000001630183472 #verse-0000001057048568 #verse-0000001609662310 #verse-0000001790365970 #verse-0000000769986878 #verse-0000000373715523">Ma-Ga-1614 – C<rend rend="sub">2</rend>A<rend rend="sub">2</rend>T<rend rend="sub">2</rend>B<rend rend="sub">2</rend>Q<rend rend="sub">2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <p>mita <rend fontsyle="italic">instead of </rend>mia</p>
+                                <list>
+                                    <li corresp="#verse-0000000176703852 #verse-0000000247863272">Ma-Ga-1614 – A<rend rend="sub">1</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
