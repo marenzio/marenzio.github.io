@@ -50,6 +50,7 @@
             var vertical_layout = false;
             var show_inline_app = false;
             var highlighted = "";
+            var highligtedType = "";
             var clicked_ids = "";
             var toggle = true;
             var outputFilename = "untitled.mei";
@@ -123,13 +124,20 @@
                 loadPage();
             }
             
-            function loadPageWithElement( xmlIds ){
+            function loadPageWithElement(xmlIds, type = ''){
 
                 $( ".modal").modal('hide');
                 
+                // Store globals for highlighting
                 highlighted = xmlIds;
-                var ids = xmlIds.split(" ");
-                
+                if (type !== '') {
+                    highligtedType = " ." + type;
+                }
+                else {
+                    highligtedType = "";
+                }
+
+                var ids = xmlIds.split(" ");                
                 var elementPage = vrvToolkit.getPageWithElement( ids[0].substring(1) );
                 if (elementPage == 0) {
                     console.log(ids[0], "ID not found" );
@@ -139,7 +147,7 @@
                 loadPage();
                 
                 // scroll
-                var a = d3.select( ids[0] );
+                var a = d3.select(ids[0]);
                 if (!a.empty()) {
                     var y = (a[0][0].getBBox().y) * zoom / 1000; // 100 * 10 because of the def factor in SVG
                     $('body').scrollTo( parseInt( y - 50 ), 300, { axis:'y' } );
@@ -156,7 +164,7 @@
                 var ids = highlighted.split(" ");
                 var i;
                 for (i = 0; i < ids.length; i++) {
-                    d3.selectAll( ids[i] + " *" ).style("fill", "#e25402").style("stroke", "#e25402");
+                    d3.selectAll( ids[i] + highligtedType + " *" ).style("fill", "#e25402").style("stroke", "#e25402");
                 }
             }
             
@@ -183,9 +191,13 @@
                 d3.selectAll('.app-inline div, .app-inline-text div').each( function(selection) {
                     var s = d3.select(this);
                     if (!s.empty()) {
-                        ids = s.attr("data").split(" ");
-                        $.each( ids, function( i, id ){
-                            var element = d3.select(id);
+                        var type = "";
+                        if (s.attr("data-type")) {
+                            type = " ." + s.attr("data-type");
+                        }
+                        ids = s.attr("data-corresp").split(" ");
+                        $.each( ids, function(i, id){
+                            var element = d3.select(id + type);
                             if (!element.empty()) {
                                 if (i == 0) {
                                     element.attr("class", "highlight")

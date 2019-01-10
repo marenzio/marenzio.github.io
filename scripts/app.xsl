@@ -20,7 +20,7 @@
                     <tr>
                         <td>
                             <a>
-                                <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />');</xsl:attribute>
+                                <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />' <xsl:if test="./mei:list/@type">, '<xsl:value-of select="./mei:list/@type" />'</xsl:if>);</xsl:attribute>
                                 <xsl:for-each select="./mei:list/mei:li">
                                     <!--<xsl:variable name="staves" select="./@staff"/>-->
                                     <p>
@@ -40,7 +40,10 @@
         <div class="app-inline">
             <xsl:for-each select="//mei:annot[@type='app']">
                 <div>
-                    <xsl:attribute name="data"><xsl:value-of select="./mei:list/@corresp"/></xsl:attribute>
+                    <xsl:attribute name="data-corresp"><xsl:value-of select="./mei:list/@corresp"/></xsl:attribute>
+                    <xsl:if test="./mei:list/@type">
+                        <xsl:attribute name="data-type"><xsl:value-of select="./mei:list/@type"/></xsl:attribute>    
+                    </xsl:if>
                     <xsl:for-each select="./mei:list/mei:li">
                         <xsl:apply-templates select="text()|mei:rend"/> – 
                     </xsl:for-each>
@@ -92,7 +95,7 @@
                 <xsl:variable name="text" select="./mei:p/text()|./mei:p/mei:rend"/>
                 <xsl:for-each select="./mei:list/mei:li">
                 <div>
-                    <xsl:attribute name="data"><xsl:value-of select="./@corresp"/></xsl:attribute>
+                    <xsl:attribute name="data-corresp"><xsl:value-of select="./@corresp"/></xsl:attribute>
                     <xsl:value-of select="$text"/> (<xsl:apply-templates select="text()|mei:rend"/>)
                 </div>
                 </xsl:for-each>
