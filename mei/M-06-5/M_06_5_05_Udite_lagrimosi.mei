@@ -116,18 +116,23 @@
                             <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                     <label xml:id="label-0000000714854912">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000153501753">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
                                     <label xml:id="label-0000000348577221">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000002025690067">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
                                     <label xml:id="label-0000001631894044">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001296049508">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
                                     <label xml:id="label-0000000584298838">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001679934229">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
                                     <label xml:id="label-0000000242575222">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000701362797">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -4099,6 +4104,20 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000001557622020" type="app-text">
+                            <annot corresp="#line6" label="6">
+                                <p>cudel</p>
+                                <list>
+                                    <li corresp="#verse-0000001680427451 #verse-0000000878743017 #verse-0000001447102986 #verse-0000001085589504 #verse-0000002010784523">AnGa-1603 – Q</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line13" label="13">
+                                <p>mort'il</p>
+                                <list>
+                                    <li corresp="#verse-0000000619088996 #verse-0000000504645303 #verse-0000001845767666 #verse-0000001097229027 #verse-0000002077652366 #verse-0000001625573271 #verse-0000001589185204 #verse-0000000413348235 #verse-0000000168599417 #verse-0000001823786218">AnGa1603 – all voices</li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
