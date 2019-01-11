@@ -155,18 +155,23 @@
                             <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
                                     <label xml:id="label-0000001301618035">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000196126696">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
                                     <label xml:id="label-0000001311594404">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001781950137">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
                                     <label xml:id="label-0000000578838186">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001929159368">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
                                     <label xml:id="label-0000001808827136">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000226449277">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
                                     <label xml:id="label-0000000006911749">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000584820148">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -3721,7 +3726,7 @@
             </mdiv>
             <mdiv xml:id="mdiv-0000001644363908" label="part2">
                 <score xml:id="score-0000001198158508">
-                    <scoreDef xml:id="scoredef-0000001134614446-2" meter.sym="common">
+                    <scoreDef xml:id="scoredef-0000001134614446-2" meter.sym="common" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
                         <pgHead xml:id="pghead-0000001416586726">
                             <rend xml:id="rend-0000001789747847" halign="center" valign="middle">
                                 <rend xml:id="rend-0000001742718241" fontsize="x-large">Che se tu se’ ’l cor mio<lb xml:id="lb-0000000703547046" />
@@ -3733,18 +3738,23 @@
                             <staffGrp xml:id="staffgrp-0000000730469413-2" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
                                     <label xml:id="label-0000000325998855">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000829739594">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
                                     <label xml:id="label-0000000306685620">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001359315078">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3-2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
                                     <label xml:id="label-0000000077350658">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001339769509">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4-2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
                                     <label xml:id="label-0000001594681257">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001394748525">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5-2" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
                                     <label xml:id="label-0000001701934631">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000773116027">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -3810,6 +3820,12 @@
                                     <mRest xml:id="mrest-0000000018764704" />
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000716440187" type="app">
+                                <p>sharp missing</p>
+                                <list corresp="#p1cfd4n256v1b53s2">
+                                    <li>AnGa-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000001845767666" n="54">
                             <staff xml:id="staff-0000001123633091" n="1">
@@ -4861,6 +4877,16 @@
                                     </tuplet>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000186064409" type="app">
+                                <p>
+                                    <rend fontstyle="italic">color</rend> of the three blackened M, with a "3" after the first one</p>
+                                <list corresp="#measure-0000001414083985">
+                                    <li>AnGa-1594</li>
+                                    <li>AnGa-1603</li>
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
+                            <bracketSpan xml:id="bspan-0000000468605069" staff="1 2 3 4 5" tstamp="0.5" tstamp2="0m+5.0000" func="coloration" />
                         </measure>
                         <pb xml:id="pb-0000000081404737" n="6" />
                         <measure xml:id="measure-0000000222331620" n="70">
@@ -6503,12 +6529,12 @@
                                     <rest xml:id="p1r0v1b96s1" dur="4" />
                                     <note xml:id="p1cbd4n256v1b96s1" dur="4" oct="4" pname="b">
                                         <verse xml:id="verse-0000000906836268" n="1">
-                                            <syl xml:id="syl-0000000505713517" wordpos="t">son</syl>
+                                            <syl xml:id="syl-0000000505713517" fontstyle="italic" wordpos="t">son</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n512v1b96s1" dur="2" oct="5" pname="d">
                                         <verse xml:id="verse-0000002042618613" n="1">
-                                            <syl xml:id="syl-0000000617447749" wordpos="t">miei,</syl>
+                                            <syl xml:id="syl-0000000617447749" fontstyle="italic" wordpos="t">miei,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6738,6 +6764,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000538012657" staff="4" startid="p1ccd4n0v1b99s4" endid="p1cbd3n0v1b100s4" func="ligature" lform="solid" />
                         </measure>
                         <measure xml:id="measure-0000000717864670" n="100">
                             <staff xml:id="staff-0000000446860580" n="1">
@@ -6821,6 +6848,34 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000001327094866" type="app-text">
+                            <annot corresp="#line8" label="8">
+                                <p>vendetta</p>
+                                <list>
+                                    <li corresp="#verse-0000000550071370 #verse-0000001950873562 #verse-0000001239676644">AnGa-1594 – B</li>
+                                    <li corresp="#verse-0000000550071370 #verse-0000001950873562 #verse-0000001239676644">Ma-Ga-1614 – B</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line8" label="8">
+                                <p>poi</p>
+                                <list>
+                                    <li corresp="#verse-0000000567444556">AnGa-1594 – A<rend rend="sub">2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line14" label="14">
+                                <p>son</p>
+                                <list>
+                                    <li corresp="#verse-0000000692264883 #verse-0000000587054487">Ma-Ga-1614 – N</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line15" label="15">
+                                <p>sospir'il</p>
+                                <list>
+                                    <li corresp="#verse-0000000768779037 #verse-0000001589207264 #verse-0000000432032338 #verse-0000001800363043 #verse-0000000390954985 #verse-0000000312043263">AnGa-1603 – AQ</li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
