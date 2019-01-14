@@ -92,18 +92,23 @@
                             <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                     <label xml:id="label-0000002132310513">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000897630499">C</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
                                     <label xml:id="label-0000000824181385">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000870027366">A</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
                                     <label xml:id="label-0000002036083722">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000009773467">Q</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
                                     <label xml:id="label-0000002119142675">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000659475263">T</labelAbbr>
                                 </staffDef>
                                 <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
                                     <label xml:id="label-0000000290565917">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000735267520">B</labelAbbr>
                                 </staffDef>
                             </staffGrp>
                         </staffGrp>
@@ -643,7 +648,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <scoreDef xml:id="scoredef-0000000544873433" meter.count="3" meter.unit="2" />
+                        <scoreDef xml:id="scoredef-0000000544873433" meter.count="3" meter.unit="2" meter.form="num" />
                         <measure xml:id="measure-0000000817517623" n="8">
                             <staff xml:id="staff-0000000025749428" n="1">
                                 <layer xml:id="layer-0000001126423349" n="1">
@@ -716,6 +721,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000000874491429" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000001636489566" fontname="VerovioText"></rend> = <rend xml:id="rend-0000001180416357" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <sb xml:id="sb-0000000231697118" />
                         <measure xml:id="measure-0000000146440228" n="9">
@@ -815,6 +823,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000213360657" type="app">
+                                <p>not dotted</p>
+                                <list corresp="#p1ccd5n0v1b9s1">
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000000930596469" n="10">
                             <staff xml:id="staff-0000001451574995" n="1">
@@ -1043,6 +1057,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000418962242" type="app">
+                                <p>g4 instead of f4</p>
+                                <list corresp="#p1cfd5n1024v1b12s1">
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000000527527823" n="13">
                             <staff xml:id="staff-0000000306472791" n="1">
@@ -1131,17 +1151,17 @@
                                 <layer xml:id="layer-0000002014156104" n="1">
                                     <note xml:id="p1ccd5n0v1b14s2" dur="2" oct="5" pname="c">
                                         <verse xml:id="verse-0000001922464110" n="1">
-                                            <syl xml:id="syl-0000001962827655" wordpos="t">al</syl>
+                                            <syl xml:id="syl-0000001962827655" fontstyle="italic" wordpos="t">al</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd5n512v1b14s2" dur="2" oct="5" pname="c">
                                         <verse xml:id="verse-0000001437947581" n="1">
-                                            <syl xml:id="syl-0000001951514176" con="d" wordpos="i">bal</syl>
+                                            <syl xml:id="syl-0000001951514176" fontstyle="italic" con="d" wordpos="i">bal</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd5n1024v1b14s2" dur="2" oct="5" pname="c">
                                         <verse xml:id="verse-0000001556184289" n="1">
-                                            <syl xml:id="syl-0000000586008410" wordpos="t">lo,</syl>
+                                            <syl xml:id="syl-0000000586008410" fontstyle="italic" wordpos="t">lo,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1223,12 +1243,12 @@
                                 <layer xml:id="layer-0000001262820898" n="1">
                                     <note xml:id="p1ccd5n0v1b15s2" dur="1" oct="5" pname="c">
                                         <verse xml:id="verse-0000001597485053" n="1">
-                                            <syl xml:id="syl-0000001090730977" con="d" wordpos="i">Nin</syl>
+                                            <syl xml:id="syl-0000001090730977" fontstyle="italic" con="d" wordpos="i">Nin</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd5n1024v1b15s2" dur="2" oct="5" pname="c">
                                         <verse xml:id="verse-0000000653239564" n="1">
-                                            <syl xml:id="syl-0000001060948684" wordpos="t">fe_e</syl>
+                                            <syl xml:id="syl-0000001060948684" fontstyle="italic" wordpos="t">fe_e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1446,6 +1466,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000001322614728" staff="2 3 4 5" tstamp="0.800000" tstamp2="0m+4.0000" func="coloration" />
                         </measure>
                         <scoreDef xml:id="scoredef-0000001804207465" meter.sym="common" />
                         <measure xml:id="measure-0000000845768615" n="18">
@@ -1495,6 +1516,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000001240363360" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000000410862870" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000208065944" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-0000001171568208" n="19">
                             <staff xml:id="staff-0000001904475400" n="1">
@@ -1965,6 +1989,12 @@
                                     <mRest xml:id="mrest-0000001572362639" />
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000660606791" type="app">
+                                <p>SM instead of F</p>
+                                <list corresp="#p1cad4n128v1b25s1">
+                                    <li>AnGa-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000001912597338" n="26">
                             <staff xml:id="staff-0000001108256415" n="1">
@@ -2455,7 +2485,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <scoreDef xml:id="scoredef-0000002061412671" meter.count="3" meter.unit="2" />
+                        <scoreDef xml:id="scoredef-0000002061412671" meter.count="3" meter.unit="2" meter.form="num" />
                         <measure xml:id="measure-0000000809084446" n="34">
                             <staff xml:id="staff-0000000399660726" n="1">
                                 <layer xml:id="layer-0000001916457713" n="1">
@@ -2518,6 +2548,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000001930390538" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000000651497797" fontname="VerovioText"></rend> = <rend xml:id="rend-0000001902715041" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-0000000913571258" n="35">
                             <staff xml:id="staff-0000000075231350" n="1">
@@ -2769,6 +2802,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000150151060" staff="2 3 4 5" tstamp="0.800000" tstamp2="0m+4.0000" func="coloration" />
                         </measure>
                         <scoreDef xml:id="scoredef-0000000147106912" meter.sym="common" />
                         <measure xml:id="measure-0000000672192287" n="38">
@@ -2817,6 +2851,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000000328529446" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000000174430787" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000962206068" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-0000001470235331" n="39">
                             <staff xml:id="staff-0000000176741841" n="1">
@@ -3173,7 +3210,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <scoreDef xml:id="scoredef-0000000528311120" meter.count="3" meter.unit="2" />
+                        <scoreDef xml:id="scoredef-0000000528311120" meter.count="3" meter.unit="2" meter.form="num" />
                         <measure xml:id="measure-0000001627597142" n="43">
                             <staff xml:id="staff-0000001525877530" n="1">
                                 <layer xml:id="layer-0000000173934236" n="1">
@@ -3236,6 +3273,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000001151879237" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000000277129092" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000175175464" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-0000000782188541" n="44">
                             <staff xml:id="staff-0000001262470335" n="1">
@@ -3487,6 +3527,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000940958471" staff="2 3 4 5" tstamp="0.800000" tstamp2="0m+4.0000" func="coloration" />
                         </measure>
                         <measure xml:id="measure-0000000539189436" n="47">
                             <staff xml:id="staff-0000002018355513" n="1">
@@ -3729,6 +3770,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000131373592" staff="2 3 4 5" tstamp="0.800000" tstamp2="0m+4.0000" func="coloration" />
                         </measure>
                         <measure xml:id="measure-0000000009425799" right="end" n="50">
                             <staff xml:id="staff-0000000822139060" n="1">
@@ -3777,6 +3819,50 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000774980926" type="app-text">
+                            <annot corresp="#line2" label="2">
+                                <p>verde e</p>
+                                <list>
+                                    <li corresp="#verse-0000001263231723 #verse-0000000867231522">AnGa-1594 – B</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line3" label="3">
+                                <p>Ninf'e</p>
+                                <list>
+                                    <li corresp="#verse-0000002045615823 #verse-0000001774532160 #verse-0000001225208299 #verse-0000002083177033 #verse-0000001572368266 #verse-0000001359668964 #verse-0000001035140589 #verse-0000001512187113 #verse-0000001834744620 #verse-0000000018981246">AnGa-1603 – C<rend rend="sub">2</rend>A<rend rend="sub">2</rend>T<rend rend="sub">2</rend>B<rend rend="sub">2</rend>Q<rend rend="sub">2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line4" label="4">
+                                <p>Ninf'e</p>
+                                <list>
+                                    <li corresp="#verse-0000000740833111 #verse-0000000200595050">AnGa-1603 – T<rend rend="sub">2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <p>Fill'al</p>
+                                <list>
+                                    <li corresp="#verse-0000001026619463 #verse-0000000300928310 #verse-0000001541202368 #verse-0000000867438301 #verse-0000001169259999 #verse-0000001313575610 #verse-0000001977333063 #verse-0000000432821164 #verse-0000001705450298 #verse-0000001756481358 #verse-0000000652933621 #verse-0000000878117741 #verse-0000001392002287 #verse-0000001224695142 #verse-0000000670675511 #verse-0000001284145321 #verse-0000000747360652 #verse-0000001361923549 #verse-0000001977066022 #verse-0000001743046099">AnGa-1603 – C<rend rend="sub">2,3</rend>A<rend rend="sub">2,3</rend>T<rend rend="sub">2,4</rend>B<rend rend="sub">2,3</rend>Q<rend rend="sub">2,4</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line7" label="7">
+                                <p>Aur'al</p>
+                                <list>
+                                    <li corresp="#verse-0000000652372596 #verse-0000000469532449 #verse-0000001036500027 #verse-0000000262441288">AnGa-1603 – TQ</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line7" label="7">
+                                <p>ball'Amori</p>
+                                <list>
+                                    <li corresp="#verse-0000002122673735 #verse-0000001852246076 #verse-0000000240714179 #verse-0000000097928042 #verse-0000002104876300 #verse-0000001656728428 #verse-0000000136426960 #verse-0000000848305556 #verse-0000001952424849 #verse-0000000332462528 #verse-0000000701805070 #verse-0000000642867014 #verse-0000001452107449 #verse-0000000189254491 #verse-0000000567483819 #verse-0000000649848022 #verse-0000000482277765 #verse-0000000563923403 #verse-0000000387986853 #verse-0000000287846466">AnGa-1595 – C<rend rend="sub">1</rend>A<rend rend="sub">1</rend>T<rend rend="sub">1</rend>B<rend rend="sub">1</rend>Q<rend rend="sub">1</rend>
+                                    </li>
+                                    <li corresp="#verse-0000002122673735 #verse-0000001852246076 #verse-0000000240714179 #verse-0000000097928042 #verse-0000002104876300 #verse-0000001656728428 #verse-0000000136426960 #verse-0000000848305556 #verse-0000001952424849 #verse-0000000332462528 #verse-0000000701805070 #verse-0000000642867014 #verse-0000001452107449 #verse-0000000189254491 #verse-0000000567483819 #verse-0000000649848022 #verse-0000000482277765 #verse-0000000563923403 #verse-0000000387986853 #verse-0000000287846466 #verse-0000000780309547 #verse-0000002132492407 #verse-0000001710049625 #verse-0000000297025379">Ma-Ga-1614 – C<rend rend="sub">1</rend>A<rend rend="sub">1</rend>T<rend rend="sub">1</rend>B<rend rend="sub">1</rend>Q<rend rend="sub">1,2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
