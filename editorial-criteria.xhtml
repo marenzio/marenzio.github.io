@@ -3,20 +3,18 @@ layout: default
 title: MODE - Editorial criteria
 active_section: editorial-criteria
 hide_secondary: true
+text: MODE-editorial-criteria
 ---
 
-<h3>Criteria for music</h3>
-
-<p>
-    The objectives of MODE concerning the presentation of the musical text of Marenzio’s secular works are: a) to provide its users with a text derived from a systematic collation of the sources, including the surviving copies of the first edition, and b) to display the musical text in a form that facilitates the study and the performance of the music.
-</p>
-
-<h3>Criteria for poetic text</h3>
-
-<p>
-    The goal of MODE concerning the presentation of the poetic text of Marenzio’s secular works is to provide performers and scholars with a correct, accurate, and readable text. The editorial criteria aim to maintain many of their original features, but to adapt others to the rules of modern Italian, for example spelling, accents and apostrophes.
-</p>
+<div id="text"></div>
 
 <script type="text/javascript">
-
+//<![CDATA[
+	$( document ).ready(function() {
+		var file = "{{ site.fakeurl }}texts/{{ page.text }}" + ".html";	
+		// load the file	
+		$( "#text" ).load( file, function() {		  
+		});				
+	});
+//]]>
 </script>

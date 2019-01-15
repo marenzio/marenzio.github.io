@@ -36,16 +36,16 @@ menu:
           - id: "contact"
             name:  "Contact us"
     - id: "editorial-criteria"
-      name: "Editorial criteria"
-      submenu:
-          - id: "editorial-criteria-music"
-            name: "Editorial criteria for the music (PDF)"
-            url: "/pdfs/Mode_Criteria_Music.pdf"
-            blank: true
-          - id: "editorial-criteria-text"
-            name: "Editorial criteria for the poetic texts (PDF)"
-            url: "/pdfs/Mode_Criteria_Text.pdf"
-            blank: true
+      name: "General editorial criteria"
+      #submenu:
+      #    - id: "editorial-criteria-music"
+      #      name: "Editorial criteria for the music (PDF)"
+      #      url: "/pdfs/Mode_Criteria_Music.pdf"
+      #      blank: true
+      #    - id: "editorial-criteria-text"
+      #      name: "Editorial criteria for the poetic texts (PDF)"
+      #      url: "/pdfs/Mode_Criteria_Text.pdf"
+      #      blank: true
     - id: "catalogue"
       name: "Catalogue"
       submenu:
