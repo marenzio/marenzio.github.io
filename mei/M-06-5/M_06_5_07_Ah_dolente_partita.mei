@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,46 +32,50 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Ah, dolente partita</rend>
-                        <lb/>Battista Guarini, <rend rend="italic">Il pastor fido</rend>, III, 3, 498–505
-                        <lb/>Madrigal: aaBcddeE
+                        <lb />Battista Guarini, <rend rend="italic">Il pastor fido</rend>, III, 3, 498–505
+                        <lb />Madrigal: aaBcddeE
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Ah, dolente partita!</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Ah, dolente partita!</td>
+                            <td>Ah, sorrowful parting!</td>
                         </tr>
-                        <tr>
-                            <td>Ah, fin de la mia vita!</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Ah, fin de la mia vita!</td>
+                            <td>Ah, end of my life!</td>
                         </tr>
-                        <tr>
-                            <td>Da te parto e non moro? Pur i’ provo</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Da te parto e non moro? Pur i’ provo</td>
+                            <td>I leave you, and how I do not dye? Yet I undergo</td>
                         </tr>
-                        <tr>
-                            <td>La pena de la morte</td><td></td>
+                        <tr xml:id="line4">
+                            <td>La pena de la morte</td>
+                            <td>the suffering of death</td>
                         </tr>
-                        <tr>
-                            <td>E sento nel partire</td><td></td>
+                        <tr xml:id="line5">
+                            <td>E sento nel partire</td>
+                            <td>and I feel in leaving</td>
                         </tr>
-                        <tr>
-                            <td>Un vivace morire,</td><td></td>
+                        <tr xml:id="line6">
+                            <td>Un vivace morire,</td>
+                            <td>an animated death</td>
                         </tr>
-                        <tr>
-                            <td>Che dà vita al dolore</td><td></td>
+                        <tr xml:id="line7">
+                            <td>Che dà vita al dolore</td>
+                            <td>that gives life to pain</td>
                         </tr>
-                        <tr>
-                            <td>Per far che moia immortalmente il core.</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Per far che moia immortalmente il core.</td>
+                            <td>so that the heart will die immortally.</td>
                         </tr>
                     </table>
-                </div> 
-                
+                </div>
                 <div>
                     <head>Contemporary editions</head>
                     <p>Battista Guarini, <rend rend="italic">Il pastor fido, tragicommedia pastorale</rend>, Venice: G.B. Ciotti, 1602, 163</p>
                 </div>
-                
                 <div>
                     <head>Notes</head>
                     <p>
@@ -81,22 +85,37 @@
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">7. Ah, dolente partita</rend>
+            <mdiv xml:id="mdiv-0000000487966775">
+                <score xml:id="score-0000000594815705">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000001859193090">
+                            <rend xml:id="rend-0000000688061967" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000584445522" fontsize="x-large">7. Ah, dolente partita</rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Battista Guarini)</rend>
+                            <rend xml:id="rend-0000002136850654" halign="right" valign="bottom">(Battista Guarini)</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
-                            <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                    <label xml:id="label-0000000344599345">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000593563292">C</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                    <label xml:id="label-0000001269993504">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001185454239">A</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
+                                    <label xml:id="label-0000000203441726">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000786223076">Q</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                    <label xml:id="label-0000000348554087">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000364820142">T</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
+                                    <label xml:id="label-0000000618059767">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000502028223">B</labelAbbr>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -486,7 +505,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001031906727" />
                         <measure xml:id="measure-0000001048922344" n="6">
                             <staff xml:id="staff-0000000603259346" n="1">
                                 <layer xml:id="layer-0000000709530735" n="1">
@@ -1279,7 +1298,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000120582706" />
                         <measure xml:id="measure-0000001575659275" n="15">
                             <staff xml:id="staff-0000000710005571" n="1">
                                 <layer xml:id="layer-0000001644489065" n="1">
@@ -1319,7 +1338,7 @@
                                     </note>
                                     <note xml:id="p1ced5n1792v1b15s1" dur="4" oct="5" pname="e">
                                         <verse xml:id="verse-0000000834236769" n="1">
-                                            <syl xml:id="syl-0000000096645320" wordpos="t">e</syl>
+                                            <syl xml:id="syl-0000000096645320" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1358,7 +1377,7 @@
                                     </note>
                                     <note xml:id="p1cgd4n1792v1b15s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-0000002067290790" n="1">
-                                            <syl xml:id="syl-0000000818382717" wordpos="t">e</syl>
+                                            <syl xml:id="syl-0000000818382717" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1397,7 +1416,7 @@
                                     </note>
                                     <note xml:id="p1ccd4n1792v1b15s3" dur="4" oct="4" pname="c">
                                         <verse xml:id="verse-0000001997071171" n="1">
-                                            <syl xml:id="syl-0000001753252034" wordpos="t">e</syl>
+                                            <syl xml:id="syl-0000001753252034" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1454,32 +1473,32 @@
                                 <layer xml:id="layer-0000000550021214" n="1">
                                     <note xml:id="p1cdd5n0v1b16s1" dots="1" dur="4" oct="5" pname="d">
                                         <verse xml:id="verse-0000001978646555" n="1">
-                                            <syl xml:id="syl-0000001328376090" con="d" wordpos="i">sen</syl>
+                                            <syl xml:id="syl-0000001328376090" fontstyle="italic" con="d" wordpos="i">sen</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n384v1b16s1" dur="8" oct="5" pname="d">
                                         <verse xml:id="verse-0000001032141749" n="1">
-                                            <syl xml:id="syl-0000001980958624" wordpos="t">to</syl>
+                                            <syl xml:id="syl-0000001980958624" fontstyle="italic" wordpos="t">to</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n512v1b16s1" dur="4" oct="5" pname="d">
                                         <verse xml:id="verse-0000000735619839" n="1">
-                                            <syl xml:id="syl-0000000499278294" wordpos="t">nel</syl>
+                                            <syl xml:id="syl-0000000499278294" fontstyle="italic" wordpos="t">nel</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd5n768v1b16s1" dur="4" oct="5" pname="c">
                                         <verse xml:id="verse-0000000435631070" n="1">
-                                            <syl xml:id="syl-0000000879640867" con="d" wordpos="i">par</syl>
+                                            <syl xml:id="syl-0000000879640867" fontstyle="italic" con="d" wordpos="i">par</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd4n1024v1b16s1" dur="2" oct="4" pname="b">
                                         <verse xml:id="verse-0000001557899251" n="1">
-                                            <syl xml:id="syl-0000001492087333" con="d" wordpos="i">ti</syl>
+                                            <syl xml:id="syl-0000001492087333" fontstyle="italic" con="d" wordpos="i">ti</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd4n1536v1b16s1" dur="2" oct="4" pname="b">
                                         <verse xml:id="verse-0000002135871846" n="1">
-                                            <syl xml:id="syl-0000000261472470" wordpos="t">re</syl>
+                                            <syl xml:id="syl-0000000261472470" fontstyle="italic" wordpos="t">re</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1488,32 +1507,32 @@
                                 <layer xml:id="layer-0000002017520427" n="1">
                                     <note xml:id="p1cgd4n0v1b16s2" dots="1" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-0000001076396745" n="1">
-                                            <syl xml:id="syl-0000000597850887" con="d" wordpos="i">sen</syl>
+                                            <syl xml:id="syl-0000000597850887" fontstyle="italic" con="d" wordpos="i">sen</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd4n384v1b16s2" dur="8" oct="4" pname="g">
                                         <verse xml:id="verse-0000000206633887" n="1">
-                                            <syl xml:id="syl-0000000414681610" wordpos="t">to</syl>
+                                            <syl xml:id="syl-0000000414681610" fontstyle="italic" wordpos="t">to</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd4n512v1b16s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-0000001143331273" n="1">
-                                            <syl xml:id="syl-0000000285031955" wordpos="t">nel</syl>
+                                            <syl xml:id="syl-0000000285031955" fontstyle="italic" wordpos="t">nel</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n768v1b16s2" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-0000000415871401" n="1">
-                                            <syl xml:id="syl-0000001638849269" con="d" wordpos="i">par</syl>
+                                            <syl xml:id="syl-0000001638849269" fontstyle="italic" con="d" wordpos="i">par</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1024v1b16s2" dur="2" oct="4" pname="e">
                                         <verse xml:id="verse-0000002001110474" n="1">
-                                            <syl xml:id="syl-0000000922340851" con="d" wordpos="i">ti</syl>
+                                            <syl xml:id="syl-0000000922340851" fontstyle="italic" con="d" wordpos="i">ti</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1536v1b16s2" dur="2" oct="4" pname="e">
                                         <verse xml:id="verse-0000001918768338" n="1">
-                                            <syl xml:id="syl-0000002125013414" wordpos="t">re</syl>
+                                            <syl xml:id="syl-0000002125013414" fontstyle="italic" wordpos="t">re</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -1522,28 +1541,28 @@
                                 <layer xml:id="layer-0000000760719307" n="1">
                                     <note xml:id="p1cbd3n0v1b16s3" dots="1" dur="4" oct="3" pname="b">
                                         <verse xml:id="verse-0000000087149698" n="1">
-                                            <syl xml:id="syl-0000000141127032" con="d" wordpos="i">sen</syl>
+                                            <syl xml:id="syl-0000000141127032" fontstyle="italic" con="d" wordpos="i">sen</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd3n384v1b16s3" dur="8" oct="3" pname="b">
                                         <verse xml:id="verse-0000001041075944" n="1">
-                                            <syl xml:id="syl-0000001814118699" wordpos="t">to</syl>
+                                            <syl xml:id="syl-0000001814118699" fontstyle="italic" wordpos="t">to</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd3n512v1b16s3" dur="4" oct="3" pname="b">
                                         <verse xml:id="verse-0000000124402659" n="1">
-                                            <syl xml:id="syl-0000001333901282" wordpos="t">nel</syl>
+                                            <syl xml:id="syl-0000001333901282" fontstyle="italic" wordpos="t">nel</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad3n768v1b16s3" dur="4" oct="3" pname="a">
                                         <verse xml:id="verse-0000002065831757" n="1">
-                                            <syl xml:id="syl-0000002066218850" con="d" wordpos="i">par</syl>
+                                            <syl xml:id="syl-0000002066218850" fontstyle="italic" con="d" wordpos="i">par</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n1024v1b16s3" dur="2" oct="3" pname="g">
                                         <accid xml:id="accid-0000001889143577" accid="s" />
                                         <verse xml:id="verse-0000000290377744" n="1">
-                                            <syl xml:id="syl-0000001295897424" con="d" wordpos="i">ti</syl>
+                                            <syl xml:id="syl-0000001295897424" fontstyle="italic" con="d" wordpos="i">ti</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n1536v1b16s3" dur="2" oct="3" pname="g">
@@ -1551,7 +1570,7 @@
                                             <accid xml:id="accid-0000001024044964" accid="s" func="edit" />
                                         </supplied>
                                         <verse xml:id="verse-0000001189762890" n="1">
-                                            <syl xml:id="syl-0000001124655013" wordpos="t">re</syl>
+                                            <syl xml:id="syl-0000001124655013" fontstyle="italic" wordpos="t">re</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -2178,7 +2197,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001765370645" />
                         <measure xml:id="measure-0000000193454433" n="24">
                             <staff xml:id="staff-0000000064552712" n="1">
                                 <layer xml:id="layer-0000000458188849" n="1">
@@ -2763,7 +2782,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000014810812" />
                         <measure xml:id="measure-0000001859224884" n="32">
                             <staff xml:id="staff-0000000736999625" n="1">
                                 <layer xml:id="layer-0000000067021479" n="1">
@@ -3032,7 +3051,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000000623170916" n="35" right="end">
+                        <measure xml:id="measure-0000000623170916" right="end" n="35">
                             <staff xml:id="staff-0000000989365807" n="1">
                                 <layer xml:id="layer-0000000305239528" n="1">
                                     <note xml:id="p1cad4n0v1b35s1" dur="breve" oct="4" pname="a">
@@ -3080,6 +3099,21 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000223736747" type="app-text">
+                            <annot corresp="#line7" label="7">
+                                <p>vit'al</p>
+                                <list>
+                                    <li corresp="#verse-0000000344194845 #verse-0000000143067893 #verse-0000000481728816 #verse-0000000020888633 #verse-0000000889006588 #verse-0000000325178922 #verse-0000001631732341 #verse-0000002014787145 #verse-0000001943238101 #verse-0000000567799348">AnGa-1603 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line8" label="8">
+                                <p>immortalment'il</p>
+                                <list>
+                                    <li corresp="#verse-0000002095615743 #verse-0000000237223801 #verse-0000001340098689 #verse-0000000962726673 #verse-0000001240544229 #verse-0000001666154120 #verse-0000001480065682 #verse-0000000654273716 #verse-0000000176108992 #verse-0000000888426172 #verse-0000001091662992 #verse-0000000637260111 #verse-0000000533064214 #verse-0000000160566928 #verse-0000000180984266">AnGa-1603 – C<rend rend="sub">2</rend>T<rend rend="sub">2</rend>Q<rend rend="sub">1</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>

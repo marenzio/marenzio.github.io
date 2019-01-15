@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Untitled Document</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date/>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by OpenOffice</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
+          <name/>
+          <date/>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p><anchor xml:id="id_page1"/>MODE 2014</p>
+      <p rend="center bold">General Editorial Criteria</p>
+      <p rend="bold">Text</p>
+      <p>The goal of MODE concerning the presentation of the poetic text of Marenzio's secular works is to provide performers and scholars with a correct, accurate, and readable text. The editorial criteria aim to maintain many of their original features, but to adapt others to the rules of modern Italian, for example spelling, accents and apostrophes.</p>
+      <p>The poetic text appearing in the critical apparatus is as close as possible to the one underlaid in the score</p>
+      <p>These intervention have been done tacitly:</p>
+      <list type="unordered">
+        <item>The letters <hi rend="italic">v</hi>  and <hi rend="italic">u</hi>  are graphically differentiated by following modern spelling</item>
+      </list>
+      <list type="unordered">
+        <item>Only a single form of lowercase <hi rend="italic">s</hi>  is used.</item>
+      </list>
+      <list type="unordered">
+        <item>Abbreviations are written out in full.</item>
+      </list>
+      <list type="unordered">
+        <item>The ampersand and the Latinism <hi rend="italic">et</hi>  are written out as <hi rend="italic">e</hi>  before words beginning with a consonant or a vowel other than <hi rend="italic">e</hi>. They are changed to <hi rend="italic">ed</hi>  before words beginning with <hi rend="italic">e</hi>.</item>
+      </list>
+      <list type="unordered">
+        <item>Accents have been normalized according to modern usage. Phonic accents have been introduced in case of ambiguity of meaning (ex: v&#xF2;to)</item>
+      </list>
+      <list type="unordered">
+        <item>Apostrophes have been normalized according to modern usage. The apostrophe is introduced-- or kept, if present--in the presence of elision (ex.: ond&#x2019;egli), apocope (ex: co&#x2019;, di&#x2019;), or aphaeresis of the masculine definite article (ex.: &#x2019;l). In the original partbooks it is common to find the apostrophe to indicate synaloepha even in the absence of an elision; this has always been eliminated.</item>
+      </list>
+      <list type="unordered">
+        <item>Elisions: because the same word often appears differently among the original partbooks (with the final vowel elided or present), the version presented by the majority of the voices is adopted and extended to all the other voices. In cases in which the elided and non-elided forms are split among an equal number of partbooks, the non-elided version is adopted for all the voices. The elided vowel is reintroduced only when there is ambiguity in meaning, pronunciation, or punctuation. In these last cases, the reintroduced vowel appears in italics.</item>
+      </list>
+      <p><anchor xml:id="id_page2"/>MODE 2014</p>
+      <list type="unordered">
+        <item>Because the same word often appears differently among the partbooks as including either a single or a double consonant (geminates), the version presented by the majority of the voices is adopted and extended to all the other voices. In cases in which the two versions are split among an equal number of partbooks, the version adopted for all the voices is the one closest to modern usage.</item>
+      </list>
+      <list type="unordered">
+        <item>Capitalization conforms to modern usage. Capitals are maintained at the beginning of a line. Capitals are kept in the case of personifications (e. g., <hi rend="italic">Amor</hi>).</item>
+      </list>
+      <list type="unordered">
+        <item>In the text under the notes, repeated words, lines, or syntagmas are separated by a comma, with the repeated segment starting with a lowercase letter even if it includes the beginning of a line (which is otherwise capitalized). Repeated segments that are not present as such in the underlaid text of the original partbooks appear in italics.</item>
+      </list>
+      <list type="unordered">
+        <item>Punctuation marks (periods, commas, colons, and semicolons, as well as question,</item>
+      </list>
+      <p>exclamation and quotation marks) are introduced or modified according to modern usage.</p>
+      <list type="unordered">
+        <item>Both the etymological and the diacritical <hi rend="italic">h</hi>  have been eliminated (for example, <hi rend="italic">havr&#xE0; &gt; avr&#xE0;,</hi> <hi rend="italic">ninphe </hi>&gt;<hi rend="italic">  ninfe</hi>,<hi rend="italic">  pharetra </hi>&gt;<hi rend="italic">  faretra</hi>,<hi rend="italic">  herba </hi>&gt;<hi rend="italic">  erba</hi>,<hi rend="italic">  boscho </hi>&gt;<hi rend="italic">  bosco</hi>). In general, the use of<hi rend="italic">  h </hi>has<hi rend="italic"> </hi>been modernized (<hi rend="italic">anc&#x2019;io</hi>  &gt; <hi rend="italic">anch&#x2019;io</hi>). In the case of <hi rend="italic">o</hi>  used as interjection, it appears as <hi rend="italic">oh</hi>  (unlike in the case of <hi rend="italic">o</hi>  used as a vocative, such as in <hi rend="italic">O bellissima Licori</hi>).</item>
+      </list>
+      <list type="unordered">
+        <item>The dental affricate <hi rend="italic">ti</hi>  has been changed to <hi rend="italic">zi</hi>. (e.g.: Gratie &gt; Grazie)</item>
+      </list>
+      <list type="unordered">
+        <item>The <hi rend="italic">i</hi>  devoid of any diacritical function has been eliminated.</item>
+      </list>
+      <list type="unordered">
+        <item>Compound prepositions and adverbs appear in synthetic form (ex: ne i &gt; nei). However, the analytical form of the compound prepositions is adopted when the synthetic form would have caused doubling of the consonant or stress change (de le, a la, <hi rend="italic">poi che</hi>, <hi rend="italic">ben che</hi>). <hi rend="italic">Al'hor</hi>  and <hi rend="italic">all'hor </hi>are changed to<hi rend="italic">  allor</hi>;<hi rend="italic">  tal'hor </hi>and<hi rend="italic">  tal hor </hi>to<hi rend="italic">  talor</hi>;<hi rend="italic">  ogn'hor </hi>to<hi rend="italic">  ognor.</hi></item>
+      </list>
+      <list type="unordered">
+        <item>Typos with no apparent meaning are included in the critical apparatus because they may provide information about the typographical genesis and filiation of the partbooks.</item>
+      </list>
+    </body>
+  </text>
+</TEI>

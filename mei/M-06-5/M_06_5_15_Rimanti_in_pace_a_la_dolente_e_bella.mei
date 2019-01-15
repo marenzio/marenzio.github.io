@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,81 +32,101 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">“Rimanti in pace”, a la dolente e bella / Ond’ei, di morte la sua faccia impressa</rend>
-                        <lb/>Livio Celiano (Angelo Grillo)
-                        <lb/>Sonnet: ABBA ABBA CDE CDE
+                        <lb />Livio Celiano (Angelo Grillo)
+                        <lb />Sonnet: ABBA ABBA CDE CDE
                     </p>
-                    
                     <table type="lyrics">
                         <tr type="void">
-                            <td><rend rend="italic">(Prima parte)</rend></td><td></td>
+                            <td>
+                                <rend rend="italic">(Prima parte)</rend>
+                            </td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>“Rimanti in pace”, a la dolente e bella</td><td></td>
+                        <tr xml:id="line1">
+                            <td>“Rimanti in pace”, a la dolente e bella</td>
+                            <td>“Remain in peace” Thyrsis said sighing</td>
                         </tr>
-                        <tr>
-                            <td>Cloride Tirsi sospirando disse.</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Cloride Tirsi sospirando disse.</td>
+                            <td>to the sorrowful and fair Chloris.</td>
                         </tr>
-                        <tr>
-                            <td>“Rimanti, io me ne vo, tal mi prescrisse</td><td></td>
+                        <tr xml:id="line3">
+                            <td>“Rimanti, io me ne vo, tal mi prescrisse</td>
+                            <td>“Remain, I shall go, this was prescribed</td>
                         </tr>
-                        <tr>
-                            <td>Legge, empio fato e sorte aspr’e rubella”.</td><td></td>
-                        </tr>
-                        <tr type="void">
-                            <td></td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Ed ella, ora dall’una e l’altra stella</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Stillando amaro umore, i lumi affisse</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Nei lumi del suo Tirsi e gli trafisse</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Il cor di pietosissime quadrella.</td><td></td>
+                        <tr xml:id="line4">
+                            <td>Legge, empio fato e sorte aspr’e rubella”.</td>
+                            <td>by law, cruel fate and harsh, hostile destiny”.</td>
                         </tr>
                         <tr type="void">
-                            <td></td><td></td>
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Ed ella, ora dall’una e l’altra stella</td>
+                            <td>And she, dripping bitter fluid </td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Stillando amaro umore, i lumi affisse</td>
+                            <td>now from one eye, now from the other,</td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Nei lumi del suo Tirsi e gli trafisse</td>
+                            <td>fixed her eyes in the eyes of her Thyrsis,</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Il cor di pietosissime quadrella.</td>
+                            <td>and pierced his heart with the most tender quarrels.</td>
                         </tr>
                         <tr type="void">
-                            <td><rend rend="italic">(Seconda parte)</rend></td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Ond’ei, di morte la sua faccia impressa,</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Disse: “Ahi, come n’andrò senz’il mio sole</td><td></td>
-                        </tr>
-                        <tr>
-                            <td>Di martir in martir, di doglie e ’n doglie?”</td><td></td>
+                            <td />
+                            <td />
                         </tr>
                         <tr type="void">
-                            <td></td><td></td>
+                            <td>
+                                <rend rend="italic">(Seconda parte)</rend>
+                            </td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Ed ella, da sospiri e pianti oppressa,</td><td></td>
+                        <tr xml:id="line9">
+                            <td>Ond’ei, di morte la sua faccia impressa,</td>
+                            <td>Whence he, with death imprinted on his face,</td>
                         </tr>
-                        <tr>
-                            <td>Debilmente formò queste parole:</td><td></td>
+                        <tr xml:id="line10">
+                            <td>Disse: “Ahi, come n’andrò senz’il mio sole</td>
+                            <td>said: “Alas, how can I go from here without my sun, </td>
                         </tr>
-                        <tr>
-                            <td>“Deh, cara anima mia, chi mi vi toglie?”</td><td></td>
+                        <tr xml:id="line11">
+                            <td>Di martir in martir, di doglie e ’n doglie?”</td>
+                            <td>from torment to torment, from pain to pain?”</td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line12">
+                            <td>Ed ella, da sospiri e pianti oppressa,</td>
+                            <td>And she, oppressed with sighs and tears,</td>
+                        </tr>
+                        <tr xml:id="line13">
+                            <td>Debilmente formò queste parole:</td>
+                            <td>faintly uttered these words:</td>
+                        </tr>
+                        <tr xml:id="line14">
+                            <td>“Deh, cara anima mia, chi mi vi toglie?”</td>
+                            <td>“Alas, my dear soul, who takes you away from me?”</td>
                         </tr>
                     </table>
-                </div>  
+                </div>
                 <div>
                     <head>Contemporary editions</head>
                     <p>
-                        In <rend rend="italic">Rime di diversi celebri poeti dell’età nostra</rend>, ed. G.B. Licino, Bergamo: Comino Ventura e Compagni, 1587 (<ptr target="http://books.google.it/books?id=bx88AAAAcAAJ&amp;dq=%22Rime%20di%20diversi%20celebri%20poeti%22&amp;hl=it&amp;pg=PP5#v=onepage&amp;q&amp;f=false" label="available online as of August 2014"/>); 
+                        In <rend rend="italic">Rime di diversi celebri poeti dell’età nostra</rend>, ed. G.B. Licino, Bergamo: Comino Ventura e Compagni, 1587 (<ptr target="http://books.google.it/books?id=bx88AAAAcAAJ&amp;dq=%22Rime%20di%20diversi%20celebri%20poeti%22&amp;hl=it&amp;pg=PP5#v=onepage&amp;q&amp;f=false" label="available online as of August 2014" />); 
                         <rend rend="italic">Nuova scielta di rime di diversi illustri poeti</rend>, Bergamo: Comino Ventura e Compagni, 1592.      
                     </p>
                 </div>
-                
                 <div>
                     <head>Notes</head>
                     <p>
@@ -117,22 +137,39 @@
             </div>
         </front>
         <body>
-            <mdiv label="part1">
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">15. “Rimanti in pace”, a la dolente e bella<lb/><rend fontsize="large" fontstyle="italic">Prima parte</rend></rend>
+            <mdiv xml:id="mdiv-0000000573050103" label="part1">
+                <score xml:id="score-0000000342397287">
+                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000001908550105">
+                            <rend xml:id="rend-0000000826707074" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001045470737" fontsize="x-large">15. “Rimanti in pace”, a la dolente e bella<lb xml:id="lb-0000000429445711" />
+                                    <rend xml:id="rend-0000001797441450" fontsize="large" fontstyle="italic">Prima parte</rend>
+                                </rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Livio Celiano [Angelo Grillo]</rend>
+                            <rend xml:id="rend-0000001518890612" halign="right" valign="bottom">(Livio Celiano [Angelo Grillo])</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000001064334258">
-                            <staffGrp xml:id="staffgrp-0000001874578343" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
+                                    <label xml:id="label-0000000761122569">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001635796261">C</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
+                                    <label xml:id="label-0000000261294583">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000601915899">A</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
+                                    <label xml:id="label-0000000615091341">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001149270256">Q</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
+                                    <label xml:id="label-0000000941585644">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000754790240">T</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
+                                    <label xml:id="label-0000001159006996">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001524890534">B</labelAbbr>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -470,7 +507,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001829013984" />
                         <measure xml:id="measure-0000001380173502" n="5">
                             <staff xml:id="staff-0000000729135693" n="1">
                                 <layer xml:id="layer-0000001041902469" n="1">
@@ -1128,6 +1165,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001420962590" type="app">
+                                <p>lyrics: "Tirsi" instead of "disse"</p>
+                                <list corresp="#p1ced4n768v1b10s2 #p1cfd4n1024v1b10s2">
+                                    <li>AnGa-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000001110537246" n="11">
                             <staff xml:id="staff-0000001622401585" n="1">
@@ -1309,7 +1352,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000375417935" />
                         <measure xml:id="measure-0000000878712154" n="13">
                             <staff xml:id="staff-0000002098408613" n="1">
                                 <layer xml:id="layer-0000001977107657" n="1">
@@ -1961,7 +2004,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000780379810" />
                         <measure xml:id="measure-0000000237504834" n="21">
                             <staff xml:id="staff-0000000225531322" n="1">
                                 <layer xml:id="layer-0000000196291899" n="1">
@@ -2900,7 +2943,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000539188406" />
                         <measure xml:id="measure-0000000025301864" n="29">
                             <staff xml:id="staff-0000000593063617" n="1">
                                 <layer xml:id="layer-0000001148605192" n="1">
@@ -3743,7 +3786,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000000478931086" n="37" right="end">
+                        <measure xml:id="measure-0000000478931086" right="end" n="37">
                             <staff xml:id="staff-0000000780020623" n="1">
                                 <layer xml:id="layer-0000001566429473" n="1">
                                     <note xml:id="p1cdd5n0v1b37s1" dur="breve" oct="5" pname="d">
@@ -3794,21 +3837,38 @@
                     </section>
                 </score>
             </mdiv>
-            <mdiv label="part2">
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134631253-2" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">Ond’ei, di morte la sua faccia impressa<lb/><rend fontsize="large" fontstyle="italic">Seconda parte</rend></rend>
+            <mdiv xml:id="mdiv-0000000713146221" label="part2">
+                <score xml:id="score-0000001119038619">
+                    <scoreDef xml:id="scoredef-0000001134631253-2" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000000546109950">
+                            <rend xml:id="rend-0000001325876388" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001766097522" fontsize="x-large">Ond’ei, di morte la sua faccia impressa<lb xml:id="lb-0000002139551606" />
+                                    <rend xml:id="rend-0000000521199695" fontsize="large" fontstyle="italic">Seconda parte</rend>
+                                </rend>
                             </rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000001064334258-2">
-                            <staffGrp xml:id="staffgrp-0000001874578343-2" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1-2" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2-2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3-2" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4-2" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5-2" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000001874578343-2" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
+                                    <label xml:id="label-0000000164640196">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001588659257">C</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd2-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
+                                    <label xml:id="label-0000001006315147">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001340538305">A</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd3-2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
+                                    <label xml:id="label-0000001487031583">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000328052902">Q</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd4-2" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
+                                    <label xml:id="label-0000000577652191">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001471080211">T</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd5-2" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
+                                    <label xml:id="label-0000000144807147">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000564513070">B</labelAbbr>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -4127,7 +4187,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000997409083" />
                         <measure xml:id="measure-0000001445008121" n="43">
                             <staff xml:id="staff-0000000000035202" n="1">
                                 <layer xml:id="layer-0000000591640014" n="1">
@@ -4858,7 +4918,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001576978759" />
                         <measure xml:id="measure-0000001239349221" n="51">
                             <staff xml:id="staff-0000000862655246" n="1">
                                 <layer xml:id="layer-0000000984618625" n="1">
@@ -4918,6 +4978,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000448825155" type="app">
+                                <p>sharp after (instead of before)</p>
+                                <list corresp="#p1cgd4n1536v1b51s2">
+                                    <li>Ma-Ga-1614</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-0000001864290926" n="52">
                             <staff xml:id="staff-0000000999888823" n="1">
@@ -5697,7 +5763,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001371390181" />
                         <measure xml:id="measure-0000001469903190" n="60">
                             <staff xml:id="staff-0000001921505779" n="1">
                                 <layer xml:id="layer-0000000888544067" n="1">
@@ -6490,7 +6556,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001548718690" />
                         <measure xml:id="measure-0000000163119295" n="67">
                             <staff xml:id="staff-0000001752565835" n="1">
                                 <layer xml:id="layer-0000000488286593" n="1">
@@ -6566,27 +6632,27 @@
                                 <layer xml:id="layer-0000001937057024" n="1">
                                     <note xml:id="p1ced4n0v1b67s4" dur="1" oct="4" pname="e">
                                         <verse xml:id="verse-0000000953792164" n="1">
-                                            <syl xml:id="syl-0000001566959140" wordpos="t">deh,</syl>
+                                            <syl xml:id="syl-0000001566959140" fontstyle="italic" wordpos="t">deh,</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1024v1b67s4" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-0000001817097965" n="1">
-                                            <syl xml:id="syl-0000000600553768" con="d" wordpos="i">ca</syl>
+                                            <syl xml:id="syl-0000000600553768" fontstyle="italic" con="d" wordpos="i">ca</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1280v1b67s4" dots="1" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-0000000784005983" n="1">
-                                            <syl xml:id="syl-0000001976381936" con="d" wordpos="i">ra_a</syl>
+                                            <syl xml:id="syl-0000001976381936" fontstyle="italic" con="d" wordpos="i">ra_a</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1664v1b67s4" dur="8" oct="4" pname="e">
                                         <verse xml:id="verse-0000001141867605" n="1">
-                                            <syl xml:id="syl-0000001454967643" con="d" wordpos="i">ni</syl>
+                                            <syl xml:id="syl-0000001454967643" fontstyle="italic" con="d" wordpos="i">ni</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd4n1792v1b67s4" dur="4" oct="4" pname="d">
                                         <verse xml:id="verse-0000001443888721" n="1">
-                                            <syl xml:id="syl-0000000872522747" wordpos="t">ma</syl>
+                                            <syl xml:id="syl-0000000872522747" fontstyle="italic" wordpos="t">ma</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6681,12 +6747,12 @@
                                     <note xml:id="p1ccd4n0v1b68s4" dur="1" oct="4" pname="c">
                                         <accid xml:id="accid-0000000040911149" accid="s" />
                                         <verse xml:id="verse-0000000398914203" n="1">
-                                            <syl xml:id="syl-0000000107063887" wordpos="t">mia,</syl>
+                                            <syl xml:id="syl-0000000107063887" fontstyle="italic" wordpos="t">mia,</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1024v1b68s4" dur="1" oct="4" pname="e">
                                         <verse xml:id="verse-0000001786894577" n="1">
-                                            <syl xml:id="syl-0000001925835991" wordpos="t">chi</syl>
+                                            <syl xml:id="syl-0000001925835991" fontstyle="italic" wordpos="t">chi</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6807,12 +6873,12 @@
                                 <layer xml:id="layer-0000000005900868" n="1">
                                     <note xml:id="p1cad4n0v1b69s4" dur="1" oct="4" pname="a">
                                         <verse xml:id="verse-0000000268102143" n="1">
-                                            <syl xml:id="syl-0000000572025995" wordpos="t">mi</syl>
+                                            <syl xml:id="syl-0000000572025995" fontstyle="italic" wordpos="t">mi</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad3n1024v1b69s4" dur="1" oct="3" pname="a">
                                         <verse xml:id="verse-0000000549561393" n="1">
-                                            <syl xml:id="syl-0000000151166404" wordpos="t">vi</syl>
+                                            <syl xml:id="syl-0000000151166404" fontstyle="italic" wordpos="t">vi</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6860,7 +6926,7 @@
                                 <layer xml:id="layer-0000000728576557" n="1">
                                     <note xml:id="p1cad3n0v1b70s4" dur="breve" oct="3" pname="a">
                                         <verse xml:id="verse-0000001719583537" n="1">
-                                            <syl xml:id="syl-0000000205585033" con="d" wordpos="i">to</syl>
+                                            <syl xml:id="syl-0000000205585033" fontstyle="italic" con="d" wordpos="i">to</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6875,7 +6941,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000000472250999" n="71" right="end">
+                        <measure xml:id="measure-0000000472250999" right="end" n="71">
                             <staff xml:id="staff-0000000587228395" n="1">
                                 <layer xml:id="layer-0000001860276800" n="1">
                                     <note xml:id="p1cad4n0v1b71s1" dur="breve" oct="4" pname="a">
@@ -6908,7 +6974,7 @@
                                 <layer xml:id="layer-0000001838747367" n="1">
                                     <note xml:id="p1cad3n0v1b71s4" dur="breve" oct="3" pname="a">
                                         <verse xml:id="verse-0000001308356016" n="1">
-                                            <syl xml:id="syl-0000001454499279" wordpos="t">glie?”</syl>
+                                            <syl xml:id="syl-0000001454499279" fontstyle="italic" wordpos="t">glie?”</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6923,6 +6989,64 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000001111447500" type="app-text">
+                            <annot corresp="#line4" label="4">
+                                <p>legg'empio</p>
+                                <list>
+                                    <li corresp="#verse-0000000566397718 #verse-0000001105446747 #verse-0000000742810014 #verse-0000001156453373 #verse-0000000562205636 #verse-0000000256638705 #verse-0000001142047228 #verse-0000001685795207 #verse-0000000185689688">AnGa-1603 – CAQ</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line5" label="5">
+                                <p>dall'un'e</p>
+                                <list>
+                                    <li corresp="#verse-0000000414462418 #verse-0000000388149673 #verse-0000001562280828 #verse-0000000829944851 #verse-0000000707630280 #verse-0000000590616753 #verse-0000000069197697 #verse-0000000615184021 #verse-0000000835044714 #verse-0000001929753348 #verse-0000000918575596 #verse-0000000616458922 #verse-0000001372788919 #verse-0000001230678233 #verse-0000001977333063">AnGa-1603 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <p>stilland'amaro</p>
+                                <list>
+                                    <li corresp="#verse-0000000809084446 #verse-0000000997562699 #verse-0000001070009781 #verse-0000000058777045 #verse-0000000952023557 #verse-0000000811801195 #verse-0000000832301146 #verse-0000000886777658 #verse-0000001779120181 #verse-0000000701805070">AnGa-1594 – C<rend rend="sub">2</rend>T<rend rend="sub">2</rend>
+                                    </li>
+                                    <li corresp="#verse-0000000738446522 #verse-0000001575635158 #verse-0000000171637333 #verse-0000001688532576 #verse-0000001587938872 #verse-0000000811801195 #verse-0000000832301146 #verse-0000000886777658 #verse-0000001779120181 #verse-0000000701805070 #verse-0000000442723890 #verse-0000001190055230 #verse-0000000506142104 #verse-0000001407045646 #verse-0000000344058931 #verse-0000001159307973 #verse-0000000731140321 #verse-0000001462872430 #verse-0000000467135459 #verse-0000001925156889">AnGa-1603 – C<rend rend="sub">1</rend>T<rend rend="sub">2</rend>BQ<rend rend="sub">2</rend>
+                                    </li>
+                                    <li corresp="#verse-0000000811801195 #verse-0000000832301146 #verse-0000000886777658 #verse-0000001779120181 #verse-0000000701805070">Ma-Ga-1614 – T<rend rend="sub">2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line11" label="11">
+                                <p>dogli'e</p>
+                                <list>
+                                    <li corresp="#verse-0000001984604797 #verse-0000000753605328 #verse-0000001922914744 #verse-0000002018653095 #verse-0000001969118231 #verse-0000000051329003 #verse-0000000918197843 #verse-0000001769046727 #verse-0000001221943810 #verse-0000001416356197 #verse-0000001748058613 #verse-0000000987467589">AnGa-1603 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line12" label="12">
+                                <p>opressa</p>
+                                <list>
+                                    <li corresp="#verse-0000001026342764 #verse-0000000312465512 #verse-0000000644949740">AnGa-1603 – T</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line14" label="14">
+                                <p>Dhe</p>
+                                <list>
+                                    <li corresp="#verse-0000001406102371 #verse-0000001488274936">AnGa-1594 – T<rend rend="sub">4</rend>Q<rend rend="sub">4</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line14" label="14">
+                                <p>car'anima</p>
+                                <list>
+                                    <li corresp="#verse-0000000563513964 #verse-0000000090101535 #verse-0000000877354590 #verse-0000000960233914 #verse-0000001303624984 #verse-0000001911914282 #verse-0000001429422717 #verse-0000001559986487 #verse-0000002134123080 #verse-0000000392727336 #verse-0000000050724139 #verse-0000000094603911 #verse-0000000165426264 #verse-0000000349472608 #verse-0000000191656093 #verse-0000000726671670 #verse-0000000523965577 #verse-0000000030915659 #verse-0000000169329885 #verse-0000000091848545 #verse-0000000792347286 #verse-0000000543500199 #verse-0000000019705627 #verse-0000000908781330 #verse-0000002055195179 #verse-0000002097634049 #verse-0000000646326191 #verse-0000001648688654 #verse-0000001106408540 #verse-0000001787202286 #verse-0000000532125280 #verse-0000001872181377 #verse-0000000908777371 #verse-0000000210873051 #verse-0000001417876614 #verse-0000000133731500 #verse-0000000645074323 #verse-0000000739549853 #verse-0000001379581135 #verse-0000001217305187 #verse-0000000555089873 #verse-0000001032554613 #verse-0000001010640431 #verse-0000000011428149 #verse-0000000688882917 #verse-0000001636083106 #verse-0000000868929144 #verse-0000001133291250">AnGa-1603 – C<rend rend="sub">2,3</rend>A<rend rend="sub">2,3</rend>T<rend rend="sub">2,3,4</rend>B<rend rend="sub">2</rend>Q<rend rend="sub">2,3,4,5</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line14" label="14">
+                                <p>animia</p>
+                                <list>
+                                    <li corresp="#verse-0000000349472608 #verse-0000000191656093 #verse-0000000726671670 #verse-0000000739549853 #verse-0000001379581135 #verse-0000001217305187">Ma-Ga-1614 – C<rend rend="sub">3</rend>T<rend rend="sub">3</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>

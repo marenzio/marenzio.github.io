@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,82 +32,108 @@
             <div>
                 <div>
                     <head>Edition and commentary</head>
-                    
                     <p>
                         <rend rend="bold">Udite, lagrimosi</rend>
-                        <lb/>Battista Guarini, <rend rend="italic">Il pastor fido</rend>, III, 6, 814–826
-                        <lb/>Unrhymed eleven- and seven-syllable lines <rend rend="italic">(endecasillabi e settenari sciolti)</rend>
+                        <lb />Battista Guarini, <rend rend="italic">Il pastor fido</rend>, III, 6, 814–826
+                        <lb />Unrhymed eleven- and seven-syllable lines <rend rend="italic">(endecasillabi e settenari sciolti)</rend>
                     </p>
-                    
                     <table type="lyrics">
-                        <tr>
-                            <td>Udite, lagrimosi</td><td></td>
+                        <tr xml:id="line1">
+                            <td>Udite, lagrimosi</td>
+                            <td>Hear, o tearful spirits of Avernus,</td>
                         </tr>
-                        <tr>
-                            <td>Spirti d’Averno, udite</td><td></td>
+                        <tr xml:id="line2">
+                            <td>Spirti d’Averno, udite</td>
+                            <td>hear of a new kind of pain and torment;</td>
                         </tr>
-                        <tr>
-                            <td>Nova sorte di pena e di tormento;</td><td></td>
+                        <tr xml:id="line3">
+                            <td>Nova sorte di pena e di tormento;</td>
+                            <td />
                         </tr>
-                        <tr>
-                            <td>Mirate crudo affetto</td><td></td>
+                        <tr xml:id="line4">
+                            <td>Mirate crudo affetto</td>
+                            <td>behold a ruthless sentiment</td>
                         </tr>
-                        <tr>
-                            <td>In sembiante pietoso:</td><td></td>
+                        <tr xml:id="line5">
+                            <td>In sembiante pietoso:</td>
+                            <td>in compassionate guise:</td>
                         </tr>
-                        <tr>
-                            <td>La mia donna, crudel più dell’inferno,</td><td></td>
+                        <tr xml:id="line6">
+                            <td>La mia donna, crudel più dell’inferno,</td>
+                            <td>my lady, more cruel than Hell,</td>
                         </tr>
-                        <tr>
-                            <td>Perch’una sola morte</td><td></td>
+                        <tr xml:id="line7">
+                            <td>Perch’una sola morte</td>
+                            <td>since one death alone</td>
                         </tr>
-                        <tr>
-                            <td>Non può far sazia la sua ingorda voglia</td><td></td>
+                        <tr xml:id="line8">
+                            <td>Non può far sazia la sua ingorda voglia</td>
+                            <td>cannot satisfy her voracious lust</td>
                         </tr>
-                        <tr>
-                            <td>(E la mia vita è quasi</td><td></td>
+                        <tr xml:id="line9">
+                            <td>(E la mia vita è quasi</td>
+                            <td>(and my life is almost</td>
                         </tr>
-                        <tr>
-                            <td>Una perpetua morte),</td><td></td>
+                        <tr xml:id="line10">
+                            <td>Una perpetua morte),</td>
+                            <td>a perpetual death)</td>
                         </tr>
-                        <tr>
-                            <td>Mi comanda ch’io viva</td><td></td>
+                        <tr xml:id="line11">
+                            <td>Mi comanda ch’io viva</td>
+                            <td>commands me to live,</td>
                         </tr>
-                        <tr>
-                            <td>Perché la vita mia</td><td></td>
+                        <tr xml:id="line12">
+                            <td>Perché la vita mia</td>
+                            <td>so that my life should be</td>
                         </tr>
-                        <tr>
-                            <td>Di mille morti il dì ricetto sia.</td><td></td>
+                        <tr xml:id="line13">
+                            <td>Di mille morti il dì ricetto sia.</td>
+                            <td>the abode of a thousand deaths a day.</td>
                         </tr>
                     </table>
-                </div>   
+                </div>
                 <div>
                     <head>Contemporary editions</head>
-                    <p>Battista Guarini, <rend rend="italic">Il pastor fido, tragicommedia pastorale</rend>, Venice: G.B. Ciotti, 1602, 192.</p> 
+                    <p>Battista Guarini, <rend rend="italic">Il pastor fido, tragicommedia pastorale</rend>, Venice: G.B. Ciotti, 1602, 192.</p>
                 </div>
                 <div>
                     <head>Notes</head>
-                    <p>The 1602 “definitive” edition of <rend rend="italic">Il pastor fido</rend> has “<rend rend="italic">fiera voglia</rend>” at line 8 (besides other minor variants). For the whole problem of the variants and adaptations in Marenzio’s settings from Il pastor fido, see Cecchi, “List of Secular and Devotional Compositions by Luca Marenzio”, 490, n.XLVI, and the literature quoted there.</p>    
+                    <p>The 1602 “definitive” edition of <rend rend="italic">Il pastor fido</rend> has “<rend rend="italic">fiera voglia</rend>” at line 8 (besides other minor variants). For the whole problem of the variants and adaptations in Marenzio’s settings from Il pastor fido, see Cecchi, “List of Secular and Devotional Compositions by Luca Marenzio”, 490, n.XLVI, and the literature quoted there.</p>
                 </div>
             </div>
         </front>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">5. Udite, lagrimosi</rend>
+            <mdiv xml:id="mdiv-0000000542439990">
+                <score xml:id="score-0000000033742118">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="cut" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                        <pgHead xml:id="pghead-0000000644861807">
+                            <rend xml:id="rend-0000001654804930" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001494485243" fontsize="x-large">5. Udite, lagrimosi</rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Battista Guarini)</rend>
+                            <rend xml:id="rend-0000000741317286" halign="right" valign="bottom">(Battista Guarini)</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000000079390600">
-                            <staffGrp xml:id="staffgrp-0000000730469413" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                            <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
+                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
+                                    <label xml:id="label-0000000714854912">Canto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000153501753">C</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
+                                    <label xml:id="label-0000000348577221">Alto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000002025690067">A</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
+                                    <label xml:id="label-0000001631894044">Quinto</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001296049508">Q</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
+                                    <label xml:id="label-0000000584298838">Tenore</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001679934229">T</labelAbbr>
+                                </staffDef>
+                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
+                                    <label xml:id="label-0000000242575222">Basso</label>
+                                    <labelAbbr xml:id="labelAbbr-0000000701362797">B</labelAbbr>
+                                </staffDef>
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -399,7 +425,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000955078710" />
                         <measure xml:id="measure-0000000777114231" n="6">
                             <staff xml:id="staff-0000000091875325" n="1">
                                 <layer xml:id="layer-0000000107845082" n="1">
@@ -1162,7 +1188,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001428893137" />
                         <measure xml:id="measure-0000001464484666" n="16">
                             <staff xml:id="staff-0000000035715728" n="1">
                                 <layer xml:id="layer-0000001126302983" n="1">
@@ -1873,7 +1899,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000000648305460" />
                         <measure xml:id="measure-0000002133460311" n="25">
                             <staff xml:id="staff-0000000552678166" n="1">
                                 <layer xml:id="layer-0000000995162687" n="1">
@@ -3344,7 +3370,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <sb/>
+                        <sb xml:id="sb-0000001159031118" />
                         <measure xml:id="measure-0000001097067341" n="42">
                             <staff xml:id="staff-0000001507595796" n="1">
                                 <layer xml:id="layer-0000000002992419" n="1">
@@ -4030,7 +4056,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-0000001981000319" n="50" right="end">
+                        <measure xml:id="measure-0000001981000319" right="end" n="50">
                             <staff xml:id="staff-0000001412791225" n="1">
                                 <layer xml:id="layer-0000000055433696" n="1">
                                     <note xml:id="p1ced4n0v1b50s1" dur="breve" oct="4" pname="e">
@@ -4078,6 +4104,20 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000001557622020" type="app-text">
+                            <annot corresp="#line6" label="6">
+                                <p>cudel</p>
+                                <list>
+                                    <li corresp="#verse-0000001680427451 #verse-0000000878743017 #verse-0000001447102986 #verse-0000001085589504 #verse-0000002010784523">AnGa-1603 – Q</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line13" label="13">
+                                <p>mort'il</p>
+                                <list>
+                                    <li corresp="#verse-0000000619088996 #verse-0000000504645303 #verse-0000001845767666 #verse-0000001097229027 #verse-0000002077652366 #verse-0000001625573271 #verse-0000001589185204 #verse-0000000413348235 #verse-0000000168599417 #verse-0000001823786218">AnGa1603 – all voices</li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
