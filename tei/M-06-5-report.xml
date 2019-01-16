@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author>Laurent Pugin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2019-01-16</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>unknown</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+          <label>DOCX to TEI</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
+          <date>2019-01-16T06:41:58Z</date>
+          <name>Laurent Pugin</name>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Abbreviations</head>
+        <div>
+          <head>Voices</head>
+          <p><hi rend="bold">C </hi>= Canto (<hi rend="bold">C1</hi> = Canto, first choir; <hi rend="bold">C</hi><hi rend="bold subscript">1</hi> =
+            Canto, first repetition)</p>
+          <p><hi rend="bold">A </hi>= Alto </p>
+          <p><hi rend="bold">T </hi>= Tenore</p>
+          <p><hi rend="bold">B </hi>= Basso</p>
+          <p><hi rend="bold">Q </hi>= Quinto </p>
+        </div>
+        <div>
+          <head>Other abbreviations</head>
+          <p><hi rend="bold">SB </hi>= Semibrevis </p>
+          <p><hi rend="bold">M </hi>= Minim </p>
+          <p><hi rend="bold">SM </hi>= Semiminim</p>
+          <p><hi rend="bold">F </hi>= Fusa</p>
+        </div>
+      </div>
+      <div>
+        <head>Music</head>
+        <p><hi rend="bold">Musical sources used for collation</hi>: <hi rend="italic">AnGa</hi>, 1594, <hi rend="italic">AnGa</hi>, 1603, <hi rend="italic">Ma-Ga</hi>, 1614</p>
+        <p>Sources (see &#x201C;<ref target="/digital-edition/M-06-5.xhtml?id=sources">Description of the sources and consulted copies</ref>&#x201D;
+          for fuller details):</p>
+        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1594</hi> = first edition, Venice: Angelo Gardano, 1594 </p>
+        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1603</hi> = re-edition, Venice: Angelo Gardano, 1603</p>
+        <p><hi rend="italic bold">Ma-Ga</hi><hi rend="bold">, 1614 </hi>= re-edition, Venice: Magni-Gardano, 1614</p>
+        <p><hi rend="italic bold">Ka</hi><hi rend="bold">, 1601</hi> = re-edition in <hi rend="italic">Lucae Marentii &#x2026; madrigalia quinque
+            vocum &#x2026; uno volumine conjunctim excusa</hi>, Nuremberg: Paul Kauffmann, 1601.</p>
+        <p><hi rend="italic bold">Ph</hi><hi rend="bold">, 1609 </hi>= re-edition in <hi rend="italic">Di Luca Marenzio &#x2026; Il sesto, settimo,
+            ottavo et nono libro, suo testamento, de madrigali a cinque voci</hi>, Antwerp: Pierre Phal&#xE8;se, 1609</p>
+        <p><hi rend="italic bold">Ph</hi><hi rend="bold"> [heirs], 1632 </hi>= re-edition in <hi rend="italic">Di Luca Marenzio &#x2026; Il sesto,
+            settimo, ottavo et nono libro, suo testamento, de madrigali a cinque voci</hi>, Antwerp: Heirs of Pierre Phal&#xE8;se, 1632</p>
+        <p><hi rend="bold">1612</hi><hi rend="bold superscript">18</hi> = <hi rend="italic">Delitiae mvsicae, sive Cantiones, e quamplurimis
+            praestantissimorum nostri aeui Musicorum Libris selectae. Ad Testudinis usum accomodatae, Opera atque industria Ioachimi Vanden Hove</hi>,
+          Utrecht: Salomon de Roy, 1612. </p>
+        <p><hi rend="bold">1616</hi><hi rend="bold superscript">8</hi> = <hi rend="italic">Madrigali de diversi auttori, accomodati per concerti
+            spirituali, dal R. P. F. Girolamo Cavaglieri dell&#x2019;ordine di S. Basilio. Opera quinta</hi>, Loano: F. Castello, 1616 (incompl.)</p>
+        <div>
+          <head> Editorial methods </head>
+          <p>The editorial criteria conform to the <ref target="/editorial-criteria.xhtml">General editorial criteria</ref> for MODE. </p>
+          <p>The occasional substitution of a segment of text with a repetition sign (or, much more rarely, vice versa) in the re-editions has not
+            been recorded in the apparatus; in general, both <hi rend="italic">AnGa</hi>, 1603 and <hi rend="italic">Ma-Ga</hi>, 1614 tend to have
+            more repetition signs than <hi rend="italic">AnGa</hi>, 1594.</p>
+          <p>A note on the equivalences in madrigal no. 16, <hi rend="italic">Ecco Maggio seren, chi l&#x2019;ha vestito</hi>. The piece, set in <hi rend="bold">C</hi>, presents three passages in triple meter (mm. 8&#x2013;17, 34&#x2013;37, and 43&#x2013;50),
+            each introduced by the sign <hi rend="bold">3, </hi>with perfection at the level of <hi rend="italic">semibrevis</hi> (groups of 3 <hi rend="italic">minimae</hi>). As it is often the case in late sixteenth- and early seventeenth-century
+            vocal music, a strictly proportional interpretation of the sign <hi rend="bold">3</hi> seems to lead to
+            unsatisfactory results, and it seems preferable to maintain a steady basic beat between duple and triple time sections (<hi rend="bold">C</hi> &#x1D15F; = <hi rend="bold">3</hi> &#x1D15E; ). The equivalences provided in the
+            score should be interpreted as an orientation from which performers can develop appropriate mensural relationships as they shift between
+            duple and triple meters.</p>
+        </div>
+      </div>
+      <div>
+        <head>Poetic text</head>
+        <p>Sources (see &#x201C;<ref target="/digital-edition/M-06-5.xhtml?id=sources">Description of the sources and consulted copies</ref>&#x201D;
+          for fuller details):</p>
+        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1594</hi> = first edition, Venice: Angelo Gardano, 1594 </p>
+        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1603</hi> = re-edition, Venice: Angelo Gardano, 1603 </p>
+        <p><hi rend="italic bold">Ma-Ga</hi><hi rend="bold">, 1614 </hi>= re-edition, Venice: Magni-Gardano, 1614 </p>
+        <div>
+          <head> Editorial methods </head>
+          <p>The editorial criteria conform to the <ref target="/editorial-criteria.xhtml">General editorial criteria</ref> for the MODE, except for the following:</p>
+          <p>- In no. 14, line 2 (&#x201C;Ed io morir desio,&#x201D;), I have rendered the Latinism <hi rend="italic">et</hi> as <hi rend="italic">ed</hi> (instead of <hi rend="italic">e</hi>), maintaining the euphonic <hi rend="italic">d</hi>, as it is customary for the phrase <hi rend="italic">ed io</hi>. </p>
+          <p>- When in the score there is a structural repetition of the last two lines (as in nos. 1 and 3), I have maintained the capitalized first
+            letter at the beginning of the repeated lines.</p>
+          <p>References to Contemporary editions are provided based primarily on Cecchi&#x2019;s &#x201C;List of Secular and Devotional Compositions
+            by Luca Marenzio&#x201D;<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> In <hi rend="italic">Perspectives on Luca
+                  Marenzio&#x2019;s Secular Music</hi>, ed. by Mauro Calcagno (Turnhout: Centre d&#x2019;&#xE9;tudes sup&#xE9;rieures de la
+                Renaissance - Brepols, 2014), 465&#x2013;522.</p></note> and on RePIM (<ref target="http://repim.muspe.unibo.it/">http://repim.muspe.unibo.it/</ref>), occasionally integrated with other available information, but without pretence of
+            completeness.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

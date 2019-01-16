@@ -20,13 +20,13 @@
 	</div>
 	
 	<div class="col-md-9">	
-		<div class="panel-body">
-    		<h2 class="book-heading">
-    		    {{ page.header }}
-    		</h2>
-		</div>
-		<div class="panel-body" id="text">
-		</div>
+		<h2 class="text-title">
+		    {{ page.text-title }}
+		</h2>
+        <h2 class="text-title">
+            <span class="text-subtitle" id="text-subtitle"></span>
+        </h2>
+		<div id="text"></div>
 	</div>
 </div>
 
@@ -37,6 +37,11 @@
 	    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
 	    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 	}
+    
+    var titles = new Object();
+    {% for text in page.texts %}
+        titles['{{ text.id }}'] = "{{ text.name }}"
+    {% endfor %}
 
 	$( document ).ready(function() {
 		
@@ -48,6 +53,7 @@
 		// load the file	
 		$( "#text" ).load( file, function() {		  
 		});
+		$( "#text-subtitle" ).html( titles[id] );
 		// activate the link menu
 		$( "#link-" + id ).addClass( "active" );
 				
