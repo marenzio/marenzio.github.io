@@ -18,6 +18,28 @@
     </head>
     <body>
         
+        <!--///////////////////////////-->
+        <!-- A div with the SVG filter -->
+        <!--///////////////////////////-->
+        <div style="height: 0px;">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" overflow="visible">
+                <defs>
+                    <filter id="highlighting" x="-50%" y="-50%" width="200%" height="200%">
+                        <feFlood flood-color="coral" result="base"/>
+                        <feGaussianBlur in="SourceAlpha" result="blur-out" stdDeviation="50"/>
+                        <feOffset in="blur-out" result="the-shadow"/>
+                        <feColorMatrix in="the-shadow" result="color-out" type="matrix"
+                            values="0 0 0 0   0
+                                    0 0 0 0   0
+                                    0 0 0 0   0
+                                    0 0 0 1.5 0"/>
+                        <feComposite result="drop" in="base" in2="color-out" operator="in"/>
+                        <feBlend in="SourceGraphic" in2="drop" mode="normal"/>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+        
         <div id="overlay">
             <div class="navbar navbar-inverse"></div>
             <div class="loading-text">Loading ...</div>
@@ -50,6 +72,16 @@
             var part = {% if page.parts %}1{% else %}0{% endif %};
             var mdivXPathQuery = "";
             var ids = [];
+            var idsOff = [];
+            
+            var audioClock;
+            var audioIndex;
+            var audioMap = [];
+            var audioIndex;
+            var timeMap = [];
+            var timeMapIndex;
+            var qstamp;
+
 
             // reload cookies
             if ( $.cookie('zoom') ) zoom = $.cookie('zoom');
@@ -90,9 +122,8 @@
                             spacingSystem: 8,
                             unit: 9
                         }
-                // console.log( options );
                 vrvToolkit.setOptions( options );
-                console.log(options);
+                //console.log(options);
             }
             
             function loadFile() {
@@ -112,6 +143,9 @@
                 clicked_ids = "";
                 setOptions();
                 vrvToolkit.loadData(data);
+                {% if page.audio %}
+                timeMap = vrvToolkit.renderToTimemap();
+                {% endif %}
 
                 $("#total_text").html(vrvToolkit.getPageCount());
                 page = 1;
@@ -158,7 +192,7 @@
                 var ids = highlighted.split(" ");
                 var i;
                 for (i = 0; i < ids.length; i++) {
-                    d3.selectAll( ids[i] + highligtedType + " *" ).style("fill", "#e25402").style("stroke", "#e25402");
+                    d3.selectAll( ids[i] + highligtedType + " *" ).style('filter', 'url(#highlighting)');
                 }
             }
             
@@ -196,11 +230,11 @@
                                 if (i == 0) {
                                     element.attr("class", "highlight")
                                         .attr('data-content', s.html() )
-                                        .style("fill", "#e25402").style("stroke", "#e25402");                                    
+                                        .style('filter', 'url(#highlighting)');
                                 }
                                 else {
                                 element.attr("class", "highlight")
-                                    .style("fill", "#e25402").style("stroke", "#e25402"); 
+                                    .style('filter', 'url(#highlighting)');
                                 }
 
                             }
@@ -396,18 +430,13 @@
                     if ((elementsattime.notes.length > 0) && (ids != elementsattime.notes)) {
                         ids.forEach(function(noteid) {
                             if ($.inArray(noteid, elementsattime.notes) == -1) {
-                                $("#" + noteid ).attr("fill", "#000");
-                                $("#" + noteid ).attr("stroke", "#000"); 
-                                //$("#" + noteid ).removeClassSVG("highlighted"); 
+                                $("#" + noteid ).css('filter', '');
                             }
                         });
                         ids = elementsattime.notes;
                         ids.forEach(function(noteid) {
                             if ($.inArray(noteid, elementsattime.notes) != -1) {
-                            //console.log(noteid);
-                                $("#" + noteid ).attr("fill", "#c00");
-                                $("#" + noteid ).attr("stroke", "#c00");; 
-                                //$("#" + noteid ).addClassSVG("highlighted"); 
+                                $("#" + noteid ).css('filter', 'url(#highlighting)');
                             }
                         }); 
                     }
@@ -416,13 +445,97 @@
     
             var midiStop = function() {
                 ids.forEach(function(noteid) {
-                    $("#" + noteid ).attr("fill", "#000");
-                    $("#" + noteid ).attr("stroke", "#000"); 
+                    $("#" + noteid ).css('filter', '');
                     //$("#" + noteid ).removeClassSVG("highlighted"); 
                 });
                 $("#player").hide();
                 $("#play-button").show();
             }
+            
+            Array.prototype.diff = function(a) {
+                return this.filter(function(i) {return a.indexOf(i) < 0;});
+            };
+            
+            {% if page.audio %}
+            var audioUpdate = function() {
+                var currentTime = document.getElementById("audioPlayer").currentTime * 1000;
+                //console.log(currentTime);
+                var i = audioIndex;
+                for (i = audioIndex; i < audioMap.length; i++) {
+                    if (audioMap[i].time > currentTime) {
+                        break;
+                    }
+                }
+                if (i === audioMap.length) {
+                    on.forEach(function(noteid) {
+                        $("#" + noteid ).css('filter', '');
+                    });
+                    return;
+                }
+                
+                audioIndex = i;
+                //console.log(currentTime, audioMap[audioIndex - 1].time, audioMap[audioIndex].time);
+                percent = (currentTime - audioMap[audioIndex - 1].time) / (audioMap[audioIndex].time - audioMap[audioIndex - 1].time);
+                if (percent < 0) {
+                    return;
+                }
+                percent = Math.max(Math.min(percent, 1.0), 0.0).toFixed(3) * {{ page.audioQstamp }};
+                qstamp = audioMap[audioIndex - 1].qstamp + percent;
+                //console.log(qstamp);
+                var j = timeMapIndex - 1;
+                on = [];
+                off = [];
+                
+                for (; j < timeMap.length; j++) {
+                    if (timeMap[j].qstamp > qstamp) {
+                        break;
+                    }
+                    if (timeMap[j].on) {
+                        on = on.concat(timeMap[j].on);
+                    }
+                    //console.log(on);
+                    if (timeMap[j].off) {
+                        off = off.concat(timeMap[j].off);
+                    }
+                    on = on.diff(off);
+                }
+                timeMapIndex = Math.max(j - 1, 1);
+                
+                var onNew = on.diff(ids);
+                var offNew = off.diff(idsOff);
+                offNew.forEach(function(noteid) {
+                    $("#" + noteid ).css('filter', '');
+                });
+                onNew.forEach(function(noteid) {
+                    $("#" + noteid ).css('filter', 'url(#highlighting)');
+                }); 
+                
+                ids = on;
+                idsOff = off;
+            }
+            
+            var audioStop = function() {
+                
+            }
+            
+            function loadAudioCSV(filename) {
+                $.ajax({
+                    url: filename
+                    , dataType: "text"
+                    , success: function(data) {
+                        var lines = data.split(/\r\n|\n/);
+                        var qstampFile = 0;
+                        for (var i = 0; i < lines.length; i++) {
+                             var line = lines[i].split('\t');
+                             var point = {time: line[0] * 1000, label: line[1], qstamp: qstampFile};
+                             qstampFile = qstampFile + {{ page.audioQstamp }};
+                             audioMap.push(point)
+                         }
+                         console.log(audioMap);
+                    }
+                });
+            }
+            {% endif %}
     
             $.fn.addClassSVG = function(className){
                 $(this).attr('class', function(index, existingClassNames) {
@@ -717,12 +830,12 @@
 
                 <div id="svg_panel" style="background-color: #fff;">
                     <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
-                    <div class="btn-group">
-                          <audio id="audioPlayer" controls="controls">
-                            <source id="audioPlayerSource" style="width:90%; height:10px;"/>
-                            Your browser does not support the HTML5 audio element.
-                          </audio>
-                    </div>
+                    {% if page.audio %}
+                    <audio id="audioPlayer" controls="controls">
+                        <source id="audioPlayerSource" src="/recordings/{{ page.audio }}.mp3" style="height:10px;"/>
+                        Your browser does not support the HTML5 audio element.
+                    </audio>
+                    {% endif %}
                     <div id="svg_output" class="hasSVG" style="overflow:hidden;" />
                 </div>
     
@@ -837,33 +950,31 @@
                     
                     loadFile();
                     
-                    /*
+                    
                     $("#player").midiPlayer({
                         color: "#c00",
                         onUpdate: midiUpdate,
                         onStop: midiStop,
                         width: 250
                     });
-                    */
                     
-                    var audio = "/recordings/claves-1814/test"
-                    
-                    $("#audioPlayerSource").attr("src", audio + ".mp4");
-                    var audioPlayer = document.getElementById('audioPlayer');
-                    audioPlayer.load();
-                    console.log(audio);
-                    /*
-                    $("#audioPlayer").bind("timeupdate", onAudioUpdate);
+                    {% if page.audio %}
+                    $("#audioPlayer").bind("timeupdate", audioUpdate);
                     $("#audioPlayer").bind("play", function(){
-                        audioIndex = 0;
+                        audioIndex = 1;
+                        timeMapIndex = 1;
+                        qstamp = 0;
                         audioClock = setInterval(function(){
-                            onAudioUpdate();
+                            audioUpdate();
                         }, 50);
                     });
                     $("#audioPlayer").bind("pause", function(){
                         clearInterval(audioClock);
                     });
-                    */
+                    loadAudioCSV("/recordings/{{page.audio}}.txt");
+                    
+                    {% endif %}
+                    
                 });
             //]]>
             </script>
