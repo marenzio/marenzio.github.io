@@ -629,6 +629,16 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>Recordings</h4>
+                        </div>
+                    </div>
+                    <div class="row sidebar-row">
+                        <div class="col-xs-12">
+                        </div>
+                    </div>
                     
                     <div class="row">
                         <div class="col-xs-12">
@@ -707,6 +717,12 @@
 
                 <div id="svg_panel" style="background-color: #fff;">
                     <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
+                    <div class="btn-group">
+                          <audio id="audioPlayer" controls="controls">
+                            <source id="audioPlayerSource" style="width:90%; height:10px;"/>
+                            Your browser does not support the HTML5 audio element.
+                          </audio>
+                    </div>
                     <div id="svg_output" class="hasSVG" style="overflow:hidden;" />
                 </div>
     
@@ -821,12 +837,33 @@
                     
                     loadFile();
                     
+                    /*
                     $("#player").midiPlayer({
                         color: "#c00",
                         onUpdate: midiUpdate,
                         onStop: midiStop,
                         width: 250
                     });
+                    */
+                    
+                    var audio = "/recordings/claves-1814/test"
+                    
+                    $("#audioPlayerSource").attr("src", audio + ".mp4");
+                    var audioPlayer = document.getElementById('audioPlayer');
+                    audioPlayer.load();
+                    console.log(audio);
+                    /*
+                    $("#audioPlayer").bind("timeupdate", onAudioUpdate);
+                    $("#audioPlayer").bind("play", function(){
+                        audioIndex = 0;
+                        audioClock = setInterval(function(){
+                            onAudioUpdate();
+                        }, 50);
+                    });
+                    $("#audioPlayer").bind("pause", function(){
+                        clearInterval(audioClock);
+                    });
+                    */
                 });
             //]]>
             </script>
