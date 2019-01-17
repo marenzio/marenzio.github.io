@@ -23,13 +23,6 @@
             <div class="loading-text">Loading ...</div>
         </div>
         
-        {% if page.saxon %}
-        <!-- Saxon-CE -->
-        <script type="text/javascript" language="javascript" 
-            src="{{ site.fakeurl }}javascript/Saxonce/Saxonce.nocache.js">
-        </script>
-        {% endif %}  
-        
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="{{ site.fakeurl }}javascript/jquery.touchSwipe.min.js" type="text/javascript" ></script>
         
@@ -99,11 +92,12 @@
                         }
                 // console.log( options );
                 vrvToolkit.setOptions( options );
+                console.log(options);
             }
             
             function loadFile() {
                 file = "{{ site.fakeurl }}mei/{{ page.mei-file }}";
-                outputFilename = file.replace(/^.*[\\\/]/, '')
+                outputFilename = file.replace(/^.*[\\\/]/, '');
                 $.ajax({
                     url: file
                     , dataType: "text"
@@ -252,6 +246,10 @@
             };
 
             function applyZoom() {
+                if (vrvToolkit.getPageCount() === 0) {
+                    return;
+                }
+                
                 $.cookie('zoom', zoom, { expires: 30 });
                 setOptions();
                 vrvToolkit.redoLayout();
@@ -789,12 +787,13 @@
                          if (this.value == 'layout_horizontal') {
                              vertical_layout = false;
                          }
-                        else {
-                            vertical_layout = true;
+                         else {
+                             vertical_layout = true;
                          }
-                        $.cookie('vertical_layout', vertical_layout, { expires: 30 });
-                        loadFile();
+                         $.cookie('vertical_layout', vertical_layout, { expires: 30 });
+                         loadFile();
                     });
+                    
                     if (vertical_layout) $('input[type=radio][name=layout][value=layout_vertical]').prop('checked', true).parent().addClass("active");
                     else $('input[type=radio][name=layout][value=layout_horizontal]').prop('checked', true).parent().addClass("active");
                     
