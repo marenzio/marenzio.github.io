@@ -81,6 +81,7 @@
             var timeMap = [];
             var timeMapIndex;
             var qstamp;
+            var currentSystem;
 
 
             // reload cookies
@@ -411,6 +412,30 @@
                 loadFile();
             }
             
+            function updatePageOrScrollTo(xmlId)
+            {
+                if (vertical_layout) {
+                    system = $("#" + xmlId).closest(".system").attr("id");
+                    if (system === currentSystem) {
+                        return;
+                    }
+                    currentSystem = system;
+
+                    var a = d3.select("#" + system);
+                    if (!a.empty()) {
+                        var y = (a[0][0].getBBox().y) * zoom / 1000; // 100 * 10 because of the def factor in SVG
+                        $('body').scrollTo(parseInt( y ), 300, { axis:'y' });
+                    }
+                }
+                else {
+                    elementPage = vrvToolkit.getPageWithElement(xmlId);
+                    if (elementPage != page) {
+                        page = elementPage;
+                        loadPage();
+                    }
+                }
+            }
+            
             function playMidi() {
                 var base64midi = vrvToolkit.renderToMidi();
                 var song = 'data:audio/midi;base64,' + base64midi;
@@ -422,24 +447,26 @@
             var midiUpdate = function(time) {
                 var vrvTime = Math.max(0, time - 500);
                 var elementsattime = vrvToolkit.getElementsAtTime(vrvTime);
-                if (elementsattime.page > 0) {
-                    if (elementsattime.page != page) {
-                        page = elementsattime.page;
-                        loadPage();
-                    }
-                    if ((elementsattime.notes.length > 0) && (ids != elementsattime.notes)) {
-                        ids.forEach(function(noteid) {
-                            if ($.inArray(noteid, elementsattime.notes) == -1) {
-                                $("#" + noteid ).css('filter', '');
-                            }
-                        });
-                        ids = elementsattime.notes;
-                        ids.forEach(function(noteid) {
-                            if ($.inArray(noteid, elementsattime.notes) != -1) {
-                                $("#" + noteid ).css('filter', 'url(#highlighting)');
-                            }
-                        }); 
-                    }
+                if (elementsattime.page == 0) {
+                    return;
+                }
+                if (elementsattime.page != page) {
+                    page = elementsattime.page;
+                    loadPage();
+                }
+                if ((elementsattime.notes.length > 0) && (ids != elementsattime.notes)) {
+                    updatePageOrScrollTo(elementsattime.notes[0]);
+                    ids.forEach(function(noteid) {
+                        if ($.inArray(noteid, elementsattime.notes) == -1) {
+                            $("#" + noteid ).css('filter', '');
+                        }
+                    });
+                    ids = elementsattime.notes;
+                    ids.forEach(function(noteid) {
+                        if ($.inArray(noteid, elementsattime.notes) != -1) {
+                            $("#" + noteid ).css('filter', 'url(#highlighting)');
+                        }
+                    }); 
                 }
             }
     
@@ -457,29 +484,46 @@
             };
             
             {% if page.audio %}
+            var audioPlay = function() {
+                // Hide previous ids if necessary
+                ids.forEach(function(noteid) {
+                    $("#" + noteid ).css('filter', '');
+                });
+                ids = [];
+                audioIndex = 1;
+                timeMapIndex = 1;
+                qstamp = 0;
+                audioClock = setInterval(function(){
+                   audioUpdate();
+                }, 50);
+            }
+            
             var audioUpdate = function() {
                 var currentTime = document.getElementById("audioPlayer").currentTime * 1000;
-                //console.log(currentTime);
+                // autoIndex is the last position (1 at the beginning)
                 var i = audioIndex;
                 for (i = audioIndex; i < audioMap.length; i++) {
                     if (audioMap[i].time > currentTime) {
                         break;
                     }
                 }
+                // End of the map - remove highlighting of the last notes
                 if (i === audioMap.length) {
-                    on.forEach(function(noteid) {
+                    ids.forEach(function(noteid) {
                         $("#" + noteid ).css('filter', '');
                     });
                     return;
                 }
-                
+                // keep the index for next call so we do not start from the beginning
                 audioIndex = i;
-                //console.log(currentTime, audioMap[audioIndex - 1].time, audioMap[audioIndex].time);
+                // calculate the additional percentage
                 percent = (currentTime - audioMap[audioIndex - 1].time) / (audioMap[audioIndex].time - audioMap[audioIndex - 1].time);
+                // We have not started yet
                 if (percent < 0) {
                     return;
                 }
-                percent = Math.max(Math.min(percent, 1.0), 0.0).toFixed(3) * {{ page.audioQstamp }};
+                // Multiply by the number of qstamp per point in the map
+                percent = Math.max(Math.min(percent, 1.0), 0.0).toFixed(3) * {{ page.audio.qstamp_dur }};
                 qstamp = audioMap[audioIndex - 1].qstamp + percent;
                 //console.log(qstamp);
                 var j = timeMapIndex - 1;
@@ -497,12 +541,20 @@
                     if (timeMap[j].off) {
                         off = off.concat(timeMap[j].off);
                     }
+                    // Do not highlight notes switched off inbetween
                     on = on.diff(off);
                 }
+                // Keep the index (at least 1)
                 timeMapIndex = Math.max(j - 1, 1);
                 
+                // Only highlight / hide new ids
                 var onNew = on.diff(ids);
                 var offNew = off.diff(idsOff);
+                
+                if (onNew.length > 0) {
+                    updatePageOrScrollTo(onNew[0]);
+                }
+                
                 offNew.forEach(function(noteid) {
                     $("#" + noteid ).css('filter', '');
                 });
@@ -510,12 +562,21 @@
                     $("#" + noteid ).css('filter', 'url(#highlighting)');
                 }); 
                 
+                // Keep ids (on / off)
                 ids = on;
                 idsOff = off;
             }
             
+            var audioSeeking = function() {
+                $("* .note" ).css('filter', '');
+                audioIndex = 1;
+                timeMapIndex = 1;
+            }
+            
             var audioStop = function() {
-                
+                $("* .note" ).css('filter', '');
+                audioIndex = 1;
+                timeMapIndex = 1; 
             }
             
             function loadAudioCSV(filename) {
@@ -528,10 +589,10 @@
                         for (var i = 0; i < lines.length; i++) {
                              var line = lines[i].split('\t');
                              var point = {time: line[0] * 1000, label: line[1], qstamp: qstampFile};
-                             qstampFile = qstampFile + {{ page.audioQstamp }};
+                             qstampFile = qstampFile + {{ page.audio.qstamp_dur }};
                              audioMap.push(point)
                          }
-                         console.log(audioMap);
+                         console.log("Audio map loaded");
                     }
                 });
             }
@@ -742,16 +803,19 @@
                             </div>
                         </div>
                     </div>
-
+                    
+                    {% if page.audio %}
                     <div class="row">
                         <div class="col-xs-12">
-                            <h4>Recordings</h4>
+                            <h4>Recording</h4>
                         </div>
                     </div>
                     <div class="row sidebar-row">
                         <div class="col-xs-12">
+                            <a href="{{ page.audio.link }}" target="_blank"><img src="{{ site.fakeurl }}images/{{ page.audio.image }}"/></a>
                         </div>
                     </div>
+                    {% endif %}
                     
                     <div class="row">
                         <div class="col-xs-12">
@@ -760,11 +824,13 @@
                     </div>
                     <div class="row sidebar-row">
                         <div class="col-xs-12">
+                            {% if page.audio == nil %}
                             <div class="btn-group">
                                 <button id="play-button" onclick="playMidi();" class="btn btn-sm btn-default" type="button">
                                     <span class="glyphicon glyphicon-volume-up"/>
                                 </button>
                             </div>
+                            {% endif %}
                             <div class="btn-group">
                                 <button id="pdf" onclick="generatePdf();" class="btn btn-sm btn-default" type="button">
                                     <span class="hidden-xs">PDF </span><span class="glyphicon glyphicon-book"/>
@@ -836,12 +902,14 @@
                 </div>
 
                 <div id="svg_panel" style="background-color: #fff;">
-                    <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
+                    <div id="player" class="sticky" style="z-index: 20; display: none;"></div>
                     {% if page.audio %}
-                    <audio id="audioPlayer" controls="controls">
-                        <source id="audioPlayerSource" src="/recordings/{{ page.audio }}.mp3" style="height:10px;"/>
-                        Your browser does not support the HTML5 audio element.
-                    </audio>
+                    <div class="sticky">
+                        <audio id="audioPlayer" controls="controls">
+                            <source id="audioPlayerSource" src="/recordings/{{ page.audio.file }}.mp3" style="height:10px;"/>
+                            Your browser does not support the HTML5 audio element.
+                        </audio>
+                    </div>
                     {% endif %}
                     <div id="svg_output" class="hasSVG" style="overflow:hidden;" />
                 </div>
@@ -957,6 +1025,17 @@
                     
                     loadFile();
                     
+                    {% if page.audio %}
+                    
+                    $("#audioPlayer").bind("timeupdate", audioUpdate);
+                    $("#audioPlayer").bind("play", audioPlay);
+                    $("#audioPlayer").bind("seeking", audioSeeking);
+                    $("#audioPlayer").bind("pause", function(){
+                        clearInterval(audioClock);
+                    });
+                    loadAudioCSV("/recordings/{{page.audio.file}}.txt");
+                    
+                    {% else %}
                     
                     $("#player").midiPlayer({
                         color: "#c00",
@@ -964,21 +1043,6 @@
                         onStop: midiStop,
                         width: 250
                     });
-                    
-                    {% if page.audio %}
-                    $("#audioPlayer").bind("timeupdate", audioUpdate);
-                    $("#audioPlayer").bind("play", function(){
-                        audioIndex = 1;
-                        timeMapIndex = 1;
-                        qstamp = 0;
-                        audioClock = setInterval(function(){
-                            audioUpdate();
-                        }, 50);
-                    });
-                    $("#audioPlayer").bind("pause", function(){
-                        clearInterval(audioClock);
-                    });
-                    loadAudioCSV("/recordings/{{page.audio}}.txt");
                     
                     {% endif %}
                     

@@ -59,6 +59,12 @@ svg:not(:root){
 	overflow:inherit
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .navbar {
     margin-bottom: 0px;
     background-color: $navbar-background !important;
