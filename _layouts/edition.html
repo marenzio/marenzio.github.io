@@ -800,6 +800,13 @@
                             {% if prev_i != -1 %}
                             <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[prev_i].id }}"><span class="glyphicon glyphicon-arrow-up"/> {{ madrigals[prev_i].name }}</a>    
                             {% endif %} 
+                            
+                        	{% if page.parts %}
+                                {% for p in page.parts %}
+                                <a class="list-group-item" href="javascript:switchPart({{ p.id }});"><span class="glyphicon"/> {{ p.title }}</a>
+                                {% endfor %}
+                        	{% endif %}
+                            
                             {% if next_i != -1 %}
                                 <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[next_i].id }}"><span class="glyphicon glyphicon-arrow-down"/> {{ madrigals[next_i].name }}</a>  
                             {% endif %}

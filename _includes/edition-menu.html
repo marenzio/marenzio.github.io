@@ -2,23 +2,13 @@
 	<li>
 		<a href="{{ site.fakeurl }}digital-edition/{{ page.book.id }}.xhtml">{{ page.book.title }}</a>
 	</li>
-	{% for m in page.modals %}
+	
+    {% for m in page.modals %}
 	<li>
 		<a href="#" data-toggle="modal" data-target="#{{ m.id }}">{{ m.title }}</a>
 	</li>
 	{% endfor %}
-	{% if page.parts %}
-	<li>
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Parts<span class="caret"></span></a>
-        <ul class="dropdown-menu" role="menu">
-            {% for p in page.parts %}
-        	<li>
-        		<a href="javascript:switchPart({{ p.id }});">{{ p.title }}</a>
-        	</li>
-        	{% endfor %}
-        </ul>
-	</li>
-	{% endif %}
+
 	{% for l in page.links %}
 	<li>
         {% if l.submenu == true %}
