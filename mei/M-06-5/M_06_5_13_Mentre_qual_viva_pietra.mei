@@ -90,29 +90,27 @@
                                 <rend xml:id="rend-0000002128712374" fontsize="x-large">13. Mentre qual viva pietra</rend>
                             </rend>
                         </pgHead>
-                        <staffGrp xml:id="staffgrp-0000001064334258">
-                            <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
-                                <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
-                                    <label xml:id="label-0000000967361311">Canto</label>
-                                    <labelAbbr xml:id="labelAbbr-0000000942100561">C</labelAbbr>
-                                </staffDef>
-                                <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
-                                    <label xml:id="label-0000001536095924">Alto</label>
-                                    <labelAbbr xml:id="labelAbbr-0000001258034068">A</labelAbbr>
-                                </staffDef>
-                                <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
-                                    <label xml:id="label-0000001691584198">Quinto</label>
-                                    <labelAbbr xml:id="labelAbbr-0000000852413476">Q</labelAbbr>
-                                </staffDef>
-                                <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
-                                    <label xml:id="label-0000001994089838">Tenore</label>
-                                    <labelAbbr xml:id="labelAbbr-0000000101953203">T</labelAbbr>
-                                </staffDef>
-                                <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
-                                    <label xml:id="label-0000000161984421">Basso</label>
-                                    <labelAbbr xml:id="labelAbbr-0000000455153000">B</labelAbbr>
-                                </staffDef>
-                            </staffGrp>
+                        <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
+                                <label xml:id="label-0000000967361311">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000942100561">C</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="2" lines="5">
+                                <label xml:id="label-0000001536095924">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001258034068">A</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="3" lines="5">
+                                <label xml:id="label-0000001691584198">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000852413476">Q</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" n="4" lines="5">
+                                <label xml:id="label-0000001994089838">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000000101953203">T</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" n="5" lines="5">
+                                <label xml:id="label-0000000161984421">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000455153000">B</labelAbbr>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001646041741">
