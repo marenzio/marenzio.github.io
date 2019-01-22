@@ -409,6 +409,11 @@
             
             function switchPart(partId) {
                 part = partId;
+                
+                {% if page.audio %}
+                loadAudio("/recordings/{{page.audio.file}}", part);
+                {% endif %}
+                
                 loadFile();
             }
             
@@ -579,11 +584,16 @@
                 timeMapIndex = 1; 
             }
             
-            function loadAudioCSV(filename) {
+            function loadAudio(filename, part) {
+                if (part != 0) {
+                    filename += "-" + part;
+                }
+                $("#audioPlayerSource").attr("src", filename + ".mp3");
                 $.ajax({
-                    url: filename
+                    url: filename + ".txt"
                     , dataType: "text"
                     , success: function(data) {
+                        audioMap = [];
                         var lines = data.split(/\r\n|\n/);
                         var qstampFile = 0;
                         for (var i = 0; i < lines.length; i++) {
@@ -593,6 +603,7 @@
                              audioMap.push(point)
                          }
                          console.log("Audio map loaded");
+                         $("#audioPlayer").load();
                     }
                 });
             }
@@ -905,8 +916,8 @@
                     <div id="player" class="sticky" style="z-index: 20; display: none;"></div>
                     {% if page.audio %}
                     <div class="sticky">
-                        <audio id="audioPlayer" controls="controls">
-                            <source id="audioPlayerSource" src="/recordings/{{ page.audio.file }}.mp3" style="height:10px;"/>
+                        <audio id="audioPlayer" autoload="true" controls="controls">
+                            <source id="audioPlayerSource" src="" style="height:10px;"/>
                             Your browser does not support the HTML5 audio element.
                         </audio>
                     </div>
@@ -1026,6 +1037,8 @@
                     loadFile();
                     
                     {% if page.audio %}
+                
+                    loadAudio("/recordings/{{page.audio.file}}", part);
                     
                     $("#audioPlayer").bind("timeupdate", audioUpdate);
                     $("#audioPlayer").bind("play", audioPlay);
@@ -1033,7 +1046,6 @@
                     $("#audioPlayer").bind("pause", function(){
                         clearInterval(audioClock);
                     });
-                    loadAudioCSV("/recordings/{{page.audio.file}}.txt");
                     
                     {% else %}
                     
