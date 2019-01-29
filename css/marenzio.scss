@@ -429,10 +429,12 @@ div.app-inline, div.app-inline-text {
 
     #sidebar-wrapper {
         width: 0;
+        display: none;
     }
 
     #wrapper.toggled #sidebar-wrapper {
         width: $sidebar-width;
+        display: block;
     }
 
     #page-content-wrapper {

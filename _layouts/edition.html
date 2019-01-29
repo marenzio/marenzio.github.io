@@ -720,34 +720,6 @@
                         </div>
                     </div>
                     <div class="row sidebar-row">
-                        <div class="col-md-12">
-                            <p>
-                                Page [1-<span id="total_text">1</span>]:
-                            </p>
-                            <div class="col-xs-1 input-group input-group-sm">
-                                <span class="input-group-btn">
-                                    <button onclick="firstPage()" class="btn btn-default" type="button">
-                                        <span class="glyphicon glyphicon-fast-backward"/>
-                                    </button>
-                                    <button onclick="prevPage()" class="btn btn-default" type="button">
-                                        <span class="glyphicon glyphicon-backward"/>
-                                    </button>
-                                </span>
-                                <input type="text" class="form-control" placeholder="0" id="jump_text" style="width: 45px !important;" onkeypress="doPageEnter(event)"/>
-                                <span class="input-group-btn">
-                                    <button onclick="nextPage()" class="btn btn-default" type="button">
-                                        <span class="glyphicon glyphicon-forward"/>
-                                    </button>
-                                    <button onclick="lastPage()" class="btn btn-default" type="button">
-                                        <span class="glyphicon glyphicon-fast-forward"/>
-                                    </button>
-                                </span>
-                            </div>
-                            <!-- /input-group -->
-                        </div>
-                        <!-- /.col-lg-6 -->
-                    </div>
-                    <div class="row sidebar-row">
                         <div class="col-md-6">
                             <p>
                                 Zoom:
@@ -786,6 +758,34 @@
                             </div>
                         </div>
                         <!-- /.col-md-6 -->
+                    </div>
+                    <div class="row sidebar-row" id="page-navigation">
+                        <div class="col-md-12">
+                            <p>
+                                Page [1-<span id="total_text">1</span>]:
+                            </p>
+                            <div class="col-xs-1 input-group input-group-sm">
+                                <span class="input-group-btn">
+                                    <button onclick="firstPage()" class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-fast-backward"/>
+                                    </button>
+                                    <button onclick="prevPage()" class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-backward"/>
+                                    </button>
+                                </span>
+                                <input type="text" class="form-control" placeholder="0" id="jump_text" style="width: 45px !important;" onkeypress="doPageEnter(event)"/>
+                                <span class="input-group-btn">
+                                    <button onclick="nextPage()" class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-forward"/>
+                                    </button>
+                                    <button onclick="lastPage()" class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-fast-forward"/>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </div>
+                        <!-- /.col-lg-6 -->
                     </div>
 
                     <div class="row">
@@ -1001,15 +1001,20 @@
                     $('input[type=radio][name=layout]').change(function() {
                          if (this.value == 'layout_horizontal') {
                              vertical_layout = false;
+                             $("#page-navigation").show();
                          }
                          else {
                              vertical_layout = true;
+                             $("#page-navigation").hide();
                          }
                          $.cookie('vertical_layout', vertical_layout, { expires: 30 });
                          loadFile();
                     });
                     
-                    if (vertical_layout) $('input[type=radio][name=layout][value=layout_vertical]').prop('checked', true).parent().addClass("active");
+                    if (vertical_layout) {
+                          $('input[type=radio][name=layout][value=layout_vertical]').prop('checked', true).parent().addClass("active");
+                          $("#page-navigation").hide();                          
+                    } 
                     else $('input[type=radio][name=layout][value=layout_horizontal]').prop('checked', true).parent().addClass("active");
                     
                     
