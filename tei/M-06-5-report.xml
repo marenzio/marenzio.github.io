@@ -37,49 +37,30 @@
   <text>
     <body>
       <div>
-        <head>Abbreviations</head>
-        <div>
-          <head>Voices</head>
-          <p><hi rend="bold">C </hi>= Canto (<hi rend="bold">C1</hi> = Canto, first choir; <hi rend="bold">C</hi><hi rend="bold subscript">1</hi> =
-            Canto, first repetition)</p>
-          <p><hi rend="bold">A </hi>= Alto </p>
-          <p><hi rend="bold">T </hi>= Tenore</p>
-          <p><hi rend="bold">B </hi>= Basso</p>
-          <p><hi rend="bold">Q </hi>= Quinto </p>
-        </div>
-        <div>
-          <head>Other abbreviations</head>
-          <p><hi rend="bold">SB </hi>= Semibrevis </p>
-          <p><hi rend="bold">M </hi>= Minim </p>
-          <p><hi rend="bold">SM </hi>= Semiminim</p>
-          <p><hi rend="bold">F </hi>= Fusa</p>
-        </div>
-      </div>
-      <div>
         <head>Music</head>
-        <p><hi rend="bold">Musical sources used for collation</hi>: <hi rend="italic">AnGa</hi>, 1594, <hi rend="italic">AnGa</hi>, 1603, <hi rend="italic">Ma-Ga</hi>, 1614</p>
+        <p><hi rend="bold">Musical sources used for collation</hi>: AnGa-1594, AnGa-1603, Ma-Ga-1614</p>
         <p>Sources (see &#x201C;<ref target="/digital-edition/M-06-5.xhtml?id=sources">Description of the sources and consulted copies</ref>&#x201D;
           for fuller details):</p>
-        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1594</hi> = first edition, Venice: Angelo Gardano, 1594 </p>
-        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1603</hi> = re-edition, Venice: Angelo Gardano, 1603</p>
-        <p><hi rend="italic bold">Ma-Ga</hi><hi rend="bold">, 1614 </hi>= re-edition, Venice: Magni-Gardano, 1614</p>
-        <p><hi rend="italic bold">Ka</hi><hi rend="bold">, 1601</hi> = re-edition in <hi rend="italic">Lucae Marentii &#x2026; madrigalia quinque
+        <p><hi rend="bold">AnGa-1594</hi> = first edition, Venice: Angelo Gardano, 1594 </p>
+        <p><hi rend="bold">AnGa-1603</hi> = re-edition, Venice: Angelo Gardano, 1603</p>
+        <p><hi rend="bold">Ma-Ga-1614 </hi>= re-edition, Venice: Magni-Gardano, 1614</p>
+        <p><hi rend="bold">Ka-1601</hi> = re-edition in <hi rend="italic">Lucae Marentii &#x2026; madrigalia quinque
             vocum &#x2026; uno volumine conjunctim excusa</hi>, Nuremberg: Paul Kauffmann, 1601.</p>
-        <p><hi rend="italic bold">Ph</hi><hi rend="bold">, 1609 </hi>= re-edition in <hi rend="italic">Di Luca Marenzio &#x2026; Il sesto, settimo,
+        <p><hi rend="bold">Ph-1609 </hi>= re-edition in <hi rend="italic">Di Luca Marenzio &#x2026; Il sesto, settimo,
             ottavo et nono libro, suo testamento, de madrigali a cinque voci</hi>, Antwerp: Pierre Phal&#xE8;se, 1609</p>
-        <p><hi rend="italic bold">Ph</hi><hi rend="bold"> [heirs], 1632 </hi>= re-edition in <hi rend="italic">Di Luca Marenzio &#x2026; Il sesto,
+        <p><hi rend="bold">Ph-heirs-1632 </hi>= re-edition in <hi rend="italic">Di Luca Marenzio &#x2026; Il sesto,
             settimo, ottavo et nono libro, suo testamento, de madrigali a cinque voci</hi>, Antwerp: Heirs of Pierre Phal&#xE8;se, 1632</p>
-        <p><hi rend="bold">1612</hi><hi rend="bold superscript">18</hi> = <hi rend="italic">Delitiae mvsicae, sive Cantiones, e quamplurimis
+        <p><hi rend="bold">1612-18</hi> = <hi rend="italic">Delitiae mvsicae, sive Cantiones, e quamplurimis
             praestantissimorum nostri aeui Musicorum Libris selectae. Ad Testudinis usum accomodatae, Opera atque industria Ioachimi Vanden Hove</hi>,
           Utrecht: Salomon de Roy, 1612. </p>
-        <p><hi rend="bold">1616</hi><hi rend="bold superscript">8</hi> = <hi rend="italic">Madrigali de diversi auttori, accomodati per concerti
+        <p><hi rend="bold">1616-8</hi> = <hi rend="italic">Madrigali de diversi auttori, accomodati per concerti
             spirituali, dal R. P. F. Girolamo Cavaglieri dell&#x2019;ordine di S. Basilio. Opera quinta</hi>, Loano: F. Castello, 1616 (incompl.)</p>
         <div>
           <head> Editorial methods </head>
           <p>The editorial criteria conform to the <ref target="/editorial-criteria.xhtml">General editorial criteria</ref> for MODE. </p>
           <p>The occasional substitution of a segment of text with a repetition sign (or, much more rarely, vice versa) in the re-editions has not
-            been recorded in the apparatus; in general, both <hi rend="italic">AnGa</hi>, 1603 and <hi rend="italic">Ma-Ga</hi>, 1614 tend to have
-            more repetition signs than <hi rend="italic">AnGa</hi>, 1594.</p>
+            been recorded in the apparatus; in general, both <hi rend="bold">AnGa-1603</hi> and <hi rend="bold">Ma-Ga-1614</hi> tend to have
+            more repetition signs than <hi rend="bold">AnGa-1594</hi>.</p>
           <p>A note on the equivalences in madrigal no. 16, <hi rend="italic">Ecco Maggio seren, chi l&#x2019;ha vestito</hi>. The piece, set in <hi rend="bold">C</hi>, presents three passages in triple meter (mm. 8&#x2013;17, 34&#x2013;37, and 43&#x2013;50),
             each introduced by the sign <hi rend="bold">3, </hi>with perfection at the level of <hi rend="italic">semibrevis</hi> (groups of 3 <hi rend="italic">minimae</hi>). As it is often the case in late sixteenth- and early seventeenth-century
             vocal music, a strictly proportional interpretation of the sign <hi rend="bold">3</hi> seems to lead to
@@ -92,9 +73,9 @@
         <head>Poetic text</head>
         <p>Sources (see &#x201C;<ref target="/digital-edition/M-06-5.xhtml?id=sources">Description of the sources and consulted copies</ref>&#x201D;
           for fuller details):</p>
-        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1594</hi> = first edition, Venice: Angelo Gardano, 1594 </p>
-        <p><hi rend="italic bold">AnGa</hi><hi rend="bold">, 1603</hi> = re-edition, Venice: Angelo Gardano, 1603 </p>
-        <p><hi rend="italic bold">Ma-Ga</hi><hi rend="bold">, 1614 </hi>= re-edition, Venice: Magni-Gardano, 1614 </p>
+        <p><hi rend="bold">AnGa-1594</hi> = first edition, Venice: Angelo Gardano, 1594 </p>
+        <p><hi rend="bold">AnGa-1603</hi> = re-edition, Venice: Angelo Gardano, 1603 </p>
+        <p><hi rend="bold">Ma-Ga-1614</hi> = re-edition, Venice: Magni-Gardano, 1614 </p>
         <div>
           <head> Editorial methods </head>
           <p>The editorial criteria conform to the <ref target="/editorial-criteria.xhtml">General editorial criteria</ref> for the MODE, except for the following:</p>

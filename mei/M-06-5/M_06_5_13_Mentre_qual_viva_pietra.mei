@@ -7060,10 +7060,14 @@
                             <annot corresp="#line9" label="9">
                                 <p>fred'</p>
                                 <list>
-                                    <li corresp="#verse-0000000310648194 #verse-0000002144317774">MaGa-1614 – C<rend rend="sub">2</rend>
+                                    <li corresp="#verse-0000000310648194 #verse-0000002144317774">Ma-Ga-1614 – C<rend rend="sub">2</rend>
                                     </li>
                                 </list>
                             </annot>
+                        </annot>
+                        <annot xml:id="annot-0000001576945199" type="app-sources-used">
+                            <p>Sources used for collation: AnGa-1594; AnGa-1603; Ma-Ga-1614</p>
+                            <p>Other sources: Ka-1601; Ph-1609; Ph-heirs-1632; Latin sacred contrafactum (<rend fontstyle="italic">Filia summi regis</rend>) in 1616-8</p>
                         </annot>
                     </section>
                 </score>

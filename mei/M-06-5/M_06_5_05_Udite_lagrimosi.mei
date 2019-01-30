@@ -4112,9 +4112,13 @@
                             <annot corresp="#line13" label="13">
                                 <p>mort'il</p>
                                 <list>
-                                    <li corresp="#verse-0000000619088996 #verse-0000000504645303 #verse-0000001845767666 #verse-0000001097229027 #verse-0000002077652366 #verse-0000001625573271 #verse-0000001589185204 #verse-0000000413348235 #verse-0000000168599417 #verse-0000001823786218">AnGa1603 – all voices</li>
+                                    <li corresp="#verse-0000000619088996 #verse-0000000504645303 #verse-0000001845767666 #verse-0000001097229027 #verse-0000002077652366 #verse-0000001625573271 #verse-0000001589185204 #verse-0000000413348235 #verse-0000000168599417 #verse-0000001823786218">AnGa-1603 – all voices</li>
                                 </list>
                             </annot>
+                        </annot>
+                        <annot xml:id="annot-0000001576945191" type="app-sources-used">
+                            <p>Sources used for collation: AnGa-1594; AnGa-1603; Ma-Ga-1614</p>
+                            <p>Other sources: Ka-1601; Ph-1609; Ph-heirs-1632</p>
                         </annot>
                     </section>
                 </score>

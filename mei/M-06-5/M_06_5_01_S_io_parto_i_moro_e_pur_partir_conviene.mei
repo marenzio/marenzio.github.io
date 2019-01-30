@@ -1252,7 +1252,7 @@
                             <annot xml:id="annot-0000002016714327" type="app">
                                 <p>f2-g2 instead of a2-b2</p>
                                 <list corresp="#p1cad3n768v1b17s4 #p1cbd3n0v1b18s4">
-                                    <li>Ma-Ga, 1614</li>
+                                    <li>Ma-Ga-1614</li>
                                 </list>
                             </annot>
                         </measure>
@@ -3764,13 +3764,13 @@
                             <annot corresp="#line6" label="6">
                                 <p>congius’</p>
                                 <list>
-                                    <li corresp="#verse-0000000057891870 #verse-0000001657364768 #verse-0000002050160709 #verse-0000001389684609">C<rend rend="sub">1</rend>T</li>
+                                    <li corresp="#verse-0000000057891870 #verse-0000001657364768 #verse-0000002050160709 #verse-0000001389684609">Ma-Ga-1614 – C<rend rend="sub">1</rend>T</li>
                                 </list>
                             </annot>
                         </annot>
                         <annot xml:id="annot-0000001576945187" type="app-sources-used">
-                            <p>Sources used for collation: AnGa, 1594; AnGa, 1603; Ma-Ga, 1614</p>
-                            <p>Other sources: Ka, 1601; Ph, 1609; Ph [heirs], 1632</p>
+                            <p>Sources used for collation: AnGa-1594; AnGa-1603; Ma-Ga-1614</p>
+                            <p>Other sources: Ka-1601; Ph-1609; Ph-heirs-1632</p>
                         </annot>
                     </section>
                 </score>
