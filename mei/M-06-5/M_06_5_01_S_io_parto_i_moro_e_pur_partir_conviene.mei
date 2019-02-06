@@ -108,15 +108,13 @@
                     <app xml:id="app-0000000253627557">
                         <lem xml:id="lem-0000000234335859" />
                         <rdg xml:id="rdg-0000001077491896" label="original">
-                            <scoreDef xml:id="scoredef-0000002045069857" meter.sym="common">
-                                <staffGrp xml:id="staffgrp-0000001299379735">
-                                    <staffGrp xml:id="staffgrp-0000001516815914" symbol="bracket" n="1">
-                                        <staffDef xml:id="staffdef-0000001895949886" clef.shape="C" clef.line="1" n="1" />
-                                        <staffDef xml:id="staffdef-0000001436599069" clef.shape="C" clef.line="1" n="2" />
-                                        <staffDef xml:id="staffdef-0000000106493327" clef.shape="C" clef.line="3" n="3" />
-                                        <staffDef xml:id="staffdef-0000000948288206" clef.shape="C" clef.line="4" n="4" />
-                                        <staffDef xml:id="staffdef-0000000593021521" clef.shape="F" clef.line="3" n="5" />
-                                    </staffGrp>
+                            <scoreDef xml:id="scoredef-0000002045069857">
+                                <staffGrp xml:id="staffgrp-0000001516815914" symbol="bracket" n="1">
+                                    <staffDef xml:id="staffdef-0000001895949886" clef.shape="C" clef.line="1" n="1" />
+                                    <staffDef xml:id="staffdef-0000001436599069" clef.shape="C" clef.line="3" n="2" />
+                                    <staffDef xml:id="staffdef-0000000106493327" clef.shape="C" clef.line="4" n="3" />
+                                    <staffDef xml:id="staffdef-0000000948288206" clef.shape="C" clef.line="4" n="4" />
+                                    <staffDef xml:id="staffdef-0000000593021521" clef.shape="F" clef.line="4" n="5" />
                                 </staffGrp>
                             </scoreDef>
                         </rdg>

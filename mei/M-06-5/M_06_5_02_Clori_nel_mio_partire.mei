@@ -128,6 +128,20 @@
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
+                    <app>
+                        <lem />
+                        <rdg label="original">
+                            <scoreDef>
+                                <staffGrp symbol="bracket" n="1">
+                                    <staffDef clef.shape="C" clef.line="1" n="1" />
+                                    <staffDef clef.shape="C" clef.line="3" n="2" />
+                                    <staffDef clef.shape="C" clef.line="4" n="3" />
+                                    <staffDef clef.shape="C" clef.line="4" n="4" />
+                                    <staffDef clef.shape="F" clef.line="4" n="5" />
+                                </staffGrp>
+                            </scoreDef>
+                        </rdg>
+                    </app>
                     <section xml:id="section-0000001838626291">
                         <pb xml:id="pb-0000001649876154" n="1" />
                         <measure xml:id="measure-0000001159670214" n="1">

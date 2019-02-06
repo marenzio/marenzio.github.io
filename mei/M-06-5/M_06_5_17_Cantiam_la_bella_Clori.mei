@@ -207,7 +207,7 @@
                             <rend xml:id="rend-0000001014604664" halign="right" valign="bottom">(adapted from Battista Guarini)</rend>
                         </pgHead>
                         <staffGrp xml:id="staffgrp-0000001064334258">
-                            <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="2">
+                            <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                     <label xml:id="label-0000001403910583">Canto 1</label>
                                     <labelAbbr xml:id="labelAbbr-0000000436224283">C1</labelAbbr>
@@ -225,7 +225,7 @@
                                     <labelAbbr xml:id="labelAbbr-0000001772118829">B1</labelAbbr>
                                 </staffDef>
                             </staffGrp>
-                            <staffGrp xml:id="staffgrp-0000000482874527" symbol="bracket" n="1">
+                            <staffGrp xml:id="staffgrp-0000000482874527" symbol="bracket" n="2">
                                 <staffDef xml:id="sd5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="5" lines="5">
                                     <label xml:id="label-0000001470696306">Canto 2</label>
                                     <labelAbbr xml:id="labelAbbr-0000001796786103">C2</labelAbbr>
@@ -245,6 +245,27 @@
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
+                    <app>
+                        <lem />
+                        <rdg label="original">
+                            <scoreDef>
+                                <staffGrp>
+                                    <staffGrp symbol="bracket" n="1">
+                                        <staffDef clef.shape="C" clef.line="1" n="1" />
+                                        <staffDef clef.shape="C" clef.line="3" n="2" />
+                                        <staffDef clef.shape="C" clef.line="4" n="3" />
+                                        <staffDef clef.shape="F" clef.line="4" n="4" />
+                                    </staffGrp>
+                                    <staffGrp symbol="bracket" n="2">
+                                        <staffDef clef.shape="C" clef.line="1" n="5" />
+                                        <staffDef clef.shape="C" clef.line="3" n="6" />
+                                        <staffDef clef.shape="C" clef.line="4" n="7" />
+                                        <staffDef clef.shape="F" clef.line="4" n="8" />
+                                    </staffGrp>
+                                </staffGrp>
+                            </scoreDef>
+                        </rdg>
+                    </app>
                     <section xml:id="section-0000000956591407">
                         <pb xml:id="pb-0000001369196007" n="1" />
                         <measure xml:id="measure-0000001790012044" n="1">
