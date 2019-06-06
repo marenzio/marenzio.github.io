@@ -39,10 +39,10 @@
       <p>Daniele V. Filippi</p>
       <div type="section">
         <head>Introduction</head>
-        <p>On January 1<hi rend="superscript">st</hi>, 1594 Marenzio signed the dedication of his
+        <p>On January 1<hi rend="superscript">st</hi>, 1594 Luca Marenzio signed the dedication of his
           <hi rend="italic" xml:space="preserve">Sesto libro de madrigali a cinque voci </hi>to Cinzio Aldobrandini Passeri (1551–1610), nephew of
           Pope Clement VIII and recently appointed cardinal. Aldobrandini was a distinguished patron of artists and poets, famously of Torquato Tasso;
-          Battista Guarini, G. Bardi and Angelo Grillo, among others, were part of his patronage network.<note place="foot" xml:id="ftn1" n="1"><p>
+          Battista Guarini, Giovanni Bardi and Angelo Grillo, among others, were part of his patronage network.<note place="foot" xml:id="ftn1" n="1"><p>
               See Elena Fasano Guarini, “Aldobrandini (Passeri), Cinzio”, in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 2
               (Rome: Istituto della Enciclopedia italiana, 1960; on line at <ref target="http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/cinzio-aldobrandini_(Dizionario-Biografico)/</ref>, accessed August 25, 2014); Marco Bizzarini,
                 <hi rend="italic">Luca Marenzio: The Career of a Musician Between the Renaissance and the Counter-Reformation</hi>, trans. James
@@ -60,15 +60,15 @@
           noticeable stylistic shift. </p>
         <p>Of the seventeen texts set in the book, four (plus one adaptation, see below) are by Battista Guarini, three by G.B. Strozzi the Elder, one
           each by Ridolfo Arlotti (<hi rend="italic">c.</hi> 1550–1613), Livio Celiano, Antonio Ongaro (<hi rend="italic">c.</hi>
-            1560–1592/1599),<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Interestingly, Ongaro had enjoined the patronage, among
+            1560–1592/1599),<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Interestingly, Ongaro had enjoyed the patronage, among
               others, of Girolamo Ruiz, dedicatee of Marenzio’s Book IV <hi rend="italic">a 5</hi> (1584). See Donatella Manzoli, “Ongaro, Antonio”,
               in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 79 (Rome: Istituto della Enciclopedia italiana, 2013; on line at
                 <ref target="http://www.treccani.it/enciclopedia/antonio-ongaro_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/antonio-ongaro_(Dizionario-Biografico)/</ref>, accessed August 25, 2014). </p></note> and
           Torquato Tasso; one text each is furthermore attributed to Bonifazio Bevilacqua and Annibale Caro, while three texts remain anonymous (see
           Table 1).<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> For more details about the attributions, see “The poetic texts:
-              edition and critical report”. </p></note> Three aspects are remarkable: the absence of Petrarca and Sannazaro (which together accounted
+              edition and critical report”. </p></note> Three aspects are remarkable: the absence of Petrarca and Sannazaro (who together accounted
           for fifteen texts out of twenty-one in Book I <hi rend="italic">a 4</hi> of 1585 and for eleven texts out of fifteen in the Book for 4, 5,
-          and 6 voices of 1588);<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> They were, however, absent already from Book V <hi rend="italic">a 6</hi> of 1591.</p></note> the presence of Strozzi, which, in spite of previous settings by Marenzio,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> In Book III <hi rend="italic">a 6</hi> (1585) and Book IV <hi rend="italic">a
+          and 6 voices of 1588);<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> They were, however, already absent from Book V <hi rend="italic">a 6</hi> of 1591.</p></note> the presence of Strozzi, which, in spite of previous settings by Marenzio,<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> In Book III <hi rend="italic">a 6</hi> (1585) and Book IV <hi rend="italic">a
                 6</hi> (1587). </p></note> is probably to refer to the appearance, in 1593, of a posthumous edition of his <hi rend="italic">Madrigali</hi>;<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> All the three text set by Marenzio were included in that
               collection (see “The poetic texts: edition and critical report”), which, according to James Chater, “momentarily revived” interest in
               Strozzi’s poetry among composers: see James Chater, “Family Matters: Music in the Life and Poetry of Giovambattista Strozzi the Elder”
@@ -108,7 +108,7 @@
             </cell>
             <cell>R. Arlotti</cell>
             <cell>Madrigal</cell>
-            <cell>6</cell>
+            <cell align="center">6</cell>
           </row>
           <row>
             <cell>2.</cell>
@@ -117,7 +117,7 @@
             </cell>
             <cell>B. Bevilacqua (attr.)</cell>
             <cell>Madrigal</cell>
-            <cell>12</cell>
+            <cell align="center">12</cell>
           </row>
           <row>
             <cell>3.</cell>
@@ -126,7 +126,7 @@
             </cell>
             <cell>T.Tasso, <hi rend="italic">Convito di pastori</hi></cell>
             <cell>Unrhymed 11s</cell>
-            <cell>7</cell>
+            <cell align="center">7</cell>
           </row>
           <row>
             <cell>4.</cell>
@@ -135,7 +135,7 @@
             </cell>
             <cell>B. Guarini, <hi rend="italic">Il pastor fido</hi></cell>
             <cell>Four unrhymed 11s and <lb/>a rhyming couplet of 7s</cell>
-            <cell>6</cell>
+            <cell align="center">6</cell>
           </row>
           <row>
             <cell>5.</cell>
@@ -144,7 +144,7 @@
             </cell>
             <cell>B. Guarini, <hi rend="italic">Il pastor fido</hi></cell>
             <cell>Unrhymed 11s and 7s</cell>
-            <cell>13</cell>
+            <cell align="center">13</cell>
           </row>
           <row>
             <cell>6.</cell>
@@ -153,7 +153,7 @@
             </cell>
             <cell>A. Ongaro, <hi rend="italic">Rime</hi></cell>
             <cell>Madrigal</cell>
-            <cell>9</cell>
+            <cell align="center">9</cell>
           </row>
           <row>
             <cell>7.</cell>
@@ -162,7 +162,7 @@
             </cell>
             <cell>B. Guarini, <hi rend="italic">Il pastor fido</hi></cell>
             <cell>Madrigal</cell>
-            <cell>8</cell>
+            <cell align="center">8</cell>
           </row>
           <row>
             <cell>8.</cell>
@@ -171,7 +171,7 @@
             </cell>
             <cell>A. Caro (attr.)</cell>
             <cell>Sonnet</cell>
-            <cell>
+            <cell align="center">
               <p>14</p>
               <p>[8+6]</p>
             </cell>
@@ -183,7 +183,7 @@
             </cell>
             <cell>—</cell>
             <cell>Madrigal</cell>
-            <cell>11</cell>
+            <cell align="center">11</cell>
           </row>
           <row>
             <cell>10.</cell>
@@ -192,7 +192,7 @@
             </cell>
             <cell>G.B. Strozzi the Elder</cell>
             <cell>Madrigal</cell>
-            <cell>7</cell>
+            <cell align="center">7</cell>
           </row>
           <row>
             <cell>11.</cell>
@@ -201,7 +201,7 @@
             </cell>
             <cell>B. Guarini, <hi rend="italic">Il pastor fido</hi></cell>
             <cell>Mostly unrhymed 11s and 7s, with concluding rhyming couplets</cell>
-            <cell>
+            <cell align="center">
               <p>17</p>
               <p>[9+8]</p>
             </cell>
@@ -213,7 +213,7 @@
             </cell>
             <cell>G.B. Strozzi the Elder</cell>
             <cell>Madrigal</cell>
-            <cell>9</cell>
+            <cell align="center">9</cell>
           </row>
           <row>
             <cell>13.</cell>
@@ -222,7 +222,7 @@
             </cell>
             <cell>—</cell>
             <cell>Madrigal</cell>
-            <cell>10</cell>
+            <cell align="center">10</cell>
           </row>
           <row>
             <cell>14.</cell>
@@ -231,7 +231,7 @@
             </cell>
             <cell>—</cell>
             <cell>Madrigal</cell>
-            <cell>9</cell>
+            <cell align="center">9</cell>
           </row>
           <row>
             <cell>15.</cell>
@@ -240,7 +240,7 @@
             </cell>
             <cell>Livio Celiano (A. Grillo)</cell>
             <cell>Sonnet</cell>
-            <cell>
+            <cell align="center">
               <p>14</p>
               <p>[8+6]</p>
             </cell>
@@ -252,7 +252,7 @@
             </cell>
             <cell>G.B. Strozzi the Elder</cell>
             <cell>Madrigal</cell>
-            <cell>7</cell>
+            <cell align="center">7</cell>
           </row>
           <row>
             <cell>17.</cell>
@@ -261,7 +261,7 @@
             </cell>
             <cell>adapt. from B. Guarini, <hi rend="italic">Dimmi gentil pastore</hi></cell>
             <cell>Madrigal</cell>
-            <cell>12</cell>
+            <cell align="center">12</cell>
           </row>
           <note>In the “Metrical form” column, “7s” and “11s” indicate, respectively, seven-syllable lines and hendecasyllables.</note>
         </table>
@@ -630,7 +630,7 @@
           regards page 8 in the Tenore partbook (madrigal no. 8, <hi rend="italic">Ben ho del caro oggetto i sensi privi</hi>): in the copies held in
           Berkeley, Brussels, and London, the d3 at m. 16 is a <hi rend="italic">semiminima</hi> instead of a <hi rend="italic">minima</hi>; the other
           consulted copies have the correct reading. </p>
-        <p>
+        <p align="right">
           <hi rend="italic">Boston (Mass.)-Veruno (Italy), Summer 2014</hi>
         </p>
       </div>
