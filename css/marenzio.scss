@@ -263,14 +263,17 @@ table.lyrics {
         counter-increment: rowNumber;
         td:first-child {
             padding-right: 3em;
-            padding-left: 10px;
+            padding-left: 3em;
         }
-        td:last-child::after {
+        td:first-child::before {
             content: "";
-            margin-left: 3em;
-            text-align: right;
-            float: right;
-            padding-right: 10px;
+            margin-left: -2.5em;
+            text-align: left;
+            float: left;
+            //padding-right: -20px;
+        }
+        td:last-child {
+            padding-right: 1em;
         }
         td {
             padding-top: 1px;
@@ -282,7 +285,7 @@ table.lyrics {
         height: 20px;
     }
     
-    tr:nth-of-type(5n + 0) td:last-child::after {
+    tr:nth-of-type(5n + 0) td:first-child::before {
         content: counter(rowNumber);
     }
 }

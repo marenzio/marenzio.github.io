@@ -5596,8 +5596,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001244432256" type="app">
-                                <p>e2 instead of c2</p>
+                            <annot xml:id="annot-0000001244432256" type="app" label="B;77">
+                                <p>second M e2 instead of c2</p>
                                 <list corresp="#p1ccd3n512v1b77s5">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -5789,8 +5789,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001960757879" type="app">
-                                <p>M instead of SM</p>
+                            <annot xml:id="annot-0000001960757879" type="app" label="B;79">
+                                <p>first c2 M instead of SM</p>
                                 <list corresp="#p1ccd3n0v1b79s5">
                                     <li>Ma-Ga-1614</li>
                                 </list>

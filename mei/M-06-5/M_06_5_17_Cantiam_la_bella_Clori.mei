@@ -359,7 +359,7 @@
                             </staff>
                             <dir xml:id="dir-0000000359370612" place="above" staff="1" tstamp="1.000000">Primo coro. A 8.</dir>
                             <dir xml:id="dir-0000001817544182" place="above" staff="5" tstamp="1.000000">Secondo coro. A 8.</dir>
-                            <annot xml:id="annot-0000002112196187" type="app">
+                            <annot xml:id="annot-0000002112196187" type="app" label="B2;directive">
                                 <p>rubric "Secondo choro. A 8." missing in B2</p>
                                 <list corresp="#dir-0000001817544182">
                                     <li>AnGa-1594</li>
@@ -7378,8 +7378,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000885819463" type="app">
-                                <p>M instead of SM</p>
+                            <annot xml:id="annot-0000000885819463" type="app" label="T1;61">
+                                <p>last note (g2) M instead of SM</p>
                                 <list corresp="#p1cgd3n768v1b61s3">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -11023,8 +11023,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001035206363" type="app">
-                                <p>c2 instead of b1 (corrected <rend fontstyle="italic">ope ingenii</rend>)</p>
+                            <annot xml:id="annot-0000001035206363" type="app" label="B1;90">
+                                <p>first M c2 instead of b1 (corrected <rend fontstyle="italic">ope ingenii</rend>)</p>
                                 <list corresp="#p1cbd2n0v1b90s4">
                                     <li>AnGa-1594</li>
                                     <li>AnGa-1603</li>

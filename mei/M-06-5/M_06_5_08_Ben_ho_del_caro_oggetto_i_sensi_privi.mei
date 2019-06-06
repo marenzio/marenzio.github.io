@@ -241,8 +241,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001792857291" type="app">
-                                <p>C-cut instead of C</p>
+                            <annot xml:id="annot-0000001792857291" type="app" label="A;1">
+                                <p>mensuration sign C-cut instead of C</p>
                                 <list corresp="#staff-0000002049608862" type="meterSig">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -1415,18 +1415,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000692861552" type="app">
-                                <p>SM instead of M</p>
+                            <annot xml:id="annot-0000000692861552" type="app" label="T;16">
+                                <p>d3 SM instead of M</p>
                                 <list corresp="#p1cdd4n1280v1b16s4">
                                     <li>AnGa-1594 (B-Br, GB-Lbl and US-BEm only)</li>
                                     <li>AnGa-1603</li>
                                 </list>
-                                <annot corresp="#line" label="">
-                                    <p>SM instead of M</p>
-                                    <list>
-                                        <li corresp="#p1ccd4n768v1b36s4">Ma-Ga-1614</li>
-                                    </list>
-                                </annot>
                             </annot>
                         </measure>
                         <measure xml:id="measure-0000001925463516" n="17">
@@ -3392,6 +3386,12 @@
                                         </verse>
                                     </note>
                                 </layer>
+                            	<annot xml:id="annot-0000000692861553" type="app" label="T;36">
+                            		<p>first c3 SM instead of M</p>
+                            		<list corresp="#p1ccd4n768v1b36s4">
+                            			<li>Ma-Ga-1614</li>
+                            		</list>
+                            	</annot>
                             </staff>
                             <staff xml:id="staff-0000001333655635" n="4">
                                 <layer xml:id="layer-0000001463433706" n="1">
@@ -4016,14 +4016,14 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000886565536" type="app">
-                                <p>SM instead of M</p>
+                            <annot xml:id="annot-0000000886565536" type="app" label="Q;42">
+                                <p>e3 SM instead of M</p>
                                 <list corresp="#p1ced4n512v1b42s2">
                                     <li>Ma-Ga-1614</li>
                                 </list>
                             </annot>
-                            <annot xml:id="annot-0000000613347365" type="app">
-                                <p>b2 instead of a2</p>
+                            <annot xml:id="annot-0000000613347365" type="app" label="A;42">
+                                <p>second F b2 instead of a2</p>
                                 <list corresp="#p1cad3n1408v1b42s3">
                                     <li>AnGa-1603</li>
                                 </list>

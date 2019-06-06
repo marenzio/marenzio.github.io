@@ -1635,8 +1635,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000291388735" type="app">
-                                <p>b2 b2 c3 instead of c3 b2 b2 (corrected based on the <rend fontsyle="italic">locus parallelus</rend>: T, 39-40)</p>
+                            <annot xml:id="annot-0000000291388735" type="app" label="Q;21-22">
+                                <p>SM b2-SB b2-SM c3 instead of SM c3-SB b2-SM b2 (corrected based on the <rend fontsyle="italic">locus parallelus</rend>: T, 39-40)</p>
                                 <list corresp="#p1ccd4n256v1b21s3 #p1cbd3n512v1b21s3 #p1cbd3n0v1b22s3 #p1cbd3n512v1b22s3">
                                     <li>AnGa-1594</li>
                                     <li>AnGa-1603</li>
@@ -4156,7 +4156,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000954926061" type="app">
+                            <annot xml:id="annot-0000000954926061" type="app" label="B;60">
                                 <p>a sharp (in the fourth space) is erroneously inserted before c2</p>
                                 <list corresp="#p1ccd3n512v1b60s5">
                                     <li>Ma-Ga-1614</li>

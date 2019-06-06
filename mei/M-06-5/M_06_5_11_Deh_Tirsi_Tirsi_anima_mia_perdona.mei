@@ -3854,8 +3854,8 @@
                                     <mRest xml:id="mrest-0000000018764704" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000716440187" type="app">
-                                <p>sharp missing</p>
+                            <annot xml:id="annot-0000000716440187" type="app" label="A;53">
+                                <p>sharp missing on f3</p>
                                 <list corresp="#p1cfd4n256v1b53s2">
                                     <li>AnGa-1603</li>
                                 </list>
@@ -4911,7 +4911,7 @@
                                     </tuplet>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000186064409" type="app">
+                            <annot xml:id="annot-0000000186064409" type="app" label="all voices;69">
                                 <p>
                                     <rend fontstyle="italic">color</rend> of the three blackened M, with a "3" after the first one</p>
                                 <list corresp="#measure-0000001414083985">

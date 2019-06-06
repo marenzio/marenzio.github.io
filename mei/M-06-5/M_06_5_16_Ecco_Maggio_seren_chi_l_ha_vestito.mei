@@ -840,8 +840,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000213360657" type="app">
-                                <p>not dotted</p>
+                            <annot xml:id="annot-0000000213360657" type="app" label="C;9">
+                                <p>M c4 not dotted</p>
                                 <list corresp="#p1ccd5n0v1b9s1">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -1074,8 +1074,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000418962242" type="app">
-                                <p>g4 instead of f4</p>
+                            <annot xml:id="annot-0000000418962242" type="app" label="C;12">
+                                <p>last M g4 instead of f4</p>
                                 <list corresp="#p1cfd5n1024v1b12s1">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -2006,8 +2006,8 @@
                                     <mRest xml:id="mrest-0000001572362639" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000660606791" type="app">
-                                <p>SM instead of F</p>
+                            <annot xml:id="annot-0000000660606791" type="app" label="C;25">
+                                <p>a3 SM instead of F</p>
                                 <list corresp="#p1cad4n128v1b25s1">
                                     <li>AnGa-1603</li>
                                 </list>

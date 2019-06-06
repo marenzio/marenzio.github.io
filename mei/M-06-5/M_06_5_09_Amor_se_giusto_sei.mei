@@ -2972,8 +2972,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000235605522" type="app">
-                                <p>d3 instead of c3 (corrected <rend fontstyle="italic">ope ingenii</rend>)</p>
+                            <annot xml:id="annot-0000000235605522" type="app" label="T;34">
+                                <p>first SM d3 instead of c3 (corrected <rend fontstyle="italic">ope ingenii</rend>)</p>
                                 <list corresp="#p1ccd4n0v1b34s4">
                                     <li>AnGa-1594</li>
                                     <li>AnGa-1603</li>
@@ -4175,8 +4175,8 @@
                                 </layer>
                             </staff>
                             <bracketSpan xml:id="bspan-0000001860525004" staff="1" startid="p1cad4n1536v1b48s1" endid="p1cgd4n512v1b49s1" func="ligature" lform="solid" />
-                            <annot xml:id="annot-0000000908777246" type="app">
-                                <p>a3 instead of b3</p>
+                            <annot xml:id="annot-0000000908777246" type="app" label="C;48">
+                                <p>SB a3 instead of b3</p>
                                 <list corresp="#verse-0000000441103397 #verse-0000000485184469 #verse-0000001533429362 #verse-0000000379225583 #p1cbd4n512v1b48s1">
                                     <li>AnGa-1603</li>
                                 </list>

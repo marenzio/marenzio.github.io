@@ -1182,7 +1182,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001420962590" type="app">
+                            <annot xml:id="annot-0000001420962590" type="app" label="A;10">
                                 <p>lyrics: "Tirsi" instead of "disse"</p>
                                 <list corresp="#p1ced4n768v1b10s2 #p1cfd4n1024v1b10s2">
                                     <li>AnGa-1603</li>
@@ -5012,8 +5012,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000448825155" type="app">
-                                <p>sharp after (instead of before)</p>
+                            <annot xml:id="annot-0000000448825155" type="app" label="A;51">
+                                <p>sharp after (instead of before) the second M g3</p>
                                 <list corresp="#p1cgd4n1536v1b51s2">
                                     <li>Ma-Ga-1614</li>
                                 </list>

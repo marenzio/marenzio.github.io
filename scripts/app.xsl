@@ -11,26 +11,34 @@
         <table class="table app-table">
             <thead>
                 <tr>
+                    <th>Measures</th>
                     <th>Sources</th>
-                    <th>Comment</th>
+                	<th>Voices</th>
+                	<th>Variants</th>
                 </tr>
             </thead>
             <tbody>
                 <xsl:for-each select="//mei:annot[@type='app']">
                     <tr>
-                        <td>
-                            <a>
-                                <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />' <xsl:if test="./mei:list/@type">, '<xsl:value-of select="./mei:list/@type" />'</xsl:if>);</xsl:attribute>
-                                <xsl:for-each select="./mei:list/mei:li">
-                                    <!--<xsl:variable name="staves" select="./@staff"/>-->
-                                    <p>
-                                        <xsl:apply-templates select="text()|mei:rend"/>
-                                    </p>
-                                </xsl:for-each>
-                            </a>
+                    	<td style="vertical-align:middle; text-align: center">
+                    		<xsl:value-of select="substring-after(./@label,';')"/>
+                    	</td>
+                    	<td>                    			
+                    		<xsl:for-each select="./mei:list/mei:li">
+                    		<!--<xsl:variable name="staves" select="./@staff"/>-->
+                    			<p>
+                    				<xsl:apply-templates select="text()|mei:rend"/>
+                    			</p>
+                    		</xsl:for-each>
                         </td>
-                        <td style="vertical-align:middle">
-                            <xsl:apply-templates select="./mei:p/text()|./mei:p/mei:rend"/>
+                    	<td style="vertical-align:middle; text-align: center">
+                    		<xsl:value-of select="substring-before(./@label,';')"/>
+                    	</td>
+                    	<td style="vertical-align:middle">
+                    		<a>
+                    			<xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />' <xsl:if test="./mei:list/@type">, '<xsl:value-of select="./mei:list/@type" />'</xsl:if>);</xsl:attribute>
+                    			<xsl:apply-templates select="./mei:p/text()|./mei:p/mei:rend"/>
+                    		</a>
                         </td> 
                     </tr>
                 </xsl:for-each>
@@ -66,7 +74,7 @@
                     <xsl:for-each select="./mei:annot">
                         <xsl:variable name="label" select="./@corresp"/>
                         <tr>
-                            <td style="vertical-align:middle">
+                            <td style="vertical-align:middle; text-align: center">
                                 <xsl:value-of select="./@label"/>
                             </td>
                             <td>

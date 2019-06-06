@@ -1252,8 +1252,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000002016714327" type="app">
-                                <p>f2-g2 instead of a2-b2</p>
+                            <annot xml:id="annot-0000002016714327" type="app" label="T;17-18">
+                                <p>on <rend fontstyle="italic">toglie</rend>, SM f2 and SB g2 instead of a2-b2</p>
                                 <list corresp="#p1cad3n768v1b17s4 #p1cbd3n0v1b18s4">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -2925,8 +2925,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001485798664" type="app">
-                                <p>SB instead of M</p>
+                            <annot xml:id="annot-0000001485798664" type="app" label="C;48" >
+                                <p>second note (a3) SB instead of M</p>
                                 <list corresp="#p1cad4n512v1b48s1">
                                     <li>AnGa-1603</li>
                                 </list>
@@ -3089,8 +3089,8 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000060753914" type="app">
-                                <p>f2 instead of e2</p>
+                            <annot xml:id="annot-0000000060753914" type="app" label="B;51">
+                                <p>M f2 instead of e2</p>
                                 <list corresp="#p1ced3n0v1b51s5">
                                     <li>Ma-Ga-1614</li>
                                 </list>
