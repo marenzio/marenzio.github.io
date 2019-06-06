@@ -4076,6 +4076,48 @@
                                 </layer>
                             </staff>
                         </measure>
+                    	<annot xml:id="annot-0000001088997015" type="app-text">
+                    		<annot corresp="#line1" label="1">
+                    			<p>car'oggetto</p>
+                    			<list>
+                    				<li corresp="#verse-0000001246391270 #verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000001603962068 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000046084598 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001010118854 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000001430998688 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">AnGa-1603 – all voices</li>
+                    				<li corresp="#verse-0000001246391270 #verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000001603962068 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000046084598 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001010118854 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000001430998688 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">Ma-Ga-1614 – all voices</li>
+                    			</list>
+                    		</annot>
+                    		<annot corresp="#line2" label="2">
+                    			<p>sento e <rend fontstyle="italic">(in A setno is followed by rests)</rend>
+                    			</p>
+                    			<list>
+                    				<li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724">AnGa-1594 – A</li>
+                    				<li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724">AnGa-1603 – A</li>
+                    				<li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724 #verse-0000001675122628 #verse-0000001243197059">Ma-Ga-1614 – AQ</li>
+                    			</list>
+                    		</annot>
+                    		<annot corresp="#line2" label="2">
+                    			<p>nell'alm'</p>
+                    			<list>
+                    				<li corresp="#verse-0000000499042913 #verse-0000001896039995 #verse-0000001801494239">AnGa-1594 – T<rend rend="sub">2</rend>
+                    				</li>
+                    				<li corresp="#verse-0000000499042913 #verse-0000001896039995 #verse-0000001801494239">AnGa-1603 – T<rend rend="sub">2</rend>
+                    				</li>
+                    			</list>
+                    		</annot>
+                    		<annot corresp="#line4" label="4">
+                    			<p>fontan'e</p>
+                    			<list>
+                    				<li corresp="#verse-0000000603278130 #verse-0000001527461066 #verse-0000000209316620 #verse-0000001338216174 #verse-0000000176657922 #verse-0000000431806506 #verse-0000000908363339 #verse-0000001472151048 #verse-0000001457651902 #verse-0000000786411090 #verse-0000001910385939 #verse-0000001263692419 #verse-0000000402861322 #verse-0000001250166949 #verse-0000001960891439 #verse-0000000740993362 #verse-0000000887974718 #verse-0000000479274040 #verse-0000000011212339 #verse-0000001876812068 #verse-0000001296777678 #verse-0000001140897334 #verse-0000001611067108 #verse-0000002051110648">AnGa-1603 – C<rend rend="sub">2</rend>AT<rend rend="sub">2,3</rend>Q<rend rend="sub">1,2</rend>
+                    				</li>
+                    			</list>
+                    		</annot>
+                    		<annot corresp="#line5" label="5">
+                    			<p>consum'e</p>
+                    			<list>
+                    				<li corresp="#verse-0000001816403264 #verse-0000001416875100 #verse-0000000113374945 #verse-0000002049990556 #verse-0000001867220971 #verse-0000001243741671">AnGa-1594 – TQ</li>
+                    				<li corresp="#verse-0000001816403264 #verse-0000001416875100 #verse-0000000113374945 #verse-0000002049990556 #verse-0000001867220971 #verse-0000001243741671">AnGa-1603 – TQ</li>
+                    				<li corresp="#verse-0000001816403264 #verse-0000001416875100 #verse-0000000113374945 #verse-0000002049990556 #verse-0000001867220971 #verse-0000001243741671">Ma-Ga-1614 – TQ</li>
+                    			</list>
+                    		</annot>
+                    	</annot>
                     </section>
                 </score>
             </mdiv>
@@ -7353,47 +7395,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <annot xml:id="annot-0000001088997015" type="app-text">
-                            <annot corresp="#line1" label="1">
-                                <p>car'oggetto</p>
-                                <list>
-                                    <li corresp="#verse-0000001246391270 #verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000001603962068 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000046084598 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001010118854 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000001430998688 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">AnGa-1603 – all voices</li>
-                                    <li corresp="#verse-0000001246391270 #verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000001603962068 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000046084598 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001010118854 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000001430998688 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">Ma-Ga-1614 – all voices</li>
-                                </list>
-                            </annot>
-                            <annot corresp="#line2" label="2">
-                                <p>sento e <rend fontstyle="italic">(in A setno is followed by rests)</rend>
-                                </p>
-                                <list>
-                                    <li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724">AnGa-1594 – A</li>
-                                    <li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724">AnGa-1603 – A</li>
-                                    <li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724 #verse-0000001675122628 #verse-0000001243197059">Ma-Ga-1614 – AQ</li>
-                                </list>
-                            </annot>
-                            <annot corresp="#line2" label="2">
-                                <p>nell'alm'</p>
-                                <list>
-                                    <li corresp="#verse-0000000499042913 #verse-0000001896039995 #verse-0000001801494239">AnGa-1594 – T<rend rend="sub">2</rend>
-                                    </li>
-                                    <li corresp="#verse-0000000499042913 #verse-0000001896039995 #verse-0000001801494239">AnGa-1603 – T<rend rend="sub">2</rend>
-                                    </li>
-                                </list>
-                            </annot>
-                            <annot corresp="#line4" label="4">
-                                <p>fontan'e</p>
-                                <list>
-                                    <li corresp="#verse-0000000603278130 #verse-0000001527461066 #verse-0000000209316620 #verse-0000001338216174 #verse-0000000176657922 #verse-0000000431806506 #verse-0000000908363339 #verse-0000001472151048 #verse-0000001457651902 #verse-0000000786411090 #verse-0000001910385939 #verse-0000001263692419 #verse-0000000402861322 #verse-0000001250166949 #verse-0000001960891439 #verse-0000000740993362 #verse-0000000887974718 #verse-0000000479274040 #verse-0000000011212339 #verse-0000001876812068 #verse-0000001296777678 #verse-0000001140897334 #verse-0000001611067108 #verse-0000002051110648">AnGa-1603 – C<rend rend="sub">2</rend>AT<rend rend="sub">2,3</rend>Q<rend rend="sub">1,2</rend>
-                                    </li>
-                                </list>
-                            </annot>
-                            <annot corresp="#line5" label="5">
-                                <p>consum'e</p>
-                                <list>
-                                    <li corresp="#verse-0000001816403264 #verse-0000001416875100 #verse-0000000113374945 #verse-0000002049990556 #verse-0000001867220971 #verse-0000001243741671">AnGa-1594 – TQ</li>
-                                    <li corresp="#verse-0000001816403264 #verse-0000001416875100 #verse-0000000113374945 #verse-0000002049990556 #verse-0000001867220971 #verse-0000001243741671">AnGa-1603 – TQ</li>
-                                    <li corresp="#verse-0000001816403264 #verse-0000001416875100 #verse-0000000113374945 #verse-0000002049990556 #verse-0000001867220971 #verse-0000001243741671">Ma-Ga-1614 – TQ</li>
-                                </list>
-                            </annot>
+                    	<annot xml:id="annot-0000001088997016" type="app-text">
                             <annot corresp="#line9" label="9">
                                 <p>Dillel la</p>
                                 <list>

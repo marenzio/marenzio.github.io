@@ -149,6 +149,11 @@
                 {% endif %}
 
                 $("#total_text").html(vrvToolkit.getPageCount());
+                if (part != 0) {
+                    $("table.app-table tr").hide();
+                    $("table.app-table tr.part" + part).show();
+                }
+
                 page = 1;
                 loadPage();
             }

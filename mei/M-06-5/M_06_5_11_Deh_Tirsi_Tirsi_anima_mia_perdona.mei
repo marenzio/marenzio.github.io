@@ -3738,6 +3738,22 @@
                                 </layer>
                             </staff>
                         </measure>
+                    	<annot xml:id="annot-0000001327094866" type="app-text">
+                    		<annot corresp="#line8" label="8">
+                    			<p>vendetta</p>
+                    			<list>
+                    				<li corresp="#verse-0000000550071370 #verse-0000001950873562 #verse-0000001239676644">AnGa-1594 – B</li>
+                    				<li corresp="#verse-0000000550071370 #verse-0000001950873562 #verse-0000001239676644">Ma-Ga-1614 – B</li>
+                    			</list>
+                    		</annot>
+                    		<annot corresp="#line8" label="8">
+                    			<p>poi</p>
+                    			<list>
+                    				<li corresp="#verse-0000000567444556">AnGa-1594 – A<rend rend="sub">2</rend>
+                    				</li>
+                    			</list>
+                    		</annot>
+                    	</annot>
                     </section>
                 </score>
             </mdiv>
@@ -6882,21 +6898,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <annot xml:id="annot-0000001327094866" type="app-text">
-                            <annot corresp="#line8" label="8">
-                                <p>vendetta</p>
-                                <list>
-                                    <li corresp="#verse-0000000550071370 #verse-0000001950873562 #verse-0000001239676644">AnGa-1594 – B</li>
-                                    <li corresp="#verse-0000000550071370 #verse-0000001950873562 #verse-0000001239676644">Ma-Ga-1614 – B</li>
-                                </list>
-                            </annot>
-                            <annot corresp="#line8" label="8">
-                                <p>poi</p>
-                                <list>
-                                    <li corresp="#verse-0000000567444556">AnGa-1594 – A<rend rend="sub">2</rend>
-                                    </li>
-                                </list>
-                            </annot>
+                    	<annot xml:id="annot-0000001327094867" type="app-text">
                             <annot corresp="#line14" label="14">
                                 <p>son</p>
                                 <list>

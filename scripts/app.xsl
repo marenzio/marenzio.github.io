@@ -20,6 +20,10 @@
             <tbody>
                 <xsl:for-each select="//mei:annot[@type='app']">
                     <tr>
+                    	<xsl:variable name="part" select="ancestor::mei:mdiv[exists(@label)][1]/@label"></xsl:variable>
+                    	<xsl:if test="$part">
+                    		<xsl:attribute name="class"><xsl:value-of select="$part"/></xsl:attribute>
+                    	</xsl:if>
                     	<td style="vertical-align:middle; text-align: center">
                     		<xsl:value-of select="substring-after(./@label,';')"/>
                     	</td>
@@ -74,6 +78,11 @@
                     <xsl:for-each select="./mei:annot">
                         <xsl:variable name="label" select="./@corresp"/>
                         <tr>
+                        	<xsl:variable name="part" select="ancestor::mei:mdiv[exists(@label)][1]/@label"></xsl:variable>
+                        	<xsl:if test="$part">
+                        		<xsl:attribute name="class"><xsl:value-of select="$part"/></xsl:attribute>
+                        	</xsl:if>
+                        	
                             <td style="vertical-align:middle; text-align: center">
                                 <xsl:value-of select="./@label"/>
                             </td>
