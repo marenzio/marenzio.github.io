@@ -147,6 +147,11 @@
                             </rend>
                             <rend xml:id="rend-0000000154273243" halign="right" valign="bottom">(Annibale Caro [attr.])</rend>
                         </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2019 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il sesto libro de madrigali a cinque voci<lb/>Ben ho del caro oggetto i sensi privi</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
                                 <label xml:id="label-0000001570684636">Canto</label>
@@ -4084,6 +4089,11 @@
                                 </rend>
                             </rend>
                         </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2019 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il sesto libro de madrigali a cinque voci<lb/>Dille la mia speranz’e ’l mio desio</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="staffgrp-0000000730469413-2" symbol="bracket" n="1">
                             <staffDef xml:id="sd1-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" n="1" lines="5">
                                 <label xml:id="label-0000000417038206">Canto</label>

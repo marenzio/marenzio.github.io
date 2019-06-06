@@ -148,6 +148,11 @@
                             </rend>
                             <rend xml:id="rend-0000001518890612" halign="right" valign="bottom">(Livio Celiano [Angelo Grillo])</rend>
                         </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2019 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il sesto libro de madrigali a cinque voci<lb/>“Rimanti in pace”, a la dolente e bella</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                 <label xml:id="label-0000000761122569">Canto</label>
@@ -3859,6 +3864,11 @@
                                 </rend>
                             </rend>
                         </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2019 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il sesto libro de madrigali a cinque voci<lb/>Ond’ei, di morte la sua faccia impressa</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="staffgrp-0000001874578343-2" symbol="bracket" n="1">
                             <staffDef xml:id="sd1-2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                 <label xml:id="label-0000000164640196">Canto</label>

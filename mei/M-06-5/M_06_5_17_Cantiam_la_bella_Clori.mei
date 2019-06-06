@@ -206,6 +206,11 @@
                             </rend>
                             <rend xml:id="rend-0000001014604664" halign="right" valign="bottom">(adapted from Battista Guarini)</rend>
                         </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2019 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il sesto libro de madrigali a cinque voci<lb/>Cantiam la bella Clori</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="staffgrp-0000001064334258">
                             <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
                                 <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">

@@ -88,6 +88,11 @@
                             </rend>
                             <rend xml:id="rend-0000001522413775" halign="right" valign="bottom">(Battista Guarini)</rend>
                         </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2019 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il sesto libro de madrigali a cinque voci<lb/>Anima cruda sì, ma però bella</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                 <label xml:id="label-0000000681228745">Canto</label>
