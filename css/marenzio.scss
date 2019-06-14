@@ -4,8 +4,10 @@
 
 $navbar-background: #53514f;
 $sidebar-width: 280px;
-$sidebar-background: #f7f5e7;
+$menu-background: #f6f4ea; //#f7f5e7;
+$sidebar-background: lighten($navbar-background, 4%);
 $site-background: #fff;
+$text-color: #9d9d9d;
 
 /* body and navbar */
 
@@ -122,8 +124,15 @@ svg:not(:root){
     background-color: $navbar-background;  
     p {
         margin-top: 5px;
-        color: #9d9d9d;
+        color: $text-color;
     } 
+}
+
+a sub {
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    padding-right: 2px;
 }
 
 .sublist-group a {
@@ -135,12 +144,20 @@ svg:not(:root){
     padding-left: 40px;
 }
 
+.dropdown-menu a.menu-part {
+	font-style: italic;
+    padding-left: 40px;
+}
+
 .list-group-item {
     background-image: none !important;
-    background-color: $sidebar-background;
+    background-color: $menu-background;
 }
 .list-group-item:not(.active):hover {
-    background: #fff !important;
+    background: lighten($menu-background, 10%) !important;
+}
+
+.list-group-item:hover {
 }
 
 div.secondary_links {
@@ -230,15 +247,6 @@ div.table {
     }
 }
 
-// we need popover to be behind the modal dialog
-.popover {
-    z-index: 899;
-}
-
-.popover.arrow {
-    display: none;
-}
-
 h5.marenzio-modal {
     background-color: $navbar-background;
     color: #aaa;
@@ -321,6 +329,13 @@ div.marenzio-modal {
         margin-top: 0px;
         margin-bottom: 2px;
     }
+    tr.disabled {
+        opacity: 0.4;
+        a {
+            pointer-events: none;
+            cursor: default;
+        }
+    }
 }
 
 div.app-inline, div.app-inline-text {
@@ -335,6 +350,7 @@ div.app-inline, div.app-inline-text {
 
 .sidebar-panel {
     margin: 20px;
+    color: lighten($text-color, 15%);
 }
 
 .sidebar-row {
@@ -349,6 +365,9 @@ div.app-inline, div.app-inline-text {
     -moz-transition: all 0.0s ease;
     -o-transition: all 0.0s ease;
     transition: all 0.0s ease;
+    margin-bottom: 0px;
+    height: 100%;
+    background-color: #F7F5ED;
 }
 
 #wrapper.toggled {
@@ -376,12 +395,12 @@ div.app-inline, div.app-inline-text {
 
 #page-content-wrapper {
     width: 100%;
+    height: 100%;
 }
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -$sidebar-width;
-    background-color: #fff;
 }
 
 
@@ -399,6 +418,70 @@ div.app-inline, div.app-inline-text {
 
 .sidebar-option-row {
     margin-top: 15px;
+}
+
+/* splitter */
+
+#splitter-bar {
+    width: 75px;
+    height: 100%;
+    background-image: none !important;
+    float: left;
+    position: fixed;
+    .splitter-toggle {
+      display: block;
+    }
+}
+
+#splitter-content {
+    margin-left: 100px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: scroll;
+}
+
+#top-panel {
+    background-color: #fff;
+}
+
+#bottom-panel {
+}
+
+#bottom-panel-button {
+}
+
+.hsplitter {
+    overflow: visible !important;
+    height: 10px !important;
+}
+
+.hsplitter:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    border-top: solid 6px lighten($text-color, 30%);
+    border-left: solid 6px transparent;
+    border-right: solid 6px transparent;
+}
+
+.hsplitter:before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 8px;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: solid 6px lighten($text-color, 30%);
+    border-left: solid 6px transparent;
+    border-right: solid 6px transparent;
 }
 
 /* larger screen */

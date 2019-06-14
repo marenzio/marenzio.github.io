@@ -1,7 +1,31 @@
 <ul class="nav navbar-nav">
+    <li>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ page.book.title }}<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            {% for t in site.data.books[page.book.id].texts %}
+            <li>
+                <a id="link-{{ t.id }}" href="{{ site.fakeurl }}digital-edition/{{ page.book.id }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
+            </li>
+            {% endfor %}
+            <hr/>
+            {% for m in site.data.books[page.book.id].content %}
+            <li>
+                <a id="link-{{ m.id }}" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
+            </li>
+                {% for p in m.parts %}
+                <li>
+                    <a id="link-{{ m.id }}" class="menu-part" href="{{ site.fakeurl }}digital-edition/{{ m.id }}?part={{ p.id }}">{{ p.title }}</a>
+                </li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </li>
+
+    {% for p in page.panels %}
 	<li>
-		<a href="{{ site.fakeurl }}digital-edition/{{ page.book.id }}.xhtml">{{ page.book.title }}</a>
+		<a href="javascript:loadPanel('{{ p.id }}');" data-target="#{{ p.id }}">{{ p.title }}</a>
 	</li>
+	{% endfor %}
 	
     {% for m in page.modals %}
 	<li>

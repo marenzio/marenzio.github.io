@@ -84,12 +84,21 @@
             var qstamp;
             var currentSystem;
             var splitter;
+            var splitterPosition = 60;
+            var splitterOpen = false;
+            var splitterPanel = "app";
 
 
             // reload cookies
             if ( $.cookie('zoom') ) zoom = $.cookie('zoom');
             if ( $.cookie('toggle') ) toggle = ($.cookie('toggle') == "true");
             if ( $.cookie('vertical_layout') ) vertical_layout = ($.cookie('vertical_layout') == "true");
+            if ( $.cookie('splitter_position') ) splitterPosition = $.cookie('splitter_position');
+            if ( $.cookie('splitter_open') ) splitterOpen = ($.cookie('splitter_open') == "true");
+            if ( $.cookie('splitter_panel') ) splitterPanel = $.cookie('splitter_panel');
+            
+            if (splitterPosition > 100) splitterPosition = 60;
+            if (splitterPosition < 5) splitterPosition = 60;
     
             function getParameterByName(name) {
                 var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
@@ -102,7 +111,7 @@
                 }
                 else {
                     //pageHeight = ($(window).height() - $( "#navbar" ).height() - 4) * 100 / zoom ;
-                    pageHeight = (splitter.position() - $( "#navbar" ).height() - 4) * 100 / zoom;
+                    pageHeight = (splitter.position() - 4) * 100 / zoom;
                 }
                 if (part != 0) {
                     mdivXPathQuery = "//body/mdiv[" + part + "]";
@@ -153,8 +162,8 @@
 
                 $("#total_text").html(vrvToolkit.getPageCount());
                 if (part != 0) {
-                    $("table.app-table tr").hide();
-                    $("table.app-table tr.part" + part).show();
+                    $("table.app-table tbody tr").addClass("disabled");
+                    $("table.app-table tbody tr.part" + part).removeClass( "disabled"); //Enable
                 }
 
                 page = 1;
@@ -174,7 +183,8 @@
                     highligtedType = "";
                 }
 
-                var ids = xmlIds.split(" ");                
+                var ids = Array.from(new Set(xmlIds.split(" ")));
+                console.log(ids);
                 var elementPage = vrvToolkit.getPageWithElement( ids[0].substring(1) );
                 if (elementPage == 0) {
                     console.log(ids[0], "ID not found" );
@@ -201,14 +211,13 @@
                 var ids = highlighted.split(" ");
                 var i;
                 for (i = 0; i < ids.length; i++) {
-                    d3.selectAll( ids[i] + highligtedType + " *" ).style('filter', 'url(#highlighting)');
+                    d3.selectAll( ids[i] + highligtedType ).style('filter', 'url(#highlighting)');
                 }
             }
             
             function loadPage() {
                 $("#overlay").fadeOut(500).css("cursor", "auto");
                 $("#jump_text").val(page);
-                $( ".popover" ).popover('hide');
                 
                 svg = vrvToolkit.renderToSVG(page, "");
                 $("#svg_output").html(svg);
@@ -233,7 +242,8 @@
                             type = " ." + s.attr("data-type");
                         }
                         ids = s.attr("data-corresp").split(" ");
-                        $.each( ids, function(i, id){
+                        var uniqueIds = Array.from(new Set(ids))
+                        $.each( uniqueIds, function(i, id){
                             var element = d3.select(id + type);
                             if (!element.empty()) {
                                 if (i == 0) {
@@ -250,14 +260,6 @@
                         });
                     }    
                 });
-                $('.highlight').popover({
-                   'trigger':'hover manual'
-                   ,'container': 'body'
-                   ,'placement': 'auto'
-                   ,'white-space': 'nowrap'
-                   ,'html':'true'
-                });
-                $( ".highlight" ).popover('show');
             }
             
             function nextPage() {
@@ -424,6 +426,30 @@
                 
                 loadFile();
             }
+            
+            function loadPanel(panelId, openIfClosed = true) {
+                if (openIfClosed && (splitterOpen === false)) {
+                    openPanel();
+                }
+                $.cookie('splitter_panel', panelId, { expires: 30 });
+                $("#splitter-content .splitter-content-panel").hide();
+                $("#splitter-content ." + panelId).show();
+            }
+            
+            function closePanel() {
+                $.cookie('splitter_open', false, { expires: 30 });
+                splitter.position("100%");
+                applyZoom(); 
+                splitterOpen = false;
+            }
+            
+            function openPanel() {
+                $.cookie('splitter_open', true, { expires: 30 });
+                splitter.position(splitterPosition + '%');
+                applyZoom();
+                splitterOpen = true;
+            }
+            
             
             function updatePageOrScrollTo(xmlId)
             {
@@ -867,7 +893,7 @@
                     <div class="row sidebar-row">
                         <div class="col-xs-12">
                             {% assign id = page.path | remove: "digital-edition/" %}
-                            {% assign madrigals = site.data.books[page.book.id] %}
+                            {% assign madrigals = site.data.books[page.book.id].content %}
                             {% assign prev_i = -1 %}
                             {% assign next_i = -1 %}
                             {% assign current_i = -1 %}
@@ -939,7 +965,29 @@
                     
                     
                     <div id="bottom-panel">
-                        <h3>Prout</h3>
+                        <!-- top navbar -->                        
+                        <div id="splitter-bar" class="navbar navbar-inverse navbar-with-sidebar">
+                            <div class="navbar-header">
+                                <a href="javascript:closePanel()">
+                                <button type="button" class="navbar-toggle splitter-toggle">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </a>
+                            </div>
+                        </div>
+                        <div id="splitter-content">
+                        {% for p in page.panels %}
+                            <div class="splitter-content-panel {{ p.id }}">
+                                <h3 class="modal-title" id="myModalLabel">
+                                    {{ p.title }}
+                                </h3>
+                                {% include {{ p.file }} %}
+                            </div>
+                        {% endfor %}
+                        </div>
                     </div>
                 </div>
     
@@ -992,22 +1040,25 @@
                     // Adjust the size of the svg_output and the zoom according to the div (screen) size
                     width = $('#svg_panel').width();
                     zoom = Math.min( Math.floor( 100 * width / 2100 ), zoom );
-        
-                    // Set the popover for the btn
-                    $( ".popover-btn" ).popover( );
                     
-                    pageHeight = ($(window).height() - $( "#navbar" ).height() - 4);
-                    $('#splitter').height(pageHeight);
+                    loadPanel(splitterPanel, false);
+                    
+                    totalHeight = ($(window).height() - $( "#navbar" ).height());
+                    $('#splitter').height(totalHeight);
                     splitter = $('#splitter').split({
                         orientation: 'horizontal',
                         limit: {leftUpper: 300, rightBottom: 0},
-                        position: '75%', // if there is no percentage it interpret it as pixels
+                        position: splitterPosition + '%', // if there is no percentage it interpret it as pixels
                         onDragEnd: function(event) {
-                            //console.log(splitter.position());
+                            splitterPosition = splitter.position() * 100 / totalHeight;
+                            $.cookie('splitter_position', splitterPosition, { expires: 30 });
+                            $.cookie('splitter_open', true, { expires: 30 });
                             applyZoom();
                         }
                     });
-                    splitter.position("100%");
+                    if (splitterOpen !== true) {
+                        closePanel();
+                    }
                         
                     
                     // Init the swip

@@ -2,14 +2,14 @@
 	<div class="col-md-3" id="sidebar" role="navigation">
 		<div class="panel panel-default">
 			<div class="list-group">
-				{% for t in page.texts %}
+				{% for t in site.data.books[page.book].texts  %}
 				<a id="link-{{ t.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ page.book }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
 				{% endfor %}
 			</div>
 		</div>
 		<div class="panel panel-default">
 			<div class="list-group sublist-group">
-				{% for m in site.data.books[page.book] %}
+				{% for m in site.data.books[page.book].content %}
 				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
 	                {% for p in m.parts %}
 				    <a id="link-{{ m.id }}" class="list-group-item menu-part" href="{{ site.fakeurl }}digital-edition/{{ m.id }}?part={{ p.id }}">{{ p.title }}</a>
@@ -39,7 +39,7 @@
 	}
     
     var titles = new Object();
-    {% for text in page.texts %}
+    {% for text in site.data.books[page.book].texts  %}
         titles['{{ text.id }}'] = "{{ text.name }}"
     {% endfor %}
 
@@ -47,7 +47,7 @@
 		
 		var id = getParameterByName("id");
 		if (!id) {
-			id = "{{ page.texts[0].id }}";
+			id = "{{ site.data.books[page.book].texts[0].id }}";
 		}
 		var file = "{{ site.fakeurl }}texts/{{ page.book }}-" + id + ".html";	
 		// load the file	
