@@ -128,9 +128,13 @@
     <xsl:template match="mei:rend[@rend='sub']">
         <sub><xsl:value-of select="."/></sub>
     </xsl:template>
+	
+	<xsl:template match="mei:rend[@fontstyle='normal']">
+		<span style="font-style:normal"><xsl:value-of select="."/></span>
+	</xsl:template>
     
     <xsl:template match="mei:rend[@fontstyle='italic']">
-        <i><xsl:value-of select="."/></i>
+    	<i><xsl:apply-templates select="@* | node()"/></i>
     </xsl:template>
     
     <xsl:template match="*/text()">

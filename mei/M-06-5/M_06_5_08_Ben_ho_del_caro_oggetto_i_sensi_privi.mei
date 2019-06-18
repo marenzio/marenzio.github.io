@@ -242,7 +242,7 @@
                                 </layer>
                             </staff>
                             <annot xml:id="annot-0000001792857291" type="app" label="A;1">
-                                <p>mensuration sign C-cut instead of C</p>
+                                <p>mensuration sign C instead of C-cut</p>
                                 <list corresp="#staff-0000002049608862" type="meterSig">
                                     <li>Ma-Ga-1614</li>
                                 </list>
@@ -4081,11 +4081,16 @@
                     			<p>car'oggetto</p>
                     			<list>
                     				<li corresp="#verse-0000001246391270 #verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000001603962068 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000046084598 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001010118854 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000001430998688 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">AnGa-1603 – all voices</li>
-                    				<li corresp="#verse-0000001246391270 #verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000001603962068 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000046084598 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001010118854 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000001430998688 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">Ma-Ga-1614 – all voices</li>
+                                </list>
+                    		</annot>
+                    		<annot corresp="#line1" label="1">
+                    			<p>ogetto</p>
+                    			<list>
+                    				<li corresp="#verse-0000000888490220 #verse-0000000405704349 #verse-0000000409669251 #verse-0000000189855886 #verse-0000001477835940 #verse-0000002037550842 #verse-0000000172522694 #verse-0000001001662346 #verse-0000000291309819 #verse-0000001386122117 #verse-0000002013530648 #verse-0000000723934625 #verse-0000000071903865 #verse-0000000955053008 #verse-0000000242852628">Ma-Ga-1614 – all voices</li>
                     			</list>
                     		</annot>
                     		<annot corresp="#line2" label="2">
-                    			<p>sento e <rend fontstyle="italic">(in A setno is followed by rests)</rend>
+                    			<p>sento e <rend fontstyle="italic">(in A <rend fontstyle="normal">sento</rend> is followed by rests)</rend>
                     			</p>
                     			<list>
                     				<li corresp="#verse-0000001228241446 #verse-0000000519150121 #verse-0000000980723724">AnGa-1594 – A</li>
@@ -7404,7 +7409,7 @@
                                 </list>
                             </annot>
                             <annot corresp="#line9" label="9">
-                                <p>speranz <rend fontsyle="italic">(tuncated repetition, not directly followed by </rend>e<rend fontstyle="italic">)</rend>
+                                <p>speranza <rend fontstyle="italic">(truncated repetition, not directly followed by </rend>e<rend fontstyle="italic">)</rend>
                                 </p>
                                 <list>
                                     <li corresp="#verse-0000000601041552 #verse-0000000249698027 #verse-0000001109190649">AnGa-1594 – Q<rend rend="sub">2</rend>

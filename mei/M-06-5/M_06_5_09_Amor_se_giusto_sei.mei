@@ -4004,7 +4004,7 @@
                                 <layer xml:id="layer-0000000456227106" n="1">
                                     <note xml:id="p1cbd4n0v1b47s1" dur="2" oct="4" pname="b">
                                         <verse xml:id="verse-0000000889483106" n="1">
-                                            <syl xml:id="syl-0000000908895775" fontstyle="italic" wordpos="t">mor</syl>
+                                            <syl xml:id="syl-0000000908895775" wordpos="t">mor</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n512v1b47s1" dur="1" oct="5" pname="d">
@@ -4023,7 +4023,7 @@
                                 <layer xml:id="layer-0000002006299201" n="1">
                                     <note xml:id="p1cdd4n0v1b47s2" dots="1" dur="1" oct="4" pname="d">
                                         <verse xml:id="verse-0000000543188176" n="1">
-                                            <syl xml:id="syl-0000000410690635" wordpos="t">mor</syl>
+                                            <syl xml:id="syl-0000000410690635" fontstyle="italic" wordpos="t">mor</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n1536v1b47s2" dur="2" oct="4" pname="e">
@@ -4177,7 +4177,7 @@
                             <bracketSpan xml:id="bspan-0000001860525004" staff="1" startid="p1cad4n1536v1b48s1" endid="p1cgd4n512v1b49s1" func="ligature" lform="solid" />
                             <annot xml:id="annot-0000000908777246" type="app" label="C;48">
                                 <p>SB a3 instead of b3</p>
-                                <list corresp="#verse-0000000441103397 #verse-0000000485184469 #verse-0000001533429362 #verse-0000000379225583 #p1cbd4n512v1b48s1">
+                                <list corresp="#p1cbd4n512v1b48s1">
                                     <li>AnGa-1603</li>
                                 </list>
                             </annot>
