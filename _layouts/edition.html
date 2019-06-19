@@ -197,7 +197,7 @@
                 var a = d3.select(ids[0]);
                 if (!a.empty()) {
                     var y = (a[0][0].getBBox().y) * zoom / 1000; // 100 * 10 because of the def factor in SVG
-                    $('body').scrollTo( parseInt( y - 50 ), 300, { axis:'y' } );
+                    $('#top-panel').scrollTo( parseInt( y - 50 ), 300, { axis:'y' } );
                 }
                 
                 showHighlighted();
@@ -450,6 +450,14 @@
                 splitterOpen = true;
             }
             
+            function adjustSplitter(updatePosition = true) {
+                totalHeight = ($(window).height() - $( "#navbar" ).height());
+                $('#splitter').height(totalHeight);
+                if (updatePosition === true) {
+                    splitter.refresh();
+                    splitter.position(splitterPosition + '%');
+                }
+            }
             
             function updatePageOrScrollTo(xmlId)
             {
@@ -463,7 +471,9 @@
                     var a = d3.select("#" + system);
                     if (!a.empty()) {
                         var y = (a[0][0].getBBox().y) * zoom / 1000; // 100 * 10 because of the def factor in SVG
-                        $('body').scrollTo(parseInt( y ), 300, { axis:'y' });
+
+                        console.log(y);
+                        $('#top-panel').scrollTo(parseInt( y ), 300, { axis:'y' });
                     }
                 }
                 else {
@@ -1034,6 +1044,7 @@
                     });
         
                     $(window).resize(function(){
+                        adjustSplitter();
                         applyZoom();
                     });
                     
@@ -1043,8 +1054,7 @@
                     
                     loadPanel(splitterPanel, false);
                     
-                    totalHeight = ($(window).height() - $( "#navbar" ).height());
-                    $('#splitter').height(totalHeight);
+                    adjustSplitter(false);
                     splitter = $('#splitter').split({
                         orientation: 'horizontal',
                         limit: {leftUpper: 300, rightBottom: 0},
