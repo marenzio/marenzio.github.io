@@ -325,6 +325,12 @@ div.marenzio-modal {
 }
 
 .app-table {
+    td.measures, td.lines {
+        width: 100px;
+    }
+    td.sources {
+        width: 250px;
+    }
     p {
         margin-top: 0px;
         margin-bottom: 2px;
@@ -337,6 +343,20 @@ div.marenzio-modal {
         }
     }
 }
+
+.app-table-table {
+   .app-brace {
+       border-style: solid;
+       border-color: transparent;
+       border-width: 1px 20px 1px 0px;
+       border-image: url("../images/curly-red.png") 1 20 stretch;
+       padding-right: 0.5em;
+   }
+   td {
+      padding-right: 5px;
+   }
+}
+
 
 div.app-inline, div.app-inline-text {
     display: none;

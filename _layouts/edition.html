@@ -163,8 +163,8 @@
 
                 $("#total_text").html(vrvToolkit.getPageCount());
                 if (part != 0) {
-                    $("table.app-table tbody tr").addClass("disabled");
-                    $("table.app-table tbody tr.part" + part).removeClass( "disabled"); //Enable
+                    $("table.app-table > tbody > tr").addClass("disabled");
+                    $("table.app-table > tbody > tr.part" + part).removeClass( "disabled"); //Enable
                 }
 
                 page = 1;
@@ -921,7 +921,7 @@
                             
                     
                             {% if prev_i != -1 %}
-                            <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[prev_i].id }}"><span class="glyphicon glyphicon-arrow-up"/> {{ madrigals[prev_i].name }}</a>    
+                            <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[prev_i].id }}"><span class="glyphicon glyphicon-arrow-up"/> {{ prev_i | plus: 1 }}. {{ madrigals[prev_i].name }}</a>    
                             {% endif %} 
                             
                         	{% if page.parts %}
@@ -931,7 +931,7 @@
                         	{% endif %}
                             
                             {% if next_i != -1 %}
-                                <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[next_i].id }}"><span class="glyphicon glyphicon-arrow-down"/> {{ madrigals[next_i].name }}</a>  
+                                <a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ madrigals[next_i].id }}"><span class="glyphicon glyphicon-arrow-down"/> {{ next_i | plus: 1 }}. {{ madrigals[next_i].name }}</a>  
                             {% endif %}
                         </div>
                     </div>

@@ -8,46 +8,68 @@
         <xsl:for-each select="//mei:annot[@type='app-sources-used']">
             <xsl:apply-templates/>
         </xsl:for-each>
+        <xsl:if test="count(//mei:annot[@type='app']) > 0">
         <table class="table app-table">
             <thead>
                 <tr>
                     <th>Measures</th>
-                    <th>Sources</th>
-                	<th>Voices</th>
-                	<th>Variants</th>
+                    <th>Sources – Voices</th>
+                    <th>Variants</th>
                 </tr>
             </thead>
             <tbody>
                 <xsl:for-each select="//mei:annot[@type='app']">
                     <tr>
-                    	<xsl:variable name="part" select="ancestor::mei:mdiv[exists(@label)][1]/@label"></xsl:variable>
-                    	<xsl:if test="$part">
-                    		<xsl:attribute name="class"><xsl:value-of select="$part"/></xsl:attribute>
-                    	</xsl:if>
-                    	<td style="vertical-align:middle; text-align: center">
-                    		<xsl:value-of select="substring-after(./@label,';')"/>
-                    	</td>
-                    	<td>                    			
-                    		<xsl:for-each select="./mei:list/mei:li">
-                    		<!--<xsl:variable name="staves" select="./@staff"/>-->
-                    			<p>
-                    				<xsl:apply-templates select="text()|mei:rend"/>
-                    			</p>
-                    		</xsl:for-each>
+                        <xsl:variable name="part" select="ancestor::mei:mdiv[exists(@label)][1]/@label"></xsl:variable>
+                        <xsl:if test="$part">
+                            <xsl:attribute name="class"><xsl:value-of select="$part"/></xsl:attribute>
+                        </xsl:if>
+                        <td style="vertical-align:middle" class="measures">
+                            <xsl:value-of select="substring-after(./@label,';')"/>
                         </td>
-                    	<td style="vertical-align:middle; text-align: center">
-                    		<xsl:value-of select="substring-before(./@label,';')"/>
-                    	</td>
-                    	<td style="vertical-align:middle">
-                    		<a>
-                    			<xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />' <xsl:if test="./mei:list/@type">, '<xsl:value-of select="./mei:list/@type" />'</xsl:if>);</xsl:attribute>
-                    			<xsl:apply-templates select="./mei:p/text()|./mei:p/mei:rend"/>
-                    		</a>
+                        <td class="sources">
+                            <a>
+                                <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />' <xsl:if test="./mei:list/@type">, '<xsl:value-of select="./mei:list/@type" />'</xsl:if>);</xsl:attribute>
+                                <xsl:choose>
+                                    <xsl:when test="count(./mei:list/mei:li) > 1">
+                                    <table class="app-table-table">
+                                        <tr>
+                                            <td>
+                                                <div class="app-brace">
+                                                    <xsl:for-each select="./mei:list/mei:li">
+                                                    <!--<xsl:variable name="staves" select="./@staff"/>-->
+                                                        <p>
+                                                            <xsl:apply-templates select="text()|mei:rend"/>
+                                                        </p>
+                                                    </xsl:for-each>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <xsl:value-of select="substring-before(./@label,';')"/>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:for-each select="./mei:list/mei:li">
+                                            <xsl:apply-templates select="text()|mei:rend"/>
+                                        </xsl:for-each>
+                                        <xsl:text> – </xsl:text>
+                                        <xsl:value-of select="substring-before(./@label,';')"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </a>
+                        </td>
+                        <td style="vertical-align:middle">
+                            <p>
+                                <xsl:apply-templates select="./mei:p/text()|./mei:p/mei:rend"/>
+                            </p>
                         </td> 
                     </tr>
                 </xsl:for-each>
             </tbody>
         </table>
+        </xsl:if>
         
         <div class="app-inline">
             <xsl:for-each select="//mei:annot[@type='app']">
@@ -78,15 +100,15 @@
                     <xsl:for-each select="./mei:annot">
                         <xsl:variable name="label" select="./@corresp"/>
                         <tr>
-                        	<xsl:variable name="part" select="ancestor::mei:mdiv[exists(@label)][1]/@label"></xsl:variable>
-                        	<xsl:if test="$part">
-                        		<xsl:attribute name="class"><xsl:value-of select="$part"/></xsl:attribute>
-                        	</xsl:if>
-                        	
-                            <td style="vertical-align:middle; text-align: center">
+                            <xsl:variable name="part" select="ancestor::mei:mdiv[exists(@label)][1]/@label"></xsl:variable>
+                            <xsl:if test="$part">
+                                <xsl:attribute name="class"><xsl:value-of select="$part"/></xsl:attribute>
+                            </xsl:if>
+                            
+                            <td style="vertical-align:middle" class="lines">
                                 <xsl:value-of select="./@label"/>
                             </td>
-                            <td>
+                            <td class="sources">
                                 <xsl:for-each select="./mei:list/mei:li">
                                     <!--<xsl:variable name="staves" select="./@staff"/>-->
                                     <p>
@@ -128,13 +150,13 @@
     <xsl:template match="mei:rend[@rend='sub']">
         <sub><xsl:value-of select="."/></sub>
     </xsl:template>
-	
-	<xsl:template match="mei:rend[@fontstyle='normal']">
-		<span style="font-style:normal"><xsl:value-of select="."/></span>
-	</xsl:template>
+    
+    <xsl:template match="mei:rend[@fontstyle='normal']">
+        <span style="font-style:normal"><xsl:value-of select="."/></span>
+    </xsl:template>
     
     <xsl:template match="mei:rend[@fontstyle='italic']">
-    	<i><xsl:apply-templates select="@* | node()"/></i>
+        <i><xsl:apply-templates select="@* | node()"/></i>
     </xsl:template>
     
     <xsl:template match="*/text()">

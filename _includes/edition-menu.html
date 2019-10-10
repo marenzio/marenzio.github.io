@@ -10,7 +10,7 @@
             <hr/>
             {% for m in site.data.books[page.book.id].content %}
             <li>
-                <a id="link-{{ m.id }}" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
+                <a id="link-{{ m.id }}" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ forloop.index }}. {{ m.name }}</a>
             </li>
                 {% for p in m.parts %}
                 <li>

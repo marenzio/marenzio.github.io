@@ -10,7 +10,7 @@
 		<div class="panel panel-default">
 			<div class="list-group sublist-group">
 				{% for m in site.data.books[page.book].content %}
-				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ m.name }}</a>
+				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ forloop.index }}. {{ m.name }}</a>
 	                {% for p in m.parts %}
 				    <a id="link-{{ m.id }}" class="list-group-item menu-part" href="{{ site.fakeurl }}digital-edition/{{ m.id }}?part={{ p.id }}">{{ p.title }}</a>
 			        {% endfor %}
