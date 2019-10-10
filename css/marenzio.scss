@@ -11,6 +11,15 @@ $text-color: #9d9d9d;
 
 /* body and navbar */
 
+@font-face {
+  font-family: "Musica Wolfgang";
+  src: url("../fonts/Musica-Wolfgang.woff");
+}
+
+.musica {
+    font-family: "Musica Wolfgang";
+}
+
 html {
     height: 100%;
 }
@@ -241,6 +250,10 @@ p.news-more {
 div.table {
     table {
         margin-bottom: 10px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        padding: 3px;
     }
     span.note span {
         font-style: italic;

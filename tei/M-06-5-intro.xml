@@ -77,7 +77,7 @@
               Piero Strozzi and Gino Capponi, could help explain his “easy access to Florentine poetry” (104).</p></note> and the first occurrences of
           Livio Celiano (Angelo Grillo) and Antonio Ongaro, whose poems Marenzio will set again in the last books
           <hi rend="italic" xml:space="preserve">a 5 </hi>of the late 1590s. </p>
-        <table rend="rules">
+        <table>
           <head>Table 1: Book VI a 5 (1594): The texts</head>
           <row>
             <cell>
@@ -338,7 +338,7 @@
               Press, 2012), 172–174.</p></note> As further pointed out by Calcagno, this “script” seems to interact with other ordering criteria: the
           madrigals of the first “section”, for instance, are all written in low clefs (c1c3c4c4f4), but other, essentially musical, structuring
           principles are clearly at work (see Table 2).</p>
-        <table rend="rules">
+        <table>
           <head>Table 2: Book VI <hi rend="italic">a 5</hi> (1594): Overview</head>
           <row>
             <cell>
@@ -359,8 +359,6 @@
             <cell>
               <p>
                 <hi rend="bold">Length</hi>
-              </p>
-              <p>
                 <hi rend="bold">(SB)</hi>
               </p>
             </cell>
@@ -370,8 +368,8 @@
             <cell>
               <hi rend="italic">S’io parto, i’ moro, e pur partir conviene</hi>
             </cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>G</cell>
             <cell>CA[QT]B</cell>
@@ -382,8 +380,8 @@
             <cell>
               <hi rend="italic">Clori nel mio partire</hi>
             </cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>G</cell>
             <cell>CA[TQ]B</cell>
@@ -394,8 +392,8 @@
             <cell>
               <hi rend="italic">Donna de l’alma mia, de la mia vita</hi>
             </cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>G</cell>
             <cell>CA[QT]B</cell>
@@ -406,8 +404,8 @@
             <cell>
               <hi rend="italic">Anima cruda sì, ma però bella</hi>
             </cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>F</cell>
             <cell>CA[QT]B</cell>
@@ -418,8 +416,8 @@
             <cell>
               <hi rend="italic">Udite lagrimosi</hi>
             </cell>
-            <cell>c</cell>
-            <cell>b</cell>
+            <cell rend="musica">c</cell>
+            <cell rend="musica">b</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>A</cell>
             <cell>CA[QT]B</cell>
@@ -430,8 +428,8 @@
             <cell>
               <hi rend="italic">Stillò l’anima in pianto</hi>
             </cell>
-            <cell>C</cell>
-            <cell>h</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">h</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>E</cell>
             <cell>CA[QT]B</cell>
@@ -442,8 +440,8 @@
             <cell>
               <hi rend="italic">Ah, dolente partita</hi>
             </cell>
-            <cell>c</cell>
-            <cell>h</cell>
+            <cell rend="musica">c</cell>
+            <cell rend="musica">h</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>A</cell>
             <cell>CA[QT]B</cell>
@@ -454,8 +452,8 @@
             <cell>
               <hi rend="italic">Ben ho del caro oggetto i sensi privi / <lb/>Dille la mia speranz’e ’l mio desio</hi>
             </cell>
-            <cell>c</cell>
-            <cell>h</cell>
+            <cell rend="musica">c</cell>
+            <cell rend="musica">h</cell>
             <cell>c1c2c3c4f4</cell>
             <cell>C/G</cell>
             <cell>[CQ]ATB</cell>
@@ -469,8 +467,8 @@
             <cell>
               <hi rend="italic">Amor, se giusto sei</hi>
             </cell>
-            <cell>c</cell>
-            <cell>h</cell>
+            <cell rend="musica">c</cell>
+            <cell rend="musica">h</cell>
             <cell>c1c3c4c4f4</cell>
             <cell>G</cell>
             <cell>CA[QT]B</cell>
@@ -481,8 +479,8 @@
             <cell>
               <hi rend="italic">Or chi, Clori beata</hi>
             </cell>
-            <cell>C</cell>
-            <cell>h</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">h</cell>
             <cell>g2c2c3c3f3</cell>
             <cell>G</cell>
             <cell>CA[TQ]B</cell>
@@ -493,8 +491,8 @@
             <cell>
               <hi rend="italic">Deh, Tirsi,Tirsi anima mia perdona /<lb/>Che se tu se’ ’l cor mio</hi>
             </cell>
-            <cell>C</cell>
-            <cell>h</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">h</cell>
             <cell>g2c2c3c3f3</cell>
             <cell>D/A</cell>
             <cell>CA[QT]B</cell>
@@ -508,8 +506,8 @@
             <cell>
               <hi rend="italic">Clori mia, Clori dolce, oh sempre nuovo</hi>
             </cell>
-            <cell>C</cell>
-            <cell>h</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">h</cell>
             <cell>g2c2c3c3f3</cell>
             <cell>A</cell>
             <cell>CA[QT]B</cell>
@@ -520,8 +518,8 @@
             <cell>
               <hi rend="italic">Mentre qual viva pietra</hi>
             </cell>
-            <cell>C</cell>
-            <cell>h</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">h</cell>
             <cell>g2c2c3c3f3</cell>
             <cell>C</cell>
             <cell>CA[QT]B</cell>
@@ -532,8 +530,8 @@
             <cell>
               <hi rend="italic">Voi bramate ch’io moia</hi>
             </cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>g2c2c2c3f3</cell>
             <cell>G</cell>
             <cell>C[AQ]TB</cell>
@@ -544,8 +542,8 @@
             <cell>
               <hi rend="italic">“Rimanti in pace”, a la dolente e bella / Ond’ei, di morte la sua faccia impressa</hi>
             </cell>
-            <cell>c</cell>
-            <cell>b</cell>
+            <cell rend="musica">c</cell>
+            <cell rend="musica">b</cell>
             <cell>g2c2c3c3f3</cell>
             <cell>D/A</cell>
             <cell>CA[QT]B</cell>
@@ -559,8 +557,8 @@
             <cell>
               <hi rend="italic">Ecco Maggio seren, chi l’ha vestito</hi>
             </cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>g2c2c3c3f3</cell>
             <cell>C</cell>
             <cell>CA[QT]B</cell>
@@ -569,8 +567,8 @@
           <row>
             <cell>17.</cell>
             <cell><hi rend="italic" xml:space="preserve">Cantiam la bella Clori </hi>[8 v.]</cell>
-            <cell>C</cell>
-            <cell>b</cell>
+            <cell rend="musica">C</cell>
+            <cell rend="musica">b</cell>
             <cell>c1c3c4f4-c1c3c4f4</cell>
             <cell>F</cell>
             <cell>CATB-CATB</cell>
