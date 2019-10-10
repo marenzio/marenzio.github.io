@@ -81,7 +81,7 @@
         <body>
             <mdiv xml:id="mdiv-0000001503146718">
                 <score xml:id="score-0000000209819716">
-                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="common" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                    <scoreDef xml:id="scoredef-0000001134631253" meter.sym="common" midi.bpm="144">
                         <pgHead xml:id="pghead-0000002113506809">
                             <rend xml:id="rend-0000002007626688" halign="center" valign="middle">
                                 <rend xml:id="rend-0000001452135673" fontsize="x-large">16. Ecco Maggio seren, chi l’ha vestito</rend>
@@ -96,23 +96,28 @@
                         <staffGrp xml:id="staffgrp-0000001874578343" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                 <label xml:id="label-0000002132310513">Canto</label>
-                                <labelAbbr xml:id="labelAbbr-0000000897630499">C</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000897630499">C</labelAbbr>
+                            	<instrDef midi.channel="0" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
                                 <label xml:id="label-0000000824181385">Alto</label>
-                                <labelAbbr xml:id="labelAbbr-0000000870027366">A</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000870027366">A</labelAbbr>
+                            	<instrDef midi.channel="1" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
                                 <label xml:id="label-0000002036083722">Quinto</label>
-                                <labelAbbr xml:id="labelAbbr-0000000009773467">Q</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000009773467">Q</labelAbbr>
+                            	<instrDef midi.channel="2" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
                                 <label xml:id="label-0000002119142675">Tenore</label>
-                                <labelAbbr xml:id="labelAbbr-0000000659475263">T</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000659475263">T</labelAbbr>
+                            	<instrDef midi.channel="3" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
                                 <label xml:id="label-0000000290565917">Basso</label>
-                                <labelAbbr xml:id="labelAbbr-0000000735267520">B</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000735267520">B</labelAbbr>
+                            	<instrDef midi.channel="4" midi.instrnum="0"/>
                             </staffDef>
                         </staffGrp>  
                     </scoreDef>
@@ -738,7 +743,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000000874491429" staff="1" tstamp="1.000000">
+                            <tempo xml:id="tempo-0000000874491429" staff="1" tstamp="1.000000" midi.bpm="288">
                                 <rend xml:id="rend-0000001636489566" fontname="VerovioText"></rend> = <rend xml:id="rend-0000001180416357" fontname="VerovioText"></rend>
                             </tempo>
                         </measure>
@@ -1533,7 +1538,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000001240363360" staff="1" tstamp="1.000000">
+                        	<tempo xml:id="tempo-0000001240363360" staff="1" tstamp="1.000000" midi.bpm="144">
                                 <rend xml:id="rend-0000000410862870" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000208065944" fontname="VerovioText"></rend>
                             </tempo>
                         </measure>
@@ -2565,7 +2570,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000001930390538" staff="1" tstamp="1.000000">
+                        	<tempo xml:id="tempo-0000001930390538" staff="1" tstamp="1.000000" midi.bpm="288">
                                 <rend xml:id="rend-0000000651497797" fontname="VerovioText"></rend> = <rend xml:id="rend-0000001902715041" fontname="VerovioText"></rend>
                             </tempo>
                         </measure>
@@ -2868,7 +2873,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000000328529446" staff="1" tstamp="1.000000">
+                        	<tempo xml:id="tempo-0000000328529446" staff="1" tstamp="1.000000" midi.bpm="144">
                                 <rend xml:id="rend-0000000174430787" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000962206068" fontname="VerovioText"></rend>
                             </tempo>
                         </measure>
@@ -3290,7 +3295,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000001151879237" staff="1" tstamp="1.000000">
+                        	<tempo xml:id="tempo-0000001151879237" staff="1" tstamp="1.000000" midi.bpm="288">
                                 <rend xml:id="rend-0000000277129092" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000175175464" fontname="VerovioText"></rend>
                             </tempo>
                         </measure>
@@ -3835,6 +3840,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                        	<fermata staff="1 2 3 4 5" startid="#p1ccd5n0v1b50s1"></fermata>
                         </measure>
                         <annot xml:id="annot-0000000774980926" type="app-text">
                             <annot corresp="#line2" label="2">

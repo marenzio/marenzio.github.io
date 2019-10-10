@@ -80,7 +80,7 @@
         <body>
             <mdiv xml:id="mdiv-0000002006418082">
                 <score xml:id="score-0000000515804736">
-                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="common" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256">
+                    <scoreDef xml:id="scoredef-0000001134614446" meter.sym="common" midi.bpm="144">
                         <pgHead xml:id="pghead-0000000963304370">
                             <rend xml:id="rend-0000000286865687" halign="center" valign="middle">
                                 <rend xml:id="rend-0000000739172514" fontsize="x-large">3. Donna de l’alma mia, de la mia vita</rend>
@@ -95,23 +95,28 @@
                         <staffGrp xml:id="staffgrp-0000000730469413" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
                                 <label xml:id="label-0000001156535239">Canto</label>
-                                <labelAbbr xml:id="labelAbbr-0000000183347730">C</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000183347730">C</labelAbbr>
+                            	<instrDef midi.channel="0" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
                                 <label xml:id="label-0000000690268809">Alto</label>
-                                <labelAbbr xml:id="labelAbbr-0000001077351267">A</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000001077351267">A</labelAbbr>
+                            	<instrDef midi.channel="1" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="3" lines="5">
                                 <label xml:id="label-0000000998004881">Quinto</label>
-                                <labelAbbr xml:id="labelAbbr-0000000279919902">Q</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000000279919902">Q</labelAbbr>
+                            	<instrDef midi.channel="2" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
                                 <label xml:id="label-0000001616801676">Tenore</label>
-                                <labelAbbr xml:id="labelAbbr-0000001306543571">T</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000001306543571">T</labelAbbr>
+                            	<instrDef midi.channel="3" midi.instrnum="0"/>
                             </staffDef>
                             <staffDef xml:id="sd5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="5" lines="5">
                                 <label xml:id="label-0000000301119269">Basso</label>
-                                <labelAbbr xml:id="labelAbbr-0000001577303521">B</labelAbbr>
+                            	<labelAbbr xml:id="labelAbbr-0000001577303521">B</labelAbbr>
+                            	<instrDef midi.channel="4" midi.instrnum="0"/>
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
@@ -3877,6 +3882,7 @@
                                     </note>
                                 </layer>
                             </staff>
+                        	<fermata staff="1 2 3 4 5" startid="#p1cbd4n0v1b58s1"></fermata>
                         </measure>
                         <annot xml:id="annot-0000000337469790" type="app-text">
                             <annot corresp="#line2" label="2">
