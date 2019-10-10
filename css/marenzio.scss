@@ -87,10 +87,10 @@ svg:not(:root){
 
 .navbar-with-sidebar {
     border-radius: 0;
-    a { 
+    > a { 
         color: #aaa !important; 
     }
-    a:hover { 
+    > a:hover { 
         color: #fff !important; 
     }
 }
