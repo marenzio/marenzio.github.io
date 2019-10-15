@@ -255,9 +255,16 @@ div.table {
         border: 1px solid lightgrey;
         padding: 3px;
     }
+    td.center {
+        text-align: center;
+    }
     span.note span {
         font-style: italic;
     }
+}
+
+p.right {
+    text-align: right;
 }
 
 h5.marenzio-modal {
