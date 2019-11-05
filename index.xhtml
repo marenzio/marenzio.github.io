@@ -4,11 +4,7 @@ title: MODE - Homepage
 ---
 
 <p>
-    The Marenzio Online Digital Edition (MODE) aims at making available for the first time, and online, a complete critical edition of the secular music of Luca Marenzio (ca. 1553-1599), one of the most important composers of the European Renaissance. By innovatively integrating music philology and digital technology, MODE introduces a new model for both generating and disseminating modern editions of musical repertories of the Western tradition. MODE makes Marenzio’s music easily available on the world wide web to musicians and scholars.
-</p>
-
-<p>
-    MODE makes Marenzio’s music easily available on the world wide web to musicians and scholars. By dramatically changing the editing process, it pioneers the future in music editions.
+    The Marenzio Online Digital Edition (MODE) aims at making available for the first time, and online, a complete critical edition of the secular music of Luca Marenzio (ca. 1553-1599), one of the most important composers of the European Renaissance. By innovatively integrating music philology and digital technology, MODE introduces a new model for both generating and disseminating modern editions of musical repertories of the Western tradition. MODE makes Marenzio’s music easily available on the world wide web to musicians and scholars. By dramatically changing the editing process, it pioneers the future in music editions.
 </p>
 
 <div class="separator-bold"></div>
@@ -22,7 +18,9 @@ title: MODE - Homepage
             <div>{{ post.title }}</div>
         </h4>
         {{ post.excerpt }}
+        {% if post.noreadmore != true %}
         <p class="news-more"><a href="{{ post.url }}">read more ...</a></p>
+        {% endif %}
         <div style="clear: both;"></div>
     </div>
 {% endfor %}
