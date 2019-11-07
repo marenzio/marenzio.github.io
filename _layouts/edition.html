@@ -488,6 +488,10 @@
                 }
             }
             
+            function playAudio() {
+                document.getElementById("audioPlayer").play();
+            }
+            
             function playMidi() {
                 var base64midi = vrvToolkit.renderToMidi();
                 var song = 'data:audio/midi;base64,' + base64midi;
@@ -873,7 +877,8 @@
                     </div>
                     <div class="row sidebar-row">
                         <div class="col-xs-12">
-                            <a href="{{ page.audio.link }}" target="_blank"><img src="{{ site.fakeurl }}images/{{ page.audio.image }}"/></a>
+                            <a href="javascript:playAudio();"><img src="{{ site.fakeurl }}images/{{ page.audio.image }}"/></a>
+                            <!--<p><a href="{{ page.audio.link }}" target="_blank">Recording page</a></p>-->
                         </div>
                     </div>
                     {% endif %}
