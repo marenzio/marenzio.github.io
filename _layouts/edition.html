@@ -1018,6 +1018,11 @@
             <script type="text/javascript">
             //<![CDATA[
                 $( document ).ready(function() {
+                    
+                    if (getParameterByName("panel")) {
+                        splitterPanel = getParameterByName("panel");
+                        splitterOpen = true;
+                    }
         
                     $(window).keyup(function(event){
                         // We need to make sure not to capture event on text fields
