@@ -3,7 +3,9 @@
 		<div class="panel panel-default">
 			<div class="list-group">
 				{% for t in site.data.books[page.book].texts  %}
+				{% if t.hidden != true %}
 				<a id="link-{{ t.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ page.book }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
+				{% endif %}
 				{% endfor %}
 			</div>
 		</div>

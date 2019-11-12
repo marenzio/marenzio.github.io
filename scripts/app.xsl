@@ -2,9 +2,27 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:mei="http://www.music-encoding.org/ns/mei" exclude-result-prefixes="mei" version="2.0">
 
     <xsl:output method="html" indent="yes"/>
+	
+	<xsl:param name="output" select="'edition'"/>
+	<xsl:param name="elem" select="'a'"/>	
 
     <xsl:template match="/">
-        <h5 class="marenzio-modal">Music</h5>
+    	
+    	<xsl:if test="$output = 'full'">
+    		<h3>
+    			<xsl:value-of select="substring-after(.//mei:title/text(),'-')"/>
+    		</h3> 
+    	</xsl:if>
+    	
+    	<xsl:choose>
+    		<xsl:when test="$output = 'edition'">
+    			<h5 class="marenzio-modal">Music</h5>    	
+    		</xsl:when>
+    		<xsl:otherwise>
+    			<h4>Music</h4>
+    		</xsl:otherwise>
+    	</xsl:choose>
+
         <xsl:for-each select="//mei:annot[@type='app-sources-used']">
             <xsl:apply-templates/>
         </xsl:for-each>
@@ -28,7 +46,7 @@
                             <xsl:value-of select="substring-after(./@label,';')"/>
                         </td>
                         <td class="sources">
-                            <a>
+                            <xsl:element name="{$elem}">
                                 <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./mei:list/@corresp" />' <xsl:if test="./mei:list/@type">, '<xsl:value-of select="./mei:list/@type" />'</xsl:if>);</xsl:attribute>
                                 <xsl:choose>
                                     <xsl:when test="count(./mei:list/mei:li) > 1">
@@ -58,7 +76,7 @@
                                         <xsl:value-of select="substring-before(./@label,';')"/>
                                     </xsl:otherwise>
                                 </xsl:choose>
-                            </a>
+                            </xsl:element>
                         </td>
                         <td style="vertical-align:middle">
                             <p>
@@ -86,7 +104,16 @@
             </xsl:for-each>
         </div> 
         
-        <h5 class="marenzio-modal">Text</h5>
+    	<xsl:choose>
+    		<xsl:when test="$output = 'edition'">
+    			<h5 class="marenzio-modal">Text</h5>    	
+    		</xsl:when>
+    		<xsl:otherwise>
+    			<h4>Text</h4>
+    		</xsl:otherwise>
+    	</xsl:choose>
+        
+        
         <table class="table app-table">
             <thead>
                 <tr>
@@ -112,11 +139,11 @@
                                 <xsl:for-each select="./mei:list/mei:li">
                                     <!--<xsl:variable name="staves" select="./@staff"/>-->
                                     <p>
-                                        <a>
+                                    	<xsl:element name="{$elem}">
                                             <xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="./@corresp" />');</xsl:attribute>
                                             <!--<xsl:attribute name="href">javascript:loadPageWithElement('<xsl:value-of select="(//mei:staff[contains($staves, @n)]//mei:note//mei:verse[@label=$label])/@xml:id"/>');</xsl:attribute>-->
                                             <xsl:apply-templates select="text()|mei:rend"/>
-                                        </a>
+                                    	</xsl:element>
                                     </p>
                                 </xsl:for-each>
                             </td>
@@ -129,6 +156,7 @@
             </tbody>
         </table>
         
+    	<xsl:if test="$output = 'edition'">
         <div class="app-inline-text">
             <xsl:for-each select="//mei:annot[@type='app-text']/mei:annot">
                 <xsl:variable name="text" select="./mei:p/text()|./mei:p/mei:rend"/>
@@ -140,6 +168,7 @@
                 </xsl:for-each>
             </xsl:for-each>
         </div> 
+    	</xsl:if>
         
     </xsl:template>
 
