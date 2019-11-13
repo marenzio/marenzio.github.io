@@ -51,13 +51,17 @@
 		if (!id) {
 			id = "{{ site.data.books[page.book].texts[0].id }}";
 		}
+		var menuid = getParameterByName("menuid");
+		if (!menuid) {
+			menuid = id;
+		}
 		var file = "{{ site.fakeurl }}texts/{{ page.book }}-" + id + ".html";	
 		// load the file	
 		$( "#text" ).load( file, function() {		  
 		});
 		$( "#text-subtitle" ).html( titles[id] );
 		// activate the link menu
-		$( "#link-" + id ).addClass( "active" );
+		$( "#link-" + menuid ).addClass( "active" );
 				
 	});
 //]]>

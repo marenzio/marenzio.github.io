@@ -132,7 +132,8 @@ M-06-5:
           name: "Critical report"
         - id: "apparatus"
           name: "Critical apparatus"
-          hidden: false
+          menuid: "report"
+          hidden: true
     content:
         - id: "M_06_5_01_S_io_parto_i_moro_e_pur_partir_conviene.xhtml"
           name: "S'io parto i' moro e pur partir conviene"

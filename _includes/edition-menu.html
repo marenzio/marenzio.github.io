@@ -3,9 +3,11 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ page.book.title }}<span class="caret"></span></a>
         <ul class="dropdown-menu" role="menu">
             {% for t in site.data.books[page.book.id].texts %}
+            {% if t.hidden != true %}
             <li>
                 <a id="link-{{ t.id }}" href="{{ site.fakeurl }}digital-edition/{{ page.book.id }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
             </li>
+            {% endif %}
             {% endfor %}
             <hr/>
             {% for m in site.data.books[page.book.id].content %}
