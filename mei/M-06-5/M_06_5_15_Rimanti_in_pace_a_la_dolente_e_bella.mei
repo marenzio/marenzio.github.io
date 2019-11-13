@@ -1187,12 +1187,6 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001420962590" type="app" label="A;10">
-                                <p>lyrics: "Tirsi" instead of "disse"</p>
-                                <list corresp="#p1ced4n768v1b10s2 #p1cfd4n1024v1b10s2">
-                                    <li>AnGa-1603</li>
-                                </list>
-                            </annot>
                         </measure>
                         <measure xml:id="measure-0000001110537246" n="11">
                             <staff xml:id="staff-0000001622401585" n="1">
@@ -3858,6 +3852,12 @@
                         	<fermata staff="1 2 3 4 5" startid="#p1cdd5n0v1b37s1"/>
                         </measure>
                     	<annot xml:id="annot-0000001111447500" type="app-text">
+                    		<annot corresp="#line2" label="2">
+                    			<p>Tirsi</p>
+                    			<list>
+                    				<li corresp="#verse-0000000527527823 #verse-0000001314775399">AnGa-1603 – A</li>
+                    			</list>
+                    		</annot>
                     		<annot corresp="#line4" label="4">
                     			<p>legg'empio</p>
                     			<list>
