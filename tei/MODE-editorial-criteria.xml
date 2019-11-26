@@ -44,12 +44,12 @@
         <div>
           <head>Mensurations and proportions</head>
           <p>Original mensuration signs and proportions have been maintained. Time signatures should be read as such and not as modern equivalents.
-            All original note values have been retained. Most pieces are written with the mensuration sign C, implying a <hi rend="italic">tactus</hi>
+          	All original note values have been retained. Most pieces are written with the mensuration sign <hi rend="musica">C</hi>, implying a <hi rend="italic">tactus</hi>
             of a semibreve. These pieces usually have shorter note values (ranging from the semibreve to the semifusa). Some madrigals are written in
-            cut-C (or <hi rend="italic">alla breve</hi>), normally implying a <hi rend="italic">tactus</hi> of a breve with longer note-values (from
+            <hi rend="musica">c</hi> (or <hi rend="italic">alla breve</hi>), normally implying a <hi rend="italic">tactus</hi> of a breve with longer note-values (from
             the breve to the fusa), for example <hi rend="italic">Udite, lagrimosi amanti</hi> in Book VI <hi rend="italic">a 5</hi>.</p>
           <p>Ternary sections requiring a <hi rend="italic">tactus inaequalis</hi> are indicated by mensuration signs or proportions appearing in
-            various forms. Proportion signs appearing in the course of a piece are maintained in the score.</p>
+            various forms. Proportion signs appearing in the course of a piece are maintained in the score. Equivalence values are provided above the staff.</p>
         </div>
         <div>
           <head>Barring</head>
@@ -69,14 +69,13 @@
         <div>
           <head>Ligatures</head>
           <p>Ligatures have been resolved with their respective note values. In the score, the notes originally ligated appear with the sign
-            (&#x250D;&#x2511;). The most common ligature in</p>
-          <p>Marenzio&#x2019;s time was the <hi rend="italic">cum opposita proprietate</hi> type, this has been transcribed as two semibreves. In some
+            (&#x250D;&#x2511;). The most common ligature in Marenzio&#x2019;s time was the <hi rend="italic">cum opposita proprietate</hi> type. This has been transcribed as two semibreves. In some
             rare cases the notes tied together in a ligature are blackened. Other types of ligatures are discussed in the critical apparatus.</p>
         </div>
         <div>
           <head>Accidentals</head>
           <p>In line with sixteenth-century practice, accidentals apply only to adjacent notes. The edition inserts &#x201C;cautionary
-            accidentals&#x201D; above the staff. They have been added either to resolve ambiguous passages or to make the alterations explicit that
+            accidentals&#x201D; above the staff. They have been added either to resolve ambiguous passages, or to supply alterations that
             are only implied in the original notation, as typically occurs at cadences. Sharps or flats used as cancellation signs in the original
             notation have been rendered as natural signs without further mention in the critical notes.</p>
         </div>
@@ -90,16 +89,16 @@
         <head>Text</head>
         <p>The poetic text appearing in the critical apparatus is as close as possible to the one underlaid in the score</p>
         <p>These interventions have been done tacitly:</p>
-        <p>1. The letters <hi rend="italic">v</hi> and <hi rend="italic">u</hi> are graphically differentiated by following modern spelling</p>
+        <p>1. The letters <hi rend="italic">v</hi> and <hi rend="italic">u</hi> are graphically differentiated by following modern spelling.</p>
         <p>2. Only a single form of lowercase <hi rend="italic">s</hi> is used.</p>
         <p>3. Abbreviations are written out in full.</p>
         <p>4. The ampersand and the Latinism <hi rend="italic">et</hi> are written out as <hi rend="italic">e</hi> before words beginning with a
           consonant or a vowel other than <hi rend="italic">e</hi>. They are changed to <hi rend="italic">ed</hi> before words beginning with <hi rend="italic">e</hi>.</p>
-        <p>5. Accents have been normalized according to modern usage. Phonic accents have been introduced in case of ambiguity of meaning (ex:
-          v&#xF2;to)</p>
-        <p>6. Apostrophes have been normalized according to modern usage. The apostrophe is introduced-- or kept, if present--in the presence of elision
-          (ex.: ond&#x2019;egli), apocope (ex: co&#x2019;, di&#x2019;), or aphaeresis of the masculine definite article (ex.: &#x2019;l). In the
-          original partbooks it is common to find the apostrophe to indicate synaloepha even in the absence of an elision; this has always been
+        <p>5. Accents have been normalized according to modern usage. Phonic accents have been introduced in case of ambiguity of meaning (e.g.,
+        	<hi rend="italic">v&#xF2;to</hi>).</p>
+        <p>6. Apostrophes have been normalized according to modern usage. The apostrophe is introduced&#x2013;or kept, if present&#x2013;in the presence of elision
+        	(e.g., <hi rend="italic">ond&#x2019;egli</hi>), apocope (e.g., <hi rend="italic">co&#x2019;</hi>, <hi rend="italic">di&#x2019;</hi>), or aphaeresis of the masculine definite article (e.g., <hi rend="italic">&#x2019;l</hi>). In the
+          original partbooks, it is common to find the apostrophe to indicate synaloepha even in the absence of an elision; this has always been
           eliminated.</p>
         <p>7. Elisions: because the same word often appears differently among the original partbooks (with the final vowel elided or present), the
           version presented by the majority of the voices is adopted and extended to all the other voices. In cases in which the elided and non-elided
@@ -115,19 +114,18 @@
           such in the underlaid text of the original partbooks appear in italics.</p>
         <p>11. Punctuation marks (periods, commas, colons, and semicolons, as well as question, exclamation and quotation marks) are introduced or
           modified according to modern usage.</p>
-        <p>12. Both the etymological and the diacritical <hi rend="italic">h</hi> have been eliminated (for example, <hi rend="italic">havr&#xE0; &gt; 
+        <p>12. Both the etymological and the diacritical <hi rend="italic">h</hi> have been eliminated (e.g., <hi rend="italic">havr&#xE0; &gt; 
             avr&#xE0;,</hi>
           <hi rend="italic">ninphe </hi> &gt; <hi rend="italic"> ninfe, pharetra </hi> &gt; <hi rend="italic"> faretra, herba </hi> &gt; <hi rend="italic"> erba, boscho </hi> &gt; <hi rend="italic"> bosco</hi>). In general,
-          the use of<hi rend="italic"> h </hi>has<hi rend="italic"> </hi>been modernized (<hi rend="italic">anc&#x2019;io</hi> &gt;  <hi rend="italic">anch&#x2019;io</hi>). In the case of <hi rend="italic">o</hi> used as interjection, it appears as <hi rend="italic">oh</hi> (unlike in
+          the use of <hi rend="italic">h</hi> has<hi rend="italic"> </hi>been modernized (<hi rend="italic">anc&#x2019;io</hi> &gt;  <hi rend="italic">anch&#x2019;io</hi>). In the case of <hi rend="italic">o</hi> used as interjection, it appears as <hi rend="italic">oh</hi> (unlike in
           the case of <hi rend="italic">o</hi> used as a vocative, such as in <hi rend="italic">O bellissima Licori</hi>).</p>
-        <p>13. The dental affricate <hi rend="italic">ti</hi> has been changed to <hi rend="italic">zi</hi>. (e.g.: Gratie &gt;  Grazie)</p>
+        <p>13. The dental affricate <hi rend="italic">ti</hi> has been changed to <hi rend="italic">zi</hi>. (e.g., <hi rend="italic">Gratie</hi> &gt; <hi rend="italic">Grazie</hi>)</p>
         <p>14. The <hi rend="italic">i</hi> devoid of any diacritical function has been eliminated.</p>
-        <p>15. Compound prepositions and adverbs appear in synthetic form (ex: ne i &gt;  nei). However, the analytical form of the compound prepositions
-          is adopted when the synthetic form would have caused doubling of the consonant or stress change (de le, a la, <hi rend="italic">poi
-          che</hi>, <hi rend="italic">ben che</hi>). <hi rend="italic">Al'hor</hi> and <hi rend="italic">all'hor </hi>are changed to<hi rend="italic">
-            allor</hi>;<hi rend="italic"> tal'hor </hi>and<hi rend="italic"> tal hor </hi>to<hi rend="italic"> talor</hi>;<hi rend="italic"> ogn'hor
-            </hi>to<hi rend="italic"> ognor.</hi></p>
-        <p>16. Typos with no apparent meaning not are included in the critical apparatus because they may provide information about the typographical genesis
+        <p>15. Compound prepositions and adverbs appear in synthetic form (e.g., <hi rend="italic">ne i</hi> &gt; <hi rend="italic">nei</hi>). However, the analytical form of the compound prepositions
+      		is adopted when the synthetic form would have caused doubling of the consonant or stress change (<hi rend="italic">de le</hi>, <hi rend="italic">a la</hi>, <hi rend="italic">poi
+          che</hi>, <hi rend="italic">ben che</hi>). <hi rend="italic">Al'hor</hi> and <hi rend="italic">all'hor</hi> are changed to <hi rend="italic">allor</hi>; <hi rend="italic">tal'hor</hi> and <hi rend="italic">tal hor</hi> to <hi rend="italic">talor</hi>; <hi rend="italic">ogn'hor
+            </hi> to <hi rend="italic">ognor</hi>.</p>
+        <p>16. Typos with no apparent meaning are included in the critical apparatus because they may provide information about the typographical genesis
           and filiation of the partbooks.</p>
       </div>
       <div>
