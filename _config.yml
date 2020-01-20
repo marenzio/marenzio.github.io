@@ -26,8 +26,10 @@ groups:
           name: "Book IV"
 
 menu:
+    - id: "index"
+      name: "MODE"
     - id: "about"
-      name: "About MODE"
+      name: "About the project"
       submenu:
           - id: "neh-grant"
             name: "NEH Grant"

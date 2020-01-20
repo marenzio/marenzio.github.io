@@ -111,15 +111,15 @@ svg:not(:root){
         font-weight: bold;
     }
     h3, h5 {
-        font-style: italic;
+        //font-style: italic;
     }
     h3 {
         margin-top: 2px;
-        letter-spacing: 0.035em;
+        letter-spacing: 0.015em;
     }
     h5 {
         margin-top: 5px;
-        letter-spacing: 0.045em;
+        letter-spacing: 0.035em;
     }
 }
 
@@ -135,6 +135,14 @@ svg:not(:root){
         margin-top: 5px;
         color: $text-color;
     } 
+}
+
+#carousel-part-book {
+    max-width: 650px;
+    .carousel-control {
+        background-image:none !important;
+        filter:none !important;
+    }
 }
 
 a sub {
