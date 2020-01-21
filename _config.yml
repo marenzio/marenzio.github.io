@@ -29,7 +29,7 @@ menu:
     - id: "index"
       name: "MODE"
     - id: "about"
-      name: "About the project"
+      name: "About the edition"
       submenu:
           - id: "neh-grant"
             name: "NEH Grant"
@@ -39,6 +39,8 @@ menu:
             name:  "Contact us"
     - id: "editorial-criteria"
       name: "General editorial criteria"
+    - id: "infrastructure"
+      name: "Technical infrastructure"
       #submenu:
       #    - id: "editorial-criteria-music"
       #      name: "Editorial criteria for the music (PDF)"
