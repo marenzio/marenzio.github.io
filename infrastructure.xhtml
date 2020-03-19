@@ -1,0 +1,130 @@
+---
+layout: default
+title: MODE - Technical infrastructure
+active_section: infrastructure
+hide_secondary: true
+---
+<h3>
+    Components
+</h3>
+
+<p>
+    At the core of MODE stands a set of important frameworks and tools. Several of them are being developed in close
+    collaboration with MODE and make it possible for MODE to be at the forefront of digital music editions.
+</p>
+
+<h4>
+    Aruspix
+</h4>
+
+<div style="float: right; margin: 0px 0px 10px 30px;" class="hidden-xs">
+    <img src="/images/aruspix.png" />
+</div>
+
+<p>
+    One innovative aspect of MODE is the use of <a href="http://www.aruspix.net" target="_blank">Aruspix</a> to compare
+    the original sources in order to create the critical apparatus. Firstly, Aruspix is used for comparing different
+    copies of an edition. In Aruspix, copies of the same edition are compared through image superimposition. Images are automatically aligned using image processing algorithms and the differences between two images (e.g., two copies) are highlighted in colour, making it easy for the editor to spot differences. This feature is very useful to detect stop-press corrections or other modifications that might have occurred during the printing process.
+</p>
+
+<p>
+    Secondly, Aruspix is used to compare the first edition with successive reprints. For this step to be possible, the
+    content of the prints that need to be compared first have to be recognised. Only then can the recognised content be
+    digitally collated. Aruspix includes workspaces to perform both these tasks, namely an Opticam Music Recognition (OMR) workspace for transcribing the sources and a digital collation workspace for comparing the digitally transcribed sources. As for the image superimposition comparison technique, a visual check by the editor is needed throughout this phase too. The results are then used by the editor to create the critical apparatus.
+</p>
+
+<h4>
+    MEI
+</h4>
+
+<div style="float: right; margin: 0px 0px 10px 30px;" class="hidden-xs">
+    <img src="/images/mei.png" />
+</div>
+
+<p>
+    One fundamental question for a digital edition is how to encode data. The encoding scheme has some direct
+    implications for the current and future interoperability of the project. It determines the ways in which the data
+    will be usable by tools and how it can be shared with other projects. It is also directly related to its long-term
+    sustainability and other long-term archiving questions. For music edition projects, having a common scheme makes it
+    possible to share data between them but also to share tools.
+</p>
+
+<p>
+    <a href="https://music-encoding.org" target="_blank">MEI</a> clearly was the best candidate for MODE. First of all,
+    MEI includes a very rich metadata header that makes it possible to include very detailed metadata in a highly structured manner. MEI also has all the benefits of any XML format by default. Standard tools for manipulating XML can be used, and it is both machine-readable and at the same time to some extent human-readable. One strength of MEI that made it particularly interesting for MODE is its flexibility for modelling various types of music notation, including mensural notation. It offers a dedicated module specifically designed for accommodating the special needs of mensural notation.
+</p>
+
+<h4>
+    Verovio
+</h4>
+
+<div style="float: right; margin: 0px 0px 10px 30px;" class="hidden-xs">
+    <img src="/images/verovio.png" />
+</div>
+
+<p>
+    In 2013, the Swiss RISM Office launched <a href="https://www.verovio.org" target="_blank">Verovio</a>, an
+    open-source software library for rendering MEI natively. The Verovio software library can be integrated into a wide range of application environments, including online. This makes it possible to design ground-breaking web applications where the MEI encoding is rendered on the fly. In such designs, it is possible to rethink the interface and avoid mimicking page output. We can instead adjust the layout dynamically to the screen of the device employed by the user. The layout can be calculated to fill the size of the screen or interactively changed according to a zoom level adjusted by the user.
+</p>
+
+<p>
+    For MODE, the development of Verovio filled a crucial gap and made a web-based edition possible. It was the missing
+    piece for putting in place a truly dynamic online music edition that would not require to distribute a software
+    application which users would need to install locally. This was even more of a break-through considering that
+    Verovio also allows variants encoded in MEI to be rendered natively, and without having to convert them to
+    another format.
+</p>
+
+<h4>
+    Git and GitHub
+</h4>
+
+<div style="float: right; margin: 0px 0px 10px 30px;" class="hidden-xs">
+    <img src="/images/github.png" />
+</div>
+
+<p>
+    Git is an open-source software for managing versions of documents. The documents typically managed in Git
+    repositories are computer source code files, but it is in fact perfectly suitable for text data in general, including humanities data. The development of Git is closely related to that of GitHub, a service for hosting Git repositories which MODE uses extensively for storing and managing its data.
+</p>
+
+<p>
+    In the case of MODE, <a href="https://github.com" target="_blank">GitHub</a> appeared to be very appropriate since
+    the service includes a web-publishing framework that perfectly fills the needs of the project. This web-publishing platform, named Jekyll, acts as a static content management system (CMS) fully embedded in the Git repository. MODE uses it to publish both its website and the complete digital edition. With this approach, one single Git repository contains the complete MODE project, i.e. all the MEI source files of the edition content and also the complete tool ecosystem used to publish the edition. It makes the whole infrastructure flexible, including the possibility of moving the host site to another provider should this be necessary in the future. The repository also includes the entire history of all the revisions made to all the files.
+</p>
+
+<h3>
+    Workflow
+</h3>
+
+<p>
+    The development of MODE currently goes through the following workflow:
+</p>
+
+<ul>
+    <li>
+        Transcription of the music in a music notation editor (Sibelius)
+    </li>
+    <li>
+        Comparison of the sources with Aruspix and creation of a critical apparatus content
+    </li>
+    <li>
+        Conversion from Sibelius to MEI with SibMEI plug-in
+    </li>
+    <li>
+        Integration of the criticial notes within the MEI files through a custom online editor
+    </li>
+    <li>
+        Editing of textual content as TEI files
+    </li>
+    <li>
+        Transfromation of the TEI files and of the text content in the MEI files to HTML via XSLT
+    </li>
+    <li>
+        Publication of HTML and of MEI rendered with Verovio through Jekyll hosted on GibHub-Pages
+    </li>
+</ul>
+
+<script type="text/javascript">
+
+</script>

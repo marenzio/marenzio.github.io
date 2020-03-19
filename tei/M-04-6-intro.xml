@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author>Administrator marchi</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2014-08-24</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>unknown</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+          <label>DOCX to TEI</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
+          <date>2018-05-15T13:57:15Z</date>
+          <name>Administrator marchi</name>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Lucia Marchi </p>
+      <div type="section">
+        <head>A real <hi rend="italic">editio princeps</hi>?</head>
+        <p>In the same year of 1587 the two Venetian printers Giacomo Vincenzi and Riccardo Amadino produced two separate editions of Luca Marenzio’s
+            <hi rend="italic">Il quarto libro de’ madrigali a sei voci</hi>. Despite the close time gap between the two prints, possibly only a few
+          months, the title page of the Vincenzi edition claims the authority of the <hi rend="italic">editio princeps</hi>, while the Amadino one
+          prides itself on being a carefully corrected reedition.<note place="foot" xml:id="ftn1" n="1"><p> The titlepages of the two prints are as
+              follows: DI LUCA | MARENZIO | QUARTO LIBRO DE MADRIGALI | a Sei Voci Novamente composti, &amp; dati in luce. | CON PRIVILEGGIO |
+              [printer’s mark] | In Venetia Presso Giacomo Vincenzi. | MDLXXXVII; and DI LUCA | MARENZIO | IL QUARTO LIBRO | DE MADRIGALI A SEI VOCI |
+              Novamente ristampato, &amp; da molti errori | diligentissimamente emendato. | [printer’s mark] | IN VENETIA | Appresso Ricciardo
+              Amadino. | MDLXXXVII.</p><p>I am using the term ‘reedition’ (instead of the most common ‘reprint’) to indicate a new typesetting of the
+              music, and not a simple reuse of the printing formes, as suggested by Laurent Pugin. See Laurent Pugin, “Music Printers at Work:
+              Marenzio’s <hi rend="italic">Madrigali a Quattro voci, libro primo</hi>,” in <hi rend="italic">“Compositor moderno e vago”: Perspectives
+                on Luca Marenzio’s Secular and Devotional Music</hi>, ed. Mauro Calcagno (Turnaut: Brepols, 2014), 411–31, n. 6. </p></note> But is
+          this really the case? Due to the small press run of 16<hi rend="superscript">th</hi>-century musical books, a reedition from the most
+          successful collections could be produced two or three years after the original print, but one in the same calendar year is quite unusual.
+          Why did this happen? A look into the circumstances of the publication sheds light on the special relationship between these two prints. </p>
+        <p>In 1583, Vincenzi and Amadino had formed a printing partnership that had produced about twenty music books a year, among them two first
+          editions of Marenzio’s works (<hi rend="italic">Il primo libro delle villanelle a tre voci</hi> and <hi rend="italic">Il secondo libro delle
+            canzonette alla napolitana a tre voci</hi> in 1584–5) and the reedition of the I a 5 from 1586.<note place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> On the two printers see Giacomo Baroncini and Luigi Collarile, “Amadino, Ricciardo” and “Vincenti, Giacomo,” in
+                <hi rend="italic">Dizionario degli editori musicali italiani</hi>, ed. Bianca Maria Antolini (Pisa: ETS, in press).</p></note> But
+          already by mid-1586 the collaboration was dissolved, due to Vincenzi’s marriage to the daughter of the printer Giorgio Angelieri. The
+          commercial separation happened in a friendly way, as shown by the sharing of types and the joint issuing of a number of books on philosophy
+          and religion in later years. It is quite likely that the privilege for the Marenzio edition was acquired together by Vincenzi and Amadino,
+          who only later decided to issue two independent prints.<note place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Christine Jeanneret,
+              “ “Dare in luce &amp; con diligenza correggere”: A Study of Marenzio’s Editions and Reeditions,” in <hi rend="italic">“Compositor
+                moderno e vago”</hi>, 393.</p></note> Marenzio’s IV a 6 was certainly one of the first items to be printed separately by the two
+          publishers. </p>
+        <p>This suggests that at some point Vincenzi and Amadino had a common text of the book, a <hi rend="italic">Stichvorlage</hi>, from which both
+          editions are derived. An analysis of the variants in both editions strongly confirms such a possibility. Both mistakes and corrections could
+          have always been produced independently in the two prints. No significant errors link the two, thus demonstrating that they do not derive
+          from each other, but from a common source. A crucial point of comparison is the beginning of <hi rend="italic">Dice la mia bellissima
+            Licori</hi> (n. 7), where the Vincenzi print has the ascending step g3–a3 in the Canto, but the second note (a3) was clearly erased and
+          reprinted over a previous c4. In the Amadino edition, the opening movement is g3–d4, which reflects instead the original and correct
+          version. The Vincenzi mistake is easily explainable: from an original g3–d4, the second note was mistakenly lowered to a c4 during the
+          composition of the printing forme, then corrected during proofreading to an a3 for contrapuntal reasons.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> The c4 was against a f#3 in the Sesto voice, thus the correction to a3. On this variant see also Jeanneret,
+              “Dare in luce &amp; con diligenza correggere”, 406–7. </p></note>
+        </p>
+        <p>In this situation, it is problematic to define a clear and unique <hi rend="italic">editio princeps</hi> of Marenzio’s IV a 6. The Vincenzi
+          print is the first chronologically, but Amadino’s is certainly not a <hi rend="italic">codex descriptus</hi>, a derivative source further
+          removed from the original. Due to its direct filiation from a common source, the second print has a prominent role as well in establishing
+          the text of the book. Ideally, this critical edition aims to reconstruct the common source, possibly a manuscripts by Marenzio’s hand or by
+          a copyist close to him, from which both editions were derived. Thus, this critical edition uses the Vincenzi print as its basis, but keeps
+          into consideration the Amadino readings as well. For example, it reinstates the original leap g3–d4 in the Canto of <hi rend="italic">Dice
+            la mia bellissima Licori</hi>, and follows better text underlays as preserved in the Amadino print. </p>
+      </div>
+      <div type="section">
+        <head>Inside the Vincenzi workshop </head>
+        <p>Of the Vincenzi edition, a number of copies are preserved: I-Bc (complete), GB-Ob (complete), D-Hs (CTBQS), I-Sd (ATBQS), I-Vnm (Q), US-BEm
+          (C), F-Pn (B). Two other copies — I-Bsp (complete) and F-A (TQ) — could not be located at the time of this study.<note place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> Mentioned in Oscar Mischiati, <hi rend="italic">Bibliografia delle opere dei musicisti
+                bresciani pubblicate a stampa dal 1497 al 1740: opere di singoli autori; a cura di Mariella Sala ed Ernesto Meli</hi> (Florence:
+              Olschki, 1992), 583. </p></note> The seven available copies were consulted and collated. Their comparison offers an interesting glimpse
+          into the printing process of the Vincenzi workshop.</p>
+        <p>As the studies on 16<hi rend="superscript">th</hi> century music publishing have demonstrated, the typesetting for a new edition was
+          normally done one printing forme at the time, each one of them including the pages on a recto or a verso of a paper sheet.<note place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> See for example Jane A. Bernstein, <hi rend="italic">Print Culture and Music in Sixteenth
+                Century Venice</hi> (Oxford: Oxford University Press, 2001) and Pugin, “Music Printers at Work”. </p></note> In the Vincenzi print of
+          Marenzio’s IV a 6, each printed sheet contains four pages on the recto and four on the verso, printed out of the same printing forme. Each
+          forme was typeset and printed before being taken apart to reuse the types for the next one. In some cases, though, the printed sheet was
+          proofread and corrected after some use, giving rise to the many differences found in multiple copies of the same edition. </p>
+        <p>These differences — the so-called stop-press corrections — are quite evident in the surviving copies of the Vincenzi edition. As can be
+          expected, they tend to concentrate into single moments of the printing, thus pointing towards a sporadic checking rather than a thorough
+          proofreading. In the Alto and Tenore parts, for example, the corrections are limited to only one madrigal.<note place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> In the Alto there is only one correction in <hi rend="italic">Questa ordì il laccio, questa</hi>, whereas
+              in the Tenore there are two in <hi rend="italic">Tra l’erbe a piè d’un mirto, che ’l copriva. </hi></p></note> In the Basso, they appear
+          in only two printing formes: that including the pages 3 and 6, and the one containing page 17. In the Canto, Quinto and Sesto, the
+          corrections are a little more spread out, implying at least three or four stop-print moments. The Quinto, though, has five out of its six
+          interventions concentrated in only two formes: the one containing the pages 1, 3 and 6, and the one with the pages 11 and 14. The
+          corrections on page 14 could have likely been caused by a very evident ‘leftover’ from a previous typesetting, an empty staff on the bottom
+          of the page (an example of so-called ‘standing types’). Such a clear oversight could have draw attention to the sheet, stopped the print,
+          and caused the intervention on page 11 as well. Besides the correction of the forme itself, some mistakes on already-printed pages were
+          amended by erasing and reprinting the erroneous passage, or by pasting over a corrected cutout. </p>
+        <p>Although not caused by the desire to improve the correctness of the final product, but by a misstep in the binding process, the most
+          macroscopic difference among the Vincenzi copies needs to be mentioned. The exemplar preserved at Oxford, Bodleian Library (GB-Obl)
+          contains, in place of the entire third gathering of the Canto (labeled C), the corresponding pages of the first book of madrigals for six
+          voices by Francesco Farina. No other copy of this print survives, but the similarity of the fonts and decorated initials suggests that the
+          book had been printed by Vincenzi as well, also around 1587.<note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> Ian Fenlon,
+              “Farina, Francesco,” in <hi rend="italic">Oxford Music Online</hi>, accessed June 2014.</p></note>
+        </p>
+        <p>If the Amadino 1587 reedition had already cast some shadow on the <hi rend="italic">editio princeps</hi>, its authority is now further
+          undermined by the lack of<hi rend="italic"> one</hi> single text of it. None of the existing copies contains all the stop-print
+          interventions, and thus none can be considered the final point of the correction process. A single moment of correction is not even
+          preserved on the level of a given part-book. The copy of the Quinto preserved in the Marciana library, for example, presents an earlier,
+          more incorrect version of the first sheet compared to the others, where in another it eliminates the standing types present in GB-Obl and
+          D-Hs, thus providing a better one. The aim of this critical edition is to reconstruct a non-existent, ideal first edition through a critical
+          selection of the correct readings present in the preserved copies. All the stop-press corrections – with the exception of the ones that do
+          not imply differences in the musical or poetic text, such an erroneous page number or the standing types mentioned above – are discussed in
+          the critical commentary.</p>
+      </div>
+      <div type="section">
+        <head>Later reeditions </head>
+        <p>The entire book was reprinted three times: by Gardano in 1593 and 1605 and by Scotto in 1603. Moreover, three other northern European
+          prints including its contents, collections of more than one book of madrigals for six voices, were produced in Antwerp by Pierre Phalèse and
+          Jean Bellère in 1594, by Phalèse alone in 1610, and in Nuremberg by Paul Kauffmann in 1608. Only the reeditions of the IV a 6 alone (Gardano
+          and Scotto) have been considered in the present edition. </p>
+        <p> The Gardano edition of 1593 derives from the Amadino 1587 print, although it is possible that the typographer had also a copy of the
+          Vincenzi edition at hand and used it for the correction of some mistakes. The Gardano and Amadino prints share significant errors, for
+          example the missing minima rest in the Canto of <hi rend="italic">Né fero sdegno mai, Donna, mi mosse</hi> (m. 53). The (occasional)
+          collation with the Vincenzi text is evident in a pitch correction in the Quinto of <hi rend="italic">Oh, che soave e non inteso baccio</hi>
+          (m. 20), a contrapuntal mistake otherwise hard to catch without the help of a score. Another hint of the influence of the Vincenzi print on
+          the Gardano 1593 text is the erroneous mensuraration sign 3/2 that appears in <hi rend="italic">Sonar le labra</hi> (m. 94), not found in
+          Amadino, but only in the F-Pn copy of the <hi rend="italic">princeps</hi>. In the consulted copy of the Gardano print (Gb-Lcm) the sign 3/2
+          was later erased and corrected into C. This amendment, though, was clearly not carried on in all the other copies, as demonstrated by the
+          duplication of the mistake in Scotto 1603. A similar situation obtains for the erroneous set of rests in <hi rend="italic">Non può, Filli,
+            più il core</hi> (Quinto, mm. 86–9): corrected by erasing the superfluous ones at least in the Gb-Lcm copy of the Gardano print, it
+          reappears in the two later reeditions. </p>
+        <p>Such mistakes introduce the issue of filiation for the two prints by Scotto 1603 and Gardano 1605. Scotto 1603 is a clear <hi rend="italic">descriptus</hi> of Gardano 1593, a quite inaccurate edition full of old and new mistakes. Despite being done ‘in house’, the relationship
+          between Gardano 1593 and Gardano 1605 is not obvious. Although the filiation is evident, Gardano 1605 does not necessarily reproduces all
+          the readings of the previous edition, but sometimes shares details – especially in the poetic text – with Scotto 1603. It is a better,
+          cleaner edition compared to Scotto, with some clever and intuitive corrections. </p>
+        <p> Interestingly, all the reeditions ultimately derive not from the Vincenzi, but the Amadino edition. Thus, in the printed tradition the
+          ‘second’ edition had a stronger influence then the <hi rend="italic">princeps</hi>. In general, the two Gardano and the Scotto prints are
+            <hi rend="italic">descripti</hi>, and do not give any significant contribution to the reconstruction of the critical text. </p>
+      </div>
+      <div type="section">
+        <head>A book in memory of Luigi d’Este</head>
+        <p>Marenzio’s <hi rend="italic">Quarto libro de’ madrigali a sei voci</hi> is dedicated to Jean de Vivonne, Marquis of Pisany and ambassador
+          of the King of France to the Holy See. The letter, signed by the composer himself, is dated 10 December 1586, only a few days before the
+          death of Cardinal Luigi d’Este, Marenzio’s employer since 1578.<note place="foot" xml:id="ftn9" n="9"><p rend="footnote text"> Luigi d’Este
+              died in Rome in his palace of Montecavallo (now the Quirinale) on 31 December 1586. See Marco Bizzarini, <hi rend="italic">Marenzio. La
+                carriera di un musicista tra Rinascimento e Controriforma</hi> (Coccaglio: Promozione Franciacorta, 1998), 132. </p></note> The years
+          in the service of Cardinal d’Este had been the composer’s most prolific, crucial in determining his poetic and stylistic choices, in
+          particular the creation of a light-hearted type of madrigal, full of melodic invention and simple contrapuntal devices, which embodied the
+          idyllic ideal and Arcadian pleasures of the Renaissance aristocracy.<note place="foot" xml:id="ftn10" n="10"><p rend="footnote text">
+              Giuseppe Gerbino, <hi rend="italic">Music and the Myth of Arcadia in Renaissance Italy</hi> (Cambridge: Cambridge University Press,
+              2009), 292–340. </p></note>
+        </p>
+        <p> While Alfred Einstein had suggested that the dedication to Vivonne implied a search for a new employer, Marco Bizzarini’s research has now
+          satisfactory demonstrated that the publication of the IV a 6 had been planned (and possibly financed) by Este, who also chose the
+            dedicatee.<note place="foot" xml:id="ftn11" n="11"><p rend="footnote text"> Bizzarini, <hi rend="italic">Marenzio</hi>, 132. </p></note>
+          From 1573 on, Este had been the Cardinal Protector of the Kingdom of France, and thus in close relationship with the French ambassador.<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text"> Paolo Portoni, “d’Este, Luigi” in <hi rend="italic">Dizionario Biografico
+                degli Italiani</hi>, vol. 43 (Rome: <lb/>Istituto della Enciclopedia Italiana, 1993). Online at <ref target="http://www.treccani.it">www.treccani.it</ref>. </p></note> In the two years before the publication of the book, the internal struggles between French
+          Huguenots and Catholics had put strains on the relationship between Vivonne and the Pope, resulting in a temporary ban of the envoy from the
+          Holy City. The delicate political situation was resolved with the help of Este, who in August 1586 welcomed the ambassador back in his
+          delightful summer retreat at Villa d’Este in Tivoli. Marenzio’s dedication to Vivonne was likely conceived in the few months following this
+          political triumph. Indeed, the letter explicitly mentions Vivonne’s return to Italy as the occasion for the dedication.<note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> Bizzarini, <hi rend="italic">Marenzio</hi>, 125–31. </p></note> Through him, Marenzio and
+          his patron Luigi d’Este were paying homage to the King of France and his reestablished relationship with the Holy See. </p>
+        <p>Este’s political <hi rend="italic">grandeur</hi> was accompanied by an active love life. Lucrezia Bendidio was born in Ferrara in 1547,
+          daughter of an aristocratic family with strict links to the court. In 1561 she went into the service of Luigi’s sister, Leonora d’Este, and
+          the next year she was married off to Count Baldassarre Macchiavelli.<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text"> Remo
+              Ceserani, “Bendidio, Lucrezia,” in <hi rend="italic">Dizionario Biografico degli Italiani</hi>, vol. 8. </p></note> Her singing talent
+          was appreciated at the Ferrarese court and celebrated in poems by Tasso, Ridolfo Arlotti and Giovanni Battista Pigna. Together with her
+          sister Isabella, she sung for the court at least from 1571 to 1579.<note place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> Elio
+              Durante, Anna Martellotti, <hi rend="italic">Cronistoria del concerto delle dame principalissime di Margherita Gonzaga d’Este
+              </hi>(Florence: SPES, 1979), 14–16. </p></note> Her amorous relationship with the Cardinal was in full bloom in the years 1571–74, when
+          she wrote passionate letters to her lover. On his side, Este was costantly kept informed of her behavior at the Estense court.<note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"> Ceserani, “Bendidio, Lucrezia,” and Luigi Cibrario, “Degli amori e della
+              prigionia di T. Tasso […],” in <hi rend="italic">Scritti vari del Conte Luigi Cibrario </hi>(Turin – Florence: Botta, 1862),
+            59–84.</p></note> Although the erotic relationship might have cooled off in later years, an affectionate friendship, evident in letters,
+          gifts and monetary support, remained in place until the death of the Cardinal.<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text"> Cibrario, “Degli amori e della prigionia di T. Tasso […]”, 68. </p></note>
+        </p>
+        <p>At least four texts in Marenzio’s IV a 6 can be linked to Lucrezia: Tasso’s <hi rend="italic">Arsi gran tempo, e del mio foco indegno</hi>,
+          the two short madrigals by Giovanni Battista Pigna <hi rend="italic">La dipartita è amara</hi> and <hi rend="italic">Vattene, anima mia,
+          </hi>and <hi rend="italic">Non porta ghiaccio Aprile. </hi>Tasso’s <hi rend="italic">Arsi gran tempo, e del mio foco indegno</hi> belongs to
+          his poems dedicated to Lucrezia Bendidio, dated between 1561 and 1566, and first published in the <hi rend="italic">Rime de gli academici
+            eterei</hi> [Padova, 1567].<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"> Torquato Tasso, <hi rend="italic">Rime
+                ‘eteree’</hi>, ed. Lanfranco Caretti (Parma: Zara, 1990), liv–lvii.</p></note> Giovanni Battista Nicolucci, known as Pigna, worked at
+          the Ferrarese court as secretary of Duke Alfonso II, and was the teacher of moral philosophy and astronomy to the young Luigi.<note place="foot" xml:id="ftn19" n="19"><p rend="footnote text"> See Giovanni Battista Pigna, <hi rend="italic">Il ben divino: inedito a cura
+                di Neuro Bonifazi</hi> (Bologna: Commissione per i testi di lingua, 1965), ix and Portone, “d’Este, Luigi”. </p></note> The two
+          madrigals by Pigna set by Marenzio are part of his <hi rend="italic">canzoniere</hi>, collected by Guarini and dedicated to Leonora d’Este,
+          which celebrates the same Lucrezia Bendidio. Its titles, <hi rend="italic">Il ben divino</hi> (The divine good, or The divine goodness) is a
+          pun on the name of the lady (Bendidio = the good/goodness of God). </p>
+        <p>Finally, the madrigal <hi rend="italic">Non porta ghiaccio Aprile </hi>bears conflicting attributions to Annibale Pocaterra and Cesare
+            Cremonini.<note place="foot" xml:id="ftn20" n="20"><p rend="footnote text"> For the discussion of the attributions see the notes to the
+              edition of the text. </p></note> Pocaterra was a courtier at Ferrara, born in 1559, whose poetry had been influenced by Tasso, Guarini
+          and Pigna. According to Arnaldo Di Benedetto, some of his poems praise Bendidio under the pastoral name of Licori.<note place="foot" xml:id="ftn21" n="21"><p rend="footnote text"> Arnaldo di Benedetto, “Due canzonieri ferraresi dell’età del Tasso,” in <hi rend="italic">Con e intorno a Torquato Tasso</hi>, (Naples: Liguori, 1996), 289. </p></note> If our text is by Pocaterra, the “harsh Licori” cited
+          in the third verse could refer once more to Lucrezia. </p>
+        <p>In a wider sense, the entire Book could be read as a restrospective narration of the amorous relationship between Lucrezia and the
+          Cardinal. As in every <hi rend="italic">canzoniere</hi>, the story of the lovers is recalled through different temporal and emotional
+          phases. This includes a celebration of the couple (Gottifredi’s <hi rend="italic">Tra l’erbe a piè d’un mirto, che ’l copriva</hi>), a
+          declaration of eternal fidelity (Tansillo’s<hi rend="italic"> Né fero sdegno mai, Donna, mi mosse</hi>), and the sadness of separation (<hi rend="italic">La dipartita è amara</hi> and <hi rend="italic">Caro Aminta, pur vuoi</hi>), a feeling certanly evident since the Cardinal
+          was residing largely in Rome from 1576 onwards. The more rationally-oriented side of the <hi rend="italic">canzoniere</hi> contains a moral
+          reflection on the ephemeral nature of love and beauty (Tasso’s <hi rend="italic">Arsi gran tempo, e del mio foco indegno</hi>), as well as
+          clever arguments on the phenomenology of love (the opening madrigal <hi rend="italic">Se bramate ch’io mora</hi>, Guarini’s <hi rend="italic">Dice la mia bellissima Licori</hi> and <hi rend="italic">Crudel, perché mi fuggi</hi>, and Pigna’s <hi rend="italic">Vattene, anima mia</hi>). The exploration of eroticism touches also the possibility of Sapphic love, as sensually sung by Tasso in <hi rend="italic">Di nettare amoroso ebro la mente</hi>. Given its position towards the end of the book, after madrigals recounting crisis and
+          repentance, Pietro Barignano’s <hi rend="italic">Vanneggio, od è pur vero </hi> could very well not represent the onset of love for
+          Lucrezia, but rather its end and the opening to a <hi rend="italic">new</hi> relationship. The closing piece of the book was certainly
+          written by Marenzio as an external commission, i.e. as an <hi rend="italic">intermedio</hi> for the comedy <hi rend="italic">Le stravaganze
+            d’amore</hi> by Cristoforo Castelletti, performed during the Carnival of 1585 in the Roman palace of Giacomo Buoncompagni.<note place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> James Chater, “Castelletti’s “Stravaganze d’amore” (1585): a Comedy with
+                Interludes,”<hi rend="italic"> Studi Musicali</hi> viii (1979), 85–148. </p></note> Nevertheless, it fits the narrative of the book as
+          a final statement on the nature of women and love. </p>
+        <p>The madrigals of the IV a 6 were probably written at different times during the decade preceding their publication, and only later
+          organized as a collection. Stylistically, they represent different choices and create a well-balanced mix of moods and techniques. Some are
+          example of the light and graceful style so appreciated in the 1580s.<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text">
+              Chater, <hi rend="italic">Luca Marenzio</hi>, 113–127 and Gerbino, <hi rend="italic">Music and the Myth of Arcadia</hi>, 323–336. See
+              for example <hi rend="italic">Vanneggio, od è pur vero</hi>. </p></note> Others, however, reflect a more sober writing, with denser
+          contrapuntal textures and expressive dissonances.<note place="foot" xml:id="ftn24" n="24"><p rend="footnote text"> For example in <hi rend="italic">Arsi gran tempo, e del mio foco indegno</hi>. </p></note> The six voices allow a frequent use of double-choir writing,
+          normally organized as Canto/Quinto/Alto against Tenore/Sesto/Basso (see for example <hi rend="italic">Tra l’erbe a pié d’un mirto</hi>). The
+          second madrigal of the book, <hi rend="italic">Di nettare amoroso ebro la mente</hi>, is a Tasso sonnet on the topic on love as war with a
+          lesbian twist. The fever of the battle is musically expressed by rapid syllabic repetition on semiminim and dotted rhythms, an early example
+          of the <hi rend="italic">stile concitato</hi> of the celebrated <hi rend="italic">Ottavo libro</hi> by Claudio Monteverdi.<note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"> Repetitions at mm. 34–49, dotted rhythms at 74–9. </p></note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

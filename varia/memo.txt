@@ -1,0 +1,6 @@
+
+# Finding the beginning of the verses
+//syl[matches(text(), '[A-Z"]')]
+
+# Checking the order of the line label in verse
+//staff[@n=1]//verse/@label

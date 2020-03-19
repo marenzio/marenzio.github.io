@@ -1,0 +1,86 @@
+---
+layout: default
+title: MODE - Homepage
+active_section: index
+show_sponsors: true
+hide_secondary: true
+---
+
+<div>
+
+    <div style="float: right; margin: 0px 0px 10px 30px;" class="hidden-xs">
+        <img src="/images/title-page.png"/>
+    </div>
+<p>
+    The Marenzio Online Digital Edition (MODE) is a critical edition of the secular music of <a href="#" data-toggle="modal" data-target="#luca-marenzio">Luca Marenzio</a> (ca. 1553-1599), one of the most influential composers of the European Renaissance. MODE is the product of an international collaboration that started in 2006 with a conference held at Harvard University, the proceedings of which were later published by <a href="http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503553320-1" target="_blank">Brepols</a>. In 2011 the project was awarded a <a href="{{ site.fakeurl }}neh-grant.xhtml">grant</a> from the National Endowment for the Humanities. Numerous <a href="{{ site.fakeurl }}acknowledgments.xhtml">people and institutions</a> have supported the project along the way.
+</p>
+
+<p>
+    MODE makes Marenzio’s music available to musicians and scholars for free on the world wide web. It integrates music philology and digital technology by introducing an innovative model for producing and disseminating modern editions of musical repertoires of the Western tradition. In the input phase, the musical sources--i.e., the <a href="#" data-toggle="modal" data-target="#part-books">partbooks of the madrigal books</a>--are digitally collated with the software application <a href="http://www.aruspix.net/about.html" target="_blanke">Aruspix</a>, improving speed and accuracy via optical music recognition. In the output phase, the music is presented through a dynamic web-based digital interface based on <a href="https://www.verovio.org" target="_blank">Verovio</a> in which the critical commentary and other materials interact productively with the musical text. The encoding of the original musical notation follows the criteria recommended by the <a href="https://music-encoding.org" target="_blank">Music Encoding Initiative</a>. 
+</p>
+
+<p>
+    The edition is fully optimized for desktop and mobile devices and can be used on most operating systems. Users can visualize the music in different formats (including modern and original clefs), open the critical apparatus directly in the score, play the music in MIDI format (or, when available, in a recording by a vocal ensemble), and download the music in PDF format.   
+</p>
+
+<p>
+    Feedback can be sent to <a mailto="info@marenzio.org">info@marenzio.org</a>
+</p>
+
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="part-books" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&#215;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Part-books of the madrigals</h4>
+            </div>
+            <div class="modal-body">
+                {% include part-books.html %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="luca-marenzio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&#215;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Luca Marenzio</h4>
+            </div>
+            <div class="modal-body">
+                {% include luca-marenzio.html %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="separator-bold"></div>
+
+<h3 class="news">News</h3>
+
+<div>
+{% for post in site.posts %}
+    <div class="news">
+        <h4>
+            <div>{{ post.title }}</div>
+        </h4>
+        {{ post.excerpt }}
+        {% if post.noreadmore != true %}
+        <p class="news-more"><a href="{{ post.url }}">read more ...</a></p>
+        {% endif %}
+        <div style="clear: both;"></div>
+    </div>
+{% endfor %}
+</div>
+
+<script type="text/javascript">
+
+</script>

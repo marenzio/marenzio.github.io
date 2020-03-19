@@ -1,0 +1,68 @@
+<div class="row">
+	<div class="col-md-3" id="sidebar" role="navigation">
+		<div class="panel panel-default">
+			<div class="list-group">
+				{% for t in site.data.books[page.book].texts  %}
+				{% if t.hidden != true %}
+				<a id="link-{{ t.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ page.book }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="list-group sublist-group">
+				{% for m in site.data.books[page.book].content %}
+				<a id="link-{{ m.id }}" class="list-group-item" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ forloop.index }}. {{ m.name }}</a>
+	                {% for p in m.parts %}
+				    <a id="link-{{ m.id }}" class="list-group-item menu-part" href="{{ site.fakeurl }}digital-edition/{{ m.id }}?part={{ p.id }}">{{ p.title }}</a>
+			        {% endfor %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	
+	<div class="col-md-9">	
+		<h2 class="text-title">
+		    {{ page.text-title }}
+		</h2>
+        <h2 class="text-title">
+            <span class="text-subtitle" id="text-subtitle"></span>
+        </h2>
+		<div id="text"></div>
+	</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+	
+	function getParameterByName(name) {
+	    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+	    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+	}
+    
+    var titles = new Object();
+    {% for text in site.data.books[page.book].texts  %}
+        titles['{{ text.id }}'] = "{{ text.name }}"
+    {% endfor %}
+
+	$( document ).ready(function() {
+		
+		var id = getParameterByName("id");
+		if (!id) {
+			id = "{{ site.data.books[page.book].texts[0].id }}";
+		}
+		var menuid = getParameterByName("menuid");
+		if (!menuid) {
+			menuid = id;
+		}
+		var file = "{{ site.fakeurl }}texts/{{ page.book }}-" + id + ".html";	
+		// load the file	
+		$( "#text" ).load( file, function() {		  
+		});
+		$( "#text-subtitle" ).html( titles[id] );
+		// activate the link menu
+		$( "#link-" + menuid ).addClass( "active" );
+				
+	});
+//]]>
+</script>

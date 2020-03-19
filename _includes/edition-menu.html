@@ -1,0 +1,54 @@
+<ul class="nav navbar-nav">
+    <li>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ page.book.title }}<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            {% for t in site.data.books[page.book.id].texts %}
+            {% if t.hidden != true %}
+            <li>
+                <a id="link-{{ t.id }}" href="{{ site.fakeurl }}digital-edition/{{ page.book.id }}.xhtml?id={{ t.id }}">{{ t.name }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            <hr/>
+            {% for m in site.data.books[page.book.id].content %}
+            <li>
+                <a id="link-{{ m.id }}" href="{{ site.fakeurl }}digital-edition/{{ m.id }}">{{ forloop.index }}. {{ m.name }}</a>
+            </li>
+                {% for p in m.parts %}
+                <li>
+                    <a id="link-{{ m.id }}" class="menu-part" href="{{ site.fakeurl }}digital-edition/{{ m.id }}?part={{ p.id }}">{{ p.title }}</a>
+                </li>
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </li>
+
+    {% for p in page.panels %}
+	<li>
+		<a href="javascript:loadPanel('{{ p.id }}');" data-target="#{{ p.id }}">{{ p.title }}</a>
+	</li>
+	{% endfor %}
+	
+    {% for m in page.modals %}
+	<li>
+		<a href="#" data-toggle="modal" data-target="#{{ m.id }}">{{ m.title }}</a>
+	</li>
+	{% endfor %}
+
+	{% for l in page.links %}
+	<li>
+        {% if l.submenu == true %}
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ l.title }}<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+            {% for ll in l.links %}
+        	<li>
+        		<a href="{{ ll.link }}">{{ ll.title }}</a>
+        	</li>
+        	{% endfor %}
+        </ul>
+        {% else %}
+		<a href="{{ l.link }}">{{ l.title }}</a>
+        {% endif %}
+	</li>
+	{% endfor %}
+</ul>

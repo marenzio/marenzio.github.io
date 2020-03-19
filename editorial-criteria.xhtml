@@ -1,0 +1,22 @@
+---
+layout: default
+title: MODE - General editorial criteria
+active_section: editorial-criteria
+hide_secondary: true
+text: MODE-editorial-criteria
+---
+
+<h2 class="text-title">General Editorial Criteria</h2>
+
+<div id="text"></div>
+
+<script type="text/javascript">
+//<![CDATA[
+	$( document ).ready(function() {
+		var file = "{{ site.fakeurl }}texts/{{ page.text }}" + ".html";	
+		// load the file	
+		$( "#text" ).load( file, function() {		  
+		});				
+	});
+//]]>
+</script>

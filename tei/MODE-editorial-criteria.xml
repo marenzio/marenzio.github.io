@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MODE general editorial criteria</title>
+        <author>Mauro Calcagno</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date/>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>no publication statement available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written by OpenOffice</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
+          <name/>
+          <date/>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Music</head>
+        <p>The objectives of MODE concerning the presentation of the musical text of Marenzio&#x2019;s secular works are: a) to provide its users with
+          a text derived from a systematic collation of the sources, including the surviving copies of the first edition, and b) to display the
+          musical text in a form that facilitates the study and the performance of the music.</p>
+        <p>This section lays out the editorial policy. The critical apparatus of
+          individual books includes a discussion of specific editorial issues affecting specific points in the score (such as errors or conflicting
+          variants).</p>
+        <div>
+          <head>Clefs</head>
+          <p>The original clefs have been substituted with modern ones (treble, transposed treble and bass clefs) to facilitate reading. Original clefs are however visible through the digital interface (left-side bar, under &#x201C;Options&#x201D;).</p>
+        </div>
+        <div>
+          <head>Mensurations and proportions</head>
+          <p>Original mensuration signs and proportions have been maintained. Time signatures should be read as such and not as modern equivalents.
+          	All original note values have been retained. Most pieces are written with the mensuration sign <hi rend="musica">C</hi>, implying a <hi rend="italic">tactus</hi>
+            of a semibreve. These pieces usually have shorter note values (ranging from the semibreve to the semifusa). Some madrigals are written in
+            <hi rend="musica">c</hi> (or <hi rend="italic">alla breve</hi>), normally implying a <hi rend="italic">tactus</hi> of a breve with longer note-values (from
+            the breve to the fusa), for example <hi rend="italic">Udite, lagrimosi amanti</hi> in Book VI <hi rend="italic">a 5</hi>.</p>
+          <p>Ternary sections requiring a <hi rend="italic">tactus inaequalis</hi> are indicated by mensuration signs or proportions appearing in
+            various forms. Proportion signs appearing in the course of a piece are maintained in the score. Equivalence values are provided above the staff.</p>
+        </div>
+        <div>
+          <head>Barring</head>
+          <p>Barring not present in the original partbooks has been added in the modern edition with respect to the original <hi rend="italic">tactus</hi>. Decisions on barring have been made by the editors according not only to mensural signs but also to note values, rhythmic
+            groupings, and the use of rests.</p>
+        </div>
+        <div>
+          <head>Coloration</head>
+          <p>Blackened notes have been marked by half-brackets and resolved as triplets. Minor color (black semibrevis plus black minima) has been
+            transcribed as a dotted half note followed by a quarter note; minor color at the level of brevis (black brevis plus black semibrevis) has
+            been transcribed as a dotted whole note followed by a half note.</p>
+        </div>
+        <div>
+          <head>Beaming</head>
+          <p>Beaming follows modern conventions.</p>
+        </div>
+        <div>
+          <head>Ligatures</head>
+          <p>Ligatures have been resolved with their respective note values. In the score, the notes originally ligated appear with the sign
+            (&#x250D;&#x2511;). The most common ligature in Marenzio&#x2019;s time was the <hi rend="italic">cum opposita proprietate</hi> type. This has been transcribed as two semibreves. In some
+            rare cases the notes tied together in a ligature are blackened. Other types of ligatures are discussed in the critical apparatus.</p>
+        </div>
+        <div>
+          <head>Accidentals</head>
+          <p>In line with sixteenth-century practice, accidentals apply only to adjacent notes. The edition inserts &#x201C;cautionary
+            accidentals&#x201D; above the staff. They have been added either to resolve ambiguous passages, or to supply alterations that
+            are only implied in the original notation, as typically occurs at cadences. Sharps or flats used as cancellation signs in the original
+            notation have been rendered as natural signs without further mention in the critical notes.</p>
+        </div>
+        <div>
+          <head>Ties and dotted notes</head>
+          <p>If dotted notes or long note values extend over a bar, they have been transcribed as tied notes without further mention in the critical
+            notes.</p>
+        </div>
+      </div>
+      <div>
+        <head>Text</head>
+        <p>The poetic text appearing in the critical apparatus is as close as possible to the one underlaid in the score.</p>
+        <p>These interventions have been done tacitly:</p>
+        <p>1. The letters <hi rend="italic">v</hi> and <hi rend="italic">u</hi> are graphically differentiated by following modern spelling.</p>
+        <p>2. Only a single form of lowercase <hi rend="italic">s</hi> is used.</p>
+        <p>3. Abbreviations are written out in full.</p>
+        <p>4. The ampersand and the Latinism <hi rend="italic">et</hi> are written out as <hi rend="italic">e</hi> before words beginning with a
+          consonant or a vowel other than <hi rend="italic">e</hi>. They are changed to <hi rend="italic">ed</hi> before words beginning with <hi rend="italic">e</hi>.</p>
+        <p>5. Accents have been normalized according to modern usage. Phonic accents have been introduced in case of ambiguity of meaning (e.g.,
+        	<hi rend="italic">v&#xF2;to</hi>).</p>
+        <p>6. Apostrophes have been normalized according to modern usage. The apostrophe is introduced&#x2013;or kept, if present&#x2013;in the presence of elision
+        	(e.g., <hi rend="italic">ond&#x2019;egli</hi>), apocope (e.g., <hi rend="italic">co&#x2019;</hi>, <hi rend="italic">di&#x2019;</hi>), or aphaeresis of the masculine definite article (e.g., <hi rend="italic">&#x2019;l</hi>). In the
+          original partbooks, it is common to find the apostrophe to indicate synaloepha even in the absence of an elision; this has always been
+          eliminated.</p>
+        <p>7. Elisions: because the same word often appears differently among the original partbooks (with the final vowel elided or present), the
+          version presented by the majority of the voices is adopted and extended to all the other voices. In cases in which the elided and non-elided
+          forms are split among an equal number of partbooks, the non-elided version is adopted for all the voices. The elided vowel is reintroduced
+          only when there is ambiguity in meaning, pronunciation, or punctuation. In these last cases, the reintroduced vowel appears in italics.</p>
+        <p>8. Because the same word often appears differently among the partbooks as including either a single or a double consonant (geminates), the
+          version presented by the majority of the voices is adopted and extended to all the other voices. In cases in which the two versions are
+          split among an equal number of partbooks, the version adopted for all the voices is the one closest to modern usage.</p>
+        <p>9. Capitalization conforms to modern usage. Capitals are maintained at the beginning of a line. Capitals are kept in the case of
+          personifications (e. g., <hi rend="italic">Amor</hi>).</p>
+        <p>10. In the text under the notes, repeated words, lines, or syntagmas are separated by a comma, with the repeated segment starting with a
+          lowercase letter even if it includes the beginning of a line (which is otherwise capitalized). Repeated segments that are not present as
+          such in the underlaid text of the original partbooks appear in italics.</p>
+        <p>11. Punctuation marks (periods, commas, colons, and semicolons, as well as question, exclamation and quotation marks) are introduced or
+          modified according to modern usage.</p>
+        <p>12. Both the etymological and the diacritical <hi rend="italic">h</hi> have been eliminated (e.g., <hi rend="italic">havr&#xE0; &gt; 
+            avr&#xE0;,</hi>
+          <hi rend="italic">ninphe </hi> &gt; <hi rend="italic"> ninfe, pharetra </hi> &gt; <hi rend="italic"> faretra, herba </hi> &gt; <hi rend="italic"> erba, boscho </hi> &gt; <hi rend="italic"> bosco</hi>). In general,
+          the use of <hi rend="italic">h</hi> has<hi rend="italic"> </hi>been modernized (<hi rend="italic">anc&#x2019;io</hi> &gt;  <hi rend="italic">anch&#x2019;io</hi>). In the case of <hi rend="italic">o</hi> used as interjection, it appears as <hi rend="italic">oh</hi> (unlike in
+          the case of <hi rend="italic">o</hi> used as a vocative, such as in <hi rend="italic">O bellissima Licori</hi>).</p>
+        <p>13. The dental affricate <hi rend="italic">ti</hi> has been changed to <hi rend="italic">zi</hi>. (e.g., <hi rend="italic">Gratie</hi> &gt; <hi rend="italic">Grazie</hi>)</p>
+        <p>14. The <hi rend="italic">i</hi> devoid of any diacritical function has been eliminated.</p>
+        <p>15. Compound prepositions and adverbs appear in synthetic form (e.g., <hi rend="italic">ne i</hi> &gt; <hi rend="italic">nei</hi>). However, the analytical form of the compound prepositions
+      		is adopted when the synthetic form would have caused doubling of the consonant or stress change (<hi rend="italic">de le</hi>, <hi rend="italic">a la</hi>, <hi rend="italic">poi
+          che</hi>, <hi rend="italic">ben che</hi>). <hi rend="italic">Al'hor</hi> and <hi rend="italic">all'hor</hi> are changed to <hi rend="italic">allor</hi>; <hi rend="italic">tal'hor</hi> and <hi rend="italic">tal hor</hi> to <hi rend="italic">talor</hi>; <hi rend="italic">ogn'hor
+            </hi> to <hi rend="italic">ognor</hi>.</p>
+        <p>16. Typos with no apparent meaning are included in the critical apparatus because they may provide information about the typographical genesis
+          and filiation of the partbooks.</p>
+      </div>
+      <div>
+        <head>Abbreviations</head>
+        <div>
+          <head>Voices</head>
+          <p><hi rend="bold">C </hi>= Canto (<hi rend="bold">C1</hi> = Canto, first choir; <hi rend="bold">C</hi><hi rend="bold subscript">1</hi> =
+            Canto, first repetition)</p>
+          <p><hi rend="bold">A </hi>= Alto </p>
+          <p><hi rend="bold">T </hi>= Tenore</p>
+          <p><hi rend="bold">B </hi>= Basso</p>
+          <p><hi rend="bold">Q </hi>= Quinto </p>
+        </div>
+        <div>
+          <head>Other abbreviations</head>
+          <p><hi rend="bold">SB </hi>= Semibrevis </p>
+          <p><hi rend="bold">M </hi>= Minim </p>
+          <p><hi rend="bold">SM </hi>= Semiminim</p>
+          <p><hi rend="bold">F </hi>= Fusa</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
