@@ -109,6 +109,7 @@ svg:not(:root){
         letter-spacing: 0.05em;
         margin-bottom: 0px;
         font-weight: bold;
+        color: $menu-background;
     }
     h3, h5 {
         //font-style: italic;
@@ -116,10 +117,12 @@ svg:not(:root){
     h3 {
         margin-top: 2px;
         letter-spacing: 0.015em;
+        color: $menu-background;
     }
     h5 {
         margin-top: 5px;
         letter-spacing: 0.035em;
+        color: $menu-background;
     }
 }
 
@@ -218,6 +221,11 @@ p.news-more {
     border-top: solid 2px $navbar-background;
     margin-top: 20px;
     padding-top: 10px;
+}
+
+div.home-logo {
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 /* Books */

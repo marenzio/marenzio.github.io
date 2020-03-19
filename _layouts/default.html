@@ -27,6 +27,10 @@
                 <div class="col-md-3 col-sm-12 sidebar" id="sidebar" role="navigation">
                     
                     {% include sidebar-menu.html %}
+
+                    {% if page.show_sponsors == true %}
+                        {% include sidebar-sponsors.html %}
+                    {% endif %}
                     
                 </div>
                 <div id="content" class="col-md-9 col-sm-12">
