@@ -2,7 +2,7 @@
 title: Marenzio Online Digital Edition
 email: lxpugin@gmailcom
 fakeurl: "/" 
-url: "https://beta.marenzio.org" # the base hostname & protocol for your site
+url: "https://www.marenzio.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -10,20 +10,20 @@ markdown: kramdown
 exclude: [src, scripts, varia]
 
 groups:
-    - name: "Books for four voices"
-      books:
-        - id: "M-01-4.xhtml"
-          name: "Book I"
+    # - name: "Books for four voices"
+    #   books:
+    #     - id: "M-01-4.xhtml"
+    #       name: "Book I"
     - name: "Books for five voices"
       books:
-        - id: "M-01-5.xhtml"
-          name: "Book I"
+        # - id: "M-01-5.xhtml"
+        #   name: "Book I"
         - id: "M-06-5.xhtml"
           name: "Book VI"
-    - name: "Books for six voices"
-      books:
-        - id: "M-04-6.xhtml"
-          name: "Book IV"
+    # - name: "Books for six voices"
+    #   books:
+    #     - id: "M-04-6.xhtml"
+    #       name: "Book IV"
 
 menu:
     - id: "index"
