@@ -3,13 +3,13 @@
 
 # Requires saxon9ee and phantomjs
 # saxon9ee can be aliased from Oxygen in ~/.bash_profile
-# alias saxon9ee="java -jar /Applications/oxygen/lib/saxon9ee.jar"
+# alias saxon="java -jar /Applications/oxygen/lib/saxon9ee.jar"
 
 shopt -s expand_aliases
 [[ -f ~/.bash_profile ]] && source ~/.bash_profile
 
-books=('M_01_5' 'M_06_5')
-
+#books=('M_01_5' 'M_06_5' 'M_06_5')
+books=('M_04_6')
 
 for b in ${books[@]}; do
     echo "Processing book $b";
@@ -25,11 +25,11 @@ for b in ${books[@]}; do
         FILENAME=$f
         echo $FILENAME
         echo $DIRNAME
-        saxon9ee $i app.xsl > ../_includes/$DIRNAME/app.html
-        saxon9ee $i app.xsl output=full elem=span >> ../_includes/$DIRNAME_BOOK/$FILENAME_BOOK
+        saxon $i app.xsl > ../_includes/$DIRNAME/app.html
+        saxon $i app.xsl output=full elem=span >> ../_includes/$DIRNAME_BOOK/$FILENAME_BOOK
         
-        saxon9ee $i text-comments.xsl part=front > ../_includes/$DIRNAME/text.html
-        saxon9ee $i text-comments.xsl part=back > ../_includes/$DIRNAME/comments.html
+        saxon $i text-comments.xsl part=front > ../_includes/$DIRNAME/text.html
+        saxon $i text-comments.xsl part=back > ../_includes/$DIRNAME/comments.html
     done
 
 done
