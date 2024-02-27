@@ -35,6 +35,7 @@ for b in ${books[@]}; do
         
         saxon $i app.xsl > ../_includes/$DIRNAME/app.html
         saxon $i app.xsl output=full elem=span >> ../_includes/$DIRNAME_BOOK/$FILENAME_BOOK
+        echo "" >> ../_includes/$DIRNAME_BOOK/$FILENAME_BOOK
         
         saxon $i text-comments.xsl part=front > ../_includes/$DIRNAME/text.html
         saxon $i text-comments.xsl part=back > ../_includes/$DIRNAME/comments.html
