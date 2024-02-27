@@ -26,8 +26,11 @@
         <workDesc>
             <work>
                 <titleStmt>
-                    <title />
-                    <respStmt />
+                    <title>Il quarto libro de madrigali a sei voci - 1. Se bramate ch'io mora</title>
+                    <respStmt>
+                        <resp>Composed by:</resp>
+                        <persName>Luca Marenzio</persName>
+                    </respStmt>
                 </titleStmt>
             </work>
         </workDesc>
@@ -37,28 +40,38 @@
             <mdiv xml:id="mdiv-0000000807252749">
                 <score xml:id="score-0000000515588248">
                     <scoreDef xml:id="scoredef-000000037382094" meter.sym="common">
+                        <pgHead xml:id="pghead-0000002051287314">
+                            <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000797887960" fontsize="x-large">1. Se bramate ch'io mora</rend>
+                            </rend>
+                        </pgHead>
+                        <pgFoot>
+                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2023 – The Marenzio Online Digital Edition</rend>
+                            <rend fontsize="smaller" halign="right" valign="bottom">Il quarto libro de madrigali a sei voci<lb/>Se bramate ch'io mora</rend>
+                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        </pgFoot>
                         <staffGrp xml:id="m-000000187434054" symbol="bracket" n="1">
-                            <staffDef xml:id="sd1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="1" lines="5">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000002122916608">Canto</label>
                                 <labelAbbr xml:id="labelAbbr-0000002000795386">C</labelAbbr>
                             </staffDef>
-                            <staffDef xml:id="sd2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="2" lines="5">
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000980838163">Quinto</label>
                                 <labelAbbr xml:id="labelAbbr-0000000858127823">Q</labelAbbr>
                             </staffDef>
-                            <staffDef xml:id="sd3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" n="3" lines="5">
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000392216745">Alto</label>
                                 <labelAbbr xml:id="labelAbbr-0000001688721935">A</labelAbbr>
                             </staffDef>
-                            <staffDef xml:id="sd4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="4" lines="5">
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001372630416">Sesto</label>
                                 <labelAbbr xml:id="labelAbbr-0000000083428494">S</labelAbbr>
                             </staffDef>
-                            <staffDef xml:id="sd5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" n="5" lines="5">
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001812453841">Tenore</label>
                                 <labelAbbr xml:id="labelAbbr-0000001553618893">T</labelAbbr>
                             </staffDef>
-                            <staffDef xml:id="sd6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" n="6" lines="5">
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000150604683">Basso</label>
                                 <labelAbbr xml:id="labelAbbr-0000001191293036">B</labelAbbr>
                             </staffDef>
@@ -66,7 +79,6 @@
                     </scoreDef>
                     <section xml:id="section-0000001154908745">
                         <measure xml:id="measure-000000167526686" n="1">
-                            <anchoredText xml:id="anchtxt-000000145795777">1. Se bramate ch’io mora</anchoredText>
                             <staff xml:id="staff-000000166736070" n="1">
                                 <layer xml:id="layer-000000013421720" n="1">
                                     <rest xml:id="p1r0v1b1s1" dur="2" />
@@ -117,7 +129,14 @@
                                     <mRest xml:id="mrest-000000004181645" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001837069058" label="app" plist="measure-000000167526686" source="AnGa-1593 Se_heir-1603 AnGa-1605">cut C instead of C</annot>
+                            <annot xml:id="annot-0000001018596030" label="all voices;1" type="app">
+                                <p>mensuration sign C-cut instead of C</p>
+                                <list corresp="#measure-000000167526686">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000156131119" n="2">
                             <staff xml:id="staff-000000037177806" n="1">
@@ -931,7 +950,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000326452191" label="app" plist="p1cfd5n896v1b12s1" source="Vi-1587">f4 originally g4, then corrected in all copies. In US-BEm there is no correction to f4, but the body of the note is erased.</annot>
+                            <annot xml:id="annot-0000000461779096" label="C;12" type="app">
+                                <p>f4 originally g4, then corrected in all copies. In US-BEm there is no correction to f4, but the body of the note is erased.</p>
+                                <list corresp="#p1cfd5n896v1b12s1">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000152243041" n="13">
                             <staff xml:id="staff-000000128216462" n="1">
@@ -4464,6 +4488,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1610<rend rend="sup">3</rend> (devotional contrafactum <rend fontstyle="italic">Sic dilecta o Christe</rend>)</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
