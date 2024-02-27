@@ -26,7 +26,7 @@
         <workDesc>
             <work>
                 <titleStmt>
-                    <title>Il quarto libro de madrigali a sei voci - 1. Se bramate ch'io mora</title>
+                    <title>Il quarto libro de madrigali a sei voci - 1. Se bramate ch’io mora</title>
                     <respStmt>
                         <resp>Composed by:</resp>
                         <persName>Luca Marenzio</persName>
@@ -36,19 +36,63 @@
         </workDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">Se bramate ch’io mora</rend>
+                        <lb />Madrigal: xAAbbCC
+                    </p>
+                    <table type="lyrics">
+                        <tr>
+                            <td>Se bramate ch’io mora </td>
+                            <td>If you desire my death</td>
+                        </tr>
+                        <tr>
+                            <td>Gli è van, credete a me, vostro desire,</td>
+                            <td>believe me, your longing is in vain, </td>
+                        </tr>
+                        <tr>
+                            <td>Ché chi vita non ha non può morire.</td>
+                            <td>for only one who is living can die.</td>
+                        </tr>
+                        <tr>
+                            <td>Co’ bei vostri occhi, voi</td>
+                            <td>With your fair eyes</td>
+                        </tr>
+                        <tr>
+                            <td>Datemi vita, e poi</td>
+                            <td>give me life, and then</td>
+                        </tr>
+                        <tr>
+                            <td>Avrà ciascun di noi quel che desia: </td>
+                            <td>each of us will have their desires granted:</td>
+                        </tr>
+                        <tr>
+                            <td>Voi la mia morte e io la vita mia.</td>
+                            <td>for you my death, and for me my life. </td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000000807252749">
                 <score xml:id="score-0000000515588248">
-                    <scoreDef xml:id="scoredef-000000037382094" meter.sym="common">
+                    <scoreDef xml:id="scoredef-000000037382094" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
                         <pgHead xml:id="pghead-0000002051287314">
                             <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
-                                <rend xml:id="rend-0000000797887960" fontsize="x-large">1. Se bramate ch'io mora</rend>
+                                <rend xml:id="rend-0000000797887960" fontsize="x-large">1. Se bramate ch’io mora</rend>
                             </rend>
                         </pgHead>
-                        <pgFoot>
-                            <rend fontsize="smaller" halign="left" valign="bottom">MODE | http://www.marenzio.org<lb/>© 2023 – The Marenzio Online Digital Edition</rend>
-                            <rend fontsize="smaller" halign="right" valign="bottom">Il quarto libro de madrigali a sei voci<lb/>Se bramate ch'io mora</rend>
-                            <rend halign="center" valign="bottom"><num label="page">#</num></rend>
+                        <pgFoot xml:id="pgfoot-0000001617619361">
+                            <rend xml:id="rend-0000001686278619" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000001604064740" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000000814477663" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001687027167" />Se bramate ch’io mora</rend>
+                            <rend xml:id="rend-0000002007199627" halign="center" valign="bottom">
+                                <num xml:id="num-0000001210260674" label="page">#</num>
+                            </rend>
                         </pgFoot>
                         <staffGrp xml:id="m-000000187434054" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
@@ -1878,7 +1922,7 @@
                                         <verse xml:id="verse-000000012321058" n="1">
                                             <syl xml:id="syl-000000007348327" con="d" wordpos="i">vo</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000000968389462" accid="n" />
+                                        <accid xml:id="accid-0000000968389462" accid="n" func="edit" />
                                     </note>
                                     <note xml:id="p1ccd5n512v1b25s1" dur="4" oct="5" pname="c">
                                         <verse xml:id="verse-000000094078547" n="1">
@@ -3804,7 +3848,7 @@
                                         <verse xml:id="verse-000000144202773" n="1">
                                             <syl xml:id="syl-000000193152969" wordpos="t">mia</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000001392035768" accid="n" />
+                                        <accid xml:id="accid-0000001392035768" accid="n" func="edit" />
                                     </note>
                                     <note xml:id="p1ccd5n512v1b46s1" dur="2" oct="5" pname="c" tie="i">
                                         <verse xml:id="verse-000000115642923" n="1">
@@ -4379,6 +4423,9 @@
                                     <note xml:id="p1cdd3n0v1b54s6" dur="1" oct="3" pname="d" tie="m" />
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000001457063646" startid="p1cad4n512v1b53s1" endid="p1cgd4n512v1b54s1" func="ligature" lform="solid" />
+                            <bracketSpan xml:id="bspan-0000001283924615" startid="p1cgd4n512v1b54s1" endid="p1ced4n384v1b55s1" func="ligature" />
+                            <bracketSpan xml:id="bspan-0000001961636184" startid="p1cbd3n0v1b54s5" endid="p1cad3n0v1b55s5" func="ligature" lform="solid" />
                         </measure>
                         <measure xml:id="measure-000000127593050" n="55">
                             <staff xml:id="staff-000000014406179" n="1">
@@ -4488,7 +4535,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <annot type="app-sources-used">
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
                             <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1610<rend rend="sup">3</rend> (devotional contrafactum <rend fontstyle="italic">Sic dilecta o Christe</rend>)</p>
                         </annot>
