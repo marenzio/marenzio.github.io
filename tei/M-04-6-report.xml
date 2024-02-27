@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author>Laurent Pugin</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2024-02-27</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>unknown</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application xml:id="docxtotei" ident="TEI_fromDOCX" version="7.56.0">
+          <label>DOCX to TEI</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
+          <date>2024-02-27T09:53:46Z</date>
+          <name>Laurent Pugin</name>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-align: justify;">According to the general criteria of this edition, the transcriptions retain the original note values. As
+                with most of secular music of the time, Marenzio&#x2019;s madrigals of the Book IV <hi rend="italic">a 6</hi> are in <hi style="font-family:Musica Wolfgang">u</hi>,
+                implying a semibreve tactus. Thus, the pieces are barred at the semibreve, each modern measure containing one tactus.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> For a survey of the use of mensuration signs in Marenzio&#x2019;s madrigals and its meaning see
+                        Ruth DeFord, &#x201C;<hi style="font-family:Musica Wolfgang" xml:space="preserve">u </hi>and&#xA0;
+                        <hi style="font-family:Musica Wolfgang" xml:space="preserve">p </hi>in the Madrigals of Marenzio,&#x201D; in<hi rend="italic">&#x201C;Compositor
+                            moderno e vago&#x201D;: Perspectives on Luca Marenzio&#x2019;s Secular and Devotional Music</hi>, ed. Mauro Calcagno (Turnaut: Brepols, 2014),
+                        43&#x2013;64.</p></note> The only exception is n. 6, <hi rend="italic">Crudel, perch&#xE9; mi fuggi</hi>, which bears the mensuration sign <hi style="font-family:Musica Wolfgang">p</hi>. The reason for this is not entirely clear: the <hi style="font-family:Musica Wolfgang">p</hi> could be due to the seriousness of the text, or to the pattern of breves and dotted semibreves followed by minims in the second
+                part of the piece. Still, the number of syllabic minims and semiminims does strongly suggest a semibreve tactus; thus the piece has been
+                barred at the semibreve as well.&#xA0;&#xA0;&#xA0;&#xA0;</p>
+      <p>The pitch nomenclature adopted in this critical commentary is as follows:</p>
+      <figure>
+        <graphic url="/images/M-04-6/notes.png"/>
+      </figure>
+      <p>
+        <hi rend="bold">Abbreviations</hi>
+      </p>
+      <p><hi rend="bold" xml:space="preserve">C </hi>= Canto</p>
+      <p><hi rend="bold" xml:space="preserve">A </hi>= Alto</p>
+      <p><hi rend="bold" xml:space="preserve">T </hi>= Tenore</p>
+      <p><hi rend="bold" xml:space="preserve">B </hi>= Basso</p>
+      <p><hi rend="bold" xml:space="preserve">Q </hi>= Quinto<hi rend="bold">&#xA0;&#xA0;</hi></p>
+      <p><hi rend="bold" xml:space="preserve">S </hi>= Sesto</p>
+      <p><hi rend="bold">L</hi> = Longa</p>
+      <p><hi rend="bold" xml:space="preserve">BR </hi>= Brevis<hi rend="bold">&#xA0;</hi></p>
+      <p><hi rend="bold" xml:space="preserve">SB </hi>= Semibrevis<hi rend="bold">&#xA0;</hi></p>
+      <p><hi rend="bold" xml:space="preserve">M </hi>= Minim&#xA0;</p>
+      <p><hi rend="bold" xml:space="preserve">SM </hi>= Semiminim</p>
+      <p><hi rend="bold" xml:space="preserve">F </hi>= Fusa</p>
+      <p><hi rend="bold">SF</hi>= Semifusa</p>
+      <div>
+        <head>Critical apparatus</head>
+        <p>The complete critical apparatus can be browsed <ref target="/digital-edition/M-04-6.xhtml?id=apparatus&amp;menuid=report">here</ref>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

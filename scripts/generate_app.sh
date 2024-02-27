@@ -11,6 +11,9 @@ shopt -s expand_aliases
 #books=('M_01_5' 'M_06_5' 'M_06_5')
 books=('M_04_6')
 
+# indentation for xmllint
+# export XMLLINT_INDENT="    "
+
 for b in ${books[@]}; do
     echo "Processing book $b";
     DIRNAME_BOOK=${b//_/-}
@@ -25,6 +28,11 @@ for b in ${books[@]}; do
         FILENAME=$f
         echo $FILENAME
         echo $DIRNAME
+
+        # cp $i tmp.mei
+        # xmllint --format tmp.mei | sed  's/\/>/ \/>/g' > $i
+        # rm tmp.mei
+        
         saxon $i app.xsl > ../_includes/$DIRNAME/app.html
         saxon $i app.xsl output=full elem=span >> ../_includes/$DIRNAME_BOOK/$FILENAME_BOOK
         
