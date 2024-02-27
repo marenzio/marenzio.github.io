@@ -26,8 +26,11 @@
         <workDesc>
             <work>
                 <titleStmt>
-                    <title />
-                    <respStmt />
+                    <title>Il quarto libro de madrigali a sei voci - 2. Di nettare amoroso ebro la mente</title>
+                    <respStmt>
+                        <resp>Composed by:</resp>
+                        <persName>Luca Marenzio</persName>
+                    </respStmt>
                 </titleStmt>
             </work>
         </workDesc>
@@ -45,18 +48,31 @@
     </meiHead>
     <music>
         <body>
-            <mdiv>
+            <mdiv label="part1">
                 <score>
-                    <scoreDef xml:id="scoredef-000000124085631" meter.sym="common">
-                        <staffGrp xml:id="m-000000201683734">
-                            <staffGrp xml:id="m-000000110340678" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
-                            </staffGrp>
+                    <scoreDef meter.sym="common">
+                        <pgHead>
+                            <rend halign="center" valign="middle">
+                                <rend fontsize="x-large">2. Di nettare amoroso ebro la mente<lb />
+                                    <rend fontsize="large" fontstyle="italic">Prima parte</rend>
+                                </rend>
+                            </rend>
+                            <rend halign="right" valign="bottom">(Torquato Tasso)</rend>
+                        </pgHead>
+                        <pgFoot>
+                            <rend halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb />Di nettare amoroso ebro la mente</rend>
+                            <rend halign="center" valign="bottom">
+                                <num label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp n="1" symbol="bracket">
+                            <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
+                            <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
+                            <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
+                            <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
+                            <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
+                            <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
@@ -12724,6 +12740,36 @@
                                 </layer>
                             </staff>
                         </measure>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv label="part2">
+                <score>
+                    <scoreDef meter.sym="common">
+                        <pgHead>
+                            <rend halign="center" valign="middle">
+                                <rend fontsize="x-large">Sonar le labra, e vi restaro i segni<lb />
+                                    <rend fontsize="large" fontstyle="italic">Seconda parte</rend>
+                                </rend>
+                            </rend>
+                        </pgHead>
+                        <pgFoot>
+                            <rend halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb />Sonar le labra, e vi restaro i segni</rend>
+                            <rend halign="center" valign="bottom">
+                                <num label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp n="1" symbol="bracket">
+                            <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
+                            <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
+                            <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
+                            <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
+                            <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
+                            <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-0000001859786378">
                         <measure xml:id="measure-000000211449117" n="74">
                             <staff xml:id="staff-000000176817237" n="1">
                                 <layer xml:id="layer-000000079441624" n="1">
