@@ -82,6 +82,13 @@
 		</sub>
 	</xsl:template>
 	
+	<xsl:template match="mei:rend[@rend='sup']">
+		<sup>
+			<xsl:value-of select="."/>
+			<xsl:apply-templates/>
+		</sup>
+	</xsl:template>
+	
 	<xsl:template match="@* | node()"><xsl:apply-templates select="@* | node()"/></xsl:template>
 	
 	<xsl:template match="mei:table">

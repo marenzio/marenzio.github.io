@@ -180,6 +180,10 @@
         <sub><xsl:value-of select="."/></sub>
     </xsl:template>
     
+    <xsl:template match="mei:rend[@rend='sup']">
+        <sup><xsl:value-of select="."/></sup>
+    </xsl:template>
+    
     <xsl:template match="mei:rend[@fontstyle='normal']">
         <span style="font-style:normal"><xsl:value-of select="."/></span>
     </xsl:template>
@@ -193,7 +197,7 @@
     </xsl:template>
     
     <xsl:template match="mei:p">
-        <p><xsl:value-of select="."/></p>
+        <p><xsl:apply-templates/></p>
     </xsl:template>
 
 </xsl:stylesheet>
