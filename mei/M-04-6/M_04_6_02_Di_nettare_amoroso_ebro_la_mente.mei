@@ -15970,6 +15970,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000000003577146" place="above" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000002078487968" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000987357349" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-000000144317459" n="90">
                             <staff xml:id="staff-000000181241312" n="1">
@@ -17046,6 +17049,9 @@
                             </staff>
                             <annot xml:id="annot-0000000800459679" label="app" plist="measure-000000128428083" source="Vi-1587">proportion sign 2/3, except in the B partbook of the F-Pn copy, where the proportion sign is 3/2</annot>
                             <annot xml:id="annot-0000001488260145" label="app" plist="measure-000000128428083" source="Vi-1587 AnGa-1593 Sco-1603">proportion sign 2/3 in Vi-1587, except in the the F-Pn copy, where the proportion sign is 3/2; proportion sign 3/2 in AnGa-1593 and Sco-1603, later erased and corrected in C</annot>
+                            <tempo xml:id="tempo-0000000989944637" place="above" staff="1" tstamp="1.000000">
+                                <rend xml:id="rend-0000000370074232" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000660492796" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-000000174672956" n="95">
                             <staff xml:id="staff-000000090589275" n="1">
