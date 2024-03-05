@@ -52,12 +52,24 @@
                 <score xml:id="score-0000001170887887">
                     <scoreDef xml:id="scoredef-0000001629772612" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
                         <pgHead xml:id="pghead-0000000220715997">
-                            <rend xml:id="rend-0000001387901973" halign="center" valign="middle">
-                                <rend xml:id="rend-0000001223049188" fontsize="x-large">2. Di nettare amoroso ebro la mente<lb xml:id="lb-0000002016470438" />
-                                    <rend xml:id="rend-0000000409626645" fontsize="large" fontstyle="italic">Prima parte</rend>
-                                </rend>
-                            </rend>
-                            <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Torquato Tasso)</rend>
+                            <app xml:id="app-0000000746597905">
+                                <lem xml:id="lem-0000000743774120">
+                                    <rend xml:id="rend-0000001387901973" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000001223049188" fontsize="x-large">2. Di nettare amoroso ebro la mente<lb xml:id="lb-0000002016470438" />
+                                            <rend xml:id="rend-0000000409626645" fontsize="large" fontstyle="italic">Prima parte</rend>
+                                        </rend>
+                                    </rend>
+                                    <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Torquato Tasso)</rend>
+                                </lem>
+                                <rdg xml:id="rdg-0000000019578080" source="English">
+                                    <rend xml:id="rend-0000001325710844" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000000181271064" fontsize="x-large">When Meliboeus’ soul<lb xml:id="lb-0000001535531579" />
+                                            <rend xml:id="rend-0000001286200078" fontsize="large" fontstyle="italic">First part</rend>
+                                        </rend>
+                                    </rend>
+                                    <rend xml:id="rend-0000001685546513" halign="right" valign="bottom">Nicholas Watson, <rend xml:id="rend-0000001602091729" fontstyle="italic">Italian Madrigals Englished</rend> (1590)</rend>
+                                </rdg>
+                            </app>
                         </pgHead>
                         <pgFoot xml:id="pgfoot-0000001490446618">
                             <rend xml:id="rend-0000001159026602" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000002076473877" />© 2024 – The Marenzio Online Digital Edition</rend>
@@ -12763,11 +12775,22 @@
                 <score xml:id="score-0000000298045906">
                     <scoreDef xml:id="scoredef-0000001986820802" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
                         <pgHead xml:id="pghead-0000000416604572">
-                            <rend xml:id="rend-0000001429748874" halign="center" valign="middle">
-                                <rend xml:id="rend-0000002085495355" fontsize="x-large">Sonar le labra, e vi restaro i segni<lb xml:id="lb-0000000307872036" />
-                                    <rend xml:id="rend-0000000604231567" fontsize="large" fontstyle="italic">Seconda parte</rend>
-                                </rend>
-                            </rend>
+                            <app xml:id="app-0000001674059381">
+                                <lem xml:id="lem-0000002013778855">
+                                    <rend xml:id="rend-0000001429748874" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000002085495355" fontsize="x-large">Sonar le labra, e vi restaro i segni<lb xml:id="lb-0000000307872036" />
+                                            <rend xml:id="rend-0000000604231567" fontsize="large" fontstyle="italic">Seconda parte</rend>
+                                        </rend>
+                                    </rend>
+                                </lem>
+                                <rdg xml:id="rdg-0000000136187276" source="English">
+                                    <rend xml:id="rend-0000001569266171" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000002031035660" fontsize="x-large">Now twinkling stars<lb xml:id="lb-0000000874964830" />
+                                            <rend xml:id="rend-0000001799953969" fontsize="large" fontstyle="italic">Second part</rend>
+                                        </rend>
+                                    </rend>
+                                </rdg>
+                            </app>
                         </pgHead>
                         <pgFoot xml:id="pgfoot-0000001370939233">
                             <rend xml:id="rend-0000000110355252" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000000442762919" />© 2024 – The Marenzio Online Digital Edition</rend>
