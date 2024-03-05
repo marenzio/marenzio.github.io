@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -48,31 +48,43 @@
     </meiHead>
     <music>
         <body>
-            <mdiv label="part1">
-                <score>
-                    <scoreDef meter.sym="common">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">2. Di nettare amoroso ebro la mente<lb />
-                                    <rend fontsize="large" fontstyle="italic">Prima parte</rend>
+            <mdiv xml:id="mdiv-0000001817268902" label="part1">
+                <score xml:id="score-0000001170887887">
+                    <scoreDef xml:id="scoredef-0000001629772612" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000000220715997">
+                            <rend xml:id="rend-0000001387901973" halign="center" valign="middle">
+                                <rend xml:id="rend-0000001223049188" fontsize="x-large">2. Di nettare amoroso ebro la mente<lb xml:id="lb-0000002016470438" />
+                                    <rend xml:id="rend-0000000409626645" fontsize="large" fontstyle="italic">Prima parte</rend>
                                 </rend>
                             </rend>
-                            <rend halign="right" valign="bottom">(Torquato Tasso)</rend>
+                            <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Torquato Tasso)</rend>
                         </pgHead>
-                        <pgFoot>
-                            <rend halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb />© 2024 – The Marenzio Online Digital Edition</rend>
-                            <rend halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb />Di nettare amoroso ebro la mente</rend>
-                            <rend halign="center" valign="bottom">
-                                <num label="page">#</num>
+                        <pgFoot xml:id="pgfoot-0000001490446618">
+                            <rend xml:id="rend-0000001159026602" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000002076473877" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000001255758377" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001096676020" />Di nettare amoroso ebro la mente</rend>
+                            <rend xml:id="rend-0000001171634702" halign="center" valign="bottom">
+                                <num xml:id="num-0000001653073210" label="page">#</num>
                             </rend>
                         </pgFoot>
-                        <staffGrp n="1" symbol="bracket">
-                            <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                            <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                            <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                            <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                            <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
-                            <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                        <staffGrp xml:id="staffgrp-0000001441961891" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000349193280">Canto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000002066658094">Quinto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001680742184">Alto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000855862894">Tenore</label>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000458880089">Sesto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001009959854">Basso</label>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
@@ -5490,7 +5502,7 @@
                                         <app xml:id="app-000000119543892">
                                             <lem xml:id="lem-000000203242756" source="Italian">
                                                 <verse xml:id="verse-000000068615408" n="1">
-                                                    <syl xml:id="syl-000000020458943" wordpos="t">fer</syl>
+                                                    <syl xml:id="syl-000000020458943" fontstyle="italic" wordpos="t">fer</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000113514535" source="English">
@@ -5504,7 +5516,7 @@
                                         <app xml:id="app-000000014321111">
                                             <lem xml:id="lem-000000176754197" source="Italian">
                                                 <verse xml:id="verse-000000106146789" n="1">
-                                                    <syl xml:id="syl-000000094417160" wordpos="t">pria</syl>
+                                                    <syl xml:id="syl-000000094417160" fontstyle="italic" wordpos="t">pria</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000093663445" source="English">
@@ -5518,7 +5530,7 @@
                                         <app xml:id="app-000000096011906">
                                             <lem xml:id="lem-000000052893466" source="Italian">
                                                 <verse xml:id="verse-000000004967578" n="1">
-                                                    <syl xml:id="syl-000000167719623" wordpos="t">di</syl>
+                                                    <syl xml:id="syl-000000167719623" fontstyle="italic" wordpos="t">di</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000137016695" source="English">
@@ -5623,7 +5635,7 @@
                                         <app xml:id="app-000000067957124">
                                             <lem xml:id="lem-000000123586316" source="Italian">
                                                 <verse xml:id="verse-000000093642249" n="1">
-                                                    <syl xml:id="syl-000000169267463" wordpos="t">fer</syl>
+                                                    <syl xml:id="syl-000000169267463" fontstyle="italic" wordpos="t">fer</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000069032995" source="English">
@@ -5637,7 +5649,7 @@
                                         <app xml:id="app-000000166880855">
                                             <lem xml:id="lem-000000152897087" source="Italian">
                                                 <verse xml:id="verse-000000114663009" n="1">
-                                                    <syl xml:id="syl-000000204125894" wordpos="t">pria</syl>
+                                                    <syl xml:id="syl-000000204125894" fontstyle="italic" wordpos="t">pria</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000062412570" source="English">
@@ -5651,7 +5663,7 @@
                                         <app xml:id="app-000000137054156">
                                             <lem xml:id="lem-000000078250204" source="Italian">
                                                 <verse xml:id="verse-000000027187546" n="1">
-                                                    <syl xml:id="syl-000000171325670" wordpos="t">di</syl>
+                                                    <syl xml:id="syl-000000171325670" fontstyle="italic" wordpos="t">di</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000032193205" source="English">
@@ -5670,7 +5682,7 @@
                                         <app xml:id="app-000000120069117">
                                             <lem xml:id="lem-000000011268013" source="Italian">
                                                 <verse xml:id="verse-000000007921976" n="1">
-                                                    <syl xml:id="syl-000000000676282" wordpos="t">fer</syl>
+                                                    <syl xml:id="syl-000000000676282" fontstyle="italic" wordpos="t">fer</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000188198635" source="English">
@@ -5684,7 +5696,7 @@
                                         <app xml:id="app-000000025809905">
                                             <lem xml:id="lem-000000210125005" source="Italian">
                                                 <verse xml:id="verse-000000122030857" n="1">
-                                                    <syl xml:id="syl-000000125734075" wordpos="t">pria</syl>
+                                                    <syl xml:id="syl-000000125734075" fontstyle="italic" wordpos="t">pria</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000034113308" source="English">
@@ -5698,7 +5710,7 @@
                                         <app xml:id="app-000000178988894">
                                             <lem xml:id="lem-000000071257143" source="Italian">
                                                 <verse xml:id="verse-000000155353455" n="1">
-                                                    <syl xml:id="syl-000000114915288" wordpos="t">di</syl>
+                                                    <syl xml:id="syl-000000114915288" fontstyle="italic" wordpos="t">di</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000181935960" source="English">
@@ -5716,7 +5728,7 @@
                                         <app xml:id="app-000000210464802">
                                             <lem xml:id="lem-000000161613921" source="Italian">
                                                 <verse xml:id="verse-000000047837906" n="1">
-                                                    <syl xml:id="syl-000000208565473" wordpos="t">lor</syl>
+                                                    <syl xml:id="syl-000000208565473" fontstyle="italic" wordpos="t">lor</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000107853521" source="English">
@@ -5730,7 +5742,7 @@
                                         <app xml:id="app-000000003187737">
                                             <lem xml:id="lem-000000103954629" source="Italian">
                                                 <verse xml:id="verse-000000116110949" n="1">
-                                                    <syl xml:id="syl-000000058339898" con="d" wordpos="i">bel</syl>
+                                                    <syl xml:id="syl-000000058339898" fontstyle="italic" con="d" wordpos="i">bel</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000187509491" source="English">
@@ -5744,7 +5756,7 @@
                                         <app xml:id="app-000000039768306">
                                             <lem xml:id="lem-000000089018079" source="Italian">
                                                 <verse xml:id="verse-000000177981865" n="1">
-                                                    <syl xml:id="syl-000000111233148" wordpos="t">tà</syl>
+                                                    <syl xml:id="syl-000000111233148" fontstyle="italic" wordpos="t">tà</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000189758698" source="English">
@@ -5758,7 +5770,7 @@
                                         <app xml:id="app-000000046479849">
                                             <lem xml:id="lem-000000147021409" source="Italian">
                                                 <verse xml:id="verse-000000103504218" n="1">
-                                                    <syl xml:id="syl-000000133641217" con="d" wordpos="i">leg</syl>
+                                                    <syl xml:id="syl-000000133641217" fontstyle="italic" con="d" wordpos="i">leg</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000094150270" source="English">
@@ -5772,7 +5784,7 @@
                                         <app xml:id="app-000000117643503">
                                             <lem xml:id="lem-000000046164489" source="Italian">
                                                 <verse xml:id="verse-000000089240877" n="1">
-                                                    <syl xml:id="syl-000000068855800" con="d" wordpos="i">gia</syl>
+                                                    <syl xml:id="syl-000000068855800" fontstyle="italic" con="d" wordpos="i">gia</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000000733365" source="English">
@@ -5786,7 +5798,7 @@
                                         <app xml:id="app-000000085015489">
                                             <lem xml:id="lem-000000134468400" source="Italian">
                                                 <verse xml:id="verse-000000211735703" n="1">
-                                                    <syl xml:id="syl-000000046813919" wordpos="t">dra</syl>
+                                                    <syl xml:id="syl-000000046813919" fontstyle="italic" wordpos="t">dra</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000213360423" source="English">
@@ -5933,7 +5945,7 @@
                                         <app xml:id="app-000000088806790">
                                             <lem xml:id="lem-000000074596629" source="Italian">
                                                 <verse xml:id="verse-000000170002875" n="1">
-                                                    <syl xml:id="syl-000000011327791" wordpos="t">lor</syl>
+                                                    <syl xml:id="syl-000000011327791" fontstyle="italic" wordpos="t">lor</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000044605610" source="English">
@@ -5947,7 +5959,7 @@
                                         <app xml:id="app-000000214706231">
                                             <lem xml:id="lem-000000150867489" source="Italian">
                                                 <verse xml:id="verse-000000082585691" n="1">
-                                                    <syl xml:id="syl-000000099032623" con="d" wordpos="i">bel</syl>
+                                                    <syl xml:id="syl-000000099032623" fontstyle="italic" con="d" wordpos="i">bel</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000095948971" source="English">
@@ -5961,7 +5973,7 @@
                                         <app xml:id="app-000000068893468">
                                             <lem xml:id="lem-000000184085939" source="Italian">
                                                 <verse xml:id="verse-000000179177558" n="1">
-                                                    <syl xml:id="syl-000000020904160" wordpos="t">tà</syl>
+                                                    <syl xml:id="syl-000000020904160" fontstyle="italic" wordpos="t">tà</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000052698305" source="English">
@@ -5975,7 +5987,7 @@
                                         <app xml:id="app-000000078156112">
                                             <lem xml:id="lem-000000168779240" source="Italian">
                                                 <verse xml:id="verse-000000149015715" n="1">
-                                                    <syl xml:id="syl-000000111704638" con="d" wordpos="i">leg</syl>
+                                                    <syl xml:id="syl-000000111704638" fontstyle="italic" con="d" wordpos="i">leg</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000061540719" source="English">
@@ -5990,7 +6002,7 @@
                                         <app xml:id="app-000000086741518">
                                             <lem xml:id="lem-000000152801845" source="Italian">
                                                 <verse xml:id="verse-000000138453023" n="1">
-                                                    <syl xml:id="syl-000000181432759" con="d" wordpos="i">gia</syl>
+                                                    <syl xml:id="syl-000000181432759" fontstyle="italic" con="d" wordpos="i">gia</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000179678958" source="English">
@@ -6004,7 +6016,7 @@
                                         <app xml:id="app-000000072754459">
                                             <lem xml:id="lem-000000007012214" source="Italian">
                                                 <verse xml:id="verse-000000118183487" n="1">
-                                                    <syl xml:id="syl-000000102242579" wordpos="t">dra</syl>
+                                                    <syl xml:id="syl-000000102242579" fontstyle="italic" wordpos="t">dra</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000172188607" source="English">
@@ -6022,7 +6034,7 @@
                                         <app xml:id="app-000000024960193">
                                             <lem xml:id="lem-000000102422618" source="Italian">
                                                 <verse xml:id="verse-000000064432537" n="1">
-                                                    <syl xml:id="syl-000000156406306" wordpos="t">lor</syl>
+                                                    <syl xml:id="syl-000000156406306" fontstyle="italic" wordpos="t">lor</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000208801016" source="English">
@@ -6036,7 +6048,7 @@
                                         <app xml:id="app-000000115663475">
                                             <lem xml:id="lem-000000053837144" source="Italian">
                                                 <verse xml:id="verse-000000018580297" n="1">
-                                                    <syl xml:id="syl-000000034934447" con="d" wordpos="i">bel</syl>
+                                                    <syl xml:id="syl-000000034934447" fontstyle="italic" con="d" wordpos="i">bel</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000106032172" source="English">
@@ -6050,7 +6062,7 @@
                                         <app xml:id="app-000000100792926">
                                             <lem xml:id="lem-000000091621654" source="Italian">
                                                 <verse xml:id="verse-000000059798842" n="1">
-                                                    <syl xml:id="syl-000000016797420" wordpos="t">tà</syl>
+                                                    <syl xml:id="syl-000000016797420" fontstyle="italic" wordpos="t">tà</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000139375643" source="English">
@@ -6064,7 +6076,7 @@
                                         <app xml:id="app-000000011284879">
                                             <lem xml:id="lem-000000042167087" source="Italian">
                                                 <verse xml:id="verse-000000168667690" n="1">
-                                                    <syl xml:id="syl-000000119463554" con="d" wordpos="i">leg</syl>
+                                                    <syl xml:id="syl-000000119463554" fontstyle="italic" con="d" wordpos="i">leg</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000032641144" source="English">
@@ -6078,7 +6090,7 @@
                                         <app xml:id="app-000000132393848">
                                             <lem xml:id="lem-000000135603402" source="Italian">
                                                 <verse xml:id="verse-000000161631880" n="1">
-                                                    <syl xml:id="syl-000000194945431" con="d" wordpos="i">gia</syl>
+                                                    <syl xml:id="syl-000000194945431" fontstyle="italic" con="d" wordpos="i">gia</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000176732898" source="English">
@@ -6092,7 +6104,7 @@
                                         <app xml:id="app-000000165189562">
                                             <lem xml:id="lem-000000074116415" source="Italian">
                                                 <verse xml:id="verse-000000033307496" n="1">
-                                                    <syl xml:id="syl-000000164851905" wordpos="t">dra</syl>
+                                                    <syl xml:id="syl-000000164851905" fontstyle="italic" wordpos="t">dra</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000134075006" source="English">
@@ -6110,7 +6122,7 @@
                                         <app xml:id="app-000000044041767">
                                             <lem xml:id="lem-000000187124977" source="Italian">
                                                 <verse xml:id="verse-000000190840532" n="1">
-                                                    <syl xml:id="syl-000000189996210" con="d" wordpos="i">mo</syl>
+                                                    <syl xml:id="syl-000000189996210" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000019699172" source="English">
@@ -6131,7 +6143,7 @@
                                         <app xml:id="app-000000156760524">
                                             <lem xml:id="lem-000000141190409" source="Italian">
                                                 <verse xml:id="verse-000000195562389" n="1">
-                                                    <syl xml:id="syl-000000093365315" wordpos="t">fer</syl>
+                                                    <syl xml:id="syl-000000093365315" fontstyle="italic" wordpos="t">fer</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000017775808" source="English">
@@ -6145,7 +6157,7 @@
                                         <app xml:id="app-000000043041523">
                                             <lem xml:id="lem-000000126388112" source="Italian">
                                                 <verse xml:id="verse-000000063608920" n="1">
-                                                    <syl xml:id="syl-000000057767366" wordpos="t">pria</syl>
+                                                    <syl xml:id="syl-000000057767366" fontstyle="italic" wordpos="t">pria</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000128936581" source="English">
@@ -6159,7 +6171,7 @@
                                         <app xml:id="app-000000011383805">
                                             <lem xml:id="lem-000000201576136" source="Italian">
                                                 <verse xml:id="verse-000000147920292" n="1">
-                                                    <syl xml:id="syl-000000169293003" wordpos="t">di</syl>
+                                                    <syl xml:id="syl-000000169293003" fontstyle="italic" wordpos="t">di</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000019919606" source="English">
@@ -6249,7 +6261,7 @@
                                         <app xml:id="app-000000129718797">
                                             <lem xml:id="lem-000000058432828" source="Italian">
                                                 <verse xml:id="verse-000000169654412" n="1">
-                                                    <syl xml:id="syl-000000167676127" con="d" wordpos="i">mo</syl>
+                                                    <syl xml:id="syl-000000167676127" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000036281868" source="English">
@@ -6264,7 +6276,7 @@
                                         <app xml:id="app-000000118756496">
                                             <lem xml:id="lem-000000069130111" source="Italian">
                                                 <verse xml:id="verse-000000142271457" n="1">
-                                                    <syl xml:id="syl-000000148096994" wordpos="t">stra,</syl>
+                                                    <syl xml:id="syl-000000148096994" fontstyle="italic" wordpos="t">stra,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000081132634" source="English">
@@ -6282,7 +6294,7 @@
                                         <app xml:id="app-000000158815519">
                                             <lem xml:id="lem-000000105004657" source="Italian">
                                                 <verse xml:id="verse-000000174872365" n="1">
-                                                    <syl xml:id="syl-000000033722632" con="d" wordpos="i">mo</syl>
+                                                    <syl xml:id="syl-000000033722632" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000011215817" source="English">
@@ -6296,7 +6308,7 @@
                                         <app xml:id="app-000000169923838">
                                             <lem xml:id="lem-000000186199888" source="Italian">
                                                 <verse xml:id="verse-000000107274359" n="1">
-                                                    <syl xml:id="syl-000000147630056" wordpos="t">stra,</syl>
+                                                    <syl xml:id="syl-000000147630056" fontstyle="italic" wordpos="t">stra,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000148362333" source="English">
@@ -6317,7 +6329,7 @@
                                         <app xml:id="app-000000082483325">
                                             <lem xml:id="lem-000000096559220" source="Italian">
                                                 <verse xml:id="verse-000000192395791" n="1">
-                                                    <syl xml:id="syl-000000129938771" wordpos="t">stra,</syl>
+                                                    <syl xml:id="syl-000000129938771" fontstyle="italic" wordpos="t">stra,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000017430267" source="English">
@@ -6351,7 +6363,7 @@
                                         <app xml:id="app-000000126725038">
                                             <lem xml:id="lem-000000208191020" source="Italian">
                                                 <verse xml:id="verse-000000150605117" n="1">
-                                                    <syl xml:id="syl-000000195986829" wordpos="t">lor</syl>
+                                                    <syl xml:id="syl-000000195986829" fontstyle="italic" wordpos="t">lor</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000171372125" source="English">
@@ -6365,7 +6377,7 @@
                                         <app xml:id="app-000000046237518">
                                             <lem xml:id="lem-000000154391625" source="Italian">
                                                 <verse xml:id="verse-000000180237017" n="1">
-                                                    <syl xml:id="syl-000000003117302" con="d" wordpos="i">bel</syl>
+                                                    <syl xml:id="syl-000000003117302" fontstyle="italic" con="d" wordpos="i">bel</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000055560789" source="English">
@@ -6379,7 +6391,7 @@
                                         <app xml:id="app-000000084292688">
                                             <lem xml:id="lem-000000012246970" source="Italian">
                                                 <verse xml:id="verse-000000061070736" n="1">
-                                                    <syl xml:id="syl-000000133431773" wordpos="t">tà</syl>
+                                                    <syl xml:id="syl-000000133431773" fontstyle="italic" wordpos="t">tà</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000105904853" source="English">
@@ -6393,7 +6405,7 @@
                                         <app xml:id="app-000000108417737">
                                             <lem xml:id="lem-000000037038002" source="Italian">
                                                 <verse xml:id="verse-000000116414967" n="1">
-                                                    <syl xml:id="syl-000000014006310" con="d" wordpos="i">leg</syl>
+                                                    <syl xml:id="syl-000000014006310" fontstyle="italic" con="d" wordpos="i">leg</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000156943755" source="English">
@@ -6408,7 +6420,7 @@
                                         <app xml:id="app-000000214283443">
                                             <lem xml:id="lem-000000131752162" source="Italian">
                                                 <verse xml:id="verse-000000119988604" n="1">
-                                                    <syl xml:id="syl-000000161331298" con="d" wordpos="i">gia</syl>
+                                                    <syl xml:id="syl-000000161331298" fontstyle="italic" con="d" wordpos="i">gia</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000088210077" source="English">
@@ -6422,7 +6434,7 @@
                                         <app xml:id="app-000000138805976">
                                             <lem xml:id="lem-000000100557938" source="Italian">
                                                 <verse xml:id="verse-000000135194647" n="1">
-                                                    <syl xml:id="syl-000000178747048" wordpos="t">dra</syl>
+                                                    <syl xml:id="syl-000000178747048" fontstyle="italic" wordpos="t">dra</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000007633777" source="English">
@@ -6725,7 +6737,7 @@
                                         <app xml:id="app-000000077166927">
                                             <lem xml:id="lem-000000079169346" source="Italian">
                                                 <verse xml:id="verse-000000151779328" n="1">
-                                                    <syl xml:id="syl-000000174098192" con="d" wordpos="i">mo</syl>
+                                                    <syl xml:id="syl-000000174098192" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000018337263" source="English">
@@ -6740,7 +6752,7 @@
                                         <app xml:id="app-000000030485980">
                                             <lem xml:id="lem-000000203027815" source="Italian">
                                                 <verse xml:id="verse-000000085421630" n="1">
-                                                    <syl xml:id="syl-000000088517390" wordpos="t">stra,</syl>
+                                                    <syl xml:id="syl-000000088517390" fontstyle="italic" wordpos="t">stra,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000151726709" source="English">
@@ -7367,7 +7379,7 @@
                                         <app xml:id="app-000000165022767">
                                             <lem xml:id="lem-000000062529994" source="Italian">
                                                 <verse xml:id="verse-000000004160143" n="1">
-                                                    <syl xml:id="syl-000000126314957" wordpos="t">fer</syl>
+                                                    <syl xml:id="syl-000000126314957" fontstyle="italic" wordpos="t">fer</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000177874126" source="English">
@@ -7448,7 +7460,7 @@
                                         <app xml:id="app-000000196510193">
                                             <lem xml:id="lem-000000131713029" source="Italian">
                                                 <verse xml:id="verse-000000008549472" n="1">
-                                                    <syl xml:id="syl-000000024331684" wordpos="t">fer</syl>
+                                                    <syl xml:id="syl-000000024331684" fontstyle="italic" wordpos="t">fer</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000074746840" source="English">
@@ -7462,7 +7474,7 @@
                                         <app xml:id="app-000000206959791">
                                             <lem xml:id="lem-000000093957736" source="Italian">
                                                 <verse xml:id="verse-000000159088038" n="1">
-                                                    <syl xml:id="syl-000000175515831" wordpos="t">pria</syl>
+                                                    <syl xml:id="syl-000000175515831" fontstyle="italic" wordpos="t">pria</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000102955077" source="English">
@@ -7476,7 +7488,7 @@
                                         <app xml:id="app-000000138418196">
                                             <lem xml:id="lem-000000025597141" source="Italian">
                                                 <verse xml:id="verse-000000184525155" n="1">
-                                                    <syl xml:id="syl-000000133160578" wordpos="t">di</syl>
+                                                    <syl xml:id="syl-000000133160578" fontstyle="italic" wordpos="t">di</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000070187738" source="English">
@@ -7710,7 +7722,7 @@
                                         <app xml:id="app-000000072887348">
                                             <lem xml:id="lem-000000092987267" source="Italian">
                                                 <verse xml:id="verse-000000174091604" n="1">
-                                                    <syl xml:id="syl-000000011121071" wordpos="t">pria</syl>
+                                                    <syl xml:id="syl-000000011121071" fontstyle="italic" wordpos="t">pria</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000113161673" source="English">
@@ -7724,7 +7736,7 @@
                                         <app xml:id="app-000000096727050">
                                             <lem xml:id="lem-000000046418655" source="Italian">
                                                 <verse xml:id="verse-000000015957237" n="1">
-                                                    <syl xml:id="syl-000000187324794" wordpos="t">di</syl>
+                                                    <syl xml:id="syl-000000187324794" fontstyle="italic" wordpos="t">di</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000192277356" source="English">
@@ -7738,7 +7750,7 @@
                                         <app xml:id="app-000000072130286">
                                             <lem xml:id="lem-000000039204793" source="Italian">
                                                 <verse xml:id="verse-000000172417247" n="1">
-                                                    <syl xml:id="syl-000000002252193" wordpos="t">lor</syl>
+                                                    <syl xml:id="syl-000000002252193" fontstyle="italic" wordpos="t">lor</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000066978093" source="English">
@@ -7752,7 +7764,7 @@
                                         <app xml:id="app-000000204638061">
                                             <lem xml:id="lem-000000156844002" source="Italian">
                                                 <verse xml:id="verse-000000110510402" n="1">
-                                                    <syl xml:id="syl-000000204468488" con="d" wordpos="i">bel</syl>
+                                                    <syl xml:id="syl-000000204468488" fontstyle="italic" con="d" wordpos="i">bel</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000040966602" source="English">
@@ -7834,7 +7846,7 @@
                                         <app xml:id="app-000000163575107">
                                             <lem xml:id="lem-000000213015227" source="Italian">
                                                 <verse xml:id="verse-000000151867079" n="1">
-                                                    <syl xml:id="syl-000000145690697" wordpos="t">lor</syl>
+                                                    <syl xml:id="syl-000000145690697" fontstyle="italic" wordpos="t">lor</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000076945720" source="English">
@@ -7848,7 +7860,7 @@
                                         <app xml:id="app-000000012078942">
                                             <lem xml:id="lem-000000073588678" source="Italian">
                                                 <verse xml:id="verse-000000078203249" n="1">
-                                                    <syl xml:id="syl-000000102013979" con="d" wordpos="i">bel</syl>
+                                                    <syl xml:id="syl-000000102013979" fontstyle="italic" con="d" wordpos="i">bel</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000069092284" source="English">
@@ -7862,7 +7874,7 @@
                                         <app xml:id="app-000000089614297">
                                             <lem xml:id="lem-000000117211399" source="Italian">
                                                 <verse xml:id="verse-000000123144035" n="1">
-                                                    <syl xml:id="syl-000000151810673" wordpos="t">tà</syl>
+                                                    <syl xml:id="syl-000000151810673" fontstyle="italic" wordpos="t">tà</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000085238642" source="English">
@@ -7876,7 +7888,7 @@
                                         <app xml:id="app-000000019515180">
                                             <lem xml:id="lem-000000070882405" source="Italian">
                                                 <verse xml:id="verse-000000148719782" n="1">
-                                                    <syl xml:id="syl-000000077161011" con="d" wordpos="i">leg</syl>
+                                                    <syl xml:id="syl-000000077161011" fontstyle="italic" con="d" wordpos="i">leg</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000111405205" source="English">
@@ -7891,7 +7903,7 @@
                                         <app xml:id="app-000000211045383">
                                             <lem xml:id="lem-000000041027457" source="Italian">
                                                 <verse xml:id="verse-000000171351224" n="1">
-                                                    <syl xml:id="syl-000000124461225" con="d" wordpos="i">gia</syl>
+                                                    <syl xml:id="syl-000000124461225" fontstyle="italic" con="d" wordpos="i">gia</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000206225834" source="English">
@@ -7905,7 +7917,7 @@
                                         <app xml:id="app-000000213747590">
                                             <lem xml:id="lem-000000145105470" source="Italian">
                                                 <verse xml:id="verse-000000155470307" n="1">
-                                                    <syl xml:id="syl-000000146103166" wordpos="t">dra</syl>
+                                                    <syl xml:id="syl-000000146103166" fontstyle="italic" wordpos="t">dra</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000105213160" source="English">
@@ -8148,7 +8160,7 @@
                                         <app xml:id="app-000000191689026">
                                             <lem xml:id="lem-000000062499475" source="Italian">
                                                 <verse xml:id="verse-000000125202882" n="1">
-                                                    <syl xml:id="syl-000000180363804" wordpos="t">tà</syl>
+                                                    <syl xml:id="syl-000000180363804" fontstyle="italic" wordpos="t">tà</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000094431300" source="English">
@@ -8162,7 +8174,7 @@
                                         <app xml:id="app-000000116445647">
                                             <lem xml:id="lem-000000100153382" source="Italian">
                                                 <verse xml:id="verse-000000095515327" n="1">
-                                                    <syl xml:id="syl-000000082089882" con="d" wordpos="i">leg</syl>
+                                                    <syl xml:id="syl-000000082089882" fontstyle="italic" con="d" wordpos="i">leg</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000080222201" source="English">
@@ -8177,7 +8189,7 @@
                                         <app xml:id="app-000000104298620">
                                             <lem xml:id="lem-000000170760381" source="Italian">
                                                 <verse xml:id="verse-000000090294206" n="1">
-                                                    <syl xml:id="syl-000000162780313" con="d" wordpos="i">gia</syl>
+                                                    <syl xml:id="syl-000000162780313" fontstyle="italic" con="d" wordpos="i">gia</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000072584339" source="English">
@@ -8191,7 +8203,7 @@
                                         <app xml:id="app-000000154274077">
                                             <lem xml:id="lem-000000012656751" source="Italian">
                                                 <verse xml:id="verse-000000093751188" n="1">
-                                                    <syl xml:id="syl-000000067469954" wordpos="t">dra</syl>
+                                                    <syl xml:id="syl-000000067469954" fontstyle="italic" wordpos="t">dra</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000121136365" source="English">
@@ -8206,7 +8218,7 @@
                                         <app xml:id="app-000000124395921">
                                             <lem xml:id="lem-000000146927338" source="Italian">
                                                 <verse xml:id="verse-000000175610765" n="1">
-                                                    <syl xml:id="syl-000000203364728" con="d" wordpos="i">mo</syl>
+                                                    <syl xml:id="syl-000000203364728" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000016325761" source="English">
@@ -8300,7 +8312,7 @@
                                         <app xml:id="app-000000150160075">
                                             <lem xml:id="lem-000000017613696" source="Italian">
                                                 <verse xml:id="verse-000000144784481" n="1">
-                                                    <syl xml:id="syl-000000079060154" con="d" wordpos="i">mo</syl>
+                                                    <syl xml:id="syl-000000079060154" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000110157241" source="English">
@@ -8592,7 +8604,7 @@
                                         <app xml:id="app-000000011571245">
                                             <lem xml:id="lem-000000130654745" source="Italian">
                                                 <verse xml:id="verse-000000009084858" n="1">
-                                                    <syl xml:id="syl-000000003132869" wordpos="t">stra,</syl>
+                                                    <syl xml:id="syl-000000003132869" fontstyle="italic" wordpos="t">stra,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000112281922" source="English">
@@ -9650,7 +9662,7 @@
                             </staff>
                             <staff xml:id="staff-000000171649053" n="3">
                                 <layer xml:id="layer-000000190854117" n="1">
-                                    <tuplet xml:id="tuplet-000000203574301" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000203574301" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1ccd5n0v1b55s3" dots="1" dur="2" oct="5" pname="c">
                                             <verse xml:id="verse-000000203399268" n="1">
                                                 <syl xml:id="syl-000000167027981" con="d" wordpos="i">o</syl>
@@ -9733,6 +9745,10 @@
                                     </tuplet>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000144945659" startid="p1ccd5n0v1b55s3" endid="p1cgd4n682v1b56s3" func="ligature" />
+                            <bracketSpan xml:id="bspan-0000000899579959" startid="p1ced5n0v1b55s4" endid="p1cdd5n682v1b56s4" func="ligature" />
+                            <bracketSpan xml:id="bspan-0000001637340170" startid="p1cgd4n0v1b55s5" endid="p1cdd4n682v1b56s5" func="ligature" />
+                            <bracketSpan xml:id="bspan-0000001147057498" startid="p1ccd4n0v1b55s6" endid="p1cbd3n682v1b56s6" func="ligature" />
                         </measure>
                         <measure xml:id="measure-000000200308168" n="56">
                             <staff xml:id="staff-000000034659274" n="1">
@@ -11755,7 +11771,7 @@
                                         <app xml:id="app-000000100350734">
                                             <lem xml:id="lem-000000175878348" source="Italian">
                                                 <verse xml:id="verse-000000168887931" n="1">
-                                                    <syl xml:id="syl-000000170326799" wordpos="t">si</syl>
+                                                    <syl xml:id="syl-000000170326799" fontstyle="italic" wordpos="t">si</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000190918231" source="English">
@@ -11770,7 +11786,7 @@
                                         <app xml:id="app-000000207399837">
                                             <lem xml:id="lem-000000188366458" source="Italian">
                                                 <verse xml:id="verse-000000036267677" n="1">
-                                                    <syl xml:id="syl-000000094991681" con="d" wordpos="i">fe</syl>
+                                                    <syl xml:id="syl-000000094991681" fontstyle="italic" con="d" wordpos="i">fe</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000054682324" source="English">
@@ -11782,7 +11798,7 @@
                                     </note>
                                     <note xml:id="p1ccd5n640v1b66s2" dur="8" oct="5" pname="c">
                                         <verse xml:id="verse-000000034298450" n="1">
-                                            <syl xml:id="syl-000000069443337" wordpos="t">rir</syl>
+                                            <syl xml:id="syl-000000069443337" fontstyle="italic" wordpos="t">rir</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n768v1b66s2" dur="8" oct="5" pname="d">
@@ -12626,7 +12642,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000138802664" n="73" right="end">
+                        <measure xml:id="measure-000000138802664" right="end" n="73">
                             <staff xml:id="staff-000000100193494" n="1">
                                 <layer xml:id="layer-000000110129406" n="1">
                                     <note xml:id="p1ccd5n0v1b73s1" dur="1" fermata="above" oct="5" pname="c">
@@ -12743,30 +12759,42 @@
                     </section>
                 </score>
             </mdiv>
-            <mdiv label="part2">
-                <score>
-                    <scoreDef meter.sym="common">
-                        <pgHead>
-                            <rend halign="center" valign="middle">
-                                <rend fontsize="x-large">Sonar le labra, e vi restaro i segni<lb />
-                                    <rend fontsize="large" fontstyle="italic">Seconda parte</rend>
+            <mdiv xml:id="mdiv-0000001589910064" label="part2">
+                <score xml:id="score-0000000298045906">
+                    <scoreDef xml:id="scoredef-0000001986820802" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000000416604572">
+                            <rend xml:id="rend-0000001429748874" halign="center" valign="middle">
+                                <rend xml:id="rend-0000002085495355" fontsize="x-large">Sonar le labra, e vi restaro i segni<lb xml:id="lb-0000000307872036" />
+                                    <rend xml:id="rend-0000000604231567" fontsize="large" fontstyle="italic">Seconda parte</rend>
                                 </rend>
                             </rend>
                         </pgHead>
-                        <pgFoot>
-                            <rend halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb />© 2024 – The Marenzio Online Digital Edition</rend>
-                            <rend halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb />Sonar le labra, e vi restaro i segni</rend>
-                            <rend halign="center" valign="bottom">
-                                <num label="page">#</num>
+                        <pgFoot xml:id="pgfoot-0000001370939233">
+                            <rend xml:id="rend-0000000110355252" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000000442762919" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000000388245080" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000000022939845" />Sonar le labra, e vi restaro i segni</rend>
+                            <rend xml:id="rend-0000000951547330" halign="center" valign="bottom">
+                                <num xml:id="num-0000001134492975" label="page">#</num>
                             </rend>
                         </pgFoot>
-                        <staffGrp n="1" symbol="bracket">
-                            <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                            <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                            <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                            <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                            <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
-                            <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
+                        <staffGrp xml:id="staffgrp-0000001746815758" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001876615824">Canto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000312611735">Quinto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001707761620">Alto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001153557970">Tenore</label>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001460846454">Sesto</label>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001837748758">Basso</label>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
@@ -22700,7 +22728,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000162857991" n="133" right="end">
+                        <measure xml:id="measure-000000162857991" right="end" n="133">
                             <staff xml:id="staff-000000185248344" n="1">
                                 <layer xml:id="layer-000000047136271" n="1">
                                     <note xml:id="p1cdd5n0v1b133s1" dur="1" fermata="above" oct="5" pname="d">
