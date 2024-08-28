@@ -670,7 +670,12 @@
                                     <mRest xml:id="mrest-000000169094136" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000463859088" label="app" plist="p1cfd5n256v1b5s2" source="Vi-1587 (I-Vnm copy only)">g4 instead of f4; in all other consulted copies the g4 is clearly corrected to an f4</annot>
+                            <annot xml:id="annot-0000000406175403" label="C;5" type="app">
+                                <p>dotted g4 instead of f4; in all other consulted copies, the g4 is clearly corrected to an f4</p>
+                                <list corresp="#p1cfd5n256v1b5s2">
+                                    <li>Vi-1587 (I-Vnm copy only)</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000200035357" n="6">
                             <staff xml:id="staff-000000112945515" n="1">
@@ -2467,7 +2472,12 @@
                                     <mRest xml:id="mrest-000000140794336" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000993643468" label="app" plist="p1cdd5n512v1b20s2" source="Vi-1587">d4 corrected by erasing and reprinting, except for I-Bc and GB-Obl(?) where the correction is done with a pasted cutout</annot>
+                            <annot xml:id="annot-0000000106916713" label="Q;20" type="app">
+                                <p>d4 corrected by erasing and reprinting, except for I-Bc and GB-Obl(?) where the correction is done with a pasted cutout</p>
+                                <list corresp="#p1cdd5n512v1b20s2">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000018182926" n="21">
                             <staff xml:id="staff-000000000825369" n="1">
@@ -5949,6 +5959,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000002065041842" label="C;10" type="app">
+                                <p>missing</p>
+                                <list corresp="#p1r0v1b40s1">
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000040953444" n="41">
                             <staff xml:id="staff-000000048629034" n="1">
@@ -12550,6 +12566,12 @@
                                     <note xml:id="p1cdd3n0v1b71s6" dur="1" oct="3" pname="d" tie="t" />
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001592100380" label="C;71" type="app">
+                                <p>dotted SM instead of F</p>
+                                <list corresp="#p1cad5n0v1b71s1">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000199078356" n="72">
                             <staff xml:id="staff-000000091275360" n="1">
@@ -12768,6 +12790,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1597<rend rend="sup">13</rend>; 1590<rend rend="sup">29</rend> (English contrafactum <rend fontstyle="italic">When Meliboeus’ soul, flying hence, departed / Now twinkling stars do smile, and dance</rend>)</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
@@ -17070,11 +17096,22 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000800459679" label="app" plist="measure-000000128428083" source="Vi-1587">proportion sign 2/3, except in the B partbook of the F-Pn copy, where the proportion sign is 3/2</annot>
-                            <annot xml:id="annot-0000001488260145" label="app" plist="measure-000000128428083" source="Vi-1587 AnGa-1593 Sco-1603">proportion sign 2/3 in Vi-1587, except in the the F-Pn copy, where the proportion sign is 3/2; proportion sign 3/2 in AnGa-1593 and Sco-1603, later erased and corrected in C</annot>
                             <tempo xml:id="tempo-0000000989944637" place="above" staff="1" tstamp="1.000000">
                                 <rend xml:id="rend-0000000370074232" fontname="VerovioText"></rend> = <rend xml:id="rend-0000000660492796" fontname="VerovioText"></rend>
                             </tempo>
+                            <annot xml:id="annot-0000001789623075" label="all voices;94" type="app">
+                                <p>proportion sign 2/3, except in the B partbook of the F-Pn copy, where the proportion sign is 3/2</p>
+                                <list corresp="#staff-000000022818505 #staff-000000093420156 #staff-000000059999597 #staff-000000160534613 #staff-000000011745811 #staff-000000004285432" type="meterSig">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
+                            <annot xml:id="annot-0000000119606214" label="B;94" type="app">
+                                <p>proportion sign 3/2, later erased and corrected in C</p>
+                                <list corresp="#staff-000000004285432" type="meterSig">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000174672956" n="95">
                             <staff xml:id="staff-000000090589275" n="1">
@@ -22104,7 +22141,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000002095436673" label="app" plist="p1ced5n896v1b128s1" source="Vi-1587">e4 added later in all copies</annot>
+                            <annot xml:id="annot-0000000130304321" label="C;128" type="app">
+                                <p>added later in all copies</p>
+                                <list corresp="#p1ced5n896v1b128s1">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000041653839" n="129">
                             <staff xml:id="staff-000000112674423" n="1">
