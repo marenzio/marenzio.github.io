@@ -178,7 +178,8 @@
                         </pgHead>
                         <pgFoot xml:id="pgfoot-0000001490446618">
                             <rend xml:id="rend-0000001159026602" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000002076473877" />© 2024 – The Marenzio Online Digital Edition</rend>
-                            <rend xml:id="rend-0000001255758377" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001096676020" />Di nettare amoroso ebro la mente</rend>
+                            <rend xml:id="rend-0000001255758377" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei
+                                    voci<lb xml:id="lb-0000001096676020" />Di nettare amoroso ebro la mente</rend>
                             <rend xml:id="rend-0000001171634702" halign="center" valign="bottom">
                                 <num xml:id="num-0000001653073210" label="page">#</num>
                             </rend>
@@ -2578,7 +2579,8 @@
                                 </layer>
                             </staff>
                             <annot xml:id="annot-0000000106916713" label="Q;20" type="app">
-                                <p>d4 corrected by erasing and reprinting, except for I-Bc and GB-Obl(?) where the correction is done with a pasted cutout</p>
+                                <p>d4 corrected by erasing and reprinting, except for I-Bc and GB-Obl(?) where the correction is done with a pasted
+                                    cutout</p>
                                 <list corresp="#p1cdd5n512v1b20s2">
                                     <li>Vi-1587</li>
                                 </list>
@@ -12895,9 +12897,65 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <annot type="app-sources-used">
+                        <annot xml:id="annot-0000000261063263" type="app-text">
+                            <annot corresp="#line2" label="2">
+                                <p>rapto fui</p>
+                                <list>
+                                    <li corresp="#verse-000000098876070 #verse-000000088695869 #verse-000000071667484 #verse-000000145213691 #verse-000000171088421 #verse-000000138475222 #verse-000000183120589 #verse-000000006464617 #verse-000000116323999 #verse-000000191914431 #verse-000000106678962 #verse-000000071385940">Am-1587 – all voices</li>
+                                    <li corresp="#verse-000000098876070 #verse-000000088695869 #verse-000000071667484 #verse-000000145213691 #verse-000000171088421 #verse-000000138475222 #verse-000000183120589 #verse-000000006464617 #verse-000000116323999 #verse-000000191914431 #verse-000000106678962 #verse-000000071385940">AnGa-1593 – all voices</li>
+                                    <li corresp="#verse-000000098876070 #verse-000000088695869 #verse-000000071667484 #verse-000000145213691 #verse-000000171088421 #verse-000000138475222 #verse-000000183120589 #verse-000000006464617 #verse-000000116323999 #verse-000000191914431 #verse-000000106678962 #verse-000000071385940">Sc-heir-1603 – all voices</li>
+                                    <li corresp="#verse-000000098876070 #verse-000000088695869 #verse-000000071667484 #verse-000000145213691 #verse-000000171088421 #verse-000000138475222 #verse-000000183120589 #verse-000000006464617 #verse-000000116323999 #verse-000000191914431 #verse-000000106678962 #verse-000000071385940">AnGa-1605 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line2" label="2">
+                                <p>com’in chiusa</p>
+                                <list>
+                                    <li corresp="#verse-000000175114536 #verse-000000028667993 #verse-000000035162215 #verse-000000135801085">Vi-1587 – Q</li>
+                                    <li corresp="#verse-000000013259346 #verse-000000017360710 #verse-000000056796064 #verse-000000032469292 #verse-000000175114536 #verse-000000028667993 #verse-000000035162215 #verse-000000135801085 #verse-000000161435607 #verse-000000088940618 #verse-000000035751625 #verse-000000111196903 #verse-000000017748164 #verse-000000196027917 #verse-000000163614674 #verse-000000170488383">Am-1587 – all voices</li>
+                                    <li corresp="#verse-000000013259346 #verse-000000017360710 #verse-000000056796064 #verse-000000032469292 #verse-000000175114536 #verse-000000028667993 #verse-000000035162215 #verse-000000135801085 #verse-000000161435607 #verse-000000088940618 #verse-000000035751625 #verse-000000111196903 #verse-000000017748164 #verse-000000196027917 #verse-000000163614674 #verse-000000170488383">AnGa-1593 – all voices</li>
+                                    <li corresp="#verse-000000013259346 #verse-000000017360710 #verse-000000056796064 #verse-000000032469292 #verse-000000175114536 #verse-000000028667993 #verse-000000035162215 #verse-000000135801085 #verse-000000161435607 #verse-000000088940618 #verse-000000035751625 #verse-000000111196903 #verse-000000017748164 #verse-000000196027917 #verse-000000163614674 #verse-000000170488383">Sc-heir-1603 – all voices</li>
+                                    <li corresp="#verse-000000013259346 #verse-000000017360710 #verse-000000056796064 #verse-000000032469292 #verse-000000175114536 #verse-000000028667993 #verse-000000035162215 #verse-000000135801085 #verse-000000161435607 #verse-000000088940618 #verse-000000035751625 #verse-000000111196903 #verse-000000017748164 #verse-000000196027917 #verse-000000163614674 #verse-000000170488383">AnGa-1605 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line3" label="3">
+                                <p>guerier’in</p>
+                                <list>
+                                    <li corresp="#verse-000000159251923 #verse-000000195068290 #verse-000000147848604">Am-1587 – Q</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line4" label="4">
+                                <p>ond’egl’è</p>
+                                <list>
+                                    <li corresp="#verse-000000103694324 #verse-000000074672243 #verse-000000176441291">Vi-1587 – C</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line5" label="5">
+                                <p>dolc’arringo</p>
+                                <list>
+                                    <li corresp="#verse-000000098295494 #verse-000000030472697 #verse-000000038244987 #verse-000000146399894 #verse-000000122174673 #verse-000000178068105 #verse-000000204157223 #verse-000000043022367 #verse-000000058400525 #verse-000000019293192 #verse-000000004302745 #verse-000000089363906 #verse-000000137435677 #verse-000000011084828 #verse-000000171897302 #verse-000000081019107">AnGa-1593 – all voices</li>
+                                    <li corresp="#verse-000000098295494 #verse-000000030472697 #verse-000000038244987 #verse-000000146399894 #verse-000000122174673 #verse-000000178068105 #verse-000000204157223 #verse-000000043022367 #verse-000000058400525 #verse-000000019293192 #verse-000000004302745 #verse-000000089363906 #verse-000000137435677 #verse-000000011084828 #verse-000000171897302 #verse-000000081019107">Sc-heir-1603 – all voices</li>
+                                    <li corresp="#verse-000000098295494 #verse-000000030472697 #verse-000000038244987 #verse-000000146399894 #verse-000000122174673 #verse-000000178068105 #verse-000000204157223 #verse-000000043022367 #verse-000000058400525 #verse-000000019293192 #verse-000000004302745 #verse-000000089363906 #verse-000000137435677 #verse-000000011084828 #verse-000000171897302 #verse-000000081019107">AnGa-1605 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line5" label="5">
+                                <p>arring’alteramente</p>
+                                <list>
+                                    <li corresp="#verse-000000011084828 #verse-000000171897302 #verse-000000081019107 #verse-000000214340206 #verse-000000009157535 #verse-000000065571740 #verse-000000061682668">AnGa-1593 – B</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line6" label="6">
+                                <p>legiadra</p>
+                                <list>
+                                    <li corresp="#verse-000000168024439 #verse-000000208678738 #verse-000000142221789 #verse-000000191792906 #verse-000000070548534 #verse-000000088604997">Am-1587 – C<rend rend="sub">2</rend>T<rend rend="sub">2</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                        </annot>
+                        <annot xml:id="annot-0000001217337491" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
-                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1597<rend rend="sup">13</rend>; 1590<rend rend="sup">29</rend> (English contrafactum <rend fontstyle="italic">When Meliboeus’ soul, flying hence, departed / Now twinkling stars do smile, and dance</rend>)</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1597<rend rend="sup">13</rend>; 1590<rend rend="sup">29</rend> (English
+                                contrafactum <rend fontstyle="italic">When Meliboeus’ soul, flying hence, departed / Now twinkling stars do smile, and
+                                    dance</rend>)</p>
                         </annot>
                     </section>
                 </score>
@@ -23015,6 +23073,60 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000193403436" type="app-text">
+                            <annot corresp="#line10" label="10">
+                                <p>colp’impressi</p>
+                                <list>
+                                    <li corresp="#verse-000000122765116 #verse-000000177927228 #verse-000000086348465 #verse-000000043176604 #verse-000000075151598 #verse-000000043511486 #verse-000000105947699 #verse-000000208298976 #verse-000000092648624 #verse-000000189556985 #verse-000000011357762 #verse-000000155135946 #verse-000000127527955 #verse-000000128565085 #verse-000000059743052 #verse-000000000650330 #verse-000000035034944 #verse-000000000700102 #verse-000000161237470 #verse-000000114319096">AnGa-1593 – CATQS</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line10" label="10">
+                                <p>impresi</p>
+                                <list>
+                                    <li corresp="#verse-000000177927228 #verse-000000086348465 #verse-000000043176604">Vi-1587 – C</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line10" label="10">
+                                <p>perch’a voto</p>
+                                <list>
+                                    <li corresp="#verse-000000171019717 #verse-000000040483491 #verse-000000111386804 #verse-000000204003219 #verse-000000196127709 #verse-000000170171851 #verse-000000170745340 #verse-000000156603570 #verse-000000180767567 #verse-000000073811120 #verse-000000058829048 #verse-000000099363501 #verse-000000065078997 #verse-000000049383958 #verse-000000070497497 #verse-000000188960482">AnGa-1593 – all voices</li>
+                                    <li corresp="#verse-000000171019717 #verse-000000040483491 #verse-000000111386804 #verse-000000204003219 #verse-000000196127709 #verse-000000170171851 #verse-000000170745340 #verse-000000156603570 #verse-000000180767567 #verse-000000073811120 #verse-000000058829048 #verse-000000099363501 #verse-000000065078997 #verse-000000049383958 #verse-000000070497497 #verse-000000188960482">Sc-heir-1603 – all voices</li>
+                                    <li corresp="#verse-000000171019717 #verse-000000040483491 #verse-000000111386804 #verse-000000204003219 #verse-000000196127709 #verse-000000170171851 #verse-000000170745340 #verse-000000156603570 #verse-000000180767567 #verse-000000073811120 #verse-000000058829048 #verse-000000099363501 #verse-000000065078997 #verse-000000049383958 #verse-000000070497497 #verse-000000188960482">AnGa-1605 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line10" label="10">
+                                <p>arm’e tai</p>
+                                <list>
+                                    <li corresp="#verse-000000166013361 #verse-000000005682017 #verse-000000116022231 #verse-000000144496142 #verse-000000068395792 #verse-000000017602372 #verse-000000010388969 #verse-000000094660530 #verse-000000132442161 #verse-000000086232619 #verse-000000092903007 #verse-000000049335212">AnGa-1593 – all voices</li>
+                                    <li corresp="#verse-000000166013361 #verse-000000005682017 #verse-000000116022231 #verse-000000144496142 #verse-000000068395792 #verse-000000017602372 #verse-000000010388969 #verse-000000094660530 #verse-000000132442161 #verse-000000086232619 #verse-000000092903007 #verse-000000049335212">Sc-heir-1603 – all voices</li>
+                                    <li corresp="#verse-000000166013361 #verse-000000005682017 #verse-000000116022231 #verse-000000144496142 #verse-000000068395792 #verse-000000017602372 #verse-000000010388969 #verse-000000094660530 #verse-000000132442161 #verse-000000086232619 #verse-000000092903007 #verse-000000049335212">AnGa-1605 – all voices</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line12" label="12">
+                                <p>e aon si sdegni</p>
+                                <list>
+                                    <li corresp="#verse-000000165472057 #verse-000000093973676 #verse-000000033901406 #verse-000000072735906 #verse-000000032124738">AnGa-1605 – T<rend rend="sub">3</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line14" label="14">
+                                <p>a l’una</p>
+                                <list>
+                                    <li corresp="#verse-000000187333008 #verse-000000086477404 #verse-000000135573047 #verse-000000191411056 #verse-000000038096738 #verse-000000143087475 #verse-000000149653042 #verse-000000051245400 #verse-000000014897268 #verse-000000085705491 #verse-000000079476337 #verse-000000064962020 #verse-000000124803137 #verse-000000037615047 #verse-000000074083707 #verse-000000023238676 #verse-000000075812454 #verse-000000181310603 #verse-000000213426251 #verse-000000058242515 #verse-000000083119755 #verse-000000156819284 #verse-000000208399921 #verse-000000060526833">Am1587 – all voices</li>
+                                    <li corresp="#verse-000000187333008 #verse-000000086477404 #verse-000000135573047 #verse-000000191411056 #verse-000000038096738 #verse-000000143087475 #verse-000000149653042 #verse-000000051245400 #verse-000000014897268 #verse-000000124803137 #verse-000000037615047 #verse-000000074083707 #verse-000000023238676 #verse-000000075812454 #verse-000000181310603 #verse-000000213426251 #verse-000000058242515 #verse-000000083119755 #verse-000000156819284 #verse-000000208399921 #verse-000000060526833">AnGa-1593 – CATQS</li>
+                                    <li corresp="#verse-000000187333008 #verse-000000086477404 #verse-000000135573047 #verse-000000191411056 #verse-000000038096738 #verse-000000143087475 #verse-000000149653042 #verse-000000051245400 #verse-000000014897268 #verse-000000124803137 #verse-000000037615047 #verse-000000074083707 #verse-000000023238676 #verse-000000075812454 #verse-000000181310603 #verse-000000213426251 #verse-000000058242515 #verse-000000083119755 #verse-000000156819284 #verse-000000208399921 #verse-000000060526833">Sc-heir-1603 – CATQS</li>
+                                    <li corresp="#verse-000000187333008 #verse-000000086477404 #verse-000000135573047 #verse-000000191411056 #verse-000000038096738 #verse-000000143087475 #verse-000000149653042 #verse-000000051245400 #verse-000000014897268 #verse-000000124803137 #verse-000000037615047 #verse-000000074083707 #verse-000000023238676 #verse-000000075812454 #verse-000000181310603 #verse-000000213426251 #verse-000000058242515 #verse-000000083119755 #verse-000000156819284 #verse-000000208399921 #verse-000000060526833">AnGa-1605 – CATQS</li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line14" label="14">
+                                <p>erroneous repetition at the end of the phrase <rend rend="italic">o fra le due fa terzo fra le</rend>, instead of the correct <rend rend="italic">o fra le due fa terzo Amor</rend>.</p>
+                                <list>
+                                    <li corresp="#verse-000000210021340 #verse-000000012235996 #verse-000000214656318 #verse-000000076927132 #verse-000000047237991 #verse-000000117244064 #verse-000000011373418 #verse-000000007979130 #verse-000000204601680 #verse-000000086516135 #verse-000000016276946">AnGa-1593 – C</li>
+                                    <li corresp="#verse-000000210021340 #verse-000000012235996 #verse-000000214656318 #verse-000000076927132 #verse-000000047237991 #verse-000000117244064 #verse-000000011373418 #verse-000000007979130 #verse-000000204601680 #verse-000000086516135 #verse-000000016276946">Sc-heir-1603 – C</li>
+                                    <li corresp="#verse-000000210021340 #verse-000000012235996 #verse-000000214656318 #verse-000000076927132 #verse-000000047237991 #verse-000000117244064 #verse-000000011373418 #verse-000000007979130 #verse-000000204601680 #verse-000000086516135 #verse-000000016276946">AnGa-1605 – C</li>
+                                </list>
+                            </annot>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
