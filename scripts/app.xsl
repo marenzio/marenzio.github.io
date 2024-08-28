@@ -188,7 +188,7 @@
         <span style="font-style:normal"><xsl:value-of select="."/></span>
     </xsl:template>
     
-    <xsl:template match="mei:rend[@fontstyle='italic']">
+    <xsl:template match="mei:rend[@fontstyle='italic']|mei:rend[@rend='italic']">
         <i><xsl:apply-templates select="@* | node()"/></i>
     </xsl:template>
     
