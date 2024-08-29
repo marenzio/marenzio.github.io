@@ -19,6 +19,62 @@
         </fileDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">“Vattene, anima mia”, dissi narrando</rend>
+                        <lb />Giovanni Battista Nicolucci, known as ‘Pigna’<lb />Madrigal: AbAbccDD
+                    </p>
+                    <table type="lyrics">
+                        <tr xml:id="line1">
+                            <td> “Vattene, anima mia”, dissi narrando</td>
+                            <td>“Depart from me, my soul”,</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>A la mia vaga stella</td>
+                            <td>I said, narrating  my love in rhymes</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>L’amor mio in rime, quando</td>
+                            <td>to my fair star, when</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>A un dolce sguardo, ch’ella</td>
+                            <td>she shot such a sweet glance</td>
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Mi saettò nel viso,</td>
+                            <td>into my face: </td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Io fui così conquiso</td>
+                            <td>I was so conquered</td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Che n’andò l’alma nei lucenti rai,</td>
+                            <td>that my soul was raptured into her sparkling eyes,</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>E l’alma che n’andò non torna mai.</td>
+                            <td>and the soul that left never returns.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>None – preserved in manuscript form in Ferrara, Biblioteca Comunale Ariostea, 252.</p>
+                </div>
+                <div>
+                    <head>Modern editions</head>
+                    <p>
+                        G. Battista Pigna, <rend rend="italic" xml:space="preserve">Il ben divino: inedito a cura di Neuro Bonifazi </rend>(Bologna: Commissione per i testi di lingua, 1965), 87.
+                    </p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000001910359886">
                 <score xml:id="score-0000001948490920">
@@ -65,7 +121,6 @@
                     </scoreDef>
                     <section xml:id="section-000000107257436">
                         <measure xml:id="measure-000000008067325" n="1">
-                            <anchoredText xml:id="anchtxt-000000018955885">4. "Vattene, anima mia", dissi narrando  																											(Giovanni Battista Nicolucci, known as 'Pigna')</anchoredText>
                             <staff xml:id="staff-000000094149273" n="1">
                                 <layer xml:id="layer-000000185289762" n="1">
                                     <mRest xml:id="mrest-000000161858104" />
