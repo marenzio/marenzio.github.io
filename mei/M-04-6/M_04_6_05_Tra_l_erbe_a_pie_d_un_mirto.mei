@@ -203,6 +203,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001901142213" label="T;2" type="app">
+                                <p>F instead of SM</p>
+                                <list corresp="#p1cfd5n256v1b2s4">
+                                    <li>Am-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000095803095" n="3">
                             <staff xml:id="staff-000000024715816" n="1">
@@ -1334,7 +1340,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000626884776" label="app" plist="p1ced5n384v1b17s4" source="Vi-1587 (copy GB-Obl only)">g3 instead of e3, corrected in the other copies</annot>
+                            <annot xml:id="annot-0000001300812415" label="T;17" type="app">
+                                <p>g3 instead of e3, corrected in the other copies</p>
+                                <list corresp="#p1ced5n384v1b17s4">
+                                    <li>Vi-1587 (copy GB-Obl only)</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000085335001" n="18">
                             <staff xml:id="staff-000000052372362" n="1">
@@ -2248,7 +2259,12 @@
                                     <mRest xml:id="mrest-000000137328670" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001301570567" label="app" plist="p1cgd5n896v1b30s4" source="Vi-1587 (copy GB-Obl only)">e3 instead of g3, corrected in the other copies</annot>
+                            <annot xml:id="annot-0000001010236205" label="T;30" type="app">
+                                <p>e3 instead of g3, corrected in the other copies</p>
+                                <list corresp="#p1cgd5n896v1b30s4">
+                                    <li>Vi-1587 (copy GB-Obl only)</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000169576835" n="31">
                             <staff xml:id="staff-000000151807883" n="1">
@@ -3348,7 +3364,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000703377880" label="app" plist="p1cbd4n768v1b42s2" source="Vi-1587 (copy I-Vnm only)">a3 instead of b3, corrected in the other copies</annot>
+                            <annot xml:id="annot-0000001920935587" label="Q;42" type="app">
+                                <p>a3 instead of b3, corrected in the other copies</p>
+                                <list corresp="#p1cbd4n768v1b42s2">
+                                    <li>Vi-1587 (copy I-Vnm only)</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000093272575" n="43">
                             <staff xml:id="staff-000000147324608" n="1">
@@ -5230,7 +5251,7 @@
             </mdiv>
             <mdiv xml:id="mdiv-0000001939606533" label="part2">
                 <score xml:id="score-0000000436712699">
-                    <scoreDef xml:id="scoredef-0000000613272606" meter.sym="common">
+                    <scoreDef xml:id="scoredef-0000000613272606" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
                         <pgHead xml:id="pghead-0000001338836024">
                             <rend xml:id="rend-0000000218231639" halign="center" valign="middle">
                                 <rend xml:id="rend-0000000249018088" fontsize="x-large">Per più gradirla, co’ lascivi Amori<lb xml:id="lb-0000001155784032" />
@@ -9227,7 +9248,12 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001097908658" label="app" plist="p1cad4n0v1b115s1" source="Vi-1587">In all the copies except US-Bem two [M] a3 have been pasted over.</annot>
+                            <annot xml:id="annot-0000001517990432" label="C;115" type="app">
+                                <p>In all the copies except US-Bem two [M] a3 have been pasted over.</p>
+                                <list corresp="#p1cad4n0v1b115s1 #p1cad4n256v1b115s1">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000171349593" n="116">
                             <staff xml:id="staff-000000145112627" n="1">
