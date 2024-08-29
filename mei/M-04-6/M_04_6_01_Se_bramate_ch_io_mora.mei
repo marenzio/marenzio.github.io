@@ -5,9 +5,10 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 1. Se bramate ch’io mora</title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,24 +17,6 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title>Il quarto libro de madrigali a sei voci - 1. Se bramate ch’io mora</title>
-                    <respStmt>
-                        <resp>Composed by:</resp>
-                        <persName>Luca Marenzio</persName>
-                    </respStmt>
-                </titleStmt>
-            </work>
-        </workDesc>
     </meiHead>
     <music>
         <front>
@@ -4541,6 +4524,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1610<rend rend="sup">3</rend> (devotional contrafactum <rend fontstyle="italic">Sic dilecta o Christe</rend>)</p>
+                        </annot>
                         <annot xml:id="annot-0000001309943500" type="app-text">
                             <annot corresp="#line4" label="4">
                                 <p>coi bei</p>
@@ -4567,10 +4554,6 @@
                                     <li corresp="#verse-000000052973818 #verse-000000124360909 #verse-000000016241934 #verse-000000012567929 #verse-000000081605945 #verse-000000158762008 #verse-000000106145023 #verse-000000171345810 #verse-000000061191819 #verse-000000078090274 #verse-000000144861055 #verse-000000187071681">AnGa-1605 – ABQS</li>
                                 </list>
                             </annot>
-                        </annot>
-                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
-                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
-                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1610<rend rend="sup">3</rend> (devotional contrafactum <rend fontstyle="italic">Sic dilecta o Christe</rend>)</p>
                         </annot>
                     </section>
                 </score>

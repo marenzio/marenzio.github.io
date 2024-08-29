@@ -5,9 +5,10 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 2. Di nettare amoroso ebro la mente</title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,24 +17,6 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title>Il quarto libro de madrigali a sei voci - 2. Di nettare amoroso ebro la mente</title>
-                    <respStmt>
-                        <resp>Composed by:</resp>
-                        <persName>Luca Marenzio</persName>
-                    </respStmt>
-                </titleStmt>
-            </work>
-        </workDesc>
         <revisionDesc>
             <change n="1">
                 <respStmt>
@@ -12897,6 +12880,12 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000001217337491" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1597<rend rend="sup">13</rend>; 1590<rend rend="sup">29</rend> (English
+                                contrafactum <rend fontstyle="italic">When Meliboeus’ soul, flying hence, departed / Now twinkling stars do smile, and
+                                    dance</rend>)</p>
+                        </annot>
                         <annot xml:id="annot-0000000261063263" type="app-text">
                             <annot corresp="#line2" label="2">
                                 <p>rapto fui</p>
@@ -12950,12 +12939,6 @@
                                     </li>
                                 </list>
                             </annot>
-                        </annot>
-                        <annot xml:id="annot-0000001217337491" type="app-sources-used">
-                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
-                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1597<rend rend="sup">13</rend>; 1590<rend rend="sup">29</rend> (English
-                                contrafactum <rend fontstyle="italic">When Meliboeus’ soul, flying hence, departed / Now twinkling stars do smile, and
-                                    dance</rend>)</p>
                         </annot>
                     </section>
                 </score>
