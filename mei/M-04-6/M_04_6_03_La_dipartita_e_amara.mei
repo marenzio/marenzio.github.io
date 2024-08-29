@@ -19,6 +19,59 @@
         </fileDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">La dipartita è amara</rend>
+                        <lb />Giovanni Battista Nicolucci, known as ‘Pigna’<lb />Madrigal: aabbcc
+                    </p>
+                    <table type="lyrics">
+                        <tr xml:id="line1">
+                            <td>La dipartita è amara,</td>
+                            <td>Taking leave is bitter,</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Ma perché è dolc’e cara</td>
+                            <td>but since sweet and dear to me</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>La giunta del ritorno,</td>
+                            <td>is the moment of return,</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>Da l’infelice giorno</td>
+                            <td>from the unhappy day</td>
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>De la partenza ria</td>
+                            <td>of cruel departure</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Nasce la gioia mia.</td>
+                            <td>my happiness is born.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>None – preserved in manuscript form in Ferrara, Biblioteca Comunale Ariostea, 252.</p>
+                </div>
+                <div>
+                    <head>Modern editions</head>
+                    <p>
+                        G. Battista Pigna, <rend rend="italic" xml:space="preserve">Il ben divino: inedito a cura di Neuro Bonifazi </rend>(Bologna: Commissione per i testi di lingua, 1965), 89.
+                    </p>
+                </div>
+                <div>
+                    <head>Notes</head>
+                    <p>The last line refers to the opening of a well-known madrigal by Striggio, <rend rend="italic" xml:space="preserve">Nasce la pena mia</rend>, which, in a play on words and meanings, becomes in Pigna <rend rend="italic" xml:space="preserve">Nasce la gioia mia</rend>. See James Chater, <rend rend="italic" xml:space="preserve">Luca Marenzio and the Italian Madrigal</rend>. 1577–1593 
+                        (Ann Arbor: UMI, 1981), vol. I, 11.</p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000002023090728">
                 <score xml:id="score-0000001166968273">
@@ -27,7 +80,7 @@
                             <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
                                 <rend xml:id="rend-0000000797887960" fontsize="x-large">3. La dipartita è amara</rend>
                             </rend>
-                            <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Giovanni Battista Nicolucci, known as 'Pigna')</rend>
+                            <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Giovanni Battista Nicolucci, known as ‘Pigna’)</rend>
                         </pgHead>
                         <pgFoot xml:id="pgfoot-0000001617619361">
                             <rend xml:id="rend-0000001686278619" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000001604064740" />© 2024 – The Marenzio Online Digital Edition</rend>
@@ -39,21 +92,27 @@
                         <staffGrp xml:id="m-000000123233901" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001729832393">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000928518376">C</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001122257106">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001969093245">A</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001678497509">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000002106829793">Q</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000711365703">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001279400334">S</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000862560639">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000000633078117">T</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001158589777">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000197285835">B</labelAbbr>
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
@@ -4616,9 +4675,10 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <annot type="app-sources-used">
+                        <annot xml:id="annot-0000000165669161" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
-                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 15937<rend rend="sup">13</rend></p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1597<rend rend="sup">13</rend>
+                            </p>
                         </annot>
                     </section>
                 </score>
