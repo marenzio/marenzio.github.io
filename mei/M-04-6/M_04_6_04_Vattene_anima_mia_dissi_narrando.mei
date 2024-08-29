@@ -5207,6 +5207,15 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000193777426" label="C;63" type="app">
+                                <p>f4 instead of g4</p>
+                                <list corresp="#p1cgd5n512v1b63s1">
+                                    <li>Am-1587</li>
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000042921085" n="64">
                             <staff xml:id="staff-000000095707367" n="1">
@@ -5408,6 +5417,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000814203114" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
