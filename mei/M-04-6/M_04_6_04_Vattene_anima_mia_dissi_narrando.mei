@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 4. “Vattene, anima mia”, dissi narrando</title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,40 +17,53 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title />
-                    <respStmt />
-                </titleStmt>
-            </work>
-        </workDesc>
     </meiHead>
     <music>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-000000188795758" meter.sym="common">
-                        <staffGrp xml:id="m-000000200351457">
-                            <staffGrp xml:id="m-000000136036631" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
-                            </staffGrp>
+            <mdiv xml:id="mdiv-0000001910359886">
+                <score xml:id="score-0000001948490920">
+                    <scoreDef xml:id="scoredef-000000188795758" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000002051287314">
+                            <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000797887960" fontsize="x-large">4. “Vattene, anima mia”, dissi narrando</rend>
+                            </rend>
+                            <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Giovanni Battista Nicolucci, known as ‘Pigna’)</rend>
+                        </pgHead>
+                        <pgFoot xml:id="pgfoot-0000001617619361">
+                            <rend xml:id="rend-0000001686278619" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000001604064740" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000000814477663" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001687027167" />“Vattene, anima mia”, dissi narrando</rend>
+                            <rend xml:id="rend-0000002007199627" halign="center" valign="bottom">
+                                <num xml:id="num-0000001210260674" label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp xml:id="m-000000136036631" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000139405696">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001325535377">C</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000002104644564">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001475290395">A</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000065584594">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001513478485">Q</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000134686131">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000001362989175">T</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001767151987">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000896368300">S</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000439123186">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000097266516">B</labelAbbr>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000107257436">
-                        <pb xml:id="pb-000000030948164" n="1" />
                         <measure xml:id="measure-000000008067325" n="1">
                             <anchoredText xml:id="anchtxt-000000018955885">4. "Vattene, anima mia", dissi narrando  																											(Giovanni Battista Nicolucci, known as 'Pigna')</anchoredText>
                             <staff xml:id="staff-000000094149273" n="1">
@@ -1074,7 +1088,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000179613223" n="2" />
                         <measure xml:id="measure-000000191891027" n="14">
                             <staff xml:id="staff-000000158691924" n="1">
                                 <layer xml:id="layer-000000012111907" n="1">
@@ -2323,7 +2336,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000211688845" n="3" />
                         <measure xml:id="measure-000000110177129" n="30">
                             <staff xml:id="staff-000000142776735" n="1">
                                 <layer xml:id="layer-000000009146668" n="1">
@@ -3625,7 +3637,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000207324152" n="4" />
                         <measure xml:id="measure-000000026872848" n="46">
                             <staff xml:id="staff-000000030661231" n="1">
                                 <layer xml:id="layer-000000213025020" n="1">
@@ -4733,7 +4744,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000153568337" n="5" />
                         <measure xml:id="measure-000000168079365" n="59">
                             <staff xml:id="staff-000000155541850" n="1">
                                 <layer xml:id="layer-000000146963927" n="1">
@@ -5207,9 +5217,7 @@
                                             <syl xml:id="syl-000000198510831" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000190711190">
-                                        <note xml:id="p1ccd5n640v1b64s1" dur="8" oct="5" pname="c" />
-                                    </beam>
+                                    <note xml:id="p1ccd5n640v1b64s1" dur="8" oct="5" pname="c" />
                                     <note xml:id="p1ccd5n768v1b64s1" dur="4" oct="5" pname="c" tie="i" />
                                 </layer>
                             </staff>
@@ -5344,7 +5352,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000079682440" n="66" right="end">
+                        <measure xml:id="measure-000000079682440" right="end" n="66">
                             <staff xml:id="staff-000000192137446" n="1">
                                 <layer xml:id="layer-000000046315973" n="1">
                                     <note xml:id="p1ccd5n0v1b66s1" dur="1" fermata="above" oct="5" pname="c">
