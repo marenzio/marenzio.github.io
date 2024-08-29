@@ -4412,9 +4412,9 @@
                                     <note xml:id="p1cdd3n0v1b54s6" dur="1" oct="3" pname="d" tie="m" />
                                 </layer>
                             </staff>
-                            <bracketSpan xml:id="bspan-0000001457063646" startid="p1cad4n512v1b53s1" endid="p1cgd4n512v1b54s1" func="ligature" lform="solid" />
-                            <bracketSpan xml:id="bspan-0000001283924615" startid="p1cgd4n512v1b54s1" endid="p1ced4n384v1b55s1" func="ligature" />
-                            <bracketSpan xml:id="bspan-0000001961636184" startid="p1cbd3n0v1b54s5" endid="p1cad3n0v1b55s5" func="ligature" lform="solid" />
+                            <bracketSpan xml:id="bspan-0000001457063646" startid="#p1cad4n512v1b53s1" endid="#p1cgd4n512v1b54s1" func="ligature" lform="solid" />
+                            <bracketSpan xml:id="bspan-0000001283924615" startid="#p1cgd4n512v1b54s1" endid="#p1ced4n384v1b55s1" func="ligature" />
+                            <bracketSpan xml:id="bspan-0000001961636184" startid="#p1cbd3n0v1b54s5" endid="#p1cad3n0v1b55s5" func="ligature" lform="solid" />
                         </measure>
                         <measure xml:id="measure-000000127593050" n="55">
                             <staff xml:id="staff-000000014406179" n="1">
