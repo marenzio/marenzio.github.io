@@ -108,8 +108,11 @@ M-04-6:
           name: "La dipartita è amara"
         - id: "M_04_6_04_Vattene_anima_mia_dissi_narrando.xhtml"
           name: "“Vattene, anima mia”, dissi narrando"
-#         - id: "M_04_6_05_Tra_l_erbe_a_pie_d_un_mirto.xhtml"
-#           name: "Tra l erbe a pie d un mirto"
+        - id: "M_04_6_05_Tra_l_erbe_a_pie_d_un_mirto.xhtml"
+          name: "Tra l’erbe a piè d’un mirto, che ’l copriva"
+          parts:
+            - title: "Seconda parte"
+              id: 2
 #         - id: "M_04_6_06_Crudel_perche_mi_fuggi.xhtml"
 #           name: "Crudel perche mi fuggi"
 #         - id: "M_04_6_07_Dice_la_mia_bellissima_Licori.xhtml"
