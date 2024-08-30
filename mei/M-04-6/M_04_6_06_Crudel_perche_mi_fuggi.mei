@@ -170,7 +170,14 @@
                                     <mRest xml:id="mrest-000000204772337" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001915675105" label="app" plist="measure-000000186101402" source="AnGa-1593 Sc_heir-1603 AnGa-1605">C instead of cut C</annot>
+                            <annot xml:id="annot-0000001092550466" label="Q;1" type="app">
+                                <p>C instead of cut C</p>
+                                <list corresp="#staff-000000214221176" type="meterSig">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000051388722" n="2">
                             <staff xml:id="staff-000000017475177" n="1">
@@ -2721,6 +2728,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000002027746233" label="B;18" type="app">
+                                <p>b2 instead of a2</p>
+                                <list corresp="#p1cad3n256v1b18s6">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000180096457" n="19">
                             <staff xml:id="staff-000000133134992" n="1">
@@ -3122,6 +3135,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001687987462" label="B;21-22" type="app">
+                                <p>c3 instead of d3</p>
+                                <list corresp="#p1cdd4n0v1b22s6 #p1cdd4n512v1b21s6">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000078575932" n="22">
                             <staff xml:id="staff-000000212306832" n="1">
@@ -3667,6 +3686,14 @@
                                     <note xml:id="p1cgd3n0v1b24s6" dur="1" oct="3" pname="g" tie="t" />
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001129913448" label="C;24" type="app">
+                                <p>e4 instead of f4</p>
+                                <list corresp="#p1cfd5n768v1b24s1">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000166363309" n="25">
                             <staff xml:id="staff-000000043103342" n="1">
@@ -6963,7 +6990,15 @@
                                     <rest xml:id="p1r512v1b49s6" dur="2" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000611556987" label="app" plist="p1ccd3n0v1b49s6" source="Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">e2 instead of c2; in AnGa-1593 the SB e2 is crossed out and corrected to c2 by hand</annot>
+                            <annot xml:id="annot-0000001272682403" label="B;48-49" type="app">
+                                <p>e2 instead of c2; in AnGa-1593 the SB e2 is crossed out and corrected to c2 by hand</p>
+                                <list corresp="#p1ccd3n512v1b48s6 #p1ccd3n0v1b49s6">
+                                    <li>Am-1587</li>
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000119636714" n="50">
                             <staff xml:id="staff-000000207410438" n="1">
@@ -9437,6 +9472,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1590<rend rend="sup">29</rend> (English contrafactum <rend fontstyle="italic">Unkind, o stay thy flying</rend>)</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
