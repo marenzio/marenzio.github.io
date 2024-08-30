@@ -204,7 +204,12 @@
                                     <mRest xml:id="mrest-000000023599533" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001321639363" label="app" plist="p1cdd5n0v1b2s1" source="Vi-1587">a3; previously c4, then corrected</annot>
+                            <annot xml:id="annot-0000000175187765" label="C;2" type="app">
+                                <p>a3; previously c4, then corrected</p>
+                                <list corresp="#p1cdd5n0v1b2s1">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000211883340" n="3">
                             <staff xml:id="staff-000000057640849" n="1">
@@ -14834,6 +14839,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1589<rend rend="sup">9</rend>; 1593<rend rend="sup">4</rend>; 1597<rend rend="sup">13</rend>; 1605<rend rend="sup">8</rend>; 1605<rend rend="sup">9</rend>; 1614<rend rend="sup">12</rend>; 1628<rend rend="sup">14</rend>; 1597<rend rend="sup">24</rend> (English contrafactum <rend fontstyle="italic">So sayth my faire and beautifull</rend>)</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
