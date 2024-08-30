@@ -30,6 +30,63 @@
         </revisionDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">Dice la mia bellissima Licori</rend>
+                        <lb />Giovanni Battista Guarini<lb />Madrigal: XaABbccDd
+                    </p>
+                    <table type="lyrics">
+                        <tr xml:id="line1">
+                            <td>Dice la mia bellissima Licori,</td>
+                            <td>My beautiful Lycoris tells me,</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Quando talor favello</td>
+                            <td>when I talk to her about Love,</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>Seco d’Amor, ch’Amor è un spiritello</td>
+                            <td>that Love is a spirit</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>Che vaga e vola e non si può tenere,</td>
+                            <td>that wanders, flies and cannot be held,</td>
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Né toccar, né vedere.</td>
+                            <td>nor touched, nor seen.</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>E pur se gl’occhi giro,</td>
+                            <td>If I turn my eyes, though,</td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Nei suoi begl’occhi il miro,</td>
+                            <td>I see it in her fair eyes,</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Ma no ’l posso toccar, ché sol si tocca</td>
+                            <td>but I cannot touch it, since it can only be touched</td>
+                        </tr>
+                        <tr xml:id="line9">
+                            <td>In quella bella bocca.</td>
+                            <td>on those beautiful lips.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        <rend rend="italic" xml:space="preserve">Rime de diversi, </rend>ed. Licino (Venezia, 1587): also in <rend rend="italic" xml:space="preserve">Rime del molto illustre Signor Cavaliere Battista Guarini </rend>
+                        (Venice: Ciotti, 1598), 96v (<ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10166540_00200.html" label="available online as of September 2024" />).
+                    </p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000001864895324">
                 <score xml:id="score-0000000027061512">
