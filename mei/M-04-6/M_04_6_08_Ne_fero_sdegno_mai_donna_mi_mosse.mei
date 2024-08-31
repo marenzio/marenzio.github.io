@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 8. Né fero sdegno mai, Donna, mi mosse</title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,36 +17,65 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title />
-                    <respStmt />
-                </titleStmt>
-            </work>
-        </workDesc>
     </meiHead>
     <music>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-000000030924380" meter.sym="common">
-                        <staffGrp xml:id="m-000000186241835">
-                            <staffGrp xml:id="m-000000209110384" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
-                            </staffGrp>
+            <mdiv xml:id="mdiv-0000000084768589" label="part1">
+                <score xml:id="score-0000000948228621">
+                    <scoreDef xml:id="scoredef-000000030924380" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000000220715997">
+                            <app xml:id="app-0000000746597905">
+                                <lem xml:id="lem-0000000743774120">
+                                    <rend xml:id="rend-0000001387901973" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000001223049188" fontsize="x-large">8. Né fero sdegno mai, Donna, mi mosse<lb xml:id="lb-0000002016470438" />
+                                            <rend xml:id="rend-0000000409626645" fontsize="large" fontstyle="italic">Prima parte</rend>
+                                        </rend>
+                                    </rend>
+                                    <rend xml:id="rend-0000000845054155" halign="right" valign="bottom">(Luigi Tansillo)</rend>
+                                </lem>
+                                <rdg xml:id="rdg-0000000019578080" source="English">
+                                    <rend xml:id="rend-0000001325710844" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000000181271064" fontsize="x-large">In chains of hope and fear<lb xml:id="lb-0000001535531579" />
+                                            <rend xml:id="rend-0000001286200078" fontsize="large" fontstyle="italic">First part</rend>
+                                        </rend>
+                                    </rend>
+                                    <rend xml:id="rend-0000001685546513" halign="right" valign="bottom">Nicholas Watson, <rend xml:id="rend-0000001602091729" fontstyle="italic">Italian Madrigals Englished</rend> (1590)</rend>
+                                </rdg>
+                            </app>
+                        </pgHead>
+                        <pgFoot xml:id="pgfoot-0000001490446618">
+                            <rend xml:id="rend-0000001159026602" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000002076473877" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000001255758377" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei
+                                voci<lb xml:id="lb-0000001096676020" />Né fero sdegno mai, Donna, mi mosse</rend>
+                            <rend xml:id="rend-0000001171634702" halign="center" valign="bottom">
+                                <num xml:id="num-0000001653073210" label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp xml:id="m-000000209110384" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000002681132">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001014267221">C</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000002128692396">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000161422216">Q</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001274322358">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000077804639">A</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001264957061">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001217323252">S</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001443175467">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000002079913271">T</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001871403545">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000908538036">B</labelAbbr>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000084842666">
@@ -10757,7 +10787,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000097802545" n="59" right="end">
+                        <measure xml:id="measure-000000097802545" right="end" n="59">
                             <staff xml:id="staff-000000143235195" n="1">
                                 <layer xml:id="layer-000000024759120" n="1">
                                     <note xml:id="p1cdd5n0v1b59s1" dur="1" fermata="above" oct="5" pname="d">
@@ -10874,6 +10904,66 @@
                                 </layer>
                             </staff>
                         </measure>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="mdiv-0000000790147891" label="part2">
+                <score xml:id="score-0000000361004805">
+                    <scoreDef xml:id="scoredef-0000000721912246" ppq="256" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" meter.sym="common">
+                        <pgHead xml:id="pghead-0000000844623556">
+                            <app xml:id="app-0000001783242766">
+                                <lem xml:id="lem-0000002055501377">
+                                    <rend xml:id="rend-0000001851761073" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000001875784098" fontsize="x-large">Talché dovunque vo, tutte repente<lb xml:id="lb-0000001984134224" />
+                                            <rend xml:id="rend-0000000074966516" fontsize="large" fontstyle="italic">Seconda parte</rend>
+                                        </rend>
+                                    </rend>
+                                </lem>
+                                <rdg xml:id="rdg-0000001946047501" source="English">
+                                    <rend xml:id="rend-0000000237224255" halign="center" valign="middle">
+                                        <rend xml:id="rend-0000000089322839" fontsize="x-large">O hear me, heavenly powersr<lb xml:id="lb-0000000365348577" />
+                                            <rend xml:id="rend-0000001347802925" fontsize="large" fontstyle="italic">Second part</rend>
+                                        </rend>
+                                    </rend>
+                                </rdg>
+                            </app>
+                        </pgHead>
+                        <pgFoot xml:id="pgfoot-0000000455559158">
+                            <rend xml:id="rend-0000001214490919" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000000993828448" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000001321421767" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei
+                                voci<lb xml:id="lb-0000000015010418" />Né fero sdegno mai, Donna, mi mosse</rend>
+                            <rend xml:id="rend-0000000988725965" halign="center" valign="bottom">
+                                <num xml:id="num-0000000687806664" label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp xml:id="staffgrp-0000000680195914" symbol="bracket" n="1">
+                            <staffDef xml:id="staffdef-0000001588740300" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000194578157">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001269804142">C</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000001908643856" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000394505401">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000460044867">Q</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000000814228939" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000374313714">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001642578691">A</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000001682611478" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001986204809">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000332703506">S</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000001158216123" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000615239418">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000000516541689">T</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000000756249401" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000651505674">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000986447928">B</labelAbbr>
+                            </staffDef>
+                        </staffGrp>
+                    </scoreDef>
+                    <section xml:id="section-0000000305204943">
                         <measure xml:id="measure-000000204818330" n="60">
                             <staff xml:id="staff-000000142959268" n="1">
                                 <layer xml:id="layer-000000111728138" n="1">
@@ -22586,7 +22676,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000146641820" n="135" right="end">
+                        <measure xml:id="measure-000000146641820" right="end" n="135">
                             <staff xml:id="staff-000000172281296" n="1">
                                 <layer xml:id="layer-000000079555748" n="1">
                                     <note xml:id="p1cdd5n0v1b135s1" dur="1" fermata="above" oct="5" pname="d">
