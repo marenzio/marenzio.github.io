@@ -19,6 +19,121 @@
         </fileDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">Né fero sdegno mai, Donna, mi mosse / Talché dovunque vo, tutte repente</rend>
+                        <lb />Luigi Tansillo<lb />Sonnet: ABBA ABBA CDE CDE
+                    </p>
+                    <table type="lyrics">
+                        <tr type="void">
+                            <td>
+                                <rend rend="italic">Prima parte</rend>
+                            </td>
+                            <td />
+                        </tr>
+                        <tr xml:id="line1">
+                            <td>Né fero sdegno mai, Donna, mi mosse</td>
+                            <td>No fierce disdain, my Lady, had ever </td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Ancor da voi, né lontananza alcuna</td>
+                            <td>taken me away from you, nor any distance</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>Ne movrà mai! Mandami pur, Fortuna,</td>
+                            <td>will ever do it! O Fortune, send me even wandering</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>Per l’onde azzurre errando e per le rosse;</td>
+                            <td>in blue or red waters; </td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Se quante spume fan l’acque percosse</td>
+                            <td>If for every wave beaten by our oars</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Dai remi nostri al sol e a la luna,</td>
+                            <td>during the day or the night, </td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Tante nascesser Veneri, e ciascuna </td>
+                            <td>one Venus would be born, and each of them</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Di lor d’un novo Amor gravida fosse;</td>
+                            <td>would be announcing a new love; </td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr type="void">
+                            <td>
+                                <rend rend="italic">Seconda parte</rend>
+                            </td>
+                            <td />
+                        </tr>
+                        <tr xml:id="line9">
+                            <td>Talché dovunque vo, tutte repente</td>
+                            <td>if wherever I go, the waves </td>
+                        </tr>
+                        <tr xml:id="line10">
+                            <td>Partorissero Amor l’onde ch’io frango</td>
+                            <td>that I break would immediately generate Love,</td>
+                        </tr>
+                        <tr xml:id="line11">
+                            <td>E fosser le lor cune i pensier miei,</td>
+                            <td>and my thoughts would be their cradle,</td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line12">
+                            <td>Non arderia più ch’arde questa mente;</td>
+                            <td>still, I would not burn more than this spirit burns;</td>
+                        </tr>
+                        <tr xml:id="line13">
+                            <td>Con tutto ciò, talor mi doglio e piango</td>
+                            <td>despite all that, sometimes I regret and lament</td>
+                        </tr>
+                        <tr xml:id="line14">
+                            <td>Che non vi posso amar quanto vorrei.</td>
+                            <td>that I cannot love you as much as I wish.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        <rend rend="italic">Il sesto libro delle rime di diversi eccellenti autori, nuovamente raccolte,
+                        et mandate in luce. Con un discorso di Girolamo Ruscelli</rend> (Venice: Giovan Maria Bonelli, 1553), 35v (as: <rend rend="italic">Né lungo
+                            essilio il cor, Donna, mi mosse</rend>) (<ptr target="http://rasta.unipv.it/index.php?page=view_img&amp;idlibro=11&amp;file=41" label="available online as of September 2024" />).
+                    </p>
+                    <p>also in: <rend rend="italic">I fiori delle rime de’ poeti illustri, nuovamente raccolti et ordinati da Girolamo Ruscelli</rend> (Venice:
+                        Sessa, 1558), 472 (as: <rend rend="italic">Né lungo essilio il cor, Donna, mi mosse</rend>) (<ptr target="http://rasta.unipv.it/index.php?page=view_img&amp;idlibro=14&amp;file=257" label="available online as of September 2024" />).
+                    </p>
+                </div>
+                <div>
+                    <head>Notes on different versions</head>
+                    <p>
+                        The Marenzio text differs considerably from both 16th-century editions, especially
+                        in the first lines. The critical edition of Luigi Tansillo provides some variants, one of which corresponds to the musical text (v. 8 <rend rend="italic">di lor d’un novo amor</rend>). It does not appear, though, that the literary tradition preserves a text that coincides with
+                        the musical one. The sonnet is part of the poems written between 1546–1550 and dedicated by Tansillo to Gonzalo Fernández de Córdoba, a
+                        Spanish aristocrat and governor of Milan (1520–1578). See Luigi Tansillo, <rend rend="italic">Rime. Introduzione e testo cura di Tobia R.
+                            Toscano. Commento di Erika Milburn e Rossano Pestarino</rend> (Rome: Bulzoni,  2011),  vol. 1, 358–9 and 243–44. 
+                    </p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000000084768589" label="part1">
                 <score xml:id="score-0000000948228621">
@@ -10973,11 +11088,9 @@
                         </measure>
                         <annot xml:id="annot-0000000919101821" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
-                            <p>Other sources: Ph, 1594; Ka, 1608; Ph, 1610; 1591<rend rend="sup">10</rend>; 1594<rend rend="sup">7</rend>; 1605<rend
-                                rend="sup">9</rend>; 1611<rend rend="sup">11</rend>; 1630<rend rend="sup">3</rend>; 1590<rend rend="sup">29</rend>
+                            <p>Other sources: Ph, 1594; Ka, 1608; Ph, 1610; 1591<rend rend="sup">10</rend>; 1594<rend rend="sup">7</rend>; 1605<rend rend="sup">9</rend>; 1611<rend rend="sup">11</rend>; 1630<rend rend="sup">3</rend>; 1590<rend rend="sup">29</rend>
                                 (English contrafacta <rend rend="italic" xml:space="preserve">In chains of hope and fear </rend>and <rend rend="italic">O hear me, heavenly
-                                    powers</rend>); 1609<rend rend="sup">15</rend> (devotional contrafactum); D-Mbsb, Ms Mus. 259 (devotional contrafactum <rend
-                                        rend="italic">Immobilis adsto / Hoc experiunt</rend>)</p>
+                                    powers</rend>); 1609<rend rend="sup">15</rend> (devotional contrafactum); D-Mbsb, Ms Mus. 259 (devotional contrafactum <rend rend="italic">Immobilis adsto / Hoc experiunt</rend>)</p>
                         </annot>
                     </section>
                 </score>
