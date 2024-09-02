@@ -122,8 +122,11 @@ M-04-6:
           parts:
             - title: "Seconda parte"
               id: 2
-#         - id: "M_04_6_09_Caro_Aminta_pur_voi.xhtml"
-#           name: "Caro Aminta pur voi"
+        - id: "M_04_6_09_Caro_Aminta_pur_voi.xhtml"
+          name: "Caro Aminta pur voi"
+          parts:
+            - title: "Seconda parte"
+              id: 2
 #         - id: "M_04_6_10_Non_porta_ghiaccio_Aprile.xhtml"
 #           name: "Non porta ghiaccio Aprile"
 #         - id: "M_04_6_11_Arsi_gran_tempo.xhtml"
