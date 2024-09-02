@@ -114,6 +114,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000059408380" label="A;1" type="app">
+                                <p>mensuration sign missing</p>
+                                <list corresp="#staff-000000198852758" type="meterSig">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000047950722" n="2">
                             <staff xml:id="staff-000000071226642" n="1">
@@ -2568,6 +2574,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001697104176" label="S;32" type="app">
+                                <p>d3 instead of c3</p>
+                                <list corresp="#p1ccd5n512v1b32s4">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000123179437" n="33">
                             <staff xml:id="staff-000000145293935" n="1">
@@ -3462,12 +3474,16 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph, 1594; Ka, 1608; Ph, 1610</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
             <mdiv xml:id="mdiv-0000000268678758" label="part2">
                 <score xml:id="score-0000001224093619">
-                    <scoreDef xml:id="scoredef-0000000607452730" meter.sym="common">
+                    <scoreDef xml:id="scoredef-0000000607452730" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
                         <pgHead xml:id="pghead-0000002051287314">
                             <rend xml:id="rend-0000000502798919" halign="center" valign="middle">
                                 <rend xml:id="rend-0000001227069120" fontsize="x-large">9. Non può, Filli, più il core<lb xml:id="lb-0000000478414432" />
@@ -5140,6 +5156,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000962541479" label="C;65" type="app">
+                                <p>SM instead of F</p>
+                                <list corresp="#p1cbd4n128v1b65s1">
+                                    <li>Am-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000172997766" n="66">
                             <staff xml:id="staff-000000107018271" n="1">
@@ -6602,7 +6624,6 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000802146769" label="app" plist="mrest-000000020090771" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000058128011" n="87">
                             <staff xml:id="staff-000000083496591" n="1">
@@ -6635,7 +6656,6 @@
                                     <mRest xml:id="mrest-000000180338213" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000001709094428" label="app" plist="mrest-000000166081969" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000034563904" n="88">
                             <staff xml:id="staff-000000204275323" n="1">
@@ -6680,7 +6700,6 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000675386015" label="app" plist="mrest-000000059837306" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
                         </measure>
                         <measure xml:id="measure-000000183127682" n="89">
                             <staff xml:id="staff-000000034723042" n="1">
@@ -6717,7 +6736,31 @@
                                     <note xml:id="p1cdd3n0v1b89s6" dur="1" oct="3" pname="d" tie="t" />
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000162995629" label="app" plist="mrest-000000162392123" source="Vi-1587 Am-1587 AnGa-1593 Sc_heir-1603 AnGa-1605">Vi-1587: [SB] rest, [BR] rest, [SB] rest (correct); Am-1587: [SB] rest, [BR] rest, [L] rest (incorrect); AnGa-1593: [L] rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am-1587 reading); Sc_heir-1603 and AnGa-1605: [SB] rest, [BR] rest, [L] rest (incorrect, derived from a copy of AnGa-1593 without the correction).</annot>
+                            <annot xml:id="annot-0000000643812166" label="Q;86-89" type="app">
+                                <p>SB rest, BR rest, SB rest (correct)</p>
+                                <list corresp="#mrest-000000020090771 #mrest-000000166081969 #mrest-000000059837306 #mrest-000000162392123">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
+                            <annot xml:id="annot-0000001801272319" label="Q;86-89" type="app">
+                                <p>SB rest, BR rest, L rest (incorrect)</p>
+                                <list corresp="#mrest-000000020090771 #mrest-000000166081969 #mrest-000000059837306 #mrest-000000162392123">
+                                    <li>Am-1587</li>
+                                </list>
+                            </annot>
+                            <annot xml:id="annot-0000000497684016" label="Q;86-89" type="app">
+                                <p>L rest, preceded by other erased rests (correct, but clearly derived from a correction of the Am, 1587 reading)</p>
+                                <list corresp="#mrest-000000020090771 #mrest-000000166081969 #mrest-000000059837306 #mrest-000000162392123">
+                                    <li>AnGa-1593</li>
+                                </list>
+                            </annot>
+                            <annot xml:id="annot-0000001814783163" label="Q;86-89" type="app">
+                                <p>SB rest, BR rest, L rest (incorrect, derived from a copy of AnGa, 1593 without the correction)</p>
+                                <list corresp="#mrest-000000020090771 #mrest-000000166081969 #mrest-000000059837306 #mrest-000000162392123">
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000136381566" n="90">
                             <staff xml:id="staff-000000103752046" n="1">
@@ -7286,6 +7329,15 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001032451053" label="S;98" type="app">
+                                <p>a2 instead of g2</p>
+                                <list corresp="#p1cgd4n128v1b98s4">
+                                    <li>Am-1587</li>
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000131007350" n="99">
                             <staff xml:id="staff-000000040789904" n="1">
