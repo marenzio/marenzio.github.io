@@ -19,6 +19,84 @@
         </fileDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">9. Caro Aminta, pur vuoi / Non può, Filli, più il core</rend>
+                        <lb />Dialogic Madrigal: abbAcC    bddBeE 
+                    </p>
+                    <table type="lyrics">
+                        <tr type="void">
+                            <td>
+                                <rend rend="italic">Prima parte</rend>
+                            </td>
+                            <td />
+                        </tr>
+                        <tr xml:id="line1">
+                            <td>Caro Aminta, pur vuoi</td>
+                            <td>Dear Amynth, alas, you want to</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Lasciar, ahimè, quel fiore</td>
+                            <td>abandon the flower that</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>Che tua Filli col core</td>
+                            <td>your Phyllis gave you with all her heart</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>Già ti donò ne’ più verd’anni suoi;</td>
+                            <td>in her youthful years;</td>
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Né in questa dipartita</td>
+                            <td>nor in this departure tell her at least:</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Dirli almen: “Resta in pace, a Dio mia vita”.</td>
+                            <td>“Remain in peace, farewell, my life.”.</td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr type="void">
+                            <td>
+                                <rend rend="italic">Seconda parte (Riposta)</rend>
+                            </td>
+                            <td />
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Non può, Filli, più il core.</td>
+                            <td>Phyllis, my heart can bear no more.</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Mira pur tu l’effetto</td>
+                            <td>See for yourself the effect</td>
+                        </tr>
+                        <tr xml:id="line9">
+                            <td>De l’ardente mio affetto</td>
+                            <td>of my ardent love</td>
+                        </tr>
+                        <tr xml:id="line10">
+                            <td>Che si trabocca giù dagl’occhi fuore.</td>
+                            <td>which overflows from my eyes.</td>
+                        </tr>
+                        <tr xml:id="line11">
+                            <td>Sia voce il dolor mio,</td>
+                            <td>Let my suffering be my voice,</td>
+                        </tr>
+                        <tr xml:id="line12">
+                            <td>Egli in vece di me ti dica: “a Dio”.  </td>
+                            <td>and utter in my place “farewell” to you.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000000411152384" label="part1">
                 <score xml:id="score-0000000288055489">
