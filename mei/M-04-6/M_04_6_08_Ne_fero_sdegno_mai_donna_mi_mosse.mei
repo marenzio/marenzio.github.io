@@ -7164,6 +7164,9 @@
                                     <li>all</li>
                                 </list>
                             </annot>
+                            <tempo xml:id="tempo-0000001482837851" place="above" staff="1" tstamp="0.000000">
+                                <rend xml:id="rend-0000001954446701" fontname="VerovioText"></rend> = <rend xml:id="rend-0000001934620248" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-000000200615149" n="39">
                             <staff xml:id="staff-000000081931844" n="1">
@@ -7754,6 +7757,9 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <tempo xml:id="tempo-0000001132738485" place="above" staff="1" tstamp="0.000000">
+                                <rend xml:id="rend-0000000231190302" fontname="VerovioText"></rend> = <rend xml:id="rend-0000001559583773" fontname="VerovioText"></rend>
+                            </tempo>
                         </measure>
                         <measure xml:id="measure-000000128827596" n="42">
                             <staff xml:id="staff-000000163146280" n="1">
