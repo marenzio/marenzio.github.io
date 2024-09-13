@@ -29,28 +29,36 @@
                     </p>
                     <table type="lyrics">
                         <tr xml:id="line1">
-                            <td>Non porta ghiaccio Aprile,</td><td>April does not bring ice,</td>
+                            <td>Non porta ghiaccio Aprile,</td>
+                            <td>April does not bring ice,</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td>Ma lieti e vaghi fiori.</td><td>but pleasing and beautiful flowers.</td>
+                            <td>Ma lieti e vaghi fiori.</td>
+                            <td>but pleasing and beautiful flowers.</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td>O bellissima mia cruda Licori,</td><td>O my cruel and fair Lycoris,</td>
+                            <td>O bellissima mia cruda Licori,</td>
+                            <td>O my cruel and fair Lycoris,</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td>Deh, com’avien che per mia sorte dura</td><td>why for my harsh destiny</td>
+                            <td>Deh, com’avien che per mia sorte dura</td>
+                            <td>why for my harsh destiny</td>
                         </tr>
                         <tr xml:id="line5">
-                            <td>Cangi suo stil natura</td><td>does nature change its ways,</td>
+                            <td>Cangi suo stil natura</td>
+                            <td>does nature change its ways,</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td>E sua natura il cielo?</td><td>and heaven its nature?</td>
+                            <td>E sua natura il cielo?</td>
+                            <td>and heaven its nature?</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td>Miro in te sola e sol in te discerno</td><td>I see only in you, and in you only recognize</td>
+                            <td>Miro in te sola e sol in te discerno</td>
+                            <td>I see only in you, and in you only recognize</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td>Viso di Primavera e cor di Verno.</td><td>the face of Spring and the heart of Winter.</td>
+                            <td>Viso di Primavera e cor di Verno.</td>
+                            <td>the face of Spring and the heart of Winter.</td>
                         </tr>
                     </table>
                     <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
@@ -5699,6 +5707,22 @@
                         <annot xml:id="annot-0000000919101821" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
                             <p>Other sources: Ph, 1594; Ka, 1608; Ph, 1610</p>
+                        </annot>
+                        <annot xml:id="annot-0000001406880183" type="app-text">
+                            <annot corresp="#line6" label="6">
+                                <p>sua natnra</p>
+                                <list>
+                                    <li corresp="#verse-000000161834331 #verse-000000011212375 #verse-000000157553451 #verse-000000168503594 #verse-000000081485055 #verse-000000056268888 #verse-000000183745001 #verse-000000161222031">Vi-1587 – AQ<rend rend="sub">1</rend>
+                                    </li>
+                                </list>
+                            </annot>
+                            <annot corresp="#line7" label="7">
+                                <p>discerdo</p>
+                                <list>
+                                    <li corresp="#verse-000000209538618 #verse-000000093704086 #verse-000000100947514">Sc-heir-1603 – Q<rend rend="sub">4</rend>
+                                    </li>
+                                </list>
+                            </annot>
                         </annot>
                     </section>
                 </score>
