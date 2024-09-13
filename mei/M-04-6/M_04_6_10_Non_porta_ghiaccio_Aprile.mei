@@ -1392,7 +1392,7 @@
                         <measure xml:id="measure-000000036286967" n="20">
                             <staff xml:id="staff-000000045778316" n="1">
                                 <layer xml:id="layer-000000145861065" n="1">
-                                    <tuplet xml:id="tuplet-000000094222679" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000094222679" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd4n0v1b20s1" dots="1" dur="2" oct="4" pname="b">
                                             <verse xml:id="verse-000000150268072" n="1">
                                                 <syl xml:id="syl-000000010369705" con="d" wordpos="i">Can</syl>
@@ -1413,7 +1413,7 @@
                             </staff>
                             <staff xml:id="staff-000000032508031" n="2">
                                 <layer xml:id="layer-000000076436824" n="1">
-                                    <tuplet xml:id="tuplet-000000142083158" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000142083158" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cfd4n0v1b20s2" dots="1" dur="2" oct="4" pname="f">
                                             <accid xml:id="accid-000000031138489" accid="s" />
                                             <verse xml:id="verse-000000119403301" n="1">
@@ -1441,7 +1441,7 @@
                             </staff>
                             <staff xml:id="staff-000000011941810" n="3">
                                 <layer xml:id="layer-000000078442203" n="1">
-                                    <tuplet xml:id="tuplet-000000162033930" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000162033930" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cdd4n0v1b20s3" dots="1" dur="2" oct="4" pname="d">
                                             <accid xml:id="accid-000000188083797" accid="s" />
                                             <verse xml:id="verse-000000053218815" n="1">
@@ -1474,7 +1474,7 @@
                             </staff>
                             <staff xml:id="staff-000000132608048" n="5">
                                 <layer xml:id="layer-000000071607348" n="1">
-                                    <tuplet xml:id="tuplet-000000084620298" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000084620298" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd3n0v1b20s5" dots="1" dur="2" oct="3" pname="b">
                                             <verse xml:id="verse-000000101798262" n="1">
                                                 <syl xml:id="syl-000000059628286" con="d" wordpos="i">Can</syl>
@@ -1495,7 +1495,7 @@
                             </staff>
                             <staff xml:id="staff-000000143590460" n="6">
                                 <layer xml:id="layer-000000028563435" n="1">
-                                    <tuplet xml:id="tuplet-000000123924015" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000123924015" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd2n0v1b20s6" dots="1" dur="2" oct="2" pname="b">
                                             <verse xml:id="verse-000000018697088" n="1">
                                                 <syl xml:id="syl-000000192894952" con="d" wordpos="i">Can</syl>
@@ -1514,11 +1514,16 @@
                                     </tuplet>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000345832525" startid="#p1cbd4n0v1b20s1" endid="#p1ccd5n682v1b21s1" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000000482078620" startid="#p1cfd4n0v1b20s2" endid="#p1cad4n682v1b21s2" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000000210662229" startid="#p1cdd4n0v1b20s3" endid="#p1ced4n682v1b21s3" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000000914554600" startid="#p1cbd3n0v1b20s5" endid="#p1cad3n682v1b21s5" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000000650753481" startid="#p1cbd2n0v1b20s6" endid="#p1cad2n682v1b21s6" func="ligat" />
                         </measure>
                         <measure xml:id="measure-000000106005346" n="21">
                             <staff xml:id="staff-000000203935816" n="1">
                                 <layer xml:id="layer-000000158941083" n="1">
-                                    <tuplet xml:id="tuplet-000000108310484" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000108310484" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd4n0v1b21s1" dur="1" oct="4" pname="b">
                                             <verse xml:id="verse-000000043699899" n="1">
                                                 <syl xml:id="syl-000000118939209" wordpos="t">stil</syl>
@@ -1535,7 +1540,7 @@
                             </staff>
                             <staff xml:id="staff-000000014239929" n="2">
                                 <layer xml:id="layer-000000180526640" n="1">
-                                    <tuplet xml:id="tuplet-000000076368492" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000076368492" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cgd4n0v1b21s2" dur="1" oct="4" pname="g">
                                             <accid xml:id="accid-000000013624742" accid="s" />
                                             <verse xml:id="verse-000000053653674" n="1">
@@ -1552,7 +1557,7 @@
                             </staff>
                             <staff xml:id="staff-000000117707132" n="3">
                                 <layer xml:id="layer-000000132457573" n="1">
-                                    <tuplet xml:id="tuplet-000000059484508" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000059484508" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1ced4n0v1b21s3" dur="1" oct="4" pname="e">
                                             <verse xml:id="verse-000000205976061" n="1">
                                                 <syl xml:id="syl-000000044948365" wordpos="t">stil</syl>
@@ -1573,7 +1578,7 @@
                             </staff>
                             <staff xml:id="staff-000000150048644" n="5">
                                 <layer xml:id="layer-000000161489220" n="1">
-                                    <tuplet xml:id="tuplet-000000000422551" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000000422551" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd3n0v1b21s5" dur="1" oct="3" pname="b">
                                             <verse xml:id="verse-000000171850934" n="1">
                                                 <syl xml:id="syl-000000001265093" wordpos="t">stil</syl>
@@ -1589,7 +1594,7 @@
                             </staff>
                             <staff xml:id="staff-000000104758738" n="6">
                                 <layer xml:id="layer-000000059521653" n="1">
-                                    <tuplet xml:id="tuplet-000000006430733" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000006430733" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1ced3n0v1b21s6" dur="1" oct="3" pname="e">
                                             <verse xml:id="verse-000000090616892" n="1">
                                                 <syl xml:id="syl-000000194742248" wordpos="t">stil</syl>
@@ -2361,7 +2366,7 @@
                         <measure xml:id="measure-000000211343701" n="33">
                             <staff xml:id="staff-000000074719900" n="1">
                                 <layer xml:id="layer-000000157889698" n="1">
-                                    <tuplet xml:id="tuplet-000000021411864" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000021411864" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd4n0v1b33s1" dots="1" dur="2" oct="4" pname="b">
                                             <verse xml:id="verse-000000107843690" n="1">
                                                 <syl xml:id="syl-000000180524199" con="d" wordpos="i">Can</syl>
@@ -2382,7 +2387,7 @@
                             </staff>
                             <staff xml:id="staff-000000011026671" n="2">
                                 <layer xml:id="layer-000000023710621" n="1">
-                                    <tuplet xml:id="tuplet-000000011708911" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000011708911" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cfd4n0v1b33s2" dots="1" dur="2" oct="4" pname="f">
                                             <accid xml:id="accid-000000197087876" accid="s" />
                                             <verse xml:id="verse-000000063634629" n="1">
@@ -2410,7 +2415,7 @@
                             </staff>
                             <staff xml:id="staff-000000203357906" n="3">
                                 <layer xml:id="layer-000000171528250" n="1">
-                                    <tuplet xml:id="tuplet-000000005267145" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000005267145" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cdd4n0v1b33s3" dots="1" dur="2" oct="4" pname="d">
                                             <accid xml:id="accid-000000113942708" accid="s" />
                                             <verse xml:id="verse-000000118655693" n="1">
@@ -2443,7 +2448,7 @@
                             </staff>
                             <staff xml:id="staff-000000025741956" n="5">
                                 <layer xml:id="layer-000000158186246" n="1">
-                                    <tuplet xml:id="tuplet-000000154136441" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000154136441" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd3n0v1b33s5" dots="1" dur="2" oct="3" pname="b">
                                             <verse xml:id="verse-000000145716133" n="1">
                                                 <syl xml:id="syl-000000065806228" con="d" wordpos="i">Can</syl>
@@ -2464,7 +2469,7 @@
                             </staff>
                             <staff xml:id="staff-000000102061645" n="6">
                                 <layer xml:id="layer-000000098386696" n="1">
-                                    <tuplet xml:id="tuplet-000000123914409" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000123914409" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd2n0v1b33s6" dots="1" dur="2" oct="2" pname="b">
                                             <verse xml:id="verse-000000172608474" n="1">
                                                 <syl xml:id="syl-000000151882045" con="d" wordpos="i">Can</syl>
@@ -2483,11 +2488,16 @@
                                     </tuplet>
                                 </layer>
                             </staff>
+                            <bracketSpan xml:id="bspan-0000000196859165" startid="#p1cbd4n0v1b33s1" endid="#p1ccd5n682v1b34s1" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000000547444017" startid="#p1cfd4n0v1b33s2" endid="#p1cad4n682v1b34s2" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000000720573803" startid="#p1cdd4n0v1b33s3" endid="#p1ced4n682v1b34s3" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000001099072060" startid="#p1cbd3n0v1b33s5" endid="#p1cad3n682v1b34s5" func="ligat" />
+                            <bracketSpan xml:id="bspan-0000001705667211" startid="#p1cbd2n0v1b33s6" endid="#p1cad2n682v1b34s6" func="ligat" />
                         </measure>
                         <measure xml:id="measure-000000024002137" n="34">
                             <staff xml:id="staff-000000056512183" n="1">
                                 <layer xml:id="layer-000000146720122" n="1">
-                                    <tuplet xml:id="tuplet-000000194887852" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000194887852" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd4n0v1b34s1" dur="1" oct="4" pname="b">
                                             <verse xml:id="verse-000000119286385" n="1">
                                                 <syl xml:id="syl-000000086290197" wordpos="t">stil</syl>
@@ -2504,7 +2514,7 @@
                             </staff>
                             <staff xml:id="staff-000000093380952" n="2">
                                 <layer xml:id="layer-000000181605321" n="1">
-                                    <tuplet xml:id="tuplet-000000115438052" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000115438052" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cgd4n0v1b34s2" dur="1" oct="4" pname="g">
                                             <accid xml:id="accid-000000045500412" accid="s" />
                                             <verse xml:id="verse-000000205451177" n="1">
@@ -2521,7 +2531,7 @@
                             </staff>
                             <staff xml:id="staff-000000061920805" n="3">
                                 <layer xml:id="layer-000000202072731" n="1">
-                                    <tuplet xml:id="tuplet-000000150580075" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000150580075" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1ced4n0v1b34s3" dur="1" oct="4" pname="e">
                                             <verse xml:id="verse-000000111094084" n="1">
                                                 <syl xml:id="syl-000000029961521" wordpos="t">stil</syl>
@@ -2542,7 +2552,7 @@
                             </staff>
                             <staff xml:id="staff-000000025541942" n="5">
                                 <layer xml:id="layer-000000197542433" n="1">
-                                    <tuplet xml:id="tuplet-000000070514772" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000070514772" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1cbd3n0v1b34s5" dur="1" oct="3" pname="b">
                                             <verse xml:id="verse-000000191101742" n="1">
                                                 <syl xml:id="syl-000000097136089" wordpos="t">stil</syl>
@@ -2558,7 +2568,7 @@
                             </staff>
                             <staff xml:id="staff-000000185423303" n="6">
                                 <layer xml:id="layer-000000077038755" n="1">
-                                    <tuplet xml:id="tuplet-000000155710445" num="3" numbase="2" num.format="count">
+                                    <tuplet xml:id="tuplet-000000155710445" num="3" numbase="2" bracket.place="above" num.format="count">
                                         <note xml:id="p1ced3n0v1b34s6" dur="1" oct="3" pname="e">
                                             <verse xml:id="verse-000000015620408" n="1">
                                                 <syl xml:id="syl-000000000396111" wordpos="t">stil</syl>
