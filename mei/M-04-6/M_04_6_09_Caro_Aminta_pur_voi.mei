@@ -3498,7 +3498,7 @@
                         <measure xml:id="measure-000000153970705" right="end" n="44">
                             <staff xml:id="staff-000000031562164" n="1">
                                 <layer xml:id="layer-000000166332335" n="1">
-                                    <note xml:id="p1cad4n0v1b44s1" dur="1" oct="4" pname="a">
+                                    <note xml:id="p1cad4n0v1b44s1" dur="1" fermata="above" oct="4" pname="a">
                                         <verse xml:id="verse-000000075300581" n="1">
                                             <syl xml:id="syl-000000212881667" wordpos="t">ta”.</syl>
                                         </verse>
@@ -3507,7 +3507,7 @@
                             </staff>
                             <staff xml:id="staff-000000207315638" n="2">
                                 <layer xml:id="layer-000000200673420" n="1">
-                                    <note xml:id="p1ced4n0v1b44s2" dur="1" oct="4" pname="e">
+                                    <note xml:id="p1ced4n0v1b44s2" dur="1" fermata="above" oct="4" pname="e">
                                         <verse xml:id="verse-000000145158451" n="1">
                                             <syl xml:id="syl-000000012368776" wordpos="t">ta”.</syl>
                                         </verse>
@@ -3516,7 +3516,7 @@
                             </staff>
                             <staff xml:id="staff-000000211390924" n="3">
                                 <layer xml:id="layer-000000113107069" n="1">
-                                    <note xml:id="p1ccd4n0v1b44s3" dur="1" oct="4" pname="c">
+                                    <note xml:id="p1ccd4n0v1b44s3" dur="1" fermata="above" oct="4" pname="c">
                                         <accid xml:id="accid-000000165562410" accid="s" />
                                         <verse xml:id="verse-000000173478767" n="1">
                                             <syl xml:id="syl-000000065339302" wordpos="t">ta”.</syl>
@@ -3526,7 +3526,7 @@
                             </staff>
                             <staff xml:id="staff-000000119418538" n="4">
                                 <layer xml:id="layer-000000196724717" n="1">
-                                    <note xml:id="p1cad4n0v1b44s4" dur="1" oct="3" pname="a">
+                                    <note xml:id="p1cad4n0v1b44s4" dur="1" fermata="above" oct="3" pname="a">
                                         <verse xml:id="verse-000000158401819" n="1">
                                             <syl xml:id="syl-000000031586863" wordpos="t">ta”.</syl>
                                         </verse>
@@ -3535,7 +3535,7 @@
                             </staff>
                             <staff xml:id="staff-000000041361484" n="5">
                                 <layer xml:id="layer-000000001900084" n="1">
-                                    <note xml:id="p1ced3n0v1b44s5" dur="1" oct="3" pname="e">
+                                    <note xml:id="p1ced3n0v1b44s5" dur="1" fermata="above" oct="3" pname="e">
                                         <verse xml:id="verse-000000106964313" n="1">
                                             <syl xml:id="syl-000000118335754" wordpos="t">ta”.</syl>
                                         </verse>
@@ -3544,7 +3544,7 @@
                             </staff>
                             <staff xml:id="staff-000000121214975" n="6">
                                 <layer xml:id="layer-000000181872834" n="1">
-                                    <note xml:id="p1cad2n0v1b44s6" dur="1" oct="2" pname="a">
+                                    <note xml:id="p1cad2n0v1b44s6" dur="1" fermata="above" oct="2" pname="a">
                                         <verse xml:id="verse-000000044549850" n="1">
                                             <syl xml:id="syl-000000137912693" wordpos="t">ta”.</syl>
                                         </verse>
