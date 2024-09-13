@@ -4586,10 +4586,10 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000173999422" n="59">
+                        <measure xml:id="measure-000000173999422" right="end" n="59">
                             <staff xml:id="staff-000000187659607" n="1">
                                 <layer xml:id="layer-000000053560401" n="1">
-                                    <note xml:id="p1cdd5n0v1b59s1" dur="1" oct="5" pname="d">
+                                    <note xml:id="p1cdd5n0v1b59s1" dur="1" fermata="above" oct="5" pname="d">
                                         <verse xml:id="verse-000000212389772" n="1">
                                             <syl xml:id="syl-000000175998685" wordpos="t">a.</syl>
                                         </verse>
@@ -4598,7 +4598,7 @@
                             </staff>
                             <staff xml:id="staff-000000200758803" n="2">
                                 <layer xml:id="layer-000000116784259" n="1">
-                                    <note xml:id="p1cad4n0v1b59s2" dur="1" oct="4" pname="a">
+                                    <note xml:id="p1cad4n0v1b59s2" dur="1" fermata="above" oct="4" pname="a">
                                         <verse xml:id="verse-000000043167096" n="1">
                                             <syl xml:id="syl-000000096156814" wordpos="t">a.</syl>
                                         </verse>
@@ -4607,7 +4607,7 @@
                             </staff>
                             <staff xml:id="staff-000000028073030" n="3">
                                 <layer xml:id="layer-000000105356773" n="1">
-                                    <note xml:id="p1cfd4n0v1b59s3" dur="1" oct="4" pname="f">
+                                    <note xml:id="p1cfd4n0v1b59s3" dur="1" fermata="above" oct="4" pname="f">
                                         <accid xml:id="accid-000000115936750" accid="s" />
                                         <verse xml:id="verse-000000155386639" n="1">
                                             <syl xml:id="syl-000000180410863" wordpos="t">a.</syl>
@@ -4617,7 +4617,7 @@
                             </staff>
                             <staff xml:id="staff-000000155615847" n="4">
                                 <layer xml:id="layer-000000015384570" n="1">
-                                    <note xml:id="p1cdd5n0v1b59s4" dur="1" oct="4" pname="d">
+                                    <note xml:id="p1cdd5n0v1b59s4" dur="1" fermata="above" oct="4" pname="d">
                                         <verse xml:id="verse-000000214068768" n="1">
                                             <syl xml:id="syl-000000202560596" wordpos="t">a.</syl>
                                         </verse>
@@ -4626,7 +4626,7 @@
                             </staff>
                             <staff xml:id="staff-000000001964395" n="5">
                                 <layer xml:id="layer-000000058548894" n="1">
-                                    <note xml:id="p1cad3n0v1b59s5" dur="1" oct="3" pname="a">
+                                    <note xml:id="p1cad3n0v1b59s5" dur="1" fermata="above" oct="3" pname="a">
                                         <verse xml:id="verse-000000097942827" n="1">
                                             <syl xml:id="syl-000000121984147" wordpos="t">a.</syl>
                                         </verse>
@@ -4635,43 +4635,11 @@
                             </staff>
                             <staff xml:id="staff-000000063894771" n="6">
                                 <layer xml:id="layer-000000177788421" n="1">
-                                    <note xml:id="p1cdd3n0v1b59s6" dur="1" oct="3" pname="d">
+                                    <note xml:id="p1cdd3n0v1b59s6" dur="1" fermata="above" oct="3" pname="d">
                                         <verse xml:id="verse-000000023667921" n="1">
                                             <syl xml:id="syl-000000212380862" wordpos="t">a.</syl>
                                         </verse>
                                     </note>
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-000000020714025" right="end" n="60">
-                            <staff xml:id="staff-000000080023301" n="1">
-                                <layer xml:id="layer-000000176348384" n="1">
-                                    <mRest xml:id="mrest-000000052273452" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000134294128" n="2">
-                                <layer xml:id="layer-000000005279432" n="1">
-                                    <mRest xml:id="mrest-000000176804737" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000025766989" n="3">
-                                <layer xml:id="layer-000000168263649" n="1">
-                                    <mRest xml:id="mrest-000000128148363" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000101242737" n="4">
-                                <layer xml:id="layer-000000070143204" n="1">
-                                    <mRest xml:id="mrest-000000167095239" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000187361137" n="5">
-                                <layer xml:id="layer-000000126326471" n="1">
-                                    <mRest xml:id="mrest-000000156893217" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000118703738" n="6">
-                                <layer xml:id="layer-000000149555534" n="1">
-                                    <mRest xml:id="mrest-000000089764330" />
                                 </layer>
                             </staff>
                         </measure>
