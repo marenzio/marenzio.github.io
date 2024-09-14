@@ -19,6 +19,111 @@
         </fileDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">Arsi gran tempo, e del mio foco indegno / Lasso, e conosco or ben che quanto i’ dissi</rend>
+                        <lb />Torquato Tasso<lb />Sonnet: ABBA ABBA CDE EDC
+                    </p>
+                    <table type="lyrics">
+                        <tr type="void">
+                            <td>
+                                <rend rend="italic">Prima parte</rend>
+                            </td>
+                            <td />
+                        </tr>
+                        <tr xml:id="line1">
+                            <td>Arsi gran tempo, e del mio foco indegno</td>
+                            <td>For a long time I burned, and the object</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Esca fu sol beltà terrena e frale,</td>
+                            <td>of my shameful flame was a mere frail and earthly beauty,</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>E qual palustre augel pur sempre l’ale</td>
+                            <td>but, like a bird in the swamp, I still turned my muddy wings</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>Volsi di fango asperse ad umil segno.</td>
+                            <td>to a sign of humility (= the Cross).</td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Or che può gelo di sì giusto sdegno</td>
+                            <td>Now that the chill of just scorn</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Spegner nel cor l’incendio aspr’e mortale,</td>
+                            <td>can extinguish the harsh and deadly fire in my heart,</td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Scosso d’ogni vil som’al ciel ne sale</td>
+                            <td>my eager mind rises with prompt flight to heaven,</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Con pronto volo il mio non pigro ingegno.</td>
+                            <td>liberated from any vile burden.</td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr type="void">
+                            <td>
+                                <rend rend="italic">Seconda parte</rend>
+                            </td>
+                            <td />
+                        </tr>
+                        <tr xml:id="line9">
+                            <td>Lasso, e conosco or ben che quanto i’ dissi</td>
+                            <td>Alas, I know now very well that what I said </td>
+                        </tr>
+                        <tr xml:id="line10">
+                            <td>Fu voce d’uom, cui ne’ tormenti astringa</td>
+                            <td>were the words of someone tormented by an unjust judge</td>
+                        </tr>
+                        <tr xml:id="line11">
+                            <td>Giudice ingiusto a traviar dal vero.</td>
+                            <td>to lead him astray from truth. </td>
+                        </tr>
+                        <tr type="void">
+                            <td />
+                            <td />
+                        </tr>
+                        <tr xml:id="line12">
+                            <td>Perfida, ancor ne la mia lingua io spero</td>
+                            <td>Deceitful woman, I still hope that my words</td>
+                        </tr>
+                        <tr xml:id="line13">
+                            <td>Che, donde pria ti trasse, ella ti spinga</td>
+                            <td>will push you towards the deepest depth of blind oblivion,</td>
+                        </tr>
+                        <tr xml:id="line14">
+                            <td>D’un cieco oblio ne’ più profondi abissi.</td>
+                            <td>where it first found you.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        <rend rend="italic">Rime de gli academici eterei</rend> [Padua, 1567], 68v; <rend rend="italic">Rime del signor Torquato Tasso. Parte prima.
+                        […]</rend> (Venice: Manuzio, 1581), 16 (<ptr target="http://bsb3.bsb.lrz.de/~db/1019/bsb10190145/images/index.html?id=10190145&amp;fip=&amp;no=12&amp;seite=44" label="available online as of September 2024" />)</p>
+                </div>
+                <div>
+                    <head>Notes</head>
+                    <p>Both contemporary editions present a text that corresponds to the one set by Marenzio. In Vi, 1587, copy of I-Vnm only, “T. Tasso” is
+                        added by hand on the upper margin. For the use of the Aldine edition by Marenzio, see also the notes to n. 12.</p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000001830898586" label="part1">
                 <score xml:id="score-0000002027690327">
