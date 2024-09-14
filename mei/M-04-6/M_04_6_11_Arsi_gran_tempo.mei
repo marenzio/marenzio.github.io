@@ -762,6 +762,12 @@
                                     <mRest xml:id="mrest-000000187996991" />
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000112398471" label="T;11" type="app">
+                                <p>SM instead of F</p>
+                                <list corresp="#p1ccd4n384v1b11s5">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000186591005" n="12">
                             <staff xml:id="staff-000000114325556" n="1">
@@ -8948,6 +8954,14 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001594356436" label="A;113" type="app">
+                                <p>flat missing</p>
+                                <list corresp="#p1ced4n0v1b113s3">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000061299246" n="114">
                             <staff xml:id="staff-000000027376192" n="1">
@@ -9398,6 +9412,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000835578632" label="S;118" type="app">
+                                <p>SM instead of F</p>
+                                <list corresp="#p1cgd4n128v1b118s4">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000160366180" n="119">
                             <staff xml:id="staff-000000204757933" n="1">
@@ -10270,6 +10290,19 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001457551437" label="C;127" type="app">
+                                <p>g2f2 instead of a2g2</p>
+                                <list corresp="#p1cad3n896v1b127s1 #p1cgd3n960v1b127s1">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
+                            <annot xml:id="annot-0000000940684518" label="B;127" type="app">
+                                <p>g1f1 instead of f1e1</p>
+                                <list corresp="#p1cfd2n896v1b127s6 #p1ced2n960v1b127s6">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000213642018" n="128">
                             <staff xml:id="staff-000000084841990" n="1">
@@ -11897,6 +11930,12 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001460146493" label="C;145" type="app">
+                                <p>c3 instead of b2</p>
+                                <list corresp="#p1cbd3n0v1b145s1">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000015030468" n="146">
                             <staff xml:id="staff-000000062128901" n="1">
