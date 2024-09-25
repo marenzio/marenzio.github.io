@@ -30,6 +30,65 @@
         </revisionDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">Questa ordì il laccio, questa</rend>
+                        <lb />Giovanni Battista Strozzi il Vecchio (1504–71)? / Torquato Tasso?<lb />Madrigal: aB(b)ABcc
+                    </p>
+                    <table type="lyrics">
+                        <tr xml:id="line1">
+                            <td>Questa ordì il laccio, questa</td>
+                            <td>This one set the snare, this</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Sì bella man fra fiori e l’erba il tese;</td>
+                            <td>beautiful hand hid it among grass and flower;</td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>E questa il cor mi prese, e fu sì presta</td>
+                            <td>and this one cought my heart, and was so quick</td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>A trarlo in mezzo a mille fiamme accese.</td>
+                            <td>to throw it among a thousand burning flames.</td>
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Or che l’ho qui ristretta,</td>
+                            <td>Now that I hold her fast,</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Vendett<rend rend="italic">a</rend>, Amor, vendetta!</td>
+                            <td>let’s have revenge, Love, let’s have revenge!</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        <rend rend="italic">Rime del signor Torquato Tasso. Parte prima. […]</rend> (Venice: Manuzio,  1581), 113 (<ptr target="http://bsb3.bsb.lrz.de/~db/1019/bsb10190145/images/index.html?id=10190145&amp;fip=&amp;no=17&amp;seite=141" label="available online as                         of September 2024" />) and <rend rend="italic">Madrigali di Giovambatista Strozzi</rend> (Florence: Sermartelli, 1593), 62
+                    </p>
+                </div>
+                <div>
+                    <head>Notes on attribution and different versions</head>
+                    <p>First published and attributed to Tasso in <rend rend="italic">Rime del signor Torquato Tasso. Parte prima. […]</rend>, Manuzio, Venice 1581,
+                        113. The attribution to Tasso is contested by the medorn critical literature on the ground that the Aldine print was not authorized by the
+                        poet, and <rend rend="italic">Questa ordì</rend> does not appear in any other authentic source. See Lanfranco Caretti, <rend rend="italic">Studi
+                            sulle rime del Tasso</rend> (Rome: Edizioni di Storia e Letteratura, 1950), 25, n. 30.  The madrigal appears also, but with variants, in
+                        <rend rend="italic">Madrigali di Giovambatista Strozzi</rend> (Florence: Sermartelli, 1593), 62. According to its Preface, the print is a
+                        posthumous collection edited by the sons of Giovambattista Strozzi the Elder (1504-1571), Lorenzo and Filippo, thus the attribution should
+                        be considered quite uncertain as well.  The text used by Marenzio corresponds exactly with the one in the Tasso edition, and also
+                        coincides with the text as set to music by Lelio Bertani’s First book of madrigal for five voices (1584) and Monteverdi’s First book of
+                        madrigals (1587). Thus, the three composers must have used the Manuzio edition as their common source. Marenzio clarly used the Aldine not
+                        only for this text, but also for the other two Tasso poems of this book, <rend rend="italic">Arsi gran tempo, e del mio foco indegno /
+                            Lasso, e conosco or ben che quanto i’ dissi and Di nettare amoroso ebro la mente / Sonar le labra, e vi restaro i segni.</rend>
+                    </p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000000798990435">
                 <score xml:id="score-0000000393617939">
