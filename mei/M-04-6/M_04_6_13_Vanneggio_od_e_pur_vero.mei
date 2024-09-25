@@ -1028,6 +1028,12 @@
                                     <mRest xml:id="mrest-000000169893047" />
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001159003893" label="Q;13" type="app">
+                                <p>SF instead of F</p>
+                                <list corresp="#p1cbd4n768v1b13s2 #p1cad4n896v1b13s2">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000197783487" n="14">
                             <staff xml:id="staff-000000070173605" n="1">
@@ -3202,6 +3208,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000281234629" label="B;41" type="app">
+                                <p>d2 instead of c2</p>
+                                <list corresp="#p1ccd3n768v1b41s6">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000148620706" n="42">
                             <staff xml:id="staff-000000136208371" n="1">
@@ -5156,6 +5168,14 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000202682578" label="T;62" type="app">
+                                <p>missing</p>
+                                <list corresp="#p1r512v1b62s5">
+                                    <li>AnGa-1593</li>
+                                    <li>Sc-heir-1603</li>
+                                    <li>AnGa-1605</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000015211466" n="63">
                             <staff xml:id="staff-000000001687577" n="1">
