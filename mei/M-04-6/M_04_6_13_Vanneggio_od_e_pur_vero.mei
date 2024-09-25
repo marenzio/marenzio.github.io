@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 13. Vanneggio, od è pur vero</title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,42 +17,54 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title />
-                    <respStmt />
-                </titleStmt>
-            </work>
-        </workDesc>
     </meiHead>
     <music>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-000000030924380" meter.sym="common">
-                        <staffGrp xml:id="m-000000073042361">
-                            <staffGrp xml:id="m-000000140776303" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
-                            </staffGrp>
+            <mdiv xml:id="mdiv-0000000789896126">
+                <score xml:id="score-0000000093444894">
+                    <scoreDef xml:id="scoredef-000000030924380" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000002051287314">
+                            <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000797887960" fontsize="x-large">13. Vanneggio, od è pur vero</rend>
+                            </rend>
+                            <rend xml:id="rend-0000000245018808" halign="right" valign="bottom">(Giovanni Battista Guarini)</rend>
+                        </pgHead>
+                        <pgFoot xml:id="pgfoot-0000001617619361">
+                            <rend xml:id="rend-0000001686278619" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000001604064740" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000000814477663" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001687027167" /> Vanneggio, od è pur vero</rend>
+                            <rend xml:id="rend-0000002007199627" halign="center" valign="bottom">
+                                <num xml:id="num-0000001210260674" label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp xml:id="m-000000140776303" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000380307573">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001931110977">C</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000110569734">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000877761118">Q</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000282164938">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001775246255">A</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001712814161">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000806377345">S</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000545489325">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000001813335836">T</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001789386575">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000001225678666">B</labelAbbr>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000076265766">
-                        <pb xml:id="pb-000000167811791" n="1" />
                         <measure xml:id="measure-000000027906289" n="1">
-                            <anchoredText xml:id="anchtxt-000000214240132">13. Vanneggio, od è pur vero  																																							(Pietro Barignano)</anchoredText>
                             <staff xml:id="staff-000000015805676" n="1">
                                 <layer xml:id="layer-000000059094577" n="1">
                                     <rest xml:id="p1r0v1b1s1" dur="4" />
@@ -1016,7 +1029,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000123183110" n="2" />
                         <measure xml:id="measure-000000197783487" n="14">
                             <staff xml:id="staff-000000070173605" n="1">
                                 <layer xml:id="layer-000000113332531" n="1">
@@ -2024,7 +2036,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000106166710" n="3" />
                         <measure xml:id="measure-000000084024950" n="27">
                             <staff xml:id="staff-000000208977114" n="1">
                                 <layer xml:id="layer-000000130953469" n="1">
@@ -2976,7 +2987,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000195519887" n="4" />
                         <measure xml:id="measure-000000157773516" n="40">
                             <staff xml:id="staff-000000139181011" n="1">
                                 <layer xml:id="layer-000000136128888" n="1">
@@ -4130,7 +4140,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000095941794" n="5" />
                         <measure xml:id="measure-000000113050957" n="52">
                             <staff xml:id="staff-000000125139938" n="1">
                                 <layer xml:id="layer-000000112052105" n="1">
@@ -5239,7 +5248,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000169723102" n="6" />
                         <measure xml:id="measure-000000036045469" n="64">
                             <staff xml:id="staff-000000175858546" n="1">
                                 <layer xml:id="layer-000000100457393" n="1">
@@ -5703,7 +5711,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000181392911" n="70" right="end">
+                        <measure xml:id="measure-000000181392911" right="end" n="70">
                             <staff xml:id="staff-000000121630617" n="1">
                                 <layer xml:id="layer-000000149694875" n="1">
                                     <mRest xml:id="mrest-000000008863750" />
