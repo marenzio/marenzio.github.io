@@ -1279,7 +1279,18 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000002031357957" label="app" plist="p1cgd3n448v1b8s6" source="Vi-1587 (GB-Obl and F-Pc only)">b2 instead of g2. In the other copies the note is corrected to G by a pasted cutout.</annot>
+                            <annot xml:id="annot-0000000317155492" label="B;8" type="app">
+                                <p>F instead of SF</p>
+                                <list corresp="#p1cgd3n448v1b8s6">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
+                            <annot xml:id="annot-0000001526650747" label="B;8" type="app">
+                                <p>b2 instead of g2. In the other copies the note is corrected to G by a pasted cutout.</p>
+                                <list corresp="#p1cgd3n448v1b8s6">
+                                    <li>Vi-1587 (GB-Obl and F-Pc only)</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000160591097" n="9">
                             <staff xml:id="staff-000000035458106" n="1">
@@ -4375,6 +4386,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000281012744" label="T;20" type="app">
+                                <p>SM instead of F</p>
+                                <list corresp="#p1cfd4n896v1b20s5">
+                                    <li>Am-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000044368673" n="21">
                             <staff xml:id="staff-000000151576687" n="1">
@@ -4792,6 +4809,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000438576145" label="Q;22" type="app">
+                                <p>a3b3 instead of b3a3</p>
+                                <list corresp="#p1cbd4n128v1b22s2 #p1cad4n256v1b22s2">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000140922846" n="23">
                             <staff xml:id="staff-000000162882411" n="1">
@@ -4905,6 +4928,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001572644212" label="Q;23" type="app">
+                                <p>F instead of SF</p>
+                                <list corresp="#p1cgd4n384v1b23s2">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000092554685" n="24">
                             <staff xml:id="staff-000000067105226" n="1">
@@ -6590,7 +6619,12 @@
                                     </note>
                                 </layer>
                             </staff>
-                            <annot xml:id="annot-0000000411158424" label="app" plist="p1ccd3n768v1b33s6" source="Vi-1587">corrected from a d2 in all copies</annot>
+                            <annot xml:id="annot-0000001742443403" label="B;33" type="app">
+                                <p>c2 corrected from a d2 in all copies</p>
+                                <list corresp="#p1ccd3n768v1b33s6">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000112981365" n="34">
                             <staff xml:id="staff-000000196422688" n="1">
@@ -8473,6 +8507,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000000088321159" label="C;42" type="app">
+                                <p>b3 instead of c4</p>
+                                <list corresp="#p1ccd5n256v1b42s1">
+                                    <li>Sc-heir-1603</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000131088414" n="43">
                             <staff xml:id="staff-000000205709238" n="1">
@@ -10545,6 +10585,12 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <annot xml:id="annot-0000001510030538" label="S;51-52" type="app">
+                                <p>SM instead of dotted SM</p>
+                                <list corresp="#p1ced5n768v1b51s4 #p1ced5n0v1b52s4">
+                                    <li>Vi-1587</li>
+                                </list>
+                            </annot>
                         </measure>
                         <measure xml:id="measure-000000068406847" n="53">
                             <staff xml:id="staff-000000199173175" n="1">
@@ -12776,6 +12822,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1590<rend rend="sup">29</rend> (English contrafactum <rend fontstyle="italic">The Fates, alas</rend>)</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
