@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 15. Donne, il celeste lume</title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,45 +17,66 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title />
-                    <respStmt />
-                </titleStmt>
-            </work>
-        </workDesc>
     </meiHead>
     <music>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-000000030924380" meter.sym="common">
-                        <staffGrp xml:id="m-000000084971748">
-                            <staffGrp xml:id="m-000000023059392" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto" lines="5" />
-                                <staffDef xml:id="sd6" n="6" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Canto terzo  (se piace)" lines="5" />
-                                <staffDef xml:id="sd7" n="7" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" label="Alto" lines="5" />
-                                <staffDef xml:id="sd8" n="8" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd9" n="9" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" label="Basso" lines="5" />
-                            </staffGrp>
+            <mdiv xml:id="mdiv-0000001542954330">
+                <score xml:id="score-0000001847730351">
+                    <scoreDef xml:id="scoredef-000000030924380" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000002051287314">
+                            <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000797887960" fontsize="x-large">15. Donne, il celeste lume</rend>
+                            </rend>
+                            <rend xml:id="rend-0000000245018808" halign="right" valign="bottom">(Cristoforo Castelletti)</rend>
+                        </pgHead>
+                        <pgFoot xml:id="pgfoot-0000001617619361">
+                            <rend xml:id="rend-0000001686278619" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000001604064740" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000000814477663" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001687027167" />Donne, il celeste lume</rend>
+                            <rend xml:id="rend-0000002007199627" halign="center" valign="bottom">
+                                <num xml:id="num-0000001210260674" label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp xml:id="m-000000023059392" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000002144394834">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001849195164">C1</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001420817941">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001451497108">A1</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001811856252">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000000849626651">T1</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001011459680">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000421073734">B1</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001662756007">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000002060852955">C2</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000704927339">Canto terzo  (se piace)</label>
+                                <labelAbbr xml:id="labelAbbr-0000001151418005">C3</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd7" n="7" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000103020245">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000795151705">A2</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd8" n="8" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000001642452803">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000001946453663">T2</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd9" n="9" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0">
+                                <label xml:id="label-0000000149025670">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000514476726">B2</labelAbbr>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000040154235">
-                        <pb xml:id="pb-000000020817339" n="1" />
                         <measure xml:id="measure-000000177836425" n="1">
-                            <anchoredText xml:id="anchtxt-000000077462307">15. Donne, il celeste lume  																																			(Cristoforo Castelletti)</anchoredText>
                             <staff xml:id="staff-000000047332508" n="1">
                                 <layer xml:id="layer-000000192386214" n="1">
                                     <note xml:id="p1cdd5n0v1b1s1" dur="1" oct="5" pname="d">
@@ -646,7 +668,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000129385704" n="2" />
                         <measure xml:id="measure-000000104543149" n="9">
                             <staff xml:id="staff-000000134570723" n="1">
                                 <layer xml:id="layer-000000011592995" n="1">
@@ -1397,7 +1418,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000168488990" n="3" />
                         <measure xml:id="measure-000000100739659" n="17">
                             <staff xml:id="staff-000000104767184" n="1">
                                 <layer xml:id="layer-000000078814181" n="1">
@@ -2253,7 +2273,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000206220158" n="4" />
                         <measure xml:id="measure-000000177962882" n="25">
                             <staff xml:id="staff-000000000767786" n="1">
                                 <layer xml:id="layer-000000012455603" n="1">
@@ -3021,7 +3040,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000098824044" n="5" />
                         <measure xml:id="measure-000000190374058" n="32">
                             <staff xml:id="staff-000000199648543" n="1">
                                 <layer xml:id="layer-000000091705197" n="1">
@@ -3605,7 +3623,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000048411188" n="6" />
                         <measure xml:id="measure-000000069193752" n="39">
                             <staff xml:id="staff-000000077079571" n="1">
                                 <layer xml:id="layer-000000058935661" n="1">
@@ -4402,7 +4419,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000133690197" n="7" />
                         <measure xml:id="measure-000000041533366" n="47">
                             <staff xml:id="staff-000000067543039" n="1">
                                 <layer xml:id="layer-000000151326596" n="1">
@@ -5289,7 +5305,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000190703044" n="8" />
                         <measure xml:id="measure-000000117854745" n="56">
                             <staff xml:id="staff-000000012586370" n="1">
                                 <layer xml:id="layer-000000165654152" n="1">
@@ -6290,7 +6305,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000003407112" n="9" />
                         <measure xml:id="measure-000000091841853" n="63">
                             <staff xml:id="staff-000000187100720" n="1">
                                 <layer xml:id="layer-000000105552081" n="1">
@@ -6985,7 +6999,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000093123361" n="10" />
                         <measure xml:id="measure-000000023021897" n="70">
                             <staff xml:id="staff-000000062872852" n="1">
                                 <layer xml:id="layer-000000169545704" n="1">
@@ -7659,7 +7672,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000035560698" n="11" />
                         <measure xml:id="measure-000000044937678" n="77">
                             <staff xml:id="staff-000000185170000" n="1">
                                 <layer xml:id="layer-000000169011919" n="1">
@@ -8565,7 +8577,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000021961346" n="12" />
                         <measure xml:id="measure-000000000746981" n="84">
                             <staff xml:id="staff-000000077182984" n="1">
                                 <layer xml:id="layer-000000214449859" n="1">
@@ -9616,7 +9627,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000111092215" n="13" />
                         <measure xml:id="measure-000000063997524" n="91">
                             <staff xml:id="staff-000000046173556" n="1">
                                 <layer xml:id="layer-000000093106195" n="1">
@@ -10358,7 +10368,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000160516927" n="14" />
                         <measure xml:id="measure-000000186530363" n="98">
                             <staff xml:id="staff-000000155280724" n="1">
                                 <layer xml:id="layer-000000024359957" n="1">
@@ -11109,7 +11118,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000103627091" n="15" />
                         <measure xml:id="measure-000000029612038" n="106">
                             <staff xml:id="staff-000000040837708" n="1">
                                 <layer xml:id="layer-000000057231647" n="1">
@@ -11627,7 +11635,6 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <pb xml:id="pb-000000068079293" n="16" />
                         <measure xml:id="measure-000000003655062" n="109">
                             <staff xml:id="staff-000000172569355" n="1">
                                 <layer xml:id="layer-000000085700968" n="1">
@@ -12061,7 +12068,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000158989832" n="113" right="end">
+                        <measure xml:id="measure-000000158989832" right="end" n="113">
                             <staff xml:id="staff-000000010993220" n="1">
                                 <layer xml:id="layer-000000076834226" n="1">
                                     <note xml:id="p1cbd4n0v1b113s1" dur="1" fermata="above" oct="4" pname="b">
