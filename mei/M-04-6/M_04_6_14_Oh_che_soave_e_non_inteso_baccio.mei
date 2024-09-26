@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="3.0.0">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+                <title>Il quarto libro de madrigali a sei voci - 14. Oh, che soave e non inteso baccio </title>
                 <respStmt>
-                    <persName />
+                    <resp>Composed by:</resp>
+                    <persName>Luca Marenzio</persName>
                 </respStmt>
             </titleStmt>
             <pubStmt>
@@ -16,41 +17,54 @@
                 </availability>
             </pubStmt>
         </fileDesc>
-        <encodingDesc>
-            <appInfo>
-                <application version="7" xml:id="sibelius7">
-                    <name>Sibelius</name>
-                </application>
-            </appInfo>
-        </encodingDesc>
-        <workDesc>
-            <work>
-                <titleStmt>
-                    <title />
-                    <respStmt />
-                </titleStmt>
-            </work>
-        </workDesc>
     </meiHead>
     <music>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef xml:id="scoredef-000000037382094" meter.sym="common">
-                        <staffGrp xml:id="m-000000204073438">
-                            <staffGrp xml:id="m-000000036636241" n="1" symbol="bracket">
-                                <staffDef xml:id="sd1" n="1" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Canto" lines="5" />
-                                <staffDef xml:id="sd2" n="2" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Quinto" lines="5" />
-                                <staffDef xml:id="sd3" n="3" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f" label="Alto" lines="5" />
-                                <staffDef xml:id="sd4" n="4" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Sesto" lines="5" />
-                                <staffDef xml:id="sd5" n="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f" label="Tenore" lines="5" />
-                                <staffDef xml:id="sd6" n="6" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f" label="Basso" lines="5" />
-                            </staffGrp>
+            <mdiv xml:id="mdiv-0000001073948471">
+                <score xml:id="score-0000001473128707">
+                    <scoreDef xml:id="scoredef-000000037382094" page.botmar="19mm" page.height="279.4mm" page.leftmar="19mm" page.rightmar="19mm" page.topmar="19mm" page.width="215.9mm" ppq="256" meter.sym="common">
+                        <pgHead xml:id="pghead-0000002051287314">
+                            <rend xml:id="rend-0000000905903827" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000797887960" fontsize="x-large">14. Oh, che soave e non inteso baccio</rend>
+                            </rend>
+                            <rend xml:id="rend-0000000245018808" halign="right" valign="bottom">(Giovanni Battista Guarini)</rend>
+                        </pgHead>
+                        <pgFoot xml:id="pgfoot-0000001617619361">
+                            <rend xml:id="rend-0000001686278619" halign="left" valign="bottom" fontsize="smaller">MODE | http://www.marenzio.org<lb xml:id="lb-0000001604064740" />© 2024 – The Marenzio Online Digital Edition</rend>
+                            <rend xml:id="rend-0000000814477663" halign="right" valign="bottom" fontsize="smaller">Il quarto libro de madrigali a sei voci<lb xml:id="lb-0000001687027167" />Oh, che soave e non inteso baccio</rend>
+                            <rend xml:id="rend-0000002007199627" halign="center" valign="bottom">
+                                <num xml:id="num-0000001210260674" label="page">#</num>
+                            </rend>
+                        </pgFoot>
+                        <staffGrp xml:id="m-000000036636241" symbol="bracket" n="1">
+                            <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000231043754">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000741506111">C</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001621789149">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001390593516">Q</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000799558430">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001404247748">A</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000000975805584">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001621167421">S</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000001162166847">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000000302511526">T</labelAbbr>
+                            </staffDef>
+                            <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
+                                <label xml:id="label-0000002047430524">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000073556433">B</labelAbbr>
+                            </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001122057997">
                         <measure xml:id="measure-000000146700902" n="1">
-                            <anchoredText xml:id="anchtxt-000000214671137">14. Oh, che soave e non inteso baccio  																																			(Giovanni Battista Guarini)</anchoredText>
                             <staff xml:id="staff-000000067131873" n="1">
                                 <layer xml:id="layer-000000139299643" n="1">
                                     <note xml:id="p1cad4n0v1b1s1" dur="1" oct="4" pname="a">
@@ -8063,7 +8077,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000044175810" n="89" right="end">
+                        <measure xml:id="measure-000000044175810" right="end" n="89">
                             <staff xml:id="staff-000000064172863" n="1">
                                 <layer xml:id="layer-000000103852255" n="1">
                                     <note xml:id="p1cad4n0v1b89s1" dur="1" fermata="above" oct="4" pname="a">
