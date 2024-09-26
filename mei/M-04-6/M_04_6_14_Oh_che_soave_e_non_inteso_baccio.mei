@@ -5,7 +5,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Il quarto libro de madrigali a sei voci - 14. Oh, che soave e non inteso baccio </title>
+                <title>Il quarto libro de madrigali a sei voci - 14. Oh, che soave e non inteso baccio</title>
                 <respStmt>
                     <resp>Composed by:</resp>
                     <persName>Luca Marenzio</persName>
@@ -19,6 +19,94 @@
         </fileDesc>
     </meiHead>
     <music>
+        <front>
+            <div>
+                <div>
+                    <head>Edition and commentary</head>
+                    <p>
+                        <rend rend="bold">Oh, che soave e non inteso baccio</rend>
+                        <lb />Giovanni Battista Guarini<lb />Madrigal: XaABbCcDeEddFfGG
+                    </p>
+                    <table type="lyrics">
+                        <tr xml:id="line1">
+                            <td>Oh, che soave e non inteso baccio</td>
+                            <td>Oh, what a sweet and unintended kiss</td>
+                        </tr>
+                        <tr xml:id="line2">
+                            <td>Della mia donna ebb’io,</td>
+                            <td>I had from my beloved, not knowing </td>
+                        </tr>
+                        <tr xml:id="line3">
+                            <td>Non so se don di lei, se furto mio.</td>
+                            <td>if it was a gift from her, or a theft by me. </td>
+                        </tr>
+                        <tr xml:id="line4">
+                            <td>Era un no che voleva un atto misto</td>
+                            <td>It was a ‘no’ that required an action mixed</td>
+                        </tr>
+                        <tr xml:id="line5">
+                            <td>Di rapina e d’acquisto; </td>
+                            <td>of thievery and purchase;</td>
+                        </tr>
+                        <tr xml:id="line6">
+                            <td>Un negar sì gentile, che bramava</td>
+                            <td>such a sweet denial, which longed for</td>
+                        </tr>
+                        <tr xml:id="line7">
+                            <td>Quel che negando dava;</td>
+                            <td>what it gave, while denying it;</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Un cortese vietar, che d’assalire</td>
+                            <td>a courteous forbidding, which</td>
+                        </tr>
+                        <tr xml:id="line8">
+                            <td>Facea sì caro invito,</td>
+                            <td>invited such gentle assault, that the</td>
+                        </tr>
+                        <tr xml:id="line10">
+                            <td>Ch’al rapir chi rapisse era rapito;</td>
+                            <td>kidnapped one was enraptured by the kidnapping;</td>
+                        </tr>
+                        <tr xml:id="line11">
+                            <td>Un restar e fuggire </td>
+                            <td>a staying and a fleeing</td>
+                        </tr>
+                        <tr xml:id="line12">
+                            <td>Ch’affrettava il partire.</td>
+                            <td>that expedited the departure.</td>
+                        </tr>
+                        <tr xml:id="line13">
+                            <td>Deh, se quest’è pur furto, alcun non sia </td>
+                            <td>Alas, if this is indeed  theft, let there be no other  </td>
+                        </tr>
+                        <tr xml:id="line14">
+                            <td>Che brami cortesia.</td>
+                            <td>that requires courtesy.</td>
+                        </tr>
+                        <tr xml:id="line15">
+                            <td>Fatti pur ladro, Amor, che ti perdono,</td>
+                            <td>So become a thief, Love, since I forgive you,</td>
+                        </tr>
+                        <tr xml:id="line16">
+                            <td>E ceda in tutto alla rapina il dono.</td>
+                            <td>and let the gift surrender entirely to the theft.</td>
+                        </tr>
+                    </table>
+                    <p>The translations are partially indebited to the ones by Barbara Reynolds in Luca Marenzio, <rend rend="italic">The Complete Six Voice Madrigals. Vol IV: The Fourth Book of Madrigal for Six Voices</rend>, ed. John Steele and Suzanne Court (New York: Gaudia, 2002).</p>
+                </div>
+                <div>
+                    <head>Contemporary editions</head>
+                    <p>
+                        <rend rend="italic">Rime del molto illustre Signor Cavaliere Battista Guarini</rend> (Venice:  Ciotti, 1598), 93v (as <rend rend="italic">Oh che
+                        soave bacio</rend>) (<ptr target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10166540_00194.html" label="available online as                             of September 2024" />)</p>
+                </div>
+                <div>
+                    <head>Notes on different versions</head>
+                    <p>The Guarini 1598 edition presents a much shorter version of the text.</p>
+                </div>
+            </div>
+        </front>
         <body>
             <mdiv xml:id="mdiv-0000001073948471">
                 <score xml:id="score-0000001473128707">
@@ -8169,6 +8257,10 @@
                                 </layer>
                             </staff>
                         </measure>
+                        <annot xml:id="annot-0000000919101821" type="app-sources-used">
+                            <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
+                            <p>Other sources: Ph-1594; Ka-1608; Ph-1610; 1605<rend rend="sup">9</rend>;</p>
+                        </annot>
                     </section>
                 </score>
             </mdiv>
