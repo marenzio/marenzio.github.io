@@ -6348,17 +6348,17 @@
                                 <layer xml:id="layer-000000034477075" n="1">
                                     <note xml:id="p1cfd4n0v1b63s3" dur="4" oct="3" pname="f">
                                         <verse xml:id="verse-000000154580859" n="1">
-                                            <syl xml:id="syl-000000154650148" con="d" wordpos="i">stra</syl>
+                                            <syl xml:id="syl-000000154650148" fontstyle="italic" con="d" wordpos="i">stra</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n256v1b63s3" dur="4" oct="3" pname="f">
                                         <verse xml:id="verse-000000079710490" n="1">
-                                            <syl xml:id="syl-000000069578764" con="d" wordpos="i">va</syl>
+                                            <syl xml:id="syl-000000069578764" fontstyle="italic" con="d" wordpos="i">va</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n512v1b63s3" dur="2" oct="3" pname="f">
                                         <verse xml:id="verse-000000109398786" n="1">
-                                            <syl xml:id="syl-000000126409885" con="d" wordpos="i">gan</syl>
+                                            <syl xml:id="syl-000000126409885" fontstyle="italic" con="d" wordpos="i">gan</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6468,17 +6468,17 @@
                                 <layer xml:id="layer-000000009256963" n="1">
                                     <note xml:id="p1cad4n0v1b64s3" dur="4" oct="3" pname="a">
                                         <verse xml:id="verse-000000034341954" n="1">
-                                            <syl xml:id="syl-000000033452581" wordpos="t">za</syl>
+                                            <syl xml:id="syl-000000033452581" fontstyle="italic" wordpos="t">za</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n256v1b64s3" dur="4" oct="3" pname="a">
                                         <verse xml:id="verse-000000023753245" n="1">
-                                            <syl xml:id="syl-000000064175799" con="d" wordpos="i">d’A</syl>
+                                            <syl xml:id="syl-000000064175799" fontstyle="italic" con="d" wordpos="i">d’A</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n512v1b64s3" dur="2" oct="3" pname="a">
                                         <verse xml:id="verse-000000102265392" n="1">
-                                            <syl xml:id="syl-000000203735607" con="d" wordpos="i">mo</syl>
+                                            <syl xml:id="syl-000000203735607" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6565,7 +6565,7 @@
                                 <layer xml:id="layer-000000172316761" n="1">
                                     <note xml:id="p1cad4n0v1b65s3" dur="1" oct="3" pname="a">
                                         <verse xml:id="verse-000000117661602" n="1">
-                                            <syl xml:id="syl-000000007040514" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000007040514" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6583,18 +6583,18 @@
                                 <layer xml:id="layer-000000059432224" n="1">
                                     <note xml:id="p1cad4n0v1b65s5" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-000000115200736" n="1">
-                                            <syl xml:id="syl-000000056548409" con="d" wordpos="i">stra</syl>
+                                            <syl xml:id="syl-000000056548409" fontstyle="italic" con="d" wordpos="i">stra</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n256v1b65s5" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-000000074370695" n="1">
-                                            <syl xml:id="syl-000000134178934" con="d" wordpos="i">va</syl>
+                                            <syl xml:id="syl-000000134178934" fontstyle="italic" con="d" wordpos="i">va</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n512v1b65s5" dur="2" oct="4" pname="f">
                                         <accid xml:id="accid-000000081300397" accid="s" />
                                         <verse xml:id="verse-000000182090318" n="1">
-                                            <syl xml:id="syl-000000023355103" con="d" wordpos="i">gan</syl>
+                                            <syl xml:id="syl-000000023355103" fontstyle="italic" con="d" wordpos="i">gan</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6701,18 +6701,18 @@
                                 <layer xml:id="layer-000000140159859" n="1">
                                     <note xml:id="p1cgd4n0v1b66s5" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000072416555" n="1">
-                                            <syl xml:id="syl-000000168749943" wordpos="t">za</syl>
+                                            <syl xml:id="syl-000000168749943" fontstyle="italic" wordpos="t">za</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd4n256v1b66s5" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000184429341" n="1">
-                                            <syl xml:id="syl-000000047536123" con="d" wordpos="i">d’A</syl>
+                                            <syl xml:id="syl-000000047536123" fontstyle="italic" con="d" wordpos="i">d’A</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n512v1b66s5" dur="2" oct="4" pname="f">
                                         <accid xml:id="accid-000000150030942" accid="s" />
                                         <verse xml:id="verse-000000096613352" n="1">
-                                            <syl xml:id="syl-000000066873364" con="d" wordpos="i">mo</syl>
+                                            <syl xml:id="syl-000000066873364" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -6809,7 +6809,7 @@
                                 <layer xml:id="layer-000000135382575" n="1">
                                     <note xml:id="p1cgd4n0v1b67s5" dur="1" oct="4" pname="g" tie="i">
                                         <verse xml:id="verse-000000042410332" n="1">
-                                            <syl xml:id="syl-000000006811581" con="u" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000006811581" fontstyle="italic" con="u" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -7807,7 +7807,7 @@
                                     </note>
                                     <note xml:id="p1ccd4n768v1b77s7" dur="4" oct="4" pname="c">
                                         <verse xml:id="verse-000000072866849" n="1">
-                                            <syl xml:id="syl-000000114813632" wordpos="t">e</syl>
+                                            <syl xml:id="syl-000000114813632" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -7845,7 +7845,7 @@
                                     </note>
                                     <note xml:id="p1ccd3n768v1b77s9" dur="4" oct="3" pname="c">
                                         <verse xml:id="verse-000000080627658" n="1">
-                                            <syl xml:id="syl-000000213594573" wordpos="t">e</syl>
+                                            <syl xml:id="syl-000000213594573" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -7885,7 +7885,7 @@
                                     </note>
                                     <note xml:id="p1cgd4n768v1b78s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000124442764" n="1">
-                                            <syl xml:id="syl-000000163732333" wordpos="t">e</syl>
+                                            <syl xml:id="syl-000000163732333" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -7961,22 +7961,22 @@
                                 <layer xml:id="layer-000000120124959" n="1">
                                     <note xml:id="p1cbd3n0v1b78s7" dur="4" oct="3" pname="b">
                                         <verse xml:id="verse-000000203562065" n="1">
-                                            <syl xml:id="syl-000000166314039" wordpos="t">mai</syl>
+                                            <syl xml:id="syl-000000166314039" fontstyle="italic" wordpos="t">mai</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad3n256v1b78s7" dur="4" oct="3" pname="a">
                                         <verse xml:id="verse-000000182835652" n="1">
-                                            <syl xml:id="syl-000000202347413" wordpos="t">non</syl>
+                                            <syl xml:id="syl-000000202347413" fontstyle="italic" wordpos="t">non</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n512v1b78s7" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000041030878" n="1">
-                                            <syl xml:id="syl-000000182139415" con="d" wordpos="i">strug</syl>
+                                            <syl xml:id="syl-000000182139415" fontstyle="italic" con="d" wordpos="i">strug</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd4n768v1b78s7" dur="4" oct="4" pname="d">
                                         <verse xml:id="verse-000000032343137" n="1">
-                                            <syl xml:id="syl-000000058800925" wordpos="t">g’un</syl>
+                                            <syl xml:id="syl-000000058800925" fontstyle="italic" wordpos="t">g’un</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -7999,22 +7999,22 @@
                                 <layer xml:id="layer-000000099107429" n="1">
                                     <note xml:id="p1cgd2n0v1b78s9" dur="4" oct="2" pname="g">
                                         <verse xml:id="verse-000000018325214" n="1">
-                                            <syl xml:id="syl-000000116661090" wordpos="t">mai</syl>
+                                            <syl xml:id="syl-000000116661090" fontstyle="italic" wordpos="t">mai</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad2n256v1b78s9" dur="4" oct="2" pname="a">
                                         <verse xml:id="verse-000000044680929" n="1">
-                                            <syl xml:id="syl-000000134024578" wordpos="t">non</syl>
+                                            <syl xml:id="syl-000000134024578" fontstyle="italic" wordpos="t">non</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd2n512v1b78s9" dur="4" oct="2" pname="b">
                                         <verse xml:id="verse-000000169497145" n="1">
-                                            <syl xml:id="syl-000000163017845" con="d" wordpos="i">strug</syl>
+                                            <syl xml:id="syl-000000163017845" fontstyle="italic" con="d" wordpos="i">strug</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd2n768v1b78s9" dur="4" oct="2" pname="g">
                                         <verse xml:id="verse-000000114421022" n="1">
-                                            <syl xml:id="syl-000000000501624" wordpos="t">g’un</syl>
+                                            <syl xml:id="syl-000000000501624" fontstyle="italic" wordpos="t">g’un</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8049,22 +8049,22 @@
                                 <layer xml:id="layer-000000185594369" n="1">
                                     <note xml:id="p1cgd4n0v1b79s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000061054555" n="1">
-                                            <syl xml:id="syl-000000035063131" wordpos="t">mai</syl>
+                                            <syl xml:id="syl-000000035063131" fontstyle="italic" wordpos="t">mai</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n256v1b79s2" dur="4" oct="4" pname="f">
                                         <verse xml:id="verse-000000157566620" n="1">
-                                            <syl xml:id="syl-000000061141890" wordpos="t">non</syl>
+                                            <syl xml:id="syl-000000061141890" fontstyle="italic" wordpos="t">non</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ced4n512v1b79s2" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-000000113226315" n="1">
-                                            <syl xml:id="syl-000000121656929" con="d" wordpos="i">strug</syl>
+                                            <syl xml:id="syl-000000121656929" fontstyle="italic" con="d" wordpos="i">strug</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd4n768v1b79s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000135938447" n="1">
-                                            <syl xml:id="syl-000000208373440" wordpos="t">g’un</syl>
+                                            <syl xml:id="syl-000000208373440" fontstyle="italic" wordpos="t">g’un</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8131,7 +8131,7 @@
                                     </note>
                                     <note xml:id="p1cgd4n768v1b79s5" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000205693434" n="1">
-                                            <syl xml:id="syl-000000076695211" wordpos="t">e</syl>
+                                            <syl xml:id="syl-000000076695211" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8145,12 +8145,12 @@
                                 <layer xml:id="layer-000000000002657" n="1">
                                     <note xml:id="p1ccd4n0v1b79s7" dur="2" oct="4" pname="c">
                                         <verse xml:id="verse-000000096245925" n="1">
-                                            <syl xml:id="syl-000000140417716" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000140417716" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd4n512v1b79s7" dur="4" oct="4" pname="c">
                                         <verse xml:id="verse-000000081849673" n="1">
-                                            <syl xml:id="syl-000000137409514" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000137409514" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd4n768v1b79s7" dur="4" oct="4" pname="c">
@@ -8173,17 +8173,17 @@
                                 <layer xml:id="layer-000000024247423" n="1">
                                     <note xml:id="p1ccd3n0v1b79s9" dur="2" oct="3" pname="c">
                                         <verse xml:id="verse-000000006612162" n="1">
-                                            <syl xml:id="syl-000000046113840" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000046113840" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd3n512v1b79s9" dur="4" oct="3" pname="c">
                                         <verse xml:id="verse-000000075013469" n="1">
-                                            <syl xml:id="syl-000000205660019" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000205660019" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd3n768v1b79s9" dur="4" oct="3" pname="c">
                                         <verse xml:id="verse-000000060522819" n="1">
-                                            <syl xml:id="syl-000000144822624" wordpos="t">e</syl>
+                                            <syl xml:id="syl-000000144822624" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8203,7 +8203,7 @@
                                 <layer xml:id="layer-000000156080384" n="1">
                                     <note xml:id="p1cgd4n0v1b80s2" dur="1" oct="4" pname="g" tie="i">
                                         <verse xml:id="verse-000000100209039" n="1">
-                                            <syl xml:id="syl-000000032084797" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000032084797" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8230,22 +8230,22 @@
                                 <layer xml:id="layer-000000002954828" n="1">
                                     <note xml:id="p1cbd4n0v1b80s5" dur="4" oct="4" pname="b">
                                         <verse xml:id="verse-000000015246344" n="1">
-                                            <syl xml:id="syl-000000146037385" wordpos="t">mai</syl>
+                                            <syl xml:id="syl-000000146037385" fontstyle="italic" wordpos="t">mai</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd5n256v1b80s5" dur="4" oct="5" pname="c">
                                         <verse xml:id="verse-000000004267002" n="1">
-                                            <syl xml:id="syl-000000171682478" wordpos="t">non</syl>
+                                            <syl xml:id="syl-000000171682478" fontstyle="italic" wordpos="t">non</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd5n512v1b80s5" dur="4" oct="5" pname="d">
                                         <verse xml:id="verse-000000170061007" n="1">
-                                            <syl xml:id="syl-000000162491203" con="d" wordpos="i">strug</syl>
+                                            <syl xml:id="syl-000000162491203" fontstyle="italic" con="d" wordpos="i">strug</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd4n768v1b80s5" dur="4" oct="4" pname="b">
                                         <verse xml:id="verse-000000028336070" n="1">
-                                            <syl xml:id="syl-000000186411253" wordpos="t">g’un</syl>
+                                            <syl xml:id="syl-000000186411253" fontstyle="italic" wordpos="t">g’un</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8292,22 +8292,22 @@
                                 <layer xml:id="layer-000000116379522" n="1">
                                     <note xml:id="p1cgd2n0v1b80s9" dur="4" oct="2" pname="g">
                                         <verse xml:id="verse-000000209039374" n="1">
-                                            <syl xml:id="syl-000000174183403" wordpos="t">mai</syl>
+                                            <syl xml:id="syl-000000174183403" fontstyle="italic" wordpos="t">mai</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad2n256v1b80s9" dur="4" oct="2" pname="a">
                                         <verse xml:id="verse-000000146603158" n="1">
-                                            <syl xml:id="syl-000000128909333" wordpos="t">non</syl>
+                                            <syl xml:id="syl-000000128909333" fontstyle="italic" wordpos="t">non</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd2n512v1b80s9" dur="4" oct="2" pname="b">
                                         <verse xml:id="verse-000000130164873" n="1">
-                                            <syl xml:id="syl-000000152845110" con="d" wordpos="i">strug</syl>
+                                            <syl xml:id="syl-000000152845110" fontstyle="italic" con="d" wordpos="i">strug</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd2n768v1b80s9" dur="4" oct="2" pname="g">
                                         <verse xml:id="verse-000000115477953" n="1">
-                                            <syl xml:id="syl-000000017126310" wordpos="t">g’un</syl>
+                                            <syl xml:id="syl-000000017126310" fontstyle="italic" wordpos="t">g’un</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8354,7 +8354,7 @@
                                 <layer xml:id="layer-000000199509923" n="1">
                                     <note xml:id="p1cad4n0v1b81s5" dur="1" oct="4" pname="a" tie="i">
                                         <verse xml:id="verse-000000176912923" n="1">
-                                            <syl xml:id="syl-000000198374034" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000198374034" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8386,7 +8386,7 @@
                                 <layer xml:id="layer-000000026422565" n="1">
                                     <note xml:id="p1cdd3n0v1b81s9" dur="1" oct="3" pname="d" tie="i">
                                         <verse xml:id="verse-000000161978956" n="1">
-                                            <syl xml:id="syl-000000114837601" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000114837601" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8403,7 +8403,7 @@
                                     <note xml:id="p1cfd4n0v1b82s2" dur="1" oct="4" pname="f">
                                         <accid xml:id="accid-000000090577716" accid="s" />
                                         <verse xml:id="verse-000000095403023" n="1">
-                                            <syl xml:id="syl-000000141208699" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000141208699" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8525,7 +8525,7 @@
                                 <layer xml:id="layer-000000085234683" n="1">
                                     <note xml:id="p1cbd4n0v1b83s5" dur="1" oct="4" pname="b">
                                         <verse xml:id="verse-000000173799155" n="1">
-                                            <syl xml:id="syl-000000013022056" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000013022056" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8571,7 +8571,7 @@
                                 <layer xml:id="layer-000000189572514" n="1">
                                     <note xml:id="p1cgd2n0v1b83s9" dur="1" oct="2" pname="g">
                                         <verse xml:id="verse-000000060881566" n="1">
-                                            <syl xml:id="syl-000000194056308" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000194056308" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8644,12 +8644,12 @@
                                     </note>
                                     <note xml:id="p1cgd3n512v1b84s4" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000072694969" n="1">
-                                            <syl xml:id="syl-000000114918701" con="d" wordpos="i">stra</syl>
+                                            <syl xml:id="syl-000000114918701" fontstyle="italic" con="d" wordpos="i">stra</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n768v1b84s4" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000131554626" n="1">
-                                            <syl xml:id="syl-000000197976377" con="d" wordpos="i">va</syl>
+                                            <syl xml:id="syl-000000197976377" fontstyle="italic" con="d" wordpos="i">va</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -8797,12 +8797,12 @@
                                 <layer xml:id="layer-000000137894845" n="1">
                                     <note xml:id="p1cgd3n0v1b85s4" dur="2" oct="3" pname="g">
                                         <verse xml:id="verse-000000155969358" n="1">
-                                            <syl xml:id="syl-000000041215797" con="d" wordpos="i">gan</syl>
+                                            <syl xml:id="syl-000000041215797" fontstyle="italic" con="d" wordpos="i">gan</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd2n512v1b85s4" dur="2" oct="2" pname="g">
                                         <verse xml:id="verse-000000103328558" n="1">
-                                            <syl xml:id="syl-000000130523187" wordpos="t">za,</syl>
+                                            <syl xml:id="syl-000000130523187" fontstyle="italic" wordpos="t">za,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -9793,17 +9793,17 @@
                                 <layer xml:id="layer-000000188094867" n="1">
                                     <note xml:id="p1cfd4n0v1b92s3" dur="4" oct="3" pname="f">
                                         <verse xml:id="verse-000000120226988" n="1">
-                                            <syl xml:id="syl-000000105757672" con="d" wordpos="i">stra</syl>
+                                            <syl xml:id="syl-000000105757672" fontstyle="italic" con="d" wordpos="i">stra</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n256v1b92s3" dur="4" oct="3" pname="f">
                                         <verse xml:id="verse-000000107329102" n="1">
-                                            <syl xml:id="syl-000000024288545" con="d" wordpos="i">va</syl>
+                                            <syl xml:id="syl-000000024288545" fontstyle="italic" con="d" wordpos="i">va</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cfd4n512v1b92s3" dur="2" oct="3" pname="f">
                                         <verse xml:id="verse-000000067219899" n="1">
-                                            <syl xml:id="syl-000000074086491" con="d" wordpos="i">gan</syl>
+                                            <syl xml:id="syl-000000074086491" fontstyle="italic" con="d" wordpos="i">gan</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -9913,17 +9913,17 @@
                                 <layer xml:id="layer-000000068099539" n="1">
                                     <note xml:id="p1cad4n0v1b93s3" dur="4" oct="3" pname="a">
                                         <verse xml:id="verse-000000090031396" n="1">
-                                            <syl xml:id="syl-000000069136366" wordpos="t">za</syl>
+                                            <syl xml:id="syl-000000069136366" fontstyle="italic" wordpos="t">za</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n256v1b93s3" dur="4" oct="3" pname="a">
                                         <verse xml:id="verse-000000101934183" n="1">
-                                            <syl xml:id="syl-000000121909081" con="d" wordpos="i">d’A</syl>
+                                            <syl xml:id="syl-000000121909081" fontstyle="italic" con="d" wordpos="i">d’A</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad4n512v1b93s3" dur="2" oct="3" pname="a">
                                         <verse xml:id="verse-000000170178649" n="1">
-                                            <syl xml:id="syl-000000110441679" con="d" wordpos="i">mo</syl>
+                                            <syl xml:id="syl-000000110441679" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -10011,7 +10011,7 @@
                                 <layer xml:id="layer-000000103806115" n="1">
                                     <note xml:id="p1cad4n0v1b94s3" dur="1" oct="3" pname="a">
                                         <verse xml:id="verse-000000059189218" n="1">
-                                            <syl xml:id="syl-000000183087455" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000183087455" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -10106,17 +10106,17 @@
                                 <layer xml:id="layer-000000027986609" n="1">
                                     <note xml:id="p1cdd3n0v1b94s9" dur="4" oct="3" pname="d">
                                         <verse xml:id="verse-000000088230696" n="1">
-                                            <syl xml:id="syl-000000164076476" con="d" wordpos="i">stra</syl>
+                                            <syl xml:id="syl-000000164076476" fontstyle="italic" con="d" wordpos="i">stra</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd3n256v1b94s9" dur="4" oct="3" pname="d">
                                         <verse xml:id="verse-000000039115485" n="1">
-                                            <syl xml:id="syl-000000163877230" con="d" wordpos="i">va</syl>
+                                            <syl xml:id="syl-000000163877230" fontstyle="italic" con="d" wordpos="i">va</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd3n512v1b94s9" dur="2" oct="3" pname="d">
                                         <verse xml:id="verse-000000120089213" n="1">
-                                            <syl xml:id="syl-000000129084036" con="d" wordpos="i">gan</syl>
+                                            <syl xml:id="syl-000000129084036" fontstyle="italic" con="d" wordpos="i">gan</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -10214,17 +10214,17 @@
                                 <layer xml:id="layer-000000191552435" n="1">
                                     <note xml:id="p1cbd2n0v1b95s9" dots="1" dur="4" oct="2" pname="b">
                                         <verse xml:id="verse-000000146658432" n="1">
-                                            <syl xml:id="syl-000000032113920" wordpos="t">za</syl>
+                                            <syl xml:id="syl-000000032113920" fontstyle="italic" wordpos="t">za</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1ccd3n384v1b95s9" dur="8" oct="3" pname="c">
                                         <verse xml:id="verse-000000133757460" n="1">
-                                            <syl xml:id="syl-000000010532515" con="d" wordpos="i">d’A</syl>
+                                            <syl xml:id="syl-000000010532515" fontstyle="italic" con="d" wordpos="i">d’A</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cdd3n512v1b95s9" dur="2" oct="3" pname="d">
                                         <verse xml:id="verse-000000152546230" n="1">
-                                            <syl xml:id="syl-000000071976295" con="d" wordpos="i">mo</syl>
+                                            <syl xml:id="syl-000000071976295" fontstyle="italic" con="d" wordpos="i">mo</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -10301,7 +10301,7 @@
                                 <layer xml:id="layer-000000052436263" n="1">
                                     <note xml:id="p1cgd2n0v1b96s9" dur="1" oct="2" pname="g" tie="i">
                                         <verse xml:id="verse-000000181005456" n="1">
-                                            <syl xml:id="syl-000000033195796" con="u" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000033195796" fontstyle="italic" con="u" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -11687,17 +11687,17 @@
                                 <layer xml:id="layer-000000030985790" n="1">
                                     <note xml:id="p1cgd3n0v1b109s4" dur="2" oct="3" pname="g">
                                         <verse xml:id="verse-000000071529388" n="1">
-                                            <syl xml:id="syl-000000099256108" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000099256108" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n512v1b109s4" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000084321627" n="1">
-                                            <syl xml:id="syl-000000025243909" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000025243909" fontstyle="italic" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n768v1b109s4" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000082221965" n="1">
-                                            <syl xml:id="syl-000000174131702" wordpos="t">e</syl>
+                                            <syl xml:id="syl-000000174131702" fontstyle="italic" wordpos="t">e</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -11842,22 +11842,22 @@
                                 <layer xml:id="layer-000000030768572" n="1">
                                     <note xml:id="p1cgd2n0v1b110s4" dur="4" oct="2" pname="g">
                                         <verse xml:id="verse-000000020074261" n="1">
-                                            <syl xml:id="syl-000000011858240" wordpos="t">mai</syl>
+                                            <syl xml:id="syl-000000011858240" fontstyle="italic" wordpos="t">mai</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cad2n256v1b110s4" dur="4" oct="2" pname="a">
                                         <verse xml:id="verse-000000190371442" n="1">
-                                            <syl xml:id="syl-000000118578410" wordpos="t">non</syl>
+                                            <syl xml:id="syl-000000118578410" fontstyle="italic" wordpos="t">non</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cbd2n512v1b110s4" dur="4" oct="2" pname="b">
                                         <verse xml:id="verse-000000129709134" n="1">
-                                            <syl xml:id="syl-000000139496937" con="d" wordpos="i">strug</syl>
+                                            <syl xml:id="syl-000000139496937" fontstyle="italic" con="d" wordpos="i">strug</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd2n768v1b110s4" dur="4" oct="2" pname="g">
                                         <verse xml:id="verse-000000018151566" n="1">
-                                            <syl xml:id="syl-000000039653093" wordpos="t">g’un</syl>
+                                            <syl xml:id="syl-000000039653093" fontstyle="italic" wordpos="t">g’un</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -11963,7 +11963,7 @@
                                 <layer xml:id="layer-000000046698229" n="1">
                                     <note xml:id="p1cdd3n0v1b111s4" dur="1" oct="3" pname="d" tie="i">
                                         <verse xml:id="verse-000000071574793" n="1">
-                                            <syl xml:id="syl-000000091840335" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000091840335" fontstyle="italic" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -12100,7 +12100,7 @@
                                 <layer xml:id="layer-000000115951326" n="1">
                                     <note xml:id="p1cgd2n0v1b113s4" dur="1" fermata="above" oct="2" pname="g">
                                         <verse xml:id="verse-000000011362212" n="1">
-                                            <syl xml:id="syl-000000087455112" wordpos="t">re.</syl>
+                                            <syl xml:id="syl-000000087455112" fontstyle="italic" wordpos="t">re.</syl>
                                         </verse>
                                     </note>
                                 </layer>
