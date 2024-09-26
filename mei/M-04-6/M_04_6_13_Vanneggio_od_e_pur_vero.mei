@@ -38,7 +38,7 @@
                         </tr>
                         <tr xml:id="line3">
                             <td>Nova fiamma d’amore?</td>
-                            <td>a new flame of love?.</td>
+                            <td>a new flame of love?</td>
                         </tr>
                         <tr type="void">
                             <td />
@@ -5704,7 +5704,7 @@
                                 </layer>
                             </staff>
                         </measure>
-                        <measure xml:id="measure-000000052884222" n="68">
+                        <measure xml:id="measure-000000052884222" right="end" n="68">
                             <staff xml:id="staff-000000010690732" n="1">
                                 <layer xml:id="layer-000000178717146" n="1">
                                     <note xml:id="p1cgd4n0v1b68s1" dur="1" fermata="above" oct="4" pname="g">
@@ -5762,71 +5762,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                        </measure>
-                        <measure xml:id="measure-000000143418638" n="69">
-                            <staff xml:id="staff-000000010105092" n="1">
-                                <layer xml:id="layer-000000136248889" n="1">
-                                    <mRest xml:id="mrest-000000194959689" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000186625205" n="2">
-                                <layer xml:id="layer-000000113764163" n="1">
-                                    <mRest xml:id="mrest-000000181712175" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000035696316" n="3">
-                                <layer xml:id="layer-000000205368121" n="1">
-                                    <mRest xml:id="mrest-000000091623273" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000187978010" n="4">
-                                <layer xml:id="layer-000000044975376" n="1">
-                                    <mRest xml:id="mrest-000000017533351" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000066164944" n="5">
-                                <layer xml:id="layer-000000176779892" n="1">
-                                    <mRest xml:id="mrest-000000185691997" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000014586603" n="6">
-                                <layer xml:id="layer-000000105784243" n="1">
-                                    <mRest xml:id="mrest-000000055498709" />
-                                </layer>
-                            </staff>
-                        </measure>
-                        <measure xml:id="measure-000000181392911" right="end" n="70">
-                            <staff xml:id="staff-000000121630617" n="1">
-                                <layer xml:id="layer-000000149694875" n="1">
-                                    <mRest xml:id="mrest-000000008863750" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000092743242" n="2">
-                                <layer xml:id="layer-000000212372612" n="1">
-                                    <mRest xml:id="mrest-000000115654183" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000164058580" n="3">
-                                <layer xml:id="layer-000000212336248" n="1">
-                                    <mRest xml:id="mrest-000000055480226" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000053510953" n="4">
-                                <layer xml:id="layer-000000204579128" n="1">
-                                    <mRest xml:id="mrest-000000168166094" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000084220110" n="5">
-                                <layer xml:id="layer-000000156980507" n="1">
-                                    <mRest xml:id="mrest-000000208146864" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-000000166656595" n="6">
-                                <layer xml:id="layer-000000166827914" n="1">
-                                    <mRest xml:id="mrest-000000067215068" />
-                                </layer>
-                            </staff>
-                        </measure>
+                        </measure>     
                         <annot xml:id="annot-0000000919101821" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
                             <p>Other sources: Ph-1594; Ka-1608; Ph-1610</p>
