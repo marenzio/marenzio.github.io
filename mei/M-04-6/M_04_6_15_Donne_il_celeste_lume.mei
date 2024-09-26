@@ -11936,13 +11936,11 @@
                                             <syl xml:id="syl-000000100222805" wordpos="t">ze</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000043261131">
-                                        <note xml:id="p1ccd5n896v1b110s6" dur="8" oct="5" pname="c">
-                                            <verse xml:id="verse-000000073657160" n="1">
-                                                <syl xml:id="syl-000000006677754" con="d" wordpos="i">d’A</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd5n896v1b110s6" dur="8" oct="5" pname="c">
+                                        <verse xml:id="verse-000000073657160" n="1">
+                                            <syl xml:id="syl-000000006677754" con="d" wordpos="i">d’A</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000125642584" n="7">
