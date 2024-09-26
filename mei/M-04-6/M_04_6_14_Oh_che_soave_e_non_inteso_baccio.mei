@@ -4164,13 +4164,13 @@
                                         <verse xml:id="verse-000000001530329" n="1">
                                             <syl xml:id="syl-000000169618067" con="d" wordpos="i">re</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000000695595834" accid="n" />
+                                        <accid xml:id="accid-0000000695595834" accid="n" func="edit" />
                                     </note>
                                     <note xml:id="p1cbd4n512v1b45s2" dur="2" oct="4" pname="b" tie="i">
                                         <verse xml:id="verse-000000123518378" n="1">
                                             <syl xml:id="syl-000000088313245" con="u" wordpos="t">star,</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000002125691417" accid="n" />
+                                        <accid xml:id="accid-0000002125691417" accid="n" func="edit" />
                                     </note>
                                 </layer>
                             </staff>
@@ -5203,7 +5203,7 @@
                                         <verse xml:id="verse-000000150947746" n="1">
                                             <syl xml:id="syl-000000026064514" wordpos="t">a,</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000001773498089" accid="n" />
+                                        <accid xml:id="accid-0000001773498089" accid="n"  func="edit" />
                                     </note>
                                 </layer>
                             </staff>
@@ -7107,7 +7107,7 @@
                                         <verse xml:id="verse-000000089871812" n="1">
                                             <syl xml:id="syl-000000113954849" wordpos="t">da_in</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000001939590456" accid="n" />
+                                        <accid xml:id="accid-0000001939590456" accid="n"  func="edit" />
                                     </note>
                                 </layer>
                             </staff>
