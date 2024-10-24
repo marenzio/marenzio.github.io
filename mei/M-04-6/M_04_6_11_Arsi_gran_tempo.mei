@@ -29,34 +29,34 @@
                     </p>
                     <table type="lyrics">
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Prima parte</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Arsi gran tempo, e del mio foco indegno</td>
                             <td>For a long time I burned, and the object</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>Esca fu sol beltà terrena e frale,</td>
                             <td>of my shameful flame was a mere frail and earthly beauty,</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>E qual palustre augel pur sempre l’ale</td>
                             <td>but, like a bird in the swamp, I still turned my muddy wings</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Volsi di fango asperse ad umil segno.</td>
                             <td>to a sign of humility (= the Cross).</td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
@@ -66,34 +66,34 @@
                             <td>Now that the chill of just scorn</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Spegner nel cor l’incendio aspr’e mortale,</td>
                             <td>can extinguish the harsh and deadly fire in my heart,</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Scosso d’ogni vil som’al ciel ne sale</td>
                             <td>my eager mind rises with prompt flight to heaven,</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Con pronto volo il mio non pigro ingegno.</td>
                             <td>liberated from any vile burden.</td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Seconda parte</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line9">
-                            <td></td>
+                            <td />
                             <td>Lasso, e conosco or ben che quanto i’ dissi</td>
                             <td>Alas, I know now very well that what I said </td>
                         </tr>
@@ -103,27 +103,27 @@
                             <td>were the words of someone tormented by an unjust judge</td>
                         </tr>
                         <tr xml:id="line11">
-                            <td></td>
+                            <td />
                             <td>Giudice ingiusto a traviar dal vero.</td>
                             <td>to lead him astray from truth. </td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
                         <tr xml:id="line12">
-                            <td></td>
+                            <td />
                             <td>Perfida, ancor ne la mia lingua io spero</td>
                             <td>Deceitful woman, I still hope that my words</td>
                         </tr>
                         <tr xml:id="line13">
-                            <td></td>
+                            <td />
                             <td>Che, donde pria ti trasse, ella ti spinga</td>
                             <td>will push you towards the deepest depth of blind oblivion,</td>
                         </tr>
                         <tr xml:id="line14">
-                            <td></td>
+                            <td />
                             <td>D’un cieco oblio ne’ più profondi abissi.</td>
                             <td>where it first found you.</td>
                         </tr>
@@ -190,6 +190,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000200863882">
+                        <app xml:id="app-0000001009984681">
+                            <lem xml:id="lem-0000000849214952" />
+                            <rdg xml:id="rdg-0000001576251111" label="original">
+                                <scoreDef xml:id="scoredef-0000000389254856">
+                                    <staffGrp xml:id="staffgrp-0000000172807283" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000000907669658" n="1" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000002073854217" n="2" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000448061964" n="3" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000520107295" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000769293315" n="5" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001389364759" n="6" clef.shape="F" clef.line="4" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000100871499" n="1">
                             <staff xml:id="staff-000000187445464" n="1">
                                 <layer xml:id="layer-000000043014475" n="1">
@@ -6139,6 +6154,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000000621639248">
+                        <app xml:id="app-0000001383815010">
+                            <lem xml:id="lem-0000000276543644" />
+                            <rdg xml:id="rdg-0000000859434438" label="original">
+                                <scoreDef xml:id="scoredef-0000001954575197">
+                                    <staffGrp xml:id="staffgrp-0000001038680054" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000000399540161" n="1" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000115505138" n="2" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001541133321" n="3" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001333084283" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001604955390" n="5" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001298039119" n="6" clef.shape="F" clef.line="4" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000132003544" n="77">
                             <staff xml:id="staff-000000159100201" n="1">
                                 <layer xml:id="layer-000000021315004" n="1">

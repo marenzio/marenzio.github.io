@@ -29,29 +29,29 @@
                     </p>
                     <table type="lyrics">
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Prima parte</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Né fero sdegno mai, Donna, mi mosse</td>
                             <td>No fierce disdain, my Lady, had ever </td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>Ancor da voi, né lontananza alcuna</td>
                             <td>taken me away from you, nor any distance</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>Ne movrà mai! Mandami pur, Fortuna,</td>
                             <td>will ever do it! O Fortune, send me even wandering</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Per l’onde azzurre errando e per le rosse;</td>
                             <td>in blue or red waters; </td>
                         </tr>
@@ -66,17 +66,17 @@
                             <td>If for every wave beaten by our oars</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Dai remi nostri al sol e a la luna,</td>
                             <td>during the day or the night, </td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Tante nascesser Veneri, e ciascuna </td>
                             <td>one Venus would be born, and each of them</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Di lor d’un novo Amor gravida fosse;</td>
                             <td>would be announcing a new love; </td>
                         </tr>
@@ -86,14 +86,14 @@
                             <td />
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Seconda parte</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line9">
-                            <td></td>
+                            <td />
                             <td>Talché dovunque vo, tutte repente</td>
                             <td>if wherever I go, the waves </td>
                         </tr>
@@ -103,27 +103,27 @@
                             <td>that I break would immediately generate Love,</td>
                         </tr>
                         <tr xml:id="line11">
-                            <td></td>
+                            <td />
                             <td>E fosser le lor cune i pensier miei,</td>
                             <td>and my thoughts would be their cradle,</td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
                         <tr xml:id="line12">
-                            <td></td>
+                            <td />
                             <td>Non arderia più ch’arde questa mente;</td>
                             <td>still, I would not burn more than this spirit burns;</td>
                         </tr>
                         <tr xml:id="line13">
-                            <td></td>
+                            <td />
                             <td>Con tutto ciò, talor mi doglio e piango</td>
                             <td>despite all that, sometimes I regret and lament</td>
                         </tr>
                         <tr xml:id="line14">
-                            <td></td>
+                            <td />
                             <td>Che non vi posso amar quanto vorrei.</td>
                             <td>that I cannot love you as much as I wish.</td>
                         </tr>
@@ -213,6 +213,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000084842666">
+                        <app xml:id="app-0000001972695115">
+                            <lem xml:id="lem-0000000251414341" />
+                            <rdg xml:id="rdg-0000001455699371" label="original">
+                                <scoreDef xml:id="scoredef-0000000382451838">
+                                    <staffGrp xml:id="staffgrp-0000000674286451" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001954872038" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000083133478" n="2" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000602123413" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000306343700" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001282621141" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001402408625" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000193210370" n="1">
                             <staff xml:id="staff-000000040380239" n="1">
                                 <layer xml:id="layer-000000065856185" n="1">
@@ -11241,6 +11256,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000000305204943">
+                        <app xml:id="app-0000001837621492">
+                            <lem xml:id="lem-0000000238839908" />
+                            <rdg xml:id="rdg-0000001864858872" label="original">
+                                <scoreDef xml:id="scoredef-0000000043318463">
+                                    <staffGrp xml:id="staffgrp-0000000953767066" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001161519702" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001487539691" n="2" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000264842715" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001188809168" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001965299171" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000205651073" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000204818330" n="60">
                             <staff xml:id="staff-000000142959268" n="1">
                                 <layer xml:id="layer-000000111728138" n="1">

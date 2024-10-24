@@ -214,6 +214,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
+                        <app xml:id="app-0000000678117071">
+                            <lem xml:id="lem-0000000969593712" />
+                            <rdg xml:id="rdg-0000000941609245" label="original">
+                                <scoreDef xml:id="scoredef-0000000129337652">
+                                    <staffGrp xml:id="staffgrp-0000001346533921" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001926839818" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001610723706" n="2" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000615622385" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001130242820" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000502357082" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000002048626310" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000116094370" n="1">
                             <staff xml:id="staff-000000178219321" n="1">
                                 <layer xml:id="layer-000000021947295" n="1">
@@ -13025,6 +13040,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
+                        <app xml:id="app-0000002129194700">
+                            <lem xml:id="lem-0000000656730142" />
+                            <rdg xml:id="rdg-0000001668459041" label="original">
+                                <scoreDef xml:id="scoredef-0000001244538296">
+                                    <staffGrp xml:id="staffgrp-0000000817592613" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001845445942" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001640781460" n="2" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000713580297" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000002107515459" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001885153597" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000002130713386" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000211449117" n="74">
                             <staff xml:id="staff-000000176817237" n="1">
                                 <layer xml:id="layer-000000079441624" n="1">

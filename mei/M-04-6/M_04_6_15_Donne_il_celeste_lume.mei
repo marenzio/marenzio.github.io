@@ -29,22 +29,22 @@
                     </p>
                     <table type="lyrics">
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Donne, il celeste lume</td>
                             <td>Ladies, the celestial light</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>De gl’occhi vostri, che sì dolce splende,</td>
                             <td>of your eyes, which shines so sweetly,</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>I nostri petti accende;</td>
                             <td>inflames our hearts;.</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Ma l’alma, dentr’a le gran fiamme vive,</td>
                             <td>but our soul does not melt inside the lively flames,</td>
                         </tr>
@@ -54,29 +54,29 @@
                             <td>and it is nourished and enlived by them instead.</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Stravaganza d’Amore,</td>
                             <td>Strange paradox of Love,</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Ch’ard’in eterno e mai non strugg’un core.</td>
                             <td>which eternally burns, but never consumes a heart.</td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Canto terzo (se piace):</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Stravaganze d’Amore</td>
                             <td>Strange paradoxes of Love.</td>
                         </tr>
@@ -115,23 +115,23 @@
                         </pgFoot>
                         <staffGrp xml:id="m-000000023059392" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000002144394834">Canto</label>
+                                <label xml:id="label-0000002144394834">Canto I</label>
                                 <labelAbbr xml:id="labelAbbr-0000001849195164">C1</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000001420817941">Alto</label>
+                                <label xml:id="label-0000001420817941">Alto I</label>
                                 <labelAbbr xml:id="labelAbbr-0000001451497108">A1</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000001811856252">Tenore</label>
+                                <label xml:id="label-0000001811856252">Tenore I</label>
                                 <labelAbbr xml:id="labelAbbr-0000000849626651">T1</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd4" n="4" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000001011459680">Basso</label>
+                                <label xml:id="label-0000001011459680">Basso I</label>
                                 <labelAbbr xml:id="labelAbbr-0000000421073734">B1</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000001662756007">Canto</label>
+                                <label xml:id="label-0000001662756007">Canto II</label>
                                 <labelAbbr xml:id="labelAbbr-0000002060852955">C2</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd6" n="6" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
@@ -139,20 +139,38 @@
                                 <labelAbbr xml:id="labelAbbr-0000001151418005">C3</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd7" n="7" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000000103020245">Alto</label>
+                                <label xml:id="label-0000000103020245">Alto II</label>
                                 <labelAbbr xml:id="labelAbbr-0000000795151705">A2</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd8" n="8" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000001642452803">Tenore</label>
+                                <label xml:id="label-0000001642452803">Tenore II</label>
                                 <labelAbbr xml:id="labelAbbr-0000001946453663">T2</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd9" n="9" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="0">
-                                <label xml:id="label-0000000149025670">Basso</label>
+                                <label xml:id="label-0000000149025670">Basso II</label>
                                 <labelAbbr xml:id="labelAbbr-0000000514476726">B2</labelAbbr>
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000040154235">
+                        <app xml:id="app-0000000311795352">
+                            <lem xml:id="lem-0000001409663180" />
+                            <rdg xml:id="rdg-0000001761989972" label="original">
+                                <scoreDef xml:id="scoredef-0000000217934573">
+                                    <staffGrp xml:id="staffgrp-0000001895644392" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001762422619" n="1" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000001056607825" n="2" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000762324584" n="3" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000000568593549" n="4" clef.shape="F" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001613386127" n="5" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000769590844" n="6" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000002070263569" n="7" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000002094281503" n="8" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000000523472179" n="9" clef.shape="F" clef.line="4" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000177836425" n="1">
                             <staff xml:id="staff-000000047332508" n="1">
                                 <layer xml:id="layer-000000192386214" n="1">

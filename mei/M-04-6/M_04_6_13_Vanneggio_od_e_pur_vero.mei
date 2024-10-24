@@ -29,27 +29,27 @@
                     </p>
                     <table type="lyrics">
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Vanneggio, od è pur vero</td>
                             <td>Do I dream, or is it true</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>Ch’io mi senta nel core</td>
                             <td>that I feel in my heart</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>Nova fiamma d’amore?</td>
                             <td>a new flame of love?</td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Se freddo era pur dianzi,</td>
                             <td>If before I was cold,</td>
                         </tr>
@@ -59,22 +59,22 @@
                             <td>and far away from any flame,</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Chi m’ha spinto s’innanzi</td>
                             <td>who has pushed me so far</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Ch’io n’arda a poco a poco?</td>
                             <td>that I now burn little by little?</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Il mio ardito pensiero,</td>
                             <td>It was my bold thought,</td>
                         </tr>
                         <tr xml:id="line9">
-                            <td></td>
+                            <td />
                             <td>Vago di quel splendore</td>
                             <td>enamored of that splendor</td>
                         </tr>
@@ -139,6 +139,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-000000076265766">
+                        <app xml:id="app-0000000831620133">
+                            <lem xml:id="lem-0000001385155792" />
+                            <rdg xml:id="rdg-0000000319837685" label="original">
+                                <scoreDef xml:id="scoredef-0000000859016102">
+                                    <staffGrp xml:id="staffgrp-0000001797283330" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001070164051" n="1" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000001688584460" n="2" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000026514518" n="3" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000446917555" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000188357314" n="5" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001229452671" n="6" clef.shape="F" clef.line="4" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000027906289" n="1">
                             <staff xml:id="staff-000000015805676" n="1">
                                 <layer xml:id="layer-000000059094577" n="1">
@@ -5773,7 +5788,7 @@
                                     </note>
                                 </layer>
                             </staff>
-                        </measure>     
+                        </measure>
                         <annot xml:id="annot-0000000919101821" type="app-sources-used">
                             <p>Sources used for collation: Vi-1587; Am-1587; AnGa-1593; Sc-heir-1603; AnGa-1605</p>
                             <p>Other sources: Ph-1594; Ka-1608; Ph-1610</p>

@@ -29,29 +29,29 @@
                     </p>
                     <table type="lyrics">
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">(Prima parte)</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Tra l’erbe a piè d’un mirto, che ’l copriva</td>
                             <td>In the grass, at the feet of a myrtle, which protected</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>Col verde crin dal sol caldo e irato,</td>
                             <td>him with its green foliage from the hot and fierce sun,</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>Con l’arco steso e la faretra a lato</td>
                             <td>with his bow undone and his quiver beside him,</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Il fortunato Adon stanco dormiva;</td>
                             <td>the fortunate Adonis was sleeping, tired;</td>
                         </tr>
@@ -66,17 +66,17 @@
                             <td>the fair Venus, happy and joyful,</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Per cingerli il bel crin d’oro, spogliato</td>
                             <td>to wrap his beautiful golden hair,</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Di suoi più vaghi onor quel verde prato,</td>
                             <td>was preparing a new garland of flowers,</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Nuova ghirlanda di fioretti ordiva.</td>
                             <td>having stripped the green grass of its fairest products.</td>
                         </tr>
@@ -86,14 +86,14 @@
                             <td />
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">(Seconda parte)</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line9">
-                            <td></td>
+                            <td />
                             <td>Per più gradirla, co’ lascivi Amori</td>
                             <td>To enjoy it at its best, the Graces,</td>
                         </tr>
@@ -103,7 +103,7 @@
                             <td>seating on the tender grass with the amorous Cupids,</td>
                         </tr>
                         <tr xml:id="line11">
-                            <td></td>
+                            <td />
                             <td>Dicean cantando al portator del giorno:</td>
                             <td>were singing to the morning’s harbinger:</td>
                         </tr>
@@ -113,17 +113,17 @@
                             <td />
                         </tr>
                         <tr xml:id="line12">
-                            <td></td>
+                            <td />
                             <td>“Ritien, invido sol, gl’usati errori;</td>
                             <td>“Invidious sun, hold back your former mistakes;</td>
                         </tr>
                         <tr xml:id="line13">
-                            <td></td>
+                            <td />
                             <td>Qui mira e di’, tra quanto giri intorno,</td>
                             <td>look here and declare when you ever saw </td>
                         </tr>
                         <tr xml:id="line14">
-                            <td></td>
+                            <td />
                             <td>Quando vedestu mai copia più bella”.</td>
                             <td>a more beautiful couple, in all your wandering.”</td>
                         </tr>
@@ -192,6 +192,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
+                        <app xml:id="app-0000001417526816">
+                            <lem xml:id="lem-0000000153524325" />
+                            <rdg xml:id="rdg-0000000422249368" label="original">
+                                <scoreDef xml:id="scoredef-0000000730228097">
+                                    <staffGrp xml:id="staffgrp-0000001949413545" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000000558920593" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001674393735" n="2" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001296128518" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000196443628" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000824771011" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000421784713" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000009299962" n="1">
                             <staff xml:id="staff-000000173670380" n="1">
                                 <layer xml:id="layer-000000103753553" n="1">
@@ -5472,6 +5487,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000002032103203">
+                        <app xml:id="app-0000000970971212">
+                            <lem xml:id="lem-0000000210956516" />
+                            <rdg xml:id="rdg-0000000867301651" label="original">
+                                <scoreDef xml:id="scoredef-0000000556255793">
+                                    <staffGrp xml:id="staffgrp-0000001558413745" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000000594017343" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000259382400" n="2" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000000897673196" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001351527604" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000759658318" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001289011172" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000193302273" n="66">
                             <anchoredText xml:id="anchtxt-000000170335831">Per più gradirla, co’ lascivi Amori</anchoredText>
                             <staff xml:id="staff-000000080325343" n="1">

@@ -40,22 +40,22 @@
                     </p>
                     <table type="lyrics">
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Dice la mia bellissima Licori,</td>
                             <td>My beautiful Lycoris tells me,</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>Quando talor favello</td>
                             <td>when I talk to her about Love,</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>Seco d’Amor, ch’Amor è un spiritello</td>
                             <td>that Love is a spirit</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Che vaga e vola e non si può tenere,</td>
                             <td>that wanders, flies and cannot be held,</td>
                         </tr>
@@ -65,22 +65,22 @@
                             <td>nor touched, nor seen.</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>E pur se gl’occhi giro,</td>
                             <td>If I turn my eyes, though,</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Nei suoi begl’occhi il miro,</td>
                             <td>I see it in her fair eyes,</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Ma no ’l posso toccar, ché sol si tocca</td>
                             <td>but I cannot touch it, since it can only be touched</td>
                         </tr>
                         <tr xml:id="line9">
-                            <td></td>
+                            <td />
                             <td>In quella bella bocca.</td>
                             <td>on those beautiful lips.</td>
                         </tr>
@@ -152,6 +152,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001859786378">
+                        <app xml:id="app-0000002095501557">
+                            <lem xml:id="lem-0000002088915967" />
+                            <rdg xml:id="rdg-0000001924977610" label="original">
+                                <scoreDef xml:id="scoredef-0000001160890629">
+                                    <staffGrp xml:id="staffgrp-0000001809950026" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001723445109" n="1" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001071631474" n="2" clef.shape="G" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001211154078" n="3" clef.shape="C" clef.line="2" />
+                                        <staffDef xml:id="staffdef-0000001036087792" n="4" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000002145952791" n="5" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000687638681" n="6" clef.shape="F" clef.line="3" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000153299141" n="1">
                             <staff xml:id="staff-000000156179011" n="1">
                                 <layer xml:id="layer-000000031379510" n="1">

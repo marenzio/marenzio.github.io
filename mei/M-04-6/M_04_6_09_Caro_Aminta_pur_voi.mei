@@ -29,29 +29,29 @@
                     </p>
                     <table type="lyrics">
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Prima parte</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td>Caro Aminta, pur vuoi</td>
                             <td>Dear Amynth, alas, you want to</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>Lasciar, ahimè, quel fiore</td>
                             <td>abandon the flower that</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>Che tua Filli col core</td>
                             <td>your Phyllis gave you with all her heart</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>Già ti donò ne’ più verd’anni suoi;</td>
                             <td>in her youthful years;</td>
                         </tr>
@@ -61,34 +61,34 @@
                             <td>nor in this departure tell her at least:</td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Dirli almen: “Resta in pace, a Dio mia vita”.</td>
                             <td>“Remain in peace, farewell, my life.”.</td>
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td />
                             <td />
                         </tr>
                         <tr type="void">
-                            <td></td>
+                            <td />
                             <td>
                                 <rend rend="italic">Seconda parte (Riposta)</rend>
                             </td>
                             <td />
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Non può, Filli, più il core.</td>
                             <td>Phyllis, my heart can bear no more.</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>Mira pur tu l’effetto</td>
                             <td>See for yourself the effect</td>
                         </tr>
                         <tr xml:id="line9">
-                            <td></td>
+                            <td />
                             <td>De l’ardente mio affetto</td>
                             <td>of my ardent love</td>
                         </tr>
@@ -98,12 +98,12 @@
                             <td>which overflows from my eyes.</td>
                         </tr>
                         <tr xml:id="line11">
-                            <td></td>
+                            <td />
                             <td>Sia voce il dolor mio,</td>
                             <td>Let my suffering be my voice,</td>
                         </tr>
                         <tr xml:id="line12">
-                            <td></td>
+                            <td />
                             <td>Egli in vece di me ti dica: “a Dio”.  </td>
                             <td>and utter in my place “farewell” to you.</td>
                         </tr>
@@ -158,6 +158,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000000417180364">
+                        <app xml:id="app-0000001978245468">
+                            <lem xml:id="lem-0000001818297134" />
+                            <rdg xml:id="rdg-0000002116026499" label="original">
+                                <scoreDef xml:id="scoredef-0000000883151494">
+                                    <staffGrp xml:id="staffgrp-0000001219530725" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000000132851387" n="1" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000711014309" n="2" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000001631597061" n="3" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000184878886" n="4" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000000062094898" n="5" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001528510208" n="6" clef.shape="F" clef.line="4" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000158996473" n="1">
                             <anchoredText xml:id="anchtxt-000000184148973">9. Caro Aminta, pur vuoi Prima parte</anchoredText>
                             <staff xml:id="staff-000000034359772" n="1">
@@ -3633,6 +3648,21 @@
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000000946811480">
+                        <app xml:id="app-0000000098548445">
+                            <lem xml:id="lem-0000001570748651" />
+                            <rdg xml:id="rdg-0000001827800654" label="original">
+                                <scoreDef xml:id="scoredef-0000000790877806">
+                                    <staffGrp xml:id="staffgrp-0000001274369933" symbol="bracket" n="1">
+                                        <staffDef xml:id="staffdef-0000001293441543" n="1" clef.shape="C" clef.line="1" />
+                                        <staffDef xml:id="staffdef-0000000804308231" n="2" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000877714434" n="3" clef.shape="C" clef.line="3" />
+                                        <staffDef xml:id="staffdef-0000000641839423" n="4" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001116813756" n="5" clef.shape="C" clef.line="4" />
+                                        <staffDef xml:id="staffdef-0000001462712179" n="6" clef.shape="F" clef.line="4" />
+                                    </staffGrp>
+                                </scoreDef>
+                            </rdg>
+                        </app>
                         <measure xml:id="measure-000000075536066" n="45">
                             <anchoredText xml:id="anchtxt-000000199581059">Non può, Filli, più il core Seconda parte</anchoredText>
                             <staff xml:id="staff-000000066565913" n="1">
