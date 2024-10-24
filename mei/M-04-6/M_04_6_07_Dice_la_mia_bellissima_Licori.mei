@@ -3282,7 +3282,7 @@
                                         <app xml:id="app-000000205481623">
                                             <lem xml:id="lem-000000161191743" source="Italian">
                                                 <verse xml:id="verse-000000203453561" n="1">
-                                                    <syl xml:id="syl-000000005790289" wordpos="t">spi</syl>
+                                                    <syl xml:id="syl-000000005790289" con="d" wordpos="i">spi</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000099005591" source="English">
@@ -4355,7 +4355,7 @@
                                         <app xml:id="app-000000122237303">
                                             <lem xml:id="lem-000000159494800" source="Italian">
                                                 <verse xml:id="verse-000000028128316" n="1">
-                                                    <syl xml:id="syl-000000091461349" wordpos="t">puo</syl>
+                                                    <syl xml:id="syl-000000091461349" wordpos="t">può</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000140028860" source="English">
