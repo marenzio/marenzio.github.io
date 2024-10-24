@@ -189,21 +189,27 @@
                         <staffGrp xml:id="staffgrp-0000001441961891" symbol="bracket" n="1">
                             <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000349193280">Canto</label>
+                                <labelAbbr xml:id="labelAbbr-0000000039863783">C</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd2" n="2" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000002066658094">Quinto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001958016157">Q</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd3" n="3" lines="5" clef.shape="G" clef.line="2" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001680742184">Alto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001335637237">A</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd4" n="4" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000855862894">Tenore</label>
+                                <labelAbbr xml:id="labelAbbr-0000000557126854">T</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd5" n="5" lines="5" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000000458880089">Sesto</label>
+                                <labelAbbr xml:id="labelAbbr-0000001283399854">S</labelAbbr>
                             </staffDef>
                             <staffDef xml:id="sd6" n="6" lines="5" clef.shape="F" clef.line="4" key.mode="major" key.sig="1f">
                                 <label xml:id="label-0000001009959854">Basso</label>
+                                <labelAbbr xml:id="labelAbbr-0000000212441221">B</labelAbbr>
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
@@ -8466,7 +8472,7 @@
                                         <app xml:id="app-000000067109173">
                                             <lem xml:id="lem-000000045462568" source="Italian">
                                                 <verse xml:id="verse-000000062080149" n="1">
-                                                    <syl xml:id="syl-000000133518614" wordpos="t">stra,</syl>
+                                                    <syl xml:id="syl-000000133518614" fontstyle="italic" wordpos="t">stra,</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000014698773" source="English">
@@ -12536,9 +12542,14 @@
                                     <note xml:id="p1cdd5n512v1b70s2" dur="4" oct="5" pname="d" />
                                     <beam xml:id="beam-000000105470808">
                                         <note xml:id="p1cad5n768v1b70s2" dur="8" oct="5" pname="a">
-                                            <verse xml:id="verse-000000136926686" n="1">
-                                                <syl xml:id="syl-000000083350603" con="d" wordpos="i">den</syl>
-                                            </verse>
+                                            <app xml:id="app-0000001150892571">
+                                                <lem xml:id="lem-0000000532593031" source="Italian">
+                                                    <verse xml:id="verse-000000136926686" n="1">
+                                                        <syl xml:id="syl-000000083350603" con="d" wordpos="i">den</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg xml:id="rdg-0000001289251397" source="English" />
+                                            </app>
                                         </note>
                                         <note xml:id="p1cgd5n896v1b70s2" dur="8" oct="5" pname="g" />
                                     </beam>
@@ -12579,7 +12590,7 @@
                                         <app xml:id="app-000000016136730">
                                             <lem xml:id="lem-000000197593262" source="Italian">
                                                 <verse xml:id="verse-000000104974842" n="1">
-                                                    <syl xml:id="syl-000000154356844" wordpos="t">den</syl>
+                                                    <syl xml:id="syl-000000154356844" con="d" wordpos="i">den</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000081244393" source="English">
@@ -12620,9 +12631,14 @@
                                 <layer xml:id="layer-000000005482576" n="1">
                                     <beam xml:id="beam-000000018614779">
                                         <note xml:id="p1cad5n0v1b71s1" dur="8" oct="5" pname="a">
-                                            <verse xml:id="verse-000000177685841" n="1">
-                                                <syl xml:id="syl-000000075173530" con="d" wordpos="i">den</syl>
-                                            </verse>
+                                            <app xml:id="app-0000000302110741">
+                                                <lem xml:id="lem-0000001428407056" source="Italian">
+                                                    <verse xml:id="verse-000000177685841" n="1">
+                                                        <syl xml:id="syl-000000075173530" con="d" wordpos="i">den</syl>
+                                                    </verse>
+                                                </lem>
+                                                <rdg xml:id="rdg-0000001313752433" source="English" />
+                                            </app>
                                         </note>
                                         <note xml:id="p1cgd5n128v1b71s1" dur="8" oct="5" pname="g" />
                                         <note xml:id="p1cfd5n256v1b71s1" dur="8" oct="5" pname="f" />
@@ -12790,13 +12806,10 @@
                                 <layer xml:id="layer-000000110129406" n="1">
                                     <note xml:id="p1ccd5n0v1b73s1" dur="1" fermata="above" oct="5" pname="c">
                                         <accid xml:id="accid-000000143531778" accid="s" />
-                                        <verse xml:id="verse-000000140445945" n="1">
-                                            <syl xml:id="syl-000000175722878" wordpos="t" />
-                                        </verse>
                                         <app xml:id="app-000000134835212">
                                             <lem xml:id="lem-000000150667131" source="Italian">
                                                 <verse xml:id="verse-000000140445945" n="1">
-                                                    <syl xml:id="syl-000000175722878" wordpos="t" />
+                                                    <syl xml:id="syl-000000175722878" wordpos="t">te.</syl>
                                                 </verse>
                                             </lem>
                                             <rdg xml:id="rdg-000000164502539" source="English">
