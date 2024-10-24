@@ -603,7 +603,7 @@
                                     </note>
                                     <note xml:id="p1ccd5n768v1b7s1" dur="4" oct="5" pname="c">
                                         <verse xml:id="verse-000000043799163" n="1">
-                                            <syl xml:id="syl-000000208031841" wordpos="t">co</syl>
+                                            <syl xml:id="syl-000000208031841" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                 </layer>
@@ -5337,11 +5337,7 @@
                             </staff>
                             <staff xml:id="staff-000000144074445" n="3">
                                 <layer xml:id="layer-000000009435462" n="1">
-                                    <note xml:id="p1cgd4n0v1b65s3" dur="1" fermata="above" oct="4" pname="g" tie="t">
-                                        <verse xml:id="verse-000000187212674" n="1">
-                                            <syl xml:id="syl-000000089196554" wordpos="t" />
-                                        </verse>
-                                    </note>
+                                    <note xml:id="p1cgd4n0v1b65s3" dur="1" fermata="above" oct="4" pname="g" tie="t" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000112811362" n="4">
