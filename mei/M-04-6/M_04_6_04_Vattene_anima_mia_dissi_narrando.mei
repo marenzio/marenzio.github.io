@@ -29,22 +29,22 @@
                     </p>
                     <table type="lyrics">
                         <tr xml:id="line1">
-                            <td></td>
+                            <td />
                             <td> “Vattene, anima mia”, dissi narrando</td>
                             <td>“Depart from me, my soul”,</td>
                         </tr>
                         <tr xml:id="line2">
-                            <td></td>
+                            <td />
                             <td>A la mia vaga stella</td>
                             <td>I said, narrating  my love in rhymes</td>
                         </tr>
                         <tr xml:id="line3">
-                            <td></td>
+                            <td />
                             <td>L’amor mio in rime, quando</td>
                             <td>to my fair star, when</td>
                         </tr>
                         <tr xml:id="line4">
-                            <td></td>
+                            <td />
                             <td>A un dolce sguardo, ch’ella</td>
                             <td>she shot such a sweet glance</td>
                         </tr>
@@ -54,17 +54,17 @@
                             <td>into my face: </td>
                         </tr>
                         <tr xml:id="line6">
-                            <td></td>
+                            <td />
                             <td>Io fui così conquiso</td>
                             <td>I was so conquered</td>
                         </tr>
                         <tr xml:id="line7">
-                            <td></td>
+                            <td />
                             <td>Che n’andò l’alma nei lucenti rai,</td>
                             <td>that my soul was raptured into her sparkling eyes,</td>
                         </tr>
                         <tr xml:id="line8">
-                            <td></td>
+                            <td />
                             <td>E l’alma che n’andò non torna mai.</td>
                             <td>and the soul that left never returns.</td>
                         </tr>
@@ -5463,11 +5463,7 @@
                             </staff>
                             <staff xml:id="staff-000000125062733" n="5">
                                 <layer xml:id="layer-000000115042776" n="1">
-                                    <note xml:id="p1cgd3n0v1b66s5" dur="1" fermata="above" oct="3" pname="g" tie="t">
-                                        <verse xml:id="verse-000000017076476" n="1">
-                                            <syl xml:id="syl-000000176109167" wordpos="t" />
-                                        </verse>
-                                    </note>
+                                    <note xml:id="p1cgd3n0v1b66s5" dur="1" fermata="above" oct="3" pname="g" tie="t" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000158602962" n="6">
@@ -5507,7 +5503,7 @@
                             <annot corresp="#line8" label="8">
                                 <p>torna ma</p>
                                 <list>
-                                    <li corresp="#verse-000000139548092 #verse-000000098974449 #verse-000000076088620">AnGa-1593 – C<rend rend="sub">3</rend>
+                                    <li corresp="#verse-000000139548092 #verse-000000098974449 #verse-000000076088620 #verse-000000096373556">AnGa-1593 – C<rend rend="sub">3</rend>
                                     </li>
                                 </list>
                             </annot>
