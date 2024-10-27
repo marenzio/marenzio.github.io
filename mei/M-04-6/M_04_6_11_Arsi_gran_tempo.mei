@@ -138,7 +138,7 @@
                 </div>
                 <div>
                     <head>Notes</head>
-                    <p>Both contemporary editions present a text that corresponds to the one set by Marenzio. In Vi, 1587, copy of I-Vnm only, “T. Tasso” is
+                    <p>Both contemporary editions present a text that corresponds to the one set by Marenzio. In Vi-1587 (I-Vnm copy only), “T. Tasso” is
                         added by hand on the upper margin. For the use of the Aldine edition by Marenzio, see also the notes to n. 12.</p>
                 </div>
             </div>
@@ -4716,7 +4716,7 @@
                                         <verse xml:id="verse-000000122352788" n="1">
                                             <syl xml:id="syl-000000096342768" wordpos="t">ne</syl>
                                         </verse>
-                                        <accid xml:id="accid-0000001871172101" accid="n" />
+                                        <accid xml:id="accid-0000001871172101" accid="n" func="edit" />
                                     </note>
                                 </layer>
                             </staff>
@@ -6011,11 +6011,7 @@
                             </staff>
                             <staff xml:id="staff-000000063698420" n="4">
                                 <layer xml:id="layer-000000077174427" n="1">
-                                    <note xml:id="p1cdd4n0v1b76s4" dur="1" fermata="above" oct="3" pname="d" tie="t">
-                                        <verse xml:id="verse-000000147266815" n="1">
-                                            <syl xml:id="syl-000000041052771" wordpos="t" />
-                                        </verse>
-                                    </note>
+                                    <note xml:id="p1cdd4n0v1b76s4" dur="1" fermata="above" oct="3" pname="d" tie="t" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000004821205" n="5">
