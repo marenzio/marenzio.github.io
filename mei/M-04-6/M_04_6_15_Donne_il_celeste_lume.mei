@@ -11830,12 +11830,12 @@
                                 <layer xml:id="layer-000000030985790" n="1">
                                     <note xml:id="p1cgd3n0v1b109s4" dur="2" oct="3" pname="g">
                                         <verse xml:id="verse-000000071529388" n="1">
-                                            <syl xml:id="syl-000000099256108" fontstyle="italic" con="d" wordpos="i">co</syl>
+                                            <syl xml:id="syl-000000099256108" con="d" wordpos="i">co</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n512v1b109s4" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000084321627" n="1">
-                                            <syl xml:id="syl-000000025243909" fontstyle="italic" wordpos="t">re,</syl>
+                                            <syl xml:id="syl-000000025243909" wordpos="t">re,</syl>
                                         </verse>
                                     </note>
                                     <note xml:id="p1cgd3n768v1b109s4" dur="4" oct="3" pname="g">
@@ -12222,11 +12222,7 @@
                             </staff>
                             <staff xml:id="staff-000000164666207" n="2">
                                 <layer xml:id="layer-000000051383349" n="1">
-                                    <note xml:id="p1cdd4n0v1b113s2" dur="1" fermata="above" oct="4" pname="d" tie="t">
-                                        <verse xml:id="verse-000000193724012" n="1">
-                                            <syl xml:id="syl-000000154127539" wordpos="t" />
-                                        </verse>
-                                    </note>
+                                    <note xml:id="p1cdd4n0v1b113s2" dur="1" fermata="above" oct="4" pname="d" tie="t" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000025694495" n="3">
