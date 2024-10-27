@@ -391,7 +391,7 @@
                                 </layer>
                             </staff>
                             <annot xml:id="annot-0000001710705995" label="A;3" type="app">
-                                <p>no sharp before the c2</p>
+                                <p>no sharp before the c3</p>
                                 <list corresp="#p1ccd4n0v1b3s3">
                                     <li>Am-1587</li>
                                     <li>AnGa-1593</li>
@@ -2394,18 +2394,16 @@
                                             <syl xml:id="syl-000000120391801" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000135749343">
-                                        <note xml:id="p1ccd5n768v1b26s1" dur="8" oct="5" pname="c">
-                                            <verse xml:id="verse-000000171308984" n="1">
-                                                <syl xml:id="syl-000000054092600" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cdd5n896v1b26s1" dur="8" oct="5" pname="d">
-                                            <verse xml:id="verse-000000015563738" n="1">
-                                                <syl xml:id="syl-000000211896159" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd5n768v1b26s1" dur="8" oct="5" pname="c">
+                                        <verse xml:id="verse-000000171308984" n="1">
+                                            <syl xml:id="syl-000000054092600" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cdd5n896v1b26s1" dur="8" oct="5" pname="d">
+                                        <verse xml:id="verse-000000015563738" n="1">
+                                            <syl xml:id="syl-000000211896159" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000084772710" n="2">
@@ -2425,18 +2423,16 @@
                                             <syl xml:id="syl-000000024069168" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000005601859">
-                                        <note xml:id="p1cad4n768v1b26s2" dur="8" oct="4" pname="a">
-                                            <verse xml:id="verse-000000188660139" n="1">
-                                                <syl xml:id="syl-000000194871010" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cgd4n896v1b26s2" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000105093965" n="1">
-                                                <syl xml:id="syl-000000199460201" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad4n768v1b26s2" dur="8" oct="4" pname="a">
+                                        <verse xml:id="verse-000000188660139" n="1">
+                                            <syl xml:id="syl-000000194871010" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cgd4n896v1b26s2" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000105093965" n="1">
+                                            <syl xml:id="syl-000000199460201" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000200544330" n="3">
@@ -2475,19 +2471,17 @@
                                             <syl xml:id="syl-000000104022533" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000131528520">
-                                        <note xml:id="p1ccd5n768v1b26s4" dur="8" oct="4" pname="c">
-                                            <verse xml:id="verse-000000071952705" n="1">
-                                                <syl xml:id="syl-000000069071792" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cbd4n896v1b26s4" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000194080674" accid.ges="f" />
-                                            <verse xml:id="verse-000000067211993" n="1">
-                                                <syl xml:id="syl-000000207698675" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd5n768v1b26s4" dur="8" oct="4" pname="c">
+                                        <verse xml:id="verse-000000071952705" n="1">
+                                            <syl xml:id="syl-000000069071792" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cbd4n896v1b26s4" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000194080674" accid.ges="f" />
+                                        <verse xml:id="verse-000000067211993" n="1">
+                                            <syl xml:id="syl-000000207698675" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000040094426" n="5">
@@ -2668,18 +2662,16 @@
                                             <syl xml:id="syl-000000198440791" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000068059645">
-                                        <note xml:id="p1cfd4n768v1b28s3" dur="8" oct="4" pname="f">
-                                            <verse xml:id="verse-000000131948911" n="1">
-                                                <syl xml:id="syl-000000001363233" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cgd4n896v1b28s3" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000045252998" n="1">
-                                                <syl xml:id="syl-000000120106143" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd4n768v1b28s3" dur="8" oct="4" pname="f">
+                                        <verse xml:id="verse-000000131948911" n="1">
+                                            <syl xml:id="syl-000000001363233" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cgd4n896v1b28s3" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000045252998" n="1">
+                                            <syl xml:id="syl-000000120106143" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000164900748" n="4">
@@ -2713,18 +2705,16 @@
                                             <syl xml:id="syl-000000031984762" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000004509939">
-                                        <note xml:id="p1cad3n768v1b28s5" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000094114433" n="1">
-                                                <syl xml:id="syl-000000061738040" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cgd3n896v1b28s5" dur="8" oct="3" pname="g">
-                                            <verse xml:id="verse-000000163174006" n="1">
-                                                <syl xml:id="syl-000000121998375" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad3n768v1b28s5" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000094114433" n="1">
+                                            <syl xml:id="syl-000000061738040" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cgd3n896v1b28s5" dur="8" oct="3" pname="g">
+                                        <verse xml:id="verse-000000163174006" n="1">
+                                            <syl xml:id="syl-000000121998375" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000006409481" n="6">
@@ -2744,18 +2734,16 @@
                                             <syl xml:id="syl-000000035064542" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000158271141">
-                                        <note xml:id="p1cfd3n768v1b28s6" dur="8" oct="3" pname="f">
-                                            <verse xml:id="verse-000000139504231" n="1">
-                                                <syl xml:id="syl-000000139112570" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ced3n896v1b28s6" dur="8" oct="3" pname="e">
-                                            <verse xml:id="verse-000000018633346" n="1">
-                                                <syl xml:id="syl-000000106773843" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd3n768v1b28s6" dur="8" oct="3" pname="f">
+                                        <verse xml:id="verse-000000139504231" n="1">
+                                            <syl xml:id="syl-000000139112570" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ced3n896v1b28s6" dur="8" oct="3" pname="e">
+                                        <verse xml:id="verse-000000018633346" n="1">
+                                            <syl xml:id="syl-000000106773843" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                         </measure>
@@ -2887,18 +2875,16 @@
                                             <syl xml:id="syl-000000000131264" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000168658011">
-                                        <note xml:id="p1ccd5n256v1b30s1" dur="8" oct="5" pname="c">
-                                            <verse xml:id="verse-000000067886776" n="1">
-                                                <syl xml:id="syl-000000095101765" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cdd5n384v1b30s1" dur="8" oct="5" pname="d">
-                                            <verse xml:id="verse-000000082309967" n="1">
-                                                <syl xml:id="syl-000000107134352" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd5n256v1b30s1" dur="8" oct="5" pname="c">
+                                        <verse xml:id="verse-000000067886776" n="1">
+                                            <syl xml:id="syl-000000095101765" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cdd5n384v1b30s1" dur="8" oct="5" pname="d">
+                                        <verse xml:id="verse-000000082309967" n="1">
+                                            <syl xml:id="syl-000000107134352" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1ccd5n512v1b30s1" dur="4" oct="5" pname="c">
                                         <verse xml:id="verse-000000043462298" n="1">
                                             <syl xml:id="syl-000000054548157" wordpos="t">che</syl>
@@ -2919,18 +2905,16 @@
                                             <syl xml:id="syl-000000184111803" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000206029024">
-                                        <note xml:id="p1cad4n256v1b30s2" dur="8" oct="4" pname="a">
-                                            <verse xml:id="verse-000000000932284" n="1">
-                                                <syl xml:id="syl-000000015189901" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cgd4n384v1b30s2" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000118390974" n="1">
-                                                <syl xml:id="syl-000000149995868" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad4n256v1b30s2" dur="8" oct="4" pname="a">
+                                        <verse xml:id="verse-000000000932284" n="1">
+                                            <syl xml:id="syl-000000015189901" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cgd4n384v1b30s2" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000118390974" n="1">
+                                            <syl xml:id="syl-000000149995868" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cad4n512v1b30s2" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-000000017551056" n="1">
                                             <syl xml:id="syl-000000181609519" wordpos="t">che</syl>
@@ -2960,19 +2944,17 @@
                                             <syl xml:id="syl-000000082749854" con="d" wordpos="i">ma</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000004179183">
-                                        <note xml:id="p1ccd5n256v1b30s4" dur="8" oct="4" pname="c">
-                                            <verse xml:id="verse-000000122642940" n="1">
-                                                <syl xml:id="syl-000000200553670" wordpos="t">va</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cbd4n384v1b30s4" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000071540796" accid.ges="f" />
-                                            <verse xml:id="verse-000000068645395" n="1">
-                                                <syl xml:id="syl-000000064275653" wordpos="t">Quel</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd5n256v1b30s4" dur="8" oct="4" pname="c">
+                                        <verse xml:id="verse-000000122642940" n="1">
+                                            <syl xml:id="syl-000000200553670" wordpos="t">va</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cbd4n384v1b30s4" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000071540796" accid.ges="f" />
+                                        <verse xml:id="verse-000000068645395" n="1">
+                                            <syl xml:id="syl-000000064275653" wordpos="t">Quel</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1ccd5n512v1b30s4" dur="4" oct="4" pname="c">
                                         <verse xml:id="verse-000000013221548" n="1">
                                             <syl xml:id="syl-000000106423335" wordpos="t">che</syl>
@@ -3451,14 +3433,12 @@
                             </staff>
                             <staff xml:id="staff-000000082962798" n="3">
                                 <layer xml:id="layer-000000142902852" n="1">
-                                    <beam xml:id="beam-000000213449989">
-                                        <note xml:id="p1cfd4n0v1b36s3" dur="8" oct="4" pname="f" tie="t" />
-                                        <note xml:id="p1cgd4n128v1b36s3" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000045941125" n="1">
-                                                <syl xml:id="syl-000000172215422" con="d" wordpos="i">sa</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd4n0v1b36s3" dur="8" oct="4" pname="f" tie="t" />
+                                    <note xml:id="p1cgd4n128v1b36s3" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000045941125" n="1">
+                                            <syl xml:id="syl-000000172215422" con="d" wordpos="i">sa</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cad4n256v1b36s3" dur="2" oct="4" pname="a">
                                         <verse xml:id="verse-000000024747455" n="1">
                                             <syl xml:id="syl-000000211628141" con="d" wordpos="i">li</syl>
@@ -3493,15 +3473,13 @@
                             </staff>
                             <staff xml:id="staff-000000085895483" n="5">
                                 <layer xml:id="layer-000000158616341" n="1">
-                                    <beam xml:id="beam-000000059189241">
-                                        <note xml:id="p1cad3n0v1b36s5" dur="8" oct="3" pname="a" tie="t" />
-                                        <note xml:id="p1cbd3n128v1b36s5" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000185046513" accid.ges="f" />
-                                            <verse xml:id="verse-000000179107598" n="1">
-                                                <syl xml:id="syl-000000001368055" con="d" wordpos="i">sa</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad3n0v1b36s5" dur="8" oct="3" pname="a" tie="t" />
+                                    <note xml:id="p1cbd3n128v1b36s5" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000185046513" accid.ges="f" />
+                                        <verse xml:id="verse-000000179107598" n="1">
+                                            <syl xml:id="syl-000000001368055" con="d" wordpos="i">sa</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1ccd4n256v1b36s5" dur="2" oct="4" pname="c">
                                         <verse xml:id="verse-000000078774401" n="1">
                                             <syl xml:id="syl-000000061346138" con="d" wordpos="i">li</syl>
@@ -3903,15 +3881,13 @@
                             </staff>
                             <staff xml:id="staff-000000176700029" n="2">
                                 <layer xml:id="layer-000000087184546" n="1">
-                                    <beam xml:id="beam-000000065320487">
-                                        <note xml:id="p1ccd4n0v1b41s2" dur="8" oct="4" pname="c" tie="t" />
-                                        <note xml:id="p1cbd3n128v1b41s2" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000108818630" accid.ges="f" />
-                                            <verse xml:id="verse-000000050547611" n="1">
-                                                <syl xml:id="syl-000000042173821" con="d" wordpos="i">ra</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd4n0v1b41s2" dur="8" oct="4" pname="c" tie="t" />
+                                    <note xml:id="p1cbd3n128v1b41s2" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000108818630" accid.ges="f" />
+                                        <verse xml:id="verse-000000050547611" n="1">
+                                            <syl xml:id="syl-000000042173821" con="d" wordpos="i">ra</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cad3n256v1b41s2" dur="2" oct="3" pname="a">
                                         <verse xml:id="verse-000000024428078" n="1">
                                             <syl xml:id="syl-000000046239660" wordpos="t">pir</syl>
@@ -4032,14 +4008,12 @@
                             </staff>
                             <staff xml:id="staff-000000123369051" n="2">
                                 <layer xml:id="layer-000000144642934" n="1">
-                                    <beam xml:id="beam-000000210271110">
-                                        <note xml:id="p1cad4n0v1b42s2" dur="8" oct="4" pname="a" tie="t" />
-                                        <note xml:id="p1cgd4n128v1b42s2" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000012218988" n="1">
-                                                <syl xml:id="syl-000000008208442" con="d" wordpos="i">ra</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad4n0v1b42s2" dur="8" oct="4" pname="a" tie="t" />
+                                    <note xml:id="p1cgd4n128v1b42s2" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000012218988" n="1">
+                                            <syl xml:id="syl-000000008208442" con="d" wordpos="i">ra</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cfd4n256v1b42s2" dur="2" oct="4" pname="f">
                                         <verse xml:id="verse-000000173397370" n="1">
                                             <syl xml:id="syl-000000033988657" con="d" wordpos="i">pis</syl>
@@ -4135,14 +4109,12 @@
                         <measure xml:id="measure-000000167091943" n="43">
                             <staff xml:id="staff-000000121592114" n="1">
                                 <layer xml:id="layer-000000108721470" n="1">
-                                    <beam xml:id="beam-000000212120212">
-                                        <note xml:id="p1cgd4n0v1b43s1" dur="8" oct="4" pname="g" tie="t" />
-                                        <note xml:id="p1cgd4n128v1b43s1" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000097293516" n="1">
-                                                <syl xml:id="syl-000000141127911" wordpos="t">ra</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cgd4n0v1b43s1" dur="8" oct="4" pname="g" tie="t" />
+                                    <note xml:id="p1cgd4n128v1b43s1" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000097293516" n="1">
+                                            <syl xml:id="syl-000000141127911" wordpos="t">ra</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cdd4n256v1b43s1" dur="4" oct="4" pname="d">
                                         <verse xml:id="verse-000000002247580" n="1">
                                             <syl xml:id="syl-000000192536177" con="d" wordpos="i">ra</syl>
@@ -4157,17 +4129,15 @@
                             </staff>
                             <staff xml:id="staff-000000035659699" n="2">
                                 <layer xml:id="layer-000000059043044" n="1">
-                                    <beam xml:id="beam-000000059626077">
-                                        <note xml:id="p1cbd4n0v1b43s2" dur="8" oct="4" pname="b" tie="t">
-                                            <accid xml:id="accid-000000169324425" accid.ges="f" />
-                                        </note>
-                                        <note xml:id="p1cbd4n128v1b43s2" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000023672282" accid.ges="f" />
-                                            <verse xml:id="verse-000000006908729" n="1">
-                                                <syl xml:id="syl-000000052239386" wordpos="t">ra</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cbd4n0v1b43s2" dur="8" oct="4" pname="b" tie="t">
+                                        <accid xml:id="accid-000000169324425" accid.ges="f" />
+                                    </note>
+                                    <note xml:id="p1cbd4n128v1b43s2" dur="8" oct="4" pname="b">
+                                        <accid xml:id="accid-000000023672282" accid.ges="f" />
+                                        <verse xml:id="verse-000000006908729" n="1">
+                                            <syl xml:id="syl-000000052239386" wordpos="t">ra</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cgd4n256v1b43s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000038533792" n="1">
                                             <syl xml:id="syl-000000020603311" con="d" wordpos="i">ra</syl>
@@ -4182,14 +4152,12 @@
                             </staff>
                             <staff xml:id="staff-000000016191216" n="3">
                                 <layer xml:id="layer-000000124665661" n="1">
-                                    <beam xml:id="beam-000000089970989">
-                                        <note xml:id="p1cdd4n0v1b43s3" dur="8" oct="4" pname="d" tie="t" />
-                                        <note xml:id="p1cdd4n128v1b43s3" dur="8" oct="4" pname="d">
-                                            <verse xml:id="verse-000000172626814" n="1">
-                                                <syl xml:id="syl-000000041455712" wordpos="t">ra</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cdd4n0v1b43s3" dur="8" oct="4" pname="d" tie="t" />
+                                    <note xml:id="p1cdd4n128v1b43s3" dur="8" oct="4" pname="d">
+                                        <verse xml:id="verse-000000172626814" n="1">
+                                            <syl xml:id="syl-000000041455712" wordpos="t">ra</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cdd4n256v1b43s3" dur="4" oct="4" pname="d">
                                         <verse xml:id="verse-000000066938922" n="1">
                                             <syl xml:id="syl-000000076839008" con="d" wordpos="i">ra</syl>
@@ -4215,14 +4183,12 @@
                             </staff>
                             <staff xml:id="staff-000000103512199" n="6">
                                 <layer xml:id="layer-000000076134710" n="1">
-                                    <beam xml:id="beam-000000154651928">
-                                        <note xml:id="p1cgd3n0v1b43s6" dur="8" oct="3" pname="g" tie="t" />
-                                        <note xml:id="p1cgd3n128v1b43s6" dur="8" oct="3" pname="g">
-                                            <verse xml:id="verse-000000062260054" n="1">
-                                                <syl xml:id="syl-000000144413804" wordpos="t">ra</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cgd3n0v1b43s6" dur="8" oct="3" pname="g" tie="t" />
+                                    <note xml:id="p1cgd3n128v1b43s6" dur="8" oct="3" pname="g">
+                                        <verse xml:id="verse-000000062260054" n="1">
+                                            <syl xml:id="syl-000000144413804" wordpos="t">ra</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cbd3n256v1b43s6" dur="4" oct="3" pname="b">
                                         <accid xml:id="accid-000000164724750" accid.ges="f" />
                                         <verse xml:id="verse-000000075111011" n="1">
@@ -4523,14 +4489,12 @@
                             </staff>
                             <staff xml:id="staff-000000075832164" n="3">
                                 <layer xml:id="layer-000000158456304" n="1">
-                                    <beam xml:id="beam-000000199199345">
-                                        <note xml:id="p1cgd4n0v1b47s3" dur="8" oct="4" pname="g" tie="t" />
-                                        <note xml:id="p1cfd4n128v1b47s3" dur="8" oct="4" pname="f">
-                                            <verse xml:id="verse-000000045380276" n="1">
-                                                <syl xml:id="syl-000000012222906" con="d" wordpos="i">fug</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cgd4n0v1b47s3" dur="8" oct="4" pname="g" tie="t" />
+                                    <note xml:id="p1cfd4n128v1b47s3" dur="8" oct="4" pname="f">
+                                        <verse xml:id="verse-000000045380276" n="1">
+                                            <syl xml:id="syl-000000012222906" con="d" wordpos="i">fug</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1ced4n256v1b47s3" dur="4" oct="4" pname="e">
                                         <verse xml:id="verse-000000185669281" n="1">
                                             <syl xml:id="syl-000000045955624" con="d" wordpos="i">gi</syl>
@@ -4654,15 +4618,13 @@
                             </staff>
                             <staff xml:id="staff-000000083424484" n="5">
                                 <layer xml:id="layer-000000087961522" n="1">
-                                    <beam xml:id="beam-000000036475383">
-                                        <note xml:id="p1ccd4n0v1b48s5" dur="8" oct="4" pname="c" tie="t" />
-                                        <note xml:id="p1cbd3n128v1b48s5" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000128875464" accid.ges="f" />
-                                            <verse xml:id="verse-000000101212107" n="1">
-                                                <syl xml:id="syl-000000121006987" con="d" wordpos="i">fug</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd4n0v1b48s5" dur="8" oct="4" pname="c" tie="t" />
+                                    <note xml:id="p1cbd3n128v1b48s5" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000128875464" accid.ges="f" />
+                                        <verse xml:id="verse-000000101212107" n="1">
+                                            <syl xml:id="syl-000000121006987" con="d" wordpos="i">fug</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cad3n256v1b48s5" dur="2" oct="3" pname="a">
                                         <verse xml:id="verse-000000069250656" n="1">
                                             <syl xml:id="syl-000000013982271" con="d" wordpos="i">gi</syl>
@@ -4722,30 +4684,26 @@
                                             <syl xml:id="syl-000000211081181" con="d" wordpos="i">ta</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000033365890">
-                                        <note xml:id="p1cad4n768v1b49s1" dur="8" oct="4" pname="a">
-                                            <verse xml:id="verse-000000146672834" n="1">
-                                                <syl xml:id="syl-000000073669872" wordpos="t">va_il</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cad4n896v1b49s1" dur="8" oct="4" pname="a">
-                                            <verse xml:id="verse-000000176891048" n="1">
-                                                <syl xml:id="syl-000000114088970" con="d" wordpos="i">par</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad4n768v1b49s1" dur="8" oct="4" pname="a">
+                                        <verse xml:id="verse-000000146672834" n="1">
+                                            <syl xml:id="syl-000000073669872" wordpos="t">va_il</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cad4n896v1b49s1" dur="8" oct="4" pname="a">
+                                        <verse xml:id="verse-000000176891048" n="1">
+                                            <syl xml:id="syl-000000114088970" con="d" wordpos="i">par</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000096338102" n="2">
                                 <layer xml:id="layer-000000169970402" n="1">
-                                    <beam xml:id="beam-000000098516025">
-                                        <note xml:id="p1cfd4n0v1b49s2" dur="8" oct="4" pname="f" tie="t" />
-                                        <note xml:id="p1cdd4n128v1b49s2" dur="8" oct="4" pname="d">
-                                            <verse xml:id="verse-000000108688472" n="1">
-                                                <syl xml:id="syl-000000070490270" con="d" wordpos="i">fret</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd4n0v1b49s2" dur="8" oct="4" pname="f" tie="t" />
+                                    <note xml:id="p1cdd4n128v1b49s2" dur="8" oct="4" pname="d">
+                                        <verse xml:id="verse-000000108688472" n="1">
+                                            <syl xml:id="syl-000000070490270" con="d" wordpos="i">fret</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cgd4n256v1b49s2" dur="4" oct="4" pname="g">
                                         <verse xml:id="verse-000000081520379" n="1">
                                             <syl xml:id="syl-000000144338833" con="d" wordpos="i">ta</syl>
@@ -4790,18 +4748,16 @@
                                             <syl xml:id="syl-000000055212717" con="d" wordpos="i">ta</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000143507870">
-                                        <note xml:id="p1ccd4n768v1b49s5" dur="8" oct="4" pname="c">
-                                            <verse xml:id="verse-000000037266340" n="1">
-                                                <syl xml:id="syl-000000147103517" wordpos="t">va_il</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ccd4n896v1b49s5" dur="8" oct="4" pname="c">
-                                            <verse xml:id="verse-000000214235857" n="1">
-                                                <syl xml:id="syl-000000070719176" con="d" wordpos="i">par</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1ccd4n768v1b49s5" dur="8" oct="4" pname="c">
+                                        <verse xml:id="verse-000000037266340" n="1">
+                                            <syl xml:id="syl-000000147103517" wordpos="t">va_il</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ccd4n896v1b49s5" dur="8" oct="4" pname="c">
+                                        <verse xml:id="verse-000000214235857" n="1">
+                                            <syl xml:id="syl-000000070719176" con="d" wordpos="i">par</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000131860568" n="6">
@@ -4822,18 +4778,16 @@
                                             <syl xml:id="syl-000000007957204" con="d" wordpos="i">ta</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000002485778">
-                                        <note xml:id="p1cad3n768v1b49s6" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000059958289" n="1">
-                                                <syl xml:id="syl-000000164236351" wordpos="t">va_il</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cfd3n896v1b49s6" dur="8" oct="3" pname="f">
-                                            <verse xml:id="verse-000000202578902" n="1">
-                                                <syl xml:id="syl-000000035069731" con="d" wordpos="i">par</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad3n768v1b49s6" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000059958289" n="1">
+                                            <syl xml:id="syl-000000164236351" wordpos="t">va_il</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cfd3n896v1b49s6" dur="8" oct="3" pname="f">
+                                        <verse xml:id="verse-000000202578902" n="1">
+                                            <syl xml:id="syl-000000035069731" con="d" wordpos="i">par</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                         </measure>
@@ -5168,18 +5122,16 @@
                                             <syl xml:id="syl-000000037922732" con="d" wordpos="i">si</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000088169436">
-                                        <note xml:id="p1cfd4n768v1b55s1" dur="8" oct="4" pname="f">
-                                            <verse xml:id="verse-000000192334999" n="1">
-                                                <syl xml:id="syl-000000045448407" wordpos="t">a</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ced4n896v1b55s1" dur="8" oct="4" pname="e">
-                                            <verse xml:id="verse-000000049342609" n="1">
-                                                <syl xml:id="syl-000000141598184" wordpos="t">Che</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd4n768v1b55s1" dur="8" oct="4" pname="f">
+                                        <verse xml:id="verse-000000192334999" n="1">
+                                            <syl xml:id="syl-000000045448407" wordpos="t">a</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ced4n896v1b55s1" dur="8" oct="4" pname="e">
+                                        <verse xml:id="verse-000000049342609" n="1">
+                                            <syl xml:id="syl-000000141598184" wordpos="t">Che</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000175021411" n="2">
@@ -5199,18 +5151,16 @@
                                             <syl xml:id="syl-000000043090384" con="d" wordpos="i">si</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000203093776">
-                                        <note xml:id="p1cdd4n768v1b55s2" dur="8" oct="4" pname="d">
-                                            <verse xml:id="verse-000000085701747" n="1">
-                                                <syl xml:id="syl-000000206671417" wordpos="t">a</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ccd4n896v1b55s2" dur="8" oct="4" pname="c">
-                                            <verse xml:id="verse-000000214098374" n="1">
-                                                <syl xml:id="syl-000000194415047" wordpos="t">Che</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cdd4n768v1b55s2" dur="8" oct="4" pname="d">
+                                        <verse xml:id="verse-000000085701747" n="1">
+                                            <syl xml:id="syl-000000206671417" wordpos="t">a</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ccd4n896v1b55s2" dur="8" oct="4" pname="c">
+                                        <verse xml:id="verse-000000214098374" n="1">
+                                            <syl xml:id="syl-000000194415047" wordpos="t">Che</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000147022981" n="3">
@@ -5321,12 +5271,12 @@
                             </staff>
                             <staff xml:id="staff-000000167703189" n="5">
                                 <layer xml:id="layer-000000212320550" n="1">
-                                    <rest xml:id="p1r0v1b56s5" dur="1" />
+                                    <mRest xml:id="p1r0v1b56s5" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000047903608" n="6">
                                 <layer xml:id="layer-000000084164190" n="1">
-                                    <rest xml:id="p1r0v1b56s6" dur="1" />
+                                    <mRest xml:id="p1r0v1b56s6" />
                                 </layer>
                             </staff>
                         </measure>
@@ -5672,18 +5622,16 @@
                                             <syl xml:id="syl-000000198068584" con="d" wordpos="i">si</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000016695722">
-                                        <note xml:id="p1cfd4n768v1b61s4" dur="8" oct="3" pname="f">
-                                            <verse xml:id="verse-000000029552596" n="1">
-                                                <syl xml:id="syl-000000188558211" wordpos="t">a</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ced4n896v1b61s4" dur="8" oct="3" pname="e">
-                                            <verse xml:id="verse-000000083495952" n="1">
-                                                <syl xml:id="syl-000000199540371" wordpos="t">Che</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd4n768v1b61s4" dur="8" oct="3" pname="f">
+                                        <verse xml:id="verse-000000029552596" n="1">
+                                            <syl xml:id="syl-000000188558211" wordpos="t">a</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ced4n896v1b61s4" dur="8" oct="3" pname="e">
+                                        <verse xml:id="verse-000000083495952" n="1">
+                                            <syl xml:id="syl-000000199540371" wordpos="t">Che</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000138300704" n="5">
@@ -5704,18 +5652,16 @@
                                             <syl xml:id="syl-000000149688620" con="d" wordpos="i">si</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000213605563">
-                                        <note xml:id="p1cad3n768v1b61s5" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000092973618" n="1">
-                                                <syl xml:id="syl-000000175824491" wordpos="t">a</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cad3n896v1b61s5" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000177051052" n="1">
-                                                <syl xml:id="syl-000000182236312" wordpos="t">Che</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad3n768v1b61s5" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000092973618" n="1">
+                                            <syl xml:id="syl-000000175824491" wordpos="t">a</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cad3n896v1b61s5" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000177051052" n="1">
+                                            <syl xml:id="syl-000000182236312" wordpos="t">Che</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                             <staff xml:id="staff-000000111017799" n="6">
@@ -5735,18 +5681,16 @@
                                             <syl xml:id="syl-000000017106589" con="d" wordpos="i">si</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000003927758">
-                                        <note xml:id="p1cdd3n768v1b61s6" dur="8" oct="3" pname="d">
-                                            <verse xml:id="verse-000000057314898" n="1">
-                                                <syl xml:id="syl-000000154569266" wordpos="t">a</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ccd3n896v1b61s6" dur="8" oct="3" pname="c">
-                                            <verse xml:id="verse-000000048500806" n="1">
-                                                <syl xml:id="syl-000000181040313" wordpos="t">Che</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cdd3n768v1b61s6" dur="8" oct="3" pname="d">
+                                        <verse xml:id="verse-000000057314898" n="1">
+                                            <syl xml:id="syl-000000154569266" wordpos="t">a</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ccd3n896v1b61s6" dur="8" oct="3" pname="c">
+                                        <verse xml:id="verse-000000048500806" n="1">
+                                            <syl xml:id="syl-000000181040313" wordpos="t">Che</syl>
+                                        </verse>
+                                    </note>
                                 </layer>
                             </staff>
                         </measure>
@@ -5937,19 +5881,17 @@
                                             <syl xml:id="syl-000000130610665" con="d" wordpos="i">Fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000083254954">
-                                        <note xml:id="p1cad4n256v1b64s1" dur="8" oct="4" pname="a">
-                                            <verse xml:id="verse-000000008058977" n="1">
-                                                <syl xml:id="syl-000000123422478" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cbd4n384v1b64s1" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000116768236" accid.ges="f" />
-                                            <verse xml:id="verse-000000114340710" n="1">
-                                                <syl xml:id="syl-000000080912012" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad4n256v1b64s1" dur="8" oct="4" pname="a">
+                                        <verse xml:id="verse-000000008058977" n="1">
+                                            <syl xml:id="syl-000000123422478" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cbd4n384v1b64s1" dur="8" oct="4" pname="b">
+                                        <accid xml:id="accid-000000116768236" accid.ges="f" />
+                                        <verse xml:id="verse-000000114340710" n="1">
+                                            <syl xml:id="syl-000000080912012" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1ccd5n512v1b64s1" dur="4" oct="5" pname="c">
                                         <verse xml:id="verse-000000003395035" n="1">
                                             <syl xml:id="syl-000000071644610" con="d" wordpos="i">la</syl>
@@ -5978,18 +5920,16 @@
                                             <syl xml:id="syl-000000050474180" con="d" wordpos="i">Fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000065230768">
-                                        <note xml:id="p1cfd4n256v1b64s3" dur="8" oct="4" pname="f">
-                                            <verse xml:id="verse-000000187126109" n="1">
-                                                <syl xml:id="syl-000000035677995" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cgd4n384v1b64s3" dur="8" oct="4" pname="g">
-                                            <verse xml:id="verse-000000062416889" n="1">
-                                                <syl xml:id="syl-000000011575886" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cfd4n256v1b64s3" dur="8" oct="4" pname="f">
+                                        <verse xml:id="verse-000000187126109" n="1">
+                                            <syl xml:id="syl-000000035677995" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cgd4n384v1b64s3" dur="8" oct="4" pname="g">
+                                        <verse xml:id="verse-000000062416889" n="1">
+                                            <syl xml:id="syl-000000011575886" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cad4n512v1b64s3" dur="4" oct="4" pname="a">
                                         <verse xml:id="verse-000000133741502" n="1">
                                             <syl xml:id="syl-000000121181957" con="d" wordpos="i">la</syl>
@@ -6076,19 +6016,17 @@
                                             <syl xml:id="syl-000000085917266" con="d" wordpos="i">Fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000035111071">
-                                        <note xml:id="p1cbd3n256v1b65s5" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000132578374" accid.ges="f" />
-                                            <verse xml:id="verse-000000172082402" n="1">
-                                                <syl xml:id="syl-000000042303398" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cad3n384v1b65s5" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000159535997" n="1">
-                                                <syl xml:id="syl-000000146330264" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cbd3n256v1b65s5" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000132578374" accid.ges="f" />
+                                        <verse xml:id="verse-000000172082402" n="1">
+                                            <syl xml:id="syl-000000042303398" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cad3n384v1b65s5" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000159535997" n="1">
+                                            <syl xml:id="syl-000000146330264" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cgd3n512v1b65s5" dur="4" oct="3" pname="g">
                                         <verse xml:id="verse-000000107391747" n="1">
                                             <syl xml:id="syl-000000039378689" con="d" wordpos="i">la</syl>
@@ -6142,18 +6080,16 @@
                                             <syl xml:id="syl-000000056061501" con="d" wordpos="i">Fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000023258344">
-                                        <note xml:id="p1cdd4n256v1b66s2" dur="8" oct="4" pname="d">
-                                            <verse xml:id="verse-000000035169515" n="1">
-                                                <syl xml:id="syl-000000080509276" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ced4n384v1b66s2" dur="8" oct="4" pname="e">
-                                            <verse xml:id="verse-000000077512899" n="1">
-                                                <syl xml:id="syl-000000056820452" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cdd4n256v1b66s2" dur="8" oct="4" pname="d">
+                                        <verse xml:id="verse-000000035169515" n="1">
+                                            <syl xml:id="syl-000000080509276" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ced4n384v1b66s2" dur="8" oct="4" pname="e">
+                                        <verse xml:id="verse-000000077512899" n="1">
+                                            <syl xml:id="syl-000000056820452" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cfd4n512v1b66s2" dur="4" oct="4" pname="f">
                                         <verse xml:id="verse-000000147839567" n="1">
                                             <syl xml:id="syl-000000104057822" con="d" wordpos="i">la</syl>
@@ -6178,18 +6114,16 @@
                                             <syl xml:id="syl-000000112253414" con="d" wordpos="i">Fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000084862347">
-                                        <note xml:id="p1cad4n256v1b66s4" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000202332881" n="1">
-                                                <syl xml:id="syl-000000036428492" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cgd4n384v1b66s4" dur="8" oct="3" pname="g">
-                                            <verse xml:id="verse-000000184381402" n="1">
-                                                <syl xml:id="syl-000000211633300" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad4n256v1b66s4" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000202332881" n="1">
+                                            <syl xml:id="syl-000000036428492" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cgd4n384v1b66s4" dur="8" oct="3" pname="g">
+                                        <verse xml:id="verse-000000184381402" n="1">
+                                            <syl xml:id="syl-000000211633300" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cfd4n512v1b66s4" dur="4" oct="3" pname="f">
                                         <verse xml:id="verse-000000026023193" n="1">
                                             <syl xml:id="syl-000000018114396" con="d" wordpos="i">la</syl>
@@ -6340,19 +6274,17 @@
                                             <syl xml:id="syl-000000016952245" con="d" wordpos="i">fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000044507586">
-                                        <note xml:id="p1cbd4n256v1b68s1" dur="8" oct="4" pname="b">
-                                            <accid xml:id="accid-000000197059619" accid.ges="f" />
-                                            <verse xml:id="verse-000000092830361" n="1">
-                                                <syl xml:id="syl-000000132781446" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ccd5n384v1b68s1" dur="8" oct="5" pname="c">
-                                            <verse xml:id="verse-000000089372090" n="1">
-                                                <syl xml:id="syl-000000131772908" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cbd4n256v1b68s1" dur="8" oct="4" pname="b">
+                                        <accid xml:id="accid-000000197059619" accid.ges="f" />
+                                        <verse xml:id="verse-000000092830361" n="1">
+                                            <syl xml:id="syl-000000132781446" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ccd5n384v1b68s1" dur="8" oct="5" pname="c">
+                                        <verse xml:id="verse-000000089372090" n="1">
+                                            <syl xml:id="syl-000000131772908" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cdd5n512v1b68s1" dur="4" oct="5" pname="d">
                                         <verse xml:id="verse-000000111581179" n="1">
                                             <syl xml:id="syl-000000009585930" con="d" wordpos="i">la</syl>
@@ -6387,18 +6319,16 @@
                                             <syl xml:id="syl-000000180476056" con="d" wordpos="i">Fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000152014811">
-                                        <note xml:id="p1cdd4n256v1b68s3" dur="8" oct="4" pname="d">
-                                            <verse xml:id="verse-000000068918342" n="1">
-                                                <syl xml:id="syl-000000110155593" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1ced4n384v1b68s3" dur="8" oct="4" pname="e">
-                                            <verse xml:id="verse-000000058609407" n="1">
-                                                <syl xml:id="syl-000000186066927" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cdd4n256v1b68s3" dur="8" oct="4" pname="d">
+                                        <verse xml:id="verse-000000068918342" n="1">
+                                            <syl xml:id="syl-000000110155593" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1ced4n384v1b68s3" dur="8" oct="4" pname="e">
+                                        <verse xml:id="verse-000000058609407" n="1">
+                                            <syl xml:id="syl-000000186066927" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1cfd4n512v1b68s3" dur="4" oct="4" pname="f">
                                         <verse xml:id="verse-000000211103524" n="1">
                                             <syl xml:id="syl-000000187736460" con="d" wordpos="i">la</syl>
@@ -6507,19 +6437,17 @@
                                             <syl xml:id="syl-000000062494739" con="d" wordpos="i">fat</syl>
                                         </verse>
                                     </note>
-                                    <beam xml:id="beam-000000164572182">
-                                        <note xml:id="p1cad3n256v1b69s5" dur="8" oct="3" pname="a">
-                                            <verse xml:id="verse-000000093598693" n="1">
-                                                <syl xml:id="syl-000000152023819" wordpos="t">ti</syl>
-                                            </verse>
-                                        </note>
-                                        <note xml:id="p1cbd3n384v1b69s5" dur="8" oct="3" pname="b">
-                                            <accid xml:id="accid-000000014196356" accid.ges="f" />
-                                            <verse xml:id="verse-000000043463018" n="1">
-                                                <syl xml:id="syl-000000093607569" wordpos="t">pur</syl>
-                                            </verse>
-                                        </note>
-                                    </beam>
+                                    <note xml:id="p1cad3n256v1b69s5" dur="8" oct="3" pname="a">
+                                        <verse xml:id="verse-000000093598693" n="1">
+                                            <syl xml:id="syl-000000152023819" wordpos="t">ti</syl>
+                                        </verse>
+                                    </note>
+                                    <note xml:id="p1cbd3n384v1b69s5" dur="8" oct="3" pname="b">
+                                        <accid xml:id="accid-000000014196356" accid.ges="f" />
+                                        <verse xml:id="verse-000000043463018" n="1">
+                                            <syl xml:id="syl-000000093607569" wordpos="t">pur</syl>
+                                        </verse>
+                                    </note>
                                     <note xml:id="p1ccd4n512v1b69s5" dur="4" oct="4" pname="c">
                                         <verse xml:id="verse-000000127206440" n="1">
                                             <syl xml:id="syl-000000152320751" con="d" wordpos="i">la</syl>
@@ -7720,7 +7648,7 @@
                                     </note>
                                     <note xml:id="p1ccd4n768v1b83s3" dur="4" oct="4" pname="c">
                                         <verse xml:id="verse-000000154180036" n="1">
-                                            <syl xml:id="syl-000000014445742" con="d" wordpos="i">ra</syl>
+                                            <syl xml:id="syl-000000014445742" fontstyle="italic" con="d" wordpos="i">ra</syl>
                                         </verse>
                                     </note>
                                 </layer>
