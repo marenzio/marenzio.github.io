@@ -20,10 +20,10 @@ groups:
         #   name: "Book I"
         - id: "M-06-5.xhtml"
           name: "Book VI"
-    # - name: "Books for six voices"
-    #   books:
-    #     - id: "M-04-6.xhtml"
-    #       name: "Book IV"
+    - name: "Books for six voices"
+      books:
+        - id: "M-04-6.xhtml"
+          name: "Book IV"
 
 menu:
     - id: "index"
