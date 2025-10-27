@@ -591,4 +591,10 @@ div.app-inline, div.app-inline-text {
     #sidebar {
         display: none;
     }
+    #content {
+        width: 100%;
+    }
+    .container-books {
+        .col-md-9 {width:100%; float:left;}
+    }
 }
